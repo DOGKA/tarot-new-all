@@ -1,0 +1,392 @@
+{
+  "00_fool": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "01_magician": {
+    "baseTendency": "strong_yes",
+    "orientationImpact": "low",
+    "reversalStyle": "internal"
+  },
+  "02_high_priestess": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "shadow"
+  },
+  "03_empress": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  },
+  "04_emperor": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "05_hierophant": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "06_lovers": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "shadow"
+  },
+  "07_chariot": {
+    "baseTendency": "strong_yes",
+    "orientationImpact": "low",
+    "reversalStyle": "delay"
+  },
+  "08_strength": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "09_hermit": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "internal"
+  },
+  "10_wheel_of_fortune": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "blocked"
+  },
+  "11_justice": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "12_hanged_man": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "shadow"
+  },
+  "13_death": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  },
+  "14_temperance": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "15_devil": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "shadow"
+  },
+  "16_tower": {
+    "baseTendency": "strong_no",
+    "orientationImpact": "low",
+    "reversalStyle": "imbalance"
+  },
+  "17_star": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  },
+  "18_moon": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "shadow"
+  },
+  "19_sun": {
+    "baseTendency": "strong_yes",
+    "orientationImpact": "low",
+    "reversalStyle": "delay"
+  },
+  "20_judgement": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "21_world": {
+    "baseTendency": "strong_yes",
+    "orientationImpact": "low",
+    "reversalStyle": "delay"
+  },
+  "22_ace_wands": {
+    "baseTendency": "strong_yes",
+    "orientationImpact": "low",
+    "reversalStyle": "delay"
+  },
+  "23_two_wands": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "blocked"
+  },
+  "24_three_wands": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "25_four_wands": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "26_five_wands": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "internal"
+  },
+  "27_six_wands": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "28_seven_wands": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "blocked"
+  },
+  "29_eight_wands": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "30_nine_wands": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "blocked"
+  },
+  "31_ten_wands": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "imbalance"
+  },
+  "32_page_wands": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "33_knight_wands": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "34_queen_wands": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "35_king_wands": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "36_ace_cups": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  },
+  "37_two_cups": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "38_three_cups": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "39_four_cups": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "40_five_cups": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "shadow"
+  },
+  "41_six_cups": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "shadow"
+  },
+  "42_seven_cups": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "shadow"
+  },
+  "43_eight_cups": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "44_nine_cups": {
+    "baseTendency": "strong_yes",
+    "orientationImpact": "low",
+    "reversalStyle": "imbalance"
+  },
+  "45_ten_cups": {
+    "baseTendency": "strong_yes",
+    "orientationImpact": "low",
+    "reversalStyle": "imbalance"
+  },
+  "46_page_cups": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "47_knight_cups": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "shadow"
+  },
+  "48_queen_cups": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "49_king_cups": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "50_ace_swords": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  },
+  "51_two_swords": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "blocked"
+  },
+  "52_three_swords": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "shadow"
+  },
+  "53_four_swords": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "54_five_swords": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "shadow"
+  },
+  "55_six_swords": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "56_seven_swords": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "shadow"
+  },
+  "57_eight_swords": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "58_nine_swords": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "59_ten_swords": {
+    "baseTendency": "strong_no",
+    "orientationImpact": "low",
+    "reversalStyle": "delay"
+  },
+  "60_page_swords": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "internal"
+  },
+  "61_knight_swords": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "62_queen_swords": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "internal"
+  },
+  "63_king_swords": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "64_ace_pentacles": {
+    "baseTendency": "strong_yes",
+    "orientationImpact": "low",
+    "reversalStyle": "delay"
+  },
+  "65_two_pentacles": {
+    "baseTendency": "uncertain",
+    "orientationImpact": "high",
+    "reversalStyle": "imbalance"
+  },
+  "66_three_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  },
+  "67_four_pentacles": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  },
+  "68_five_pentacles": {
+    "baseTendency": "no",
+    "orientationImpact": "standard",
+    "reversalStyle": "shadow"
+  },
+  "69_six_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "70_seven_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "71_eight_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  },
+  "72_nine_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "73_ten_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "74_page_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "75_knight_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "delay"
+  },
+  "76_queen_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "imbalance"
+  },
+  "77_king_pentacles": {
+    "baseTendency": "yes",
+    "orientationImpact": "standard",
+    "reversalStyle": "blocked"
+  }
+}

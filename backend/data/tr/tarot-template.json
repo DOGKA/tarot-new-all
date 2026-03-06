@@ -1,0 +1,1798 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "Deli",
+      "image": "00_fool",
+      "arcana": "major",
+      "number": "0",
+      "suit": null,
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Yeni bir sayfanın eşiğindesin; içindeki merak ve yaratıcı kıvılcım, rotanı yeniden çizmek istiyor. İlk adımı atmadan önce her şeyi garantiye almak zorunda değilsin, ama niyetini net tutmalısın. Kendi yolunu seçerken başkalarının karamsarlığına fazla kulak verme; cesaretin, beklenmedik kapılar açar.",
+          "love": "Aşkta taze bir başlangıç isteği var: kalbini kapatmadan, ama körleşmeden ilerle. Duygularını saklamak yerine yalın bir dille söyle; bu açıklık, seni daha canlı ve dürüst bir bağa götürebilir. Yeni tanışmalar varsa, acele etmeden akışın tadını çıkar.",
+          "career": "Kariyerde ‘deneme’ enerjisi yüksek: yeni bir proje, farklı bir rol ya da bambaşka bir yön çağırıyor olabilir. Risk alacaksan, küçük ama net adımlarla başla; öğrenme hızın seni öne taşır. Öncü tavrın doğru insanları ve fırsatları kendine çekebilir.",
+          "spiritual": "Yeni bir eşiğin önündesin; merakın ve içsel canlılığın seni harekete çağırıyor. Belirsizlik, yaratıcılığını besliyor; bu karanlıkta yolunu bulmak için cesaretine güvenmelisin. Kontrol ihtiyacını gevşet; denemek, seni beklenmedik keşiflere götürebilir. Durum, aklındaki ertelediğin fikri yazılı hale getirmeni istiyor; sadece ilk adımı tanımla, gerisini zaman gösterecek."
+        },
+        "reversed": {
+          "general": "Aynı döngüye geri düşmüş gibi hissedebilirsin; aslında bu, korkunun tekrar test ettiği bir eşik. Kaçmak yerine, seni geriye çeken şeyi isimlendir: belirsizlik mi, eleştirilme mi, başarısızlık ihtimali mi? Küçük bir yüzleşme bile zinciri gevşetir ve yeniden hareket alanı açar.",
+          "love": "Geçmişten kalan güvensizlikler yeniden tetiklenebilir; bu da ya geri çekilme ya da aşırı aceleci davranma eğilimi yaratır. İlişkide netlik için ‘neye ihtiyacın var’ sorusunu dürüstçe konuş. Bu korkuları halının altına süpürmek yerine ele alırsan, daha güvenli bir bağ kurmak kolaylaşır.",
+          "career": "Daha önce seni durduran engeller tekrar karşısına çıkabilir; bu, ‘aynı hatayı tekrarlama’ uyarısıdır. Planı sadeleştir, önceliği tek bir hedefe indir ve ilerleme ölçütünü belirle. Kararlılık geri gelince, tıkanıklık çözülür.",
+          "spiritual": "İlerlemek isterken kendini geri çektiğin bir an var; aşırı temkin ya da dağınık cesaret, seni duraklatıyor. Durum, hata yapma korkusu ile kaçış arasında gidip geliyor; bu belirsizlik, ya dikkatsiz bir atlayışa ya da tamamen donmaya yol açabilir. Karar vermeden önce bir sınır belirle; neyi kesinlikle yapmayacağını netleştir ve bu adımı atarken kendine güven."
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Büyücü",
+      "image": "01_magician",
+      "arcana": "major",
+      "number": "I",
+      "suit": null,
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Şu an elinde hem fikir hem araç var: mesele, odağını dağıtmadan başlatmak. Konuşmak ve tasarlamak kadar, uygulamaya geçmek de gerekiyor. Yeteneğini sergilemekten çekinme; niyetin net olursa sonuç da hızla görünür.",
+          "love": "İlişkilerde çekim ve iletişim gücün artıyor. Duyguyu göster, ama karşı tarafı ‘etkilemek’ için oyun kurma; samimiyet en güçlü hamle. Küçük sürprizler, iyi bir sohbet ve ortak bir hedef, bağı hızlıca derinleştirebilir.",
+          "career": "Kariyerde ipler elinde: doğru sunum ve doğru zamanlama ile etkini büyütebilirsin. Güçlü yönlerini görünür kılacak bir proje seç; özellikle ‘sorun çözen’ rol sana iyi gelir. İnisiyatif aldıkça çevren desteğe daha açık olacak.",
+          "spiritual": "Yeterli araçların, bilgi ve becerin var; mesele, bunları bilinçli kullanmakta. Zihinsel odak yüksek ve ifade gücün açık; dağılmak yerine gücünü tek bir noktada topladığında, ilerlemen hızlanır. Durum, bugün tek bir hedef seçmeni gerektiriyor; tüm dikkatini 30 dakika boyunca yalnızca ona ver, sonuçların seni şaşırtabilir."
+        },
+        "reversed": {
+          "general": "Fikir çok, yön belirsizse ilerleme yavaşlar; ya da tam tersi, ayrıntı kaçırdığın için işler dağılabilir. Karmaşayı azalt: tek hedef, tek plan, net adım. Ayrıca ‘manipülasyon’ ya da gereksiz gösteriş tuzağına düşmeden, işi şeffaf yürüt.",
+          "love": "Aşkta yanlış anlaşılmalar veya gerçekçi olmayan beklentiler gerilim yaratabilir. Söylediğinle yaptığın aynı çizgide olsun; ima yerine açık cümle kur. İlişkinin hedefini konuşmak, küçük sürtüşmeleri büyümeden söndürür.",
+          "career": "Aşırı planlama ya da yetersiz uygulama, seni ‘hazırlıkta kalma’ döngüsüne sokabilir. Sunum dosyası değil, sonuç üretmeye odaklan: teslim tarihi, sorumluluk, çıktı. Bir adım atınca ivme geri gelir.",
+          "spiritual": "Potansiyelin var ama kendine güvenin sarsılmış; bu, enerjinin yanlış yönlere akmasına neden oluyor. Durum, manipülasyon ve erteleme duygularının seni etkilediğini gösteriyor; bu güç kaybına yol açıyor. Kendi başarılarını hatırlamak, içsel dengeyi yeniden kurmak için önemli; yapabildiklerinin kısa bir listesini çıkar ve kendine kanıt oluştur."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Azize",
+      "image": "02_high_priestess",
+      "arcana": "major",
+      "number": "II",
+      "suit": null,
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Görünenin arkasında başka bir katman var; sezgin boşuna konuşmuyor. Hızlı karar vermek yerine, işaretleri ve iç sesini dinle: doğru bilgi zamanla belirir. Netlik geldiğinde ise tereddüt etmeden hareket edebilirsin.",
+          "love": "Aşkta sezgi çok güçlü: bir şey içini sıkıyorsa ya da huzur veriyorsa, bunun mesajını ciddiye al. Duygusal sis varsa, nazik ama açık bir konuşma ile alanı temizlemek iyi gelir. İncelik, bu kartın anahtarıdır.",
+          "career": "Profesyonel hayatta ‘aniden aydınlanma’ etkisi: doğru rol, doğru proje, doğru ortaklık bir anda görünür olabilir. İlk etapta zor görünen fırsatlar seni büyütebilir; içgüdün ‘evet’ diyorsa değerlendirmeye değer. Detayları sakince topladıktan sonra adım at.",
+          "spiritual": "Sesin, gürültünün ötesinde yankılanıyor; sezgisel farkındalığın seni yönlendiriyor. Her düşünceni paylaşmak zorunda değilsin; sabır ve derin gözlem, bu süreçte en iyi dostun. Durum, bilginin henüz olgunlaşma aşamasında olduğunu gösteriyor; bir gün bekleyip hislerini yazıya dök, içsel yolculuğun aydınlanacaktır."
+        },
+        "reversed": {
+          "general": "Bazı gerçekleri görmek istemediğin için iç sesini bastırıyor olabilirsin. Rahatsız eden bilgi, çoğu zaman büyümenin kapısıdır; kaçtıkça büyür. Tarafsız bir gözle durumu yeniden değerlendir ve ‘ben neyi duymaktan kaçıyorum?’ sorusunu sor.",
+          "love": "İlişkide inkâr, sorunu çözmez; sadece erteler. Konuşulmamış bir mesele varsa, bunu sakince gündeme getir: suçlamak değil, anlamak niyetiyle. Dürüstlük zor gelebilir ama uzun vadede ilişkiyi güçlendirir.",
+          "career": "Değişim ihtimalinden korkmak, kariyerde gelişimi sınırlayabilir. Geri bildirim almak, yeni bir yol düşünmek ya da görev tanımını değiştirmek gibi adımlar gerekebilir. Gerçeği kabul ettiğinde, seçeneklerin çoğalır.",
+          "spiritual": "Sezgini bastırıyorsun; dış onay arayışın, içsel sesini bastırıyor. Durum, kendi bilgine güvenmekte zorlanmana neden oluyor; bu kaybolan sessizlik, iç huzurunu tehdit edebilir. Kendi cevabını tek bir cümleyle not al; bu basit eylem, içindeki sesi yeniden duymana yardımcı olur."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "İmparatoriçe",
+      "image": "03_empress",
+      "arcana": "major",
+      "number": "III",
+      "suit": null,
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Büyüten, çoğaltan, besleyen bir dönem: hem kendine hem çevrene ‘yaşam alanı’ açıyorsun. Şefkat, üretkenliğin yakıtı; düzenli ilgi gösterdiğin şey hızla yeşerir. İlişkilerde ve işte, güven veren bir zemin kurmak seni güçlendirir.",
+          "love": "Sevgi dilin daha yumuşak ve kapsayıcı: bağ kurmak, ilgi göstermek, emek vermek öne çıkıyor. Partnerinle ihtiyaçları konuş, küçük jestlerle güveni büyüt. Bekarsan, önce kendine iyi bakmak; doğru ilişkiyi çekmenin en hızlı yolu.",
+          "career": "İş ortamında destekleyici rolün parlıyor: ekipleri bir arada tutmak, yeni geleni büyütmek, süreçleri sakinleştirmek. Mentorluk, eğitim, koordinasyon gibi alanlarda etkini artırabilirsin. ‘Birlikte büyüme’ fikri, başarıyı hızlandırır.",
+          "spiritual": "Besleyici bir dönemin içindesin; kendine ve çevrene alan açtığında, hayatın doğal bir akışa geçiyor. Durum, öz-şefkat ve yaratıcılığın ön plana çıkmasıyla zenginleşiyor; fazlalık değil, verim seni bekliyor. Kendine iyi gelen bir rutini haftana dahil et; bu, üretkenliğini artıracak ve hayatına taze bir nefes katacak."
+        },
+        "reversed": {
+          "general": "Besleyici tarafını ihmal ediyorsan, hem sen hem çevren kuruyabilir. Fazla vermek, tükenmeye; az vermek, kopuşa götürür: dengeyi bul. Günlük hayatta küçük bir bakım rutini (uyku, beslenme, düzen) bile büyük fark yaratır.",
+          "love": "İletişim eksikliği ya da duygusal ihmâl, ilişkide mesafe yaratabilir. ‘Anlaşılıyor’ varsayımını bırakıp, beklentini net söylemek iyileştirir. Saygı ve şefkat aynı anda varsa, sorunlar daha hızlı çözülür.",
+          "career": "İzolasyon ya da tek başına yüklenme, verimi düşürebilir. İşbirliği kur, sorumluluğu paylaş, gerektiğinde yardım iste. Ekibinle yeniden bağ kurmak, hem sonuçları hem motivasyonu toparlar.",
+          "spiritual": "Kendini ihmal etmek ya da aşırı vermek arasında gidip geliyorsun; bu dengesizlik, ruhunu yıpratıyor. Durum, tükenmişlik ya da suçluluk hissiyle seni sarıyor; bu döngüyü kırmak elinde. Bugün, sadece kendin için bir şey planla; erteleme, harekete geç ve kendine bir hediye ver."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "İmparator",
+      "image": "04_emperor",
+      "arcana": "major",
+      "number": "IV",
+      "suit": null,
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Düzen kurma ve sınır çizme zamanı: belirsizliği azaltırsan güçlenirsin. Şu an attığın adımlar, geleceğin temelini oluşturuyor; bu yüzden planını netleştir ve disiplinle uygula. Duygu dalgalansa bile, yapı seni ayakta tutar.",
+          "love": "İlişkide güven ve istikrar ihtiyacı artıyor. Ne istediğini açık söylemek, karşı tarafı sıkmak değil; zemini sağlamlaştırmaktır. Sınırlar ve sorumluluklar netleşirse, bağ daha huzurlu olur.",
+          "career": "Kariyerde sorumluluk alma, yönetme ve sistem kurma enerjisi güçlü. Zor görünen görevleri üstlenmek, seni bir üst seviyeye taşır. Hedefi somutlaştır: takvim, süreç, ölçüt; sonra adım adım ilerle.",
+          "spiritual": "Yapı kurma ve sorumluluk alma zamanı; net sınırlar, güven hissini artırıyor. Durum, kontrol ihtiyacını sağlıklı bir çerçeveye oturtmak istiyor; hayatındaki tek bir alanda kuralı yazılı hale getirmek, güçlü bir başlangıç yaratır. Belirgin adımlar atarak, hayatındaki dengeyi sağlamlaştırabilirsin."
+        },
+        "reversed": {
+          "general": "Kontrol ihtiyacı arttıkça esneklik azalabilir; bu da seni hedefinden saptırır. Son seçimlerini gözden geçir: gerçekten amaca mı hizmet ediyor, yoksa sadece ‘daha kolay’ diye mi seçildi? Yönünü düzeltmek için katı değil, akıllı bir yapı kur.",
+          "love": "Aşkta güç savaşları veya katı tutumlar ilişkiyi yorabilir. ‘Haklı olmak’ yerine ‘anlaşılmak’ hedefini koy ve ortak zemini ara. Uyumsuzluk varsa, açık konuşma ile netleştirmek en doğru adım.",
+          "career": "Kestirme çözümler cazip gelebilir ama sürdürülebilir başarı getirmeyebilir. Planını uzun vadeli hedefle yeniden hizala; gerekirse süreçleri yeniden tasarla. Otoriteyle sürtüşme yaşıyorsan, iletişim dilini yumuşatıp netleştir.",
+          "spiritual": "Ya aşırı kontrol peşindesin ya da otoriteden kaçıyorsun; bu durum, içindeki güçle gerilim yaratıyor. Kararsızlık seni sarmalıyor. Durum, hangi alanda sorumluluk almaktan kaçtığını dürüstçe belirlediğinde, netlik kazanacak; bu, seni harekete geçirecek."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Aziz",
+      "image": "05_hierophant",
+      "arcana": "major",
+      "number": "V",
+      "suit": null,
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Öğrenme ve geleneksel bilgelikle hizalanma dönemi: bir öğretmen, bir sistem ya da bir yöntem sana yol gösterebilir. Farklı bakış açılarıyla karşılaşınca savunmaya geçmek yerine, dersi yakalamaya çalış. Kuralların amacı baskı değil, istikrar sağlayan bir çerçevedir.",
+          "love": "İlişkide değerler, aile dinamikleri ve ‘doğru-yanlış’ algısı öne çıkabilir. Birlikte neye inandığınızı konuşmak, bağın temelini güçlendirir. Farklılık varsa, ortak bir ritüel ya da düzen kurmak iyi gelir.",
+          "career": "Mentorluk, eğitim, kurum kültürü ve süreçler kariyerini büyütebilir. Daha deneyimli biriyle çalışmak, hem hız kazandırır hem de hata payını azaltır. Bilgiyi alıp uygulamaya döktüğünde görünürlüğün artar.",
+          "spiritual": "Durum, bilgelik ve rehberlik arayışında derin bir dönüşüm yaşıyorsun; öğrenme arzun, içindeki değerleri netleştiriyor. Öğrendiklerini hayatına entegre et; güvendiğin bir kaynaktan edindiğin o tek prensibi uygulamak, sana yeni kapılar açacak. Unutma, her bilgi bir adım atmanı sağlarken, aidiyetini güçlendirir."
+        },
+        "reversed": {
+          "general": "Rahatına düşkünlük ya da ‘böyle gelmiş böyle gider’ düşüncesi gelişimi yavaşlatabilir. Değişim zor diye kaçmak, dersi uzatır. Kendi doğrularını güncellemek için yeni bilgiye alan aç.",
+          "love": "İlişkide zor konuşmalardan kaçınmak, küçük sorunları büyütebilir. Geleneksel beklentiler sizi sıkıyorsa, bunu sakince tartışın ve size uyan bir düzen yaratın. Bağ, ancak gerçek ihtiyaçlar konuşulunca güçlenir.",
+          "career": "Geri bildirimden kaçmak ya da öğrenmeyi ertelemek, mesleki büyümeyi sınırlar. Bir mentor bulmak, kurs almak veya yeni bir yöntem denemek gibi somut adımlar at. Konfor alanı kısa vadede rahat, uzun vadede pahalıdır.",
+          "spiritual": "Kalıplar seni kısıtlıyor; körü körüne uyum, özgünlüğünü gölgeliyor. Durum, 'böyle olmalı' dediğin her kuralı sorgulamayı gerektiriyor; esnet ve kendine alan yarat. Cesur bir adım atarak, alışkanlıklarının dışına çıkarsan, içindeki yaratıcı potansiyeli serbest bırakabilirsin."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Aşıklar",
+      "image": "06_lovers",
+      "arcana": "major",
+      "number": "VI",
+      "suit": null,
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Bir seçim eşiğindesin: kararın, değerlerinle uyumlu olursa iç huzurun artar. ‘Herkes ne der’ yerine ‘ben ne istiyorum’ sorusu yol gösterir. Kalp ve akıl çatışıyorsa, ortak noktayı bul: niyet + sonuç.",
+          "love": "Aşkta gerçek uyum, sadece çekim değil; ortak değer ve açık iletişimdir. Toplumsal normlara uymayan bir durum bile olabilir; önemli olan sizin için doğru olup olmadığı. Dürüstçe konuşursan ilişki ya derinleşir ya da netleşir.",
+          "career": "Kariyerde prestij ile anlam arasında bir seçim doğabilir. Sadece “iyi görünene” değil, sürdürülebilir şekilde tatmin edene yönel. Kararın netleşince, fırsatlar daha hızlı hizalanır.",
+          "spiritual": "Bir seçim kapısı açılıyor; değerlerinle uyumlu kararlar almak, ruhunun derinliklerine inmek demektir. Durum, bu kararın senin için neyi temsil ettiğini netleştirmeli; içindeki dürüstlüğü ortaya koyarsan, doğru yolda ilerliyorsun demektir."
+        },
+        "reversed": {
+          "general": "Kararsızlık kendini ‘beklemek’ gibi gösterse de aslında enerji kaybıdır. Bir yön seçmek zorundasın; aksi halde koşullar senin yerine seçer. İki seçenek arasında kaldıysan, temel değerini yaz ve ona göre ele.",
+          "love": "İlişkide netlik şart: ne istiyorsun, neye tahammül edemiyorsun, neyi büyütmek istiyorsun? Belirsiz bırakmak memnuniyetsizliği artırır. Açık bir konuşma, ya uyumu getirir ya da gereksiz bağları çözer.",
+          "career": "İş seçenekleri arasında oyalanmak, fırsat kaçırmaya yol açabilir. Hedefini tanımla ve tek bir rotaya odaklan. Seçim yaptıktan sonra planı yürütmek daha kolaylaşacak.",
+          "spiritual": "Kararsızlık seni sarmalamış; değerlerinle yüzleşmekten kaçınıyorsun. Durum, içsel çatışmaların seni memnun etme çabasına itiyor. İstemediğin seçeneği net bir şekilde ele al; bu, özgürlüğünün anahtarı olabilir. Kendi tutumunu belirlemediğinde, hayatın akışını kaybedersin."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Savaş Arabası",
+      "image": "07_chariot",
+      "arcana": "major",
+      "number": "VII",
+      "suit": null,
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Hızlanma var: olaylar peş peşe geliyor ve yön sende olursa bu momentum seni ileri taşır. Dikkatini bölmeden hedefe kilitlen; küçük ayarlamalarla büyük yol alırsın. Kontrol, sertlik değil; tutarlı yönetimdir.",
+          "love": "İlişki hızlı ilerliyorsa, iki tarafın da bu tempoda rahat olduğundan emin olun. Duyguları saklamadan konuşmak, hızın yarattığı stresi azaltır. Aynı hedefe bakarsanız, bağ güçlenir.",
+          "career": "İş hayatında ivme yakalama şansı: yeni proje, yeni rol, yeni sorumluluk. Liderlik göstermek için fırsat var; özellikle kriz anlarında sakin kalman fark yaratır. Hedefi netleştir, ekibi hizala, ilerle.",
+          "spiritual": "İrade ve netlik, hedefe odaklandıkça güçleniyor; dış engeller, arka planda kayboluyor. Durum, disiplin ve kararlılığın dengesini sağlarken, odaklanmanı güçlendiriyor. Haftanın tek önceliğini belirle; bu karar, seni doğru yolda ilerletir."
+        },
+        "reversed": {
+          "general": "Tempo bunaltıcıysa, bu ‘frene bas ve yön seç’ uyarısıdır. Her fırsat senin fırsatın değil; seçici ol. Önce öncelikleri belirle, sonra yeniden hızlan; aksi halde dağılma riski artar.",
+          "love": "Acelecilik ilişkiyi yoruyorsa, tempoyu konuşmak şart. İhtiyacın ‘daha yavaş ilerlemek’ ise bunu netçe söyle. Aynı ritme geçmek, gereksiz çatışmayı önler.",
+          "career": "Zor projelerden kaçma dürtüsü gelebilir; bunun yerine iş yükünü akıllıca böl, delege et ve en yüksek etkiyi yaratan işe odaklan. Dağınık enerji değil, hedefli enerji kazanır. Kısa bir plan revizesi ivmeyi geri getirir.",
+          "spiritual": "Durum, enerjinin dağınık ve zorlanma içinde olduğu; kontrol kaygısı, ilerlemeni engelliyor. Tempoyu düşür; hedeflerini sadeleştirerek netlik kazan. Bu basit değişim, zihnindeki karmaşayı azaltır ve seni doğru yola yönlendirir."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Güç",
+      "image": "08_strength",
+      "arcana": "major",
+      "number": "VIII",
+      "suit": null,
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Gücün kaynağı gürültü değil, sakin cesaret. Zor duyguları bastırmak yerine yönetmeyi seçtiğinde, çevrendeki kaos da yatışır. Sabır ve öz-disiplin, bu dönemde en büyük kozun.",
+          "love": "İlişkide yumuşak bir kararlılık: net ama kırmadan konuşmak, bağın güvenini artırır. Çatışmalar varsa, ‘kazanmak’ yerine ‘anlamak’ hedefini koy. Şefkatli tutum, sorunları çözmede beklenenden daha etkilidir.",
+          "career": "İş tarafında dayanıklılık ve liderlik öne çıkıyor. Zorlu pazarlıklar, yoğun projeler, baskı altında karar verme… hepsinde sakin kalman seni farklılaştırır. İrade gücün yükselirken, çevrendekiler senden yön bekleyebilir.",
+          "spiritual": "Güç, yumuşak bir dokunuşla kendini gösteriyor; dayanıklılığın ve öz-şefkatin yükseliyor. Durum, zor bir anla karşılaştığında ses tonunu bilinçli olarak yumuşatmalısın; bu, hem kendine hem de çevrendekilere huzur getirir. Kararlılığın, nazik bir güçle birleştiğinde, dönüşüm başlar."
+        },
+        "reversed": {
+          "general": "Enerjin sızıyor olabilir: ya fazla yükleniyorsun ya da kontrol edemediğin şeylere takılıyorsun. Gücünü geri almak için önce sınır koy, sonra ‘tek sorun, tek çözüm’ yaklaşımına dön. Kendini yıpratan döngüyü fark etmek, yarı yoldur.",
+          "love": "İlişkide tükenmişlik veya birikmiş kırgınlık görünüyorsa, üstünü örtmek yerine konuşmak gerekir. Duygusal yükü hafifletmek için küçük bir adım bile yeter: net bir rica, açık bir sınır, dürüst bir itiraf. Böylece uyum yeniden kurulabilir.",
+          "career": "Engeller moralini düşürüyorsa, bunların kaynağını ayıkla: süreç mi, kişi mi, zaman yönetimi mi? Sorunu doğru koyunca çözüm hızlanır. Kontrolsüz öfke ya da içe kapanma yerine, planlı mücadele seç.",
+          "spiritual": "Öz-güvenin sarsıldı; bastırılmış öfke, içindeki fırtınayı körüklüyor. Durum, kendine karşı sert bir dille konuştuğunda, bu duygular daha da derinleşiyor. Kendine nazik ol; yumuşak bir dil, kalbindeki çatışmaları hafifletebilir. Kendinle kurduğun diyalog, ruhunun yaralarını onaracak güce sahip."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Ermiş",
+      "image": "09_hermit",
+      "arcana": "major",
+      "number": "IX",
+      "suit": null,
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Ermiş, geri çekilip netleşme kartıdır: kalabalığın sesi kısılınca, kendi sesin duyulur. Bu dönemi amaçlarını, değerlerini ve gerçek ihtiyacını anlamak için kullan. Yalnızlık ceza değil; iç düzen kurmanın aracıdır.",
+          "love": "Aşk hayatında ‘ben neye ihtiyaç duyuyorum?’ sorusu öne çıkıyor. İlişkisi olanlar için sağlıklı kişisel alan, bağı zayıflatmaz; doğru kurulduğunda güçlendirir. Bekarsan, yeni bir başlangıçtan önce kendini tanımak için iyi bir zaman.",
+          "career": "Kariyerde kısa bir durup düşünme, uzun vadede büyük kazanç getirir. Yoğun tempodan bir adım uzaklaşıp hedeflerini yeniden hizala; gerekirse eğitim/sertifika/uzmanlık planı yap. Sessizce yapılan hazırlık, doğru zamanda kapı açar.",
+          "spiritual": "Durum, içe dönüş ve sadeleşme arzusu seni sarhoş etmiş durumda; bilgelik, yalnızlık değil, netlik getiriyor. Günü yavaşlat ve sessiz bir zaman yarat; bu, içindeki huzuru bulmana yardımcı olur."
+        },
+        "reversed": {
+          "general": "Yorgunken ‘meşgul görünmek’ seni daha da tüketebilir. Dinlenme ihtiyacını inkâr etme; hız kesmek, geriye gitmek değildir. Kısa bir ara ve temel rutinleri düzeltmek (uyku, beslenme, düzen) zihnini toparlar.",
+          "love": "İyi değilken ‘iyiyim’ rolü oynamak ilişkide mesafe yaratır. Partnerinle sakin bir dille konuş: yalnız kalma ihtiyacın, duygu yoğunluğun, sınırların. Bu açıklık, yanlış anlaşılmaları azaltır ve güveni artırır.",
+          "career": "İş yükü gereksiz yere artmış olabilir ya da yaptığın iş anlamını kaybetmiş gibi gelebilir. Öncelikleri yeniden belirle, verimsiz görevleri ayıkla ve gerekiyorsa rol tanımını konuş. Daha çok koşmak değil, doğru yöne yürümek gerekiyor.",
+          "spiritual": "Durum, iç sesini bastırma çabasını ortaya koyuyor; yalnızlık, düşüncelerini karartabilir. Güvendiğin biriyle düşünceni paylaşmayı seçtiğinde, karanlıkta bir ışık yanar. Bu adım, içsel huzurunu artırır; başkalarının bakış açıları, senin için yeni kapılar açar."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Kader Çarkı",
+      "image": "10_wheel_of_fortune",
+      "arcana": "major",
+      "number": "X",
+      "suit": null,
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Çark dönüyor: dış koşullar değişiyor ve senin rolün, bu değişimi avantaja çevirmek. İlk anda huzursuz etse bile, bu hareket daha iyi bir düzene geçişin parçası olabilir. Esnek kalırsan, şans kapısı daha kolay açılır.",
+          "love": "İlişkide dinamikler evriliyor: daha derin bir bağ, yeni bir dönem ya da ilişkiyi farklı bir seviyeye taşıyan kararlar gündeme gelebilir. Gelecek vizyonunu konuşmak, bu değişimi yumuşatır. Akışa uyum, kalbi rahatlatır.",
+          "career": "Kariyerde fırsat penceresi: terfi, görev değişimi, yeni teklif veya görünür bir başarı. Değişen role hızlı adapte olursan, bu dönem sıçrama tahtası olur. Hazır olduğunu gösterecek somut çıktı üret.",
+          "spiritual": "Değişim kaçınılmaz; ama sen yönünü belirleyebilirsin. Durum, esnekliğinle şans kapılarını açıyor; kontrol edebileceğin tek alanı seçmek, sana güç katacak. Kendi yolunu çizmek için cesaretle ilerle; her adımın, yeni fırsatlara zemin hazırlar."
+        },
+        "reversed": {
+          "general": "Fırsat var ama pasif kalırsan kaçabilir; çarkın dönmesi tek başına yetmez. Küçük işaretleri yakala ve gereken hamleyi yap. ‘Bir gün’ yerine ‘bugün küçük bir adım’ yaklaşımı seni ileri taşır.",
+          "love": "İlişkide gelişim fırsatlarını gözden kaçırıyor olabilirsin: küçük bir konuşma, bir jest, bir netleştirme… Hepsi bağın yönünü değiştirir. Partnerin sinyallerini daha dikkatli dinle; bu ipuçları kıymetli.",
+          "career": "İş tarafında gözünün önündeki bir fırsat ‘fazla sıradan’ görünüp atlanmış olabilir. Bilgi topla, sor, görünür ol; aktif katılım fırsatı büyütür. Şans, hazır olanı değil; hareket edeni de sever.",
+          "spiritual": "Döngü, seni sıkıştıran bir kalıp gibi; aynı hataları tekrar etmekten kaçınmalısın. Durum, farkındalığın eksikliğiyle yüzleşmeni gerektiriyor; bu paterni adlandırmak, özgürlüğe giden ilk adımdır. Dikkatini ver, bu döngüyü tanı ve onu kıracak stratejiler geliştir."
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Adalet",
+      "image": "11_justice",
+      "arcana": "major",
+      "number": "XI",
+      "suit": null,
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Şimdi netlik zamanı: ne doğru, ne gerçek, ne adil… bunları açıkça görmek istiyorsun. Duyguya kapılmadan tabloyu tartıp biçtiğinde, en sağlam kararı verirsin. Adalet kartı, “sonuçlar seçimlerinle uyumlu olacak” diye hatırlatır.",
+          "love": "Aşkta denge ve dürüstlük şart: niyet, sınır ve beklenti netleşirse ilişki rahatlar. Bir konuda haksızlık hissi varsa, bunu sakin ama açık bir dille konuşmak iyileştirir. Karşılıklı sorumluluklar adil paylaşıldığında bağ daha güvenli olur.",
+          "career": "Kariyerde ölçüm ve değerlendirme dönemi: performans, anlaşma, sözleşme, terfi ya da görev dağılımı gündeme gelebilir. Hak ettiğini almak için belgeni, sonucunu, katkını somutlaştır. Adil ve net duruş, bu dönemde seni güçlü gösterir.",
+          "spiritual": "Denge, dürüstlük ve netlik bu anın özüdür; sorumluluğu üstlenme vakti geldi. Durum, kararını objektif kriterlerle yazmanı gerektiriyor; bu, düşüncelerini netleştirir ve eylemlerini güçlendirir. Kendini açıkça ifade et ve içindeki kararı dışa vur; bu, ilerlemeni hızlandırır."
+        },
+        "reversed": {
+          "general": "Haksızlık hissi veya taraflı bakış, kararlarını bulandırıyor olabilir. Ya kendine fazla sert davranıyor ya da başkasına gereğinden fazla tolerans gösteriyor olabilirsin. Gerçeği görmek için duyguyu bir kenara koyup, somut kanıta dönmek gerekir.",
+          "love": "İlişkide adaletsiz yük dağılımı, suskun bir kırgınlık yaratabilir: biri daha çok veriyor, diğeri fark etmiyor olabilir. Net konuşmadan “anlaşılmayı” beklemek yorar; açıkça neye ihtiyaç duyduğunu söyle. Denge kurulmazsa, ilişki aynı yerde sürtünerek yıpranır.",
+          "career": "İş hayatında yanlış anlaşılma, haksız değerlendirme veya sözlü kalan vaatler risk yaratabilir. İletişimi yazılı hale getir, beklentileri netleştir ve katkını görünür kıl. Duygusal tepki yerine sistemli yaklaşım, bu dönemde en etkili savunmadır.",
+          "spiritual": "Durum, haksızlık algısı ve içsel çelişkilerle sarmalanmış; kendi payını sakinlikle değerlendirdiğinde, gerçekleri daha net göreceksin. Duygularını bastırmak yerine, onlarla yüzleş; bu, içsel huzurun kapılarını açar. Kendine karşı nazik ol, bu süreçte kendini yeniden tanıma fırsatı bulabilirsin."
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "Asılan Adam",
+      "image": "12_hanged_man",
+      "arcana": "major",
+      "number": "XII",
+      "suit": null,
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Şu an hız değil, perspektif değişimi kazanım getirir: beklemek boşa değil, hazırlıktır. Kontrol etmeye çalıştığın şeyi bırakınca, zihnin daha net çalışır ve doğru cevap kendiliğinden görünür. Bu kart, “dur ve farklı açıdan bak” der.",
+          "love": "Aşkta acele karar yerine, duyguyu anlamaya alan açmak gerekiyor. İlişkide bir duraklama varsa bu kopuş değil; çoğu zaman ‘yeniden değerlendirme’ fırsatıdır. Sabırla ve sakinlikle konuştuğunda, gerçek ihtiyaçlar daha net ortaya çıkar.",
+          "career": "Kariyerde askıda kalmış bir süreç olabilir: karar bekleniyor, şartlar olgunlaşmıyor ya da zamanlama henüz doğru değil. Bu dönemi strateji, eğitim ve hazırlık için kullanırsan, sonra çok daha güçlü ilerlersin. İnatla zorlamak yerine, doğru anda doğru hamle daha verimli olur.",
+          "spiritual": "Beklemek, yeni bir bakış açısı kazanmanı sağlıyor; acele etmemek, derin bir anlayış getirir. Durum, senin sabrını ve teslimiyetini test ediyor; bu süreçte, her geçen gün daha netleşeceksin. Kendine zaman tanı; bazen durmak, en büyük ilerleme kaydetmektir."
+        },
+        "reversed": {
+          "general": "Beklemek artık verimli değilse, bu kart “takılı kaldın” uyarısıdır. Aynı düşüncede dönüp durmak, seni ilerletmez; küçük bir hareket bile kilidi açabilir. Ya gereksiz fedakârlık yapıyorsun ya da korkudan adım atmıyorsun olabilir: ikisini de ayırt et.",
+          "love": "İlişkide susup katlanmak, bir süre sonra sevgi yerine birikmiş kırgınlık üretir. Netlik için konuşmak gerekiyor; aksi halde durgunluk kalıcılaşır. Kendini sürekli feda ediyorsan, sınır koymak bu dönemde şarttır.",
+          "career": "İş tarafında erteleme veya kararsızlık, fırsat kaybına dönüşebilir. Sürekli hazırlık yapıp uygulamaya geçmiyorsan, hedefi küçült ve somut bir adım at: teslim tarihi, çıktı, sorumluluk. Hareket başlayınca, zihnin de hızla toparlanır.",
+          "spiritual": "Durum, gereksiz fedakârlıkların seni yıprattığını gösteriyor; inatçılık, ilerlemeni engelliyor. Bırakman gereken şeyleri netleştir; kalbinde hangi yükler ağırlaşıyor? Hafiflemek için cesurca adım atmalısın; özgürlüğün, geçmişteki yüklerden kurtulmakla başlar."
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "Ölüm",
+      "image": "13_death",
+      "arcana": "major",
+      "number": "XIII",
+      "suit": null,
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Bir döngü kapanıyor ve bu kapanış, yeni bir başlangıca yer açmak için gerekli. Tutunduğun şey artık seni taşımıyorsa, bırakmak ‘kaybetmek’ değil, hafiflemek demektir. Değişim önce ürkütür ama doğru yerde temizlik yapılınca hayat hızla tazelenir.",
+          "love": "Aşkta eski bir alışkanlık, eski bir kırgınlık ya da ilişki içindeki rol dağılımı bitişe gelmiş olabilir. Bu kart, ‘aynı şekilde devam edemeyiz’ dediğinde ortaya çıkar; dönüşüm cesareti ister. Dürüst bir konuşma ve net bir karar, ya bağı yeniler ya da gereksiz yükü sonlandırır.",
+          "career": "Kariyerde keskin bir dönüşüm kapıda: görev, ekip, hedef ya da sektör değişimi gibi. Eski yönteme tutunmak yerine, artık işe yaramayanı bırakıp yeni stratejiyi kurman gerekiyor. Bu bitiş, daha güçlü bir kimlik ve daha net bir yönle geri dönmeni sağlar.",
+          "spiritual": "Bir döngü kapanıyor; bu kapanış, yeni fırsatların kapılarını açmak için şart. Durum, artık işlevini yitiren şeyleri netleştirdiğinde, içindeki yük hafifleyecek. Veda etmek, kaybetmek değil; yenilenmek ve büyümektir. Cesur ol, bırak ve yeniye yer aç."
+        },
+        "reversed": {
+          "general": "Bitmesi gereken bir şeyi uzatıyor olabilirsin; bu da değişimi daha sancılı hale getirir. Korku yüzünden aynı döngüye dönmek, seni yoran yükü büyütür. ‘Neyi bırakmaktan korkuyorum?’ sorusunu netleştirirsen, dönüşüm daha yumuşak olur.",
+          "love": "İlişkide artık işlemeyen bir dinamiği sürdürmek, hem sevgiyi hem saygıyı tüketebilir. Eski tartışmaları tekrar etmek yerine, sorunun kökünü konuşmak ve yeni bir sayfa açmak gerekir. Eğer bırakmak gerekiyorsa, bunu uzatmadan yapmak; kalmak gerekiyorsa, davranışı gerçekten değiştirmek şart.",
+          "career": "İş hayatında değişim ihtiyacı görünürken sen ‘şimdilik idare edeyim’ diyorsan, fırsatlar kaçabilir. Aynı yöntemle farklı sonuç beklemek, tükenmişlik getirir. Küçük bir hamle bile (rol netleştirme, yeni yetkinlik, farklı proje) dönüşüm kapısını aralar.",
+          "spiritual": "Tutunma ve değişim korkusu seni sarıyor; bu korkuyu hissetmek, insan olmanın bir parçası. Durum, hayatındaki alışkanlıklara veda etmenin zamanı geldiğini gösteriyor; bilinçli bir şekilde bırakmayı seç. Her şeyin sonlanması, yeni başlangıçların habercisidir; cesaretle yola çıkarsan, seni bekleyen taze fırsatları görebilirsin."
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Denge",
+      "image": "14_temperance",
+      "arcana": "major",
+      "number": "XIV",
+      "suit": null,
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Hayatın senden istediği şey hız değil, uyum: uçlarda yaşamak yerine orta yolu kurmak. Sabır, bu kartın gizli gücü; acele ettikçe dağılan şeyler, ritim buldukça toparlanır. Küçük ama düzenli adımlar, büyük sıçramalardan daha kalıcı sonuç verir.",
+          "love": "Aşkta yumuşak iletişim ve karşılıklı anlayış ilişkiyi iyileştirir. ‘Benim dediğim olsun’ yerine, iki tarafın da rahat edeceği ortak bir düzen kurmak öne çıkıyor. Küçük jestler, sakin konuşmalar ve ölçülü beklentiler, bağı güçlendiren asıl yakıttır.",
+          "career": "Kariyerde süreç kurma, ekip içi dengeyi sağlama ve sürdürülebilir tempo yakalama dönemi. Her şeye aynı anda yüklenmek yerine, işi parçalara bölüp ritimle ilerlersen verim artar. Uyumlu işbirliği, bu dönemde seni tek başına çabadan daha hızlı ilerletir.",
+          "spiritual": "Uyum ve ölçülülük güçleniyor; sabrın tohumları ekiliyor. Durum, günlük ritmini dengelerken içsel huzurun artıyor; bu denge, seni sağlamlaştırır. Her anı değerlendir, küçük değişiklikler yaparak bu dengeyi güçlendir."
+        },
+        "reversed": {
+          "general": "Denge bozulmuş olabilir; ya fazla bastırıyor ya da fazla dağılıyorsun. Aşırılıkların bedeli hızlı gelir: uykudan beslenmeye, iş temposundan duygu yönetimine kadar her şey birbirine bağlanır. Merkezini yeniden bulmak için önce temposunu düşür, sonra düzeni geri kur.",
+          "love": "İlişkide sabrın tükenmiş ya da beklentiler uçlara gitmiş olabilir. Biriniz fazla veriyor, diğeriniz fark etmiyor hissi oluştuğunda bağ yıpranır. Orta yolu konuşmak, sorumlulukları ve ihtiyaçları netleştirmek bu dönemde en doğru ilaçtır.",
+          "career": "İş tarafında dağınıklık ve dengesiz yük dağılımı performansı düşürebilir. Öncelikleri sadeleştir, en yüksek etkiyi üreten işi seç ve geri kalanını planla. Süreç ve rutin geri geldiğinde, motivasyon da kendiliğinden toparlanır.",
+          "spiritual": "Aşırılıklar, ruhunu yıpratıyor; dengeyi bulmak için bir kenara çekil ve derin bir nefes al. Uçlardan birini kısarak, daha sakin bir zemin oluşturabilirsin; bu, içsel huzurunu yeniden inşa etmek için fırsat sunar. Unutma, bazen bir adım geri çekilmek, ilerlemek için en sağlam temel."
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "Şeytan",
+      "image": "15_devil",
+      "arcana": "major",
+      "number": "XV",
+      "suit": null,
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Seni tutan şey dışarıdaki bir güçten çok, içerideki alışkanlık ve bağlanma biçimi olabilir. Şeytan kartı ‘zinciri gör’ der: bağımlılık, takıntı, kontrol ihtiyacı, hazla kaçış… Hepsi önce fark edilince çözülmeye başlar.",
+          "love": "Aşkta yoğun çekim güzel ama sınırları bozarsa esarete dönebilir. Kıskançlık, kontrol, bağımlı bağlanma ya da ‘onsuz yapamam’ hali ilişkiyi daraltır. Tutku ile güveni ayırıp, sağlıklı sınır kurduğunda bağ çok daha güçlü çalışır.",
+          "career": "Kariyerde ‘güvende kalayım’ diye istemediğin bir düzende sıkışmış olabilirsin; ya da statü/para hırsı seni yıpratıyor olabilir. Kısa vadeli kazanç için uzun vadeli benliğinden vazgeçme riskine dikkat. Net bir sınır ve daha sağlıklı hedef, seni bu döngüden çıkarır.",
+          "spiritual": "Bağlılıkların ve alışkanlıkların yüzeye çıkıyor; seni tutan zincirler artık görünür. Durum, içsel bir bağlanma hissiyle şekilleniyor; kontrol sende, ama onu kullanmaktan çekiniyorsun. Suçluluk değil, farkındalık zamanı; karanlığı aydınlatmak için cesur ol. Kendini sınırlayan alışkanlığı net bir cümleyle ifade et; ona ne kattığını dürüstçe tanımlarsan, özgürlüğe giden yolu açabilirsin."
+        },
+        "reversed": {
+          "general": "Zincirin gevşediği bir eşik: farkındalık artıyor ve ‘ben bunu istemiyorum’ diyebiliyorsun. Bu kart ters geldiğinde, kurtuluş bir anda değil, adım adım olur; ama yön bellidir. Küçük bir karar (bir sınır, bir düzen, bir ‘hayır’) bile özgürlüğün kapısını açar.",
+          "love": "Aşkta sağlıksız bağ çözülmeye başlıyor; ya ilişki daha sağlıklı bir forma evriliyor ya da gereksiz bağımlılık kırılıyor. Açık konuşma, dürüst ihtiyaç ifadeleri ve sınır koymak iyileştirici olur. Tutku kalabilir, ama artık seni yönetmez; sen onu yönetirsin.",
+          "career": "İş tarafında ‘artık yeter’ dediğin bir nokta olabilir: toksik ekip, anlamını yitirmiş görev ya da seni sömüren tempo. Kendini koruyacak sınırları çizmek ve alternatifleri araştırmak için doğru zaman. Bu değişim, uzun vadede hem verimi hem özgüveni yükseltir.",
+          "spiritual": "Zincirlerin gevşemeye başladı; özgürlüğün eşiğindesin ve artık eskisi kadar güçlü değiller. Durum, cesaretin yükseldiğini gösteriyor ama son hamle için tereddüt içindesin. Değişim kapıda; ama bilinçli bir adım atmalısın. Sınırlayıcı davranışını bugün bir kez ertele; etkisini gözlemle ve özgürleşmenin tadını çıkar."
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "Yıkılan Kule",
+      "image": "16_tower",
+      "arcana": "major",
+      "number": "XVI",
+      "suit": null,
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Kule, ‘yanlış kurulan yapı çöker’ der; sarsıcıdır ama gerçekçidir. Ani bir haber, beklenmedik bir kırılma ya da planın bozulması ilk anda şok yaratabilir. Ama bu yıkım, daha doğru ve sağlam bir düzen kurman için alan açar.",
+          "love": "Aşkta bastırılan gerçekler görünür olabilir: konuşulmayan sorunlar, saklanan kırgınlıklar, alttan alta süren güvensizlik. Bu kart, ‘artık yüzleş’ der; yoksa ilişki kendi kendine patlar. Dürüstlük zor ama iyileştiricidir; sahte huzur yerine gerçek denge gelir.",
+          "career": "Kariyerde bir sistem arızası: beklenen proje iptali, ekip değişimi, rol kayması ya da otoriteyle çatışma. İlk tepki ‘her şey yıkıldı’ gibi gelse de, aslında seni yanlış rotadan çıkarıyor olabilir. Soğukkanlı kalıp yeni planı kurarsan, bu kriz seni yükseltir.",
+          "spiritual": "Bir ani fark ediş, mevcut yapını sarsıyor; beklenmedik gerçekler, uzun süredir görmezden geldiğin noktaları aydınlatıyor. Durum rahatsız edici ama bu sarsıntı, sana gerçekleri gösteriyor; inkârın gölgesinde kalma, yüzleşmeyi seç. Yanlış temeli çözmek, yıkım değil; geçerliliğini yitiren inancını yaz ve onu savunmayı bırak; bu, özgürlüğüne giden yolda bir kapı aralar."
+        },
+        "reversed": {
+          "general": "Sarsıntıyı geciktirmek, yıkımı büyütebilir; çünkü sorun orada duruyor. Bu kart ters geldiğinde, genelde ‘kaçınma’ ve ‘erteleme’ uyarısıdır. Küçük bir yüzleşme şimdi yapılırsa, büyük bir çöküşün önüne geçilir.",
+          "love": "İlişkide bir kırılma ihtimali hissediliyor ama konuşmaktan kaçınılıyor olabilir. Sessizlik, güveni korumaz; aksine içten içe kemirir. Nazik ama net bir konuşma, ya ilişkiyi güçlendirir ya da gereksiz bir yıkımı erken ve daha temiz şekilde bitirir.",
+          "career": "İş tarafında yaklaşan bir değişimi görüp ‘idare ederim’ diyorsan, sonradan daha zorlanabilirsin. Süreçleri, beklentileri ve rolünü şimdiden netleştirmek en akıllı hamle. Küçük düzeltme ve iletişim, büyük krizleri genelde engeller.",
+          "spiritual": "Değişimi ertelemek, yapının çatlamasına neden oluyor; ama henüz yıkılmadı. Kontrol arayışın, dönüşümü geciktiriyor; farkında ol. Durum, ani bir kırılma yerine bilinçli bir çözülmeyi öneriyor. Tek bir alışkanlığını sonlandırarak, büyük bir kopuş yerine küçük bir adım atabilirsin; bu, sana yeni bir yol açar."
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "Yıldız",
+      "image": "17_star",
+      "arcana": "major",
+      "number": "XVII",
+      "suit": null,
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Yıldız, fırtınadan sonra gelen sakin umuttur: iyileşme başlıyor ve yol yeniden aydınlanıyor. Her şey bir anda düzelmek zorunda değil; önemli olan doğru yönde olduğun hissi. İnancını taze tutarsan, küçük işaretler bile seni doğru yere taşır.",
+          "love": "Aşkta kalbin yeniden açıldığı bir dönem: daha dürüst, daha şeffaf ve daha iyileştirici bir bağ mümkün. Geçmiş kırgınlıklar varsa, bunu yumuşatıp güveni yeniden kurmak için iyi bir zaman. Bekarsan, umut veren bir tanışma; ilişkisi olanlar için ise ilişkinin ‘temizlenip’ ferahlaması gündeme gelebilir.",
+          "career": "Kariyerde ilham ve vizyon yükseliyor: ‘bunu ben yaparım’ enerjisi geri geliyor. Doğru proje, doğru ekip veya doğru hedef ufukta görünebilir; özellikle görünürlük artışı mümkün. Planını gerçekçi tutup istikrarlı ilerlersen, bu dönem uzun vadeli bir sıçrama yaratır.",
+          "spiritual": "Zorlayıcı bir sürecin ardından bir ferahlama hissi doğuyor; durum, iyileşme ve yeniden güven kurma evresine işaret ediyor. Umut, pasif bir beklentiden çok, kendine yeniden inanmanın pratiği. Bu dönemde her gün küçük ama tutarlı adımlar at; geleceğe dair tek bir niyeti yaz ve onu hatırlatacak basit bir sembol seç."
+        },
+        "reversed": {
+          "general": "Umutsuzluk sis gibi çökerse, ışığı görmezsin; oysa Yıldız hâlâ orada. Bu kart ters geldiğinde genelde ‘inancın zayıfladı’ der; ama çözüm, tamamen vazgeçmek değil, hedefi yeniden gerçekçi kurmaktır. Küçük bir başarı planı, motivasyonu hızla geri getirir.",
+          "love": "Aşkta ‘nasıl olsa düzelmez’ düşüncesi ilişkiyi soğutabilir. Umudu geri çağırmak için önce iletişimi temizle: ima değil net cümle, kaçış değil yüzleşme. Küçük bir yakınlık adımı bile güveni ve sıcaklığı yeniden canlandırır.",
+          "career": "İş hayatında özgüven düşüşü veya tükenmişlik hissi varsa, bu geçici olabilir ama ciddiye alınmalı. Hedefleri küçült, çıktıyı somutlaştır ve kendine yeniden ritim kur. İvme geri geldiğinde, fırsatları daha net görürsün ve yeniden parlamaya başlarsın.",
+          "spiritual": "Umut, yorgunlukla gölgelenmiş; algın daralmış ve belirsiz bir sis var etrafında. Durum kalıcı değil; bu, tükenmişliğin geçici bir yansıması. Kendine yüklenmekten vazgeç; beklentilerini düşür ve dinlenmeye fırsat tanı. Rahatladıkça, yeni bir netlik açığa çıkacaktır."
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "Ay",
+      "image": "18_moon",
+      "arcana": "major",
+      "number": "XVIII",
+      "suit": null,
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Ay, belirsizlik ve sezgi kartıdır: her şey net görünmeyebilir ama hislerin boşuna değil. Sisli bir alanda yürüyorsun; panikle değil, sakin gözlemle ilerlemek gerekir. Bu dönem, gerçek ortaya çıkana kadar acele hüküm vermemeyi öğretir.",
+          "love": "Aşkta karışık sinyaller, yanlış anlaşılmalar veya gizli kalmış duygular gündeme gelebilir. İma ve varsayım yerine açık konuşma şart; aksi halde zihin senaryolar üretir. Sezgin güçlü ama onu net iletişimle desteklersen ilişki daha güvenli olur.",
+          "career": "Kariyerde perde arkası dinamikler, belirsiz süreçler veya net olmayan beklentiler yorabilir. Bu dönemde her söylenene hemen inanma; bilgiyi doğrula, detayları sor ve yazılı netlik iste. Sis dağıldığında doğru pozisyonu çok daha rahat görürsün.",
+          "spiritual": "Belirsizlik ve duygusal dalgalanmalar seni sararken; korkuların gerçeğin yansıması değil, zihninin karanlık köşelerinden fısıldadığı gölgeler. Durum, net cevaplar aramak yerine sezgini dinlemeyi gerektiriyor. Huzursuz eden belirsizliği somut bir soruya dönüştür; yaz ve bu belirsizliğin üzerine git."
+        },
+        "reversed": {
+          "general": "Sis dağılmaya başlıyor: kafa karışıklığı azaldıkça gerçek daha net görünür. Bu kart ters geldiğinde genelde ‘kendini kandırma’ döngüsünden çıkış olur; korku yerine netlik gelir. Yine de acele etmeden, gördüğün gerçeği sindirip adım atmak en iyisidir.",
+          "love": "İlişkide yanlış anlaşılmalar çözülebilir; ama bunun için açık ve sakin bir konuşma şart. Kıskançlık, kuruntu veya şüpheyle hareket etmek yerine somut gerçeğe dönmek iyileştirir. Netlik geldiğinde, ya güven artar ya da gereksiz belirsizlik biter.",
+          "career": "İş tarafında kapalı kalan konular aydınlanabilir: rol tanımı, beklenti, süreç ve sorumluluklar netleşir. Dedikoduya değil, resmi bilgiye yaslan; bu dönemde doğrulama çok değerli. Netleşen tablo, karar vermeni kolaylaştırır.",
+          "spiritual": "Sis dağılıyor; gerçekler, yavaşça ortaya çıkıyor. Durum, sezgiyle akıl arasında bir denge kurmana işaret ediyor; kafa karışıklığından kurtulmak senin elinde. Varsayımları gerçeğinden ayırarak, zihnindeki bulanıklığı netleştir; her şeyin kendi yerini bulması için adım at."
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "Güneş",
+      "image": "19_sun",
+      "arcana": "major",
+      "number": "XIX",
+      "suit": null,
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Güneş, netlik ve canlılık getirir: içindeki güven yükseliyor ve işler daha görünür şekilde yoluna giriyor. Bu kart, “şimdi göster, paylaş, sahneye çık” der; saklanma enerjisi biter. Basit olanı seçtiğinde, hayat daha hızlı açılır.",
+          "love": "Aşkta sıcaklık, samimiyet ve açıklık var: kalp daha rahat ifade ediyor. İlişki daha neşeli ve güvenli bir seviyeye çıkabilir; birlikte plan yapmak, geleceği konuşmak iyi gelir. Bekarsan, enerji yüksek: doğal hâlinle bile dikkat çekersin.",
+          "career": "Kariyerde görünür başarı: takdir, terfi, iyi bir sonuç, güçlü bir proje kapanışı gündeme gelebilir. İletişimini açık tut, çıktını sergile ve başarıyı sahiplen; bu dönem parlamaya uygun. Net hedef + yüksek enerji, hızlı ilerleme getirir.",
+          "spiritual": "Açıklık ve canlılık seni sarhoş ediyor; kendini ifade etmenin keyfini çıkartıyorsun. Durum, sahici olmanın getirdiği özgüveni artırıyor; başkalarının onayına ihtiyaç duymadan var olabilirsin. Tamamladığın her başarıyı kutla; bu, içindeki gücü besleyen bir kıvılcım olacak."
+        },
+        "reversed": {
+          "general": "Işık var ama üstü örtülmüş gibi: ya kendini küçük görüyorsun ya da başarıyı tam sahiplenmiyorsun. Moral düşüklüğü geçici olabilir; asıl mesele, odağını yeniden doğru şeye koymak. Küçük bir düzen ve net hedef, enerjiyi hızla geri getirir.",
+          "love": "İlişkide neşe azalmışsa, bunun sebebi genelde konuşulmayan küçük kırgınlıklardır. Sıcaklığı geri getirmek için basit ama gerçek bir adım yeter: açık bir cümle, küçük bir plan, samimi bir jest. Aşırı beklenti yerine, gerçek yakınlık bağ kurar.",
+          "career": "İş tarafında görünürlük eksikliği ya da motivasyon düşüşü olabilir; ama bu, potansiyelin olmadığı anlamına gelmez. Çıktıyı somutlaştır, başarı ölçütünü belirle ve kendini doğru yerde göster. İvme geri gelince, fırsatlar da daha hızlı açılır.",
+          "spiritual": "Durum, enerji seviyenin düştüğünü ve neşenin gölgede kaldığını gösteriyor; aşırı ciddiyet seni geri çekiyor. Unutma, ışık kaybolmaz; sadece biraz bulanıklaşır. Kendini besleyen o basit aktivitelere dönerken, ruhunu yeniden canlandırabilirsin."
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "Mahkeme",
+      "image": "20_judgement",
+      "arcana": "major",
+      "number": "XX",
+      "suit": null,
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Bir uyanış eşiğindesin: geçmişin yükünü değil, dersini taşıma zamanı. İçinden gelen çağrı rastgele değil; yön değiştirme cesareti istiyor. Kendine dürüst davrandığında, hayatın yeni bölümü hızla açılır.",
+          "love": "Aşkta geçmiş meseleler kapanmadan ileri gidilmez. Affetmek, unutmak değil; yükü bırakmaktır. Açık bir yüzleşme, ilişkiyi ya temizler ya da doğru şekilde sonlandırır.",
+          "career": "Kariyerde büyük karar kapıda: kalmak mı gitmek mi, büyümek mi yön değiştirmek mi? Eski başarı kimliğine değil, gelecekteki potansiyeline bak. Cesur bir seçim uzun vadede özgürlük getirir.",
+          "spiritual": "Geçmiş, yeni bir anlam kazanıyor; seni çağıran farkındalık, eski döngüleri gözden geçirme zamanının geldiğini söylüyor. Durum, bilinçli bir karar almanın eşiğinde; kendini affetmek ve sorumluluk almak, bu süreçte el ele gider. Zorlandığın kararı net bir cümleyle ifade ettiğinde, yüklerin hafifleyecek ve yolun açılacak."
+        },
+        "reversed": {
+          "general": "Çağrıyı duymazdan gelmek, aynı döngüyü tekrarlar. Değişimden korkmak seni güvende tutmaz; sadece yerinde saydırır. Küçük bir yüzleşme bile yönü açar.",
+          "love": "İlişkide konuşulmayan geçmiş, bugünü zehirleyebilir. Eski kırgınlıkları saklamak değil, temizlemek gerekir. Netlik geciktikçe mesafe büyür.",
+          "career": "Karar ertelemesi fırsat kaybettirir. Sürekli hazırlık yapıp uygulamaya geçmemek seni yorar. Bir yön seç ve yürümeye başla.",
+          "spiritual": "Kendini sert biçimde yargılama tuzağındasın; içindeki suçluluk ve pişmanlık, ilerlemeni engelliyor. Durum, affetmenin içe dönüşüyle başlar; geçmişteki kararlarını bugünün bilgisiyle yeniden gözden geçir. Kendine nazik ol; bu yolda ilerlemek, özgürlüğünü bulmana yardımcı olur."
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "Dünya",
+      "image": "21_world",
+      "arcana": "major",
+      "number": "XXI",
+      "suit": null,
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Bir döngü tamamlanıyor ve yaptığın yolculuk artık görünür bir sonuca ulaşıyor. Dünya kartı, emekle inşa edilen bütünlük hissidir; parçalar yerine oturur ve tablo anlam kazanır. Bu başarıyı küçültmek yerine sahiplenmek, bir sonraki adımın enerjisini besler.",
+          "love": "İlişkide olgunluk ve kabul hâkim: kusurlar saklanmıyor, yönetiliyor. Birlikte kurulan düzen artık daha gerçekçi ve sürdürülebilir bir zemine oturuyor. Geleceği konuşmak korkutucu değil; aksine bağı güçlendiren bir adım haline geliyor.",
+          "career": "Kariyerde tamamlanma enerjisi var: uzun süredir emek verdiğin bir süreç kapanabilir ya da görünür bir başarıyla taçlanabilir. Bu noktada hızlanmak değil, sonucu net görmek ve kutlamak önemlidir. Başarıyı kabul etmek, yeni kapıları açan psikolojik eşiği oluşturur.",
+          "spiritual": "Bir döngü tamamlanıyor; emeğinin karşılığını artık net bir şekilde hissediyorsun. Durum, süreci kapatmanın ve tatmin olmanın tam zamanı; bu tamamlanma, seni yeni başlangıçlara hazırlıyor. Biteni onurlandırmak için sembolik bir ritüel gerçekleştir; böylece geçmişin yükünden özgürleşirsin."
+        },
+        "reversed": {
+          "general": "Tamamlanması gereken bir süreç uzuyor olabilir; son adımı atmaktan çekinmek ilerlemeyi geciktirir. Yarım kalan işler zihinsel ağırlık yaratır ve yeni başlangıçları bloke eder. Bitirmek, sandığından daha özgürleştirici olur.",
+          "love": "İlişkide konuşulmamış meseleler yüzünden ‘tamamlanma’ hissi gecikebilir. Her şey yolundaymış gibi davranmak yerine, eksik parçayı dürüstçe ele almak gerekir. Netlik sağlanmadan huzur kalıcı olmaz.",
+          "career": "Kariyerde bir proje ya da hedef sürüncemede kalmış olabilir; kapanması gereken dosya kapanmıyordur. Odaklanıp son hamleyi yapmak, seni gereksiz enerji kaybından kurtarır. Bitirilen iş, özgüveni hızla toparlar.",
+          "spiritual": "Tamamlanmaya çok yakınsın; son adımı atmak için beklemene gerek yok. Durum, veda etmenin zorluğunu hissetmene neden oluyor; eksik hissetme, tamamlanmanın önünde bir engel. Yarım kalan son detayı netleştir; bu, sürecini tamamlamak için gerekli olan son tuğlayı yerine koymak gibidir."
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "Değnek Ası",
+      "image": "22_ace_wands",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Yeni bir kıvılcım doğuyor; bu kart saf başlangıç enerjisidir. Fikir henüz küçük olabilir ama içindeki hareket isteği güçlüdür. Ertelemek ateşi söndürür, denemek ise büyütür.",
+          "love": "Aşkta canlılık ve çekim artıyor; iletişim daha doğrudan ve dürüst. Yeni bir tanışma ya da ilişkide taze bir dönem mümkün. Cesur ifade bağı hızla derinleştirir.",
+          "career": "Kariyerde yaratıcı bir fırsat veya yeni proje kapıda. İlk adımı atmak mükemmel plan beklemekten daha değerlidir. Deneme enerjisi, bu dönemde en büyük avantajın.",
+          "spiritual": "Yeni bir kıvılcım ortaya çıkıyor; içinizdeki istek, seni harekete çağırıyor. Durum, henüz şekil almamış ama güçlü bir potansiyele işaret ediyor; bu potansiyeli değerlendirmek için hemen harekete geçmelisin. Heyecan ve kendini ifade etme ihtiyacı, seni yönlendiren güçlü bir enerji; bu enerjiyi plansız bırakma, dağılmasına izin verme."
+        },
+        "reversed": {
+          "general": "Enerji var ama yönsüz kalmış olabilir; bu da içsel huzursuzluk yaratır. Fikir çok, uygulama yoksa motivasyon hızla düşer. Odak belirlemek ateşi yeniden toplar.",
+          "love": "İlişkide tutku var ama iletişim net değilse yanlış anlaşılmalar doğabilir. İma yerine açık cümle kurmak gerekir. Netlik, enerjiyi sakinleştirir.",
+          "career": "Proje fikri heyecan verici ama dağınık ilerliyorsa sonuç üretmez. Hedefi sadeleştir ve tek noktaya odaklan. Aksi halde enerji tükenir.",
+          "spiritual": "Kendindeki kıvılcım bastırılmış; durum, yönsüzlükle dans ediyor. Mükemmel anı beklemek, ilerlemeni engelliyor; bu yüzden cesaretini topla ve küçük bir denemeyle o isteği test et. Unutma, her adım seni hedeflerine bir adım daha yaklaştırır."
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "Değnek İkilisi",
+      "image": "23_two_wands",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Seçim ve vizyon eşiğindesin; yön belirlemek gerekiyor. Ufuk geniş ama karar netleşmeden ilerleme olmaz. Bu kart planın büyümeye hazır olduğunu söyler.",
+          "love": "İlişkide gelecek konuşuluyor; ortak hedefler bağı güçlendirir. Aynı yöne bakmak güven yaratır. Net konuşma huzur getirir.",
+          "career": "Yeni rota planı gündemde: büyüme, taşınma, alan değiştirme. Cesaretle bakarsan fırsatlar görünür. Karar, hareketi başlatır.",
+          "spiritual": "Bir yön seçme aşamasındasın; potansiyelini nereye akıtacağını düşünüyorsun. Durum, vizyon geliştirme ve ufkunu genişletme arayışında. Kontrol ile keşif arasında bir denge kurmalısın; yazdıkça, hangi seçeneğin seni daha çok büyüttüğünü göreceksin."
+        },
+        "reversed": {
+          "general": "Kararsızlık enerjiyi tüketir; yönsüzlük huzursuzluk yaratır. Beklemek çözüm değil. Bir rota seçmek gerekir.",
+          "love": "Belirsizlik ilişkiyi yorabilir. Açık konuşmadan ilerlenmez. Netlik şart.",
+          "career": "Plan eksikliği fırsat kaçırabilir. Hedef tanımla. Dağınıklık ilerlemeyi durdurur.",
+          "spiritual": "Kararsızlık, seni duraklatan bir sis gibi; dar bakış açısı, ilerlemeni yavaşlatıyor. Durum, riskten kaçınmanın seni nasıl kısıtladığını gösteriyor. Bir seçeneği bilinçli şekilde ele al ve bir adım at; belirsizlikte bile cesaret, yeni yollar açar."
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "Değnek Üçlüsü",
+      "image": "24_three_wands",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Genişleme ve keşif dönemi: sınırlar büyüyor. Ufka bakıyorsun ve yeni alanlar mümkün görünüyor. Cesaret bu kartın yakıtıdır.",
+          "love": "İlişki büyüyor ve gelişiyor. Birlikte yeni deneyimler bağı derinleştirir. Hareket ilişkiyi canlı tutar.",
+          "career": "Yeni pazar, yeni proje ya da alan açılımı gündemde. Geniş düşünmek avantaj sağlar. Risk kontrollü olmalı.",
+          "spiritual": "Emek verdiğin şeyin meyveleri belirmeye başlıyor; bu, ilerlemenin ve genişlemenin habercisi. Durum, sabır ve güvenin el ele yürüdüğü bir süreçte; attığın adımları gözden geçir ve bir sonraki hamleni belirle. Her bir detay, seni daha ileriye taşıyacak bir pusula gibi."
+        },
+        "reversed": {
+          "general": "Beklenen gelişme gecikmiş olabilir. Sabırsızlık süreci bozar. Zamanlama henüz oturmamış.",
+          "love": "Uyumsuz tempo sorun yaratabilir. Bir taraf hızlı, diğeri yavaş olabilir. Ritim konuşulmalı.",
+          "career": "Plan aksıyor olabilir; revizyon gerekir. Kör ısrar kaybettirir. Strateji güncelle.",
+          "spiritual": "Beklentilerin gecikmiş; ilerleme görünmüyor. Durum, acelecilik hissinin seni sarması. Bu süreçte, adımlarını yeniden gözden geçirmelisin; zaman çizelgelerini sadeleştir, karmaşıklığı ortadan kaldır. Hızlı değil, doğru adımlar atmak her şeydir."
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "Değnek Dörtlüsü",
+      "image": "25_four_wands",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Kutlama ve istikrar kartı: emek verdiğin şey güvenli bir zemine oturuyor. Bu kart nefes alma anıdır. Denge kurulmuş.",
+          "love": "İlişkide huzur ve güven var. Birlikte kurulan alan sağlam hissedilir. Bağ rahatlar.",
+          "career": "İş tarafında istikrar dönemi: süreç oturuyor. Acele değil sürdürülebilirlik önemli. Zemin güçlü.",
+          "spiritual": "Geçici bir denge ve güven hissi sarmalıyor seni; kutlama ve yerleşme ihtiyacın artıyor. Durum, tamamladığın süreci takdir etmeni gerektiriyor; bu, aidiyet ve rahatlama duygusunu güçlendirir. Kendini ödüllendir, küçük bir kutlama yap; bu anı değerlendirerek ilerideki adımlarını sağlamlaştır."
+        },
+        "reversed": {
+          "general": "Kutlama ertelenmiş olabilir; iç huzur eksik. Temel var ama sarsılıyor. Düzen gözden geçirilmeli.",
+          "love": "Geçici huzursuzluk ilişkiyi yorabilir. Küçük sorun büyütülmemeli. Konuşmak gerekir.",
+          "career": "Düzensizlik verimi düşürür. Süreç yeniden kurulmalı. Netlik şart.",
+          "spiritual": "Denge bozulmuş; huzur geçici bir misafir gibi uzaklarda. Durum, 'hak etmedim' düşüncesinin seni geride bıraktığını gösteriyor. Başarıyı küçümsemeyi bırak; her adımın, değerli bir zaferdir ve bunu kabullenmek, içsel huzurun kapılarını açar."
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "Değnek Beşlisi",
+      "image": "26_five_wands",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Çatışma ve rekabet ortamı oluşuyor; herkes konuşuyor ama kimse tam dinlemiyor olabilir. Bu sürtüşme yıkıcı değil, yön bulucu bir enerji taşır: hangi alanda gerçekten güçlü olduğunu görürsün. Tartışmayı kişisel değil yapısal okursan büyürsün.",
+          "love": "İlişkide küçük gerilimler büyüyebilir ama asıl mesele anlaşılma ihtiyacıdır. Haklı çıkmaya çalışmak yerine duymaya odaklanmak bağ kurar. Tartışmalar, doğru yönetildiğinde ilişkiyi zayıflatmaz, güçlendirir.",
+          "career": "Kariyerde rekabet artıyor; fikir çarpışmaları, ekip içi sürtüşme ya da pozisyon mücadelesi olabilir. Bu alan seni geri çekmek için değil, keskinleştirmek için var. Net iletişim ve sınır, bu dönemde en büyük avantaj (korumadır).",
+          "spiritual": "Fikir çatışmaları ve rekabet seni sarıyor; durum, başkalarıyla değil, kendi içindeki kıyaslamalarla ilgilidir. Kendini kanıtlama ihtiyacı, seni yıpratıyor; enerjini karşılaştırmaya değil, gelişime yönlendir. Kendine odaklanmak, içindeki potansiyeli açığa çıkarır ve gerçek gücünü bulmana yardımcı olur."
+        },
+        "reversed": {
+          "general": "Sürtüşmeden kaçmak kısa vadede huzur gibi görünür ama içten içe gerilim birikir. Bastırılan çatışma çözülmez; yön değiştirir. Sorunu küçükken ele almak daha az yorar.",
+          "love": "İlişkide konuşulmayan rahatsızlıklar mesafe yaratabilir. Sessizlik barış değildir; çoğu zaman bekleyen patlamadır. Nazik ama net konuşma iyileştirir.",
+          "career": "İş ortamında pasif kalmak görünmezlik yaratabilir. Fikir söylememek güvenli hissettirse de ilerlemeyi durdurur. Sağlıklı rekabetten korkma.",
+          "spiritual": "Durum, çatışmadan kaçınmak ya da bastırma eğiliminde olabilirsin; bu, içsel huzur arayışında geri adım atmana neden oluyor. Rahatsız eden noktayı sakince ifade etmek, aslında cesaretini göstermek demektir. Duygularını dile getirdiğinde, dışarıda da bir denge kurarsın; unutma, sessiz kalmak çözüm değil."
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "Değnek Altılısı",
+      "image": "27_six_wands",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Tanınma ve onay dönemi: yaptığın şey görünür oluyor. Bu kart dış alkıştan çok iç doğrulamayı temsil eder. Başarıyı kabul etmek büyümenin parçasıdır.",
+          "love": "İlişkide güven artıyor; partnerini ve kendini daha net görüyorsun. Birlikte kazanılmış bir zafer hissi olabilir. Takdir bağ kurar.",
+          "career": "Kariyerde görünür başarı: proje, sunum ya da sonuç dikkat çekiyor. Kendini geri çekme; bu alanı sahiplen. Özgüven fırsatları büyütür.",
+          "spiritual": "Takdir ve görünürlük artıyor; emeğin artık göz ardı edilmiyor. Durum, özgüveninin güçlenmesiyle paralel ilerliyor; başarını sahiplen ve bu ışığı etrafınla paylaş. Kendini ifade etmek, daha fazlasını getirecek."
+        },
+        "reversed": {
+          "general": "Onay arayışı dışarı kaymış olabilir; bu da iç huzuru zayıflatır. Başarıyı ölçerken başkasının terazisini kullanma. Kendi kriterini kur.",
+          "love": "İlişkide takdir eksikliği kırgınlık yaratabilir. Görülmediğini hissetmek mesafe doğurur. Açık ifade gerekir.",
+          "career": "İş tarafında görünürlük sorunu olabilir; emeğin fark edilmiyor hissi oluşabilir. Kendini göstermek zor ama gerekli. Sessizlik ilerletmez.",
+          "spiritual": "Takdir eksikliği seni sarmalamış; içindeki tatminsizlik, onay arayışını körüklüyor. Durum, kendi ilerleme ölçütlerini belirlemen gerektiğini gösteriyor; bu, başkalarının yargılarından bağımsız bir yol çizmeni sağlar. Kendine olan güvenini tazele; bu, içsel huzurun anahtarıdır."
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "Değnek Yedilisi",
+      "image": "28_seven_wands",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Savunma ve duruş kartı: kazandığın alanı koruman gerekiyor. Bu mücadele korku değil bilinç gerektirir. Hak ettiğin yerde kalmak cesaret ister.",
+          "love": "İlişkide sınır koyma dönemi: sevgi ile öz-koruma aynı anda var olabilir. Kendini kaybetmeden bağ kurmak mümkündür. Netlik güven yaratır.",
+          "career": "Kariyerde pozisyonunu savunman gerekebilir; fikir, rol ya da proje tartışmalı olabilir. Geri çekilmek yerine argüman kur. Kararlı duruş saygı getirir.",
+          "spiritual": "Kendi alanını savunma zamanı; sınır koymak, sağlıklı bir öz-değer bilincinin göstergesi. Durum, 'hayır' demenin gücünü keşfetmeni gerektiriyor; bu netlik, kararlılığını artıracak. Kendine saygı duymak, başkalarına da saygı göstermenin ilk adımıdır."
+        },
+        "reversed": {
+          "general": "Sürekli savunmada kalmak tükenmişlik yaratabilir. Her savaşa girme zorunluluğu yok. Enerjini seçerek kullan.",
+          "love": "İlişkide gereksiz savunma duvarı yakınlığı engelleyebilir. Tehdit algısı abartılmış olabilir. Yumuşamak bağ kurar.",
+          "career": "İş tarafında aşırı savunmacılık iletişimi bozar. Eleştiriyi saldırı gibi okumamaya çalış. Esneklik güçtür.",
+          "spiritual": "Durum, geri çekilme ve tükenmişlik hissettiğin bir dönemde olabilirsin; üzerindeki yük, ağırlaşmış görünüyor. Sorumluluklarını sadeleştir, bu seni hafifletecek ve nefes almanı sağlayacak. Kendine alan açtıkça, yenilenme ve tazelenme fırsatları doğacak."
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "Değnek Sekizlisi",
+      "image": "29_eight_wands",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Hızlanma kartı: olaylar peş peşe gelişiyor. Momentum oluşmuş; yön sende olursa ilerlersin. Durmak değil yönetmek gerekir.",
+          "love": "İlişki hızlı ilerleyebilir; yoğun iletişim ve çekim var. Aynı tempoda olduğunuzdan emin olun. Açıklık stresi azaltır.",
+          "career": "Kariyerde ivme yakalanıyor; proje ve fırsatlar üst üste gelebilir. Önceliklendirme şart. Hız avantajdır ama kontrol gerekir.",
+          "spiritual": "Hız ve akış artıyor; ivmenin yükseldiğini hissediyorsun. Durum, netlikle hareket etmenin kapılarını açıyor; beklemeden adım atmalısın. Kendi ritmini yakaladığında, her şey daha kolay akar."
+        },
+        "reversed": {
+          "general": "Tempo bunaltıcı hale gelmiş olabilir; durup yön seçmek gerekir. Her fırsat senin değildir. Seçici ol.",
+          "love": "Acele ilişkiyi yorabilir. Ritim konuşulmalı. Yavaşlamak güven yaratır.",
+          "career": "Dağınık hız hata doğurur. Öncelikleri sadeleştir. Aksi halde enerji tükenir.",
+          "spiritual": "Durum, dağınıklık ve gecikme seni sarıp sarmalamış; zihnindeki karmaşa, önceliklerini gölgede bırakıyor. Dikkatini dağıtan unsurları bir kenara it; işleri sıraya koymak, adımlarını netleştirir. Her şeyin bir zamanı var, sen sadece tek bir işe odaklandığında, ilerlemen kolaylaşır."
+        }
+      }
+    },
+    {
+      "id": 30,
+      "name": "Değnek Dokuzlusu",
+      "image": "30_nine_wands",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Dayanıklılık kartı: yoruldun ama bitmedin. Bu son düzlüktür. Direnç büyümenin kanıtıdır.",
+          "love": "İlişkide yorgunluk olabilir ama bağ hâlâ canlı. Vazgeçmek yerine güçlenme zamanı. Sabır bağ kurar.",
+          "career": "Kariyerde son sınav: bırakmak cazip gelebilir. Ama şimdi direnmek sonuç getirir. Az kaldı.",
+          "spiritual": "Yorgunluk seni sarsa da, direnç bir ateş gibi yanmaya devam ediyor; son bir eşiğe yaklaştığının farkındasın. Durum, sınırlarını belirlemeni gerektiriyor; kendini korumak için hızlıca bir önlem al. Zayıflık değil, akıllıca bir güç gösterisi bu; sınırlarını çizdiğinde, içindeki dayanıklılık parlayacak."
+        },
+        "reversed": {
+          "general": "Tükenmişlik sinyal veriyor; kör direnç zarar verir. Dinlenmek zayıflık değildir. Güç toplamak gerekir.",
+          "love": "İlişkide sürekli savunma yorucu olabilir. Güven alanı yarat. Duvar indir.",
+          "career": "İş tarafında aşırı yük verimi düşürür. Destek iste. Tek başına taşıma.",
+          "spiritual": "Durum, tükenmişliğin arttığını gösteriyor; 'devam etmeliyim' baskısı seni yıpratıyor. Mola vermek, zayıflık değil; aksine, yeniden enerji toplamanın anahtarı. Kendine bir nefes al; bu duraklama, daha güçlü bir dönüş yapmanı sağlayacak."
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "Değnek Onlusu",
+      "image": "31_ten_wands",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Üzerinde taşıdığın yük artık görünür hale geliyor; bu kart sınırına dayandığını gösterir. Sorumluluk almak güç verir ama fazlası kimliği ezebilir. Taşıdığın şeylerin hepsi gerçekten sana mı ait diye sormak gerekir.",
+          "love": "İlişkide tek taraflı yük hissi oluşmuş olabilir; biri taşıyor, diğeri fark etmiyor. Fedakârlık sevgi değildir, dengesizliği saklar. Yük paylaşılmadıkça bağ yorulur.",
+          "career": "Kariyerde aşırı sorumluluk tükenmişlik yaratabilir; her şeyi tek başına üstlenmek sürdürülebilir değildir. Delegasyon zayıflık değil stratejidir. Verim, yük dağıtıldığında artar.",
+          "spiritual": "Aşırı yük ve sorumluluk, seni ezip geçiyor; bu baskıyı tek başına taşımak, içindeki kontrol ihtiyacını besliyor. Durum, yükünü paylaşmanın önemini vurguluyor; destek aramak, güçsüzlük değil, akıllıca bir strateji. Kendine bir alan yarat; başkalarıyla işbirliği yapmak, üzerindeki yükü hafifletir."
+        },
+        "reversed": {
+          "general": "Yükü bırakma ihtiyacı artık ertelenemez hale gelmiş olabilir. Her şeyi taşımak zorunda olmadığını kabul etmek özgürleştiricidir. Bu kart sınır koymayı öğretir.",
+          "love": "İlişkide yükten kaçmak değil, adil paylaşmak gerekir. Sessiz kırgınlık yerine açık ifade iyileştirir. Aksi halde bağ içten içe çöker.",
+          "career": "İş tarafında sorumluluk reddi ya da kaçış dürtüsü doğabilir; bu genelde aşırı baskının sonucudur. Sistemi yeniden kurmak gerekir. Dengeli yük sürdürülebilirdir.",
+          "spiritual": "Yük hafiflemeye hazır; gereksiz sorumlulukları geride bırakmak, seni özgürleştirir. Durum, üzerindeki ağırlığı hissettiğinde, bırakma isteği içindeki serin rüzgar gibi esiyor. Kendine bir alan yarat; bu, tazelenmenin ilk adımıdır."
+        }
+      }
+    },
+    {
+      "id": 32,
+      "name": "Değnek Prensi",
+      "image": "32_page_wands",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Keşif ve merak enerjisi yükseliyor; öğrenme isteği yön arıyor. Bu kart deneyerek büyümeyi anlatır. Hata yapmak sürecin parçasıdır.",
+          "love": "Aşkta flört ve heyecan var; ilişki hafif ama canlı. Aşırı ciddiyet değil, dürüst merak bağ kurar. Denemek korkutucu değil öğreticidir.",
+          "career": "Kariyerde yeni öğrenme alanı açılıyor; staj, kurs, proje ya da deneme rolü mümkün. Başlangıç küçüktür ama potansiyel büyüktür. Cesur merak ilerletir.",
+          "spiritual": "Merakın ateşi sönmüyor; keşif ve deneme dönemi kapını çalıyor. Hevesin, seni bilinmeyenlere yönlendiriyor. Yeni fikrini hayata geçir; adım attıkça, ufkun genişleyecek."
+        },
+        "reversed": {
+          "general": "Enerji var ama dağınık; merak yön bulamıyor olabilir. Odaksız hareket tükenmişlik yaratır. Tek bir hedef seçmek gerekir.",
+          "love": "İlişkide çocukça tepkiler iletişimi zayıflatabilir. Heyecan var ama derinlik eksik olabilir. Denge kurmak gerekir.",
+          "career": "Kariyerde sabırsızlık öğrenme sürecini baltalayabilir. Hız değil istikrar öğretir. Süreci yarıda kesme.",
+          "spiritual": "İçinde dağılmış bir heves var; yönsüz kalıyorsun ve bu seni duraklatıyor. Durum, ertelemenin seni yavaşça geriye ittiğini gösteriyor; ama başlangıcını küçültebilir, ilk adımda bile ilerleyebilirsin. Belirsizlik içinde bir hedef belirlemek, seni yeniden hareket ettirir."
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "Değnek Şövalyesi",
+      "image": "33_knight_wands",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Hareket ve cesaret kartı: beklemek yerine atlamak istiyorsun. Bu enerji ilerletir ama kör hız risklidir. Tutku yön ister.",
+          "love": "Aşkta yoğun çekim ve macera isteği var. İlişki hızlı ilerleyebilir; ritmi konuşmak önemlidir. Tutku tek başına yeterli değildir.",
+          "career": "Kariyerde cesur hamle zamanı; yeni proje, taşınma ya da yön değişimi mümkün. Risk almak büyütür ama hesaplı olmalı. Kontrolsüz hız yorar.",
+          "spiritual": "Tutku ve hareket, ruhunun ateşini körüklüyor; durum, seni hızlı aksiyon almaya davet ediyor. Cesaretin yüksek, şimdi enerjini tek bir hedefe odakla; bu, yolunu netleştirir ve seni ileri taşır."
+        },
+        "reversed": {
+          "general": "Dürtüsel hareket kaos yaratabilir; hız kontrolü kaybettirir. Enerji yönsüz kalmış olabilir. Dur ve hizala.",
+          "love": "Acele ilişkiyi yakabilir. Yoğunluk bağ değil baskı yaratabilir. Nefes alanı aç.",
+          "career": "Plansız risk kariyeri zayıflatır. Strateji olmadan hız anlamsızdır. Fren yapmak gerekir.",
+          "spiritual": "Durum, acelecilik ve yönsüzlük arasında gidip geliyor; sabırsızlığın seni yönlendirmesine izin verme. Hızını ayarlamak, ilerlemeni stabilize edecektir; dikkatin dağılmadan, hedefine odaklan. Sakin kalıp adımlarını ölçtüğünde, net bir rota belirlemeye başlayacaksın."
+        }
+      }
+    },
+    {
+      "id": 34,
+      "name": "Değnek Kraliçesi",
+      "image": "34_queen_wands",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Özgüven ve iç güç kartı: kim olduğunu biliyorsun. Bu enerji başkalarını da ısıtır. Karizma sakin bir güçtür.",
+          "love": "İlişkide çekim ve saygı birlikte çalışıyor. Kendin oldukça bağ güçlenir. Doğallık en güçlü etkidir.",
+          "career": "Kariyerde liderlik enerjisi yükseliyor; insanları motive ediyorsun. Etki alanın büyüyor. Güveni koru.",
+          "spiritual": "Özgüvenin ve karizmanın parladığı bir dönemdeyiz; kendin olarak liderlik etme cesaretini göster. Durum, içindeki güçlü sesi duyurmak için fırsat sunuyor; fikrini açıkça ifade et, bu senin gücünü pekiştirecek. Kendine inan, zira bu inanç, etrafındakilere de ilham verir."
+        },
+        "reversed": {
+          "general": "Özgüven kırılmış olabilir; dış onay arayışı artar. Kendini küçültmek enerjiyi düşürür. İç merkeze dön.",
+          "love": "İlişkide kıskançlık ya da kontrol eğilimi doğabilir. Güven zayıfladığında bağ gerilir. Açık konuşmak gerekir.",
+          "career": "İş tarafında görünürlük korkusu ilerlemeyi engelleyebilir. Kendini saklama. Potansiyel görünmek ister.",
+          "spiritual": "Özgüvenin dalgalanıyor; başkalarıyla kıyaslama, seni sarmalayan bir gölge gibi. Durum, kendi gücünü hatırlamana ihtiyaç duyuyor. İçindeki potansiyeli keşfettikçe, kıyaslamaların yerini öz güven alır; bu, seni daha da güçlendirir."
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "Değnek Kralı",
+      "image": "35_king_wands",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "değnek",
+      "element": "ateş",
+      "meanings": {
+        "upright": {
+          "general": "Vizyon ve yön kartı: büyük resmi görüyorsun. Liderlik kontrol değil ilhamdır. İnsanlar yönünü takip eder.",
+          "love": "İlişkide güven veren bir duruş var; kararlılık bağ kurar. Partnerlik eşit güçle çalışır. Netlik rahatlatır.",
+          "career": "Kariyerde stratejik büyüme dönemi; liderlik ve yön belirleme öne çıkar. Risk alabilirsin çünkü zemin sağlam. Vizyon ilerletir.",
+          "spiritual": "Vizyoner bir liderlik, büyük resmi görmekte gizlidir; kararlılıkla ilerlerken sorumluluk ve ilhamı dengede tutmalısın. Durum, net bir yön belirlemeni gerektiriyor; kararını açıkça ifade et, bu, etrafındaki kalabalığı harekete geçirir."
+        },
+        "reversed": {
+          "general": "Otorite ile kontrol karışmış olabilir; baskı yaratır. Güç dayatma değildir. Esneklik gerekir.",
+          "love": "İlişkide dominant tutum mesafe doğurabilir. Dinlemek bağ kurar. Sertlik kırar.",
+          "career": "İş tarafında aşırı kontrol ekip yorar. Güven vermek daha etkilidir. Liderlik paylaşılır.",
+          "spiritual": "Kontrolcü hissettiğin bir dönemdesin; ilham kaybı, yaratıcılığını gölgede bırakıyor. Durum, baskının arttığını gösteriyor; liderliğini yumuşatmak, hem sana hem de çevrendekilere nefes aldırır. Esnek olmayı seçtiğinde, yeni fikirlerin kapısını aralayabilirsin."
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "Kupa Ası",
+      "image": "36_ace_cups",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Duygusal bir taşma veya kapasite genişlemesi deneyimleniyor; bastırılan hislerin yüzeye çıkması, içsel bir rahatlama yaratır. Bu durum, dışarıdan bir şey beklemekten ziyade, senin hissetme iznini kendine vermenle ilgilidir. Açık bir kalp, savunma mekanizmalarını gevşetir ve algıyı berraklaştırır.",
+          "love": "İlişkide savunmasız kalabilme cesareti, bağın niteliğini değiştirir. Korku yerine merakla yaklaşmak, karşı tarafı olduğu gibi görmeyi kolaylaştırır. Yeni bir duygu dalgası, iletişimin tonunu daha yumuşak ve kabul edici bir frekansa taşır.",
+          "career": "Yaratıcı dürtüler mantıksal süreçlerin önüne geçebilir; yapılan işe duygusal bir anlam yükleme ihtiyacı artar. İlham, zorlamayla değil, zihni serbest bırakınca gelir. Profesyonel alanda sezgiyi veri olarak kullanmak, farklı çözüm yolları sunabilir.",
+          "spiritual": "Duygusal olarak taze bir başlangıç yapıyorsun; kendini ifade etme arzusu, içindeki kıvılcımı ateşliyor. Durum, mantığın yerine hislerine güvenmeni gerektiriyor; bastırdığın duygular yüzeye çıkmak istiyor. Onlara izin ver; kabul etmek, rahatlatıcı bir yolculuğun anahtarı. Şimdi, hissettiğin baskın duyguyu tek kelimeyle tanımla ve bir yere not et; bu basit eylem, kendini keşfetmene yardımcı olacak."
+        },
+        "reversed": {
+          "general": "Duygusal tıkanıklık, ifade edilemeyen ihtiyaçların içeride birikmesine yol açar. Kendi kendine yetememe hissi, dışarıya karşı mesafeli veya tepkili bir duruş yaratabilir. Akışın durması, içsel bir onarım sürecinin gerekliliğini gösterir.",
+          "love": "Yakınlık kurma isteği ile incinme korkusu arasında bir çatışma yaşanıyor olabilir. Duyguları maskelemek, anlaşılma ihtimalini ortadan kaldırır. İçe çekilme, bazen bir korunma refleksi, bazen de çözülmemiş bir kırgınlığın yansımasıdır.",
+          "career": "Motivasyon kaybı, yapılan iş ile içsel dünya arasındaki bağın kopmasından kaynaklanabilir. Yaratıcılığın bloke olması, zihinsel yorgunluktan ziyade duygusal bir tükenişe işaret eder. Dinlenme ihtiyacını görmezden gelmek verimi düşürür.",
+          "spiritual": "Duygularını bastırmak, seni daha da sıkıştırıyor; ördüğün duvarlar, aslında özgürlüğünü engelliyor. Durum, içsel baskının artmadan bir çıkış yolu bulmanı gerektiriyor; kırılmaktan korkmak, hissetmekten kaçmana neden olmamalı. Kendine bugün, seni rahatsız eden konuyu dürüstçe itiraf et; sadece 10 dakika bu hisle kal ve özgürleş."
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": "Kupa İkilisi",
+      "image": "37_two_cups",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "İki tarafın birbirini yargısızca dinlediği ve anladığı bir denge hali mevcuttur. Bu kart, yansıtmaların azaldığı ve gerçeğin paylaşıldığı anları işaret eder. Uyum, tarafların kendi merkezlerinde kalarak buluşmasıyla sağlanır.",
+          "love": "İlişkideki dinamik, 'biz' olabilmek ile 'ben' kalabilmek arasındaki sağlıklı dengedir. Karşılıklı şeffaflık, güven sorunlarını doğal yollarla çözer. Birbirini onarmaya çalışmak yerine, sadece yanında durmak bile iyileştirici etki yaratır.",
+          "career": "İş birliklerinde senkronizasyon yüksek; ortak hedefler çatışmayı minimize eder. İyi bir müzakere, her iki tarafın da duyulduğunu hissettiği zeminde gerçekleşir. Güven temelli profesyonel ilişkiler, yazılı kurallardan daha hızlı sonuç verir.",
+          "spiritual": "İletişimin derin sularında yüzüyorsun; 'ben' ve 'biz' dengesini kurarak ilişkilerini besliyorsun. Durum, karşılıklı anlayışla dolup taşıyor; sınırlarını korurken başkalarını anlamak, kalbinin kapılarını açıyor. Bugün, değer verdiğin birine içten bir takdir cümlesi kur; bu, bağlarını daha da güçlendirecek."
+        },
+        "reversed": {
+          "general": "İletişim kanallarında bir kopukluk veya asimetri hissediliyor olabilir. Bir tarafın baskın, diğerinin çekinik kalması dengeyi bozar. Uyumsuzluk, genellikle söylenmeyen beklentilerin birikmesinden kaynaklanır.",
+          "love": "İlişkideki yansıtma mekanizmaları devreye girmiş olabilir; kendi korkularını partnerinde görüyor olabilirsin. Yanlış anlaşılmalar düzeltilmezse, duygusal mesafe kalıcı hale gelir. Bağlantı kopukluğu, güvensizliği tetikler.",
+          "career": "İş ortamında güven eksikliği veya uyumsuz ortaklıklar süreci yavaşlatır. Anlaşmazlıklar yüzeyde teknik görünse de temelde iletişim sorununa dayanır. Sözleşme veya sözlerin netleştirilmesi gerekir.",
+          "spiritual": "İletişimde bir yarık var; beklentilerin, gerçeklerle çatışıyor. Durum, kendini ifade edemediğin alanları keşfetmeni gerektiriyor; önce kendi ihtiyaçlarını netleştir. Suçlamalara kapılma, ilişkideki en temel ihtiyacını adlandır ve ona sahip çık; bu, sana güç verecek bir yolculuk."
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "Kupa Üçlüsü",
+      "image": "38_three_cups",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Sosyal destek sisteminin aktif olduğu, aidiyet hissinin güçlendiği bir dönem. Zorlukları tek başına yüklenmek yerine paylaşmak, psikolojik dayanıklılığı artırır. Toplulukla kurulan bağ, bireysel kaygıları hafifletir.",
+          "love": "İlişkiyi sadece iki kişi arasında değil, sosyal bir bağlam içinde yaşamak ilişkiye nefes aldırır. Dostluk temelli bir yaklaşım, romantik baskıyı azaltır. Paylaşılan deneyimler, bağın neşeli tarafını besler.",
+          "career": "Ekip içi dayanışma ve olumlu grup dinamiği, performanstan öte moral sağlar. Rekabet yerine işbirliği kültürü benimsendiğinde süreçler hızlanır. Başarının kolektif olarak kutlanması, motivasyonu sürdürülebilir kılar.",
+          "spiritual": "Sosyal çevrenle bir arada olma zamanı; paylaşım, ruhunu besliyor ve destek almak moralini yükseltiyor. Durum, yalnız kalmak yerine insan içine karışmanın zihnini açtığını gösteriyor; arkadaşlıkların, bu dönemde sana güç veriyor. Bugün, sana iyi gelen bir arkadaşını ara; gündemsiz, keyifli bir sohbet başlatarak enerjini tazele."
+        },
+        "reversed": {
+          "general": "Sosyal çevrenin beklentileri veya grup içindeki gerilimler bireyi yorabilir. Kalabalık içinde anlaşılmama hissi, yanlış yerde olunduğunu gösterir. Bazen kendi alanına çekilmek, sosyal maskelerden kurtulmak için gereklidir.",
+          "love": "Dış faktörlerin veya üçüncü kişilerin ilişki üzerindeki etkisi yıpratıcı olabilir. Özel hayatın sınırlarını koruyamamak, çift arasındaki güveni zedeler. Dedikodu veya kıyaslama, ilişkiyi içeriden kemirir.",
+          "career": "İş yerinde gruplaşmalar veya dışlanma, profesyonel aidiyeti zayıflatır. Ekip uyumsuzluğu, bireysel performansı da aşağı çeker. Yüzeysel ilişkiler, derinleşmeyi ve güveni engeller.",
+          "spiritual": "Kalabalıklar içinde kaybolmuş hissediyorsun; sosyal çevrenin gürültüsü, içini kemiriyor. Dedikodular ve yüzeysel ilişkiler, enerjini emiyor; bu yüzden kendi alanına çekilmek en iyisi. Durum, bugünkü planlarından birini iptal etmen gerektiğini söylüyor; kendine ayıracağın zaman, ruhunu besleyecek."
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "Kupa Dörtlüsü",
+      "image": "39_four_cups",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Dış dünyadaki uyaranlara karşı bir tepkisizlik veya içe dönük bir memnuniyetsizlik hali. Sunulan fırsatların tatmin etmemesi, aslında daha derin bir anlam arayışının göstergesidir. Bu durağanlık, neyin eksik olduğunu fark etmek için bir mola işlevi görür.",
+          "love": "Mevcut ilişki veya adaylar heyecan yaratmıyor olabilir; bu durum kişinin kendi içindeki donukluktan kaynaklanabilir. Rutin, güvenli olsa da duygusal canlılığı köreltir. Beklentileri sorgulamak, dışarıyı suçlamaktan daha verimlidir.",
+          "career": "Kariyerde bir plato dönemi; işler yolunda gitse bile motivasyon eksikliği hissedilebilir. Tekdüzelik, yaratıcılığı baskılayan bir faktör haline gelmiştir. Bu his, rotayı yeniden gözden geçirmek için bir veridir.",
+          "spiritual": "Duygusal durgunluk, seni saran bir sis gibi; fırsatlar önünde dururken, içindeki bıkkınlık canını sıkıyor. Bu durum, ne istediğini sorgulamak için bir fırsat sunuyor; bakış açını değiştirmek elinde. Bugün, rutininde seni sıkan tek bir şeyi fark et ve ona karşı cesur bir adım at; değişim, küçük dokunuşlarla başlar."
+        },
+        "reversed": {
+          "general": "İçsel izolasyonun sonuna gelindiği ve dikkatin tekrar dış dünyaya yöneldiği bir geçiş evresi. Atlanan detaylar veya reddedilen seçenekler yeni bir gözle değerlendirilir. Harekete geçme isteği, zihinsel sisi dağıtır.",
+          "love": "İlişkideki iletişimsizliği kırma ve yeniden bağ kurma girişimi başlar. Kendi duvarlarını indirmek, karşı tarafın adım atmasına olanak tanır. Pasif bekleyiş yerini aktif bir ilgiye bırakır.",
+          "career": "Tükenmişlik hissinden sıyrılıp yeni projelere veya yöntemlere ilgi duyulmaya başlanır. İlhamın geri gelmesiyle birlikte ertelemeler sona erer. Fırsatları değerlendirme refleksi güçlenir.",
+          "spiritual": "Ağırlık yavaşça kalkıyor ve motivasyonun yeniden canlanıyor; harekete geçme isteğin, yeni fırsatları kucaklamak için parlıyor. Durum, içe kapanma döneminin sona erdiğini gösteriyor; artık dış dünyayla buluşmaya hazırsın. Bu uyanışı değerlendir; ertelediğin bir işe ya da hobiye taze bir enerjiyle atılmak, hayatına yeni bir soluk getirecek."
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "Kupa Beşlisi",
+      "image": "40_five_cups",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Odak noktası kaybedilenlere kilitlendiğinde, elde kalan potansiyel görünmez hale gelir. Yas ve hayal kırıklığı doğal süreçlerdir ancak bu duruma saplanmak algıyı daraltır. Geçmişe dönük pişmanlık, şimdiki zamanı yönetmeye başladığında ilerleme durur.",
+          "love": "Biten bir hikayenin veya karşılanmayan bir beklentinin gölgesi, mevcut ilişkiyi etkiliyor olabilir. Sürekli geriye bakmak, yanındaki kişinin varlığını silikleştirir. Duygusal iyileşme, kaybı kabul etmekle başlar.",
+          "career": "Başarısızlık veya hata yapma korkusu, yeni girişimleri bloke edebilir. Olumsuz deneyimleri genelleştirmek, profesyonel özgüveni zedeler. Kriz yönetimi, hatayı analiz edip yola devam etmeyi gerektirir.",
+          "spiritual": "Hayal kırıklıkları seni derin bir karanlığa çekebilir; kaybettiğin şeylerin ağırlığı altında ezilmek yerine, ayakta kalmayı seç. Yas tutmak insani ama orada kaybolmak, seni ilerlemekten alıkoyar. Geriye dönüp bakmak yerine, elindeki sağlam kaynaklara odaklan; bugün, seni üzen konuyu yaz ve yanına şu an sahip olduğun iki olumlu şeyi ekle, bu senin için bir ışık kaynağı olsun."
+        },
+        "reversed": {
+          "general": "Kabullenme süreciyle birlikte bakış açısı değişir ve çözüm yolları görünür hale gelir. Kederin yoğunluğu azalır, yerini daha sakin bir farkındalığa bırakır. Geleceği inşa etme iradesi, geçmişin ağırlığından kurtuldukça güçlenir.",
+          "love": "Eski yaraların iyileşmeye başladığı ve kalbin yeni ihtimallere açıldığı bir dönem. Affetmek, karşı tarafı değil, kişinin kendisini özgürleştirir. İlişkideki tıkanıklıklar, dürüst bir yüzleşmeyle çözülür.",
+          "career": "Kariyerdeki aksiliklerden ders çıkarıp, deneyimi bir avantaja dönüştürme evresi. Hata yapmanın öğrenmenin bir parçası olduğu kabul edilir. Yeniden yapılanma süreci başlar.",
+          "spiritual": "Yaralarını sarıyorsun; geçmişin yükü birer birer düşerken, geleceğe umutla bakmaya başlıyorsun. Hatalardan ders çıkarmak, toparlanmanın anahtarıdır; kendine affettiğin bir hatayı sesli söyle ve bu konuyu kapat. Unutma, her kapanış yeni bir başlangıçtır; cesaretle ilerle ve yolunu aydınlat."
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "Kupa Altılısı",
+      "image": "41_six_cups",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Geçmişin güvenli ve tanıdık sularına duyulan özlem artabilir. Nostalji, zorlu bir 'şimdi'den kaçış olarak değil, köklerden güç alma aracı olarak kullanıldığında besleyicidir. Saf niyet ve basitlik, karmaşık sorunların çözümünde yol gösterici olabilir.",
+          "love": "İlişkilerde eski defterler açılabilir veya geçmişten gelen biri gündeme gelebilir. Bağ kurarken daha masum ve beklentisiz bir yaklaşım benimsemek gerilimi azaltır. Hatıralar, bugünkü bağın temelini hatırlatır.",
+          "career": "Eski yöntemler veya daha önce denenmiş projeler tekrar değerlendirilebilir. Güvenli alanda kalmak ve riskten kaçınmak, şu an için stratejik bir tercih olabilir. Geçmiş deneyimler, bugünkü problemlere rehberlik eder.",
+          "spiritual": "Geçmişin sıcak hatıraları seni sarıp sarmalıyor; tanıdık duygular, kalbinde bir güven oluşturuyor. Basitlik ve samimiyet arayışı içindesin; nostalji, bugünü yeniden inşa etme gücünü taşıyor. Durum, çocukluğunda sevdiğin bir aktiviteyi 15 dakika boyunca yapman; bu kısa süre, ruhunu besleyecek ve geçmişin ışığında yol almanı sağlayacak."
+        },
+        "reversed": {
+          "general": "Geçmişe takılı kalmak, bireysel büyümeyi ve bugüne adaptasyonu zorlaştırabilir. Eski günleri idealize etmek, şimdiki zamanın getirdiği sorumluluklardan kaçış yolu olabilir. Gelişim, ancak geçmişin geride bırakılmasıyla mümkündür.",
+          "love": "Eski ilişki dinamiklerini veya kişileri bugüne taşımak, mevcut uyumu bozar. 'Eskiden şöyleydi' kıyaslaması, partnerde yetersizlik hissi yaratır. Olgunlaşmak, değişimi kabul etmeyi gerektirir.",
+          "career": "Değişen piyasa koşullarına veya yeni teknolojilere direnç göstermek profesyonelliği zedeler. Eski başarıların gölgesinde yaşamak, yeni hedefler koymayı engeller. Konfor alanından çıkmak zorunlu hale gelebilir.",
+          "spiritual": "Geçmişin ağı, seni bugünden koparıyor; o eski günlere sığınmak, büyümekten kaçış değil, kayıplarını beslemek. Nostalji, bir tuzak olmamalı; şimdiye odaklanmalısın. Durum, seni geçmişte tutan bir eşyayı ya da fotoğrafı bugün göz önünden kaldırmak; bu, özgürlüğe giden ilk adımın olacak."
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": "Kupa Yedilisi",
+      "image": "42_seven_cups",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Zihinsel bir dağınıklık veya seçenek bolluğu arasında kaybolma durumu. Hayal gücü aktiftir ancak hangisinin gerçekçi olduğunu ayırt etmek zorlaşabilir. Karar vermeden önce her seçeneğin bedelini ve getirisini iyi analiz etmek gerekir.",
+          "love": "İdealize edilen bir partner imajı veya birden fazla olasılık, odaklanmayı engeller. Gerçek ilişki ile fantezi dünyası arasındaki makas açıldıkça tatminsizlik büyür. Ne aradığını bilmemek, yanlış seçimlere zemin hazırlar.",
+          "career": "Birçok fikir havada uçuşur ancak somut bir eylem planı eksiktir. Odaklanma sorunu, projelerin yarım kalmasına neden olabilir. Hedefleri daraltmak ve önceliklendirmek şarttır.",
+          "spiritual": "Zihnin, seçeneklerle dolup taşıyor; ama eylemsizlik seni duraklatıyor. Hayal kurmak, güvenli bir liman; ama bu limanda kalmak seni oyalıyor. Durum, önceliklerini belirlemezsen enerjin dağılacak. Şimdi, aklındaki projelerden birini seç ve onun için cesur bir adım at; bu ilk adım, yolunu netleştirir."
+        },
+        "reversed": {
+          "general": "Bulanık olan tablo netleşir; illüzyonlar dağılır ve gerçekler görünür hale gelir. Seçenekleri elemek ve tek bir yola girmek kolaylaşır. Zihinsel berraklık, kararlılığı beraberinde getirir.",
+          "love": "Beklentiler daha gerçekçi bir zemine oturur; imkansızı aramak yerine mevcut olanın değeri anlaşılır. İlişkide netlik kazanmak, belirsizliğin yarattığı kaygıyı bitirir. Dürüst bir değerlendirme yapılır.",
+          "career": "Uygulanabilir olmayan projeler elenir, enerji tek bir hedefe kanalize edilir. Dağınıklık yerini stratejik bir plana bırakır. Sonuç odaklı çalışmak verimi artırır.",
+          "spiritual": "Belirsizlik dağılırken, net bir yol haritası belirliyorsun; hayalperestlikten gerçekçiliğe adım atma vakti. Zihin, seçenekleri eleyip odaklanmaya yöneliyor; bu netlik, hedefine ulaşmanın anahtarı. Yapılacaklar listeni sadeleştir; en önemli maddeyi hemen tamamlayarak ilerlemeye başla."
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": "Kupa Sekizlisi",
+      "image": "43_eight_cups",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Duygusal olarak artık besleyici olmayan bir durumdan veya ortamdan uzaklaşma ihtiyacı. Bu bir kaçış değil, daha derin bir anlam arayışının sonucudur. Ait hissetmediğin yerde kalmak, içsel bütünlüğü zedeler.",
+          "love": "İlişkide her şey yolunda görünse bile bir eksiklik hissi baskın gelebilir. Sorun çatışma değil, bağın derinliğini yitirmesidir. Gitme kararı, kendine duyulan saygıdan kaynaklanır.",
+          "career": "Kariyerde bir dönemin kapandığı hissedilir; mevcut başarılar artık tatmin etmez. Daha anlamlı veya değerlerle örtüşen bir yol arayışı başlar. Statüden vazgeçip iç huzuru seçmek gündeme gelir.",
+          "spiritual": "Bir durumu geride bırakma cesaretini gösteriyorsun; bu, bir vazgeçiş değil, daha anlamlı bir şey arayışının başlangıcı. Konfor alanından çıkmak korkutucu, ama unutma ki kalmak daha yıpratıcı. Gitme vaktinin geldiğini kabullen; bugün, alışkanlıktan tutunduğun bir şeyi belirle ve ona veda et."
+        },
+        "reversed": {
+          "general": "Değişim ihtiyacı belirgin olsa da belirsizlik korkusu kişiyi olduğu yerde tutar. Gitmek mi kalmak mı ikilemi zihinsel bir felç yaratır. Konfor alanının yarattığı atalet, mutsuzluğa rağmen hareketi engeller.",
+          "love": "Bitmesi gereken bir ilişkiyi uzatmak veya yalnızlık korkusuyla toksik bir bağa tutunmak. 'Belki düzelir' düşüncesi, gerçekçi bir umuttan ziyade bir erteleme taktiğidir. Yüzleşmekten kaçınmak süreci zorlaştırır.",
+          "career": "İşten ayrılma isteği vardır ancak maddi kaygılar veya güvensizlik baskın çıkar. Memnuniyetsizlik sürekli şikayete dönüşür ama eylem gelmez. Risk alamamak, tükenmişliği artırır.",
+          "spiritual": "Kararsızlık seni zincirliyor; adım atamadığın her an, ruhunun ağırlığını artırıyor. Bilinmezlik korkusu, mutluluğunu elinden alır; bu karanlık, ne kadar tanıdık olursa olsun, seni köreltiyor. Korkunu isimlendir ve 'burada kalmanın bedeli ne?' sorusunu kendine sor; özgürleşmek için cesaretin en büyük müttefikin olacak."
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "Kupa Dokuzlusu",
+      "image": "44_nine_cups",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Bireysel tatmin ve içsel huzurun yüksek olduğu bir denge noktası. Dış onaya ihtiyaç duymadan, kendi varlığından hoşnut olma hali deneyimlenir. Mutluluk, bir hedefe ulaşmaktan çok, mevcut anın tadını çıkarabilme yeteneğidir.",
+          "love": "Kişinin kendiyle barışık olması, ilişki dinamiklerine olumlu yansır. Özgüven ve rahatlık, çekim gücünü artırır. İlişkide keyif, neşe ve şükran duyguları ön plandadır.",
+          "career": "Emeklerin karşılığının alındığı ve başarı hissinin tadıldığı bir evre. Profesyonel hedeflere ulaşmış olmanın verdiği rahatlık, stresi azaltır. Kendini kanıtlama çabası sona erer, yerini ustalığa bırakır.",
+          "spiritual": "Bir tatmin ve özgüven dönemindesin; kendi gücünü keşfedip, başardıklarının değerini hissediyorsun. Dış onay arayışına son ver; içsel mutluluğun, gerçek gücün. Bugün, kendine bir mola vermek, kendini takdir etmenin en güzel yolu; bu anın tadını çıkar."
+        },
+        "reversed": {
+          "general": "Dışarıdan mükemmel görünen tablonun ardında bir tatminsizlik yatabilir. Haz odaklı yaşamak, derinleşmeyi ve anlam arayışını gölgeleyebilir. 'Daha fazlasını istemek', elindekinin değerini bilmeyi zorlaştırır.",
+          "love": "İlişkide benmerkezci tutumlar veya empati eksikliği sorun yaratabilir. Sadece kendi ihtiyaçlarına odaklanmak, karşı tarafı nesneleştirir. Yüzeysel bir uyum, derin bir bağın yerini tutmaz.",
+          "career": "Başarıya rağmen hissedilen boşluk, hedeflerin yanlış seçildiğini gösterebilir. Kibir veya rehavet, gelişimin durmasına neden olur. Potansiyelini tam kullanamama hissi rahatsız eder.",
+          "spiritual": "Durum, dışarıdaki görüntü yanıltıcı; içindeki boşluk, seni derin bir arayışa itiyor. Mutluluğu geçici hazlarda aramak yerine, kalbine dokunan anlara yönelmelisin. Gerçek tatmin, ruhunun derinliklerinde saklı; oyalayıcı zevkleri bir kenara bırakıp, sade bir eylemle kendini besle."
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": "Kupa Onlusu",
+      "image": "45_ten_cups",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Duygusal bütünlük ve ait olma hissinin tam olarak deneyimlendiği bir durum. İç dünya ile dış dünya arasındaki çatışmaların dindiği, sürdürülebilir bir huzur hali. Uyum, mükemmellikten değil, kabulden ve ortak değerlerden doğar.",
+          "love": "İlişkide derin bir güven ve gelecek vizyonu paylaşımı söz konusudur. Bağ, sadece romantik değil, ailesel ve köklü bir yapıya evrilir. Ortak bir yaşam kurgusu, bireylere güven alanı sağlar.",
+          "career": "İş hayatında ekip uyumu ve değerlerle örtüşen bir çalışma ortamı. Yapılan işin toplumsal veya bireysel bir anlam taşıması, tatmini artırır. Aidiyet hissi, performansı doğal olarak yükseltir.",
+          "spiritual": "İçsel huzurun, sevdiklerinle kurduğun bağlarda şekilleniyor; duygusal bütünlük, kalbindeki sıcaklığı besliyor. Güven ve destek hissetmek, bu ortamın en büyük hediyesi. Durum, bugün samimi bir mesajla onlara değer verdiğini hissettirmek; bu küçük jest, aranızdaki bağı daha da güçlendirir."
+        },
+        "reversed": {
+          "general": "İdealize edilen yaşam ile gerçeklik arasındaki fark hayal kırıklığı yaratabilir. Dışarıya karşı sürdürülen 'mutlu' imajı, içerideki kopukluğu maskeliyor olabilir. Uyumsuzluk, görmezden gelindikçe büyür.",
+          "love": "Ailevi sorunlar veya partnerle yaşanan değer çatışmaları huzuru bozabilir. İlişkinin formu devam etse de içeriği boşalmış olabilir. Gerçek bağ yerine alışkanlıkların sürdürülmesi yorucudur.",
+          "career": "Kurum kültürü ile kişisel değerler arasında bir doku uyuşmazlığı. Kendini o yere ait hissetmemek, motivasyonu içten içe tüketir. Ekip içi çatışmalar huzursuzluk kaynağıdır.",
+          "spiritual": "İlişkilerde bir uyumsuzluk hissediyorsun; mükemmel görünme çaban, gerçek bağlarını zayıflatıyor. Beklentilerin karşılanmadığında hayal kırıklığı içinde kaybolmamalısın; sorunları göz ardı etmek yerine yüzleşmelisin. Rahatsız olduğun konuları, suçlamadan 'ben dili' ile ifade ettiğinde, kalplerdeki duvarlar yıkılabilir."
+        }
+      }
+    },
+    {
+      "id": 46,
+      "name": "Kupa Prensi",
+      "image": "46_page_cups",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Yeni duygusal deneyimlere açık olma ve sezgisel mesajları fark etme hali. Mantığın devreden çıktığı, iç sesin ve hayal gücünün rehberlik ettiği bir başlangıç evresi. Kırılganlık, bir zayıflık değil, alıcı olmanın bir gereği olarak görülür.",
+          "love": "İlişkiye dair naif ve beklentisiz bir merak duygusu hakimdir. Küçük bir jest veya adım, büyük bir potansiyeli içinde barındırabilir. Duyguları ifade ederken yaşanan acemilik, samimiyetin göstergesidir.",
+          "career": "Yaratıcı fikirlerin filizlendiği ancak henüz somutlaşmadığı bir dönem. Sanatsal veya sezgisel yaklaşımlar, iş süreçlerine yeni bir soluk getirebilir. Öğrenmeye ve keşfetmeye istekli bir zihin yapısı öne çıkar.",
+          "spiritual": "Duygusal merakın seni yeni ufuklara çağırıyor; sezgilerin, bilinmeyen bir yönü keşfetmeni istiyor. Mantığın arka planda kalmalı; hislerine güven, naif bir başlangıç seninle. Beklenmedik ilhamlar kapını çalabilir; bugün, aklına gelen yaratıcı fikirleri yargılamadan not al; içindeki potansiyeli serbest bırak."
+        },
+        "reversed": {
+          "general": "Duygusal olgunlaşmamışlık veya aşırı alınganlık, olayları net görmeyi engeller. İç dünyadaki karmaşa, dışarıya tutarsız tepkiler olarak yansır. Hayal dünyasına kaçış, gerçek sorumluluklardan uzaklaştırır.",
+          "love": "İlişkide pasif agresif tutumlar veya çocuksu beklentiler iletişimi tıkar. Kendi duygularını yönetememek, karşı tarafı suçlamaya iter. İlgisizlik veya reddedilme korkusu abartılı yaşanır.",
+          "career": "Yaratıcı tıkanıklık veya fikirlerin ciddiye alınmaması hayal kırıklığı yaratır. İş disiplininden kopup, sadece ilham beklemek süreci aksatır. Profesyonel dünyada duygusal tepkiler vermek itibar zedeler.",
+          "spiritual": "Duygusal savunmasızlık seni sarhoş etmiş; küçük meseleler devasa sorunlar haline geliyor. Durum, içindeki çocuğun hırçınlaşmasıyla alakalı; sakinleşmeden tepki vermek, sadece durumu kötüleştirir. Derin bir nefes al ve olaylara olgun bir gözle bak; bu, seni daha sağlam bir temele oturtur."
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "Kupa Şövalyesi",
+      "image": "47_knight_cups",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Duyguları eyleme dökme ve idealist bir vizyonun peşinden gitme isteği. Sadece hissetmekle kalmayıp, bu hissi bir ifadeye veya ilişkiye dönüştürme motivasyonu yüksektir. Kalbin rehberliği, mantığın sınırlarını aşar.",
+          "love": "Romantizmin ve duygusal derinleşmenin öncelik kazandığı bir süreç. İlişkiye yatırım yapma ve duyguları açıkça paylaşma cesareti gösterilir. Cazibe, şeffaflık ve zarafetten beslenir.",
+          "career": "Tutku duyulan bir alanda ilerleme veya işe yaratıcı bir vizyon katma çabası. Diplomatik yetenekler, zor kapıları açan anahtar rolü görür. İkna kabiliyeti, duygusal zeka ile birleşir.",
+          "spiritual": "Zaman, duygularının peşinden koşma zamanı; mantık bir kenarda dursun, tutku ve idealler direksiyonda. Romantik veya yaratıcı bir konuda harekete geçme arzusu içindesin; bu enerji, seni ileriye taşıyor. Durum, bugün tutku duyduğun konuda beklemeyi bıraktığında değişiyor; niyetini belli eden nazik bir adım atmak, kapıları açar."
+        },
+        "reversed": {
+          "general": "Duygusal dalgalanmaların karar mekanizmasını bozduğu bir durum. Gerçeklerden kopuk hayaller peşinde koşmak, hayal kırıklığı riskini artırır. Bir gün istekli, ertesi gün vazgeçmiş bir ruh hali ilerlemeyi durdurur.",
+          "love": "İlişkide tutarsız davranışlar veya gerçekçi olmayan beklentiler yorucu olabilir. Partneri idealize edip sonra kusurlarını görünce soğumak, bağlanma sorununa işaret eder. Duygusal manipülasyona dikkat edilmelidir.",
+          "career": "İş hayatında disiplin eksikliği ve odaklanma sorunu yaşanabilir. Projeler heyecanla başlar ama bitirilmeden bırakılır. Profesyonel sorumluluklar, ruh haline göre yönetilemez.",
+          "spiritual": "Duygusal dalgalanmalar seni yönlendirmemeli; bir gün ateşle yanarken, ertesi gün sönmüş bir kömür olabilirsin. Gerçekçi olmayan beklentiler, seni yıpratıyor; bu durumda sabırlı olmalısın. Büyük kararlar almadan önce ayaklarını yere bas; hislerinin geçmesini beklemek, dengeyi yeniden bulmanı sağlayacak."
+        }
+      }
+    },
+    {
+      "id": 48,
+      "name": "Kupa Kraliçesi",
+      "image": "48_queen_cups",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Derin bir sezgisel kavrayış ve duygusal denge hali. Kendi iç dünyasıyla temas halinde olmak, dışarıdaki olayları daha sakin karşılamayı sağlar. Empati, bir zayıflık değil, olayları çözümleme gücüdür.",
+          "love": "İlişkide anlayışlı ve kapsayıcı bir tutum, güvenli bir alan yaratır. Partnerin duygusal ihtiyaçlarını sezebilmek, iletişimsizliği önler. Şefkat, bağın en güçlü çimentosudur.",
+          "career": "İş ortamında duygusal zeka ile yönetilen süreçler başarı getirir. İnsan odaklı yaklaşım ve dinleme becerisi, krizleri yumuşatır. Sezgiler, mantıksal verilerin göremediği detayları yakalar.",
+          "spiritual": "Empatiyle örülmüş bir dünya içindesin; sezgilerin, seni derin anlayışa yönlendiriyor. Duygusal zekan, bu yolculukta en güvenilir rehberin; başkalarını dinlerken kendini de unutmuyorsun. Durum, bazen bir sorunun çözümünden ziyade, sadece dinlemenin gücünde gizlidir; bugün etrafındakilere kulak ver, şefkatinle onlara ışık ol."
+        },
+        "reversed": {
+          "general": "Başkalarının duygusal yüklerini üstlenmek, sınır ihlallerine ve tükenmişliğe yol açar. Kendi ihtiyaçlarını yok sayarak verici olmak, zamanla içerlemeye dönüşür. Duygusal sınırların yeniden çizilmesi gerekir.",
+          "love": "İlişkide bağımlılık geliştirme veya kendini feda etme eğilimi görülebilir. Kaybetme korkusuyla aşırı uyumlu davranmak, öz saygıyı zedeler. Duygusal manipülasyona açık hale gelinmiş olabilir.",
+          "career": "İş hayatında eleştirileri kişiselleştirmek veya aşırı hassasiyet göstermek profesyonelliği etkiler. Başkalarının sorunlarını çözmeye çalışmaktan kendi işine odaklanamama riski vardır. Duygusal mesafe koymak şarttır.",
+          "spiritual": "Durum, başkalarının dertlerini yüklenmek seni tüketiyor; sınırların belirsizleşiyor ve duygusal yükün artıyor. Kendini feda etme rolünden sıyrılmalısın; önce kendi maskeni takmalısın. Bugün, hayır demekte zorlandığın bir talebi reddet ve o zamanı kendine ayır; çünkü kendi ihtiyaçların, başkalarına yardım etmeden önce gelmeli."
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": "Kupa Kralı",
+      "image": "49_king_cups",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "kupa",
+      "element": "su",
+      "meanings": {
+        "upright": {
+          "general": "Duygusal olgunluk, hislerin kontrol edilmesi değil, onların bilgece yönetilmesidir. Kaos anlarında bile içsel dengeyi koruyabilmek, çevresel etkilere karşı bağışıklık kazandırır. Tepki vermek yerine yanıt vermek, gücün göstergesidir.",
+          "love": "İlişkide istikrarlı, şefkatli ve güven veren bir duruş sergilenir. Sorunlar drama yaratılmadan, sükunetle ve anlayışla çözülür. Sevgi, sözlerden çok tutarlı davranışlarla ifade edilir.",
+          "career": "Liderlik tarzı, ekibin motivasyonunu ve psikolojisini gözeterek şekillenir. Kriz anlarında panik yapmadan çözüm üretmek, otoriteyi sağlamlaştırır. Diplomatik dil, en zorlu müzakereleri bile açar.",
+          "spiritual": "Duygusal olgunluğun bir ışık gibi parlıyor; kriz anlarında bile sükunetinle etrafına güven veriyorsun. Durum, hislerini yönetme yeteneğini sergilemek için bir fırsat; zorlayıcı bir durumda tepkini değil, sakinliğini seç. Bu denge, doğru kararlar almanı sağlıyor; derin bir nefes al ve olaylara en sakin tarafınla yaklaş."
+        },
+        "reversed": {
+          "general": "Bastırılmış duygular veya yönetilemeyen dürtüler, denge kaybına yol açar. Dışarıya soğuk bir maske takarken içeride fırtınalar kopuyor olabilir. Manipülatif davranışlar, içsel güvensizliğin bir yansımasıdır.",
+          "love": "İlişkide duygusal erişilmezlik veya gizli ajandalar güveni sarsar. Partneri kontrol etme isteği, sevgi eksikliğini örtmeye çalışıyor olabilir. Samimiyetsizlik, bağın temelini çürütür.",
+          "career": "İş hayatında ruh haline göre değişen kararlar, tutarsızlık algısı yaratır. Pasif agresif tutumlar veya sorumluluktan kaçış, liderlik vasfını zedeler. Güvenilirlik sorunu yaşanabilir.",
+          "spiritual": "Duyguların bir dalga gibi kabarıyor; kontrolün kayboluyor ve bu, ilişkilerini tehdit ediyor. Manipülasyon ve patlamalar, içindeki fırtınanın dışa vurumu. Durum, gergin anlarda iletişimi kesmeni gerektiriyor; sakinleşene kadar kendine bir nefes al. Kendini toparladığında, duygularını yönetme gücünü yeniden kazanabilirsin."
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": "Kılıç Ası",
+      "image": "50_ace_swords",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Zihinsel berraklık ani bir keskinlik kazanıyor; bir şeyi artık olduğundan farklı görmen mümkün değil. Gerçeği fark etmek rahatlatıcı değil ama özgürleştiricidir. Bu kart, illüzyon yerine netliği seçme anını temsil eder.",
+          "love": "İlişkide dürüst konuşmalar kaçınılmaz hale gelebilir. Gerçekleri saklamak bağ kurmaz, sadece geciktirir. Açık iletişim kısa vadede sert, uzun vadede iyileştiricidir.",
+          "career": "Profesyonel alanda net karar zamanı; bulanık hedefler artık sürdürülemez. Analitik düşünce duygunun önüne geçebilir ve bu geçici olarak gereklidir. Keskinlik, doğru kullanılırsa yön verir.",
+          "spiritual": "Zihninde bir sis kalkıyor; karanlıkta yolunu bulmak için parlayan bir ışık beliriyor. Durum, gerçekliği olduğu gibi kabul etmeye ve maskeleri indirmeye davet ediyor. Dürüstlük, kendinle ve etrafındakilerle arandaki mesafeyi kapatıyor; düşüncelerini netleştirdikçe, duygularını da özgürleştiriyorsun. Soruların kafanı kurcalıyorsa, onları sadeleştir; ana sorunu tek bir cümlede tanımlamak, zihnindeki karmaşayı dağıtacak."
+        },
+        "reversed": {
+          "general": "Zihin aşırı yüklenmiş olabilir; düşünce netleşmek yerine dolaşıyor. Gerçekle yüzleşmekten kaçınmak kafa karışıklığını büyütür. Sis dağılmadan karar vermek risklidir.",
+          "love": "Yanlış anlaşılmalar iletişimi zehirleyebilir. Söylenmeyen şeyler söylenenlerden daha ağır olabilir. Konuşmamak çözüm değildir.",
+          "career": "İş tarafında bilgi eksikliği veya yanlış analiz ilerlemeyi durdurabilir. Hızlı karar yerine durup kontrol etmek gerekir. Acele düşünce hatayı büyütür.",
+          "spiritual": "Zihin karışık ve düşünceler bulanık; fazla bilgi ve içsel çelişkiler, seni çıkmaza sokuyor. Durum, kaçmak istediğin bir gerçekle yüzleşmekten kaynaklanıyor; netlikten uzaklaştıkça, belirsizlik seni sarıyor. Aceleci kararlar, hataya sürükleyebilir; bu yüzden, bugün önemli bir karar vermek yerine, sorunu doğru tanımlamaya odaklan. Kendini netleştir, ve doğru soruları sor."
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "Kılıç İkilisi",
+      "image": "51_two_swords",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Karar erteleniyor çünkü iki seçenek de bedel içeriyor. Denge gibi görünen şey aslında askıda kalmışlıktır. Tarafsız kalmak bile bir seçimdir.",
+          "love": "İlişkide konuşulmayan bir mesele beklemede olabilir. Sessizlik huzur değil, geçici askıdır. Netlik olmadan bağ ilerlemez.",
+          "career": "Profesyonel bir yol ayrımı görünür; iki yön de risk taşır. Kararsızlık enerjiyi tüketir. Seçim yapmak ilerlemeyi başlatır.",
+          "spiritual": "Kararsızlık, iki düşünce arasında sıkışmışlık demek; bu durum, mantığın duygularını bastırma çabasını yansıtıyor. Kendini ‘yanlış yapmamak’ isteğiyle zorlamaktan vazgeç; beklemek de bir seçimdir. İki seçeneğin artılarını ve eksilerini yaz, hangi yol seni uzun vadede daha fazla rahatlatacak, ona odaklan."
+        },
+        "reversed": {
+          "general": "Kaçınılan karar artık yüzeye çıkıyor. Denge bozuldu çünkü gerçek bastırılamıyor. Görmezden gelmek çözüm değil.",
+          "love": "Duygusal kaçış ilişkiyi zayıflatır. Açık konuşma ertelendikçe gerilim büyür. Yüzleşme iyileştiricidir.",
+          "career": "Yanlış seçim korkusu hareketi durdurmuş olabilir. Hata yapma ihtimali gelişimin parçasıdır. Donmak en büyük kayıptır.",
+          "spiritual": "Gözlerini kapalı tutma dönemi bitiyor; artık karar verme zamanı. Durum, bastırılmış duyguların yüzeye çıkmasıyla yoğunlaşıyor. Erteleme, seni korumaktan çok, seni köreltiyor; korkunu isimlendir ve bu yükten kurtul. Belirsizlik, eyleme geçmediğinde daha da büyür."
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "Kılıç Üçlüsü",
+      "image": "52_three_swords",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Kırılma anı acıtır çünkü gerçeği açığa çıkarır. İnkâr sona erdiğinde iyileşme başlar. Acı bilgi taşır.",
+          "love": "Kalp kırıklığı yüzleşilmeden geçmez. Bastırılan duygu iyileşmez, donar. Yas tutulmadan bağ kapanmaz.",
+          "career": "Profesyonel hayal kırıklığı kişisel algılanabilir ama öğretici olabilir. Başarısızlık kimlik değildir. Deneyim sert ama nettir.",
+          "spiritual": "Zihninde bir kırılma var; hayal kırıklığı ve incinme, kalbini sarmalıyor. Durum, acıyı kabullenmek ve yüzleşmek için bir fırsat sunuyor; yok saymak, iyileşmeni geciktirir. Duygularını bir kenara bırak ve seni inciten durumu sade bir cümleyle ifade et; bu, karanlığa ışık tutacaktır."
+        },
+        "reversed": {
+          "general": "İyileşme başlamış olabilir ama izler hâlâ hassas. Acıyı inkâr etmek değil, anlamlandırmak gerekir. Zaman tek başına çözmez.",
+          "love": "Affetme süreci sancılı ama mümkündür. Geçmişi taşımak bugünü bozar. Serbest bırakmak hafifletir.",
+          "career": "Kırgınlık işe yansıyorsa performans düşer. Duygusal temizlik profesyonel netlik getirir. Yük hafifledikçe hareket kolaylaşır.",
+          "spiritual": "İyileşme süreci başlıyor; acı, artık seni esir almıyor. Durum, geçmiş yaraların üzerine gitmek yerine ileriye adım atmanı gerektiriyor; kendinle barıştığın yeri keşfet. Bu noktayı kağıda dök, içsel huzurun kapısını arala."
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": "Kılıç Dörtlüsü",
+      "image": "53_four_swords",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Zihin dinlenme talep ediyor. Sürekli hareket berraklık getirmez. Durmak onarıcıdır.",
+          "love": "İlişkide mesafe ihtiyaç olabilir. Alan yaratmak kopuş değildir. Sessizlik bazen şifadır.",
+          "career": "Profesyonel mola verim düşüşü değil yatırım olabilir. Dinlenmeyen zihin hata yapar. Tempo bilinçli ayarlanmalı.",
+          "spiritual": "Zihinsel yorgunluk seni çağırıyor; dur ve dinlenme zamanı geldi. Durum, geri çekilmenin kaçış değil, onarım olduğunu hatırlatıyor; kendine alan açarak yeniden doğuşu kucakla. Bugün, bilinçli bir mola planla; bu, zihnindeki bulanıklığı temizleyecek."
+        },
+        "reversed": {
+          "general": "Dinlenme ertelendikçe tükenmişlik büyür. Kaçış ile iyileşme karıştırılıyor olabilir. Durmak kaçınılmaz hale gelir.",
+          "love": "İlişkide kaçış davranışı bağ zayıflatır. Mesafe iletişimsizlikten doğuyorsa tehlikelidir. Konuşma gerekir.",
+          "career": "İşten kopma isteği alarmdır. Aşırı yük sürdürülemez. Sistem değişmeli.",
+          "spiritual": "Zihnin sürekli meşgul, dinlenme ertelenmiş; kendine baskı yapma, bu yük seni boğabilir. Durum, aşırı yüklenme riskinin arttığını gösteriyor; tempoyu düşür ve kendine alan tanı. Rahat bir nefes al, zihninde birikmiş olanı serbest bırak."
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": "Kılıç Beşlisi",
+      "image": "54_five_swords",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Kazanılmış bir çatışma bile tatmin getirmeyebilir; zafer hissi boş kalabilir. Haklı olmak ile ilişkiyi korumak her zaman aynı şey değildir. Bu kart, bedeli olan galibiyetleri hatırlatır.",
+          "love": "İlişkide güç mücadelesi bağın özünü aşındırabilir. Tartışmayı kazanmak yakınlık yaratmaz. Sert iletişim kalıcı iz bırakır.",
+          "career": "Profesyonel ortamda rekabet zehirli bir hâl alabilir. Kazanma arzusu ekip güvenini zedelerse başarı anlamını kaybeder. Strateji etikle dengelenmeli.",
+          "spiritual": "Zihinsel bir mücadele içindesin; haklı çıkma arzusu, ilişkilerine zarar veriyor. Durum, egonun ve savunma mekanizmalarının seni yönlendirdiğini gösteriyor; bu, gerçek bağlarını zayıflatıyor. Ne kazanmak istediğini netleştirirsen, belki de kazanan sensin."
+        },
+        "reversed": {
+          "general": "Çatışmadan çekilme isteği büyüyor olabilir; savaşın yorgunluğu hissediliyor. Bırakmak bazen kayıp değil rahatlamadır. Enerjiyi korumak öncelik olabilir.",
+          "love": "Güç savaşını durdurmak iyileştirici olabilir. Haklılık yerine huzur seçiliyor. Yumuşama bağ kurar.",
+          "career": "Rekabetten uzaklaşmak verimi artırabilir. Sürekli savunma tükenmişlik yaratır. İşbirliği daha sürdürülebilirdir.",
+          "spiritual": "Gerginliği düşürmek için geri adım atma zamanı; içindeki barışa duyulan özlem, seni yumuşak bir yola çağırıyor. Durum, uzlaşmak için ilk adımı atmanın önemini vurguluyor; bu küçük düzeltme, büyük bir huzur getirebilir. Cesurca adım atarsan, kalbindeki yangın sönmeye başlar."
+        }
+      }
+    },
+    {
+      "id": 55,
+      "name": "Kılıç Altılısı",
+      "image": "55_six_swords",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Geçiş dönemi yaşanıyor; zihin eski yüklerden uzaklaşmak istiyor. Hareket huzursuz ama gerekli olabilir. İlerlemek her zaman konforlu değildir.",
+          "love": "İlişkide iyileşme süreci yavaş ama mümkündür. Mesafe bazen onarım alanı yaratır. Zamana ihtiyaç vardır.",
+          "career": "Profesyonel değişim adaptasyon gerektirir. Yeni düzen başlangıçta yabancı gelebilir. Geçiş sabır ister.",
+          "spiritual": "Zihninde bir geçiş var; sakinliğe adım adım yaklaşıyorsun. Durum, geçmişteki sorunları geride bırakma arzusunu sergiliyor. Düşüncelerini yoran yükleri bırak; onları kenara itmek, içsel huzurunu yeniden inşa etmenin anahtarıdır."
+        },
+        "reversed": {
+          "general": "Geçmişten kopamamak ilerlemeyi yavaşlatır. Eski yükler taşındıkça yol ağırlaşır. Bırakmak gerekir.",
+          "love": "Eski kırgınlıklar ilişkiye taşınıyor olabilir. Temizlenmeyen geçmiş bugünü bozar. Onarım yüzleşme ister.",
+          "career": "Değişime direnç gelişimi durdurur. Eski yöntem güvenli görünse de sınırlayıcıdır. Hareket şarttır.",
+          "spiritual": "Geçmiş, seni geride tutan bir ağırlık; düşüncelerini serbest bırakmak, hafiflemek için gereklidir. Durum, eski meseleleri taşımanın yükünü hissettiğinde, kalemi eline al ve geride bırakman gereken her şeyi yaz. Kendi hikayenin sayfalarını temizle; yeni başlangıçlar için yer aç."
+        }
+      }
+    },
+    {
+      "id": 56,
+      "name": "Kılıç Yedilisi",
+      "image": "56_seven_swords",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Gizleme veya kaçınma davranışı devrede olabilir. Doğrudan yüzleşmek yerine dolaylı yollar seçiliyor. Bu strateji kısa vadede koruyucu görünür.",
+          "love": "İlişkide saklanan bir gerçek güveni aşındırabilir. Yarım doğrular bağ kurmaz. Şeffaflık ertelendikçe mesafe artar.",
+          "career": "Profesyonel ortamda etik gri alan oluşabilir. Kestirme yollar risk taşır. Güven kırıldığında onarımı zordur.",
+          "spiritual": "Kaçamak düşünceler seni sarmalamış; durum, dürüstlük sınavını ortaya koyuyor. Kendine karşı bile belirsizlik içindesin; bu karanlık, içindeki gerçeği gölgeliyor. Sakladığın düşünceyi kendine itiraf et, bu cesaret seni aydınlatacak."
+        },
+        "reversed": {
+          "general": "Gizlenen şey ortaya çıkma eğiliminde olabilir. Kaçış sürdürülemez hale gelir. Yüzleşme kaçınılmazdır.",
+          "love": "Gerçek konuşulmak istiyor. Saklama enerjisi yorucu olur. Açıklık hafifletir.",
+          "career": "İş tarafında dürüstlük yeniden kurulmalı. Güven kaybı yavaş onarılır. Netlik şarttır.",
+          "spiritual": "Gizlenen her şey, ışığa çıkmak için sabırsız; doğruluk arayışın, içindeki tutkuyu ateşliyor. Durum, açık iletişim kurma zamanının geldiğini gösteriyor; cesurca konuş ve kalbini aç, böylece rahatsız edici gölgeler yerini netliğe bırakır."
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": "Kılıç Sekizlisi",
+      "image": "57_eight_swords",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Sıkışmışlık hissi zihinsel bir çerçeveden kaynaklanabilir. Engel dışarıda değil içeride olabilir. Algı sınır yaratır.",
+          "love": "İlişkide çaresizlik hissi gerçek değil algısal olabilir. Konuşulmayan korkular bağ kurar. Perspektif değişimi alan açar.",
+          "career": "Profesyonel tıkanıklık öz-yargıdan doğabilir. Yetenek küçümseniyor olabilir. Sınır zihinsel olabilir.",
+          "spiritual": "Zihnindeki sıkışmışlık, düşüncelerinin yarattığı bir labirentte kaybolduğunu gösteriyor; engeller, zihninin ürünü. Durum, çaresizlik hissinin seni ele geçirdiğini ortaya koyuyor; bu durumu aşmak için kontrol edebileceğin tek alanı belirle. Güç, seçimlerinde gizli; o seçimi yap ve zihnindeki zincirleri kır."
+        },
+        "reversed": {
+          "general": "Kısıtlılık hissi çözülmeye başlıyor. Yeni bakış açısı özgürlük getirir. Zincir zihinseldi.",
+          "love": "İlişkide umut geri geliyor. Çıkış yolu görülmeye başlanır. Alan genişler.",
+          "career": "Profesyonel güven yeniden kurulabilir. Engeller küçülüyor. Hareket mümkün.",
+          "spiritual": "Kısıtların farkına varıyorsun; bu farkındalık, çözülmenin ilk adımlarını atıyor. Durum, güçlenmene giden yolu açıyor; kendine ilk özgürleşme hamlesini yaparak zincirlerini kırabilirsin. Hayatında yapacağın küçük bir değişiklik, büyük dönüşümlerin kapısını aralar."
+        }
+      }
+    },
+    {
+      "id": 58,
+      "name": "Kılıç Dokuzlusu",
+      "image": "58_nine_swords",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Zihinsel kaygı büyütülmüş olabilir; düşünce gerçeklikten daha ağır hissedilir. Gece zihni büyütür, gündüz küçültür. Korku çoğu zaman içeride yankılanır.",
+          "love": "İlişkide suçluluk veya pişmanlık taşınıyor olabilir. Söylenmeyen sözler içeride büyür. Paylaşmak yükü azaltır.",
+          "career": "Profesyonel stres zihni kemiriyor olabilir. Hata korkusu hareketi durdurur. Baskı algısı büyütülmüş olabilir.",
+          "spiritual": "Kaygı ve zihinsel yük ağırlaşıyor; gece zihninde uğuldayan düşünceler, huzursuzluğunu artırıyor. Durum, içindeki suçluluk ve korkuların yüzeye çıkmasıyla şekilleniyor. Endişeni yazıya dök; kağıt, yüklerini hafifletmenin bir yolu olabilir. Düşüncelerini serbest bırak, rahatlayacak bir alan yarat."
+        },
+        "reversed": {
+          "general": "Kaygı çözülmeye başlıyor; korku görünür oldukça küçülür. Zihin gerçeklikle yeniden hizalanıyor olabilir. Nefes alanı açılır.",
+          "love": "Suçluluk bırakıldıkça bağ hafifler. Konuşma iyileştirir. Yük paylaşılır.",
+          "career": "Stres yönetilebilir hale geliyor. Perspektif geri geliyor. Hareket mümkün.",
+          "spiritual": "Kaygı azalıyor; düşünceler artık daha yönetilebilir. Durum, içsel bir rahatlamanın eşiğinde; kendine karşı yumuşak olmayı seçtiğinde, huzur kendiliğinden gelir. Sert yargılardan uzak dur, nazik bir sesle kendine yaklaş; bu, ruhunu besleyen bir su gibi akacaktır."
+        }
+      }
+    },
+    {
+      "id": 59,
+      "name": "Kılıç Onlusu",
+      "image": "59_ten_swords",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Bir döngü dramatik biçimde kapanıyor olabilir. Son acı genellikle dönüşümün eşiğidir. Daha aşağısı yoktur.",
+          "love": "İlişkide kesin bir kırılma yaşanabilir. Son bazen özgürleştiricidir. Acı netlik getirir.",
+          "career": "Profesyonel çöküş gibi görünen şey yeniden başlangıç olabilir. Eski yapı çökerse yenisi kurulur. Bitmek yer açar.",
+          "spiritual": "Bir zihinsel döngü sona erdi; devam ettirmek, artık yalnızca yük. Durum, zor ama kesin bir kapanışı işaret ediyor. Direnç yerine kabullenişle ilerle; bu, seni özgür kılar. Kapanışı resmileştirmek için, hissettiklerini yazıya dök."
+        },
+        "reversed": {
+          "general": "İyileşme başlıyor; en kötü an geride kalmış olabilir. Yara hâlâ hassas ama kapanıyor. Direnç geri geliyor.",
+          "love": "Kırık bağ onarılmasa bile kalp toparlanır. Yas çözülür. Alan açılır.",
+          "career": "Profesyonel toparlanma yavaş ama mümkündür. Yeni zemin kuruluyor. Deneyim korunur.",
+          "spiritual": "Toparlanma süreci kapıda; kendini yeniden ayağa kaldırma zamanı. Zihnindeki karışıklıkları bir kenara bırak, küçük bir düzeltme ile yoluna devam et. Her adımda cesaretini besle; değişim, seni bekleyen yeni ufuklara açılan kapıdır."
+        }
+      }
+    },
+    {
+      "id": 60,
+      "name": "Kılıç Prensi",
+      "image": "60_page_swords",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Merak ve zihinsel keskinlik yükseliyor. Sorgulama büyümenin parçasıdır. Öğrenme isteği canlıdır.",
+          "love": "İlişkide gözlem ve analiz artabilir. Duygudan önce zihin çalışıyor olabilir. Mesafe düşünceden gelir.",
+          "career": "Profesyonel alanda öğrenme ve bilgi toplama zamanı. Genç zihin avantajdır. Sorular ilerletir.",
+          "spiritual": "Zihinsel canlılığın doruklarında geziniyorsun; merakın, yeni ufuklar keşfetmeye çağırıyor. Soru sorma cesaretin, öğrenmenin kapılarını aralıyor; bilmediğin her şey, seni bir adım öteye taşıyacak. Araştırmak için harekete geç, bu süreçte kendini bulacaksın."
+        },
+        "reversed": {
+          "general": "Aşırı analiz hareketi durdurabilir. Şüphe büyütülmüş olabilir. Zihin yorulur.",
+          "love": "Aşırı sorgulama bağ zayıflatır. Güven analizle kurulmaz. Şüphe yorucudur.",
+          "career": "Bilgi fazlası eylemi engelleyebilir. Düşünce harekete dönüşmeli. Aksi halde döngü sürer.",
+          "spiritual": "Dikkatin dağılmış; düşüncelerin yüzeysel bir denizde kaybolmuş gibi. Durum, sabırsızlığın seni yönlendirmesine izin veriyor; odanı daralt ve netleş. Hedefine odaklandığında, düşüncelerin derinleşir ve yoluna ışık tutar."
+        }
+      }
+    },
+    {
+      "id": 61,
+      "name": "Kılıç Şövalyesi",
+      "image": "61_knight_swords",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Hızlı düşünce hızlı eylem doğuruyor. Kararlılık yüksek ama keskin. Momentum güçlüdür.",
+          "love": "İlişkide direkt iletişim sert algılanabilir. Dürüstlük filtrelenmemiş olabilir. Ton önemlidir.",
+          "career": "Profesyonel alanda agresif ilerleme mümkün. Hız avantaj sağlar. Kontrol kaybedilmemeli.",
+          "spiritual": "Düşünceler hızla akıyor; aksiyon alma isteğin, seni harekete geçiriyor. Durum, acele etmenin riskini barındırıyor; kararlarını vermeden önce bir nefes al. Sözlerin, doğru yönlendirmeyi bulduğunda etkili olur; bu yüzden, konuşmadan önce dur ve düşün."
+        },
+        "reversed": {
+          "general": "Kontrolsüz hız kaos yaratabilir. Düşünce eylemi geçmeli. Fren gerekir.",
+          "love": "Sert iletişim yaralar açabilir. Durup dinlemek gerekir. Hız bağ kurmaz.",
+          "career": "Plansız hareket hata büyütür. Strateji eksik olabilir. Yavaşlamak güçtür.",
+          "spiritual": "Güçlü bir sertlik içinde kaybolmuşsun; düşünmeden hareket ettiğinde sonuçlar seni zorlayabilir. Durum, hızını bilinçli bir şekilde yavaşlatarak yeni bir bakış açısı kazanmanı gerektiriyor. Yavaşlamak, aslında derin bir nefes almak gibidir; düşüncelerini netleştir, ve sonra adım at."
+        }
+      }
+    },
+    {
+      "id": 62,
+      "name": "Kılıç Kraliçesi",
+      "image": "62_queen_swords",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Duygudan bağımsız net görüş hâkim. Gerçek filtresiz algılanır. Mesafe berraklık getirir.",
+          "love": "İlişkide akıl kalpten öne geçebilir. Soğukluk koruyucu olabilir. Netlik güven verir.",
+          "career": "Profesyonel keskinlik avantaj sağlar. Objektif bakış karar kalitesini yükseltir. Duygu geri plandadır.",
+          "spiritual": "Zihinsel olgunluk ve netlik, senin için ön planda; duygularını yitirmeden mantığın rehberliğinde ilerle. Durum, sağlam sınırlarla kendini korumayı gerektiriyor; gerçeği sakin bir dille ifade etmek, güçlenmene katkı sağlar. Duyguların ve aklın arasındaki dengeyi bulduğunda, hayatında yeni ufuklar açılabilir."
+        },
+        "reversed": {
+          "general": "Aşırı mesafe yalnızlık yaratabilir. Koruma duvarı kalınlaşmış olabilir. Yumuşama gerekir.",
+          "love": "Duygusal kopukluk bağ zayıflatır. Sertlik savunmadır. Açıklık eksik olabilir.",
+          "career": "Empati eksikliği ekip ilişkisini zorlayabilir. Soğukluk iletişimi keser. Denge gerekir.",
+          "spiritual": "Durum, duygusal mesafenin arttığını gösteriyor; soğukluk ve eleştirellik, aranızda bir engel oluşturmuş. Empatiyi bilinçli olarak eklemeye başladığında, bu duvar yıkılabilir. Kendini karşındakinin yerine koymak, ilişkinin sıcaklığını yeniden alevlendirecektir."
+        }
+      }
+    },
+    {
+      "id": 63,
+      "name": "Kılıç Kralı",
+      "image": "63_king_swords",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "kılıç",
+      "element": "hava",
+      "meanings": {
+        "upright": {
+          "general": "Zihinsel otorite ve yapı kurma gücü yüksek. Kararlar keskin ama bilinçlidir. Liderlik akıldan gelir.",
+          "love": "İlişkide rasyonel denge ön plandadır. Duygu yapı içinde tutulur. Güven sistemden doğar.",
+          "career": "Profesyonel alanda stratejik kontrol güçlüdür. Yönetim netlik ister. Disiplin ilerletir.",
+          "spiritual": "Stratejik düşünce, zihinsel liderliğin ışığını yakıyor; büyük resmi görebilmek, senin en büyük gücün. Durum, sorumluluk ve adaletin dengede olduğu bir alan; kararını net ve sakin bir şekilde duyurmak, etrafındaki dengeyi korur. Unutma, netlik sana yön verir."
+        },
+        "reversed": {
+          "general": "Otorite katılaşmış olabilir. Kontrol esnekliği yok edebilir. Sertlik kırar.",
+          "love": "Aşırı rasyonellik bağ zayıflatır. Duygu bastırılmış olabilir. Yakınlık azalır.",
+          "career": "Despotik yönetim direnç yaratır. Güç paylaşılmalı. Katılık yorar.",
+          "spiritual": "Kontrolcü düşünceler seni sıkıştırıyor; katılık, yaratıcılığını engelliyor. Durum, farklı bakış açılarına kapı açmayı gerektiriyor; esnek olmayı seçersen, yeni fırsatlar doğar. Kendine izin ver, belirsizlikte bile bir alan yaratabilirsin."
+        }
+      }
+    },
+    {
+      "id": 64,
+      "name": "Tılsım Ası",
+      "image": "64_ace_pentacles",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Zihindeki soyut fikirlerin somut gerçekliğe dökülmesi için gereken içsel zemin oluşuyor. Potansiyeli fiziksel bir forma dönüştürme konusundaki yetkinlik fark ediliyor. Bu süreç, hayalden eyleme geçişteki kararlılığı ve topraklanma isteğini işaret eder.",
+          "love": "İlişkide güvenli ve elle tutulur bir temel inşa etme arzusu baskın hale geliyor. Duygusal bağın fiziksel dünyada karşılık bulması, belirsizliği ortadan kaldırıyor. Soyut vaatler yerine somut davranışlarla birbirine alan açılıyor.",
+          "career": "Mesleki alanda yeteneklerin somut bir projeye dönüşmesi için uygun koşullar oluşuyor. Emeğin ve zamanın yatırılacağı yeni bir odak noktası belirleniyor. Başarı, şanstan ziyade planlı bir başlangıç dürtüsüyle şekilleniyor.",
+          "spiritual": "Somut bir başlangıç kapısı açılıyor; bu, uygulanabilir bir fırsatın habercisi. Durum, güvenlik ve istikrar arayışında olduğunuzu gösteriyor; kalıcı olanı seçmek, acele etmemek demektir. Hedeflediğin alanı netleştir ve o alanda atılacak en basit adımı belirle; küçük ama etkili bir hareket, ilerlemeni hızlandırır."
+        },
+        "reversed": {
+          "general": "Fiziksel dünyayla kurulan bağda yaşanan kopukluk, potansiyelin bloke olmasına neden oluyor. Somut adımlar atma konusundaki isteksizlik, fırsatların zihinsel düzlemde sıkışıp kalmasına yol açıyor. Güvenlik algısındaki zayıflık, eyleme geçmeyi zorlaştırıyor.",
+          "love": "İlişkide vaat edilen güven ortamının oluşmaması, hayal kırıklığı ve çekimserlik yaratıyor. Somut adımların eksikliği, duygusal yatırım yapma konusunda tereddüt oluşturuyor. Temelsiz bir bağın yarattığı belirsizlik, geri çekilme isteği doğuruyor.",
+          "career": "Kaynakların yetersiz değerlendirilmesi veya yanlış zamanlama, projelerin başlamasını engelliyor. Yetenekleri sergilemek için gereken fırsatın henüz yakalanmadığı düşünülüyor. Gerçekçi olmayan beklentiler, pratik dünyada karşılık bulamıyor.",
+          "spiritual": "Bir fırsat kapında; ama belki de küçümsüyorsun ya da erteliyorsun. Durum, içindeki değersizlik hissi ya da 'henüz hazır değilim' inancı ile şekilleniyor. Potansiyelini görüp görmediğini sorgulamakta haklısın; elindeki imkanları yaz ve neye sahip olduğunu somutlaştır; bu, önündeki yolu netleştirir."
+        }
+      }
+    },
+    {
+      "id": 65,
+      "name": "Tılsım İkilisi",
+      "image": "65_two_pentacles",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Hayatın değişken ritmine uyum sağlamak, zihinsel esneklik ve anlık farkındalık gerektiriyor. Öncelikler sürekli yeniden düzenlenerek denge korunmaya çalışılıyor. Bu süreç, kontrolü katı bir şekilde tutmaktan ziyade, akışla hareket etme becerisidir.",
+          "love": "İlişki dinamikleri ile bireysel sorumluluklar arasında sürekli bir müzakere hali yaşanıyor. Değişen ihtiyaçlara anlık uyum sağlama kapasitesi test ediliyor. Ciddiyet ile oyunculuk arasındaki denge, bağın canlı kalmasını sağlıyor.",
+          "career": "Çoklu görevleri yönetme becerisi, pratik zeka ve hızlı adaptasyon gerektiriyor. İş yükündeki dalgalanmalar, daha verimli yöntemler geliştirmeye zorluyor. Başarı, sabit bir duruştan değil, duruma göre şekil alabilen bir stratejiden geliyor.",
+          "spiritual": "Denge kurma çaban, seni sürekli hareket halinde tutuyor; zaman, para ve enerji arasında gidip geliyorsun. Durum, çoklu sorumlulukları nasıl yönettiğini sorguluyor; esnekliğin önemli ama dağılma riski de seni bekliyor. Bugün, önceliği olmayan bir işi bilinçli şekilde ertele; bu basit eylem, zihninde ferahlama yaratır."
+        },
+        "reversed": {
+          "general": "Kapasiteyi aşan sorumluluklar, zihinsel dağınıklığa ve odak kaybına neden oluyor. Sürekli değişen şartlara yetişme çabası, kronik bir yorgunluk hissi yaratıyor. Dengeyi kaybetme korkusu, hareket alanını kısıtlayarak verimsizliğe yol açıyor.",
+          "love": "İlişkideki tutarsızlıklar ve öncelik karmaşası, duygusal güveni zedeliyor. Zaman ve enerji yönetimindeki başarısızlık, ihmal edilmişlik hissi uyandırıyor. İletişimdeki kopukluklar, dengeyi yeniden kurmayı zorlaştırıyor.",
+          "career": "Aynı anda yürütülmeye çalışılan işler, kalitenin düşmesine ve hataların artmasına neden oluyor. Organizasyon eksikliği, profesyonel imajı zedeliyor. İş yükünün altında ezilme hissi, kontrol kaybı yaşatıyor.",
+          "spiritual": "Denge bozulmuş; her şeye yetişme çabası, seni yıpratıyor. Durum, kontrol kaybı korkusuyla sarmalanmış; şimdi, zihnini rahatlatacak bir adım atmalısın. Aynı anda yürüttüğün işlerden birini sadeleştir; bu, nefes almanı sağlayacak ve enerjini yeniden yönlendirecek."
+        }
+      }
+    },
+    {
+      "id": 66,
+      "name": "Tılsım Üçlüsü",
+      "image": "66_three_pentacles",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Bireysel yeteneklerin kolektif bir yapıyla entegre olması, somut başarıyı getiriyor. Uzmanlık, başkalarının görüşleriyle birleşerek daha kapsamlı bir sonuç ortaya çıkarıyor. Geri bildirime açık olmak, ustalığa giden yolda önemli bir gelişim aracıdır.",
+          "love": "İlişkiyi sürdürmek için gösterilen ortak çaba, bağın kalitesini belirliyor. Sorunları çözmek adına üçüncü bir gözden veya karşılıklı deneyimden faydalanılıyor. Birbirinin katkısını onaylamak, yapıcı bir zemin oluşturuyor.",
+          "career": "Ekip çalışması ve hiyerarşik uyum, projelerin ilerlemesini sağlıyor. Mesleki yetkinliğin dışarıdan onaylanması, motivasyonu ve aidiyeti güçlendiriyor. Farklı disiplinlerin bir araya gelmesi, işin niteliğini artırıyor.",
+          "spiritual": "Birlikte üretme ve öğrenme yolculuğundasın; emeğin artık görünür hale geliyor. Durum, katkı sunma ve takdir edilme arzusunu besliyor; geri bildirime açık olmak, bu süreci hızlandırır. Kendi sesini daha fazla duyarak, etrafındaki potansiyeli keşfet."
+        },
+        "reversed": {
+          "general": "Çevresel uyumsuzluk ve iletişim kopukluğu, ortak hedeflere ulaşmayı engelliyor. Eleştiriyi kişisel algılama eğilimi, gelişimin önünü tıkıyor. Yüzeysel yaklaşım, ortaya çıkan işin veya durumun kalitesini düşürüyor.",
+          "love": "Farklı yönlere çekilme durumu, ilişkide vizyon eksikliği yaratıyor. Ortak bir dil oluşturamamak, çabaların boşa gitmesine neden oluyor. Onaylanmama hissi, kendini geri çekmeye veya savunmaya geçmeye yol açıyor.",
+          "career": "İş ortamındaki rekabet veya yetersizlik hissi, verimli çalışmayı sabote ediyor. Takım içi dinamiklerin bozulması, projenin başarısızlıkla sonuçlanmasına sebep oluyor. Özensiz çalışma, mesleki saygınlığın yitirilmesi riskini taşıyor.",
+          "spiritual": "Durum, ekip içinde uyumsuzluk ve göz ardı edilme hissi yaratıyor; bu, motivasyonunu düşürüyor. Beklentilerini net bir şekilde ifade etmen, iletişimi güçlendirir. Kendini açıkça ortaya koyduğunda, karşı tarafın da daha fazla desteğini alabilirsin."
+        }
+      }
+    },
+    {
+      "id": 67,
+      "name": "Tılsım Dörtlüsü",
+      "image": "67_four_pentacles",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Sahip olunan değerleri koruma güdüsü, katı sınırlara ve kontrol ihtiyacına dönüşüyor. Güvenlik arayışı, değişime kapalı bir tutum sergilenmesine neden oluyor. Statükoyu sürdürme çabası, dış dünyadan gelebilecek risklere karşı bir savunma mekanizmasıdır.",
+          "love": "İlişkide kaybetme korkusu, sahiplenici ve kısıtlayıcı davranışları tetikliyor. Duygusal duvarlar örmek, incinmekten korusa da yakınlığı engelliyor. Kontrolü elden bırakamamak, ilişkinin doğal akışını ve derinleşmesini durduruyor.",
+          "career": "Kazanılmış pozisyonu kaybetme endişesi, risk almayı ve yenilik yapmayı zorlaştırıyor. Bilgi veya yetki paylaşımına kapalı olmak, izolasyona yol açıyor. Mevcut durumu korumak, gelişimin önünde bir engel teşkil ediyor.",
+          "spiritual": "Güvenlik arzusun seni sıkılaştırıyor; tutma ve koruma ihtiyacı, hayatın akışını kısıtlıyor. Durum, kaybetme korkusunun seni esir aldığını gösteriyor; gereksiz kontrolleri fark ettiğinde, özgürleşme yolunda ilk adımı atarsın. Korkularını serbest bırakmak, sana yeni bir alan açar."
+        },
+        "reversed": {
+          "general": "Kontrol mekanizmalarının gevşemesi, bastırılmış enerjinin serbest kalmasını sağlıyor. Savunma duvarlarının inmesiyle birlikte değişim riski kabul ediliyor. Tutunmayı bırakmak, belirsizlikle yüzleşme cesaretini gerektiriyor.",
+          "love": "Duygusal savunmaların yıkılması, ilişkide daha şeffaf bir iletişime kapı aralıyor. Kıskançlık ve sahiplenme dürtüsünün azalması, taraflara nefes alma alanı tanıyor. Kaybetme korkusuyla yüzleşmek, daha sağlıklı bir bağlanma şekline geçişi başlatıyor.",
+          "career": "Kariyerde statüko ısrarından vazgeçmek, yeni yöntemlerin denenmesini mümkün kılıyor. Görev paylaşımı ve delegasyon, iş yükünü hafifleterek verimi artırıyor. Pozisyon kaygısının azalması, daha yaratıcı ve esnek bir çalışma ortamı yaratıyor.",
+          "spiritual": "Bırakmaya ve gevşemeye hazırsın; içindeki paylaşma isteği büyüyor. Durum, fazlalık bir şeyi bilinçli olarak elden çıkarmanı gerektiriyor; bu, kalbini hafifletir ve yeni bir alan açar. Duygularını serbest bırakmak, ruhunu canlandırır."
+        }
+      }
+    },
+    {
+      "id": 68,
+      "name": "Tılsım Beşlisi",
+      "image": "68_five_pentacles",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Yoksunluk ve dışlanmışlık hissi, algıyı sadece eksik olana odaklıyor. Mevcut destek mekanizmalarını görememek, yaşanan zorluğu daha da derinleştiriyor. Bu süreç, fiziksel veya duygusal ihtiyaçların karşılanmadığına dair keskin bir farkındalık halidir.",
+          "love": "İlişki içinde yaşanan duygusal izolasyon, yalnızlık hissini pekiştiriyor. Aradaki kopukluk, birbirine ulaşamama ve anlaşılmama durumunu yaratıyor. Değersizlik inancı, sevgi ve ilgi talebinin ifade edilmesini zorlaştırıyor.",
+          "career": "Mesleki başarısızlık veya iş ortamından dışlanma korkusu özgüveni zedeliyor. Destek ağlarından yoksun hissetmek, kariyer hedeflerini ulaşılmaz kılıyor. Maddi kayıplar veya işsizlik, toplumsal statünün sorgulanmasına neden oluyor.",
+          "spiritual": "Yetersizlik ve dışlanmışlık duygusu seni sarabilir; bu durum, maddi ya da duygusal güvensizlikten besleniyor. Destek istemekte zorlandığında, en büyük yükü sırtlandığını hissedebilirsin; ama unutma, yalnız değilsin. Yardım alabileceğin bir noktayı belirle ve ilk adımı at; bu, yükünü hafifletmek için önemli bir hamle."
+        },
+        "reversed": {
+          "general": "Zorluklara odaklanan bakış açısı, çözüm odaklı bir yaklaşıma evriliyor. Kriz halinin geçiciliği fark edilerek, dışarıdan gelen destek kabul ediliyor. Yoksunluk bilincinden çıkış, kendi direncinin ve kaynaklarının yeniden keşfedilmesiyle başlıyor.",
+          "love": "İlişkideki kriz döneminin ardından iletişim kanalları yeniden açılıyor. Zor zamanlarda yalnız olmadığını hissetmek, güven bağını onarıyor. Sorunların üzerine gitme cesareti, duygusal izolasyonu sona erdiriyor.",
+          "career": "Mesleki alanda yaşanan tıkanıklıklar, yeni fırsatların veya yardımların belirmesiyle çözülüyor. Başarısızlık korkusunun azalması, tekrar deneme gücünü ortaya çıkarıyor. Kariyer yolculuğunda alternatif rotalar görünür hale geliyor.",
+          "spiritual": "Zorlayıcı dönem geride kalıyor; umut yeniden filizleniyor, hayatın tazeleniyor. Destek, güçlenmenin bir parçası; kabul et ve yüreğini aç. Durum, yeni başlangıçlar için hazır olduğun hissini besliyor; adımlarını cesurca at."
+        }
+      }
+    },
+    {
+      "id": 69,
+      "name": "Tılsım Altılısı",
+      "image": "69_six_pentacles",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Güç dinamiklerinde denge, alma ve verme eylemlerinin adaletli dağılımıyla sağlanıyor. Kaynakları paylaşırken veya kabul ederken sınırları korumak öğreniliyor. Bu etkileşim, hiyerarşinin değil, karşılıklı ihtiyacın tanınmasına dayanıyor.",
+          "love": "İlişkide ilgi ve desteğin karşılıklı akışı, duygusal tatmini artırıyor. Eksiklikler tamamlanarak sağlıklı bir dayanışma geliştiriliyor. Emeklerin karşılık bulması, ilişkiye duyulan güveni pekiştiriyor.",
+          "career": "Bilgi ve deneyim aktarımı, mentorluk ilişkileri üzerinden profesyonel gelişimi destekliyor. Hak edilen ödül veya takdirin gelmesi, adalet duygusunu tatmin ediyor. İşbirliğine dayalı bir ortam, verimliliği ve paylaşımı teşvik ediyor.",
+          "spiritual": "Verme ve alma dengesi ön planda; bu denge, ilişkilerdeki adaletin anahtarıdır. Durum, paylaşımın seni nasıl etkilediğini sorgulamanı gerektirir; katkı ve karşılık dengesini gözden geçirerek, kendini daha net ifade edebilirsin. Değer algını yeniden gözden geçir; bu süreç, içsel bir aydınlanma getirebilir."
+        },
+        "reversed": {
+          "general": "Alma-verme dengesindeki bozulma, bağımlılık veya sömürü ilişkilerine zemin hazırlıyor. Yardım adı altında kurulan güç oyunları, taraflardan birini pasif konuma itiyor. Sınırların ihlali, borçluluk hissi veya minnet yükü yaratıyor.",
+          "love": "İlişkide tek taraflı fedakarlık, tükenmişlik ve gizli bir öfke birikimine yol açıyor. Duygusal ihtiyaçların pazarlık konusu yapılması, samimiyeti zedeliyor. Bir tarafın kurtarıcı rolüne soyunması, diğerinin sorumluluk almasını engelliyor.",
+          "career": "İş yerinde kayırmacılık veya emeğin karşılığının verilmemesi motivasyonu düşürüyor. Bilgi saklama veya desteği manipülasyon aracı olarak kullanma eğilimi görülüyor. Otorite figürlerinin adaletsiz tutumu, mesleki aidiyeti sarsıyor.",
+          "spiritual": "Dengesiz bir alışveriş söz konusu; borçluluk ve hak ediş karmaşası zihnini meşgul ediyor. Durum, sınırlarını netleştirmeni gerektiriyor; kendine olan saygını artırmak için kararlarını gözden geçir. Bu süreçte, hangi değerlerin seni yönlendirdiğini hatırlamak, dengeyi bulmana yardımcı olacaktır."
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": "Tılsım Yedilisi",
+      "image": "70_seven_pentacles",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Sürece güvenmek ve anlık sonuç beklemeden yatırımı sürdürmek, irade gerektiriyor. İlerleyişi durup analiz ederek stratejinin verimliliği sorgulanıyor. Bekleme hali, pasiflik değil, bilinçli bir değerlendirme ve olgunlaşma evresidir.",
+          "love": "İlişkinin gidişatı üzerine düşünmek, geleceğe dair daha net kararlar almayı sağlıyor. Emek verilen bağın tatmin ediciliği sorgulanarak, devam edip etmeme analizi yapılıyor. Sabır, duygusal yatırımın köklenmesine izin veriyor.",
+          "career": "Uzun vadeli kariyer hedefleri için atılan adımların sonuçları bekleniyor. Yapılan işin meyvelerini toplamak zaman alacağı için motivasyonu korumak önem taşıyor. Stratejik molalar, rotanın doğruluğunu teyit etmeye yarıyor.",
+          "spiritual": "Sabır, bu anın anahtarı; emek verdiğin şey henüz olgunlaşmadı, ama bunu bilmek seni yavaşlatmasın. Durum, beklemekten çok değerlendirmek üzerine kurulu; ilerlemeni ölç ve her adımda gelişimi hisset. Sabırlı ol, ama aynı zamanda ilerlemekten de vazgeçme."
+        },
+        "reversed": {
+          "general": "Beklenen sonucun gecikmesi, sabırsızlık ve hayal kırıklığı yaratıyor. Emeklerin karşılıksız kaldığı hissi, vazgeçme eğilimini tetikliyor. Yanlış hedefe yatırım yapıldığının fark edilmesi, zaman kaybı endişesi doğuruyor.",
+          "love": "İlişkiye verilen çabanın boşa gittiği düşüncesi, duygusal geri çekilmeye neden oluyor. İlerleme kaydedilememesi, geleceğe dair inancı zayıflatıyor. Beklentilerin karşılanmaması, ilişkinin sürdürülebilirliğini tehdit ediyor.",
+          "career": "İş hayatında harcanan eforun somut bir getiri sağlamaması tükenmişlik yaratıyor. Projelerin tıkanması veya verimsizliği, strateji değişikliğini zorunlu kılıyor. Sonuçsuz kalan girişimler, mesleki özgüveni sarsıyor.",
+          "spiritual": "Sabırsızlık, seni ele geçirmiş olabilir; bu kaygı, ilerlemeni engelliyor. Durum, hedefinin netliğini sağlamak için kendine bir fırsat sunuyor; yeniden tanımladığında, yolu daha iyi göreceksin. Belirsizlik seni boğmasın; her adımında, net bir amaçla ilerlemek, seni güçlendirir."
+        }
+      }
+    },
+    {
+      "id": 71,
+      "name": "Tılsım Sekizlisi",
+      "image": "71_eight_pentacles",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Tekrara dayalı pratik ve disiplin, ustalığın temelini oluşturuyor. Detaylara odaklanarak yetenekleri mükemmelleştirme sürecine giriliyor. Sürece duyulan saygı ve çalışkanlık, dışsal onaydan çok içsel tatmine hizmet ediyor.",
+          "love": "İlişkiyi ayakta tutan şeyin büyük jestler değil, günlük özen ve ilgi olduğu anlaşılıyor. Partneri tanımaya yönelik sabırlı çaba, bağın derinleşmesini sağlıyor. Sadakat, rutin içinde gösterilen tutarlılıkla kanıtlanıyor.",
+          "career": "Mesleki yetkinliği artırmak için eğitime ve ince işçiliğe odaklanılıyor. Konsantrasyon ve titizlik, üretilen işin kalitesini standartların üzerine taşıyor. Uzmanlaşma isteği, kariyerde sağlam bir yer edinmeyi garantiliyor.",
+          "spiritual": "Odak ve disiplin, ustalaşmanın anahtarıdır; sen, bu sürecin içinde derin bir emek verme isteği taşıyorsun. Durum, seni daha yetkin kılacak bir yolculuğa işaret ediyor; bugün işine tam dikkatle odaklanarak, potansiyelini serbest bırakabilirsin."
+        },
+        "reversed": {
+          "general": "Mükemmeliyetçilik tuzağı, ilerlemeyi durdurarak detaylarda boğulmaya neden oluyor. Rutinlerden sıkılmak, işin kalitesinde düşüşe ve odak kaybına yol açıyor. Yüzeysel çaba ile sonuç bekleme yanılgısı, yetersizlik hissi yaratıyor.",
+          "love": "İlişkiye gereken özenin gösterilmemesi, duygusal bağların zayıflamasına neden oluyor. Monotonluk algısı, partnerden uzaklaşma isteği doğurabilir. Sadece işe odaklanıp özel hayatı ihmal etmek, dengeyi bozuyor.",
+          "career": "Motivasyon eksikliği ve tükenmişlik, mesleki performansı aşağı çekiyor. Gelişim göstermeyen, mekanikleşmiş iş yapma şekli tatminsizlik yaratıyor. Hataların gözden kaçırılması, profesyonel imajı zedeliyor.",
+          "spiritual": "Dikkat dağılmış ve işler mekanikleşmiş; bu durumda, neyi neden yaptığını hatırlamak kritik. Amaç, işine anlam katarken seni motive eder; sıklıkla kendine hatırlatmayı unutma. Herhangi bir şeyin derinliğini kavramak için kendini yeniden sorgulamakta fayda var."
+        }
+      }
+    },
+    {
+      "id": 72,
+      "name": "Tılsım Dokuzlusu",
+      "image": "72_nine_pentacles",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Kendi kendine yetebilme kapasitesi, özgürlüğün ve içsel güvenliğin temelini oluşturuyor. Dış onaya ihtiyaç duymadan kendi yaratılan düzenin tadı çıkarılıyor. Disiplinli geçmişin ödülü, konforlu ve sınırları net bir yaşam alanı olarak öne çıkıyor.",
+          "love": "İlişkide bağımsız kimliklerin korunması, sağlıklı bir birlikteliğin ön koşulu olarak görülüyor. Partnerine muhtaç olmayan, kendiyle barışık bir duruş sergileniyor. Özsaygı, ilişkinin kalitesini belirleyen ana faktör haline geliyor.",
+          "career": "Kariyerde ulaşılan yetkinlik düzeyi, otonom çalışma imkanı sağlıyor. Başarı, sadece statüyle değil, elde edilen kişisel zaman ve özgürlükle ölçülüyor. Profesyonel itibar, seçme şansı ve hareket alanı tanıyor.",
+          "spiritual": "Bağımsızlık ve öz-yeterlilik hissin güçleniyor; emeğinin karşılığını almaya başlıyorsun. Durum, kendinle gurur duyman için bir fırsat sundu; bu başarıyı kutlamak, seni daha da güçlendirir. Kendine bir an ayır ve zaferlerini hatırla; bu, motivasyonunu artıracak."
+        },
+        "reversed": {
+          "general": "Dışarıdan kusursuz görünen yaşam, içsel bir yalnızlık veya tecrit hissi barındırıyor. Bağımsızlığın aşırı vurgulanması, insan ilişkilerinde mesafeye ve soğukluğa yol açıyor. Maddi konfor, manevi tatminsizliği örtmek için bir araç haline geliyor.",
+          "love": "İlişkide bencillik ve aşırı bireysellik, partnerle duygusal teması kesiyor. Bağlanma korkusu, özgürlük maskesi altında gizleniyor. Maddi beklentilerin ön plana çıkması, samimiyeti ve güveni zedeliyor.",
+          "career": "Aşırı iş yükü veya başarı hırsı, sosyal yaşamın tamamen ihmal edilmesine neden oluyor. Statü kaybı korkusu, sürekli bir tetikte olma hali yaratıyor. Dış görünüşe yapılan yatırım, mesleki içeriğin boşluğunu kapatmaya yetmiyor.",
+          "spiritual": "Durum, dış başarıların gölgesinde kaybolmuş bir tatminsizlik hissi yaratıyor; yalnızlık, bu başarıların ardında seni bekliyor. Paylaşımını artırmak, içindeki boşlukları doldurmanın anahtarı olabilir. Cesurca bağlantılar kur; içsel zenginliğin, başkalarıyla paylaştıkça çoğalır."
+        }
+      }
+    },
+    {
+      "id": 73,
+      "name": "Tılsım Onlusu",
+      "image": "73_ten_pentacles",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Kalıcı değerler ve köklü yapılar, aidiyet ve güvenlik hissi sağlıyor. Nesiller arası aktarım ve gelenekler, kimliği şekillendiren bir zemin oluşturuyor. Bireysel hedefler, daha büyük bir bütünün veya sistemin parçası olarak anlam kazanıyor.",
+          "love": "İlişkide uzun vadeli planlar ve ailevi entegrasyon ön plana çıkıyor. Güvenli bağlanma, kurulan düzenin ve paylaşılan değerlerin sağlamlığına dayanıyor. Geleneksel yapı, ilişkiyi destekleyen ve koruyan bir çerçeve sunuyor.",
+          "career": "Kurumsal yapılar veya köklü organizasyonlar içinde istikrarlı bir konum elde ediliyor. Kariyer, anlık başarıdan ziyade sürdürülebilirlik ve miras bırakma odaklı ilerliyor. Birikim ve deneyim, uzun soluklu bir otoriteye dönüşüyor.",
+          "spiritual": "Güvenlik ve aidiyet, hayatının merkezinde; kalıcı yapılar senin için artık bir gereklilik. Durum, köklerini derinlemesine salmanın önemini hatırlatıyor. Geleceğe dair planını yaz; bu, sana yön verecek sağlam bir harita oluştursun."
+        },
+        "reversed": {
+          "general": "Geleneksel kalıplar veya ailevi beklentiler, bireysel özgürlüğü kısıtlayan bir yüke dönüşüyor. Köklü değişim ihtiyacı, eski yapıların artık işlevini yitirdiğini gösteriyor. Aidiyet duyulan sistem içinde yabancılaşma hissediliyor.",
+          "love": "Aile baskısı veya toplumsal normlar, ilişkinin doğal akışını bozuyor. Dışarıdan uyumlu görünen yapının içinde derin çatışmalar yaşanıyor. Maddi veya statü odaklı evlilikler, duygusal tatminsizlik yaratıyor.",
+          "career": "Kurumsal katılık veya aile işindeki hiyerarşik sorunlar gelişimi engelliyor. Kariyerde istikrar kaybı, geleceğe dair belirsizlik oluşturuyor. Geçmişin yöntemlerinde ısrar etmek, yeniliklere adaptasyonu zorlaştırıyor.",
+          "spiritual": "Durum, aile ve düzen içinde gerilimlerin yükseldiğini gösteriyor; beklentiler üzerindeki baskı seni boğabilir. Kendi yolunu ayırmak, sana özgürlük kazandırır; içsel huzurun için, sınırlarını belirlemeyi dene. Bu baskıyı yönetmek, kendine olan saygını artırır."
+        }
+      }
+    },
+    {
+      "id": 74,
+      "name": "Tılsım Prensi",
+      "image": "74_page_pentacles",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Somut bir hedef belirleme ve pratik beceriler geliştirme isteği uyanıyor. Öğrenme süreci, teorik bilgiden ziyade deneyimleyerek ve uygulayarak ilerliyor. Potansiyeli keşfetme arzusu, disiplinli bir başlangıç enerjisiyle birleşiyor.",
+          "love": "İlişkide güvenilir ve net adımlarla ilerleme niyeti görülüyor. Partneri tanımaya yönelik gerçekçi yaklaşım, sağlam temeller atılmasını sağlıyor. Duygular, sözlerden çok tutarlı davranışlarla ifade ediliyor.",
+          "career": "Yeni bir beceri kazanmak veya kariyer yolunda eğitim almak için odaklanılıyor. Çıraklık zihniyeti, detaylara önem vererek temeli sağlamlaştırmayı gerektiriyor. Fırsatlar, gerçekçi planlama ve çalışkanlıkla değerlendiriliyor.",
+          "spiritual": "Öğrenmeye açık bir enerji seni sarıyor; merakın ve disiplinin birleşimi, yeni beceriler kazanmanı sağlıyor. Durum, gelişim yolculuğunun ilk adımıdır; cesaretle yeni bir bilgiye dal ve keşfet. Her yeni şey, senin için yeni bir kapı aralayabilir."
+        },
+        "reversed": {
+          "general": "Odaklanma sorunu ve disiplinsizlik, hedeflere ulaşmayı engelliyor. Gerçekçilikten uzak beklentiler, pratik dünyada hayal kırıklığına yol açıyor. Başlanan işleri yarım bırakma eğilimi, potansiyelin heba olmasına neden oluyor.",
+          "love": "İlişkide ciddiyetsizlik ve sorumluluktan kaçınma, güven sorunları yaratıyor. Verilen sözlerin tutulmaması, partnerde tutarsızlık algısı oluşturuyor. Duygusal olgunluk eksikliği, bağın derinleşmesini engelliyor.",
+          "career": "Mesleki gelişimde duraklama ve öğrenmeye kapalılık, fırsat kaçırtıyor. Yetersiz hazırlık, iş hayatında amatörce hatalar yapılmasına sebep oluyor. Kariyer hedefinin net olmaması, zaman ve enerji kaybına yol açıyor.",
+          "spiritual": "Erteleme seni bekliyor; ciddiyetsizlik, hedeflerin önünde bir engel. Durum, motivasyonunun dalgalı olduğunu gösteriyor; buna rağmen, hedefini küçültmek seni yeniden harekete geçirebilir. Küçük ama etkili bir adım atarak, her gün bir şeyler yapmaya başla; bu, seni daha büyük hedeflere doğru taşır."
+        }
+      }
+    },
+    {
+      "id": 75,
+      "name": "Tılsım Şövalyesi",
+      "image": "75_knight_pentacles",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Metodik, sabırlı ve dayanıklı bir ilerleyiş öne çıkıyor. Rutinlere sadık kalmak, hedefe ulaşmak için en güvenilir yol olarak görülüyor. Sorumluluk bilinci, hızdan ziyade işin kalitesine ve tamamlanmasına odaklanmayı sağlıyor.",
+          "love": "İlişkide sadakat ve öngörülebilirlik, heyecandan daha değerli kabul ediliyor. Partnerin yanında sarsılmaz bir duruş sergilemek güven veriyor. Yavaş ama emin adımlarla ilerleyen süreç, kalıcı bir bağ oluşturuyor.",
+          "career": "Çalışkanlık ve görev bilinci, iş hayatında profesyonel saygınlık kazandırıyor. Detaylı ve titiz çalışma, projelerin eksiksiz tamamlanmasını garantiliyor. Kariyerde istikrar, macera aramadan, mevcut rotada sebat ederek sağlanıyor.",
+          "spiritual": "Sorumluluk ve istikrar senin rehberin; ağır ama sağlam adımlarla ilerlemek gerekiyor. Durum, güvenilirliğini pekiştirirken, her gün aynı rutini sürdürmek, seni hedeflerine yaklaştırır. İlerlemek için sabırlı ol; az ama öz atılan adımlar, büyük değişimlerin tohumlarını eker."
+        },
+        "reversed": {
+          "general": "Aşırı tedbirlilik ve harekete geçmekte yavaşlık, fırsatların kaçmasına neden oluyor. Rutinlerin yarattığı atalet, yaşam enerjisini ve motivasyonu düşürüyor. Değişime karşı gösterilen inatçı direnç, gelişimi durduruyor.",
+          "love": "İlişkideki monotonluk ve duygusal donukluk, partneri uzaklaştırıyor. Sadece pratik konulara odaklanıp duygusal ihtiyaçları görmezden gelmek bağları zayıflatıyor. İnatçılık, iletişim kanallarının tıkanmasına yol açıyor.",
+          "career": "Mükemmeliyetçilik ve aşırı detaycılık, iş süreçlerini kilitliyor. Yeniliklere kapalılık, rekabet gücünü zayıflatarak gerilemeye neden oluyor. Kariyerde saplanıp kalmışlık hissi, tatminsizlik yaratıyor.",
+          "spiritual": "Durum, aşırı katılığın seni kısıtladığını gösteriyor; esnekliğini kaybettiğin anlar, ilerlemeni engelliyor. Değişim rüzgarını hissetmek için yöntemini gözden geçirmelisin; yenilik, sıkı tutunmaktan daha değerli. Hafif bir dokunuşla, hayatına hareket katabilirsin."
+        }
+      }
+    },
+    {
+      "id": 76,
+      "name": "Tılsım Kraliçesi",
+      "image": "76_queen_pentacles",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Pratik zeka ile şefkatin birleşimi, besleyici ve destekleyici bir ortam yaratıyor. Kaynakları ve sınırları yönetirken çevreye de güven veriliyor. Bedensel farkındalık ve doğayla uyum, içsel dengeyi sağlıyor.",
+          "love": "İlişkide koruyucu, cömert ve duyarlı bir tutum sergileniyor. Sevgi, somut ilgi ve konforlu bir alan sunarak ifade ediliyor. Duygusal olgunluk, partnerin ihtiyaçlarını anlama ve karşılama kapasitesini artırıyor.",
+          "career": "İş hayatında kaynakları verimli kullanma ve organizasyon yeteneği öne çıkıyor. Çalışma ortamında insani değerleri gözetmek, ekibin verimini yükseltiyor. Kariyer ve özel hayat dengesini kurabilmek, sürdürülebilir başarı getiriyor.",
+          "spiritual": "Besleyici ve koruyucu bir denge kurmalısın; maddi ve duygusal güven, birlikte hareket ediyor. Durum, kendine şefkatle yaklaşmanın ve pratik çözümler üretmenin zamanının geldiğini gösteriyor. Kendine bakım alanı açarak, enerjini taze tut; bu, sana güç katacak."
+        },
+        "reversed": {
+          "general": "Maddi dünyaya aşırı odaklanma, manevi değerlerin yitirilmesine yol açıyor. Kendi bakımını ihmal ederek başkalarına adanmak, tükenmişlik yaratıyor. Kontrolcü davranışlar, iyi niyetli olsa bile çevreyi baskı altında hissettiriyor.",
+          "love": "İlişkide boğucu bir sahiplenme veya aşırı koruyuculuk görülüyor. Duygusal eksiklikleri maddi hediyelerle kapatmaya çalışmak samimiyeti bozuyor. Partnerin bağımsızlığına saygı duymamak, çatışma yaratıyor.",
+          "career": "İş ve özel hayat dengesinin kaybolması, stresi kronikleştiriyor. Dağınıklık ve plansızlık, mesleki performansı olumsuz etkiliyor. Duygusal sınırların ihlali, profesyonelliği zedeliyor.",
+          "spiritual": "Kendini ihmal etme; aşırı yüklenme, içsel tükenmişliğe davetiye çıkarır. Durum, sınırlarını net bir şekilde belirlemeni gerektiriyor; hayır demek, kendine saygını artırır. Kendi ihtiyaçlarını göz ardı etmediğinde, enerji akışın dengelenir."
+        }
+      }
+    },
+    {
+      "id": 77,
+      "name": "Tılsım Kralı",
+      "image": "77_king_pentacles",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "tılsım",
+      "element": "toprak",
+      "meanings": {
+        "upright": {
+          "general": "Maddi dünyada elde edilen ustalık, sarsılmaz bir özgüven ve otorite sağlıyor. Başarı, şanstan ziyade disiplinli çalışmanın ve stratejik zekanın sonucudur. Liderlik, sakin bir güç ve istikrarlı bir duruşla kendini gösteriyor.",
+          "love": "İlişkide güvenilirlik, sadakat ve sorumluluk bilinci temel taşı oluşturuyor. Partnerine somut destek ve konforlu bir gelecek sunma isteği baskın geliyor. Duygular, tutarlı davranışlar ve sarsılmaz bir bağlılıkla ifade ediliyor.",
+          "career": "Mesleki zirve ve sektörde otorite sahibi olmak, uzun yılların deneyimini yansıtıyor. Girişimci ruh ve finansal öngörü, büyük projelerin başarıyla yönetilmesini sağlıyor. İş hayatında kalite ve sürdürülebilirlik esas alınıyor.",
+          "spiritual": "Uzun vadeli başarı ve sağlam liderlik, senin elinde şekilleniyor; güven veren bir istikrar, şu anki yolculuğunun temel taşı. Durum, sorumluluk ve bilgelik dengesini kurmanı gerektiriyor; kararlarını sakin bir zihinle al ve net bir şekilde uygula. Bu süreçte attığın her adım, seni daha sağlam bir geleceğe taşır."
+        },
+        "reversed": {
+          "general": "Maddeye aşırı düşkünlük ve güç zehirlenmesi, etik değerleri zedeliyor. Katılık ve inatçılık, değişen dünyaya uyum sağlamayı imkansız kılıyor. Statü kaybı korkusu, obsesif bir kontrol ihtiyacı doğuruyor.",
+          "love": "İlişkide partneri mülk gibi görme veya kontrol etme eğilimi huzursuzluk yaratıyor. Duygusal soğukluk ve sadece maddi değerlere odaklanma, bağı zayıflatıyor. İnatçı tutumlar, uzlaşmayı ve iletişimi engelliyor.",
+          "career": "Yolsuzluk, etik dışı kazanç veya gücün kötüye kullanımı itibar kaybına yol açıyor. Aşırı hırs, iş hayatında riskli ve hatalı kararlar aldırıyor. Başarısızlık tahammülsüzlüğü, çalışma ortamını toksik hale getiriyor.",
+          "spiritual": "Aşırı maddiyatçılık ve kontrolcülük seni sıkıştırıyor; değerlerine sıkı sıkıya bağlı kalmak, özgürlüğünü yeniden kazanmanın anahtarı. Durum, esnekliğini kaybettiğin yönünde işaretler veriyor; bırakmayı öğrenmek, hayatında alan açar. Değerlerini hatırladıkça, içindeki dengeyi bulabilirsin; bu, seni yeni fırsatlara yönlendirir."
+        }
+      }
+    }
+  ]
+}

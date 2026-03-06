@@ -1,0 +1,23 @@
+{
+  "_comment": "Card tendency glossary — Yes/No v2.1 (English)",
+  "_version": "2.1",
+  "baseTendency": {
+    "strong_yes": "Definite Yes - strong, clear and unambiguous affirmation (example: Sun, Earth)",
+    "yes": "Yes - supportive, positive trend going with the flow",
+    "uncertain": "Uncertain - dependent on circumstances, time or intrinsic clarity",
+    "no": "No - current conditions do not support progress",
+    "strong_no": "Definite No - hard stop, demolition or closure energy (example: Tower)"
+  },
+  "orientationImpact": {
+    "low": "The archetype is strong; even if the card is reversed, the core message is largely preserved",
+    "standard": "Reversal effect is normal; clarity is reduced, conditions come into play",
+    "high": "Ambiguity is intense; in the inverted position, meaning is severely blurred"
+  },
+  "reversalStyle": {
+    "delay": "Delay - in the right direction but the timing is not yet ripe",
+    "internal": "Inner block - fear, indecision or self-sabotage",
+    "shadow": "Shadow field - repressed emotion, denied reality or unconscious influence",
+    "imbalance": "Imbalance - excessive control, excessive emotion or loss of direction",
+    "blocked": "Blockage - energy is not flowing, there is an external or internal barrier"
+  }
+}

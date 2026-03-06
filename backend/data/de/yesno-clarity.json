@@ -1,0 +1,1954 @@
+{
+  "_comment": "Yes/No Clarity - cardKey based, DE shortReasons",
+  "_version": "2.0",
+  "00_fool": {
+    "clarityWeight": 15,
+    "keywords": {
+      "general": [
+        "startup",
+        "freiheit"
+      ],
+      "love": [
+        "abenteuer",
+        "spontaneität"
+      ],
+      "career": [
+        "risiko",
+        "innovation"
+      ],
+      "spiritual": [
+        "innere reise",
+        "entdeckung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Sie haben den Mut, ins Unbekannte zu gehen. Unterdrücken Sie nur nicht Ihre innere Stimme.",
+      "reversed": "Bedingt ja; Ängste können es verlangsamen. Es reicht nicht aus, sie zu stoppen, es reicht, sie zu erkennen."
+    }
+  },
+  "01_magician": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "strom",
+        "talent"
+      ],
+      "love": [
+        "schießen",
+        "kommunikation"
+      ],
+      "career": [
+        "fähigkeiten",
+        "erfolg"
+      ],
+      "spiritual": [
+        "schwerpunkt",
+        "absicht"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Sie haben das Zeug dazu. Jetzt ist es an der Zeit zu handeln.",
+      "reversed": "Bedingt Ja; Absichten können verstreut sein. Erst konzentrieren, dann handeln."
+    }
+  },
+  "02_high_priestess": {
+    "clarityWeight": 5,
+    "keywords": {
+      "general": [
+        "intuition",
+        "geheimnisvoll"
+      ],
+      "love": [
+        "geheim",
+        "tiefe"
+      ],
+      "career": [
+        "geduld",
+        "informationen"
+      ],
+      "spiritual": [
+        "innere stimme",
+        "bewusstseinsbildung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Es ist unklar, es gibt unsichtbare Dinge. Deine Intuition wird dich leiten, aber die Antwort ist nicht da draußen.",
+      "reversed": "Unsicher, flüstert Ihre innere Stimme, aber wenn Sie auf die Schnelle eine Antwort haben wollen, ist es noch nicht an der Zeit."
+    }
+  },
+  "03_empress": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "reichtum",
+        "reichtum"
+      ],
+      "love": [
+        "liebe",
+        "mitgefühl"
+      ],
+      "career": [
+        "kreativität",
+        "wachstum"
+      ],
+      "spiritual": [
+        "ernährung",
+        "fruchtbarkeit"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Sie befinden sich in einer fruchtbaren Zeit. Die Bedingungen sind fruchtbar, die Zeit der Früchte ist nahe.",
+      "reversed": "Bedingt Ja; ein Gebiet, das nicht relevant ist, behindert die Entwicklung. Kümmern Sie sich zuerst darum."
+    }
+  },
+  "04_emperor": {
+    "clarityWeight": 27,
+    "keywords": {
+      "general": [
+        "behörde",
+        "organisation"
+      ],
+      "love": [
+        "vertrauen",
+        "schutz"
+      ],
+      "career": [
+        "leiterschaft",
+        "kontrolle"
+      ],
+      "spiritual": [
+        "struktur",
+        "grenze"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Sie machen gute Fortschritte. Die Macht ist mit dir, baue die Struktur.",
+      "reversed": "Bedingt Ja; der Wunsch nach Kontrolle kann die Flexibilität behindern. Wir brauchen Gleichgewicht, nicht Autorität."
+    }
+  },
+  "05_hierophant": {
+    "clarityWeight": 15,
+    "keywords": {
+      "general": [
+        "tradition",
+        "leitfaden"
+      ],
+      "love": [
+        "selbstverpflichtung",
+        "werte"
+      ],
+      "career": [
+        "mentoring",
+        "bildung"
+      ],
+      "spiritual": [
+        "doktrin",
+        "zugehörigkeit"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, die traditionellen Wege können funktionieren. Hören Sie auf einen Führer, dem Sie vertrauen.",
+      "reversed": "Bedingt Ja; wenn die Regeln zu eng sind, müssen Sie Ihren eigenen richtigen Weg finden."
+    }
+  },
+  "06_lovers": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "wahl",
+        "harmonie"
+      ],
+      "love": [
+        "liebe",
+        "einheit"
+      ],
+      "career": [
+        "partnerschaft",
+        "entscheidung"
+      ],
+      "spiritual": [
+        "werte",
+        "integrität"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sie sind unsicher und stehen kurz vor einer Entscheidung. Die Antwort ist, wohin Ihr Herz Sie führt.",
+      "reversed": "Ungewissheit; innere Widersprüche trüben das Urteilsvermögen. Überstürzen Sie nichts, bevor Klarheit herrscht."
+    }
+  },
+  "07_chariot": {
+    "clarityWeight": 28,
+    "keywords": {
+      "general": [
+        "sieg",
+        "wird"
+      ],
+      "love": [
+        "fortschritte",
+        "bestimmung"
+      ],
+      "career": [
+        "erfolg",
+        "motivation"
+      ],
+      "spiritual": [
+        "schwerpunkt",
+        "richtung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Sie haben die Kontrolle. Das Ziel ist klar, der Weg ist klar, wenn du den Willen hast.",
+      "reversed": "Bedingt ja; Ihre Energie kann vergeudet werden. Klären Sie zunächst, was Sie wollen."
+    }
+  },
+  "08_strength": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "strom",
+        "mut"
+      ],
+      "love": [
+        "geduld",
+        "mitgefühl"
+      ],
+      "career": [
+        "widerstandsfähigkeit",
+        "beharrlichkeit"
+      ],
+      "spiritual": [
+        "innere stärke",
+        "bilanz"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Sie werden von einer sanften, aber entscheidenden Kraft unterstützt. Geh mit Geduld.",
+      "reversed": "Bedingt ja; der Selbstwert kann schwanken. Erinnern Sie sich an Ihre Stärke und stützen Sie sich auf sie."
+    }
+  },
+  "09_hermit": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "verinnerlichend",
+        "suche"
+      ],
+      "love": [
+        "einsamkeit",
+        "gedanke"
+      ],
+      "career": [
+        "analyse",
+        "planung"
+      ],
+      "spiritual": [
+        "weisheit",
+        "schweigen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ungewiss; die Antwort liegt nicht in der Außenwelt. Es ist schwer, vorwärts zu kommen, ohne sich nach innen zu wenden.",
+      "reversed": "Unsicher; wenn Sie sich zu sehr nach innen wenden, können Sie einsam werden. Versuchen Sie zu teilen."
+    }
+  },
+  "10_wheel_of_fortune": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "chance",
+        "schleife"
+      ],
+      "love": [
+        "schicksal",
+        "ändern"
+      ],
+      "career": [
+        "gelegenheit",
+        "drehen"
+      ],
+      "spiritual": [
+        "durchfluss",
+        "kapitulation"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, das Schicksal wendet sich zu Ihren Gunsten. Bleiben Sie offen für die Chancen, die der Wandel mit sich bringt.",
+      "reversed": "Bedingt Ja; es gibt einen zyklischen festgefahrenen Zustand. Ein Neubeginn erfordert Hingabe anstelle von Widerstand."
+    }
+  },
+  "11_justice": {
+    "clarityWeight": 25,
+    "keywords": {
+      "general": [
+        "justiz",
+        "bilanz"
+      ],
+      "love": [
+        "ehrlichkeit",
+        "gleichstellung"
+      ],
+      "career": [
+        "rechts",
+        "vertrag"
+      ],
+      "spiritual": [
+        "karma",
+        "verantwortung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, wenn Sie ehrlich und ausgeglichen an die Sache herangegangen sind, werden Sie bekommen, was Sie verdienen.",
+      "reversed": "Bedingt Ja; ein inneres oder äußeres Ungleichgewicht kann die Entscheidung beeinflussen. Sehen Sie sich zunächst die ganze Wahrheit an."
+    }
+  },
+  "12_hanged_man": {
+    "clarityWeight": 5,
+    "keywords": {
+      "general": [
+        "warten",
+        "perspektive"
+      ],
+      "love": [
+        "geduld",
+        "opfern"
+      ],
+      "career": [
+        "pause",
+        "übersicht"
+      ],
+      "spiritual": [
+        "kapitulation",
+        "erleuchtung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ungewiss; die für die Klarheit erforderliche innere Hingabe hat vielleicht noch nicht stattgefunden. Der Prozess geht weiter.",
+      "reversed": "Unsicherheit, Zögern oder hartnäckiges Festhalten halten Sie vielleicht davon ab, die Antwort zu finden. Ändern Sie Ihre Perspektive."
+    }
+  },
+  "13_death": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "transformation",
+        "zuletzt"
+      ],
+      "love": [
+        "schließung",
+        "regenerierung"
+      ],
+      "career": [
+        "ändern",
+        "fertigstellen"
+      ],
+      "spiritual": [
+        "nicht aufgeben",
+        "wiedergeburt"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, eine geschlossene Tür öffnet den Weg für einen neuen Anfang. Widersetze dich nicht der Transformation.",
+      "reversed": "Bedingt Ja; das Festhalten am Alten erschwert den Übergang zum Neuen. Was beendet werden sollte, kann noch am Leben gehalten werden."
+    }
+  },
+  "14_temperance": {
+    "clarityWeight": 15,
+    "keywords": {
+      "general": [
+        "bilanz",
+        "harmonie"
+      ],
+      "love": [
+        "geduld",
+        "moderation"
+      ],
+      "career": [
+        "harmonie",
+        "zusammenarbeit"
+      ],
+      "spiritual": [
+        "integration",
+        "durchfluss"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, mit maßvollen Schritten und Geduld ist eine harmonische Lösung möglich.",
+      "reversed": "Bedingt Ja; ein Ungleichgewicht oder ein Überschuss könnte Ihr Urteilsvermögen beeinträchtigen. Kehren Sie zunächst in Ihre Mitte zurück."
+    }
+  },
+  "15_devil": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "sucht",
+        "einschränkung"
+      ],
+      "love": [
+        "leidenschaft",
+        "anleihe"
+      ],
+      "career": [
+        "falle",
+        "nötigung"
+      ],
+      "spiritual": [
+        "schatten",
+        "unbewusst"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, Süchte, Obsessionen oder ungesunde Bindungen können Sie daran hindern, diesen Weg zu gehen.",
+      "reversed": "Nein, vielleicht sind Sie unsichtbar an eine Situation gebunden, der Sie ausweichen, ohne sich ihr zu stellen. Es ist riskant, einen Schritt ohne Befreiung zu tun."
+    }
+  },
+  "16_tower": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "zerstörung",
+        "ändern"
+      ],
+      "love": [
+        "krise",
+        "trennung"
+      ],
+      "career": [
+        "zusammenbrechen",
+        "gehirnerschütterung"
+      ],
+      "spiritual": [
+        "aufwachen",
+        "der realität ins auge sehen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, es gibt einen plötzlichen Bruch oder eine Situation, die einen Schock verursachen kann. Verstehe zuerst die Zerstörung, dann baue wieder auf.",
+      "reversed": "Nein, Sie befinden sich in einer verzögerten Zerstörung oder einer aufgeschobenen Konfrontation. Wenn eine Erschütterung unvermeidlich ist, ist Vorbereitung statt Widerstand gefragt."
+    }
+  },
+  "17_star": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "hoffnung",
+        "inspiration"
+      ],
+      "love": [
+        "wiederherstellung",
+        "offenheit"
+      ],
+      "career": [
+        "vision",
+        "potenziell"
+      ],
+      "spiritual": [
+        "glaube",
+        "leitfaden"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Hoffnung, Inspiration und heilende Energie mit Ihnen. Es ist ein von Herzen kommendes Ja.",
+      "reversed": "Bedingt Ja; Ihr Glaube könnte geschwächt sein. Bis Sie die Hoffnung wiedergefunden haben, kann es sein, dass Ihr Handeln nicht die volle Wirkung zeigt."
+    }
+  },
+  "18_moon": {
+    "clarityWeight": 3,
+    "keywords": {
+      "general": [
+        "unsicherheit",
+        "intuition"
+      ],
+      "love": [
+        "nebel",
+        "skepsis"
+      ],
+      "career": [
+        "zweideutigkeit",
+        "geheimnisvoll"
+      ],
+      "spiritual": [
+        "unbewusst",
+        "träume"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ungewissheit; Illusionen und Unentschlossenheit könnten die wahre Antwort überschatten. Geben Sie der Sache Zeit.",
+      "reversed": "Vage; der Nebel beginnt sich zu lichten, aber ein klares Bild hat sich vielleicht noch nicht gebildet. Filtern Sie es durch Ihre Intuition."
+    }
+  },
+  "19_sun": {
+    "clarityWeight": 30,
+    "keywords": {
+      "general": [
+        "erfolg",
+        "glück"
+      ],
+      "love": [
+        "freude",
+        "einheit"
+      ],
+      "career": [
+        "sieg",
+        "anerkennungen"
+      ],
+      "spiritual": [
+        "erleuchtung",
+        "vitalität"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Klarheit, Freude und unterstützende Energien sind mit Ihnen. Das ist die Art von Ja, die dein Herz erwärmt.",
+      "reversed": "Bedingt ja; man kann es mit dem Optimismus auch übertreiben. Wenn Sie Klarheit haben, schalten Sie auf volle Helligkeit."
+    }
+  },
+  "20_judgement": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "aufwachen",
+        "entscheidung"
+      ],
+      "love": [
+        "regenerierung",
+        "af"
+      ],
+      "career": [
+        "bewertung",
+        "förderung"
+      ],
+      "spiritual": [
+        "rufen sie  an.",
+        "abrechnung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, wenn man die Lehren aus der Vergangenheit gezogen hat, ist ein Neuanfang möglich. Wenn Sie mit Ihrem Gewissen im Einklang sind, ist Ihre Antwort klar.",
+      "reversed": "Bedingtes Ja; das Festhalten am Alten oder die Vermeidung von Verantwortung können den Fortschritt verlangsamen. Sie müssen den inneren Ruf hören."
+    }
+  },
+  "21_world": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "fertigstellung",
+        "erfolg"
+      ],
+      "love": [
+        "integrität",
+        "zufriedenheit"
+      ],
+      "career": [
+        "gipfel",
+        "erfolg"
+      ],
+      "spiritual": [
+        "schleife",
+        "integration"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, ein Zyklus ist abgeschlossen, die Energie des Erfolgs und der Ganzheit ist bei Ihnen. Jetzt ist es an der Zeit, die Früchte zu ernten.",
+      "reversed": "Bedingt Ja; es kann ein kleines Gefühl der Unvollständigkeit oder Unvollkommenheit bestehen. Es kann sein, dass Sie erst dann Klarheit haben, wenn Sie den letzten Schritt zum Abschluss getan haben."
+    }
+  },
+  "22_ace_wands": {
+    "clarityWeight": 25,
+    "keywords": {
+      "general": [
+        "startup",
+        "energie"
+      ],
+      "love": [
+        "leidenschaft",
+        "schießen"
+      ],
+      "career": [
+        "gelegenheit",
+        "störung"
+      ],
+      "spiritual": [
+        "inspiration",
+        "fieber"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, der innere Funke und der kreative Impuls rufen Sie zum Handeln auf.",
+      "reversed": "Bedingt Ja; mangelnde Motivation oder die Neigung zum Aufschieben können die Entscheidung trüben. Der Wille ist da, aber die Energie ist zerstreut."
+    }
+  },
+  "23_two_wands": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "planung",
+        "entscheidung"
+      ],
+      "love": [
+        "wahl",
+        "warten"
+      ],
+      "career": [
+        "strategie",
+        "partnerschaft"
+      ],
+      "spiritual": [
+        "vision",
+        "richtung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, die Pläne werden klarer, die Zukunftsvisionen gewinnen an Kraft. Mutige Schritte werden belohnt.",
+      "reversed": "Ungewissheit, Zögern und übermäßige Vorsicht können den Mut bremsen. Wenn die innere Richtung unklar ist, ist das Urteilsvermögen getrübt."
+    }
+  },
+  "24_three_wands": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "fortschritte",
+        "erweiterung"
+      ],
+      "love": [
+        "entwicklung",
+        "wachstum"
+      ],
+      "career": [
+        "gelegenheit",
+        "erweiterung"
+      ],
+      "spiritual": [
+        "entdeckung",
+        "horizont"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, die gesäten Samen tragen Früchte. Chancen erscheinen am Horizont.",
+      "reversed": "Bedingt Ja; die Erwartungen sind klar, aber die äußeren Bedingungen entwickeln sich möglicherweise langsamer als erwartet. Das kann eine Geduldsprobe sein."
+    }
+  },
+  "25_four_wands": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "feierlichkeiten",
+        "harmonie"
+      ],
+      "love": [
+        "einheit",
+        "startseite"
+      ],
+      "career": [
+        "erfolg",
+        "feierlichkeiten"
+      ],
+      "spiritual": [
+        "grundlegend",
+        "wurzel"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, die Feier wird von der Energie der Stabilität und der gemeinsamen Freude getragen. Der Boden ist fest.",
+      "reversed": "Bedingt ja; auch wenn äußerlich alles gut aussieht, kann es im Inneren Unruhe geben. Finden Sie zuerst das innere Gleichgewicht."
+    }
+  },
+  "26_five_wands": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "konflikt",
+        "wettbewerb"
+      ],
+      "love": [
+        "debatte",
+        "spannung"
+      ],
+      "career": [
+        "wettbewerb",
+        "kampf"
+      ],
+      "spiritual": [
+        "ego",
+        "reibung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, Meinungsverschiedenheiten oder Konkurrenz verhindern klare Fortschritte.",
+      "reversed": "Bedingt Ja; die Konflikte nehmen zwar ab, aber Klarheit ist weiterhin erforderlich. Klarheit kann es ohne Harmonisierung nicht geben."
+    }
+  },
+  "27_six_wands": {
+    "clarityWeight": 26,
+    "keywords": {
+      "general": [
+        "sieg",
+        "anerkennungen"
+      ],
+      "love": [
+        "erfolg",
+        "zulassung"
+      ],
+      "career": [
+        "sieg",
+        "förderung"
+      ],
+      "spiritual": [
+        "stolz",
+        "leiterschaft"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, die Antwort ist positiv, mit der Energie des Sieges, der Anerkennung und eines Selbstbewusstseins, das sie vorantreibt.",
+      "reversed": "Bedingt Ja; Sie stehen kurz vor dem Erfolg, aber das Bedürfnis nach externer Zustimmung kann die Entscheidung manipulieren."
+    }
+  },
+  "28_seven_wands": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "verteidigung",
+        "widerstand"
+      ],
+      "love": [
+        "kampf",
+        "schutz"
+      ],
+      "career": [
+        "verteidigung",
+        "position"
+      ],
+      "spiritual": [
+        "grenze",
+        "körperhaltung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, wenn Sie Ihre Haltung beibehalten und sich auf dem richtigen Boden befinden, ist die Unterstützung bei Ihnen.",
+      "reversed": "Bedingt ja; Müdigkeit oder Demotivation können Ihre Kampfkraft beeinträchtigen. Stellen Sie sich neu auf."
+    }
+  },
+  "29_eight_wands": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "geschwindigkeit",
+        "fortschritte"
+      ],
+      "love": [
+        "rasche entwicklung",
+        "bewegung"
+      ],
+      "career": [
+        "geschwindigkeit",
+        "schwung"
+      ],
+      "spiritual": [
+        "durchfluss",
+        "beschleunigung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, dank der raschen Entwicklung und der offenen Kommunikation ist die Entscheidung in greifbare Nähe gerückt.",
+      "reversed": "Bedingt Ja; Verzögerungen oder Kommunikationspannen können den Prozess verlangsamen, aber die Richtung stimmt."
+    }
+  },
+  "30_nine_wands": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "widerstandsfähigkeit",
+        "beharrlichkeit"
+      ],
+      "love": [
+        "geduld",
+        "vertrauen"
+      ],
+      "career": [
+        "widerstand",
+        "der letzte schritt"
+      ],
+      "spiritual": [
+        "test",
+        "reifung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Bedingt ja; wenn man seine Grenzen gut setzt, kann man vorankommen, aber man sollte die Vorsicht nicht aufgeben.",
+      "reversed": "Bedingt Ja; der Verteidigungszustand könnte übertrieben sein. Ein Offenhalten ohne Schließen kann die Antwort klären."
+    }
+  },
+  "31_ten_wands": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "laden",
+        "verantwortung"
+      ],
+      "love": [
+        "drucken",
+        "ermüdung"
+      ],
+      "career": [
+        "überarbeitung",
+        "stress"
+      ],
+      "spiritual": [
+        "transportieren",
+        "nicht aufgeben"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, es ist die Überlastung und Erschöpfung, die es schwierig macht, Entscheidungen zu treffen. Ohne Erleichterung kann es keinen Fortschritt geben.",
+      "reversed": "Bedingt Ja, wenn man anfängt, Lasten loszulassen, ist der Weg frei. Aber es gibt immer noch Überschüsse, die getragen werden müssen."
+    }
+  },
+  "32_page_wands": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "nachrichten",
+        "aufregung"
+      ],
+      "love": [
+        "neues interesse",
+        "abenteuer"
+      ],
+      "career": [
+        "gelegenheit",
+        "lernen"
+      ],
+      "spiritual": [
+        "neugierde",
+        "entdeckung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, neue Ideen und innere Erregung rufen Sie zum Handeln auf. Folgen Sie Ihrem Herzen.",
+      "reversed": "Bedingt Ja; Sie haben Energie, aber vielleicht ist sie richtungslos. Leidenschaft ist ohne ein klares Ziel nicht genug."
+    }
+  },
+  "33_knight_wands": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "aktion",
+        "mut"
+      ],
+      "love": [
+        "leidenschaft",
+        "abenteuer"
+      ],
+      "career": [
+        "unternehmen",
+        "energie"
+      ],
+      "spiritual": [
+        "bewegung",
+        "feuer"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Leidenschaft, Mut und Charisma sprechen für Sie. Es ist ein starker Moment zum Handeln.",
+      "reversed": "Bedingt Ja; Eile oder Ungeduld können die Nachhaltigkeit der Entscheidung beeinträchtigen."
+    }
+  },
+  "34_queen_wands": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "vertrauen",
+        "ausstrahlung"
+      ],
+      "love": [
+        "attraktivität",
+        "selbstvertrauen"
+      ],
+      "career": [
+        "leiterschaft",
+        "kreativität"
+      ],
+      "spiritual": [
+        "energie",
+        "inspiration"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Ihr Selbstvertrauen und Ihre Ausstrahlung beeinflussen Ihr Umfeld. Die Antwort liegt sowohl in Ihnen als auch im Licht dessen, was Sie haben.",
+      "reversed": "Bedingt Ja; auch wenn Sie äußerlich stark aussehen, kann Ihre innere Motivation in Frage gestellt sein. Sie müssen Ihre Stärke von innen heraus spüren."
+    }
+  },
+  "35_king_wands": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "leiterschaft",
+        "vision"
+      ],
+      "love": [
+        "leidenschaft",
+        "behörde"
+      ],
+      "career": [
+        "unternehmertum",
+        "erfolg"
+      ],
+      "spiritual": [
+        "richtung",
+        "wird"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Führung, Vision und Entschlossenheit unterstützen die Antwort. Die Richtung ist klar.",
+      "reversed": "Bedingt ja, die Richtung ist klar, aber es fehlt vielleicht an der Strategie. Versuchen Sie, es zu verbrennen, bevor es brennt."
+    }
+  },
+  "36_ace_cups": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "emotionaler start",
+        "liebe"
+      ],
+      "love": [
+        "neue liebe",
+        "erweiterung"
+      ],
+      "career": [
+        "zufriedenheit",
+        "zufriedenstellung"
+      ],
+      "spiritual": [
+        "herz",
+        "intuition"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es gibt eine emotionale Frische, eine Öffnung des Herzens. Diesmal ertönt die Stimme in Ihrem Inneren an der richtigen Stelle.",
+      "reversed": "Bedingt Ja; unterdrückte oder verwirrte Gefühle erschweren es, Klarheit zu erlangen. Hören Sie zuerst auf Ihre Gefühle."
+    }
+  },
+  "37_two_cups": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "einheit",
+        "partnerschaft"
+      ],
+      "love": [
+        "anleihe",
+        "harmonie"
+      ],
+      "career": [
+        "zusammenarbeit",
+        "partnerschaft"
+      ],
+      "spiritual": [
+        "bilanz",
+        "gegenseitigkeit"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es gibt eine Energie der harmonischen Verbindungen und des gegenseitigen Verständnisses. Die Herzen schlagen im Rhythmus.",
+      "reversed": "Bedingt Ja; es kann eine vorübergehende Unterbrechung der emotionalen Harmonie geben. Aber die Brücke ist noch intakt und eine Reparatur ist möglich."
+    }
+  },
+  "38_three_cups": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "feierlichkeiten",
+        "freundschaft"
+      ],
+      "love": [
+        "sozial",
+        "freude"
+      ],
+      "career": [
+        "team",
+        "erfolg"
+      ],
+      "spiritual": [
+        "gemeinschaft",
+        "teilen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Sie sind umgeben von Feierlichkeiten, Freundschaft und emotionaler Unterstützung. Es ist ein gemeinsames Ja.",
+      "reversed": "Bedingt Ja; externe Geräusche oder emotionaler Aufruhr können Sie von der Antwort ablenken. Beseitigen Sie zuerst den Lärm."
+    }
+  },
+  "39_four_cups": {
+    "clarityWeight": 6,
+    "keywords": {
+      "general": [
+        "gleichgültigkeit",
+        "gedanke"
+      ],
+      "love": [
+        "apathie",
+        "warten"
+      ],
+      "career": [
+        "unzufriedenheit",
+        "pause"
+      ],
+      "spiritual": [
+        "apathie",
+        "innere langeweile"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ungewissheit: Sie können sich in einem Geisteszustand befinden, in dem Sie nicht sehen, was verfügbar ist. Emotionale Unzufriedenheit kann Ihr Urteilsvermögen trüben.",
+      "reversed": "Ungewissheit; es gibt eine Situation zwischen der Öffnung für das Neue und dem Festhalten an dem Alten. Die äußere Antwort ist schwierig, ohne die innere Situation zu klären."
+    }
+  },
+  "40_five_cups": {
+    "clarityWeight": 6,
+    "keywords": {
+      "general": [
+        "fehlt",
+        "traurigkeit"
+      ],
+      "love": [
+        "enttäuschung",
+        "trauernde"
+      ],
+      "career": [
+        "versagen",
+        "bedauern"
+      ],
+      "spiritual": [
+        "trauernde",
+        "verarbeitung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, es könnte sein, dass die Beschäftigung mit der Vergangenheit Sie daran hindert, die Antwort zu sehen, die vor Ihnen liegt. Die Entscheidung wird erst dann klar sein, wenn die Trauer vorbei ist.",
+      "reversed": "Bedingtes Ja: Sie befinden sich in einem Heilungsprozess, aber ein Ja, bevor Sie sich vollständig erholt haben, kann Sie im Stich lassen."
+    }
+  },
+  "41_six_cups": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "nostalgie",
+        "souvenir"
+      ],
+      "love": [
+        "geschichte",
+        "reinheit"
+      ],
+      "career": [
+        "verbindung der vergangenheit",
+        "vertraut"
+      ],
+      "spiritual": [
+        "unschuld",
+        "wurzel"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, der süße Nachhall der Vergangenheit mildert Ihre heutige Antwort. Es ist ein aufrichtiges und vertrautes Ja.",
+      "reversed": "Bedingt Ja; das Festhalten an der Nostalgie kann die aktuelle Antwort überschatten. Wir müssen zwischen Erinnerungen und der Realität unterscheiden."
+    }
+  },
+  "42_seven_cups": {
+    "clarityWeight": 3,
+    "keywords": {
+      "general": [
+        "phantasie",
+        "wahl"
+      ],
+      "love": [
+        "unentschlossenheit",
+        "fantasie"
+      ],
+      "career": [
+        "option",
+        "unsicherheit"
+      ],
+      "spiritual": [
+        "illusion",
+        "unterscheidungsvermögen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Zweideutig; Sie könnten zwischen zu vielen Entscheidungen oder Träumen hin- und hergerissen sein. Die Klarheit könnte nebulös sein.",
+      "reversed": "Ungewiss; der Schleier zwischen Realität und Fiktion lüftet sich, aber eine vollständige Transparenz ist vielleicht noch nicht erreicht."
+    }
+  },
+  "43_eight_cups": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "trennung",
+        "suche"
+      ],
+      "love": [
+        "verlassenheit",
+        "weggabelung"
+      ],
+      "career": [
+        "rücktritt",
+        "ändern"
+      ],
+      "spiritual": [
+        "nicht aufgeben",
+        "reisen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, es ist an der Zeit, sich von einer Situation zu lösen, die Sie nicht erfüllt. Es könnte besser sein, zu gehen als zu bleiben.",
+      "reversed": "Bedingt Ja; Sie wollen gehen, aber Sie schauen noch zurück. Ohne einen klaren Bruch ist die Antwort nicht klar."
+    }
+  },
+  "44_nine_cups": {
+    "clarityWeight": 24,
+    "keywords": {
+      "general": [
+        "wunsch",
+        "zufriedenheit"
+      ],
+      "love": [
+        "glück",
+        "zufriedenheit"
+      ],
+      "career": [
+        "erfolg",
+        "zufriedenheit"
+      ],
+      "spiritual": [
+        "dankbarkeit",
+        "reichtum"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja; umgeben von der Energie der Wunscherfüllung. Dieses Ja wird von einem inneren Gefühl der Erfüllung begleitet.",
+      "reversed": "Bedingt Ja; der äußere Erfolg kann von innerer Leere überschattet werden. Es ist schwierig, sich auf den Weg zu machen, ohne zu erkennen, wo die wahre Erfüllung liegt."
+    }
+  },
+  "45_ten_cups": {
+    "clarityWeight": 24,
+    "keywords": {
+      "general": [
+        "glück",
+        "harmonie"
+      ],
+      "love": [
+        "familie",
+        "zufriedenheit"
+      ],
+      "career": [
+        "teamzusammenhalt",
+        "erfolg"
+      ],
+      "spiritual": [
+        "integrität",
+        "frieden"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es gibt emotionale Erfüllung, familiären Frieden und ein Gefühl der Ganzheitlichkeit des Herzens. Die Antwort ist klar und aufrichtig.",
+      "reversed": "Bedingtes Ja: Auch wenn äußerlich Frieden herrscht, kann es zu einem inneren Bruch kommen. Es ist notwendig, das emotionale Gleichgewicht wiederherzustellen, damit dieses Ja vollständig gefühlt werden kann."
+    }
+  },
+  "46_page_cups": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "nachricht",
+        "emotional"
+      ],
+      "love": [
+        "angebot",
+        "romantisch"
+      ],
+      "career": [
+        "kreative möglichkeit",
+        "nachrichten"
+      ],
+      "spiritual": [
+        "intuition",
+        "empfindlichkeit"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, ein emotionaler Heiratsantrag oder eine herzliche Nachricht ist auf dem Weg. Wenn du dein Herz offen hältst, richtest du dich auf die richtige Frequenz aus.",
+      "reversed": "Bedingt ja; die Sensibilität ist hoch, kleine Dinge können groß werden. Stimme dich mit deinem Herzen ab, bevor du etwas sagst."
+    }
+  },
+  "47_knight_cups": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "angebot",
+        "romantisch"
+      ],
+      "love": [
+        "verliebt",
+        "angebot"
+      ],
+      "career": [
+        "kreatives projekt",
+        "einladung"
+      ],
+      "spiritual": [
+        "phantasie",
+        "idealismus"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, ein romantischer oder kreativer Schritt könnte Sie emotional befriedigen. Die Absicht ist aufrichtig.",
+      "reversed": "Bedingtes Ja; guten Worten folgen möglicherweise keine Taten. Gleichen Sie die Erwartung aus, klären Sie, was Sie fühlen."
+    }
+  },
+  "48_queen_cups": {
+    "clarityWeight": 17,
+    "keywords": {
+      "general": [
+        "intuition",
+        "mitgefühl"
+      ],
+      "love": [
+        "verständnis",
+        "tiefe bindung"
+      ],
+      "career": [
+        "einfühlungsvermögen",
+        "unterstützung"
+      ],
+      "spiritual": [
+        "herz",
+        "einsicht"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Mitgefühl, Empathie und intuitive Tiefe unterstützen Sie. Lassen Sie sich von Ihrer inneren Ruhe leiten.",
+      "reversed": "Bedingt ja; übermäßige Empathie kann die Grenzen verwischen. Lassen Sie sich etwas Freiraum."
+    }
+  },
+  "49_king_cups": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "emotionales gleichgewicht",
+        "weisheit"
+      ],
+      "love": [
+        "fälligkeit",
+        "verständnis"
+      ],
+      "career": [
+        "leiterschaft",
+        "diplomatie"
+      ],
+      "spiritual": [
+        "fachwissen",
+        "bilanz"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, ein ausgeglichener Ansatz, der mit den Gefühlen im Reinen ist, bringt Lösungen. Innere Reife führt zu Ergebnissen.",
+      "reversed": "Bedingtes Ja; emotionaler Druck oder Unterdrückung können die Kontrolle erschweren. Erst die Emotion erkennen, dann handeln."
+    }
+  },
+  "50_ace_swords": {
+    "clarityWeight": 25,
+    "keywords": {
+      "general": [
+        "klarheit",
+        "real"
+      ],
+      "love": [
+        "ehrlichkeit",
+        "offenheit"
+      ],
+      "career": [
+        "bahnbrechend",
+        "erfolg"
+      ],
+      "spiritual": [
+        "klarheit",
+        "schärfe"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es entstehen geistige Klarheit und Wahrheit. Die richtige Entscheidung wird geschärft.",
+      "reversed": "Bedingt Ja; die Informationen können unklar oder unvollständig sein. Entscheidungen, die ohne Klarheit getroffen werden, können sich später als schwierig erweisen."
+    }
+  },
+  "51_two_swords": {
+    "clarityWeight": 2,
+    "keywords": {
+      "general": [
+        "unentschlossenheit",
+        "deadlock"
+      ],
+      "love": [
+        "unsicherheit",
+        "warten"
+      ],
+      "career": [
+        "entscheidung",
+        "bilanz"
+      ],
+      "spiritual": [
+        "verweigerung",
+        "die suche nach dem gleichgewicht"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ungewiss; möglicherweise zögert man, sich den Tatsachen zu stellen. Die Entscheidung ist noch nicht gefallen.",
+      "reversed": "Sie ist unsicher, der innere Konflikt wächst. Die Wahrheit, die man ignoriert hat, klopft nun an die Tür."
+    }
+  },
+  "52_three_swords": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "herzschmerz",
+        "schmerz"
+      ],
+      "love": [
+        "trennung",
+        "verrat"
+      ],
+      "career": [
+        "enttäuschung",
+        "konflikt"
+      ],
+      "spiritual": [
+        "trauernde",
+        "akzeptanz"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, Liebeskummer und seelische Qualen sind nicht förderlich für diesen Weg. Die Heilung hat jetzt Priorität.",
+      "reversed": "Nein, die Wunde schließt sich, aber die Empfindlichkeit bleibt. Es ist zu früh, um eine Entscheidung zu treffen."
+    }
+  },
+  "53_four_swords": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "rest",
+        "wiederherstellung"
+      ],
+      "love": [
+        "suche",
+        "gedanke"
+      ],
+      "career": [
+        "pause",
+        "planung"
+      ],
+      "spiritual": [
+        "heilung",
+        "schweigen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, es ist Zeit, sich auszuruhen und sich zu erholen. Geistige Müdigkeit schwächt das Urteilsvermögen.",
+      "reversed": "Nein, überstürztes Handeln kann zu weiterer Erschöpfung führen."
+    }
+  },
+  "54_five_swords": {
+    "clarityWeight": 6,
+    "keywords": {
+      "general": [
+        "konflikt",
+        "fehlt"
+      ],
+      "love": [
+        "debatte",
+        "ego"
+      ],
+      "career": [
+        "wettbewerb",
+        "ungerechtigkeit"
+      ],
+      "spiritual": [
+        "ego",
+        "besiegen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein; selbst wenn er gewonnen wird, ist der Preis hoch. Dieser Weg ist ein langfristiger Verlierer.",
+      "reversed": "Nein, die Spannungen nehmen ab, aber das Vertrauen ist noch nicht wiederhergestellt."
+    }
+  },
+  "55_six_swords": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "übergang",
+        "wiederherstellung"
+      ],
+      "love": [
+        "distanzierung",
+        "neuanfang"
+      ],
+      "career": [
+        "ändern",
+        "umzug"
+      ],
+      "spiritual": [
+        "reisen",
+        "fortschritte"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es ist möglich, sich geistig in einen ruhigeren Raum zu begeben. In die Richtung der Heilung.",
+      "reversed": "Bedingtes Ja; das Festhalten an der Vergangenheit verlangsamt den Fortschritt. Klarheit ist schwierig, ohne loszulassen."
+    }
+  },
+  "56_seven_swords": {
+    "clarityWeight": 5,
+    "keywords": {
+      "general": [
+        "betrug",
+        "flucht"
+      ],
+      "love": [
+        "täuschung",
+        "datenschutz"
+      ],
+      "career": [
+        "strategie",
+        "achtung"
+      ],
+      "spiritual": [
+        "schatten",
+        "versteckte absicht"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein; versteckte Absichten oder unklare Schritte untergraben das Vertrauen.",
+      "reversed": "Nein, das Verborgene kommt ans Licht, aber dieser Prozess kann traumatisierend sein."
+    }
+  },
+  "57_eight_swords": {
+    "clarityWeight": 4,
+    "keywords": {
+      "general": [
+        "festigkeit",
+        "einschränkung"
+      ],
+      "love": [
+        "falle",
+        "furcht"
+      ],
+      "career": [
+        "deadlock",
+        "verstopfung"
+      ],
+      "spiritual": [
+        "irrenanstalt",
+        "glaube"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, das Gefühl, mental gefangen zu sein, ist stark. Im Moment gibt es keine freie Wahl.",
+      "reversed": "Nein, die Tür öffnet sich, aber es ist schwierig, ohne Mut und Bewusstsein voranzukommen."
+    }
+  },
+  "58_nine_swords": {
+    "clarityWeight": 5,
+    "keywords": {
+      "general": [
+        "ängste",
+        "furcht"
+      ],
+      "love": [
+        "besorgnis",
+        "schlaflosigkeit"
+      ],
+      "career": [
+        "stress",
+        "ängste"
+      ],
+      "spiritual": [
+        "psychische folter",
+        "wahnvorstellung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, Angst und Verblendung behindern das Urteilsvermögen. Die Antwort wird erst dann klar sein, wenn der Geist ruhig ist.",
+      "reversed": "Nein, die Last wird leichter, aber der mentale Lärm hat noch nicht ganz aufgehört."
+    }
+  },
+  "59_ten_swords": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "zuletzt",
+        "dipnokta"
+      ],
+      "love": [
+        "fertigstellen",
+        "verrat"
+      ],
+      "career": [
+        "redundanz",
+        "zuletzt"
+      ],
+      "spiritual": [
+        "dunkle nacht",
+        "kapitulation"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, es gibt eine scharf endende Energie. Sie zu erzwingen, wird die Situation verschlimmern.",
+      "reversed": "Nein, der Prozess ist noch nicht abgeschlossen, auch wenn die Wende von unten begonnen hat."
+    }
+  },
+  "60_page_swords": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "nachrichten",
+        "neugierde"
+      ],
+      "love": [
+        "kommunikation",
+        "entdeckung"
+      ],
+      "career": [
+        "forschung",
+        "lernen"
+      ],
+      "spiritual": [
+        "anfrage",
+        "mentale exploration"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ungewissheit; Neugier und Forschung sind vorhanden, aber nicht genügend Reife für das Ergebnis.",
+      "reversed": "Ungewissheit; Gerüchte oder Fehlinformationen können die Entscheidung verderben. Eine Bestätigung ist unerlässlich."
+    }
+  },
+  "61_knight_swords": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "geschwindigkeit",
+        "bestimmung"
+      ],
+      "love": [
+        "eile",
+        "direkt"
+      ],
+      "career": [
+        "schnelle aktion",
+        "aggressiv"
+      ],
+      "spiritual": [
+        "geistige geschwindigkeit",
+        "schärfe"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, mit einem schnellen und klaren Schritt können Ergebnisse erzielt werden. Die Entschlossenheit ist stark.",
+      "reversed": "Bedingt ja; Impulsivität und Strenge können kontraproduktiv sein. Erst denken."
+    }
+  },
+  "62_queen_swords": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "klarheit",
+        "unabhängigkeit"
+      ],
+      "love": [
+        "ehrlichkeit",
+        "grenzen"
+      ],
+      "career": [
+        "analyse",
+        "objektivität"
+      ],
+      "spiritual": [
+        "klarheit",
+        "unterscheidungsvermögen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Logik, klare Grenzen und Ehrlichkeit bringen das richtige Ergebnis.",
+      "reversed": "Bedingt Ja; übermäßige Härte oder emotionale Distanzierung können Türen schließen."
+    }
+  },
+  "63_king_swords": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "behörde",
+        "justiz"
+      ],
+      "love": [
+        "logik",
+        "ehrlichkeit"
+      ],
+      "career": [
+        "leiterschaft",
+        "entscheidung"
+      ],
+      "spiritual": [
+        "fachwissen",
+        "klarheit"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es ist möglich, mit einer fairen, kühlen und strategischen Haltung voranzukommen.",
+      "reversed": "Bedingt Ja; Machtmissbrauch kann das Gleichgewicht stören. Behalten Sie die ethische Linie bei."
+    }
+  },
+  "64_ace_pentacles": {
+    "clarityWeight": 24,
+    "keywords": {
+      "general": [
+        "gelegenheit",
+        "startup"
+      ],
+      "love": [
+        "sicherheit",
+        "stabilisierung"
+      ],
+      "career": [
+        "arbeitsmöglichkeit",
+        "angebot"
+      ],
+      "spiritual": [
+        "erdung",
+        "materialisierung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es gibt eine neue finanzielle Chance oder einen sicheren Boden. Dieser Samen kann mit der Zeit zu einem starken Baum heranwachsen.",
+      "reversed": "Bedingt Ja; die Chance ist da, aber die Art und Weise, wie sie genutzt wird, kann problematisch sein. Möglicherweise wird sie von Angst oder Unsicherheit überschattet."
+    }
+  },
+  "65_two_pentacles": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "bilanz",
+        "harmonie"
+      ],
+      "love": [
+        "waagenbau",
+        "mehrere"
+      ],
+      "career": [
+        "multitasking",
+        "bilanz"
+      ],
+      "spiritual": [
+        "flexibilität",
+        "harmonie"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ungewiss: Sie befinden sich in der Entscheidungsphase. Wenn Sie zwischen zwei Optionen hin- und herpendeln, ist möglicherweise noch keine Klarheit vorhanden.",
+      "reversed": "Vage; vielleicht spielen Sie sich zu viele Bälle zu. Ohne Prioritäten zu setzen, ist eine Ja- oder Nein-Antwort in der Schwebe."
+    }
+  },
+  "66_three_pentacles": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "zusammenarbeit",
+        "fachwissen"
+      ],
+      "love": [
+        "zusammenarbeit",
+        "harmonie"
+      ],
+      "career": [
+        "teamarbeit",
+        "anerkennungen"
+      ],
+      "spiritual": [
+        "handwerk",
+        "lernen"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, die Zusammenarbeit, die gemeinsamen Anstrengungen und die Unterstützung sind mit Ihnen. Es ist möglich, auf einem soliden Fundament voranzukommen.",
+      "reversed": "Bedingt Ja; Disharmonie im Team oder unzureichender Beitrag können das Urteilsvermögen beeinträchtigen. Überprüfen Sie zuverlässige Gründe."
+    }
+  },
+  "67_four_pentacles": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "sicherheit",
+        "kontrolle"
+      ],
+      "love": [
+        "eigentum",
+        "schutz"
+      ],
+      "career": [
+        "stabilisierung",
+        "konservatismus"
+      ],
+      "spiritual": [
+        "durchhalten",
+        "furcht"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein; die Angst, festzuhalten und zu verlieren, hält Sie vielleicht an einem festen Platz fest. Es gibt einen Widerstand, der den Fluss blockiert.",
+      "reversed": "Bedingt Ja; der Wunsch, aufzuhören, ist vorhanden, aber Sie haben noch ein inneres Unbehagen. Mut muss auf Urteilsvermögen treffen."
+    }
+  },
+  "68_five_pentacles": {
+    "clarityWeight": 6,
+    "keywords": {
+      "general": [
+        "schwierigkeit",
+        "fehlt"
+      ],
+      "love": [
+        "einsamkeit",
+        "ablehnung"
+      ],
+      "career": [
+        "arbeitslosigkeit",
+        "schwierigkeit"
+      ],
+      "spiritual": [
+        "knappheitsgefühl",
+        "test"
+      ]
+    },
+    "shortReason": {
+      "upright": "Nein, Gefühle der Ausgrenzung oder der Unzulänglichkeit können die Entscheidung beeinflussen. Zuerst müssen Sie die inneren Wunden erkennen.",
+      "reversed": "Bedingt Ja; der Erholungsprozess hat möglicherweise begonnen. Für ein klares Ja reicht die Erholung aber möglicherweise noch nicht aus."
+    }
+  },
+  "69_six_pentacles": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "großzügigkeit",
+        "teilen"
+      ],
+      "love": [
+        "geben",
+        "nimm nicht"
+      ],
+      "career": [
+        "gerechte löhne",
+        "anerkennungen"
+      ],
+      "spiritual": [
+        "reichtum",
+        "schleife"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es gibt eine Energie der gegenseitigen Unterstützung und des Gleichgewichts. In einer Situation, in der Sie so viel geben können, wie Sie empfangen, wird Ihre Antwort klarer.",
+      "reversed": "Ein bedingtes Ja, ein unausgewogener Austausch oder versteckte Erwartungen können die Klarheit trüben. Vereinfachen Sie Ihre Absichten."
+    }
+  },
+  "70_seven_pentacles": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "geduld",
+        "bewertung"
+      ],
+      "love": [
+        "warten",
+        "investition"
+      ],
+      "career": [
+        "bewertung",
+        "planung"
+      ],
+      "spiritual": [
+        "warten auf die ernte",
+        "geduld"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, das, wofür Sie arbeiten, wächst. Das Ergebnis ist zwar nicht unmittelbar, aber die Richtung stimmt.",
+      "reversed": "Bedingtes Ja; Ungeduld oder zeitliche Bedenken können die Antwort trüben. Ohne Vertrauen in den Prozess ist Klarheit schwierig."
+    }
+  },
+  "71_eight_pentacles": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "harte arbeit",
+        "fachwissen"
+      ],
+      "love": [
+        "arbeit",
+        "entwicklung"
+      ],
+      "career": [
+        "fähigkeiten",
+        "bildung"
+      ],
+      "spiritual": [
+        "handwerk",
+        "praktisch"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, die Antwort ist positiv, mit Entschlossenheit, praktischer Anstrengung und Beherrschung der Energie. Wenn Sie sich anstrengen, werden Sie belohnt werden.",
+      "reversed": "Bedingt Ja; es könnte sich um Desorganisation oder mangelnde Motivation handeln. Es ist schwierig, ein klares Ergebnis zu erwarten, ohne einen klaren Schritt zu tun."
+    }
+  },
+  "72_nine_pentacles": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "unabhängigkeit",
+        "luxus"
+      ],
+      "love": [
+        "autarkie",
+        "freiheit"
+      ],
+      "career": [
+        "erfolg",
+        "anerkennungen"
+      ],
+      "spiritual": [
+        "selbstwirksamkeit",
+        "reichtum"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Sie stehen auf sicherem, solidem Boden. Die Bedingungen sind reif.",
+      "reversed": "Bedingt Ja; auch wenn der Erfolg nach außen hin sichtbar ist, kann ein inneres Gefühl der Unvollständigkeit bestehen. Graben Sie ein wenig tiefer, um vollständige Erfüllung zu finden."
+    }
+  },
+  "73_ten_pentacles": {
+    "clarityWeight": 24,
+    "keywords": {
+      "general": [
+        "erbe",
+        "dauerhaftigkeit"
+      ],
+      "love": [
+        "familie",
+        "langfristig"
+      ],
+      "career": [
+        "ruhestand",
+        "erbe"
+      ],
+      "spiritual": [
+        "ursprünge",
+        "kontinuität"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, die Energie der Beständigkeit, der Fülle und der familiären Unterstützung ist mit Ihnen. Das Fundament, das Sie errichtet haben, trägt langfristige Stärke.",
+      "reversed": "Bedingt ja; es kann ein Ungleichgewicht im Wertesystem bestehen, obwohl äußerlich ein Überfluss vorhanden zu sein scheint. Schauen Sie, wo das wahre Vertrauen liegt."
+    }
+  },
+  "74_page_pentacles": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "gelegenheit",
+        "lernen"
+      ],
+      "love": [
+        "neue bekanntschaft",
+        "geduld"
+      ],
+      "career": [
+        "praktikum",
+        "bildung"
+      ],
+      "spiritual": [
+        "studenten",
+        "neugierde"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es gibt eine neue Lern- oder Entwicklungsmöglichkeit. Anfänge warten darauf, dass Sie Wurzeln schlagen.",
+      "reversed": "Bedingtes Ja; es besteht die Gefahr, dass Sie den Fokus verlieren oder etwas aufschieben. Klären Sie Ihre Absichten und gehen Sie dann voran."
+    }
+  },
+  "75_knight_pentacles": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "zuverlässigkeit",
+        "geduld"
+      ],
+      "love": [
+        "loyalität",
+        "stabilisierung"
+      ],
+      "career": [
+        "harte arbeit",
+        "methode"
+      ],
+      "spiritual": [
+        "beharrlichkeit",
+        "einweihung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, mit Geduld und Schritt für Schritt werden Sie zu einem soliden Fundament geführt. Der Prozess ist beruhigend.",
+      "reversed": "Bedingt Ja; Sturheit oder Trägheit können den Prozess behindern. Dies ist eine Zeit, in der Sie flexibel sein müssen."
+    }
+  },
+  "76_queen_pentacles": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "praktikabilität",
+        "reichtum"
+      ],
+      "love": [
+        "mitgefühl",
+        "startseite"
+      ],
+      "career": [
+        "effizienz",
+        "erfolg"
+      ],
+      "spiritual": [
+        "erdung",
+        "nützlichkeit"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, Erfolg kommt mit Sorgfalt, Einfachheit und innerem Gleichgewicht. Zuversicht und Frieden gehen Hand in Hand.",
+      "reversed": "Bedingt Ja; übermäßige Opferbereitschaft oder Vernachlässigung können Risse im System verursachen. Stellen Sie zunächst das innere Gleichgewicht her."
+    }
+  },
+  "77_king_pentacles": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "erfolg",
+        "sicherheit"
+      ],
+      "love": [
+        "robustheit",
+        "vertrauen"
+      ],
+      "career": [
+        "leiterschaft",
+        "reichtum"
+      ],
+      "spiritual": [
+        "fachwissen",
+        "stabilisierung"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ja, es wird eine geplante, verlässliche und nachhaltige Struktur aufgebaut. Finanzielle und moralische Stabilität mit Ihnen.",
+      "reversed": "Bedingt ja; nur interessenorientiert zu sein, wird Sie auf Dauer nicht befriedigen. Holen Sie sich die Zustimmung des Herzens."
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "00_fool": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "01_magician": {
+    "baseTendency": "güçlü_evet",
+    "orientationImpact": "düşük",
+    "reversalStyle": "içsel"
+  },
+  "02_high_priestess": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "gölge"
+  },
+  "03_empress": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  },
+  "04_emperor": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "05_hierophant": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "06_lovers": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "gölge"
+  },
+  "07_chariot": {
+    "baseTendency": "güçlü_evet",
+    "orientationImpact": "düşük",
+    "reversalStyle": "gecikme"
+  },
+  "08_strength": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "09_hermit": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "içsel"
+  },
+  "10_wheel_of_fortune": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "tıkanık"
+  },
+  "11_justice": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "12_hanged_man": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "gölge"
+  },
+  "13_death": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  },
+  "14_temperance": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "15_devil": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "gölge"
+  },
+  "16_tower": {
+    "baseTendency": "güçlü_hayır",
+    "orientationImpact": "düşük",
+    "reversalStyle": "dengesizlik"
+  },
+  "17_star": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  },
+  "18_moon": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "gölge"
+  },
+  "19_sun": {
+    "baseTendency": "güçlü_evet",
+    "orientationImpact": "düşük",
+    "reversalStyle": "gecikme"
+  },
+  "20_judgement": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "21_world": {
+    "baseTendency": "güçlü_evet",
+    "orientationImpact": "düşük",
+    "reversalStyle": "gecikme"
+  },
+  "22_ace_wands": {
+    "baseTendency": "güçlü_evet",
+    "orientationImpact": "düşük",
+    "reversalStyle": "gecikme"
+  },
+  "23_two_wands": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "tıkanık"
+  },
+  "24_three_wands": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "25_four_wands": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "26_five_wands": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "içsel"
+  },
+  "27_six_wands": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "28_seven_wands": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "tıkanık"
+  },
+  "29_eight_wands": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "30_nine_wands": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "tıkanık"
+  },
+  "31_ten_wands": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "dengesizlik"
+  },
+  "32_page_wands": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "33_knight_wands": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "34_queen_wands": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "35_king_wands": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "36_ace_cups": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  },
+  "37_two_cups": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "38_three_cups": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "39_four_cups": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "40_five_cups": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "gölge"
+  },
+  "41_six_cups": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gölge"
+  },
+  "42_seven_cups": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "gölge"
+  },
+  "43_eight_cups": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "44_nine_cups": {
+    "baseTendency": "güçlü_evet",
+    "orientationImpact": "düşük",
+    "reversalStyle": "dengesizlik"
+  },
+  "45_ten_cups": {
+    "baseTendency": "güçlü_evet",
+    "orientationImpact": "düşük",
+    "reversalStyle": "dengesizlik"
+  },
+  "46_page_cups": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "47_knight_cups": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gölge"
+  },
+  "48_queen_cups": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "49_king_cups": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "50_ace_swords": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  },
+  "51_two_swords": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "tıkanık"
+  },
+  "52_three_swords": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "gölge"
+  },
+  "53_four_swords": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "54_five_swords": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "gölge"
+  },
+  "55_six_swords": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "56_seven_swords": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "gölge"
+  },
+  "57_eight_swords": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "58_nine_swords": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "59_ten_swords": {
+    "baseTendency": "güçlü_hayır",
+    "orientationImpact": "düşük",
+    "reversalStyle": "gecikme"
+  },
+  "60_page_swords": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "içsel"
+  },
+  "61_knight_swords": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "62_queen_swords": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "içsel"
+  },
+  "63_king_swords": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "64_ace_pentacles": {
+    "baseTendency": "güçlü_evet",
+    "orientationImpact": "düşük",
+    "reversalStyle": "gecikme"
+  },
+  "65_two_pentacles": {
+    "baseTendency": "belirsiz",
+    "orientationImpact": "yüksek",
+    "reversalStyle": "dengesizlik"
+  },
+  "66_three_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  },
+  "67_four_pentacles": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  },
+  "68_five_pentacles": {
+    "baseTendency": "hayır",
+    "orientationImpact": "standart",
+    "reversalStyle": "gölge"
+  },
+  "69_six_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "70_seven_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "71_eight_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  },
+  "72_nine_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "73_ten_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "74_page_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "75_knight_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "gecikme"
+  },
+  "76_queen_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "dengesizlik"
+  },
+  "77_king_pentacles": {
+    "baseTendency": "evet",
+    "orientationImpact": "standart",
+    "reversalStyle": "tıkanık"
+  }
+}

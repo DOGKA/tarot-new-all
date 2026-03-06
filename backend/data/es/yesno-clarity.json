@@ -1,0 +1,1954 @@
+{
+  "_comment": "Yes/No Clarity - cardKey based, ES shortReasons",
+  "_version": "2.0",
+  "00_fool": {
+    "clarityWeight": 15,
+    "keywords": {
+      "general": [
+        "puesta en marcha",
+        "libertad"
+      ],
+      "love": [
+        "aventura",
+        "espontaneidad"
+      ],
+      "career": [
+        "riesgo",
+        "innovación"
+      ],
+      "spiritual": [
+        "viaje interior",
+        "descubrimiento"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, tienes el valor de adentrarte en lo desconocido. Pero no reprimas tu voz interior.",
+      "reversed": "Condicional sí; los miedos pueden frenarlo. No basta con frenarlo, basta con reconocerlo."
+    }
+  },
+  "01_magician": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "potencia",
+        "talento"
+      ],
+      "love": [
+        "disparando",
+        "comunicación"
+      ],
+      "career": [
+        "habilidad",
+        "éxito"
+      ],
+      "spiritual": [
+        "enfoque",
+        "intención"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, tienes lo que hay que tener. Ahora es el momento de actuar.",
+      "reversed": "Condicional Sí; las intenciones pueden dispersarse. Primero concéntrate, luego actúa."
+    }
+  },
+  "02_high_priestess": {
+    "clarityWeight": 5,
+    "keywords": {
+      "general": [
+        "intuición",
+        "misterio"
+      ],
+      "love": [
+        "secreto",
+        "profundidad"
+      ],
+      "career": [
+        "paciencia",
+        "información"
+      ],
+      "spiritual": [
+        "voz interior",
+        "concienciación"
+      ]
+    },
+    "shortReason": {
+      "upright": "No está claro; hay cosas que no se ven. Tu intuición te guiará, pero la respuesta no está ahí fuera.",
+      "reversed": "Incierto; te susurra tu voz interior, pero si quieres una respuesta deprisa, aún no es el momento."
+    }
+  },
+  "03_empress": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "abundancia",
+        "abundancia"
+      ],
+      "love": [
+        "amor",
+        "compasión"
+      ],
+      "career": [
+        "creatividad",
+        "crecimiento"
+      ],
+      "spiritual": [
+        "nutrición",
+        "fertilidad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, estás en un periodo fértil. Las condiciones son fértiles, la época de los frutos está cerca.",
+      "reversed": "Condicional Sí; una zona irrelevante obstaculiza el desarrollo. Abordarlo primero."
+    }
+  },
+  "04_emperor": {
+    "clarityWeight": 27,
+    "keywords": {
+      "general": [
+        "autoridad",
+        "organización"
+      ],
+      "love": [
+        "confíe en",
+        "protección"
+      ],
+      "career": [
+        "liderazgo",
+        "controlar"
+      ],
+      "spiritual": [
+        "estructura",
+        "frontera"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, vas por buen camino. El poder está contigo, construye la estructura.",
+      "reversed": "Condicional Sí; el deseo de control puede inhibir la flexibilidad. Necesitamos equilibrio, no autoridad."
+    }
+  },
+  "05_hierophant": {
+    "clarityWeight": 15,
+    "keywords": {
+      "general": [
+        "tradición",
+        "orientación"
+      ],
+      "love": [
+        "compromiso",
+        "valores"
+      ],
+      "career": [
+        "tutoría",
+        "educación"
+      ],
+      "spiritual": [
+        "doctrina",
+        "pertenencia"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, las formas tradicionales pueden funcionar. Escucha a un guía en el que confíes.",
+      "reversed": "Condicional Sí; si las reglas son demasiado estrechas, debes hacer tu propio camino correcto."
+    }
+  },
+  "06_lovers": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "elecciones",
+        "armonía"
+      ],
+      "love": [
+        "amor",
+        "unidad"
+      ],
+      "career": [
+        "asociación",
+        "decisión"
+      ],
+      "spiritual": [
+        "valores",
+        "integridad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Incierto; estás a punto de tomar una decisión. La respuesta está donde te lleve el corazón.",
+      "reversed": "Incierto; las contradicciones internas nublan el juicio. No te precipites antes de que llegue la claridad."
+    }
+  },
+  "07_chariot": {
+    "clarityWeight": 28,
+    "keywords": {
+      "general": [
+        "victoria",
+        "se"
+      ],
+      "love": [
+        "progreso",
+        "determinación"
+      ],
+      "career": [
+        "éxito",
+        "motivación"
+      ],
+      "spiritual": [
+        "enfoque",
+        "dirección"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, tienes el control. El objetivo está claro, el camino está claro si tienes la voluntad.",
+      "reversed": "Condicional sí; tu energía puede disiparse. Primero aclara lo que quieres."
+    }
+  },
+  "08_strength": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "potencia",
+        "valor"
+      ],
+      "love": [
+        "paciencia",
+        "compasión"
+      ],
+      "career": [
+        "resiliencia",
+        "perseverancia"
+      ],
+      "spiritual": [
+        "fuerza interior",
+        "saldo"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, te apoya una fuerza suave pero decisiva. Camina con paciencia.",
+      "reversed": "Condicional sí; la autoestima puede fluctuar. Recuerda tu fuerza y apóyate en ella."
+    }
+  },
+  "09_hermit": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "replegarse sobre sí mismo",
+        "busque en"
+      ],
+      "love": [
+        "soledad",
+        "pensamiento"
+      ],
+      "career": [
+        "análisis",
+        "planificación"
+      ],
+      "spiritual": [
+        "sabiduría",
+        "silencio"
+      ]
+    },
+    "shortReason": {
+      "upright": "Incierto; la respuesta no está en el mundo exterior. Es difícil avanzar sin volverse hacia dentro.",
+      "reversed": "Incierto; encerrarte demasiado en ti mismo puede hacerte sentir solo. Intenta compartir."
+    }
+  },
+  "10_wheel_of_fortune": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "chance",
+        "bucle"
+      ],
+      "love": [
+        "destino",
+        "cambiar"
+      ],
+      "career": [
+        "oportunidad",
+        "girando"
+      ],
+      "spiritual": [
+        "flujo",
+        "entrega"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, el destino gira a tu favor. Mantente abierto a las oportunidades que trae el cambio.",
+      "reversed": "Condicional Sí; existe un estado de estancamiento cíclico. Empezar de nuevo requiere rendición en lugar de resistencia."
+    }
+  },
+  "11_justice": {
+    "clarityWeight": 25,
+    "keywords": {
+      "general": [
+        "justicia",
+        "saldo"
+      ],
+      "love": [
+        "honradez",
+        "igualdad"
+      ],
+      "career": [
+        "derecha",
+        "contrato"
+      ],
+      "spiritual": [
+        "karma",
+        "responsabilidad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, si lo has enfocado con honestidad y equilibrio, tendrás lo que te mereces.",
+      "reversed": "Condicional Sí; un desequilibrio interno o externo puede estar influyendo en la decisión. Primero, ver toda la verdad."
+    }
+  },
+  "12_hanged_man": {
+    "clarityWeight": 5,
+    "keywords": {
+      "general": [
+        "en espera",
+        "perspectiva"
+      ],
+      "love": [
+        "paciencia",
+        "sacrificio"
+      ],
+      "career": [
+        "pausa",
+        "visión general"
+      ],
+      "spiritual": [
+        "entrega",
+        "iluminación"
+      ]
+    },
+    "shortReason": {
+      "upright": "Incierto; puede que aún no se haya producido la rendición interior necesaria para la claridad. El proceso continúa.",
+      "reversed": "La incertidumbre, la dilación o el aferramiento obstinado pueden estar impidiéndole encontrar la respuesta. Cambia de perspectiva."
+    }
+  },
+  "13_death": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "transformación",
+        "último"
+      ],
+      "love": [
+        "cierre",
+        "regeneración"
+      ],
+      "career": [
+        "cambiar",
+        "acabado"
+      ],
+      "spiritual": [
+        "no renuncies",
+        "renacimiento"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; una puerta que se cierra abre el camino a un nuevo comienzo. Resiste a la transformación.",
+      "reversed": "Condicional Sí; conservar lo viejo dificulta el paso a lo nuevo. Lo que debería estar acabado puede seguir manteniéndose vivo."
+    }
+  },
+  "14_temperance": {
+    "clarityWeight": 15,
+    "keywords": {
+      "general": [
+        "saldo",
+        "armonía"
+      ],
+      "love": [
+        "paciencia",
+        "moderación"
+      ],
+      "career": [
+        "armonía",
+        "cooperación"
+      ],
+      "spiritual": [
+        "integración",
+        "flujo"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, con pasos medidos y paciencia, es posible una solución armoniosa.",
+      "reversed": "Condicional Sí; el desequilibrio o el exceso pueden estar dificultando su juicio. Vuelva primero a su centro."
+    }
+  },
+  "15_devil": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "adicción",
+        "restricción"
+      ],
+      "love": [
+        "pasión",
+        "bono"
+      ],
+      "career": [
+        "trampa",
+        "coacción"
+      ],
+      "spiritual": [
+        "sombra",
+        "inconsciente"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, las adicciones, las obsesiones o los apegos malsanos pueden impedirte seguir este camino.",
+      "reversed": "No, puede que estés invisiblemente atado por una situación que has estado evitando sin enfrentarte a ella. Es arriesgado dar un paso sin liberarse."
+    }
+  },
+  "16_tower": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "destrucción",
+        "cambiar"
+      ],
+      "love": [
+        "crisis",
+        "separación"
+      ],
+      "career": [
+        "colapso",
+        "conmoción cerebral"
+      ],
+      "spiritual": [
+        "despertar",
+        "afrontar la realidad"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, hay una ruptura repentina o una situación que puede causar un shock. Primero hay que comprender la destrucción y luego reconstruir.",
+      "reversed": "No, estás en una destrucción retardada o en un enfrentamiento aplazado. Si la sacudida es inevitable, hay que prepararse en lugar de resistir."
+    }
+  },
+  "17_star": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "esperanza",
+        "inspiración"
+      ],
+      "love": [
+        "recuperación",
+        "apertura"
+      ],
+      "career": [
+        "visión",
+        "potencial"
+      ],
+      "spiritual": [
+        "fe",
+        "orientación"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, esperanza, inspiración y energía curativa contigo. Es un sí de corazón.",
+      "reversed": "Condicional Sí; tu fe puede estar debilitada. Hasta que no recuperes la esperanza, es posible que la acción no dé todos los resultados esperados."
+    }
+  },
+  "18_moon": {
+    "clarityWeight": 3,
+    "keywords": {
+      "general": [
+        "incertidumbre",
+        "intuición"
+      ],
+      "love": [
+        "niebla",
+        "escepticismo"
+      ],
+      "career": [
+        "ambigüedad",
+        "misterio"
+      ],
+      "spiritual": [
+        "inconsciente",
+        "sueños"
+      ]
+    },
+    "shortReason": {
+      "upright": "Incierto; las ilusiones y las indecisiones pueden estar ensombreciendo la verdadera respuesta. Dale tiempo.",
+      "reversed": "Vaga; la niebla empieza a disiparse, pero puede que aún no se haya formado una imagen clara. Fíltralo a través de tu intuición."
+    }
+  },
+  "19_sun": {
+    "clarityWeight": 30,
+    "keywords": {
+      "general": [
+        "éxito",
+        "felicidad"
+      ],
+      "love": [
+        "alegría",
+        "unidad"
+      ],
+      "career": [
+        "victoria",
+        "reconocimiento"
+      ],
+      "spiritual": [
+        "iluminación",
+        "vitalidad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la claridad, la alegría y las energías de apoyo están contigo. Ese es el tipo de sí que calienta los berberechos de tu corazón.",
+      "reversed": "Condicional sí; el optimismo puede ser exagerado. Cuando lo tengas claro, ve a tope de brillo."
+    }
+  },
+  "20_judgement": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "despertar",
+        "decisión"
+      ],
+      "love": [
+        "regeneración",
+        "af"
+      ],
+      "career": [
+        "evaluación",
+        "promoción"
+      ],
+      "spiritual": [
+        "llame a",
+        "ajuste de cuentas"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, si se han aprendido las lecciones del pasado, es posible un nuevo comienzo. Si estás en sintonía con tu conciencia, tu respuesta es clara.",
+      "reversed": "Condicional Sí; aferrarse a lo viejo o evitar la responsabilidad puede estar frenando el progreso. Necesitas escuchar la llamada interior."
+    }
+  },
+  "21_world": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "finalización",
+        "éxito"
+      ],
+      "love": [
+        "integridad",
+        "satisfacción"
+      ],
+      "career": [
+        "cumbre",
+        "éxito"
+      ],
+      "spiritual": [
+        "bucle",
+        "integración"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; se ha completado un ciclo, la energía del éxito y la plenitud está contigo. Ahora es el momento de recoger los frutos.",
+      "reversed": "Condicional Sí; puede haber una pequeña sensación de incompletud o de estar incompleto. Puede que la claridad no llegue hasta que hayas dado el último paso hacia el cierre."
+    }
+  },
+  "22_ace_wands": {
+    "clarityWeight": 25,
+    "keywords": {
+      "general": [
+        "puesta en marcha",
+        "energía"
+      ],
+      "love": [
+        "pasión",
+        "disparando"
+      ],
+      "career": [
+        "oportunidad",
+        "interferencias"
+      ],
+      "spiritual": [
+        "inspiración",
+        "fiebre"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la chispa interior y el impulso creativo te llaman a actuar.",
+      "reversed": "Condicional Sí; la falta de motivación o la tendencia a procrastinar pueden enturbiar la decisión. La voluntad está ahí pero la energía está dispersa."
+    }
+  },
+  "23_two_wands": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "planificación",
+        "decisión"
+      ],
+      "love": [
+        "elecciones",
+        "en espera"
+      ],
+      "career": [
+        "estrategia",
+        "asociación"
+      ],
+      "spiritual": [
+        "visión",
+        "dirección"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; los planes son cada vez más claros, la visión de futuro cobra fuerza. Los pasos audaces se verán recompensados.",
+      "reversed": "La incertidumbre, la vacilación y la excesiva cautela pueden ahogar el valor. Si la dirección interior no está clara, el juicio es borroso."
+    }
+  },
+  "24_three_wands": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "progreso",
+        "expansión"
+      ],
+      "love": [
+        "desarrollo",
+        "crecimiento"
+      ],
+      "career": [
+        "oportunidad",
+        "expansión"
+      ],
+      "spiritual": [
+        "descubrimiento",
+        "horizonte"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; las semillas sembradas están dando fruto. Las oportunidades aparecen en el horizonte.",
+      "reversed": "Condicional Sí; las expectativas son claras, pero las condiciones externas pueden evolucionar más lentamente de lo previsto. Puede ser una prueba de paciencia."
+    }
+  },
+  "25_four_wands": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "celebración",
+        "armonía"
+      ],
+      "love": [
+        "unidad",
+        "inicio"
+      ],
+      "career": [
+        "éxito",
+        "celebración"
+      ],
+      "spiritual": [
+        "básico",
+        "raíz"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la celebración se sustenta en la energía de la estabilidad y la alegría compartida. El suelo es sólido.",
+      "reversed": "Condicional Sí; aunque todo parezca bien por fuera, puede haber malestar por dentro. Encuentra primero el equilibrio interior."
+    }
+  },
+  "26_five_wands": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "conflicto",
+        "concurso"
+      ],
+      "love": [
+        "debate",
+        "tensión"
+      ],
+      "career": [
+        "concurso",
+        "lucha"
+      ],
+      "spiritual": [
+        "ego",
+        "fricción"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, las diferencias de opinión o la competencia impiden un progreso claro.",
+      "reversed": "Condicional Sí; los conflictos pueden estar disminuyendo, pero sigue siendo necesaria la claridad. No puede haber claridad sin armonización."
+    }
+  },
+  "27_six_wands": {
+    "clarityWeight": 26,
+    "keywords": {
+      "general": [
+        "victoria",
+        "reconocimiento"
+      ],
+      "love": [
+        "éxito",
+        "aprobación"
+      ],
+      "career": [
+        "victoria",
+        "promoción"
+      ],
+      "spiritual": [
+        "orgullo",
+        "liderazgo"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la respuesta es positiva, con la energía de la victoria, el reconocimiento y una confianza en sí mismo que la hace avanzar.",
+      "reversed": "Condicional Sí; está cerca del éxito, pero la necesidad de aprobación externa puede estar manipulando la decisión."
+    }
+  },
+  "28_seven_wands": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "defensa",
+        "resistencia"
+      ],
+      "love": [
+        "lucha",
+        "protección"
+      ],
+      "career": [
+        "defensa",
+        "posición"
+      ],
+      "spiritual": [
+        "frontera",
+        "postura"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; si mantienes tu postura y estás en el terreno correcto, el apoyo está contigo.",
+      "reversed": "Sí condicional; la fatiga o la desmotivación pueden estar afectando tu fuerza de combate. Reposicionate."
+    }
+  },
+  "29_eight_wands": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "velocidad",
+        "progreso"
+      ],
+      "love": [
+        "rápido desarrollo",
+        "movimiento"
+      ],
+      "career": [
+        "velocidad",
+        "impulso"
+      ],
+      "spiritual": [
+        "flujo",
+        "aceleración"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; con una evolución rápida y una comunicación abierta, la decisión está cayendo en su sitio.",
+      "reversed": "Condicional Sí; los retrasos o fallos de comunicación pueden ralentizar el proceso, pero la dirección es la correcta."
+    }
+  },
+  "30_nine_wands": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "resiliencia",
+        "perseverancia"
+      ],
+      "love": [
+        "paciencia",
+        "confíe en"
+      ],
+      "career": [
+        "resistencia",
+        "el último paso"
+      ],
+      "spiritual": [
+        "prueba",
+        "maduración"
+      ]
+    },
+    "shortReason": {
+      "upright": "Condicional Sí; si se fijan bien los límites, se puede avanzar, pero no hay que abandonar la prudencia.",
+      "reversed": "Condicional Sí; el estado de defensa puede ser exagerado. Permanecer abierto sin cerrar puede aclarar la respuesta."
+    }
+  },
+  "31_ten_wands": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "carga",
+        "responsabilidad"
+      ],
+      "love": [
+        "impresión",
+        "fatiga"
+      ],
+      "career": [
+        "exceso de trabajo",
+        "estrés"
+      ],
+      "spiritual": [
+        "transporte",
+        "no renuncies"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, es la sobrecarga y el agotamiento lo que dificulta la toma de decisiones. No puede haber progreso sin aligeramiento.",
+      "reversed": "Condicional Sí, si empiezas a soltar cargas, el camino está despejado. Pero aún quedan excesos por llevar."
+    }
+  },
+  "32_page_wands": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "noticias",
+        "emoción"
+      ],
+      "love": [
+        "nuevo interés",
+        "aventura"
+      ],
+      "career": [
+        "oportunidad",
+        "aprender"
+      ],
+      "spiritual": [
+        "curiosidad",
+        "descubrimiento"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, las nuevas ideas y el entusiasmo interior te llaman a la acción. Sigue a tu corazón.",
+      "reversed": "Condicional Sí; tienes energía, pero puede que carezca de dirección. La pasión no es suficiente sin un objetivo claro."
+    }
+  },
+  "33_knight_wands": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "acción",
+        "valor"
+      ],
+      "love": [
+        "pasión",
+        "aventura"
+      ],
+      "career": [
+        "empresa",
+        "energía"
+      ],
+      "spiritual": [
+        "movimiento",
+        "fuego"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la pasión, el coraje y el carisma te favorecen. Es un momento poderoso para la acción.",
+      "reversed": "Condicional Sí; las prisas o la impaciencia pueden afectar a la sostenibilidad de la decisión."
+    }
+  },
+  "34_queen_wands": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "confíe en",
+        "carisma"
+      ],
+      "love": [
+        "atractivo",
+        "confianza en sí mismo"
+      ],
+      "career": [
+        "liderazgo",
+        "creatividad"
+      ],
+      "spiritual": [
+        "energía",
+        "inspiración"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, tu confianza en ti mismo y tu carisma influyen en tu entorno. La respuesta está tanto en ti como en la luz de lo que tienes.",
+      "reversed": "Condicional Sí; aunque parezcas fuerte por fuera, tu motivación interior puede estar en entredicho. Necesitas sentir tu fuerza desde dentro."
+    }
+  },
+  "35_king_wands": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "liderazgo",
+        "visión"
+      ],
+      "love": [
+        "pasión",
+        "autoridad"
+      ],
+      "career": [
+        "iniciativa empresarial",
+        "éxito"
+      ],
+      "spiritual": [
+        "dirección",
+        "se"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, el liderazgo, la visión y la determinación respaldan la respuesta. La dirección está clara.",
+      "reversed": "Condicional sí, la dirección está clara, pero puede faltar la estrategia. Intenta quemarlo antes de que se queme."
+    }
+  },
+  "36_ace_cups": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "inicio emocional",
+        "amor"
+      ],
+      "love": [
+        "nuevo amor",
+        "expansión"
+      ],
+      "career": [
+        "satisfacción",
+        "satisfacción"
+      ],
+      "spiritual": [
+        "corazón",
+        "intuición"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; hay una frescura emocional, una apertura desde el corazón. Esta vez, la voz de tu interior resuena en el lugar adecuado.",
+      "reversed": "Condicional Sí; las emociones reprimidas o desorientadas dificultan la claridad. Escucha primero tus sentimientos."
+    }
+  },
+  "37_two_cups": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "unidad",
+        "asociación"
+      ],
+      "love": [
+        "bono",
+        "armonía"
+      ],
+      "career": [
+        "cooperación",
+        "asociación"
+      ],
+      "spiritual": [
+        "saldo",
+        "reciprocidad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, hay una energía de lazos armoniosos y comprensión mutua. Los corazones laten al ritmo.",
+      "reversed": "Condicional Sí; puede haber una ruptura temporal de la armonía emocional. Pero el puente sigue intacto y es posible repararlo."
+    }
+  },
+  "38_three_cups": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "celebración",
+        "amistad"
+      ],
+      "love": [
+        "social",
+        "alegría"
+      ],
+      "career": [
+        "equipo",
+        "éxito"
+      ],
+      "spiritual": [
+        "comunidad",
+        "compartir"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, estás rodeado de celebración, amistad y apoyo emocional. Es un sí compartido.",
+      "reversed": "Condicional Sí; el ruido externo o la agitación emocional pueden distraerte de la respuesta. Elimina primero el ruido."
+    }
+  },
+  "39_four_cups": {
+    "clarityWeight": 6,
+    "keywords": {
+      "general": [
+        "indiferencia",
+        "pensamiento"
+      ],
+      "love": [
+        "apatía",
+        "en espera"
+      ],
+      "career": [
+        "insatisfacción",
+        "pausa"
+      ],
+      "spiritual": [
+        "apatía",
+        "aburrimiento interior"
+      ]
+    },
+    "shortReason": {
+      "upright": "Incierto; puede encontrarse en un estado de ánimo que no ve lo que hay disponible. La insatisfacción emocional puede nublar su juicio.",
+      "reversed": "Incierto; existe una situación entre abrirse a lo nuevo y aferrarse a lo viejo. La respuesta externa es difícil sin aclarar la situación interna."
+    }
+  },
+  "40_five_cups": {
+    "clarityWeight": 6,
+    "keywords": {
+      "general": [
+        "falta",
+        "tristeza"
+      ],
+      "love": [
+        "decepción",
+        "luto"
+      ],
+      "career": [
+        "fallo",
+        "arrepentimiento"
+      ],
+      "spiritual": [
+        "luto",
+        "procesamiento"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, es posible que el duelo por el pasado te impida ver la respuesta que tienes delante. La decisión no estará clara hasta que termine el duelo.",
+      "reversed": "Sí condicional: Estás atravesando un proceso de curación, pero decir que sí antes de haberte recuperado del todo puede dejarte en la estacada."
+    }
+  },
+  "41_six_cups": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "nostalgia",
+        "recuerdos"
+      ],
+      "love": [
+        "historia",
+        "pureza"
+      ],
+      "career": [
+        "conexión pasada",
+        "conocido"
+      ],
+      "spiritual": [
+        "inocencia",
+        "raíz"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; dulces ecos del pasado suavizan hoy tu respuesta. Es un sí sincero y familiar.",
+      "reversed": "Sí condicional; aferrarse a la nostalgia puede ensombrecer la respuesta actual. Hay que distinguir entre recuerdos y realidad."
+    }
+  },
+  "42_seven_cups": {
+    "clarityWeight": 3,
+    "keywords": {
+      "general": [
+        "imaginación",
+        "elecciones"
+      ],
+      "love": [
+        "indecisión",
+        "fantasía"
+      ],
+      "career": [
+        "opción",
+        "incertidumbre"
+      ],
+      "spiritual": [
+        "ilusión",
+        "discernimiento"
+      ]
+    },
+    "shortReason": {
+      "upright": "Ambiguo; puede estar dividido entre demasiadas opciones o sueños. La claridad puede ser brumosa.",
+      "reversed": "Incierto; el velo entre la realidad y la ficción se está levantando, pero puede que aún no se haya logrado una transparencia total."
+    }
+  },
+  "43_eight_cups": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "separación",
+        "busque en"
+      ],
+      "love": [
+        "abandono",
+        "bifurcación en el camino"
+      ],
+      "career": [
+        "dimisión",
+        "cambiar"
+      ],
+      "spiritual": [
+        "no renuncies",
+        "viajar"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, es hora de alejarse de una situación que no te llena. Puede que sea mejor irse que quedarse.",
+      "reversed": "Condicional Sí; quieres irte, pero sigues mirando atrás. Sin una ruptura clara la respuesta no está clara."
+    }
+  },
+  "44_nine_cups": {
+    "clarityWeight": 24,
+    "keywords": {
+      "general": [
+        "desear",
+        "satisfacción"
+      ],
+      "love": [
+        "felicidad",
+        "satisfacción"
+      ],
+      "career": [
+        "éxito",
+        "satisfacción"
+      ],
+      "spiritual": [
+        "gratitud",
+        "abundancia"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; rodeado de la energía del cumplimiento de los deseos. Un sentimiento interior de plenitud acompaña a este sí.",
+      "reversed": "Condicional Sí; el éxito externo puede verse ensombrecido por el vacío interior. Es difícil emprender un camino sin darse cuenta de dónde se encuentra la verdadera plenitud."
+    }
+  },
+  "45_ten_cups": {
+    "clarityWeight": 24,
+    "keywords": {
+      "general": [
+        "felicidad",
+        "armonía"
+      ],
+      "love": [
+        "familia",
+        "satisfacción"
+      ],
+      "career": [
+        "cohesión del equipo",
+        "éxito"
+      ],
+      "spiritual": [
+        "integridad",
+        "paz"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, hay plenitud emocional, paz familiar y un sentimiento de plenitud desde el corazón. La respuesta es clara y sincera.",
+      "reversed": "Sí condicional; aunque pueda parecer paz externa, puede haber una ruptura interna. Es necesario restablecer el equilibrio emocional para que este sí se sienta plenamente."
+    }
+  },
+  "46_page_cups": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "mensaje",
+        "emocional"
+      ],
+      "love": [
+        "oferta",
+        "romántico"
+      ],
+      "career": [
+        "oportunidad creativa",
+        "noticias"
+      ],
+      "spiritual": [
+        "intuición",
+        "sensibilidad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, una propuesta emotiva o una noticia sincera están en camino. Mantener el corazón abierto te alinea con la frecuencia adecuada.",
+      "reversed": "Condicional Sí; la sensibilidad es alta, las pequeñas cosas pueden convertirse en grandes. Alinéate con tu corazón antes de expresar."
+    }
+  },
+  "47_knight_cups": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "oferta",
+        "romántico"
+      ],
+      "love": [
+        "enamorado",
+        "oferta"
+      ],
+      "career": [
+        "proyecto creativo",
+        "invitación"
+      ],
+      "spiritual": [
+        "imaginación",
+        "idealismo"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, un paso romántico o creativo podría satisfacerte emocionalmente. La intención es sincera.",
+      "reversed": "Condicional Sí; las buenas palabras pueden no traducirse en hechos. Equilibra la expectativa, aclara lo que sientes."
+    }
+  },
+  "48_queen_cups": {
+    "clarityWeight": 17,
+    "keywords": {
+      "general": [
+        "intuición",
+        "compasión"
+      ],
+      "love": [
+        "comprender",
+        "vínculo profundo"
+      ],
+      "career": [
+        "empatía",
+        "soporte"
+      ],
+      "spiritual": [
+        "corazón",
+        "insight"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la compasión, la empatía y la profundidad intuitiva te apoyan. Deja que tu calma interior sea tu guía.",
+      "reversed": "Condicional sí; el exceso de empatía puede estar difuminando las líneas. Date un poco de espacio."
+    }
+  },
+  "49_king_cups": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "equilibrio emocional",
+        "sabiduría"
+      ],
+      "love": [
+        "vencimiento",
+        "comprender"
+      ],
+      "career": [
+        "liderazgo",
+        "diplomacia"
+      ],
+      "spiritual": [
+        "experiencia",
+        "saldo"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; un enfoque equilibrado que esté en paz con las emociones aporta soluciones. La madurez interior da resultados.",
+      "reversed": "Condicional Sí; la presión emocional o la supresión pueden dificultar el control. Primero reconoce la emoción y luego actúa."
+    }
+  },
+  "50_ace_swords": {
+    "clarityWeight": 25,
+    "keywords": {
+      "general": [
+        "claridad",
+        "real"
+      ],
+      "love": [
+        "honradez",
+        "apertura"
+      ],
+      "career": [
+        "avance",
+        "éxito"
+      ],
+      "spiritual": [
+        "claridad",
+        "nitidez"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, surgen la claridad mental y la verdad. Se agudiza la decisión correcta.",
+      "reversed": "Condicional Sí; la información puede ser confusa o incompleta. Las decisiones tomadas sin claridad pueden ser difíciles más adelante."
+    }
+  },
+  "51_two_swords": {
+    "clarityWeight": 2,
+    "keywords": {
+      "general": [
+        "indecisión",
+        "bloqueo"
+      ],
+      "love": [
+        "incertidumbre",
+        "en espera"
+      ],
+      "career": [
+        "decisión",
+        "saldo"
+      ],
+      "spiritual": [
+        "denegación",
+        "la búsqueda del equilibrio"
+      ]
+    },
+    "shortReason": {
+      "upright": "Incierto; puede haber reticencia a afrontar los hechos. La decisión está pendiente.",
+      "reversed": "Es incierto; el conflicto interno crece. La verdad ignorada llama ahora a la puerta."
+    }
+  },
+  "52_three_swords": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "desamor",
+        "dolor"
+      ],
+      "love": [
+        "separación",
+        "traición"
+      ],
+      "career": [
+        "decepción",
+        "conflicto"
+      ],
+      "spiritual": [
+        "luto",
+        "aceptación"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, el desamor y la angustia mental no favorecen este camino. La curación es la prioridad ahora.",
+      "reversed": "No, la herida se está cerrando, pero la sensibilidad permanece. Es demasiado pronto para decidir."
+    }
+  },
+  "53_four_swords": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "resto",
+        "recuperación"
+      ],
+      "love": [
+        "buscar en",
+        "pensamiento"
+      ],
+      "career": [
+        "romper",
+        "planificación"
+      ],
+      "spiritual": [
+        "curación",
+        "silencio"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, es hora de descansar y recuperarse. La fatiga mental debilita el juicio.",
+      "reversed": "No; precipitarse en la acción puede conducir a un mayor agotamiento."
+    }
+  },
+  "54_five_swords": {
+    "clarityWeight": 6,
+    "keywords": {
+      "general": [
+        "conflicto",
+        "falta"
+      ],
+      "love": [
+        "debate",
+        "ego"
+      ],
+      "career": [
+        "concurso",
+        "injusticia"
+      ],
+      "spiritual": [
+        "ego",
+        "vencer"
+      ]
+    },
+    "shortReason": {
+      "upright": "No; aunque se gane, el precio es alto. Este camino es un perdedor a largo plazo.",
+      "reversed": "No, las tensiones están disminuyendo, pero aún no se ha restablecido la confianza."
+    }
+  },
+  "55_six_swords": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "transición",
+        "recuperación"
+      ],
+      "love": [
+        "distanciamiento",
+        "nuevo comienzo"
+      ],
+      "career": [
+        "cambiar",
+        "reubicación"
+      ],
+      "spiritual": [
+        "viajar",
+        "progreso"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, es posible moverse mentalmente hacia un espacio más tranquilo. En la dirección de la curación.",
+      "reversed": "Condicional Sí; aferrarse al pasado frena el progreso. La claridad es difícil sin soltar."
+    }
+  },
+  "56_seven_swords": {
+    "clarityWeight": 5,
+    "keywords": {
+      "general": [
+        "trampas",
+        "escapar"
+      ],
+      "love": [
+        "engaño",
+        "privacidad"
+      ],
+      "career": [
+        "estrategia",
+        "atención"
+      ],
+      "spiritual": [
+        "sombra",
+        "intención oculta"
+      ]
+    },
+    "shortReason": {
+      "upright": "No; las intenciones ocultas o los movimientos poco claros minan la confianza.",
+      "reversed": "No; lo que está oculto está saliendo a la luz, pero este proceso puede ser traumatizante."
+    }
+  },
+  "57_eight_swords": {
+    "clarityWeight": 4,
+    "keywords": {
+      "general": [
+        "atasco",
+        "restricción"
+      ],
+      "love": [
+        "trampa",
+        "miedo"
+      ],
+      "career": [
+        "bloqueo",
+        "bloqueo"
+      ],
+      "spiritual": [
+        "prisión mental",
+        "fe"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, la sensación de atrapamiento mental es fuerte. No hay libre elección en este momento.",
+      "reversed": "No; la puerta se está abriendo, pero es difícil avanzar sin valor y conciencia."
+    }
+  },
+  "58_nine_swords": {
+    "clarityWeight": 5,
+    "keywords": {
+      "general": [
+        "ansiedad",
+        "miedo"
+      ],
+      "love": [
+        "preocupación",
+        "insomnio"
+      ],
+      "career": [
+        "estrés",
+        "ansiedad"
+      ],
+      "spiritual": [
+        "tortura mental",
+        "delirio"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, la ansiedad y la ilusión se interponen en el camino del juicio. La respuesta no estará clara hasta que la mente esté tranquila.",
+      "reversed": "No, la carga es cada vez más ligera, pero el ruido mental aún no ha cesado del todo."
+    }
+  },
+  "59_ten_swords": {
+    "clarityWeight": 8,
+    "keywords": {
+      "general": [
+        "último",
+        "dipnokta"
+      ],
+      "love": [
+        "acabado",
+        "traición"
+      ],
+      "career": [
+        "redundancia",
+        "último"
+      ],
+      "spiritual": [
+        "noche oscura",
+        "entrega"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, hay una energía de final agudo. Forzarla agravará la situación.",
+      "reversed": "No; el proceso no se ha completado, aunque haya comenzado el giro desde abajo."
+    }
+  },
+  "60_page_swords": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "noticias",
+        "curiosidad"
+      ],
+      "love": [
+        "comunicación",
+        "descubrimiento"
+      ],
+      "career": [
+        "investigación",
+        "aprender"
+      ],
+      "spiritual": [
+        "consulta",
+        "exploración mental"
+      ]
+    },
+    "shortReason": {
+      "upright": "Incierto; hay curiosidad e investigación, pero no suficiente madurez para el resultado.",
+      "reversed": "Incierto; los rumores o la información errónea pueden echar a perder la decisión. La confirmación es esencial."
+    }
+  },
+  "61_knight_swords": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "velocidad",
+        "determinación"
+      ],
+      "love": [
+        "prisa",
+        "directo"
+      ],
+      "career": [
+        "acción rápida",
+        "agresivo"
+      ],
+      "spiritual": [
+        "velocidad mental",
+        "nitidez"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, se pueden conseguir resultados con un movimiento rápido y claro. La determinación es fuerte.",
+      "reversed": "Condicional sí; la impulsividad y la dureza pueden ser contraproducentes. Piensa primero."
+    }
+  },
+  "62_queen_swords": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "claridad",
+        "independencia"
+      ],
+      "love": [
+        "honradez",
+        "fronteras"
+      ],
+      "career": [
+        "análisis",
+        "objetividad"
+      ],
+      "spiritual": [
+        "claridad",
+        "discernimiento"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la lógica, los límites claros y la honestidad traen el resultado correcto.",
+      "reversed": "Condicional Sí; la dureza excesiva o el desapego emocional pueden cerrar puertas."
+    }
+  },
+  "63_king_swords": {
+    "clarityWeight": 20,
+    "keywords": {
+      "general": [
+        "autoridad",
+        "justicia"
+      ],
+      "love": [
+        "lógica",
+        "honradez"
+      ],
+      "career": [
+        "liderazgo",
+        "decisión"
+      ],
+      "spiritual": [
+        "experiencia",
+        "claridad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, es posible avanzar con una postura justa, fría y estratégica.",
+      "reversed": "Condicional Sí; el abuso de poder puede alterar el equilibrio. Mantener la línea ética."
+    }
+  },
+  "64_ace_pentacles": {
+    "clarityWeight": 24,
+    "keywords": {
+      "general": [
+        "oportunidad",
+        "puesta en marcha"
+      ],
+      "love": [
+        "seguridad",
+        "estabilización"
+      ],
+      "career": [
+        "oportunidad de empleo",
+        "oferta"
+      ],
+      "spiritual": [
+        "toma de tierra",
+        "materialización"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, hay una nueva oportunidad financiera o un terreno seguro. Esta semilla puede convertirse en un árbol fuerte con el tiempo.",
+      "reversed": "Condicional Sí; la oportunidad está ahí, pero la forma de aprovecharla puede ser problemática. La ansiedad o la inseguridad pueden eclipsarla."
+    }
+  },
+  "65_two_pentacles": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "saldo",
+        "armonía"
+      ],
+      "love": [
+        "construcción del equilibrio",
+        "varios"
+      ],
+      "career": [
+        "multitarea",
+        "saldo"
+      ],
+      "spiritual": [
+        "flexibilidad",
+        "armonía"
+      ]
+    },
+    "shortReason": {
+      "upright": "Incierto: se encuentra en la fase de decisión. Si vas y vienes entre dos opciones, es posible que aún no lo tengas claro.",
+      "reversed": "Vago; puede que le estés dando demasiadas vueltas. Sin priorizar, una respuesta afirmativa o negativa queda en el aire."
+    }
+  },
+  "66_three_pentacles": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "cooperación",
+        "experiencia"
+      ],
+      "love": [
+        "cooperación",
+        "armonía"
+      ],
+      "career": [
+        "trabajo en equipo",
+        "reconocimiento"
+      ],
+      "spiritual": [
+        "artesanía",
+        "aprender"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la cooperación, los esfuerzos conjuntos y el apoyo están con ustedes. Es posible avanzar sobre bases sólidas.",
+      "reversed": "Condicional Sí; la desarmonía del equipo o una contribución insuficiente pueden estar nublando el juicio. Revisar motivos fiables."
+    }
+  },
+  "67_four_pentacles": {
+    "clarityWeight": 10,
+    "keywords": {
+      "general": [
+        "seguridad",
+        "controlar"
+      ],
+      "love": [
+        "propiedad",
+        "protección"
+      ],
+      "career": [
+        "estabilización",
+        "conservadurismo"
+      ],
+      "spiritual": [
+        "espera",
+        "miedo"
+      ]
+    },
+    "shortReason": {
+      "upright": "No; el miedo a aferrarse y perder puede estar manteniéndote en un lugar fijo. Hay una resistencia que bloquea el flujo.",
+      "reversed": "Condicional Sí; hay un deseo de dejarlo, pero aún arrastras un malestar interior. El valor debe encontrarse con el juicio."
+    }
+  },
+  "68_five_pentacles": {
+    "clarityWeight": 6,
+    "keywords": {
+      "general": [
+        "dificultad",
+        "falta"
+      ],
+      "love": [
+        "soledad",
+        "rechazo"
+      ],
+      "career": [
+        "desempleo",
+        "dificultad"
+      ],
+      "spiritual": [
+        "sensación de escasez",
+        "prueba"
+      ]
+    },
+    "shortReason": {
+      "upright": "No, los sentimientos de exclusión o inadecuación pueden estar influyendo en la decisión. Primero hay que reconocer las heridas internas.",
+      "reversed": "Sí condicional; el proceso de recuperación puede haber comenzado. Pero es posible que la recuperación aún no sea suficiente para un sí rotundo."
+    }
+  },
+  "69_six_pentacles": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "generosidad",
+        "compartir"
+      ],
+      "love": [
+        "dando",
+        "no tomes"
+      ],
+      "career": [
+        "salarios justos",
+        "reconocimiento"
+      ],
+      "spiritual": [
+        "abundancia",
+        "bucle"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, existe una energía de apoyo mutuo y equilibrio. En una situación en la que puedes dar tanto como recibes, tu respuesta es más clara.",
+      "reversed": "Sí condicional; los intercambios desequilibrados o las expectativas ocultas pueden estar nublando la claridad. Simplifique sus intenciones."
+    }
+  },
+  "70_seven_pentacles": {
+    "clarityWeight": 12,
+    "keywords": {
+      "general": [
+        "paciencia",
+        "evaluación"
+      ],
+      "love": [
+        "en espera",
+        "inversión"
+      ],
+      "career": [
+        "evaluación",
+        "planificación"
+      ],
+      "spiritual": [
+        "esperando la cosecha",
+        "paciencia"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, aquello por lo que trabajas crece. Aunque el resultado no sea inmediato, la dirección es la correcta.",
+      "reversed": "Sí condicional; la impaciencia o los problemas de tiempo pueden enturbiar la respuesta. La claridad es difícil sin confianza en el proceso."
+    }
+  },
+  "71_eight_pentacles": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "trabajo duro",
+        "experiencia"
+      ],
+      "love": [
+        "trabajo",
+        "desarrollo"
+      ],
+      "career": [
+        "habilidad",
+        "educación"
+      ],
+      "spiritual": [
+        "artesanía",
+        "práctico"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la respuesta es positiva con determinación, esfuerzo práctico y dominio de la energía. Si te esfuerzas, serás recompensado.",
+      "reversed": "Condicional Sí; puede ser desorganización o falta de motivación. Es difícil esperar un resultado claro sin dar un paso claro."
+    }
+  },
+  "72_nine_pentacles": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "independencia",
+        "lujo"
+      ],
+      "love": [
+        "autosuficiencia",
+        "libertad"
+      ],
+      "career": [
+        "éxito",
+        "reconocimiento"
+      ],
+      "spiritual": [
+        "autoeficacia",
+        "abundancia"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, estás pisando terreno firme y seguro. Las condiciones están maduras.",
+      "reversed": "Condicional Sí; aunque el éxito parezca exterior, puede haber un sentimiento interior de estar incompleto. Cava un poco más hondo para alcanzar la plenitud."
+    }
+  },
+  "73_ten_pentacles": {
+    "clarityWeight": 24,
+    "keywords": {
+      "general": [
+        "legado",
+        "permanencia"
+      ],
+      "love": [
+        "familia",
+        "a largo plazo"
+      ],
+      "career": [
+        "jubilación",
+        "legado"
+      ],
+      "spiritual": [
+        "orígenes",
+        "continuidad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, la energía de la permanencia, la abundancia y el apoyo familiar está contigo. Los cimientos que has construido llevan fuerza a largo plazo.",
+      "reversed": "Condicional Sí; puede haber un desequilibrio en el sistema de valores aunque parezca haber abundancia externa. Mira dónde está la verdadera confianza."
+    }
+  },
+  "74_page_pentacles": {
+    "clarityWeight": 14,
+    "keywords": {
+      "general": [
+        "oportunidad",
+        "aprender"
+      ],
+      "love": [
+        "nuevo conocido",
+        "paciencia"
+      ],
+      "career": [
+        "prácticas",
+        "educación"
+      ],
+      "spiritual": [
+        "estudiante",
+        "curiosidad"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí, hay una nueva oportunidad de aprendizaje o desarrollo. Los comienzos están esperando a que eches raíces.",
+      "reversed": "Sí condicional; posibilidad de pérdida de concentración o procrastinación. Aclare sus intenciones y siga adelante."
+    }
+  },
+  "75_knight_pentacles": {
+    "clarityWeight": 16,
+    "keywords": {
+      "general": [
+        "fiabilidad",
+        "paciencia"
+      ],
+      "love": [
+        "lealtad",
+        "estabilización"
+      ],
+      "career": [
+        "trabajo duro",
+        "método"
+      ],
+      "spiritual": [
+        "perseverancia",
+        "dedicatoria"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; la paciencia y el paso a paso te llevarán a unos cimientos sólidos. El proceso es tranquilizador.",
+      "reversed": "Condicional Sí; la terquedad o la inercia pueden obstaculizar el proceso. Es un momento en el que hay que ser flexible."
+    }
+  },
+  "76_queen_pentacles": {
+    "clarityWeight": 18,
+    "keywords": {
+      "general": [
+        "practicidad",
+        "abundancia"
+      ],
+      "love": [
+        "compasión",
+        "inicio"
+      ],
+      "career": [
+        "eficacia",
+        "éxito"
+      ],
+      "spiritual": [
+        "toma de tierra",
+        "nutritivo"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; el éxito llega con cuidado, sencillez y equilibrio interior. La confianza y la paz van de la mano.",
+      "reversed": "Condicional Sí; el sacrificio excesivo o la negligencia pueden crear grietas en el sistema. Primero hay que establecer el equilibrio interno."
+    }
+  },
+  "77_king_pentacles": {
+    "clarityWeight": 22,
+    "keywords": {
+      "general": [
+        "éxito",
+        "seguridad"
+      ],
+      "love": [
+        "robustez",
+        "confíe en"
+      ],
+      "career": [
+        "liderazgo",
+        "riqueza"
+      ],
+      "spiritual": [
+        "experiencia",
+        "estabilización"
+      ]
+    },
+    "shortReason": {
+      "upright": "Sí; se está estableciendo una estructura planificada, fiable y sostenible. Estabilidad financiera y moral con usted.",
+      "reversed": "Condicional sí; orientarte sólo por el interés no te satisfará a largo plazo. Consigue la aprobación del corazón."
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "slots": [
+    {
+      "id": "2026-03-05T082713Z_full_moon_libra_jupiter",
+      "start": "2026-03-05T08:27:13.495Z",
+      "end": "2026-03-05T11:11:17.245Z",
+      "phase": "full_moon",
+      "zodiac": "libra",
+      "planet": "jupiter",
+      "content": {
+        "planet": {
+          "meaning": "El jueves, Júpiter desencadena la expansión y las oportunidades. Te permite crecer interiormente y explorar nuevas posibilidades.",
+          "advice": "Abre ese grueso libro de tu estantería."
+        },
+        "zodiac": {
+          "meaning": "La Luna en Libra aclara el equilibrio y la armonía. Tu búsqueda de justicia en las relaciones pasa a primer plano.",
+          "firsat": "Organiza una reunión tranquila con tus amigos.",
+          "his": "equilibrio pacífico, búsqueda justa"
+        },
+        "phase": {
+          "sentence": "La luna llena brilla, enfréntate a ella.",
+          "general": "La luna llena magnifica las fluctuaciones emocionales. Se revelan los sentimientos ocultos.",
+          "ayna": "La decisión que has estado posponiendo durante tanto tiempo te está mirando a la cara."
+        }
+      }
+    },
+    {
+      "id": "2026-03-05T111117Z_disseminating_moon_libra_jupiter",
+      "start": "2026-03-05T11:11:17.245Z",
+      "end": "2026-03-06T00:00:00.000Z",
+      "phase": "disseminating_moon",
+      "zodiac": "libra",
+      "planet": "jupiter",
+      "content": {
+        "planet": {
+          "meaning": "El jueves, Júpiter se expande. Hoy amplía tu potencial interior.",
+          "advice": "Acepta una idea nueva que se te ocurra."
+        },
+        "zodiac": {
+          "meaning": "La Luna en Libra busca el equilibrio. Remodela tus relaciones sociales.",
+          "firsat": "Inicia una nueva relación.",
+          "his": "inquietud equilibrada"
+        },
+        "phase": {
+          "sentence": "¡Expande, difunde, explora!",
+          "general": "La Luna menguante aumenta las oportunidades. Tus pensamientos y opciones se multiplican.",
+          "ayna": "Aclarar decisiones aplazadas. Desbloquear el potencial pasado por alto."
+        }
+      }
+    },
+    {
+      "id": "2026-03-06T000000Z_disseminating_moon_libra_venus",
+      "start": "2026-03-06T00:00:00.000Z",
+      "end": "2026-03-07T00:00:00.000Z",
+      "phase": "disseminating_moon",
+      "zodiac": "libra",
+      "planet": "venus",
+      "content": {
+        "planet": {
+          "meaning": "Venus ilumina tus relaciones el viernes. Tu sentido de la estética y la belleza se profundiza.",
+          "advice": "Acude a una exposición de pintura."
+        },
+        "zodiac": {
+          "meaning": "La Luna en Libra desencadena la búsqueda del equilibrio. El sentido de la justicia destaca en sus relaciones.",
+          "firsat": "Reúnete con tus amigos y hablad de algo antiguo.",
+          "his": "equilibrio pacífico, armonía cuidadosa"
+        },
+        "phase": {
+          "sentence": "Di las palabras no dichas.",
+          "general": "La Luna radiante agudiza la comunicación. Las emociones se expresan más fácilmente.",
+          "ayna": "Revela problemas relacionales que has estado ignorando."
+        }
+      }
+    },
+    {
+      "id": "2026-03-07T000000Z_disseminating_moon_libra_saturn",
+      "start": "2026-03-07T00:00:00.000Z",
+      "end": "2026-03-07T02:39:24.745Z",
+      "phase": "disseminating_moon",
+      "zodiac": "libra",
+      "planet": "saturn",
+      "content": {
+        "planet": {
+          "meaning": "Saturno el sábado activa tu disciplina y sentido de la responsabilidad. Aumenta tu resistencia para hacer frente a los obstáculos.",
+          "advice": "Termina hoy un proyecto inacabado."
+        },
+        "zodiac": {
+          "meaning": "La Luna en Libra recuerda la importancia del equilibrio y la armonía. La búsqueda de la justicia en las relaciones aumenta la profundidad emocional.",
+          "firsat": "Resuelve un litigio pendiente.",
+          "his": "equilibrio pacífico, búsqueda justa"
+        },
+        "phase": {
+          "sentence": "Difunde la idea, ¡hazla crecer!",
+          "general": "La Luna en expansión hace que las ideas se difundan rápidamente. Aumenta la comunicación, se refuerzan las conexiones.",
+          "ayna": "Desbloquea el potencial de una idea que ignorabas."
+        }
+      }
+    },
+    {
+      "id": "2026-03-07T023924Z_disseminating_moon_scorpio_saturn",
+      "start": "2026-03-07T02:39:24.745Z",
+      "end": "2026-03-07T07:29:09.745Z",
+      "phase": "disseminating_moon",
+      "zodiac": "scorpio",
+      "planet": "saturn",
+      "content": {
+        "planet": {
+          "meaning": "Saturno el sábado activa la disciplina y la responsabilidad. Refuerza tu estructura interna y tus planes.",
+          "advice": "Da hoy un paso concreto hacia un objetivo a largo plazo."
+        },
+        "zodiac": {
+          "meaning": "La Luna en Escorpio reprime las emociones profundas. Abre la puerta a la transformación interior y a los deseos secretos.",
+          "firsat": "Se revela un talento oculto.",
+          "his": "pasiones intensas, cuestionamientos profundos"
+        },
+        "phase": {
+          "sentence": "¿Están arraigando las ideas?",
+          "general": "La Luna en expansión magnifica las nuevas ideas. Se rompen viejos moldes y se construyen otros nuevos.",
+          "ayna": "El potencial creativo que has estado ignorando se está mostrando."
+        }
+      }
+    },
+    {
+      "id": "2026-03-07T072909Z_waning_gibbous_scorpio_saturn",
+      "start": "2026-03-07T07:29:09.745Z",
+      "end": "2026-03-08T00:00:00.000Z",
+      "phase": "waning_gibbous",
+      "zodiac": "scorpio",
+      "planet": "saturn",
+      "content": {
+        "planet": {
+          "meaning": "Saturno activa el área de la disciplina y la responsabilidad el sábado. Las obligaciones y los deberes se presentan ante ti con mayor claridad.",
+          "advice": "Termina ese trabajo duro que has estado posponiendo."
+        },
+        "zodiac": {
+          "meaning": "La Luna en Escorpio corta las profundidades emocionales. Los sentimientos ocultos salen a la superficie, los conflictos internos se hacen patentes.",
+          "firsat": "Haz una meditación profunda.",
+          "his": "inquietud intensa"
+        },
+        "phase": {
+          "sentence": "¡Basta ya!",
+          "general": "La Luna Llena menguante disuelve las cargas innecesarias. Las cargas del pasado se disuelven lentamente.",
+          "ayna": "Date cuenta de los viejos rencores que guardas."
+        }
+      }
+    },
+    {
+      "id": "2026-03-08T000000Z_waning_gibbous_scorpio_sun",
+      "start": "2026-03-08T00:00:00.000Z",
+      "end": "2026-03-08T08:27:13.495Z",
+      "phase": "waning_gibbous",
+      "zodiac": "scorpio",
+      "planet": "sun",
+      "content": {
+        "planet": {
+          "meaning": "El domingo, el Sol ilumina tu energía interior. Se despierta una nueva conciencia de ti mismo.",
+          "advice": "Empieza ese proyecto creativo que tienes en mente desde hace tiempo."
+        },
+        "zodiac": {
+          "meaning": "La Luna en Escorpio desencadena profundas transformaciones emocionales. Los sentimientos ocultos salen a la superficie.",
+          "firsat": "Una oportunidad para enfrentarte a un viejo amigo.",
+          "his": "intenso cuestionamiento interior"
+        },
+        "phase": {
+          "sentence": "Libera el pasado.",
+          "general": "La Luna Llena menguante disuelve viejas cargas. Facilita la despedida del pasado.",
+          "ayna": "No más enfrentamientos aplazados. Abre esa puerta hoy."
+        }
+      }
+    }
+  ],
+  "generatedUntil": "2026-03-08T08:27:13.495Z"
+}

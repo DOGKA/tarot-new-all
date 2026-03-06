@@ -1,0 +1,359 @@
+{
+  "_meta": {
+    "app": "Astrolic",
+    "version": "2026-v2",
+    "updated": "2026-03-05",
+    "notes": "RevenueCat / Adapty uyumlu ürün kataloğu. 2 offering: free_offering + premium_offering"
+  },
+
+  "entitlements": {
+    "premium_access": {
+      "description": "Premium abonelik — Moon Astro tüm slotlar, indirimli taş fiyatları, bonus taşlar, Derine İn ücretsiz"
+    }
+  },
+
+  "offerings": {
+    "free_offering": {
+      "id": "free_offering",
+      "description": "Free kullanıcılara gösterilen paketler",
+      "subscription_packages": ["$rc_monthly", "$rc_six_month", "$rc_annual"],
+      "consumable_packages": ["pack_20", "pack_50", "pack_100", "pack_200"]
+    },
+    "premium_offering": {
+      "id": "premium_offering",
+      "description": "Premium kullanıcılara gösterilen indirimli taş paketleri",
+      "consumable_packages": ["pack_20_premium", "pack_50_premium", "pack_100_premium", "pack_200_premium"]
+    }
+  },
+
+  "subscriptions": [
+    {
+      "product_id": "premium_monthly",
+      "type": "auto_renewable_subscription",
+      "subscription_group": "premium_group",
+      "rc_package": "$rc_monthly",
+      "duration": "P1M",
+      "price_usd": 4.99,
+      "display_name": {
+        "tr": "Premium — Aylık",
+        "en": "Premium — Monthly",
+        "de": "Premium — Monatlich",
+        "es": "Premium — Mensual"
+      },
+      "description": {
+        "tr": "Moon Astro tüm slotlar, taş paketlerinde %25 indirim, Derine İn ücretsiz, 10 bonus taş",
+        "en": "All Moon Astro slots, 25% off gem packs, free Dive Deeper, 10 bonus gems",
+        "de": "Alle Moon Astro Slots, 25% Rabatt auf Edelsteinpakete, Dive Deeper kostenlos, 10 Bonus-Edelsteine",
+        "es": "Todos los slots Moon Astro, 25% en paquetes de gemas, Profundizar gratis, 10 gemas de regalo"
+      },
+      "entitlement": "premium_access",
+      "bonus_gems": 10,
+      "trial": null
+    },
+    {
+      "product_id": "premium_semiannual",
+      "type": "auto_renewable_subscription",
+      "subscription_group": "premium_group",
+      "rc_package": "$rc_six_month",
+      "duration": "P6M",
+      "price_usd": 19.99,
+      "price_per_month_usd": 3.33,
+      "normal_price_usd": 29.94,
+      "discount_percent": 33,
+      "display_name": {
+        "tr": "Premium — 6 Aylık",
+        "en": "Premium — 6 Months",
+        "de": "Premium — 6 Monate",
+        "es": "Premium — 6 Meses"
+      },
+      "description": {
+        "tr": "6 aylık Premium erişim, 80 bonus taş hediye, taş paketlerinde %25 indirim, Derine İn ücretsiz",
+        "en": "6-month Premium access, 80 bonus gems, 25% off gem packs, free Dive Deeper",
+        "de": "6 Monate Premium-Zugang, 80 Bonus-Edelsteine, 25% Rabatt, Dive Deeper kostenlos",
+        "es": "6 meses de acceso Premium, 80 gemas de regalo, 25% de descuento, Profundizar gratis"
+      },
+      "entitlement": "premium_access",
+      "bonus_gems": 80,
+      "trial": null
+    },
+    {
+      "product_id": "premium_yearly",
+      "type": "auto_renewable_subscription",
+      "subscription_group": "premium_group",
+      "rc_package": "$rc_annual",
+      "duration": "P1Y",
+      "price_usd": 34.99,
+      "price_per_month_usd": 2.92,
+      "normal_price_usd": 59.88,
+      "discount_percent": 42,
+      "display_name": {
+        "tr": "Premium — 12 Aylık",
+        "en": "Premium — 12 Months",
+        "de": "Premium — 12 Monate",
+        "es": "Premium — 12 Meses"
+      },
+      "description": {
+        "tr": "12 aylık Premium erişim, 150 bonus taş hediye, taş paketlerinde %25 indirim, Derine İn ücretsiz, en avantajlı plan",
+        "en": "12-month Premium access, 150 bonus gems, 25% off gem packs, free Dive Deeper, best value",
+        "de": "12 Monate Premium-Zugang, 150 Bonus-Edelsteine, 25% Rabatt, Dive Deeper kostenlos, bestes Angebot",
+        "es": "12 meses de acceso Premium, 150 gemas de regalo, 25% de descuento, Profundizar gratis, mejor oferta"
+      },
+      "entitlement": "premium_access",
+      "bonus_gems": 150,
+      "trial": null
+    }
+  ],
+
+  "consumables_free": [
+    {
+      "product_id": "pack_20",
+      "type": "consumable",
+      "offering": "free_offering",
+      "price_usd": 3.99,
+      "gems_total": 20,
+      "gems_bonus": 0,
+      "display_name": {
+        "tr": "20 Gemstone",
+        "en": "20 Gemstones",
+        "de": "20 Edelsteine",
+        "es": "20 Gemas"
+      },
+      "description": {
+        "tr": "20 adet gemstone",
+        "en": "20 gemstones",
+        "de": "20 Edelsteine",
+        "es": "20 gemas"
+      }
+    },
+    {
+      "product_id": "pack_50",
+      "type": "consumable",
+      "offering": "free_offering",
+      "price_usd": 6.99,
+      "gems_total": 50,
+      "gems_base": 35,
+      "gems_bonus": 15,
+      "display_name": {
+        "tr": "50 Gemstone",
+        "en": "50 Gemstones",
+        "de": "50 Edelsteine",
+        "es": "50 Gemas"
+      },
+      "description": {
+        "tr": "35 + 15 bonus gemstone",
+        "en": "35 + 15 bonus gemstones",
+        "de": "35 + 15 Bonus-Edelsteine",
+        "es": "35 + 15 gemas de regalo"
+      }
+    },
+    {
+      "product_id": "pack_100",
+      "type": "consumable",
+      "offering": "free_offering",
+      "price_usd": 14.99,
+      "gems_total": 100,
+      "gems_base": 75,
+      "gems_bonus": 25,
+      "display_name": {
+        "tr": "100 Gemstone",
+        "en": "100 Gemstones",
+        "de": "100 Edelsteine",
+        "es": "100 Gemas"
+      },
+      "description": {
+        "tr": "75 + 25 bonus gemstone",
+        "en": "75 + 25 bonus gemstones",
+        "de": "75 + 25 Bonus-Edelsteine",
+        "es": "75 + 25 gemas de regalo"
+      }
+    },
+    {
+      "product_id": "pack_200",
+      "type": "consumable",
+      "offering": "free_offering",
+      "price_usd": 24.99,
+      "gems_total": 200,
+      "gems_base": 125,
+      "gems_bonus": 75,
+      "display_name": {
+        "tr": "200 Gemstone",
+        "en": "200 Gemstones",
+        "de": "200 Edelsteine",
+        "es": "200 Gemas"
+      },
+      "description": {
+        "tr": "125 + 75 bonus gemstone",
+        "en": "125 + 75 bonus gemstones",
+        "de": "125 + 75 Bonus-Edelsteine",
+        "es": "125 + 75 gemas de regalo"
+      }
+    }
+  ],
+
+  "consumables_premium": [
+    {
+      "product_id": "pack_20_premium",
+      "type": "consumable",
+      "offering": "premium_offering",
+      "price_usd": 2.99,
+      "original_price_usd": 3.99,
+      "discount_percent": 25,
+      "gems_total": 20,
+      "gems_bonus": 0,
+      "display_name": {
+        "tr": "20 Gemstone (Premium)",
+        "en": "20 Gemstones (Premium)",
+        "de": "20 Edelsteine (Premium)",
+        "es": "20 Gemas (Premium)"
+      },
+      "description": {
+        "tr": "20 adet gemstone — Premium indirimli",
+        "en": "20 gemstones — Premium discount",
+        "de": "20 Edelsteine — Premium-Rabatt",
+        "es": "20 gemas — Descuento Premium"
+      }
+    },
+    {
+      "product_id": "pack_50_premium",
+      "type": "consumable",
+      "offering": "premium_offering",
+      "price_usd": 4.99,
+      "original_price_usd": 6.99,
+      "discount_percent": 29,
+      "gems_total": 50,
+      "gems_base": 35,
+      "gems_bonus": 15,
+      "display_name": {
+        "tr": "50 Gemstone (Premium)",
+        "en": "50 Gemstones (Premium)",
+        "de": "50 Edelsteine (Premium)",
+        "es": "50 Gemas (Premium)"
+      },
+      "description": {
+        "tr": "35 + 15 bonus gemstone — Premium indirimli",
+        "en": "35 + 15 bonus gemstones — Premium discount",
+        "de": "35 + 15 Bonus-Edelsteine — Premium-Rabatt",
+        "es": "35 + 15 gemas de regalo — Descuento Premium"
+      }
+    },
+    {
+      "product_id": "pack_100_premium",
+      "type": "consumable",
+      "offering": "premium_offering",
+      "price_usd": 10.99,
+      "original_price_usd": 14.99,
+      "discount_percent": 27,
+      "gems_total": 100,
+      "gems_base": 75,
+      "gems_bonus": 25,
+      "display_name": {
+        "tr": "100 Gemstone (Premium)",
+        "en": "100 Gemstones (Premium)",
+        "de": "100 Edelsteine (Premium)",
+        "es": "100 Gemas (Premium)"
+      },
+      "description": {
+        "tr": "75 + 25 bonus gemstone — Premium indirimli",
+        "en": "75 + 25 bonus gemstones — Premium discount",
+        "de": "75 + 25 Bonus-Edelsteine — Premium-Rabatt",
+        "es": "75 + 25 gemas de regalo — Descuento Premium"
+      }
+    },
+    {
+      "product_id": "pack_200_premium",
+      "type": "consumable",
+      "offering": "premium_offering",
+      "price_usd": 17.99,
+      "original_price_usd": 24.99,
+      "discount_percent": 28,
+      "gems_total": 200,
+      "gems_base": 125,
+      "gems_bonus": 75,
+      "display_name": {
+        "tr": "200 Gemstone (Premium)",
+        "en": "200 Gemstones (Premium)",
+        "de": "200 Edelsteine (Premium)",
+        "es": "200 Gemas (Premium)"
+      },
+      "description": {
+        "tr": "125 + 75 bonus gemstone — Premium indirimli",
+        "en": "125 + 75 bonus gemstones — Premium discount",
+        "de": "125 + 75 Bonus-Edelsteine — Premium-Rabatt",
+        "es": "125 + 75 gemas de regalo — Descuento Premium"
+      }
+    }
+  ],
+
+  "gem_costs": {
+    "tarot_single":        { "cost": 3, "label": { "tr": "Tekli Tarot",           "en": "Single Card",           "de": "Einzelkarte",            "es": "Carta Única" }},
+    "tarot_yes_no":        { "cost": 3, "label": { "tr": "Evet / Hayır",          "en": "Yes / No",              "de": "Ja / Nein",              "es": "Sí / No" }},
+    "tarot_three":         { "cost": 5, "label": { "tr": "Üçlü Tarot",            "en": "Three Cards",           "de": "Drei Karten",            "es": "Tres Cartas" }},
+    "tarot_five":          { "cost": 8, "label": { "tr": "Beşli Tarot",           "en": "Five Cards",            "de": "Fünf Karten",            "es": "Cinco Cartas" }},
+    "dream_quick":         { "cost": 4, "label": { "tr": "Hızlı Çözümleme",       "en": "Quick Decode",          "de": "Schnell-Entschlüsselung","es": "Decodificación Rápida" }},
+    "dream_transform":     { "cost": 5, "label": { "tr": "Dönüştürme Planı",      "en": "Transformation Plan",   "de": "Transformationsplan",    "es": "Plan de Transformación" }},
+    "dream_deep":          { "cost": 8, "label": { "tr": "Derin Çözümleme",       "en": "Deep Decode",           "de": "Tiefen-Entschlüsselung", "es": "Decodificación Profunda" }},
+    "dream_journal_plus":  { "cost": 2, "label": { "tr": "Kendine Sor+",          "en": "Ask Yourself+",         "de": "Frag dich+",             "es": "Pregúntate+" }},
+    "dream_upsell_symbol": { "cost": 1, "label": { "tr": "Sembol Açma",           "en": "Symbol Unlock",         "de": "Symbol freischalten",    "es": "Desbloquear Símbolo" }},
+    "horoscope_dive":      { "cost": 3, "cost_premium": 0, "label": { "tr": "Derine İn",  "en": "Dive Deeper",  "de": "Tiefer eintauchen",      "es": "Profundizar" }}
+  },
+
+  "access_matrix": {
+    "guest": {
+      "tarot_single": true,
+      "tarot_yes_no": true,
+      "tarot_three": true,
+      "daily_horoscope_free": true,
+      "moon_astro_current_slot": true,
+      "note": "Tarot free tier ChatGPT isteği yok, statik kart verisi"
+    },
+    "free": {
+      "all_guest_features": true,
+      "horoscope_dive": "3 gems",
+      "moon_astro_current_slot": true,
+      "dream_quick": "4 gems",
+      "dream_deep": "8 gems",
+      "dream_transform": "5 gems"
+    },
+    "premium": {
+      "all_free_features": true,
+      "horoscope_dive": "free",
+      "moon_astro_all_slots": true,
+      "discounted_gem_packs": true,
+      "bonus_gems_on_subscribe": true
+    }
+  },
+
+  "store_setup": {
+    "app_store_connect": {
+      "subscription_group": "premium_group",
+      "products_total": 11,
+      "subscriptions": ["premium_monthly", "premium_semiannual", "premium_yearly"],
+      "consumables_free": ["pack_20", "pack_50", "pack_100", "pack_200"],
+      "consumables_premium": ["pack_20_premium", "pack_50_premium", "pack_100_premium", "pack_200_premium"]
+    },
+    "revenuecat": {
+      "entitlements": ["premium_access"],
+      "offerings": ["free_offering", "premium_offering"],
+      "steps": [
+        "1. Project oluştur, App Store Connect API Key ekle",
+        "2. 11 product_id'yi Products'a ekle",
+        "3. Entitlement 'premium_access' oluştur, 3 subscription'ı bağla",
+        "4. Offering 'free_offering': subscriptions + 4 normal gem pack",
+        "5. Offering 'premium_offering': 4 premium gem pack",
+        "6. Kod: isPremium ? premium_offering : free_offering göster"
+      ]
+    }
+  },
+
+  "cost_analysis": {
+    "api_cost_per_request_usd": 0.007,
+    "yearly_subscriber_worst_case": {
+      "revenue": 34.99,
+      "apple_commission": -10.50,
+      "dive_deeper_365_days": -2.56,
+      "bonus_150_gems_api": -0.26,
+      "net_profit": 21.67,
+      "margin_percent": 61.9
+    }
+  }
+}

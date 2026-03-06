@@ -1,0 +1,57 @@
+{
+  "dev_1772623594408_gro4e2o2:taurus:2026-03-05": {
+    "lang": "tr",
+    "content": {
+      "coreInsight": "Bolluk, cesaretin cesur yoldaşıdır çünkü cesur adımlar attığında yeni fırsatların kapısını aralarsın. Şu an sahip olduklarından daha fazlasını elde etmek, risk almaktan ve konfor alanının dışına çıkmaktan geçiyor. Cesur kararlar almanın zamanın geldiğini fark et.",
+      "challenge": "Güvenliğini sağlamak için tanıdığın yollarda takılı kalabilirsin.",
+      "powerMove": "Bugün karşılaştığın bir küçük engeli, farklı bir çözümle aşmayı dene.",
+      "prompt": "Bugün hangi alanda daha cesur adımlar atabilirsin?",
+      "microAction": "Bir kağıda bugünün en cesur adımını yaz ve gözle görülür bir yere as."
+    },
+    "savedAt": "2026-03-05T10:51:06.314Z"
+  },
+  "dev_1772623594408_gro4e2o2:cancer:2026-03-05": {
+    "lang": "tr",
+    "content": {
+      "coreInsight": "Görünmeyeni sanatla haykırmak, senin için duygularını dışa vurmanın güçlü bir yolu olabilir. Özellikle zorlandığın konularda, iç dünyanı sanatla ifade etme eğilimin seni daha derin bir anlayışa götürebilir.",
+      "challenge": "Düşüncelerini paylaşırken içine kapanma eğilimindesin.",
+      "powerMove": "Kendi kendine konuşarak içindeki sesleri dışa vur ve onları duy.",
+      "prompt": "Bugün hangi duygu veya düşünceni sanat yoluyla ifade etmeyi denemelisin?",
+      "microAction": "Bir kalem ve kağıt al, içinden geçen bir düşünceyi hızlıca çiz."
+    },
+    "savedAt": "2026-03-05T10:51:45.927Z"
+  },
+  "dev_1772623594408_gro4e2o2:virgo:2026-03-05": {
+    "lang": "tr",
+    "content": {
+      "coreInsight": "Genellemeler seni esir alır çünkü olayları detaylarıyla değerlendirmek yerine tek bir bakış açısından ele alırsın. Bu da özellikle iletişimde seni olası yanlış anlamalara açık hale getirebilir.",
+      "challenge": "Bir tartışmada kendine haksızlık yapıldığını düşündüğünde söylediklerine sert tepkiler verebilirsin.",
+      "powerMove": "Kendine 'Bu durumda gerçekten ne hissediyorum?' diye sorarak içsel bir diyalog başlat.",
+      "prompt": "Bugün bir olay hakkında ne kadar genelleme yaptığını fark ettin mi?",
+      "microAction": "Şu an yanında olan bir eşyaya dokun ve ona 30 saniye boyunca odaklanarak detaylarını incele."
+    },
+    "savedAt": "2026-03-05T11:22:09.215Z"
+  },
+  "dev_1772623594408_gro4e2o2:taurus:2026-03-06": {
+    "lang": "en",
+    "content": {
+      "coreInsight": "Tension tends to build up in your body when you feel restricted or under pressure. You might notice that during challenging moments, you tense your shoulders and clench your jaw as if bracing for impact. This can become a habitual response whenever you feel an obligation to meet expectations or adhere to rules that don't resonate with your inner values.",
+      "challenge": "You often resist change by sticking to familiar routines even when they're no longer beneficial.",
+      "powerMove": "Try a simple breathing exercise: Inhale deeply for a count of four, hold for four, and exhale for four, to release physical tension.",
+      "prompt": "Today, notice which situations cause you to physically tense up and consider how these relate to your sense of freedom.",
+      "microAction": "Spend one minute stretching your shoulders and neck to help release tension."
+    },
+    "savedAt": "2026-03-05T11:48:50.810Z"
+  },
+  "dev_1772623594408_gro4e2o2:aries:2026-03-05": {
+    "lang": "tr",
+    "content": {
+      "coreInsight": "Güç, sınırlarını zorladığında ortaya çıkar. İş yerinde otorite figürleriyle yüzleşmek seni hem zorlayabilir hem de güçlendirebilir. Bu süreçte kontrolü ele almak isteyebilirsin, fakat bu istek, dinlemeyi unuttuğun anlarda seni zayıflatabilir.",
+      "challenge": "Otorite figürlerinin kararlarına karşı hemen savunmaya geçebilirsin.",
+      "powerMove": "Güçlü yanlarını ve başarılarını bir kağıda yaz, kendine hatırlat.",
+      "prompt": "Bugün iş yerinde hangi otorite figürüyle etkileşime geçmek senin için gerçek bir sınav olacak?",
+      "microAction": "Bir dakikanı ayır, derin bir nefes al ve içsel gücünü hisset."
+    },
+    "savedAt": "2026-03-05T12:20:12.219Z"
+  }
+}

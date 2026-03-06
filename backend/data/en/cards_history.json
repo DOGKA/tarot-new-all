@@ -1,0 +1,786 @@
+{
+  "_comment": "78 Tarot kartının kökeni, hikayesi ve sembolizmi — English, max 200 karakter",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "image": "00_fool",
+      "arcana": "major",
+      "number": "0",
+      "suit": null,
+      "element": "air",
+      "history": "Born of a medieval court jester. The only great arcana without number, both beginning and end. He walks on the edge of the abyss because wisdom is sometimes hidden in madness. He comes from the Italian tradition of 'Il Matto'."
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "image": "01_magician",
+      "arcana": "major",
+      "number": "I",
+      "suit": null,
+      "element": "air",
+      "history": "In old Italian decks, 'Il Bagatto', the street juggler. On his table are the symbols of the four elements. The channel connecting up and down; the archetype of will and the power of manifestation."
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "image": "02_high_priestess",
+      "arcana": "major",
+      "number": "II",
+      "suit": null,
+      "element": "water",
+      "history": "Its roots go back to the Papacy; it was inspired by the legend of 'Papess Johanna'. She sits between two pillars: Boaz and Yakin of the Temple of Solomon. Guardian of intuition and secret knowledge."
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "image": "03_empress",
+      "arcana": "major",
+      "number": "III",
+      "suit": null,
+      "element": "earth",
+      "history": "Mother goddess archetype associated with the planet Venus. She bears traces of Demeter, Ishtar and Freyja. Surrounded by wheat fields and flowing water, she symbolizes fertility, creativity and the cyclical power of nature."
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "image": "04_emperor",
+      "arcana": "major",
+      "number": "IV",
+      "suit": null,
+      "element": "fire",
+      "history": "It carries Mars energy associated with Aries. Inspired by Roman emperors, the stone throne is a symbol of authority and order. The four-cornered structure and the heads of rams are the archetype of the father who sets the rules and draws the boundaries."
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "image": "05_hierophant",
+      "arcana": "major",
+      "number": "V",
+      "suit": null,
+      "element": "earth",
+      "history": "Ancient Greek 'hierophantes', one who opens sacred secrets. It comes from the high priest of the Eleusinian Mysteries. The triple crown and crossed keys represent tradition, doctrine and spiritual authority."
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "image": "06_lovers",
+      "arcana": "major",
+      "number": "VI",
+      "suit": null,
+      "element": "air",
+      "history": "In the first decks, a man had to choose between two women. With Rider-Waite it became an Adam and Eve scene. The angel Raphael watches from above, symbolizing free will, choice and the call of the heart."
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "image": "07_chariot",
+      "arcana": "major",
+      "number": "VII",
+      "suit": null,
+      "element": "water",
+      "history": "Inspired by ancient Roman triumphal processions. The black and white sphinx represent opposing forces. The starry canopy symbolizes astral protection; it is the story of the warrior who overcomes obstacles through willpower."
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "image": "08_strength",
+      "arcana": "major",
+      "number": "VIII",
+      "suit": null,
+      "element": "fire",
+      "history": "A woman gently holds the lion's jaws - not brute force, but inner strength. Inspired by the myth of Hercules' lion of Nemea. The symbol of eternity above his head; a combination of patience and courage."
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "image": "09_hermit",
+      "arcana": "major",
+      "number": "IX",
+      "suit": null,
+      "element": "earth",
+      "history": "It comes from the figure of Diogenes carrying a lantern. He stands alone at the top of the mountain; his lantern bears the six-pointed star of Solomon. It symbolizes the inner search, silence and the journey to find one's own light."
+    },
+    {
+      "id": 10,
+      "name": "The Wheel of Fortune",
+      "image": "10_wheel_of_fortune",
+      "arcana": "major",
+      "number": "X",
+      "suit": null,
+      "element": "fire",
+      "history": "Born from the wheel of the Roman goddess Fortuna. On top of the wheel is the sphinx, on its sides rising and falling figures. The letters TARO-ROTA indicate the cycle; the turn of fate and the card of the universal cycle."
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "image": "11_justice",
+      "arcana": "major",
+      "number": "XI",
+      "suit": null,
+      "element": "air",
+      "history": "Inspired by the Greek goddess Themis; she carries scales and a sword. Her eyes are open - she sees everything, unlike the traditional figure of justice. She is the archetype of the law of cause and effect, balance and karma."
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "image": "12_hanged_man",
+      "arcana": "major",
+      "number": "XII",
+      "suit": null,
+      "element": "water",
+      "history": "In Norse myth, Odin hanged himself from the Yggdrasil tree for wisdom. In Italy it comes from the tradition of 'traitor' paintings. The reverse perspective symbolizes enlightenment through sacrifice and surrender."
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "image": "13_death",
+      "arcana": "major",
+      "number": "XIII",
+      "suit": null,
+      "element": "water",
+      "history": "His number is not written in some decks - for fear of bad luck. Armored skeleton on a white horse; equal before kings and beggars. It is not a card of physical death, but of radical transformation and renewal."
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "image": "14_temperance",
+      "arcana": "major",
+      "number": "XIV",
+      "suit": null,
+      "element": "fire",
+      "history": "The name comes from the Latin 'temperantia', meaning moderation. The angel transfers water between two vessels - a symbol of the alchemical process. One foot in water and one foot on land; the master blending conscious and unconscious."
+    },
+    {
+      "id": 15,
+      "name": "The Devil",
+      "image": "15_devil",
+      "arcana": "major",
+      "number": "XV",
+      "suit": null,
+      "element": "earth",
+      "history": "Inspired by the god Pan and the figure of Baphomet. The two chained figures can actually get out if they want to - addiction is voluntary. The shadow self symbolizes the traps of passion and the potential for liberation."
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "image": "16_tower",
+      "arcana": "major",
+      "number": "XVI",
+      "suit": null,
+      "element": "fire",
+      "history": "Born from the legend of the Tower of Babel. Lightning destroys the false structure, the crown falls. 'La Casa Dio' - The House of God in old Italian decks. A card of sudden destruction, ego collapse but followed by liberation."
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "image": "17_star",
+      "arcana": "major",
+      "number": "XVII",
+      "suit": null,
+      "element": "air",
+      "history": "The healing that follows the Tower. The naked woman pours life into water and earth; the eight-pointed star represents Venus. Like hope at the bottom of Pandora's box; inspiration, renewal and cosmic guidance."
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "image": "18_moon",
+      "arcana": "major",
+      "number": "XVIII",
+      "suit": null,
+      "element": "water",
+      "history": "The dark path between the two towers leads to the depths of the unconscious. The dog and the wolf symbolize dual nature, the lobster symbolizes fears rising from the depths. The night face of Hecate; the card of illusion and intuition."
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "image": "19_sun",
+      "arcana": "major",
+      "number": "XIX",
+      "suit": null,
+      "element": "fire",
+      "history": "The most positive card of the deck. Sunflowers and the naked child symbolize pure joy. Apollo and Ra carry the energy of the sun gods. The dancing child on the wall is enlightenment, success and joy of life."
+    },
+    {
+      "id": 20,
+      "name": "Judgement",
+      "image": "20_judgement",
+      "arcana": "major",
+      "number": "XX",
+      "suit": null,
+      "element": "fire",
+      "history": "It comes from the Christian scene of the Last Judgment. Gabriel blows his trumpet, the dead rise from their coffins. It is the card of inner reckoning, confronting the past and calling for spiritual awakening."
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "image": "21_world",
+      "arcana": "major",
+      "number": "XXI",
+      "suit": null,
+      "element": "earth",
+      "history": "The last card of the Great Arcana - the completion of the journey. Lion, eagle, bull and angel in the four corners; representing the four elements. Dancing figure in laurel wreath; integration and cosmic unity."
+    },
+    {
+      "id": 22,
+      "name": "Ace of Wands",
+      "image": "22_ace_wands",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The hand reaching out from the clouds offers a new torch - the divine spark. The set of wands is linked to the fire element, representing passion, initiative and creative energy. The beginning of pure potential, like every ace."
+    },
+    {
+      "id": 23,
+      "name": "Two of Wands",
+      "image": "23_two_wands",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The figure looking at the world from the top of the castle holds a globe. It reflects Alexander the Great's spirit of exploration. Two wands mean two paths, symbolizing planning, vision and the decision to step out of your comfort zone."
+    },
+    {
+      "id": 24,
+      "name": "Three of Wands",
+      "image": "24_three_wands",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "wands",
+      "element": "fire",
+      "history": "Looking out to sea from the hill, the merchant awaits the return of his ships. The first step has been taken, the results are on the horizon. It carries the aesthetics of trade routes and Renaissance expeditions; a card of expansion and progress."
+    },
+    {
+      "id": 25,
+      "name": "Four of Wands",
+      "image": "25_four_wands",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The ceremonial gate, decorated with four wands, was inspired by ancient wedding and harvest festivals. The garlands of flowers and dancing figures are a card of celebration, nesting and community joy."
+    },
+    {
+      "id": 26,
+      "name": "Five of Wands",
+      "image": "26_five_wands",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "wands",
+      "element": "fire",
+      "history": "Five young people fight with sticks, but it's not a serious battle - it comes from the medieval tournament tradition. Competition, clash of ideas and creative tension are the friction needed for growth."
+    },
+    {
+      "id": 27,
+      "name": "Six of Wands",
+      "image": "27_six_wands",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The equestrian figure passes through the crowd with a laurel wreath - the Roman tradition of a triumphal procession. The hero returns home; it is the card of public celebration of recognition, leadership and achievement."
+    },
+    {
+      "id": 28,
+      "name": "Seven of Wands",
+      "image": "28_seven_wands",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The figure alone on the top of the hill defending against six sticks. In the spirit of Thermopylae and the defense of the last fortress. One shoe is different - hastily prepared; a card of perseverance and defense of position."
+    },
+    {
+      "id": 29,
+      "name": "Eight of Wands",
+      "image": "29_eight_wands",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The fastest card in the deck; eight wands fly through the air, never touching the ground. No human figure - pure movement energy. Messages aimed like arrows; a symbol of speed, momentum and sudden developments."
+    },
+    {
+      "id": 30,
+      "name": "Nine of Wands",
+      "image": "30_nine_wands",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The wounded warrior leans on his last crutch, behind him eight crutches line up like barricades. The last threshold of struggle, exhausted but not giving up. Endurance, the vigilance that comes with experience and the card of the last stand."
+    },
+    {
+      "id": 31,
+      "name": "Ten of Wands",
+      "image": "31_ten_wands",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The figure carrying the ten sticks on his back is bent - the burden of success. Traces of the myth of Atlas carrying the world. Excessive responsibility, burnout; card of the need for delegation and burden sharing."
+    },
+    {
+      "id": 32,
+      "name": "Page of Wands",
+      "image": "32_page_wands",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "wands",
+      "element": "fire",
+      "history": "Medieval court system; the prince is the young messenger carrying the news. He looks at his wand with curiosity, the salamander symbolizes passion. The herald of new ideas, the card of enthusiastic beginnings and the spirit of discovery."
+    },
+    {
+      "id": 33,
+      "name": "Knight of Wands",
+      "image": "33_knight_wands",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The knight charging forward on a prancing horse carries the spirit of the Crusades. The three pyramids show the desert adventure. The fastest and most impulsive of the four knights; courage but sometimes recklessness."
+    },
+    {
+      "id": 34,
+      "name": "Queen of Wands",
+      "image": "34_queen_wands",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "wands",
+      "element": "fire",
+      "history": "He sits on his throne with sunflowers and a black cat. She carries the energy of Leo. Inspired by medieval ruling women; the archetype of charisma, self-confidence and leadership power that warms her surroundings."
+    },
+    {
+      "id": 35,
+      "name": "King of Wands",
+      "image": "35_king_wands",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "wands",
+      "element": "fire",
+      "history": "The king sitting on his throne but ready for action; the salamander relief symbolizes resistance to fire. The visionary leader archetype is the inspiring, risk-taking but impatient executive figure."
+    },
+    {
+      "id": 36,
+      "name": "Ace of Cups",
+      "image": "36_ace_cups",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "cups",
+      "element": "water",
+      "history": "The hand reaching out from the cloud offers the holy chalice - an echo of the legend of the Holy Grail. The five streams of water represent the five senses and the dove the Holy Spirit. Emotional renewal and the pure beginning of love."
+    },
+    {
+      "id": 37,
+      "name": "Two of Cups",
+      "image": "37_two_cups",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "cups",
+      "element": "water",
+      "history": "Two people make a toast; between them the winged lion's head shows the alchemical combination. The staff of Hermes rises. Inspired by ancient engagement rituals; a card of mutual bond, partnership and emotional balance."
+    },
+    {
+      "id": 38,
+      "name": "Three of Cups",
+      "image": "38_three_cups",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "cups",
+      "element": "water",
+      "history": "Three women dance and toast - inspired by the ancient Greek Kharites (Three Graces). The spirit of harvest festivities and Dionysian celebrations; a card of friendship, celebration and community joy."
+    },
+    {
+      "id": 39,
+      "name": "Four of Cups",
+      "image": "39_four_cups",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "cups",
+      "element": "water",
+      "history": "The figure sitting under the tree ignores the three cups, not noticing the fourth one reaching out from the cloud. It is reminiscent of the Buddha's meditation under the tree; a card of boredom, withdrawal and missed opportunities."
+    },
+    {
+      "id": 40,
+      "name": "Five of Cups",
+      "image": "40_five_cups",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "cups",
+      "element": "water",
+      "history": "The black-cloaked figure looks at the three overturned cups, unable to see the two standing behind him. The bridge in the distance symbolizes the path of hope. A card of loss and mourning, but what is left behind is still precious."
+    },
+    {
+      "id": 41,
+      "name": "Six of Cups",
+      "image": "41_six_cups",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "cups",
+      "element": "water",
+      "history": "Little boy hands a cup with flowers to an elder - medieval garden scene. Innocence and nostalgia; childhood memories, gifts from the past. Like Proust's madeleine cake; a card of remembrance and purity."
+    },
+    {
+      "id": 42,
+      "name": "Seven of Cups",
+      "image": "42_seven_cups",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "cups",
+      "element": "water",
+      "history": "Seven cups in the clouds, each with a different vision - snake, castle, jewel, garland, dragon, face, light. Like Pandora's box, tempting but deceptive. A card of imagination, illusion and confusion of choice."
+    },
+    {
+      "id": 43,
+      "name": "Eight of Cups",
+      "image": "43_eight_cups",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "cups",
+      "element": "water",
+      "history": "The figure walking up the mountain at night in the moonlight, leaving the eight cups behind. Reminiscent of Siddhartha leaving the palace. The inadequacy of material fulfillment; the search for deeper meaning and the card of conscious renunciation."
+    },
+    {
+      "id": 44,
+      "name": "Nine of Cups",
+      "image": "44_nine_cups",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "cups",
+      "element": "water",
+      "history": "Known as a 'wishing card'. Satisfied figure with arms crossed, nine cups arranged in a semicircle behind her. Comes from the medieval tradition of feasting; emotional satisfaction, gratitude and wish fulfillment."
+    },
+    {
+      "id": 45,
+      "name": "Ten of Cups",
+      "image": "45_ten_cups",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "cups",
+      "element": "water",
+      "history": "Ten cups in a rainbow, under which a happy family dances. Inspired by the myth of the Garden of Eden and Arcadia. Emotional completeness; the tarot equivalent of family happiness, harmony and 'happily ever after'."
+    },
+    {
+      "id": 46,
+      "name": "Page of Cups",
+      "image": "46_page_cups",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "cups",
+      "element": "water",
+      "history": "A fish unexpectedly pops out of his cup - the symbol of a surprise message. Medieval court boy; imagination fresh and intuitive. Young poet archetype; emotional messages, creative spark and romantic beginning."
+    },
+    {
+      "id": 47,
+      "name": "Knight of Cups",
+      "image": "47_knight_cups",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "cups",
+      "element": "water",
+      "history": "The knight rides slowly on a white horse, carefully carrying his cup. Inspired by King Arthur's quest for the Holy Grail. The most romantic of the four knights; the ideal love, proposal and emotional call."
+    },
+    {
+      "id": 48,
+      "name": "Queen of Cups",
+      "image": "48_queen_cups",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "cups",
+      "element": "water",
+      "history": "The queen examining the closed cup at the water's edge; no one can see inside the cup. The seashell throne shows a connection with the sea. Traces of Morgan le Fay of Avalon, the archetype of intuition, empathy and emotional depth."
+    },
+    {
+      "id": 49,
+      "name": "King of Cups",
+      "image": "49_king_cups",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "cups",
+      "element": "water",
+      "history": "He sits on his throne on the choppy sea, but he doesn't get wet - the master of emotions. The fish pendant around his neck shows the dominance of the unconscious. Inspired by Poseidon; the card of emotional maturity and calm leadership."
+    },
+    {
+      "id": 50,
+      "name": "Ace of Swords",
+      "image": "50_ace_swords",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "swords",
+      "element": "air",
+      "history": "The hand reaching out from the cloud holds a double-edged sword, tipped with a crown and an olive branch. An echo of the legend of Excalibur; the double-edged sword of truth. A card of mental clarity, new ideas and the pure beginning of justice."
+    },
+    {
+      "id": 51,
+      "name": "Two of Swords",
+      "image": "51_two_swords",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "swords",
+      "element": "air",
+      "history": "The blindfolded woman holds two swords crossed, behind her the wavy sea. It's like the dark twin of Justice; a state of not wanting to see. The inability to decide is the card of stalemate and temporary peace."
+    },
+    {
+      "id": 52,
+      "name": "Three of Swords",
+      "image": "52_three_swords",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "swords",
+      "element": "air",
+      "history": "The heart pierced by three swords in a rainy sky - the most iconic image of the tarot. It comes from medieval sacred heart symbolism. The pain that goes through the heart; betrayal, heartbreak but also emotional purification."
+    },
+    {
+      "id": 53,
+      "name": "Four of Swords",
+      "image": "53_four_swords",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "swords",
+      "element": "air",
+      "history": "The statue of the knight lying in the church, three swords under one of them on the wall. It comes from the medieval tombstone tradition. Not death, but strategic retreat; the card of mental rest, healing and meditation."
+    },
+    {
+      "id": 54,
+      "name": "Five of Swords",
+      "image": "54_five_swords",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "swords",
+      "element": "air",
+      "history": "The grinning figure gathers five swords, two men walk away defeated. Pyrrhus victory - winning but paying a heavy price. A card about manipulation, unfair play and the bitter taste of empty victory."
+    },
+    {
+      "id": 55,
+      "name": "Six of Swords",
+      "image": "55_six_swords",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "swords",
+      "element": "air",
+      "history": "Boatman carries woman and child from rough water to calm water; six swords are stuck in the boat. Reminiscent of Kharon crossing the river Styx. Transition, a journey of healing; a card of passage from a difficult time to a better place."
+    },
+    {
+      "id": 56,
+      "name": "Seven of Swords",
+      "image": "56_seven_swords",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "swords",
+      "element": "air",
+      "history": "The figure steals five swords from the enemy camp, leaving two behind. It resembles a Trojan horse strategy; not every plan is perfect. Cunning is the card of hidden agendas and unfinished accounts."
+    },
+    {
+      "id": 57,
+      "name": "Eight of Swords",
+      "image": "57_eight_swords",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "swords",
+      "element": "air",
+      "history": "The bound and blindfolded woman is surrounded by eight swords, but her feet are free in the swamp - she can walk if she wants to. Mental prison; a card of self-created limitations, fear and the illusion of helplessness."
+    },
+    {
+      "id": 58,
+      "name": "Nine of Swords",
+      "image": "58_nine_swords",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "swords",
+      "element": "air",
+      "history": "Figure in bed at midnight covering his face with his hands, nine swords on the wall. Known as the 'nightmare card'. The quilt's rose and astrology patterns hide hope; the card of anxiety, insomnia and mental torment."
+    },
+    {
+      "id": 59,
+      "name": "Ten of Swords",
+      "image": "59_ten_swords",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "swords",
+      "element": "air",
+      "history": "Ten swords on the prone figure's back - an exaggerated ending. It resembles Caesar being stabbed in the senate. But on the horizon the sun rises, the card of the absolute end, the bottom point and the rebirth that follows."
+    },
+    {
+      "id": 60,
+      "name": "Page of Swords",
+      "image": "60_page_swords",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "swords",
+      "element": "air",
+      "history": "The youth raises his sword high in the air on the windy hill, the clouds pass quickly. He has the energy of a medieval court spy. Curious but imprudent intelligence; new ideas, keen observation and sometimes gossipy reporting."
+    },
+    {
+      "id": 61,
+      "name": "Knight of Swords",
+      "image": "61_knight_swords",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "swords",
+      "element": "air",
+      "history": "The knight swinging his sword on a galloping horse; the stormy sky. Reminiscent of Don Quixote's attack on windmills. The most aggressive of the four knights; speed, determination, but the risk of acting without thinking."
+    },
+    {
+      "id": 62,
+      "name": "Queen of Swords",
+      "image": "62_queen_swords",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "swords",
+      "element": "air",
+      "history": "The queen, sitting on her throne above the clouds, extends her left hand - a sign of loss or loneliness. Her sword is held upright. She carries the wisdom of Athena; intelligence, independence and emotional clarity honed by bitter experience."
+    },
+    {
+      "id": 63,
+      "name": "King of Swords",
+      "image": "63_king_swords",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "swords",
+      "element": "air",
+      "history": "His throne close to the clouds, his sword slightly tilted - absolute neutrality is impossible. Inspired by the justice of King Solomon. Logic, authority and intellectual power; the capacity to make decisions free of emotion."
+    },
+    {
+      "id": 64,
+      "name": "Ace of Pentacles",
+      "image": "64_ace_pentacles",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "The hand reaching out from the cloud holds a golden pentagram disk; below, a flowering garden gate. The 'prima materia' of the alchemists - the transformation of raw material into gold. A card of financial opportunity, new income and a concrete beginning."
+    },
+    {
+      "id": 65,
+      "name": "Two of Pentacles",
+      "image": "65_two_pentacles",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "Young man flips two pentagrams in the shape of infinity, ships in the background on the choppy sea. Inspired by a medieval juggler. The art of balance; budget management, multitasking and adaptation to change card."
+    },
+    {
+      "id": 66,
+      "name": "Three of Pentacles",
+      "image": "66_three_pentacles",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "In cathedral construction, the master stone carver, the priest and the architect work together. It comes from the medieval guild system and cathedral builders. The card of craftsmanship, teamwork and recognition of quality workmanship."
+    },
+    {
+      "id": 67,
+      "name": "Four of Pentacles",
+      "image": "67_four_pentacles",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "The figure sitting on the outskirts of the city grasps the four pentagrams tightly; on his head, on his feet, on his arms. The stingy merchant archetype; the card of holding on through obsession with security, need for control and fear of loss."
+    },
+    {
+      "id": 68,
+      "name": "Five of Pentacles",
+      "image": "68_five_pentacles",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "Two poor figures - one on crutches - pass by a church stained glass window in a snowstorm. The stained glass bears five pentagrams, but they do not enter. Financial hardship, exclusion; but help is at the door, just look."
+    },
+    {
+      "id": 69,
+      "name": "Six of Pentacles",
+      "image": "69_six_pentacles",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "The merchant holds the scales with one hand and distributes gold to beggars with the other. It comes from the medieval tradition of charity. Generosity, mutual exchange, is the card of the balance of power between giver and receiver."
+    },
+    {
+      "id": 70,
+      "name": "Seven of Pentacles",
+      "image": "70_seven_pentacles",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "The farmer leans on his hoe and surveys his seven-fruited plant. The labor has been done, but the harvest is yet to come. Patience is the card of investment evaluation and the question 'am I on the right track'."
+    },
+    {
+      "id": 71,
+      "name": "Eight of Pentacles",
+      "image": "71_eight_pentacles",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "A craftsman with a pentagram on his workbench, six of them hanging on the wall, working on the seventh. The medieval apprentice system; the path to mastery through repetition and discipline. Learning, skill development and diligent work."
+    },
+    {
+      "id": 72,
+      "name": "Nine of Pentacles",
+      "image": "72_nine_pentacles",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "In the vineyard, an elegant woman holds a hawk in her gloved hand. A garden paradise created by her own labor. Inspired by the Renaissance noblewoman; a card of material independence, luxury and self-sufficiency."
+    },
+    {
+      "id": 73,
+      "name": "Ten of Pentacles",
+      "image": "73_ten_pentacles",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "Three generations together: elderly, adult couple and child; dogs at their feet. Ten pentagrams in the order of the Tree of Life. Feudal family heritage; card of intergenerational wealth, family legacy and lasting security."
+    },
+    {
+      "id": 74,
+      "name": "Page of Pentacles",
+      "image": "74_page_pentacles",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "The archetype of the young - the student - holding aloft in the green meadow studying the pentagram. The most patient and methodical of the four princes. The card of learning new skills, news of scholarship and the first step towards concrete goals."
+    },
+    {
+      "id": 75,
+      "name": "Knight of Pentacles",
+      "image": "75_knight_pentacles",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "The knight on a stationary black horse holding his pentagram; field and farm in the background. The slowest of the four knights, but the most reliable. Perseverance, routine and step by step progress; not brilliant but sure results."
+    },
+    {
+      "id": 76,
+      "name": "Queen of Pentacles",
+      "image": "76_queen_pentacles",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "The queen seated on her throne in the flowering garden, pentagram on her lap, rabbit at her side - the symbol of fertility. The embodiment of mother earth; the archetype of practical intelligence, household management and nurturing abundance energy."
+    },
+    {
+      "id": 77,
+      "name": "King of Pentacles",
+      "image": "77_king_pentacles",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "pentacles",
+      "element": "earth",
+      "history": "The king sitting on his throne with grape vines and a bull in relief; he sees his castle and vineyards. The positive side of the Midas legend. The richest and most stable of the four kings; financial mastery and material security."
+    }
+  ]
+}

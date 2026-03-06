@@ -1,0 +1,1798 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "El Loco",
+      "image": "00_fool",
+      "arcana": "major",
+      "number": "0",
+      "suit": null,
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Estás en el umbral de un nuevo capítulo; la curiosidad y la chispa creativa que llevas dentro quieren redibujar tu rumbo. No tienes que darlo todo por sentado antes de dar el primer paso, pero debes mantener claras tus intenciones. No escuches demasiado el pesimismo de los demás mientras eliges tu propio camino; tu valentía te abrirá puertas inesperadas.",
+          "love": "Hay ganas de empezar de nuevo en el amor: no cierres tu corazón, pero no te ciegues. En lugar de ocultar sus sentimientos, expréselos sin rodeos; esta franqueza puede propiciar una conexión más viva y sincera. Si hay nuevos conocidos, tómese su tiempo y disfrute de la corriente.",
+          "career": "La energía de la carrera profesional es alta: un nuevo proyecto, un papel diferente o una dirección completamente distinta pueden llamarte. Si vas a arriesgarte, empieza con pasos pequeños pero claros; tu velocidad de aprendizaje te pondrá por delante. Su actitud pionera puede atraer a las personas y oportunidades adecuadas.",
+          "spiritual": "Estás ante un nuevo umbral; tu curiosidad y tu vitalidad interior te llaman a la acción. La incertidumbre alimenta tu creatividad; debes confiar en tu valor para encontrar el camino a través de la oscuridad. Relaja tu necesidad de control; la experimentación puede conducirte a descubrimientos inesperados. La situación exige que pongas por escrito la idea que has estado posponiendo; define el primer paso y el tiempo dirá el resto."
+        },
+        "reversed": {
+          "general": "Puede que sientas que has vuelto a caer en el mismo ciclo; de hecho, se trata de un umbral que el miedo está poniendo a prueba de nuevo. En lugar de huir, di qué es lo que te frena: ¿la incertidumbre, las críticas, la posibilidad de fracasar? Incluso una pequeña confrontación afloja la cadena y te da espacio para moverte de nuevo.",
+          "love": "Las inseguridades del pasado pueden reavivarse, creando una tendencia a retraerse o a actuar con demasiada precipitación. Para que la relación sea más clara, mantén una conversación sincera sobre \"lo que necesitas\". Si abordas estos temores en lugar de esconderlos bajo la alfombra, será más fácil construir una conexión más segura.",
+          "career": "Los obstáculos que te detuvieron antes pueden volver a surgir; es una advertencia \"no repitas el mismo error\". Simplifica el plan, da prioridad a un objetivo y establece un punto de referencia para el progreso. Cuando vuelva la determinación, el bloqueo estará resuelto.",
+          "spiritual": "Hay un momento en el que quieres avanzar pero te frenas; la excesiva cautela o el valor disperso te hacen reflexionar. La situación oscila entre el miedo a cometer un error y la huida; esta incertidumbre puede conducir a un salto descuidado o a una congelación total. Establece un límite antes de tomar una decisión; aclara lo que no harás en absoluto y confía en ti mismo para dar este paso."
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "El Mago",
+      "image": "01_magician",
+      "arcana": "major",
+      "number": "I",
+      "suit": null,
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Ahora ya tienes tanto la idea como las herramientas: la cuestión es empezar sin distraerte. Se trata tanto de hablar y diseñar como de hacer. No tengas miedo de mostrar tu talento; si tus intenciones son claras, los resultados aparecerán rápidamente.",
+          "love": "Tu poder de atracción y comunicación en las relaciones aumenta. Muestra emoción, pero no juegues a \"impresionar\" a la otra persona; la sinceridad es el movimiento más poderoso. Pequeñas sorpresas, una buena conversación y un objetivo común pueden profundizar rápidamente el vínculo.",
+          "career": "Tu carrera está en tus manos: la presentación adecuada y el momento oportuno pueden ayudarte a aumentar tu influencia. Elige un proyecto que haga visibles tus puntos fuertes; un papel de \"solucionador de problemas\" es especialmente bueno para ti. A medida que tomes la iniciativa, tu entorno estará más abierto a apoyarte.",
+          "spiritual": "Dispones de herramientas, conocimientos y habilidades adecuados; sólo es cuestión de utilizarlos conscientemente. Tu concentración mental es alta y tus poderes de expresión son claros; cuando concentres tus energías en un solo punto en lugar de dispersarlas, tu progreso se acelerará. La situación exige que elijas un único objetivo hoy; dedícale toda tu atención durante 30 minutos y puede que tus resultados te sorprendan."
+        },
+        "reversed": {
+          "general": "Si hay demasiadas ideas y una dirección poco clara, el progreso se ralentiza; o viceversa, las cosas pueden venirse abajo porque se pasan por alto detalles. Reduzca la confusión: un objetivo, un plan, un paso claro. Y hágalo transparente, sin caer en la trampa de la \"manipulación\" o el fingimiento innecesario.",
+          "love": "Los malentendidos o las expectativas poco realistas en el amor pueden crear tensiones. Asegúrate de que lo que dices y lo que haces está en consonancia; utiliza frases claras en lugar de insinuaciones. Hablar del objetivo de la relación puede desactivar pequeños roces antes de que vayan a más.",
+          "career": "El exceso de planificación o la infraejecución pueden llevarte a un ciclo de \"quedarte en la preparación\". Céntrate en producir resultados, no un dossier de presentación: plazo, responsabilidad, rendimiento. Una vez que das un paso, vuelve el impulso.",
+          "spiritual": "Tienes potencial, pero tu confianza en ti mismo se tambalea; esto hace que la energía fluya en direcciones equivocadas. La situación muestra que los sentimientos de manipulación y dilación te están afectando; esto conduce a una pérdida de poder. Recordar tus propios logros es importante para restablecer el equilibrio interior; haz una pequeña lista de lo que puedes hacer y date pruebas."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "La Sacerdotisa",
+      "image": "02_high_priestess",
+      "arcana": "major",
+      "number": "II",
+      "suit": null,
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Hay otra capa detrás de lo visible; tu intuición no habla en vano. En lugar de tomar decisiones rápidas, escucha las señales y tu voz interior: la información correcta aparecerá a su debido tiempo. Cuando llegue la claridad, podrás actuar sin vacilar.",
+          "love": "En el amor, la intuición es muy poderosa: si algo te inquieta o te da tranquilidad, tómate en serio su mensaje. Si hay niebla emocional, es bueno despejar el espacio con una conversación suave pero abierta. La sutileza es la clave de esta carta.",
+          "career": "El efecto \"epifanía repentina\" en la vida profesional: el puesto adecuado, el proyecto adecuado, la asociación adecuada pueden aparecer de repente. Oportunidades que pueden parecer difíciles al principio pueden hacerte crecer; si tu instinto te dice \"sí\", vale la pena considerarlo. Da el paso después de reunir con calma los detalles.",
+          "spiritual": "Tu voz resuena más allá del ruido; tu conciencia intuitiva te guía. No tienes que compartir cada uno de tus pensamientos; la paciencia y la observación profunda son tus mejores amigos en este proceso. La situación demuestra que tu conocimiento aún está en fase de maduración; espera un día y escribe tus sentimientos, tu viaje interior se iluminará."
+        },
+        "reversed": {
+          "general": "Puede que estés reprimiendo tu voz interior porque no quieres ver ciertas verdades. La información incómoda suele ser la puerta de entrada al crecimiento; cuanto más la evitas, más crece. Reevalúa la situación con una mirada neutral y pregúntate \"¿qué estoy evitando escuchar?",
+          "love": "La negación en una relación no resuelve el problema; sólo lo pospone. Si hay un problema no resuelto, háblalo con calma: con la intención de comprender, no de culpar. La sinceridad puede ser difícil, pero a la larga fortalece la relación.",
+          "career": "El miedo a la posibilidad de cambio puede limitar la progresión profesional. Puede ser necesario tomar medidas como buscar opiniones, plantearse una nueva trayectoria o cambiar la descripción del puesto. Una vez que aceptas la realidad, tus opciones se multiplican.",
+          "spiritual": "Reprimes tu intuición; tu búsqueda de aprobación externa ahoga tu voz interior. La situación te dificulta confiar en tu propio conocimiento; este silencio perdido puede amenazar tu paz interior. Escribe tu propia respuesta en una sola frase; esta sencilla acción te ayudará a volver a escuchar tu voz interior."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "La Emperatriz",
+      "image": "03_empress",
+      "arcana": "major",
+      "number": "III",
+      "suit": null,
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Es un periodo de crecimiento, multiplicación y nutrición: abres un \"espacio vital\" tanto para ti como para tu entorno. La compasión es el combustible de la productividad; aquello a lo que prestes atención con regularidad florecerá. En las relaciones y en el trabajo, establecer un terreno tranquilizador te fortalece.",
+          "love": "Su lenguaje amoroso es más suave e inclusivo: el vínculo, el cariño y la laboriosidad pasan a primer plano. Hable con su pareja de sus necesidades, genere confianza con pequeños gestos. Si estás soltero, cuidar primero de ti mismo es la forma más rápida de atraer a la relación adecuada.",
+          "career": "Su papel de apoyo brilla en el entorno empresarial: mantiene unidos a los equipos, nutre a los recién llegados, calma los procesos. Puedes aumentar tu influencia en áreas como la tutoría, la formación y la coordinación. La idea de \"crecer juntos\" acelera el éxito.",
+          "spiritual": "Te encuentras en un periodo nutritivo; cuando haces espacio para ti y para lo que te rodea, tu vida fluye de forma natural. La situación se enriquece con la autocompasión y la creatividad que pasan a primer plano; te espera la eficacia, no la redundancia. Incorpora a tu semana una rutina buena para ti; impulsará tu productividad e insuflará aire fresco a tu vida."
+        },
+        "reversed": {
+          "general": "Si descuidas el lado nutritivo, tanto tú como tu entorno podéis secaros. Dar demasiado lleva al agotamiento; dar poco lleva al desapego: encuentra el equilibrio. Incluso una pequeña rutina de cuidados diarios (sueño, nutrición, organización) marca una gran diferencia.",
+          "love": "La falta de comunicación o la negligencia emocional pueden crear distancia en una relación. Ayuda dejar de dar por supuesto que \"te entienden\" y ser claro sobre lo que esperas. Los problemas se resuelven más rápido si el respeto y el afecto están presentes al mismo tiempo.",
+          "career": "El aislamiento o la incomunicación pueden reducir la eficacia. Colabore, comparta responsabilidades, pida ayuda cuando la necesite. Volver a conectar con tu equipo mejora tanto los resultados como la motivación.",
+          "spiritual": "Oscilas entre descuidarte o darte demasiado; este desequilibrio está desgastando tu alma. La situación te envuelve en sentimientos de agotamiento o culpabilidad; de ti depende romper el ciclo. Hoy, planifica algo sólo para ti; no lo dejes para más tarde, pasa a la acción y hazte un regalo."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "El Emperador",
+      "image": "04_emperor",
+      "arcana": "major",
+      "number": "IV",
+      "suit": null,
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Es hora de organizarse y poner límites: reduce la incertidumbre y te harás más fuerte. Los pasos que des ahora son los cimientos del futuro, así que aclara tu plan y síguelo con disciplina. Incluso cuando las emociones fluctúen, la estructura te sostendrá.",
+          "love": "La necesidad de confianza y estabilidad en la relación es cada vez mayor. Ser claro sobre lo que se quiere no es aburrir a la otra parte; es consolidar el terreno. Si los límites y las responsabilidades están claros, el vínculo será más pacífico.",
+          "career": "La energía para asumir responsabilidades, gestionar y crear sistemas en su carrera es fuerte. Asumir tareas aparentemente difíciles te llevará al siguiente nivel. Concreta el objetivo: calendario, proceso, criterios; luego procede paso a paso.",
+          "spiritual": "Es hora de estructura y responsabilidad; unos límites claros aumentan la sensación de confianza. La situación quiere poner tu necesidad de control en un marco saludable; poner las reglas por escrito en un área de tu vida es un buen comienzo. Dando pasos claros, puedes consolidar el equilibrio en tu vida."
+        },
+        "reversed": {
+          "general": "Cuanto mayor sea la necesidad de control, menos flexibilidad podrá tener, lo que puede distraerle de su objetivo. Revisa tus elecciones recientes: ¿realmente sirven al objetivo, o se eligieron sólo porque era \"más fácil\"? Construye una estructura inteligente, no rígida, para corregir tu rumbo.",
+          "love": "Las luchas de poder o las actitudes rígidas en el amor pueden cansar la relación. Fíjate el objetivo de \"ser comprendido\" en lugar de \"tener razón\" y busca puntos en común. Si hay incompatibilidad, aclararlo con una conversación abierta es el paso adecuado.",
+          "career": "Los atajos pueden ser tentadores, pero puede que no conduzcan a un éxito sostenible. Realinee su plan con el objetivo a largo plazo; rediseñe los procesos si es necesario. Si hay fricciones con la autoridad, suaviza y aclara el lenguaje de la comunicación.",
+          "spiritual": "O buscas demasiado control o huyes de la autoridad; esto crea tensión con el poder que hay en ti. La indecisión se apodera de ti. La situación se aclarará cuando identifiques honestamente en qué área estás eludiendo la responsabilidad; esto te impulsará a la acción."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "El Sumo Sacerdote",
+      "image": "05_hierophant",
+      "arcana": "major",
+      "number": "V",
+      "suit": null,
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Un periodo de aprendizaje y alineación con la sabiduría convencional: un profesor, un sistema o un método pueden guiarte. En lugar de ponerte a la defensiva cuando te enfrentes a puntos de vista diferentes, intenta captar la lección. La finalidad de las normas no es la coerción, sino un marco estabilizador.",
+          "love": "Los valores, la dinámica familiar y la percepción del \"bien y el mal\" pueden pasar a primer plano en la relación. Hablar de aquello en lo que creen juntos refuerza los cimientos del vínculo. Si hay diferencias, es bueno establecer un ritual u orden común.",
+          "career": "La tutoría, la formación, la cultura corporativa y los procesos pueden hacer crecer tu carrera. Trabajar con alguien más experimentado acelera y reduce el margen de error. Tu visibilidad aumenta cuando aprovechas los conocimientos y los pones en práctica.",
+          "spiritual": "Estás experimentando una profunda transformación en tu búsqueda de estatus, sabiduría y orientación; tu deseo de aprender está clarificando tus valores. Integra lo que has aprendido en tu vida; aplicar ese único principio de una fuente de confianza te abrirá nuevas puertas. Recuerda que todo conocimiento te ayuda a dar un paso adelante y refuerza tu pertenencia."
+        },
+        "reversed": {
+          "general": "Ser complaciente o pensar que \"así son las cosas\" puede ralentizar el progreso. Huir porque el cambio es difícil prolonga la lección. Deja espacio a la nueva información para actualizar tus propias verdades.",
+          "love": "Evitar las conversaciones difíciles en una relación puede magnificar los pequeños problemas. Si las expectativas tradicionales te aburren, háblalo con calma y crea un orden que te convenga. El vínculo sólo se refuerza cuando se discuten las necesidades reales.",
+          "career": "Evitar la retroalimentación o posponer el aprendizaje limita el crecimiento profesional. Tome medidas concretas, como buscar un mentor, hacer un curso o probar un nuevo método. La zona de confort es cómoda a corto plazo, pero cara a largo plazo.",
+          "spiritual": "Los moldes te limitan; la conformidad ciega eclipsa tu originalidad. La situación exige que cuestiones todas las reglas que crees que \"así es como debe ser\"; estírate y crea espacio para ti. Si das un paso valiente para salir de tus hábitos, podrás liberar tu potencial creativo."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Los Enamorados",
+      "image": "06_lovers",
+      "arcana": "major",
+      "number": "VI",
+      "suit": null,
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Estás en el umbral de una elección: si tu decisión está en consonancia con tus valores, tendrás más tranquilidad. En lugar de \"lo que diga todo el mundo\", te guía la pregunta \"qué quiero yo\". Si el corazón y la mente están en conflicto, encuentra el terreno común: intención + resultado.",
+          "love": "La verdadera armonía en el amor no es sólo atracción, sino también valores compartidos y comunicación abierta. Incluso puede ser una situación que no se ajuste a las normas sociales; lo importante es si es adecuada para ti. Si hablas con sinceridad, la relación se profundizará o se aclarará.",
+          "career": "En una carrera profesional, puede surgir la disyuntiva entre prestigio y significado. Opta por lo que te satisfaga de forma sostenible, no sólo por lo que \"parece bueno\". Una vez que tengas clara tu decisión, las oportunidades se alinearán más rápido.",
+          "spiritual": "Se abre una puerta a la elección; tomar decisiones acordes con tus valores significa profundizar en tu alma. La situación debe aclarar lo que esta decisión representa para ti; si revelas tu honestidad interior, estás en el buen camino."
+        },
+        "reversed": {
+          "general": "Aunque la indecisión se presenta como \"espera\", en realidad es un derroche de energía. Tienes que elegir una dirección; de lo contrario, las circunstancias elegirán por ti. Si estás indeciso entre dos opciones, escribe tu valor fundamental y trátalo en consecuencia.",
+          "love": "La claridad en la relación es esencial: qué quieres, qué no puedes tolerar, qué quieres que crezca... Dejarlo vago aumenta la insatisfacción. Una conversación clara trae armonía o disuelve lazos innecesarios.",
+          "career": "Vacilar entre opciones laborales puede hacer que se pierdan oportunidades. Defina su objetivo y céntrese en una única ruta. Una vez hecha la elección, será más fácil ejecutar el plan.",
+          "spiritual": "La ambivalencia se apodera de ti; evitas enfrentarte a tus valores. Tus conflictos internos te empujan a intentar complacer la situación. Afronta claramente la opción que no quieres; ésta podría ser la clave de tu libertad. Cuando no determinas tu propio comportamiento, pierdes el flujo de la vida."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "El Carro",
+      "image": "07_chariot",
+      "arcana": "major",
+      "number": "VII",
+      "suit": null,
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Hay aceleración: los acontecimientos se suceden y este impulso te llevará hacia delante si vas en la dirección correcta. Mantente en el objetivo sin distracciones; los pequeños ajustes llegarán muy lejos. El control no es rigor; es gestión coherente.",
+          "love": "Si la relación avanza deprisa, asegúrate de que ambas partes se sienten cómodas con el ritmo. Hablar de los sentimientos sin ocultarlos reduce el estrés del ritmo. Si se mira hacia el mismo objetivo, el vínculo se refuerza.",
+          "career": "Oportunidad de tomar impulso en el trabajo: nuevo proyecto, nuevo papel, nueva responsabilidad. Es una oportunidad para demostrar liderazgo; mantener la calma marca la diferencia, especialmente en tiempos de crisis. Aclarar el objetivo, alinear al equipo, seguir adelante.",
+          "spiritual": "La fuerza de voluntad y la claridad se refuerzan a medida que te centras en el objetivo; los obstáculos externos pasan a un segundo plano. La situación refuerza tu concentración a la vez que equilibra la disciplina y la determinación. Establece tu única prioridad para la semana; esta decisión te mantiene en el buen camino."
+        },
+        "reversed": {
+          "general": "Si el ritmo es abrumador, es una advertencia para \"echar el freno y elegir una dirección\". No todas las oportunidades son tuyas; sé selectivo. Primero prioriza y luego vuelve a acelerar el ritmo; de lo contrario, aumenta el riesgo de fracasar.",
+          "love": "Si las prisas cansan la relación, es esencial hablar del ritmo. Si necesitas \"ir más despacio\", dilo claramente. Llevar el mismo ritmo evita conflictos innecesarios.",
+          "career": "Puede sentir la tentación de evitar los proyectos difíciles; en lugar de eso, divida y delegue su carga de trabajo sabiamente y céntrese en el trabajo que tenga mayor impacto. Gana la energía dirigida, no la dispersa. Una breve revisión del plan restablece el impulso.",
+          "spiritual": "Se trata de una situación en la que tu energía está dispersa y tensa; la ansiedad por el control está bloqueando tu progreso. Reduce el ritmo; gana claridad simplificando tus objetivos. Este sencillo cambio reduce la confusión en tu mente y te orienta en la dirección correcta."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "La Fuerza",
+      "image": "08_strength",
+      "arcana": "major",
+      "number": "VIII",
+      "suit": null,
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "La fuente de la fuerza no es el ruido, sino el valor sereno. Cuando eliges gestionar las emociones difíciles en lugar de reprimirlas, el caos que te rodea se calma. La paciencia y la autodisciplina son tus bazas en este periodo.",
+          "love": "Una determinación suave en la relación: hablar claro pero sin ofender aumenta la confianza del vínculo. Si hay conflictos, fijarse el objetivo de \"entenderse\" más que de \"ganar\". Una actitud cariñosa es más eficaz de lo esperado para resolver los problemas.",
+          "career": "En el ámbito empresarial, destacan la resiliencia y el liderazgo. Negociaciones difíciles, proyectos intensos, toma de decisiones bajo presión... mantener la calma en todos ellos le diferenciará. A medida que aumente tu fuerza de voluntad, los que te rodean esperarán que les dirijas.",
+          "spiritual": "La fuerza se manifiesta en un toque suave; tu resistencia y autocompasión aumentan. Cuando te enfrentas a un momento difícil, debes suavizar conscientemente tu tono de voz; esto aporta paz a ti mismo y a los que te rodean. Cuando tu determinación se combina con una fuerza suave, comienza la transformación."
+        },
+        "reversed": {
+          "general": "Tu energía podría estar goteando: o bien estás sobrecargado o atrapado en cosas que no puedes controlar. Para recuperar la energía, primero hay que poner límites y luego volver al planteamiento de \"un problema, una solución\". Reconocer el ciclo autodestructivo es la mitad del camino.",
+          "love": "Si el agotamiento o el resentimiento acumulado son evidentes en la relación, es necesario hablar en lugar de ocultarlo. Incluso un pequeño paso es suficiente para aliviar la carga emocional: una petición clara, un límite claro, una confesión sincera. Así puede restablecerse la armonía.",
+          "career": "Si los obstáculos te desmoralizan, aísla su origen: ¿proceso, personas, gestión del tiempo? Aclare el problema y la solución se acelerará. En lugar de la ira descontrolada o el repliegue, opta por la lucha planificada.",
+          "spiritual": "Tu autoestima se tambalea; la ira reprimida alimenta la tormenta en tu interior. La situación se agrava cuando te hablas con dureza. Sé amable contigo mismo; un lenguaje suave puede aliviar los conflictos de tu corazón. El diálogo que mantienes contigo mismo tiene el poder de curar las heridas de tu alma."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "El Ermitaño",
+      "image": "09_hermit",
+      "arcana": "major",
+      "number": "IX",
+      "suit": null,
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "El Ermitaño es la carta del repliegue y la claridad: cuando la multitud calla, se oye tu propia voz. Aprovecha este periodo para darte cuenta de tus objetivos, tus valores y tu verdadera necesidad. La soledad no es un castigo; es un medio para establecer el orden interior.",
+          "love": "En la vida amorosa, la pregunta \"¿qué necesito?\" pasa a primer plano. Para quienes mantienen una relación, un espacio personal saludable no debilita el vínculo, sino que lo refuerza cuando se construye correctamente. Si estás soltero, éste es un buen momento para conocerte a ti mismo antes de un nuevo comienzo.",
+          "career": "En tu carrera, una breve pausa para reflexionar puede reportarte grandes dividendos a largo plazo. Aléjate del ajetreado ritmo y reajusta tus objetivos; si es necesario, haz un plan de formación/certificación/especialización. La preparación silenciosa abre la puerta en el momento adecuado.",
+          "spiritual": "Estás intoxicado por la situación, el deseo de volverte hacia dentro y simplificar; la sabiduría aporta claridad, no soledad. Ralentiza el día y crea un momento de tranquilidad; esto te ayudará a encontrar tu paz interior."
+        },
+        "reversed": {
+          "general": "Parecer ocupado\" cuando estás cansado puede agotarte aún más. No niegues la necesidad de descansar; bajar el ritmo no es retroceder. Una breve pausa y fijar unas rutinas básicas (sueño, alimentación, organización) pueden despejar la mente.",
+          "love": "Fingir que estás bien cuando no lo estás crea distancia en la relación. Hable con su pareja con calma: su necesidad de estar solo, la intensidad de sus sentimientos, sus límites. Esta claridad reduce los malentendidos y aumenta la confianza.",
+          "career": "Puede que la carga de trabajo haya aumentado innecesariamente o que tu trabajo parezca haber perdido sentido. Vuelva a establecer prioridades, elimine las tareas improductivas y, si es necesario, discuta la definición de su función. No es necesario correr más, sino caminar en la dirección correcta.",
+          "spiritual": "La situación revela un intento de reprimir tu voz interior; la soledad puede oscurecer tus pensamientos. Cuando decides compartir tus pensamientos con alguien en quien confías, una luz brilla en la oscuridad. Este paso aumenta tu paz interior; las perspectivas de los demás te abren nuevas puertas."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "La Rueda de la Fortuna",
+      "image": "10_wheel_of_fortune",
+      "arcana": "major",
+      "number": "X",
+      "suit": null,
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "La rueda está girando: las condiciones externas están cambiando y tu papel es aprovechar este cambio. Aunque al principio te resulte incómodo, este movimiento puede formar parte de una transición hacia un orden mejor. Si te mantienes flexible, la puerta de la oportunidad se abrirá más fácilmente.",
+          "love": "La dinámica de la relación está evolucionando: una conexión más profunda, una nueva etapa o decisiones que lleven la relación a un nivel diferente pueden estar a la orden del día. Hablar de la visión de futuro suaviza este cambio. Seguir la corriente tranquiliza el corazón.",
+          "career": "Una oportunidad en tu carrera: un ascenso, un cambio de función, una nueva oferta o un éxito visible. Si te adaptas rápidamente al cambio de función, este periodo puede ser un trampolín. Produzca resultados tangibles para demostrar que está preparado.",
+          "spiritual": "El cambio es inevitable, pero tú puedes determinar su dirección. La situación abre puertas de oportunidades con tu flexibilidad; elegir la única área que puedes controlar te dará fuerza. Ten el valor de forjar tu propio camino; cada paso te llevará a nuevas oportunidades."
+        },
+        "reversed": {
+          "general": "Hay una oportunidad, pero si permanece pasivo, puede desaprovecharla; no basta con que la rueda gire sola. Capta las pequeñas señales y da el paso necesario. En lugar de \"un día\", el planteamiento de \"un pequeño paso hoy\" te llevará hacia delante.",
+          "love": "Puede que estés pasando por alto oportunidades para el desarrollo de la relación: una pequeña conversación, un gesto, una aclaración... Todos ellos cambian la dirección del vínculo. Escucha con más atención las señales de tu pareja; son valiosas.",
+          "career": "Desde el punto de vista empresarial, una oportunidad delante de sus ojos puede parecer \"demasiado mundana\" y perderse. Reúna información, pregunte, sea visible; la participación activa magnifica la oportunidad. La suerte no sólo favorece a los que están preparados, sino también a los que actúan.",
+          "spiritual": "El ciclo es como un patrón que te aprieta; debes evitar repetir los mismos errores. La situación requiere que te enfrentes a tu falta de conciencia; nombrar este patrón es el primer paso hacia la libertad. Presta atención, reconoce este ciclo y desarrolla estrategias para romperlo."
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "La Justicia",
+      "image": "11_justice",
+      "arcana": "major",
+      "number": "XI",
+      "suit": null,
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Ahora es el momento de la claridad: qué es verdad, qué es real, qué es justo... quieres ver estas cosas con claridad. Cuando sopeses el panorama sin emoción, harás el mejor juicio. La carta de la justicia te recuerda que \"los resultados estarán en consonancia con tus elecciones\".",
+          "love": "El equilibrio y la honestidad son esenciales en el amor: si las intenciones, los límites y las expectativas están claros, la relación se relaja. Si hay un sentimiento de injusticia por algo, hablarlo con calma pero con franqueza puede sanarlo. El vínculo es más seguro cuando las responsabilidades mutuas se reparten equitativamente.",
+          "career": "Periodo de medición y evaluación en su carrera: rendimiento, acuerdo, contrato, promoción o reparto de tareas pueden estar a la orden del día. Concrete su documento, su resultado, su contribución para obtener lo que se merece. Una postura justa y clara le hará parecer fuerte en este periodo.",
+          "spiritual": "Equilibrio, honestidad y claridad son la esencia de este momento; es hora de asumir responsabilidades. La situación exige que escribas tu decisión con criterios objetivos; esto aclarará tus pensamientos y reforzará tus acciones. Exprésate abiertamente y deja salir tu juicio interior; esto acelerará tu progreso."
+        },
+        "reversed": {
+          "general": "Un sentimiento de injusticia o parcialidad puede nublar su juicio. Puede que sea demasiado duro consigo mismo o demasiado tolerante con los demás. Para ver la verdad, debes dejar a un lado las emociones y recurrir a pruebas concretas.",
+          "love": "El reparto injusto de las cargas en una relación puede crear un resentimiento silencioso: uno da más, el otro puede no darse cuenta. Es agotador esperar a ser \"comprendido\" sin hablar claro; di claramente lo que necesitas. Sin equilibrio, la relación se desgasta, arrastrándose por el mismo sitio.",
+          "career": "En la vida empresarial, los malentendidos, las evaluaciones injustas o las promesas que se quedan en lo verbal pueden crear riesgos. Ponga la comunicación por escrito, aclare las expectativas y haga visible su contribución. Un enfoque sistemático en lugar de una reacción emocional es la defensa más eficaz en este periodo.",
+          "spiritual": "La situación está envuelta en injusticias percibidas y contradicciones internas; cuando evalúes con calma tu parte en ella, verás los hechos con mayor claridad. En lugar de reprimir tus sentimientos, afróntalos; esto te abrirá la puerta a la paz interior. Sé amable contigo mismo, es una oportunidad para volver a conocerte."
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "El Colgado",
+      "image": "12_hanged_man",
+      "arcana": "major",
+      "number": "XII",
+      "suit": null,
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "El momento presente no es velocidad, pero un cambio de perspectiva aporta beneficios: esperar es preparación, no inutilidad. Cuando te desprendes de lo que intentas controlar, tu mente funciona con más claridad y la respuesta correcta aparece por sí sola. Esta carta dice: \"detente y míralo desde otro ángulo\".",
+          "love": "En lugar de apresurarse a juzgar en el amor, es necesario dejar espacio para comprender el sentimiento. Si hay una pausa en la relación, no se trata de una ruptura; a menudo es una oportunidad para \"reevaluar\". Cuando se habla con paciencia y calma, las necesidades reales salen a la luz con más claridad.",
+          "career": "Puede que haya un proceso de carrera pendiente: hay una decisión pendiente, las circunstancias no están maduras o el momento aún no es el adecuado. Si utiliza este periodo para la estrategia, la formación y la preparación, avanzará con mucha más fuerza. El movimiento correcto en el momento adecuado es más productivo que empujar obstinadamente.",
+          "spiritual": "Esperar te permite adquirir una nueva perspectiva; tomarte tu tiempo te aporta una comprensión más profunda. La situación está poniendo a prueba tu paciencia y tu entrega; en el proceso, cada día serás más claro. Date tiempo; a veces detenerse es el mayor progreso."
+        },
+        "reversed": {
+          "general": "Si esperar ya no es productivo, esta carta es un aviso de \"atasco\". Dar vueltas y vueltas con la misma mentalidad no le hará avanzar; incluso un pequeño movimiento puede desbloquear la cerradura. Puede que estés haciendo sacrificios innecesarios o que tengas miedo de dar un paso: reconoce ambas cosas.",
+          "love": "Guardar silencio y aguantar en una relación produce resentimiento acumulado en lugar de amor después de un tiempo. Es necesario hablar para aclarar las cosas; de lo contrario, el estancamiento se vuelve permanente. Si te sacrificas constantemente, establecer límites es esencial en este periodo.",
+          "career": "La dilación o la indecisión en el ámbito empresarial pueden convertirse en oportunidades perdidas. Si estás constantemente preparándote y no pasas a la acción, minimiza el objetivo y da un paso concreto: plazo, entregable, responsabilidad. Una vez que empieza la acción, tu mente se recupera rápidamente.",
+          "spiritual": "La situación muestra que los sacrificios innecesarios te están desgastando; la obstinación está bloqueando tu progreso. Aclara lo que necesitas soltar; ¿qué cargas pesan en tu corazón? Para aligerarte, debes dar pasos valientes; tu libertad empieza por desprenderte de cargas pasadas."
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "La Muerte",
+      "image": "13_death",
+      "arcana": "major",
+      "number": "XIII",
+      "suit": null,
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Se cierra un ciclo y este cierre es necesario para dejar espacio a un nuevo comienzo. Si a lo que te aferras ya no te sostiene, soltar no es \"perder\", sino aligerar. El cambio asusta al principio, pero cuando la limpieza se hace en el lugar adecuado, la vida se refresca rápidamente.",
+          "love": "En el amor, una vieja costumbre, un antiguo resentimiento o el reparto de papeles en una relación pueden haber llegado a su fin. Esta carta revela cuándo se dice \"no podemos seguir igual\"; hace falta valor para transformarse. Una conversación sincera y una decisión clara renovarán el vínculo o pondrán fin a una carga innecesaria.",
+          "career": "Se avecina un cambio brusco en tu carrera: un cambio de función, de equipo, de objetivo o de sector. En lugar de aferrarte a la antigua forma de hacer las cosas, tienes que desprenderte de lo que ya no funciona y construir la nueva estrategia. Este final te permitirá volver con una identidad más fuerte y una dirección más clara.",
+          "spiritual": "Se cierra un ciclo; este cierre es esencial para abrir la puerta a nuevas oportunidades. Cuando la situación aclare lo que ya no funciona, la carga se aligerará. Decir adiós no es perder, sino renovarse y crecer. Sé valiente, deja ir y haz sitio a lo nuevo."
+        },
+        "reversed": {
+          "general": "Puede que estés prolongando algo que tiene que terminar, lo que hace que el cambio sea más doloroso. Volver al mismo ciclo por miedo aumenta la carga que te agota. Si aclaras la pregunta \"¿De qué tengo miedo a desprenderme?\", la transformación será más suave.",
+          "love": "Mantener una dinámica en una relación que ya no funciona puede agotar tanto el amor como el respeto. En lugar de repetir viejas discusiones, es necesario hablar de la raíz del problema y pasar página. Si hay que irse, hay que hacerlo sin prolongarlo; si hay que quedarse, hay que cambiar realmente el comportamiento.",
+          "career": "Si se dice \"me las arreglaré por ahora\" cuando hay una necesidad de cambio en la vida empresarial, pueden perderse oportunidades. Esperar resultados diferentes con el mismo método provoca agotamiento. Incluso un pequeño cambio (clarificación de funciones, nueva competencia, proyecto diferente) abre la puerta a la transformación.",
+          "spiritual": "El miedo a aferrarse y el miedo al cambio te rodean; sentir este miedo forma parte del ser humano. La situación sugiere que ha llegado el momento de decir adiós a los hábitos de tu vida; elige conscientemente dejar ir. El final de todo es un presagio de nuevos comienzos; si te pones en marcha con valentía, podrás ver las nuevas oportunidades que te esperan."
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "La Templanza",
+      "image": "14_temperance",
+      "arcana": "major",
+      "number": "XIV",
+      "suit": null,
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Lo que la vida te pide no es velocidad, sino armonía: no vivir en los extremos, sino tomar el camino del medio. La paciencia es el poder secreto de esta carta; las cosas que se deshacen con las prisas se recompondrán cuando encuentres un ritmo. Los pasos pequeños pero regulares dan resultados más duraderos que los grandes saltos.",
+          "love": "En el amor, la comunicación suave y la comprensión mutua mejoran la relación. En lugar del \"a mi manera o a la autopista\", es importante establecer un orden común en el que ambas partes se sientan cómodas. Pequeños gestos, conversaciones tranquilas y expectativas mesuradas son el principal combustible que refuerza el vínculo.",
+          "career": "Es el periodo de establecer un proceso en carrera, garantizar el equilibrio dentro del equipo y coger un tempo sostenible. La eficacia aumenta si divides el trabajo en partes y avanzas con ritmo, en lugar de cargar con todo al mismo tiempo. La cooperación armoniosa te hace avanzar más rápido que los esfuerzos en solitario en este periodo.",
+          "spiritual": "Se fortalecen la armonía y la moderación; se siembran las semillas de la paciencia. Tu paz interior aumenta a medida que la situación estabiliza tu ritmo diario; este equilibrio te fortalece. Evalúa cada momento y refuerza este equilibrio introduciendo pequeños cambios."
+        },
+        "reversed": {
+          "general": "Puede que la balanza esté desequilibrada; o bien estás presionando demasiado o repartiendo demasiado. Los excesos tienen un precio muy alto: todo está interconectado, desde el sueño y la alimentación hasta los horarios de trabajo y la gestión emocional. Para volver a encontrar tu centro, primero baja el ritmo y luego restablece el orden.",
+          "love": "Puede que se os haya acabado la paciencia o que las expectativas se hayan ido al extremo. Cuando uno de los dos da demasiado y el otro no parece darse cuenta, el vínculo se resquebraja. Hablar del término medio, aclarar responsabilidades y necesidades es la mejor medicina en este periodo.",
+          "career": "La desorganización y la distribución desequilibrada de la carga de trabajo pueden reducir el rendimiento. Simplifique las prioridades, elija el trabajo que produce mayor impacto y planifique el resto. Cuando se restablezcan el proceso y la rutina, la motivación se recuperará por sí sola.",
+          "spiritual": "Los extremos desgastan tu alma; da un paso atrás y respira hondo para encontrar el equilibrio. Al reducir uno de los extremos, puedes crear un terreno más tranquilo; esto te ofrece la oportunidad de reconstruir tu paz interior. Recuerda que, a veces, dar un paso atrás es la mejor base para avanzar."
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "El Diablo",
+      "image": "15_devil",
+      "arcana": "major",
+      "number": "XV",
+      "suit": null,
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Puede que no sea una fuerza externa la que te retiene, sino un hábito y un apego internos. La carta del diablo dice 'ver la cadena': adicción, obsesión, necesidad de control, evasión a través del placer... Todas ellas empiezan a desenredarse cuando se reconocen por primera vez.",
+          "love": "La atracción intensa en el amor es buena, pero si rompe los límites, puede convertirse en esclavitud. Los celos, el control, el apego dependiente o el estado \"no puedo prescindir de él\" estrechan la relación. Cuando separas pasión y confianza y estableces límites sanos, el vínculo funciona mucho más fuerte.",
+          "career": "Puede que se vea atrapado en un acuerdo indeseable para \"mantenerse a salvo\" en su carrera; o puede que esté agotado por la ambición de estatus/dinero. Ten cuidado con el riesgo de renunciar a ti mismo a largo plazo por un beneficio a corto plazo. Un límite claro y un objetivo más sano te sacarán de este ciclo.",
+          "spiritual": "Tus apegos y hábitos salen a la superficie; las cadenas que te sujetan son ahora visibles. La situación se caracteriza por un sentimiento interno de apego; tienes el control, pero temes utilizarlo. Es hora de tomar conciencia, no de sentirte culpable; sé valiente para iluminar la oscuridad. Expresa el hábito autolimitante en una frase clara; si describes honestamente lo que aportas, puedes allanar el camino hacia la libertad."
+        },
+        "reversed": {
+          "general": "Un umbral en el que la cadena se afloja: aumenta la conciencia y puedes decir \"no quiero esto\". Cuando esta carta está invertida, la liberación no llega de golpe, sino paso a paso; pero la dirección está clara. Incluso una pequeña decisión (un límite, una orden, un \"no\") abre la puerta a la libertad.",
+          "love": "En el amor, el vínculo malsano empieza a disolverse; o bien la relación evoluciona hacia una forma más sana, o bien se rompe la dependencia innecesaria. El diálogo abierto, la expresión honesta de las necesidades y el establecimiento de límites pueden ser sanadores. La pasión puede permanecer, pero ya no te gobierna a ti, sino que eres tú quien la gobierna a ella.",
+          "career": "Puede llegar un momento en el trabajo en el que digas \"basta ya\": un equipo tóxico, una tarea que ha perdido su sentido o un ritmo que te explota. Es el momento de poner límites para protegerte y explorar alternativas. A la larga, este cambio aumentará tanto la productividad como la confianza en ti mismo.",
+          "spiritual": "Tus cadenas empiezan a aflojarse; estás al borde de la libertad y ya no son tan fuertes como antes. La situación demuestra que tu coraje va en aumento, pero vacilas a la hora de dar el paso definitivo. El cambio está a la puerta, pero debes dar un paso consciente. Posponga hoy por una vez su comportamiento limitador, observe el efecto y disfrute de la liberación."
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "La Torre",
+      "image": "16_tower",
+      "arcana": "major",
+      "number": "XVI",
+      "suit": null,
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "La torre dice \"la estructura equivocada se derrumbará\"; es chocante pero realista. Una noticia repentina, una ruptura inesperada o la interrupción de un plan pueden resultar chocantes al principio. Pero esta destrucción crea espacio para que construyas un orden más preciso y sólido.",
+          "love": "Las verdades reprimidas en el amor pueden hacerse visibles: problemas tácitos, resentimientos ocultos, desconfianza subyacente. Esta carta dice \"afróntalo ahora\"; de lo contrario, la relación explotará por sí sola. La sinceridad es difícil pero curativa; el verdadero equilibrio sustituye a la falsa paz.",
+          "career": "Un fallo del sistema en tu carrera: la cancelación de un proyecto previsto, un cambio de equipo, un cambio de funciones o un conflicto con la autoridad. Aunque la reacción inicial puede ser \"todo se ha venido abajo\", en realidad puede estar desviándole de su rumbo. Si mantienes la calma y elaboras un nuevo plan, esta crisis te levantará.",
+          "spiritual": "Una repentina toma de conciencia sacude tu estructura actual; verdades inesperadas iluminan puntos que has ignorado durante mucho tiempo. La situación es incómoda, pero esta sacudida te muestra la verdad; no te quedes a la sombra de la negación, elige afrontarla. Desentrañar unos cimientos falsos no es destruir; escribe tu creencia obsoleta y deja de defenderla; esto abrirá una puerta a la libertad."
+        },
+        "reversed": {
+          "general": "Retrasar la sacudida puede magnificar la destrucción, porque el problema está ahí. Cuando esta carta está invertida, suele ser una advertencia para \"evitar\" y \"posponer\". Si ahora se hace una pequeña confrontación, se puede evitar un colapso mayor.",
+          "love": "Puede que exista la posibilidad de una ruptura en la relación, pero evitan hablar de ello. El silencio no protege la confianza; al contrario, la roe desde dentro. Una conversación suave pero clara refuerza la relación o pone fin a una destrucción innecesaria antes y de forma más limpia.",
+          "career": "Si ves que se avecina un cambio en la empresa y piensas \"ya me las apañaré\", puede que luego te resulte más difícil. Aclarar ahora los procesos, las expectativas y tu papel es lo más inteligente. Los pequeños ajustes y la comunicación suelen evitar crisis mayores.",
+          "spiritual": "Posponer el cambio está agrietando la estructura, pero aún no se ha derrumbado. Date cuenta de que tu búsqueda de control está retrasando la transformación. La situación sugiere una disolución consciente en lugar de una ruptura repentina. Al poner fin a un único hábito, puedes dar un pequeño paso en lugar de una gran ruptura; esto te abre un nuevo camino."
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "La Estrella",
+      "image": "17_star",
+      "arcana": "major",
+      "number": "XVII",
+      "suit": null,
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "La estrella es la serena esperanza que llega tras la tormenta: comienza la curación y el camino se ilumina de nuevo. Las cosas no tienen por qué mejorar de golpe; lo que importa es la sensación de que estás en la dirección correcta. Si mantienes fresca tu fe, incluso las pequeñas señales te llevarán al lugar correcto.",
+          "love": "En el amor, es un momento de reapertura del corazón: es posible una conexión más honesta, transparente y sanadora. Si hay resentimientos del pasado, es un buen momento para suavizarlos y reconstruir la confianza. Si estás soltero, un encuentro prometedor podría estar en la agenda; para los que están en pareja, la relación podría \"limpiarse\" y refrescarse.",
+          "career": "Aumentan la inspiración y la visión profesionales: Vuelve la energía del \"puedo hacerlo\". El proyecto adecuado, el equipo adecuado o el objetivo adecuado pueden aparecer en el horizonte; una mayor visibilidad es especialmente posible. Si mantiene un plan realista y avanza con paso firme, este periodo le permitirá dar un salto adelante a largo plazo.",
+          "spiritual": "Tras un periodo difícil, surge una sensación de alivio que señala una fase de curación y reconstrucción de la confianza. La esperanza no es una expectativa pasiva, sino la práctica de volver a creer en uno mismo. Da pasos pequeños pero constantes cada día durante este periodo; escribe una única intención para el futuro y elige un símbolo sencillo que te la recuerde."
+        },
+        "reversed": {
+          "general": "Cuando la desesperación desciende como la niebla, no puedes ver la luz, pero la Estrella sigue ahí. Cuando esta carta está invertida, suele decir \"tu fe se debilita\", pero la solución no es rendirse por completo, sino restablecer un objetivo realista. Un pequeño plan de éxito puede restablecer rápidamente la motivación.",
+          "love": "En el amor, el pensamiento de que \"de todos modos no mejorará\" puede enfriar la relación. Para recuperar la esperanza, lo primero es limpiar la comunicación: declaraciones claras, no insinuaciones, confrontación, no evasión. Incluso un pequeño paso de intimidad revitaliza la confianza y el calor.",
+          "career": "Si se produce un bajón de autoestima o una sensación de agotamiento en el trabajo, puede ser temporal, pero hay que tomárselo en serio. Reduce los objetivos, concreta el rendimiento y recupera el ritmo. Cuando recuperes el ímpetu, verás las oportunidades con más claridad y empezarás a brillar de nuevo.",
+          "spiritual": "La esperanza se ve nublada por la fatiga; tu percepción se estrecha y una vaga niebla te envuelve. La situación no es permanente; es un reflejo temporal del agotamiento. Deja de machacarte, rebaja tus expectativas y permítete descansar. A medida que te relajes, surgirá una nueva claridad."
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "La Luna",
+      "image": "18_moon",
+      "arcana": "major",
+      "number": "XVIII",
+      "suit": null,
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "La Luna es una carta de incertidumbre e intuición: puede que no todo parezca claro, pero tus sensaciones no son en vano. Usted camina en un campo nebuloso; es necesario proceder con observación serena, no con pánico. Este periodo le enseña a no precipitarse en sus juicios hasta que se revele la verdad.",
+          "love": "En el amor pueden surgir señales confusas, malentendidos o sentimientos ocultos. El diálogo abierto en lugar de las insinuaciones y conjeturas es esencial; de lo contrario, la mente genera escenarios. Tu intuición es fuerte, pero si la apoyas con una comunicación clara, la relación será más segura.",
+          "career": "Las dinámicas entre bastidores, los procesos inciertos o las expectativas poco claras en su carrera pueden cansarle. Durante este periodo, no crea inmediatamente todo lo que le digan; verifique la información, pida detalles y solicite claridad por escrito. Cuando se despeje la niebla, verá la posición correcta con mucha más facilidad.",
+          "spiritual": "La incertidumbre y las fluctuaciones emocionales te rodean; tus miedos no son reflejos de la realidad, sino sombras susurradas desde los rincones oscuros de tu mente. La situación requiere escuchar tu intuición en lugar de buscar respuestas claras. Convierte la inquietante incertidumbre en una pregunta concreta; escríbela y aborda esta incertidumbre."
+        },
+        "reversed": {
+          "general": "La niebla empieza a despejarse: a medida que la confusión disminuye, la verdad se vuelve más clara. Cuando esta carta está invertida, suele producirse una ruptura del ciclo de \"autoengaño\"; la claridad sustituye al miedo. Aun así, es mejor tomarse su tiempo, digerir lo que ve y seguir adelante.",
+          "love": "Los malentendidos en una relación pueden resolverse, pero para ello es necesario mantener una conversación franca y tranquila. En lugar de actuar por celos, ilusiones o sospechas, lo curativo es volver a la realidad concreta. Cuando llega la claridad, aumenta la confianza o termina la incertidumbre innecesaria.",
+          "career": "Se aclaran las cuestiones cerradas en el ámbito laboral: la definición de funciones, las expectativas, los procesos y las responsabilidades quedan más claros. No te fíes de los rumores sino de la información oficial; la verificación es muy valiosa en estos momentos. Una imagen más clara facilita la toma de decisiones.",
+          "spiritual": "La niebla se disipa; la verdad emerge lentamente. La situación apunta a un equilibrio entre intuición y razón; de ti depende deshacerte de la confusión. Separa las suposiciones de la realidad, aclara la niebla de tu mente y toma medidas para que todo encuentre su lugar."
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "El Sol",
+      "image": "19_sun",
+      "arcana": "major",
+      "number": "XIX",
+      "suit": null,
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "El Sol aporta claridad y vitalidad: aumenta la confianza y las cosas se hacen más visibles. Esta carta dice: \"ahora muestra, comparte, actúa\"; se acaba la energía de la ocultación. Cuando eliges lo sencillo, la vida se abre más rápido.",
+          "love": "Hay calidez, sinceridad y apertura en el amor: el corazón se expresa con más libertad. La relación puede desarrollarse hasta un nivel más alegre y seguro; es bueno hacer planes juntos, hablar del futuro. Si estás soltero, la energía es alta: llamas la atención incluso en tu estado natural.",
+          "career": "Éxito visible en la carrera profesional: reconocimiento, promoción, un buen resultado, el cierre de un proyecto sólido podrían estar a la orden del día. Mantenga la comunicación abierta, muestre su rendimiento y haga suyo su éxito; este periodo es favorable para brillar. Un objetivo claro + mucha energía traen consigo un progreso rápido.",
+          "spiritual": "Te embriaga la franqueza y la vitalidad; disfrutas expresándote. La situación fomenta la confianza que surge de ser auténtico; puedes existir sin necesitar la aprobación de los demás. Celebra cada logro; será una chispa que alimentará tu fuerza interior."
+        },
+        "reversed": {
+          "general": "Hay luz, pero parece oscurecerse: o te subestimas o no abrazas plenamente tu éxito. La moral baja puede ser temporal; lo principal es volver a centrarse en lo correcto. Un poco de organización y un objetivo claro devuelven la energía rápidamente.",
+          "love": "Si hay menos alegría en una relación, a menudo se debe a pequeños resentimientos tácitos. Un paso sencillo pero real basta para devolver el calor: una frase clara, un pequeño plan, un gesto sincero. En lugar de expectativas excesivas, la intimidad real crea vínculos.",
+          "career": "Puede que haya falta de visibilidad o desmotivación en la parte empresarial, pero eso no significa que no haya potencial. Concreta los resultados, define la medida del éxito y muéstrate en el lugar adecuado. Cuando se recupere el impulso, las oportunidades se abrirán más rápido.",
+          "spiritual": "La situación muestra que tu nivel de energía ha bajado y la alegría se ve ensombrecida; el exceso de seriedad te está frenando. Recuerda que la luz no desaparece; sólo se vuelve un poco borrosa. Si vuelves a esas actividades sencillas que te nutren, podrás revitalizar tu espíritu."
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "El Juicio",
+      "image": "20_judgement",
+      "arcana": "major",
+      "number": "XX",
+      "suit": null,
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Estás en el umbral de un despertar: es hora de llevar las lecciones del pasado, no su carga. Tu llamada interior no es aleatoria; exige el valor de cambiar de dirección. Cuando eres sincero contigo mismo, el nuevo capítulo de la vida se abre rápidamente.",
+          "love": "En el amor, no se puede avanzar hasta que se cierran los asuntos del pasado. Perdonar no es olvidar, sino desprenderse de la carga. Una confrontación abierta limpia la relación o la termina de la manera correcta.",
+          "career": "La gran decisión profesional está al alcance de la mano: ¿quedarse o irse, crecer o cambiar de dirección? No te fijes en tu éxito pasado, sino en tu potencial futuro. Una elección audaz aporta libertad a largo plazo.",
+          "spiritual": "El pasado adquiere un nuevo significado; la toma de conciencia que te atrae te dice que es hora de revisar viejos ciclos. La situación está al borde de una decisión consciente; el autoperdón y la asunción de responsabilidades van de la mano en este proceso. Cuando expreses la decisión con la que estás luchando en una frase clara, tus cargas se aligerarán y tu camino se abrirá."
+        },
+        "reversed": {
+          "general": "Ignorar la llamada repite el mismo ciclo. El miedo al cambio no te mantiene a salvo; sólo te mantiene en tu sitio. Incluso una pequeña confrontación abre el camino.",
+          "love": "El pasado tácito de una relación puede envenenar el presente. Los viejos resentimientos deben limpiarse, no ocultarse. La distancia crece a medida que se retrasa la claridad.",
+          "career": "Retrasar una decisión es una oportunidad perdida. La preparación continua y la no aplicación te cansarán. Elige una dirección y empieza a caminar.",
+          "spiritual": "Estás en la trampa de juzgarte duramente; la culpa y el arrepentimiento bloquean tu progreso. Comienza con un giro hacia el perdón interior; reconsidera tus decisiones pasadas con el conocimiento del presente. Sé amable contigo mismo; recorrer este camino te ayudará a encontrar tu libertad."
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "El Mundo",
+      "image": "21_world",
+      "arcana": "major",
+      "number": "XXI",
+      "suit": null,
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Se completa un ciclo y su viaje llega ahora a una conclusión visible. La carta del mundo es una sensación de totalidad construida con trabajo; las piezas encajan en su sitio y la imagen cobra sentido. Abrazar este éxito en lugar de minimizarlo alimenta la energía para el siguiente paso.",
+          "love": "La madurez y la aceptación prevalecen en la relación: las imperfecciones se gestionan, no se ocultan. El orden establecido juntos tiene ahora una base más realista y sostenible. Hablar del futuro no da miedo; al contrario, se convierte en un paso que refuerza el vínculo.",
+          "career": "Hay una energía de finalización de carrera: un proceso en el que has estado trabajando durante mucho tiempo puede cerrarse o coronarse con un éxito visible. En este punto, es importante no acelerar, sino ver el resultado con claridad y celebrarlo. Aceptar el éxito crea el umbral psicológico que abre nuevas puertas.",
+          "spiritual": "Se está completando un ciclo; ahora puedes sentir claramente los frutos de tu trabajo. Es hora de cerrar el proceso y estar satisfecho; esta finalización te prepara para nuevos comienzos. Realiza un ritual simbólico para honrar lo que ha terminado, de modo que te liberes de la carga del pasado."
+        },
+        "reversed": {
+          "general": "Un proceso que debe completarse puede estar alargándose; dudar en dar el último paso retrasa el progreso. Los asuntos inacabados crean peso mental y bloquean los nuevos comienzos. Terminar es más liberador de lo que crees.",
+          "love": "La sensación de \"plenitud\" puede retrasarse debido a problemas tácitos en la relación. En lugar de fingir que todo va bien, es necesario abordar con sinceridad la pieza que falta. Sin claridad, la paz no puede durar.",
+          "career": "Puede que un proyecto profesional o un objetivo se esté alargando; el expediente que hay que cerrar no se está cerrando. Centrarse y dar el paso final le ahorra energía innecesaria. El trabajo terminado devuelve rápidamente la confianza en uno mismo.",
+          "spiritual": "Estás muy cerca de la culminación; no necesitas esperar para dar el paso final. La situación le hace sentir la dificultad de despedirse; sentirse incompleto es un obstáculo para la finalización. Aclara el último detalle inacabado; es como poner el último ladrillo para completar tu proceso."
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "As de Bastos",
+      "image": "22_ace_wands",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Nace una nueva chispa; esta carta es pura energía de arranque. La idea puede ser pequeña, pero la voluntad de actuar es fuerte. Dejar las cosas para más tarde apaga el fuego, pero intentarlo lo hace crecer.",
+          "love": "En el amor, aumentan la vitalidad y la atracción; la comunicación es más directa y honesta. Es posible un nuevo encuentro o una nueva etapa en una relación. La expresión audaz profundiza rápidamente el vínculo.",
+          "career": "Una oportunidad profesional creativa o un nuevo proyecto se vislumbran en el horizonte. Dar el primer paso es más valioso que esperar al plan perfecto. La energía de la experimentación es tu mayor ventaja en este periodo.",
+          "spiritual": "Surge una nueva chispa; tu deseo interior te llama a la acción. La situación apunta a un fuerte potencial que aún no ha tomado forma; debes actuar ahora para utilizar este potencial. La emoción y la necesidad de expresarte es una fuerte energía que te impulsa; no dejes esta energía sin planificar, no dejes que se disipe."
+        },
+        "reversed": {
+          "general": "Hay energía, pero puede carecer de dirección; esto crea inquietud interior. Si hay muchas ideas pero no se ponen en práctica, la motivación decae rápidamente. Fijar un objetivo puede reavivar el fuego.",
+          "love": "Hay pasión en la relación, pero pueden surgir malentendidos si la comunicación no es clara. En lugar de insinuar, es necesario utilizar frases claras. La claridad calma la energía.",
+          "career": "Si la idea del proyecto es emocionante pero desorganizada, no dará resultados. Simplifica el objetivo y céntrate en un punto. De lo contrario, la energía se agotará.",
+          "spiritual": "La chispa que hay en ti se suprime; la situación baila con la falta de dirección. Esperar el momento perfecto obstaculiza tu progreso, así que ármate de valor y pon a prueba ese deseo con un pequeño experimento. Recuerda que cada paso te acerca un poco más a tus objetivos."
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "Dos de Bastos",
+      "image": "23_two_wands",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Estás en el umbral de la elección y la visión; necesitas una dirección. El horizonte es amplio, pero no se puede avanzar hasta que la decisión esté clara. Esta carta te dice que el plan está listo para crecer.",
+          "love": "En la relación se habla del futuro; los objetivos comunes refuerzan el vínculo. Mirar en la misma dirección crea confianza. Hablar claro aporta tranquilidad.",
+          "career": "Planificar una nueva ruta está a la orden del día: ampliación, traslado, cambio de zona. Mira con valentía y aparecen oportunidades. La decisión inicia la acción.",
+          "spiritual": "Estás en proceso de elegir una dirección; estás pensando hacia dónde canalizar tu potencial. La situación busca desarrollar una visión y ampliar tus horizontes. Necesitas encontrar un equilibrio entre el control y la exploración; a medida que escribas, verás qué opción te hace crecer más."
+        },
+        "reversed": {
+          "general": "La indecisión mina la energía; la falta de dirección crea inquietud. Esperar no es la solución. Es necesario elegir una ruta.",
+          "love": "La incertidumbre puede cansar la relación. No se puede avanzar sin tener las cosas claras. La claridad es esencial.",
+          "career": "La falta de un plan puede hacer que se pierdan oportunidades. Define objetivos. La desorganización frena el progreso.",
+          "spiritual": "La indecisión es como una niebla que te da tregua; una perspectiva estrecha frena tu progreso. La situación muestra cómo te limita la aversión al riesgo. Considera conscientemente una opción y da un paso; incluso en la incertidumbre, el valor abre nuevos caminos."
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "Tres de Bastos",
+      "image": "24_three_wands",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Periodo de expansión y exploración: las fronteras crecen. Miras al horizonte y nuevas áreas parecen posibles. El valor es el combustible de esta carta.",
+          "love": "La relación crece y se desarrolla. Las nuevas experiencias juntos profundizan el vínculo. El movimiento mantiene viva la relación.",
+          "career": "Nuevos mercados, nuevos proyectos o nuevas áreas están en la agenda. Es ventajoso pensar con amplitud de miras. Hay que controlar el riesgo.",
+          "spiritual": "Empiezan a aparecer los frutos de tu trabajo, señal de progreso y expansión. En un proceso en el que la situación, la paciencia y la confianza van de la mano; revisa los pasos que has dado y determina tu siguiente movimiento. Cada detalle es como una brújula que te llevará más lejos."
+        },
+        "reversed": {
+          "general": "El desarrollo esperado puede retrasarse. La impaciencia estropea el proceso. El momento aún no es el adecuado.",
+          "love": "Los tempos incompatibles pueden causar problemas. Una parte puede ser rápida y la otra lenta. El ritmo debe discutirse.",
+          "career": "El plan puede estar fallando; es necesario revisarlo. La persistencia ciega es una propuesta perdedora. Estrategia de actualización.",
+          "spiritual": "Sus expectativas se retrasan; no hay avances. La situación se caracteriza por una sensación de urgencia. En este proceso, hay que replantearse los pasos; simplificar los plazos, eliminar la complejidad. Dar los pasos correctos, no los rápidos, lo es todo."
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "Cuatro de Bastos",
+      "image": "25_four_wands",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Una carta de celebración y estabilidad: aquello por lo que has trabajado está en terreno seguro. Esta carta es un momento de respiro. El equilibrio está establecido.",
+          "love": "Hay paz y confianza en la relación. El espacio establecido juntos se siente sólido. El vínculo es relajado.",
+          "career": "Periodo de estabilidad en el aspecto empresarial: el proceso se está asentando. Lo importante es la sostenibilidad, no las prisas. El suelo es fuerte.",
+          "spiritual": "Una sensación temporal de equilibrio y seguridad te envuelve; aumenta tu necesidad de celebrar y asentarte. La situación exige que reconozcas el proceso que has completado; esto refuerza tu sensación de pertenencia y alivio. Recompénsese, haga una pequeña celebración, aproveche este momento para consolidar sus próximos pasos."
+        },
+        "reversed": {
+          "general": "La celebración puede haberse pospuesto; falta la paz interior. Los cimientos están ahí, pero tiemblan. Hay que revisar la organización.",
+          "love": "El malestar temporal puede tensar una relación. Los pequeños problemas no deben magnificarse. Hay que hablar de ello.",
+          "career": "La desorganización reduce la eficacia. Hay que restablecer el proceso. La claridad es esencial.",
+          "spiritual": "El equilibrio se altera; la paz se aleja como un huésped temporal. La situación demuestra que el pensamiento \"no me lo merecía\" te ha dejado atrás. Deja de minimizar el éxito; cada paso es una victoria valiosa y aceptarlo te abre las puertas de la paz interior."
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "Cinco de Bastos",
+      "image": "26_five_wands",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Surgen conflictos y rivalidades; todo el mundo habla, pero puede que nadie escuche realmente. Esta fricción no es destructiva, pero conlleva una energía direccional: ves dónde eres realmente fuerte. Si lees la discusión desde un punto de vista estructural y no personal, crecerás.",
+          "love": "Las pequeñas tensiones en una relación pueden crecer, pero lo principal es la necesidad de ser comprendido. Centrarse en escuchar en lugar de intentar tener razón construye un vínculo. Las discusiones, cuando se gestionan correctamente, fortalecen la relación, no la debilitan.",
+          "career": "La competencia está aumentando en tu carrera profesional, ya sea por un choque de ideas, por fricciones en el equipo o por pugnas por un puesto. Este espacio está ahí para agudizarte, no para frenarte. La comunicación clara y los límites son la mayor ventaja (protección) durante este periodo.",
+          "spiritual": "Los conflictos de opinión y la competencia le rodean; la situación no tiene que ver con los demás, sino con comparaciones internas. La necesidad de probarte a ti mismo te está desgastando; dirige tu energía hacia el desarrollo, no hacia la comparación. Centrarte en ti mismo desbloquea tu potencial y te ayuda a encontrar tu verdadero poder."
+        },
+        "reversed": {
+          "general": "Evitar las fricciones puede parecer pacífico a corto plazo, pero la tensión se acumula en el interior. El conflicto reprimido no se resuelve; cambia de dirección. Es menos agotador enfrentarse al problema cuando es pequeño.",
+          "love": "El malestar no expresado en una relación puede crear distancia. El silencio no es paz; a menudo es una explosión en espera. Hablar con suavidad pero con claridad cura.",
+          "career": "Ser pasivo en el trabajo puede crear invisibilidad. No hablar se siente seguro, pero detiene el progreso. No tengas miedo de la competencia sana.",
+          "spiritual": "Puedes sentir la tentación de evitar o reprimir la situación, evitando o suprimiendo el conflicto, lo que te hace dar un paso atrás en tu búsqueda de la paz interior. Expresar con calma lo que te molesta es, en realidad, un acto de valentía. Cuando expresas tus sentimientos, también creas un equilibrio en el exterior; recuerda, el silencio no es la solución."
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "Seis de Bastos",
+      "image": "27_six_wands",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Un periodo de reconocimiento y aprobación: lo que haces se hace visible. Esta carta representa la validación interna más que el aplauso externo. Aceptar el éxito forma parte del crecimiento.",
+          "love": "Aumenta la confianza en la relación; ves a tu pareja y a ti mismo con más claridad. Puede haber un sentimiento de victoria ganada juntos. El aprecio crea vínculos.",
+          "career": "Éxito visible en la carrera: el proyecto, la presentación o el resultado atraen la atención. No te contengas; hazte dueño de este espacio. La confianza en uno mismo aumenta las oportunidades.",
+          "spiritual": "El aprecio y la visibilidad aumentan; tus esfuerzos ya no son ignorados. La situación va de la mano con el fortalecimiento de tu autoconfianza; abraza tu éxito y comparte esta luz con los demás. Expresarte te aportará más."
+        },
+        "reversed": {
+          "general": "La búsqueda de aprobación puede exteriorizarse, lo que mina la paz interior. No utilices baremos ajenos para medir el éxito. Establece tus propios criterios.",
+          "love": "La falta de aprecio en una relación puede causar resentimiento. Sentirse invisible crea distancia. Es necesario expresarse con claridad.",
+          "career": "Puede haber un problema de visibilidad en el trabajo; se puede tener la sensación de que no se reconoce tu labor. Es difícil pero necesario mostrarse. El silencio no es progresista.",
+          "spiritual": "La falta de aprecio se ha apoderado de ti; tu insatisfacción alimenta tu búsqueda de aprobación. La situación exige que establezca sus propios criterios de progreso, lo que le permitirá trazar un camino independiente del juicio de los demás. Recupere la confianza en sí mismo, es la clave de la paz interior."
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "Siete de Bastos",
+      "image": "28_seven_wands",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Carta de defensa y postura: tienes que proteger el espacio que has ganado. Esta lucha requiere conciencia, no miedo. Se necesita valor para permanecer en el lugar que te corresponde.",
+          "love": "Periodo de establecimiento de límites en la relación: el amor y la autoprotección pueden existir al mismo tiempo. Es posible vincularse sin perderse a uno mismo. La claridad genera confianza.",
+          "career": "En tu carrera puede que tengas que defender tu postura; la idea, el papel o el proyecto pueden ser controvertidos. Construya un argumento en lugar de retirarse. Una postura decidida inspira respeto.",
+          "spiritual": "Es hora de defender tu espacio; poner límites es señal de un sano sentido de la autoestima. La situación requiere que descubras el poder de decir \"no\"; esta claridad aumentará tu determinación. Respetarte a ti mismo es el primer paso para respetar a los demás."
+        },
+        "reversed": {
+          "general": "Estar constantemente a la defensiva puede llevar al agotamiento. No tienes que librar todas las batallas. Usa tu energía de forma selectiva.",
+          "love": "Las defensas innecesarias en la relación pueden impedir la intimidad. La percepción de amenaza puede ser exagerada. La suavización crea vínculos.",
+          "career": "Una actitud defensiva excesiva en el lugar de trabajo destruye la comunicación. Intente no interpretar las críticas como un ataque. La flexibilidad es poder.",
+          "spiritual": "Puede que te encuentres en un periodo de retraimiento y agotamiento; la carga parece ser cada vez más pesada. Simplifique sus responsabilidades, esto aligerará su carga y le permitirá respirar. A medida que te hagas un hueco, surgirán oportunidades para renovarte y refrescarte."
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "Ocho de Bastos",
+      "image": "29_eight_wands",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Carta de aceleración: los acontecimientos se suceden. El impulso se ha acumulado; si tienes la dirección, avanzarás. Es necesario gestionar, no detenerse.",
+          "love": "La relación puede progresar rápidamente; hay una comunicación y una atracción intensas. Asegúrate de mantener el mismo ritmo. La franqueza reduce el estrés.",
+          "career": "El impulso de la carrera está aumentando; los proyectos y las oportunidades pueden solaparse. Es esencial establecer prioridades. La rapidez es una ventaja, pero requiere control.",
+          "spiritual": "La velocidad y la fluidez aumentan; sientes que el impulso crece. La situación te abre las puertas para que actúes con claridad; tienes que dar un paso sin esperar. Cuando encuentras tu propio ritmo, todo fluye con más facilidad."
+        },
+        "reversed": {
+          "general": "El ritmo puede llegar a ser abrumador; es necesario detenerse y elegir una dirección. No todas las oportunidades son tuyas. Sé selectivo.",
+          "love": "Las prisas pueden tensar una relación. El ritmo debe discutirse. Ir más despacio genera confianza.",
+          "career": "La velocidad desorganizada genera errores. Simplifique las prioridades. De lo contrario, te quedarás sin energía.",
+          "spiritual": "La situación, la desorganización y el retraso te rodean; el desorden de tu mente ensombrece tus prioridades. Aparta las distracciones; poner las cosas en orden aclara tus pasos. Hay un momento para todo, y cuando te concentras en una cosa, tu progreso será más fácil."
+        }
+      }
+    },
+    {
+      "id": 30,
+      "name": "Nueve de Bastos",
+      "image": "30_nine_wands",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Carta de resistencia: estás cansado, pero no has terminado. Ésta es la recta final. La resistencia es la prueba del crecimiento.",
+          "love": "Puede que haya cansancio en la relación, pero el vínculo sigue vivo. Es hora de fortalecerse en lugar de rendirse. La paciencia crea vínculos.",
+          "career": "Última prueba profesional: puede ser tentador abandonar. Pero resistirse ahora valdrá la pena. Es sólo cuestión de tiempo.",
+          "spiritual": "Aunque el cansancio se apodera de ti, la resistencia sigue ardiendo como una llama; te das cuenta de que te acercas a un umbral final. La situación exige que establezcas tus límites, que actúes con rapidez para protegerte. Esto no es debilidad, sino una inteligente demostración de fuerza; una vez que establezcas tus límites, brillará la resistencia que llevas dentro."
+        },
+        "reversed": {
+          "general": "El agotamiento es una señal; la resistencia ciega duele. El descanso no es debilidad. Es necesario para coger fuerzas.",
+          "love": "La defensa constante en una relación puede ser agotadora. Crea un espacio de confianza. Pon un muro.",
+          "career": "Una carga excesiva en el lado de trabajo reduce la eficacia. Pida ayuda. No cargue solo.",
+          "spiritual": "La situación demuestra que el agotamiento va en aumento; la presión por \"seguir adelante\" te está desgastando. Tomarse un respiro no es debilidad; al contrario, es la clave para recuperar energías. Date un respiro; esta pausa te permitirá volver con más fuerza."
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "Diez de Bastos",
+      "image": "31_ten_wands",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "La carga que has estado llevando ahora es visible; significa que has llegado al límite de tu tarjeta. Asumir responsabilidades da fuerza, pero demasiadas pueden aplastar la identidad. Tienes que preguntarte si todas las cosas que cargas te pertenecen realmente.",
+          "love": "Puede haber un sentimiento de carga unilateral en la relación; uno la lleva y el otro no se da cuenta. El sacrificio no es amor, oculta el desequilibrio. Si no se comparte la carga, el vínculo se cansa.",
+          "career": "El exceso de responsabilidad en una carrera puede llevar al agotamiento; asumirlo todo uno solo no es sostenible. Delegar es una estrategia, no una debilidad. La productividad aumenta cuando se distribuye la carga.",
+          "spiritual": "Una carga y una responsabilidad excesivas le abruman; soportar esta presión en solitario alimenta su necesidad de control. La situación pone de relieve la importancia de compartir tu carga; buscar apoyo no es debilidad, sino una sabia estrategia. Crea un espacio para ti; cooperar con los demás aligerará la carga."
+        },
+        "reversed": {
+          "general": "Puede que la necesidad de desprenderse de la carga no pueda posponerse más. Es liberador aceptar que no tienes que cargar con todo. Esta carta te enseña a poner límites.",
+          "love": "En una relación, la carga debe repartirse equitativamente, no evitarse. La expresión abierta cura en lugar del resentimiento silencioso. De lo contrario, el vínculo se derrumba desde dentro.",
+          "career": "Por parte de los trabajadores puede haber una negación de la responsabilidad o un impulso de escapar; esto suele ser el resultado de una presión excesiva. Es necesario reconstruir el sistema. Una carga equilibrada es sostenible.",
+          "spiritual": "La carga está lista para aligerarse; dejar atrás responsabilidades innecesarias te libera. La situación sopla como el viento fresco cuando sientes el peso sobre ti, el deseo de soltar. Crea un espacio para ti; éste es el primer paso para refrescarte."
+        }
+      }
+    },
+    {
+      "id": 32,
+      "name": "Sota de Bastos",
+      "image": "32_page_wands",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Aumenta la energía del descubrimiento y la curiosidad; el deseo de aprender busca una dirección. Esta carta trata del crecimiento a través de la experimentación. Cometer errores forma parte del proceso.",
+          "love": "En el amor hay coqueteo y excitación; la relación es ligera pero animada. La curiosidad sincera, no la seriedad excesiva, crea vínculos. Probar no asusta, sino que instruye.",
+          "career": "Se abren nuevos espacios de aprendizaje en tu carrera: prácticas, cursos, proyectos o puestos de prueba son posibles. El comienzo es pequeño, pero el potencial es grande. La curiosidad audaz conduce al progreso.",
+          "spiritual": "El fuego de la curiosidad no se apaga; el periodo de descubrimiento y experimentación llama a tu puerta. Tu entusiasmo te lleva hacia lo desconocido. Haz realidad tu nueva idea; a medida que des pasos, tu horizonte se ampliará."
+        },
+        "reversed": {
+          "general": "La energía está ahí, pero dispersa; la curiosidad puede carecer de dirección. La acción desenfocada conduce al agotamiento. Es necesario elegir un único objetivo.",
+          "love": "Las reacciones infantiles en la relación pueden debilitar la comunicación. Puede haber excitación pero falta profundidad. Es necesario encontrar un equilibrio.",
+          "career": "La impaciencia en una carrera puede socavar el proceso de aprendizaje. La estabilidad, no la velocidad, enseña. No interrumpas el proceso.",
+          "spiritual": "Hay un entusiasmo disperso en tu interior; careces de dirección y esto te da que pensar. La situación demuestra que la procrastinación te está haciendo retroceder poco a poco, pero puedes minimizar tu arranque y avanzar incluso al primer paso. Fijarte un objetivo en medio de la incertidumbre te pone de nuevo en movimiento."
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "Caballo de Bastos",
+      "image": "33_knight_wands",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "La carta de la acción y el valor: quieres saltar en lugar de esperar. Esta energía impulsa hacia delante, pero la velocidad ciega es arriesgada. La pasión requiere dirección.",
+          "love": "Hay una atracción intensa y un deseo de aventura en el amor. La relación puede avanzar rápidamente; es importante hablar del ritmo. La pasión por sí sola no basta.",
+          "career": "Es el momento de dar pasos audaces en la carrera profesional; es posible que surjan nuevos proyectos, traslados o cambios de dirección. Asumir riesgos crecerá, pero debe ser calculado. La velocidad incontrolada cansa.",
+          "spiritual": "La pasión y la acción alimentan el fuego de su alma; la situación le invita a actuar con rapidez. Tu coraje es alto, ahora concentra tu energía en un único objetivo; esto aclarará tu camino y te hará avanzar."
+        },
+        "reversed": {
+          "general": "El comportamiento impulsivo puede crear el caos; la velocidad hace perder el control. La energía puede estar desorientada. Detente y alinéate.",
+          "love": "Las prisas pueden quemar una relación. La intensidad puede crear presión, no vínculos. Dame un respiro.",
+          "career": "El riesgo sin planificación debilita una carrera. La velocidad sin estrategia no tiene sentido. Frenar es necesario.",
+          "spiritual": "La situación oscila entre la prisa y la falta de rumbo; no te dejes llevar por la impaciencia. Ajustar el ritmo estabilizará tu progreso; concéntrate en tu objetivo sin distracciones. Cuando mantengas la calma y midas tus pasos, empezarás a fijar un rumbo claro."
+        }
+      }
+    },
+    {
+      "id": 34,
+      "name": "Reina de Bastos",
+      "image": "34_queen_wands",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Carta de autoconfianza y fuerza interior: sabes quién eres. Esta energía también calienta a los demás. El carisma es un poder tranquilo.",
+          "love": "En una relación, la atracción y el respeto van de la mano. Cuanto más seas tú mismo, más fuerte será el vínculo. La naturalidad es la influencia más fuerte.",
+          "career": "En tu carrera, aumenta la energía de liderazgo; motivas a la gente. Tu esfera de influencia crece. Mantén la confianza.",
+          "spiritual": "Es un momento en el que brillan la confianza en sí mismo y el carisma; tenga el valor de liderar siendo usted mismo. La situación ofrece la oportunidad de hacer oír su fuerte voz; exprese su opinión abiertamente, esto reforzará su fuerza. Crea en sí mismo, ya que esta creencia inspirará a los que le rodean."
+        },
+        "reversed": {
+          "general": "La confianza en uno mismo puede quebrarse; aumenta la búsqueda de aprobación externa. El desprecio de sí mismo disminuye la energía. Vuelta al centro interior.",
+          "love": "En la relación pueden surgir celos o tendencias controladoras. Cuando la confianza se debilita, el vínculo se tensa. Es necesario un diálogo abierto.",
+          "career": "El miedo a la visibilidad en el trabajo puede obstaculizar el progreso. No se esconda. El potencial quiere ser visto.",
+          "spiritual": "Tu confianza en ti mismo fluctúa; la comparación con los demás es como una sombra que te envuelve. La situación necesita que recuerdes tu propia fuerza. A medida que descubres tu potencial, las comparaciones son sustituidas por la confianza en ti mismo, que te hace más fuerte."
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "Rey de Bastos",
+      "image": "35_king_wands",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "meanings": {
+        "upright": {
+          "general": "Tarjeta de visión y dirección: ves el panorama completo. El liderazgo es inspiración, no control. La gente sigue tu dirección.",
+          "love": "Hay una presencia tranquilizadora en la relación; la determinación crea vínculos. La asociación funciona con la misma fuerza. La claridad reconforta.",
+          "career": "Período de crecimiento estratégico de la carrera; el liderazgo y la fijación de la dirección pasan a un primer plano. Puedes asumir riesgos porque el terreno es sólido. La visión te impulsa hacia delante.",
+          "spiritual": "El liderazgo visionario consiste en ver el panorama completo; debe equilibrar la responsabilidad y la inspiración mientras avanza con determinación. La situación exige que fijes una dirección clara; articula tu decisión con claridad, esto movilizará a la multitud a tu alrededor."
+        },
+        "reversed": {
+          "general": "La autoridad puede confundirse con el control; crea presión. El poder no es imposición. Requiere flexibilidad.",
+          "love": "El comportamiento dominante en una relación puede crear distancia. La escucha crea vínculos. La dureza rompe.",
+          "career": "Un control excesivo en la parte empresarial cansa al equipo. La confianza es más eficaz. El liderazgo es compartido.",
+          "spiritual": "Te encuentras en un periodo en el que te sientes controlador; una pérdida de inspiración está eclipsando tu creatividad. La situación indica un aumento de la presión; suavizar tu liderazgo te dará un respiro a ti y a los que te rodean. Cuando eliges ser flexible, puedes abrir la puerta a nuevas ideas."
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "As de Copas",
+      "image": "36_ace_cups",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Se experimenta un desbordamiento emocional o una expansión de la capacidad; la afloración de sentimientos reprimidos crea una liberación interior. Se trata de darse permiso para sentir, en lugar de esperar algo del exterior. Un corazón abierto afloja los mecanismos de defensa y aclara la percepción.",
+          "love": "El valor de ser vulnerable en una relación cambia la naturaleza del vínculo. Acercarse con curiosidad en lugar de miedo facilita ver a la otra persona tal y como es. Una nueva oleada de emociones mueve el tono de la comunicación a una frecuencia más suave y aceptadora.",
+          "career": "Los impulsos creativos pueden anular los procesos lógicos; aumenta la necesidad de atribuir un significado emocional a la obra. La inspiración llega cuando la mente está libre, no cuando se la fuerza. Utilizar la intuición como dato en el ámbito profesional puede ofrecer soluciones diferentes.",
+          "spiritual": "Emocionalmente estás empezando de nuevo; el deseo de expresarte enciende una chispa en tu interior. La situación exige que confíes en tus sentimientos por encima de tu lógica; las emociones reprimidas quieren salir a la superficie. Permítelas; la aceptación es la clave de un viaje relajante. Ahora, describe con una palabra la emoción dominante que sientes y escríbela; esta sencilla acción te ayudará a descubrirte a ti mismo."
+        },
+        "reversed": {
+          "general": "El bloqueo emocional conduce a la acumulación de necesidades no expresadas en el interior. La sensación de no ser autosuficiente puede crear una postura distante o reactiva hacia el exterior. Una interrupción del flujo indica la necesidad de un proceso de reparación interna.",
+          "love": "Puede existir un conflicto entre el deseo de intimidad y el miedo a ser herido. Enmascarar las emociones elimina la posibilidad de ser comprendido. El retraimiento es a veces un reflejo de protección, a veces un reflejo de un resentimiento no resuelto.",
+          "career": "La pérdida de motivación puede deberse a una desconexión entre el trabajo y el mundo interior. El bloqueo de la creatividad indica agotamiento emocional más que fatiga mental. Ignorar la necesidad de descanso reduce la productividad.",
+          "spiritual": "Reprimir tus sentimientos sólo te aprieta aún más; los muros que construyes en realidad impiden tu libertad. La situación requiere que encuentres una salida antes de que aumente tu presión interior; el miedo a ser ofendido no debe hacer que evites sentir. Confiésate sinceramente lo que te preocupa hoy; quédate con ese sentimiento sólo 10 minutos y libérate."
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": "Dos de Copas",
+      "image": "37_two_cups",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Existe un estado de equilibrio en el que ambas partes se escuchan y comprenden sin juzgarse. Esta carta indica momentos en los que se reducen las proyecciones y se comparte la verdad. La armonía se alcanza cuando las partes se encuentran permaneciendo en su propio centro.",
+          "love": "La dinámica de la relación es el sano equilibrio entre ser \"nosotros\" y seguir siendo \"yo\". La transparencia mutua resuelve los problemas de confianza de forma natural. En lugar de intentar reparar al otro, el mero hecho de permanecer a su lado tiene un efecto curativo.",
+          "career": "La colaboración está muy sincronizada; los objetivos comunes minimizan los conflictos. Una buena negociación tiene lugar sobre el terreno, donde ambas partes se sienten escuchadas. Las relaciones profesionales basadas en la confianza dan resultados más rápidamente que las normas escritas.",
+          "spiritual": "Nadas en las profundas aguas de la comunicación; nutres tus relaciones equilibrando el \"yo\" y el \"nosotros\". La situación rebosa comprensión mutua; comprender a los demás manteniendo los límites abre las puertas de tu corazón. Hoy, ofrece una palabra sincera de agradecimiento a alguien que te importa; reforzará aún más vuestros lazos."
+        },
+        "reversed": {
+          "general": "Puede haber una desconexión o asimetría en los canales de comunicación. Cuando una parte es dominante y la otra reservada, se rompe el equilibrio. La falta de armonía suele deberse a la acumulación de expectativas tácitas.",
+          "love": "Pueden activarse mecanismos de proyección en la relación; es posible que veas tus propios miedos en tu pareja. Si no se corrigen los malentendidos, la distancia emocional se hace permanente. La desconexión desencadena la desconfianza.",
+          "career": "La falta de confianza o las asociaciones incompatibles en el entorno empresarial ralentizan el proceso. Los desacuerdos pueden parecer técnicos en apariencia, pero se basan fundamentalmente en problemas de comunicación. Hay que aclarar contratos o promesas.",
+          "spiritual": "Hay una fisura en la comunicación; sus expectativas están en conflicto con la realidad. La situación requiere que explores las áreas en las que no te estás expresando; primero aclara tus propias necesidades. No te enredes en acusaciones, nombra tu necesidad más básica en la relación y reclámala; éste es un viaje que te dará fuerza."
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "Tres de Copas",
+      "image": "38_three_cups",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Un periodo en el que el sistema de apoyo social está activo y el sentimiento de pertenencia se refuerza. Compartir las dificultades en lugar de soportarlas en solitario aumenta la resiliencia psicológica. El vínculo establecido con la comunidad alivia las preocupaciones individuales.",
+          "love": "Vivir en un contexto social, no sólo entre dos personas, da un soplo de aire fresco a la relación. Un enfoque basado en la amistad reduce la presión romántica. Las experiencias compartidas alimentan el lado alegre del vínculo.",
+          "career": "La solidaridad dentro del equipo y una dinámica de grupo positiva aportan moral más allá del rendimiento. Cuando se adopta una cultura de cooperación en lugar de competencia, los procesos se aceleran. Celebrar el éxito colectivamente hace que la motivación sea sostenible.",
+          "spiritual": "Es hora de reunirte con tu círculo social; compartir alimenta tu alma y el apoyo te sube la moral. La situación demuestra que mezclarte con la gente en lugar de estar solo te abre la mente; tus amistades te dan fuerza durante este periodo. Hoy, llama a un amigo que te haga bien y llénate de energía iniciando una conversación agradable y sin orden del día."
+        },
+        "reversed": {
+          "general": "Las expectativas del entorno social o las tensiones dentro del grupo pueden cansar al individuo. La sensación de no ser comprendido en una multitud indica que uno está en el lugar equivocado. A veces es necesario retirarse a su propio espacio para librarse de las máscaras sociales.",
+          "love": "La influencia de factores externos o de terceros en la relación puede ser corrosiva. No mantener los límites de la vida privada socava la confianza entre la pareja. Los cotilleos o las comparaciones corroen la relación desde dentro.",
+          "career": "El agrupamiento o la exclusión en el trabajo debilitan la pertenencia profesional. La incompatibilidad de equipo también perjudica el rendimiento individual. Las relaciones superficiales impiden la profundización y la confianza.",
+          "spiritual": "Te sientes perdido entre la multitud; el ruido de tu entorno social te corroe. Los cotilleos y las relaciones superficiales están minando tu energía, así que es mejor que te retires a tu propio espacio. La situación dicta que deberías cancelar uno de los planes de hoy; el tiempo para ti mismo alimentará tu alma."
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "Cuatro de Copas",
+      "image": "39_four_cups",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Estado de falta de respuesta o de insatisfacción interior ante los estímulos del mundo exterior. La insatisfacción con las oportunidades ofrecidas es en realidad un indicio de una búsqueda más profunda de sentido. Este estancamiento sirve de pausa para darse cuenta de lo que falta.",
+          "love": "Es posible que las relaciones existentes o los candidatos no generen entusiasmo; esto puede deberse al embotamiento de la persona. La rutina, aunque segura, embota la vitalidad emocional. Cuestionar las expectativas es más productivo que culpar a los de fuera.",
+          "career": "Periodo de estancamiento en la carrera profesional; aunque las cosas vayan bien, puede sentirse falta de motivación. La monotonía se ha convertido en un factor que ahoga la creatividad. Esta sensación es un dato para reconsiderar el rumbo.",
+          "spiritual": "El estancamiento emocional es como una niebla que te envuelve; las oportunidades están frente a ti, pero el aburrimiento te molesta. Es una oportunidad para cuestionarte lo que quieres; de ti depende cambiar de perspectiva. Hoy, fíjate en una cosa de tu rutina que te aburra y da un paso valiente hacia ella; el cambio empieza con pequeños toques."
+        },
+        "reversed": {
+          "general": "Una fase de transición en la que el aislamiento interno llega a su fin y la atención vuelve al mundo exterior. Los detalles que se han omitido o las opciones que se han descartado se reevalúan bajo una nueva luz. La voluntad de actuar disipa la niebla mental.",
+          "love": "Comienza el intento de romper la falta de comunicación en la relación y volver a conectar. Bajar los propios muros permite a la otra persona dar un paso adelante. La espera pasiva se sustituye por un interés activo.",
+          "career": "Se sacude la sensación de agotamiento y se despierta el interés por nuevos proyectos o métodos. Con la vuelta de la inspiración, se acaba la procrastinación. Se refuerza el reflejo de aprovechar las oportunidades.",
+          "spiritual": "El peso se va disipando poco a poco y tu motivación se revitaliza; tu voluntad de pasar a la acción brilla para abrazar nuevas oportunidades. Esto indica que el periodo de retraimiento ha terminado; estás listo para conocer el mundo exterior. Aprovecha este despertar; retomar una tarea o afición postergada con energía renovada insuflará nueva vida a tu vida."
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "Cinco de Copas",
+      "image": "40_five_cups",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Cuando la atención se centra en lo que se ha perdido, el potencial restante se vuelve invisible. La pena y la decepción son procesos naturales, pero quedarse atascado en ellos estrecha la percepción. El progreso se detiene cuando el pesar por el pasado empieza a gobernar el presente.",
+          "love": "La sombra de una historia terminada o de una expectativa no cumplida puede estar afectando a la relación actual. Mirar constantemente hacia atrás oscurece la presencia de la persona que está a tu lado. La curación emocional empieza por aceptar la pérdida.",
+          "career": "El miedo al fracaso o a cometer errores puede bloquear nuevas iniciativas. Generalizar las experiencias negativas mina la autoconfianza profesional. La gestión de crisis exige analizar el error y seguir adelante.",
+          "spiritual": "Las decepciones pueden sumirte en una profunda oscuridad; elige defender lo que has perdido en lugar de derrumbarte bajo su peso. El duelo es humano, pero perderse en él te impide avanzar. En lugar de mirar atrás, céntrate en los recursos sólidos que tienes a mano; hoy, escribe lo que te disgusta y añade dos cosas positivas que tengas ahora mismo, deja que esto sea una fuente de luz para ti."
+        },
+        "reversed": {
+          "general": "Con el proceso de aceptación, la perspectiva cambia y las soluciones se hacen visibles. La intensidad del dolor disminuye y es sustituida por una conciencia más tranquila. La voluntad de construir el futuro se fortalece a medida que se libera el peso del pasado.",
+          "love": "Un momento en el que las viejas heridas empiezan a cicatrizar y el corazón se abre a nuevas posibilidades. El perdón no libera a la otra persona, sino a la propia persona. Los bloqueos en las relaciones se resuelven mediante una confrontación honesta.",
+          "career": "La etapa de aprender de los reveses de la carrera y convertir la experiencia en una ventaja. Se acepta que cometer errores forma parte del aprendizaje. Comienza el proceso de reorganización.",
+          "spiritual": "Curas tus heridas; a medida que la carga del pasado cae una a una, empiezas a mirar al futuro con esperanza. Aprender de los errores es la clave de la recuperación; dite a ti mismo en voz alta un error que perdonas y cierra el tema. Recuerda que cada cierre es un nuevo comienzo; avanza con valentía e ilumina tu camino."
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "Seis de Copas",
+      "image": "41_six_cups",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Puede aumentar la nostalgia por las aguas seguras y familiares del pasado. La nostalgia es nutritiva cuando se utiliza como medio para extraer fuerzas de las raíces, en lugar de como vía de escape de un \"ahora\" desafiante. La intención pura y la simplicidad pueden ser una guía para resolver problemas complejos.",
+          "love": "En las relaciones, puede que se abran viejos libros o que salga a relucir alguien del pasado. Adoptar un enfoque más inocente e imprevisto de los vínculos puede reducir las tensiones. Los recuerdos nos recuerdan la base del vínculo actual.",
+          "career": "Los viejos métodos o los proyectos ya probados pueden reevaluarse. Permanecer en la zona segura y evitar el riesgo puede ser una opción estratégica por el momento. Las experiencias pasadas guían los problemas de hoy.",
+          "spiritual": "Los cálidos recuerdos del pasado te envuelven; los sentimientos familiares crean confianza en tu corazón. Buscas sencillez e intimidad; la nostalgia tiene el poder de reconstruir el presente. La situación consiste en realizar durante 15 minutos una actividad que te gustaba cuando eras niño; este breve periodo de tiempo alimentará tu alma y te permitirá avanzar a la luz del pasado."
+        },
+        "reversed": {
+          "general": "Quedarse anclado en el pasado puede dificultar el crecimiento individual y la adaptación al presente. Idealizar los viejos tiempos puede ser una vía de escape de las responsabilidades del presente. El desarrollo sólo es posible cuando se deja atrás el pasado.",
+          "love": "Trasladar al presente viejas dinámicas o personas de la relación altera la armonía existente. Las comparaciones del tipo \"antes era así\" crean un sentimiento de inadecuación en la pareja. Para madurar hay que aceptar el cambio.",
+          "career": "La resistencia a las cambiantes condiciones del mercado o a las nuevas tecnologías socava la profesionalidad. Vivir a la sombra de antiguos logros impide fijarse nuevas metas. Puede que sea necesario abandonar la zona de confort.",
+          "spiritual": "La telaraña del pasado te aísla del presente; refugiarse en los viejos tiempos no es una forma de escapar del crecimiento, sino de alimentar tus pérdidas. La nostalgia no debe ser una trampa; tienes que centrarte en el presente. Se trata de apartar hoy de tu vista un objeto o una fotografía que te retenga en el pasado; será tu primer paso hacia la libertad."
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": "Siete de Copas",
+      "image": "42_seven_cups",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Un estado de desorganización mental o de estar perdido en una abundancia de opciones. La imaginación está activa, pero puede ser difícil discernir cuál es realista. Es necesario analizar los costes y beneficios de cada opción antes de tomar una decisión.",
+          "love": "Una imagen idealizada de la pareja o múltiples posibilidades impiden centrarse. A medida que aumenta la distancia entre la relación real y el mundo de fantasía, crece la insatisfacción. No saber lo que se busca lleva a tomar decisiones equivocadas.",
+          "career": "Flotan muchas ideas, pero falta un plan de acción concreto. La falta de concentración puede hacer que los proyectos queden inconclusos. Es esencial delimitar y priorizar los objetivos.",
+          "spiritual": "Tu mente rebosa de opciones, pero la inacción te da tregua. Soñar es un puerto seguro, pero permanecer en él te distrae. Tu energía se disipará si no estableces prioridades. Ahora, elige uno de los proyectos que tienes en mente y da un paso valiente hacia él; este primer paso aclarará tu camino."
+        },
+        "reversed": {
+          "general": "La imagen borrosa se aclara, las ilusiones se disipan y la realidad se hace visible. Resulta más fácil cribar las opciones y tomar un único camino. La claridad mental aporta determinación.",
+          "love": "Las expectativas se vuelven más realistas; en lugar de buscar lo imposible, se aprecia el presente. Ganar claridad en la relación acaba con la ansiedad causada por la incertidumbre. Se hace una evaluación honesta.",
+          "career": "Se eliminan los proyectos inaplicables y se canaliza la energía hacia un único objetivo. La desorganización se sustituye por un plan estratégico. El trabajo orientado a los resultados aumenta la eficacia.",
+          "spiritual": "A medida que se disipa la incertidumbre, estableces una hoja de ruta clara; es hora de pasar de soñador a realista. Tu mente empieza a cribar las opciones y a centrarse; esta claridad es la clave para alcanzar tu objetivo. Simplifica tu lista de cosas por hacer; empieza a avanzar completando inmediatamente lo más importante."
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": "Ocho de Copas",
+      "image": "43_eight_cups",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "La necesidad de alejarse de una situación o un entorno que ya no es emocionalmente nutritivo. No se trata de una huida, sino del resultado de una búsqueda más profunda de sentido. Quedarse donde uno no siente que pertenece socava la integridad interior.",
+          "love": "Incluso cuando todo parece ir bien en la relación, puede prevalecer un sentimiento de incompletud. El problema no es el conflicto, sino la pérdida de profundidad en el vínculo. La decisión de dejarlo se basa en el amor propio.",
+          "career": "Se tiene la sensación de que una época de la carrera profesional está llegando a su fin; los logros actuales ya no satisfacen. Comienza la búsqueda de un camino más significativo o acorde con los valores. Se renuncia al estatus y se opta por la tranquilidad.",
+          "spiritual": "Tienes el valor de dejar atrás una situación; no es una renuncia, sino el comienzo de la búsqueda de algo más significativo. Da miedo salir de tu zona de confort, pero recuerda que es más corrosivo quedarse. Acepta que ha llegado el momento de irte; hoy, identifica algo a lo que te hayas aferrado por costumbre y dile adiós."
+        },
+        "reversed": {
+          "general": "Aunque la necesidad de cambio es evidente, el miedo a la incertidumbre mantiene a la persona en su sitio. El dilema de irse o quedarse crea una parálisis mental. La inercia creada por la zona de confort impide el movimiento a pesar de la infelicidad.",
+          "love": "Prolongar una relación que debería terminar o aferrarse a un vínculo tóxico por miedo a la soledad. Pensar que \"tal vez mejore\" es una táctica dilatoria más que una esperanza realista. Evitar la confrontación dificulta el proceso.",
+          "career": "Existe el deseo de dejar el trabajo, pero prevalecen las preocupaciones económicas o la inseguridad. La insatisfacción se convierte en quejas constantes pero ninguna acción. La incapacidad para asumir riesgos aumenta el agotamiento.",
+          "spiritual": "La indecisión te encadena; cada momento que no puedes dar un paso aumenta el peso de tu alma. El miedo a lo desconocido te roba la felicidad; esta oscuridad, por familiar que sea, te ciega. Pon nombre a tu miedo y hazte la pregunta \"¿cuál es el precio de quedarme aquí?\" Tu valor será tu mayor aliado en la liberación."
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "Nueve de Copas",
+      "image": "44_nine_cups",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Un punto de equilibrio en el que la realización individual y la paz interior son elevadas. Se experimenta un estado de satisfacción con la propia existencia sin necesidad de aprobación externa. La felicidad es la capacidad de saborear el momento presente más que la consecución de un objetivo.",
+          "love": "Estar en paz con uno mismo se refleja positivamente en la dinámica de las relaciones. La confianza en uno mismo y la comodidad aumentan el poder de atracción. Los sentimientos de placer, alegría y gratitud están en primer plano en la relación.",
+          "career": "Una etapa en la que se recompensan los esfuerzos y se saborea la sensación de logro. La tranquilidad de haber alcanzado los objetivos profesionales reduce el estrés. El esfuerzo por demostrar tu valía termina y es sustituido por la maestría.",
+          "spiritual": "Estás en un periodo de plenitud y confianza en ti mismo; descubres tu propio poder y sientes el valor de lo que has conseguido. Deja de buscar la aprobación externa; tu felicidad interior es tu verdadero poder. Hoy, darte un respiro es la mejor manera de apreciarte; saborea este momento."
+        },
+        "reversed": {
+          "general": "Detrás de una imagen exteriormente perfecta puede esconderse la insatisfacción. La vida orientada al placer puede eclipsar la profundización y la búsqueda de sentido. El \"querer más\" dificulta la apreciación de lo que se tiene.",
+          "love": "Las actitudes egocéntricas o la falta de empatía en una relación pueden causar problemas. Centrarse sólo en las propias necesidades cosifica a la otra persona. La armonía superficial no sustituye a un vínculo profundo.",
+          "career": "Un sentimiento de vacío a pesar del éxito puede indicar que se han elegido mal los objetivos. La arrogancia o la autocomplacencia conducen a un estancamiento del desarrollo. La sensación de no ser capaz de utilizar plenamente el propio potencial es inquietante.",
+          "spiritual": "La situación, la imagen exterior es engañosa; el vacío interior te empuja a una búsqueda profunda. En lugar de buscar la felicidad en los placeres temporales, debes dirigirte a los momentos que te llegan al corazón. La verdadera plenitud se esconde en lo más profundo de tu alma; deja a un lado los placeres que te distraen y nútrete con una acción sencilla."
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": "Diez de Copas",
+      "image": "45_ten_cups",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Un estado en el que se experimentan plenamente la integridad emocional y el sentido de pertenencia. Un estado sostenible de paz en el que se resuelven los conflictos entre el mundo interior y el exterior. La armonía no surge de la perfección, sino de la aceptación y los valores compartidos.",
+          "love": "Existe una profunda confianza y una visión compartida del futuro. El vínculo evoluciona hacia una estructura familiar y arraigada, no sólo romántica. Una ficción vital común proporciona un espacio de confianza para los individuos.",
+          "career": "Cohesión del equipo en la vida empresarial y un entorno de trabajo acorde con los valores. El hecho de que el trabajo tenga un significado social o individual aumenta la satisfacción. El sentimiento de pertenencia aumenta naturalmente el rendimiento.",
+          "spiritual": "Tu paz interior está conformada por los vínculos que estableces con tus seres queridos; la integridad emocional alimenta el calor de tu corazón. Sentir confianza y apoyo es el mayor regalo de este entorno. La situación es hacerles sentir que te preocupas por ellos con un mensaje sincero hoy; este pequeño gesto reforzará aún más el vínculo entre vosotros."
+        },
+        "reversed": {
+          "general": "La diferencia entre la vida idealizada y la realidad puede ser decepcionante. La imagen \"feliz\" que se mantiene en el exterior puede estar enmascarando la desconexión interior. La disonancia crece cuanto más tiempo se ignora.",
+          "love": "Los problemas familiares o los conflictos de valores con la pareja pueden perturbar la paz. La relación puede continuar en la forma pero puede estar vacía de contenido. Mantener hábitos en lugar de una conexión real es agotador.",
+          "career": "Desajuste entre la cultura de la organización y los valores personales. No sentir pertenencia a un lugar agota la motivación desde dentro. Los conflictos dentro del equipo son fuente de malestar.",
+          "spiritual": "Sientes una disonancia en tus relaciones; tu empeño por parecer perfecto está debilitando tus vínculos reales. No debes perderte en la decepción cuando no se cumplen tus expectativas; debes afrontar los problemas en lugar de ignorarlos. Cuando expresas lo que te incomoda en \"lenguaje yo\", sin culpar a nadie, se pueden derribar los muros de los corazones."
+        }
+      }
+    },
+    {
+      "id": 46,
+      "name": "Sota de Copas",
+      "image": "46_page_cups",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Un estado de apertura a nuevas experiencias emocionales y de reconocimiento de mensajes intuitivos. Una fase inicial en la que la lógica queda fuera de juego, guiada por la voz interior y la imaginación. La vulnerabilidad no se ve como una debilidad, sino como una necesidad de ser receptivo.",
+          "love": "Existe una curiosidad ingenua e inesperada por la relación. Un pequeño gesto o paso puede encerrar un gran potencial. La inexperiencia a la hora de expresar emociones es un indicador de sinceridad.",
+          "career": "Periodo en el que brotan ideas creativas que aún no se han materializado. Los enfoques artísticos o intuitivos pueden insuflar nueva vida a los procesos empresariales. Una mentalidad deseosa de aprender y descubrir pasa a primer plano.",
+          "spiritual": "Tu curiosidad emocional te llama hacia nuevos horizontes; tu intuición quiere que explores una dirección desconocida. Tu lógica debería pasar a un segundo plano; confía en tus sentimientos, un comienzo ingenuo está contigo. Inspiraciones inesperadas pueden llamar a su puerta; hoy, tome nota de las ideas creativas que acuden a su mente sin juzgarlas; libere el potencial que lleva dentro."
+        },
+        "reversed": {
+          "general": "La inmadurez emocional o el exceso de sensibilidad impiden ver las cosas con claridad. La agitación interior se refleja en el exterior en forma de reacciones incoherentes. Escapar al mundo de la imaginación distrae de las responsabilidades reales.",
+          "love": "Las actitudes pasivo-agresivas o las expectativas infantiles en una relación bloquean la comunicación. La incapacidad para gestionar las propias emociones lleva a culpar a la otra parte. El miedo a la indiferencia o al rechazo es exagerado.",
+          "career": "El bloqueo creativo o las ideas que no se toman en serio conducen a la frustración. Romper con la disciplina de trabajo y esperar sólo la inspiración perturba el proceso. Las reacciones emocionales en el mundo profesional dañan la reputación.",
+          "spiritual": "La vulnerabilidad emocional te ha intoxicado; las pequeñas cuestiones se están convirtiendo en grandes problemas. Se trata de que tu niño interior se frustra; reaccionar sin calmarte sólo empeorará la situación. Respira hondo y mira las cosas con un ojo maduro; esto te pondrá sobre una base más firme."
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "Caballo de Copas",
+      "image": "47_knight_cups",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Voluntad de poner los sentimientos en acción y perseguir una visión idealista. La motivación no sólo para sentir, sino para traducir ese sentimiento en una expresión o relación es alta. La orientación del corazón trasciende los límites de la lógica.",
+          "love": "Un proceso en el que se da prioridad al romance y a la profundización emocional. Se demuestra valor para invertir en la relación y compartir sentimientos abiertamente. La atracción se alimenta de la transparencia y la elegancia.",
+          "career": "Un esfuerzo por avanzar en un campo que le apasiona o por aportar una visión creativa al trabajo. Las habilidades diplomáticas son la clave para abrir puertas difíciles. Persuasión combinada con inteligencia emocional.",
+          "spiritual": "Es hora de seguir tus sentimientos; lógica aparte, la pasión y los ideales están al volante. Estás ansioso por pasar a la acción en un asunto romántico o creativo; esta energía te impulsa hacia delante. La situación cambia hoy cuando dejas de esperar por algo que te apasiona; dar un paso suave para dar a conocer tus intenciones te abrirá puertas."
+        },
+        "reversed": {
+          "general": "Condición en la que las fluctuaciones emocionales perjudican el juicio. Perseguir sueños desconectados de la realidad aumenta el riesgo de decepción. Un estado de ánimo ansioso un día y resignado al siguiente frena el progreso.",
+          "love": "Un comportamiento incoherente o unas expectativas poco realistas en una relación pueden resultar agotadores. Idealizar a una pareja y luego enfriarse al ver sus defectos indica un problema de apego. Hay que evitar la manipulación emocional.",
+          "career": "La falta de disciplina y los problemas de concentración pueden aparecer en la vida profesional. Los proyectos se inician con entusiasmo pero quedan inconclusos. Las responsabilidades profesionales no pueden gestionarse según el estado de ánimo.",
+          "spiritual": "No debes dejarte llevar por las fluctuaciones emocionales; un día puedes estar ardiendo en llamas y al día siguiente ser un carbón moribundo. Las expectativas poco realistas te están desgastando; debes ser paciente en esta situación. Pon los pies en el suelo antes de tomar grandes decisiones; esperar a que pasen tus sentimientos te ayudará a encontrar de nuevo el equilibrio."
+        }
+      }
+    },
+    {
+      "id": 48,
+      "name": "Reina de Copas",
+      "image": "48_queen_cups",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "Estado de profunda intuición y equilibrio emocional. Estar en contacto con el mundo interior permite afrontar los acontecimientos externos con más calma. La empatía no es una debilidad, sino una fortaleza para analizar los acontecimientos.",
+          "love": "Una actitud comprensiva e integradora en la relación crea un espacio seguro. Ser capaz de percibir las necesidades emocionales de la pareja evita la falta de comunicación. La compasión es el cemento más fuerte del vínculo.",
+          "career": "Los procesos gestionados con inteligencia emocional en el entorno empresarial traen el éxito. El enfoque orientado a las personas y la capacidad de escucha suavizan las crisis. La intuición capta detalles que los datos lógicos no pueden ver.",
+          "spiritual": "Estás en un mundo de empatía; tu intuición te lleva a una comprensión profunda. Tu inteligencia emocional es tu guía más fiable en este viaje; cuando escuchas a los demás, no te olvidas de ti mismo. A veces está en el poder de la escucha más que en la solución de un problema; escucha hoy a los que te rodean y sé una luz para ellos con tu compasión."
+        },
+        "reversed": {
+          "general": "Asumir las cargas emocionales de los demás conduce a la violación de los límites y al agotamiento. Ser un dador ignorando las propias necesidades se convierte con el tiempo en resentimiento. Hay que volver a trazar los límites emocionales.",
+          "love": "Puede haber una tendencia a desarrollar dependencia o abnegación en la relación. Un comportamiento excesivamente complaciente por miedo a la pérdida daña la autoestima. Puede haber vulnerabilidad a la manipulación emocional.",
+          "career": "En la vida empresarial, personalizar las críticas o ser demasiado sensible afecta a la profesionalidad. Existe el riesgo de no poder centrarse en el propio trabajo por intentar resolver los problemas de los demás. La distancia emocional es esencial.",
+          "spiritual": "La situación es que te consume la carga de los problemas de los demás; tus límites se difuminan y tu carga emocional aumenta. Necesitas salir del papel de autosacrificio; necesitas ponerte primero tu propia máscara. Hoy, rechaza una petición a la que te cueste decir que no y tómate ese tiempo para ti, porque tus propias necesidades deben estar por encima de ayudar a los demás."
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": "Rey de Copas",
+      "image": "49_king_cups",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Copas",
+      "element": "Agua",
+      "meanings": {
+        "upright": {
+          "general": "La madurez emocional no es el control de las emociones, sino su sabia gestión. Ser capaz de mantener el equilibrio interior incluso en momentos de caos proporciona inmunidad contra las influencias del entorno. Responder en lugar de reaccionar es un signo de fortaleza.",
+          "love": "La relación es estable, afectuosa y tranquilizadora. Los problemas se resuelven con calma y comprensión, sin crear dramas. El amor se expresa con un comportamiento coherente más que con palabras.",
+          "career": "El estilo de liderazgo se configura teniendo en cuenta la motivación y la psicología del equipo. Producir soluciones sin dejarse llevar por el pánico en tiempos de crisis refuerza la autoridad. El lenguaje diplomático abre incluso las negociaciones más difíciles.",
+          "spiritual": "Tu madurez emocional brilla como un faro; incluso en momentos de crisis tranquilizas a los demás con tu calma. La situación es una oportunidad para demostrar tu capacidad para gestionar tus emociones; en una situación difícil, elige la calma antes que la reacción. Este equilibrio te permite tomar las decisiones correctas; respira hondo y enfoca las cosas desde tu lado más tranquilo."
+        },
+        "reversed": {
+          "general": "Las emociones reprimidas o los impulsos incontrolables conducen a una pérdida de equilibrio. Mientras se lleva una máscara fría por fuera, las tormentas pueden arreciar por dentro. El comportamiento manipulador es un reflejo de la inseguridad interior.",
+          "love": "La inaccesibilidad emocional o las agendas ocultas en la relación socavan la confianza. El deseo de controlar a la pareja puede ser un intento de encubrir una falta de amor. La falta de sinceridad socava los cimientos del vínculo.",
+          "career": "Las decisiones que cambian según el estado de ánimo en la vida empresarial crean una percepción de incoherencia. El comportamiento pasivo-agresivo o la evitación de responsabilidades dañan las cualidades de liderazgo. Pueden surgir problemas de fiabilidad.",
+          "spiritual": "Tus emociones se agitan como una ola; estás perdiendo el control y esto amenaza tus relaciones. La manipulación y los arrebatos son la manifestación externa de su tormenta interior. La situación requiere que cortes la comunicación en los momentos de tensión; tómate un respiro hasta que te calmes. Una vez que hayas recuperado la compostura, podrás recuperar el poder de gestionar tus emociones."
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": "As de Espadas",
+      "image": "50_ace_swords",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "La claridad mental adquiere una nitidez repentina; ya no es posible ver las cosas de forma diferente a como son. Darse cuenta de la verdad no es reconfortante, sino liberador. Esta carta representa el momento de elegir la claridad frente a la ilusión.",
+          "love": "Las conversaciones sinceras pueden llegar a ser inevitables en una relación. Ocultar la verdad no crea vínculos, sólo los retrasa. La comunicación abierta es dura a corto plazo y curativa a largo plazo.",
+          "career": "Es hora de tomar decisiones claras en el ámbito profesional; los objetivos borrosos ya no son sostenibles. El pensamiento analítico puede anular la emoción y esto es temporalmente necesario. La agudeza, si se utiliza correctamente, da dirección.",
+          "spiritual": "Una niebla se disipa en su mente; una luz brillante parece abrirse paso en la oscuridad. La situación le invita a aceptar la realidad tal como es y a soltar las máscaras. La sinceridad cierra la distancia que le separa de sí mismo y de los que le rodean; al aclarar sus pensamientos, libera sus emociones. Si tus preguntas te inquietan, simplifícalas; definir el problema principal en una sola frase despejará tu mente de confusiones."
+        },
+        "reversed": {
+          "general": "La mente puede estar sobrecargada; el pensamiento divaga en lugar de aclararse. Evitar la confrontación con la realidad aumenta la confusión. Tomar una decisión antes de que se despeje la niebla es arriesgado.",
+          "love": "Los malentendidos pueden envenenar la comunicación. Lo que no se dice puede pesar más que lo que se dice. No hablar no es una solución.",
+          "career": "La falta de información o un análisis incorrecto por parte de la empresa pueden detener el progreso. En lugar de tomar una decisión rápida, es necesario parar y comprobar. El pensamiento precipitado magnifica el error.",
+          "spiritual": "La mente está confusa y los pensamientos nublados; demasiada información y contradicciones internas te ponen en un callejón sin salida. La situación deriva de enfrentarte a una realidad de la que quieres escapar; la incertidumbre te rodea mientras te alejas de la claridad. Las decisiones precipitadas pueden conducir a errores, así que en lugar de tomar hoy una decisión importante, céntrate en definir correctamente el problema. Aclárate y hazte las preguntas adecuadas."
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "Dos de Espadas",
+      "image": "51_two_swords",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "La decisión se pospone porque ambas opciones implican costes. Lo que parece un equilibrio es en realidad un equilibrio suspendido. Incluso permanecer neutral es una elección.",
+          "love": "En una relación puede quedar pendiente un asunto no hablado. El silencio no es paz, sino suspense temporal. Sin claridad, el vínculo no puede progresar.",
+          "career": "Aparece una bifurcación profesional en el camino; ambas direcciones conllevan riesgos. La indecisión agota la energía. Tomar una decisión inicia el progreso.",
+          "spiritual": "La indecisión significa estar atrapado entre dos pensamientos; refleja el intento de la lógica de reprimir tus emociones. Deja de forzarte a \"no equivocarte\"; esperar también es una elección. Escribe los pros y los contras de las dos opciones, céntrate en qué camino te dará más tranquilidad a largo plazo."
+        },
+        "reversed": {
+          "general": "La decisión que se había evitado sale ahora a la superficie. El equilibrio se desequilibra porque la verdad no puede suprimirse. Ignorarla no es la solución.",
+          "love": "La evitación emocional debilita la relación. La tensión aumenta a medida que se pospone el diálogo abierto. La confrontación es curativa.",
+          "career": "El miedo a equivocarse puede haber frenado el movimiento. La posibilidad de equivocarse forma parte del desarrollo. La congelación es la mayor pérdida.",
+          "spiritual": "El periodo de mantener los ojos cerrados ha terminado; es hora de tomar una decisión. La situación se intensifica a medida que afloran emociones reprimidas. La dilación te ciega en lugar de protegerte; pon nombre a tu miedo y libérate de esta carga. La incertidumbre se magnifica por la inacción."
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "Tres de Espadas",
+      "image": "52_three_swords",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "El momento de la ruptura duele porque revela la verdad. Cuando termina la negación, comienza la curación. El dolor conlleva conocimiento.",
+          "love": "La angustia no se cura sin confrontación. La emoción reprimida no cura, congela. El vínculo no se cierra sin duelo.",
+          "career": "La decepción profesional puede tomarse como algo personal, pero puede ser instructiva. El fracaso no es identidad. La experiencia es dura pero clara.",
+          "spiritual": "Hay una ruptura en tu mente; la decepción y el dolor envuelven tu corazón. La situación presenta una oportunidad para reconocer y afrontar el dolor; ignorarlo retrasará tu curación. Deja a un lado tus emociones y expresa el dolor en una simple frase; esto arrojará luz en la oscuridad."
+        },
+        "reversed": {
+          "general": "Puede que la curación haya comenzado, pero las cicatrices siguen siendo dolorosas. Es necesario dar sentido al dolor, no negarlo. El tiempo por sí solo no lo resolverá.",
+          "love": "El proceso del perdón es doloroso pero posible. Cargar con el pasado estropea el presente. Liberarlo lo aligera.",
+          "career": "Si el resentimiento se refleja en el trabajo, el rendimiento se resiente. La limpieza emocional aporta claridad profesional. Cuanto más ligera sea la carga, más fácil será el movimiento.",
+          "spiritual": "Comienza el proceso de curación; el dolor ya no te mantiene cautivo. La situación requiere que des un paso adelante en lugar de quedarte en las heridas del pasado; descubre el lugar en el que estás en paz contigo mismo. Pon este punto por escrito y abre la puerta a la paz interior."
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": "Cuatro de Espadas",
+      "image": "53_four_swords",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "La mente exige descanso. El movimiento constante no aporta claridad. Detenerse es reparador.",
+          "love": "La distancia puede ser necesaria en una relación. Crear espacio no es desprenderse. El silencio a veces es curativo.",
+          "career": "Un descanso profesional puede ser una inversión, no una pérdida de productividad. La mente sin descanso comete errores. El tempo debe ajustarse conscientemente.",
+          "spiritual": "La fatiga mental te llama; es hora de parar y descansar. La situación te recuerda que el retiro es reparación, no huida; haz espacio para ti y abraza el renacimiento. Hoy, planifica un descanso consciente; esto despejará la nubosidad de tu mente."
+        },
+        "reversed": {
+          "general": "Cuanto más se posponga el descanso, mayor será el agotamiento. La huida puede confundirse con la recuperación. Parar se convierte en algo inevitable.",
+          "love": "El comportamiento evasivo en una relación debilita el vínculo. La distancia es peligrosa si es el resultado de una falta de comunicación. Es necesario dialogar.",
+          "career": "El deseo de desconectar del trabajo es una alarma. La sobrecarga no puede mantenerse. El sistema debe cambiar.",
+          "spiritual": "Tu mente está constantemente ocupada, el descanso se pospone; no te presiones, esta carga puede abrumarte. La situación indica un mayor riesgo de sobrecarga; baja el ritmo y date espacio. Respira relajadamente, libera lo que se ha acumulado en tu mente."
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": "Cinco de Espadas",
+      "image": "54_five_swords",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Incluso un conflicto ganado puede no aportar satisfacción; la sensación de victoria puede ser vacía. Tener razón y preservar una relación no siempre es lo mismo. Esta carta nos recuerda que las victorias tienen un precio.",
+          "love": "La lucha por el poder en una relación puede erosionar la esencia del vínculo. Ganar una discusión no crea intimidad. Una comunicación dura deja una marca permanente.",
+          "career": "La competición en un entorno profesional puede ser tóxica. El éxito pierde sentido si el deseo de ganar socava la confianza del equipo. La estrategia debe equilibrarse con la ética.",
+          "spiritual": "Estás en una lucha mental; el deseo de tener razón está dañando tus relaciones. La situación demuestra que te dejas llevar por tu ego y tus mecanismos de defensa; esto está debilitando tus vínculos reales. Si aclaras lo que quieres ganar, quizás seas tú el ganador."
+        },
+        "reversed": {
+          "general": "El deseo de retirarse del conflicto puede estar creciendo; se siente la fatiga de la guerra. A veces, la retirada no es una pérdida, sino un alivio. Conservar la energía puede ser una prioridad.",
+          "love": "Detener la lucha de poder puede ser terapéutico. Se elige la paz antes que la rectitud. La suavidad crea lazos.",
+          "career": "Alejarse de la competencia puede aumentar la eficacia. La defensa constante genera agotamiento. La cooperación es más sostenible.",
+          "spiritual": "Es hora de dar un paso atrás para rebajar las tensiones; tu anhelo interior de paz te está llamando a un camino más suave. La situación pone de relieve la importancia de dar el primer paso hacia la reconciliación; esta pequeña corrección puede traer una gran paz. Si das un paso valiente, el fuego de tu corazón empezará a apagarse."
+        }
+      }
+    },
+    {
+      "id": 55,
+      "name": "Seis de Espadas",
+      "image": "55_six_swords",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Es un momento de transición; la mente quiere alejarse de viejas cargas. El movimiento puede ser incómodo pero necesario. Avanzar no siempre es cómodo.",
+          "love": "El proceso de curación en una relación es lento pero posible. La distancia a veces crea un espacio de reparación. Se necesita tiempo.",
+          "career": "El cambio profesional requiere adaptación. La nueva organización puede parecer desconocida al principio. La transición requiere paciencia.",
+          "spiritual": "Hay una transición en tu mente; te estás acercando a la calma paso a paso. La situación demuestra el deseo de dejar atrás los problemas del pasado. Suelta las cargas que pesan sobre tus pensamientos; apartarlas es la clave para reconstruir tu paz interior."
+        },
+        "reversed": {
+          "general": "La incapacidad para romper con el pasado frena el progreso. El camino se hace más pesado a medida que se arrastran viejas cargas. Es necesario dejar ir.",
+          "love": "Los viejos resentimientos pueden trasladarse a la relación. El pasado sin limpiar estropea el presente. La reparación requiere confrontación.",
+          "career": "La resistencia al cambio frena el desarrollo. Lo antiguo puede parecer seguro, pero es limitante. El movimiento es esencial.",
+          "spiritual": "El pasado es un peso que te retiene; es necesario liberar tus pensamientos, aligerarte. Cuando sientas el peso de cargar con viejos asuntos, toma bolígrafo en mano y escribe todo lo que necesites dejar atrás. Limpia las páginas de tu propia historia; haz sitio para nuevos comienzos."
+        }
+      }
+    },
+    {
+      "id": 56,
+      "name": "Siete de Espadas",
+      "image": "56_seven_swords",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Puede haber un comportamiento de ocultación o evitación. Se eligen vías indirectas en lugar de la confrontación directa. Esta estrategia parece protectora a corto plazo.",
+          "love": "Una verdad oculta en una relación puede erosionar la confianza. Las verdades a medias no crean vínculos. A medida que se pospone la transparencia, aumenta la distancia.",
+          "career": "En el entorno profesional puede haber zonas grises desde el punto de vista ético. Los atajos conllevan riesgos. Cuando se rompe la confianza, es difícil repararla.",
+          "spiritual": "Te rodean pensamientos evasivos; la situación presenta una prueba de honestidad. Estás en la incertidumbre incluso hacia ti mismo; esta oscuridad ensombrece la verdad dentro de ti. Confiésate a ti mismo el pensamiento que has estado ocultando, este valor te iluminará."
+        },
+        "reversed": {
+          "general": "Lo que está oculto puede tender a salir a la luz. La huida se hace insostenible. La confrontación es inevitable.",
+          "love": "La verdad quiere ser dicha. La energía de la retención es agotadora. La apertura la aligera.",
+          "career": "Debe restablecerse la honradez en el ámbito empresarial. La pérdida de confianza tarda en repararse. La claridad es esencial.",
+          "spiritual": "Todo lo que ha estado oculto está impaciente por salir a la luz; tu búsqueda de la verdad enciende la pasión que llevas dentro. La situación sugiere que ha llegado el momento de una comunicación abierta; habla con valentía y abre tu corazón para que las sombras inquietantes dejen paso a la claridad."
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": "Ocho de Espadas",
+      "image": "57_eight_swords",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "La sensación de estar atascado puede deberse a un marco mental. Puede que el obstáculo no esté fuera, sino dentro. La percepción crea límites.",
+          "love": "El sentimiento de impotencia en una relación puede no ser real, sino perceptivo. Los miedos no expresados crean vínculos. Un cambio de perspectiva abre espacio.",
+          "career": "El bloqueo profesional puede surgir del autojuicio. Puede que se subestime el talento. El límite puede ser mental.",
+          "spiritual": "El bloqueo de tu mente muestra que estás perdido en un laberinto creado por tus pensamientos; los obstáculos son producto de tu mente. La situación revela que un sentimiento de impotencia se ha apoderado de ti; para superar esta situación, identifica la única área que puedes controlar. El poder reside en tus elecciones; haz esa elección y rompe las cadenas de tu mente."
+        },
+        "reversed": {
+          "general": "La sensación de limitación empieza a disolverse. La nueva perspectiva trae libertad. La cadena era mental.",
+          "love": "La esperanza vuelve a la relación. Se empieza a ver la salida. El espacio se amplía.",
+          "career": "Se puede recuperar la confianza profesional. Las barreras se reducen. El movimiento es posible.",
+          "spiritual": "Te das cuenta de tus limitaciones; esta toma de conciencia da los primeros pasos hacia la disolución. La situación abre el camino a tu empoderamiento; puedes romper tus cadenas dando el primer paso de liberación. Un pequeño cambio en tu vida abrirá la puerta a grandes transformaciones."
+        }
+      }
+    },
+    {
+      "id": 58,
+      "name": "Nueve de Espadas",
+      "image": "58_nine_swords",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "La ansiedad mental puede magnificarse; el pensamiento se siente más pesado que la realidad. La noche agranda la mente, el día la encoge. El miedo a menudo resuena en el interior.",
+          "love": "Puede haber culpa o arrepentimiento en la relación. Las palabras no dichas crecen en el interior. Compartir reduce la carga.",
+          "career": "El estrés profesional puede corroer la mente. El miedo al fracaso frena la acción. La percepción de la presión puede verse magnificada.",
+          "spiritual": "La ansiedad y la carga mental son cada vez más pesadas; los pensamientos que zumban en tu mente por la noche aumentan tu inquietud. La situación se caracteriza porque afloran la culpa y el miedo. Escribe tus preocupaciones; el papel puede ser una forma de aligerar tus cargas. Libera tus pensamientos, crea un espacio para relajarte."
+        },
+        "reversed": {
+          "general": "La ansiedad empieza a disolverse; el miedo se encoge al hacerse visible. La mente puede estar realineándose con la realidad. Se abre el espacio para respirar.",
+          "love": "A medida que se libera la culpa, el vínculo se aligera. Hablar sana. La carga se comparte.",
+          "career": "El estrés se vuelve manejable. Se recupera la perspectiva. El movimiento es posible.",
+          "spiritual": "La ansiedad disminuye; los pensamientos son ahora más manejables. La situación está al borde de una relajación interior; cuando eliges ser amable contigo mismo, la paz llega de forma natural. Evita los juicios severos, acércate a ti mismo con una voz suave y fluirá como el agua que nutre tu alma."
+        }
+      }
+    },
+    {
+      "id": 59,
+      "name": "Diez de Espadas",
+      "image": "59_ten_swords",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Un ciclo puede estar cerrándose dramáticamente. El último dolor suele ser el umbral de la transformación. No hay nada menos.",
+          "love": "Puede que se produzca una ruptura definitiva en la relación. A veces, el final es liberador. El dolor aporta claridad.",
+          "career": "Lo que parece un derrumbe profesional puede ser un nuevo comienzo. Cuando la vieja estructura se derrumba, se construye una nueva. Morir hace sitio.",
+          "spiritual": "Un ciclo mental ha terminado; continuarlo es ahora sólo una carga. La situación marca un cierre difícil pero definitivo. Avanza con aceptación en lugar de resistencia; esto te liberará. Para formalizar el cierre, escribe lo que sientes."
+        },
+        "reversed": {
+          "general": "La cicatrización está empezando; puede que lo peor ya haya pasado. La herida aún está sensible, pero se está cerrando. La resistencia está volviendo.",
+          "love": "Aunque el vínculo roto no se repare, el corazón se repara. La pena se resuelve. El espacio se abre.",
+          "career": "La recuperación profesional es lenta pero posible. Se sientan nuevas bases. Se conserva la experiencia.",
+          "spiritual": "La recuperación está a la puerta; es hora de volver a ponerse en pie. Deja a un lado la confusión de tu mente, sigue adelante con una pequeña corrección. Alimenta tu coraje a cada paso; el cambio es la puerta a nuevos horizontes que te esperan."
+        }
+      }
+    },
+    {
+      "id": 60,
+      "name": "Sota de Espadas",
+      "image": "60_page_swords",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "La curiosidad y la agudeza mental van en aumento. Cuestionarse forma parte del crecimiento. El deseo de aprender está vivo.",
+          "love": "La observación y el análisis pueden aumentar en la relación. La mente puede estar trabajando antes que la emoción. La distancia viene del pensamiento.",
+          "career": "Tiempo para aprender y reunir conocimientos en el ámbito profesional. Una mente joven es una ventaja. Las preguntas impulsan el progreso.",
+          "spiritual": "Viajas en la cima de la vitalidad mental; tu curiosidad te llama a descubrir nuevos horizontes. Tu valentía para hacer preguntas te abre las puertas del aprendizaje; todo lo que no sepas te llevará un paso más allá. Actúa para investigar, te encontrarás a ti mismo en este proceso."
+        },
+        "reversed": {
+          "general": "El exceso de análisis puede detener el movimiento. La duda puede magnificarse. La mente se cansa.",
+          "love": "El cuestionamiento excesivo debilita el vínculo. La confianza no se construye analizando. La sospecha es agotadora.",
+          "career": "Demasiada información puede inhibir la acción. El pensamiento debe convertirse en acción. De lo contrario, el ciclo continúa.",
+          "spiritual": "Estás distraído; tus pensamientos se pierden en un mar de superficialidad. La situación está permitiendo que la impaciencia te lleve; estrecha tu enfoque y aclárate. Cuando te centras en tu objetivo, tus pensamientos se profundizan e iluminan tu camino."
+        }
+      }
+    },
+    {
+      "id": 61,
+      "name": "Caballo de Espadas",
+      "image": "61_knight_swords",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "El pensamiento rápido lleva a la acción rápida. La estabilidad es alta pero aguda. El impulso es fuerte.",
+          "love": "La comunicación directa en la relación puede percibirse como dura. La sinceridad puede no tener filtro. El tono es importante.",
+          "career": "Es posible progresar de forma agresiva en el ámbito profesional. La velocidad es una ventaja. No debe perderse el control.",
+          "spiritual": "Los pensamientos fluyen con rapidez; tu deseo de pasar a la acción te impulsa. La situación conlleva el riesgo de precipitarse; tómate un respiro antes de tomar tus decisiones. Tus palabras son eficaces cuando encuentran la dirección adecuada, así que párate a pensar antes de hablar."
+        },
+        "reversed": {
+          "general": "La velocidad descontrolada puede crear el caos. El pensamiento debe superar a la acción. Se necesita un freno.",
+          "love": "Una comunicación dura puede abrir heridas. Hay que parar y escuchar. La rapidez no crea lazos.",
+          "career": "La acción no planificada magnifica el error. Puede faltar estrategia. Es difícil reducir la velocidad.",
+          "spiritual": "Estás perdido en una fuerte rigidez; cuando actúas sin pensar, las consecuencias pueden ser abrumadoras. La situación requiere que adquieras una nueva perspectiva ralentizando conscientemente tu ritmo. Ralentizar el ritmo es, en realidad, como respirar hondo; aclara tus pensamientos y, después, pasa a la acción."
+        }
+      }
+    },
+    {
+      "id": 62,
+      "name": "Reina de Espadas",
+      "image": "62_queen_swords",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "Visión clara e independiente de las emociones. La verdad se percibe sin filtros. La distancia aporta claridad.",
+          "love": "En una relación, la cabeza puede primar sobre el corazón. La frialdad puede ser protectora. La claridad da confianza.",
+          "career": "La agudeza profesional es una ventaja. La visión objetiva mejora la calidad del juicio. La emoción pasa a un segundo plano.",
+          "spiritual": "La madurez mental y la claridad están en primer plano para ti; guíate por la lógica sin perder tus emociones. La situación exige autoprotección con límites firmes; expresar la verdad con calma le ayudará a fortalecerse. Una vez que encuentre el equilibrio entre sus emociones y la razón, se abrirán nuevos horizontes en su vida."
+        },
+        "reversed": {
+          "general": "Una distancia excesiva puede crear soledad. El muro de protección puede haberse engrosado. Es necesario ablandarlo.",
+          "love": "La desconexión emocional debilita el vínculo. La rigidez es defensa. Puede faltar apertura.",
+          "career": "La falta de empatía puede tensar la relación de equipo. La frialdad corta la comunicación. Se necesita equilibrio.",
+          "spiritual": "La situación muestra que la distancia emocional ha aumentado; la frialdad y la criticidad han creado una barrera entre vosotros. Cuando empiezas conscientemente a añadir empatía, este muro puede caer. Ponerse en el lugar de la otra persona reavivará la calidez de la relación."
+        }
+      }
+    },
+    {
+      "id": 63,
+      "name": "Rey de Espadas",
+      "image": "63_king_swords",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Espadas",
+      "element": "Aire",
+      "meanings": {
+        "upright": {
+          "general": "La autoridad mental y el poder de construcción de estructuras son elevados. Las decisiones son tajantes pero conscientes. El liderazgo proviene de la mente.",
+          "love": "En la relación prima el equilibrio racional. La emoción se mantiene dentro de la estructura. La confianza surge del sistema.",
+          "career": "El control estratégico es fuerte en el ámbito profesional. La gestión exige claridad. La disciplina impulsa el progreso.",
+          "spiritual": "El pensamiento estratégico ilumina la luz del liderazgo mental; ver el panorama completo es tu mayor fortaleza. La situación es un área en la que la responsabilidad y la justicia están en equilibrio; anunciar tu decisión con claridad y calma mantiene el equilibrio a tu alrededor. Recuerda, la claridad te da dirección."
+        },
+        "reversed": {
+          "general": "La autoridad puede ser rígida. El control puede destruir la flexibilidad. La rigidez se rompe.",
+          "love": "Un exceso de racionalidad debilita el vínculo. La emoción puede suprimirse. La intimidad se reduce.",
+          "career": "El dominio despótico crea resistencia. El poder debe compartirse. La rigidez cansa.",
+          "spiritual": "Los pensamientos controladores te están apretando; la rigidez está ahogando tu creatividad. La situación exige abrir la puerta a diferentes perspectivas; si eliges ser flexible, surgirán nuevas oportunidades. Date permiso, incluso en la incertidumbre puedes crear espacio."
+        }
+      }
+    },
+    {
+      "id": 64,
+      "name": "As de Oros",
+      "image": "64_ace_pentacles",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Se sientan las bases internas para que las ideas abstractas de la mente se traduzcan en una realidad concreta. Se reconoce la capacidad de transformar el potencial en forma física. Este proceso significa la determinación y la voluntad de tener los pies en la tierra en la transición del sueño a la acción.",
+          "love": "El deseo de construir una base segura y tangible para la relación se vuelve dominante. La correspondencia del vínculo emocional en el mundo físico elimina la incertidumbre. En lugar de promesas abstractas, los comportamientos concretos abren espacio al otro.",
+          "career": "Las condiciones son favorables para convertir las competencias profesionales en un proyecto concreto. Se identifica un nuevo punto focal en el que invertir tiempo y esfuerzo. El éxito no lo determina la suerte, sino el impulso de un comienzo planificado.",
+          "spiritual": "Se abre una puerta de salida tangible que señala una oportunidad viable. La situación indica que busca seguridad y estabilidad; elegir lo permanente significa tomarse su tiempo. Aclare su área objetivo y determine el paso más sencillo a dar; una acción pequeña pero eficaz acelerará su progreso."
+        },
+        "reversed": {
+          "general": "La desconexión con el mundo físico conduce al bloqueo del potencial. La reticencia a dar pasos concretos lleva a que las oportunidades queden atrapadas en el plano mental. Una percepción débil de la seguridad dificulta la acción.",
+          "love": "La falta de la confianza prometida en la relación provoca decepción y vacilación. La falta de pasos concretos crea dudas a la hora de realizar inversiones emocionales. La incertidumbre creada por un vínculo infundado crea el deseo de retirarse.",
+          "career": "Una utilización inadecuada de los recursos o un calendario incorrecto impiden que los proyectos se pongan en marcha. Se considera que aún no se ha aprovechado la oportunidad de mostrar los talentos. Las expectativas poco realistas no se materializan en la práctica.",
+          "spiritual": "Tienes una oportunidad a las puertas, pero quizá la subestimas o la pospones. La situación está condicionada por un sentimiento de indignidad o por la creencia de que \"aún no estoy preparado\". Tienes razón al cuestionarte si te das cuenta de tu potencial; escribe lo que tienes y concreta lo que tienes; esto aclarará el camino que tienes por delante."
+        }
+      }
+    },
+    {
+      "id": 65,
+      "name": "Dos de Oros",
+      "image": "65_two_pentacles",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Adaptarse al ritmo cambiante de la vida requiere flexibilidad mental y conciencia momentánea. Las prioridades se reorganizan constantemente para mantener el equilibrio. Este proceso es la capacidad de moverse con la corriente, en lugar de mantener rígidamente el control.",
+          "love": "Hay una negociación constante entre la dinámica de las relaciones y las responsabilidades individuales. Se pone a prueba la capacidad de adaptarse instantáneamente a las necesidades cambiantes. El equilibrio entre seriedad y juego mantiene vivo el vínculo.",
+          "career": "La capacidad de gestionar múltiples tareas requiere inteligencia práctica y adaptabilidad rápida. Las fluctuaciones de la carga de trabajo nos obligan a desarrollar métodos más eficaces. El éxito no proviene de una postura fija, sino de una estrategia que puede moldearse en función de la situación.",
+          "spiritual": "La lucha por el equilibrio te mantiene en constante movimiento, haciendo malabarismos con el tiempo, el dinero y la energía. La situación pone en entredicho cómo gestionas tus múltiples responsabilidades; tu flexibilidad es importante, pero corres el riesgo de desmoronarte. Hoy, posponga conscientemente una tarea no prioritaria; esta simple acción creará claridad en su mente."
+        },
+        "reversed": {
+          "general": "Las responsabilidades que superan la capacidad provocan desorganización mental y pérdida de concentración. El esfuerzo por seguir el ritmo de unas condiciones que cambian constantemente crea una sensación de fatiga crónica. El miedo a perder el equilibrio conduce a la ineficacia al limitar la amplitud de movimientos.",
+          "love": "Las incoherencias y la confusión de prioridades en la relación minan la confianza emocional. La falta de gestión del tiempo y la energía provoca sentimientos de abandono. Las rupturas de comunicación dificultan el restablecimiento del equilibrio.",
+          "career": "La ejecución simultánea de tareas provoca una disminución de la calidad y un aumento de los errores. La falta de organización daña la imagen profesional. La sensación de estar aplastado bajo la carga de trabajo provoca pérdida de control.",
+          "spiritual": "La balanza está desequilibrada; el esfuerzo por estar al día de todo te está agotando. La situación está envuelta en el miedo a perder el control; ahora necesitas dar un paso para aliviar tu mente. Simplifica una de tus tareas simultáneas; esto te permitirá respirar y redirigir tu energía."
+        }
+      }
+    },
+    {
+      "id": 66,
+      "name": "Tres de Oros",
+      "image": "66_three_pentacles",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "La integración de los talentos individuales en una estructura colectiva aporta un éxito tangible. La experiencia, combinada con las opiniones de los demás, crea un resultado más completo. Estar abierto a la retroalimentación es una importante herramienta de desarrollo en el camino hacia la maestría.",
+          "love": "El esfuerzo conjunto por mantener la relación determina la calidad del vínculo. Se utiliza un tercer ojo o experiencia mutua para resolver los problemas. Reconocer la contribución del otro crea una base constructiva.",
+          "career": "El trabajo en equipo y la armonía jerárquica garantizan el progreso de los proyectos. La validación externa de la competencia profesional refuerza la motivación y la pertenencia. Reunir diferentes disciplinas aumenta la calidad del trabajo.",
+          "spiritual": "Estás en un viaje de coproducción y aprendizaje; tu labor se está haciendo visible. La situación alimenta el deseo de contribuir y ser apreciado; estar abierto a la retroalimentación acelera este proceso. Descubre el potencial que te rodea escuchando más tu propia voz."
+        },
+        "reversed": {
+          "general": "La incompatibilidad ambiental y la falta de comunicación impiden alcanzar objetivos comunes. La tendencia a tomarse las críticas como algo personal obstaculiza el desarrollo. Un enfoque superficial reduce la calidad del trabajo o de la situación resultante.",
+          "love": "Tirar en direcciones diferentes crea una falta de visión en la relación. No establecer un lenguaje común lleva a malgastar esfuerzos. El sentimiento de desaprobación conduce al retraimiento o a la actitud defensiva.",
+          "career": "La competencia o los sentimientos de inadecuación en el entorno laboral sabotean el trabajo productivo. El deterioro de la dinámica de equipo lleva al fracaso del proyecto. El trabajo descuidado conlleva el riesgo de perder la dignidad profesional.",
+          "spiritual": "Esto crea desarmonía dentro del equipo y una sensación de ser ignorado; esto desmotiva. Expresar claramente tus expectativas mejora la comunicación. Cuando te expresas con claridad, puedes obtener más apoyo de la otra persona."
+        }
+      }
+    },
+    {
+      "id": 67,
+      "name": "Cuatro de Oros",
+      "image": "67_four_pentacles",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "El instinto de proteger los valores se convierte en límites rígidos y necesidad de control. La búsqueda de seguridad conduce a una actitud cerrada al cambio. El esfuerzo por mantener el statu quo es un mecanismo de defensa contra los riesgos del mundo exterior.",
+          "love": "El miedo a perder una relación desencadena comportamientos posesivos y restrictivos. Construir muros emocionales impide la intimidad aunque protege de salir herido. No ser capaz de soltar el control detiene el flujo natural y la profundización de la relación.",
+          "career": "El miedo a perder una posición adquirida dificulta la asunción de riesgos y la innovación. Estar cerrado a compartir información o autoridad conduce al aislamiento. Mantener el statu quo es un obstáculo para el desarrollo.",
+          "spiritual": "Tu deseo de seguridad te aprieta; la necesidad de sujetar y proteger restringe el flujo de la vida. La situación muestra que estás cautivo por el miedo a la pérdida; cuando reconoces los controles innecesarios, das el primer paso hacia la liberación. Liberar tus miedos te abre un nuevo espacio."
+        },
+        "reversed": {
+          "general": "La relajación de los mecanismos de control libera la energía reprimida. Se acepta el riesgo del cambio al derrumbarse los muros de defensa. Dejarse llevar requiere valor para afrontar la incertidumbre.",
+          "love": "La ruptura de las defensas emocionales abre la puerta a una comunicación más transparente en la relación. La reducción de los celos y los impulsos posesivos da un respiro a las partes. Afrontar el miedo a la pérdida inicia la transición hacia una forma de apego más sana.",
+          "career": "Abandonar la insistencia en el statu quo profesional permite probar nuevos métodos. El reparto de tareas y la delegación aumentan la productividad al aligerar la carga de trabajo. Reducir la ansiedad por el puesto crea un entorno de trabajo más creativo y flexible.",
+          "spiritual": "Estás listo para soltar y relajarte; el deseo de compartir crece en tu interior. La situación requiere que te desprendas conscientemente de algo que te sobra; esto aligera tu corazón y abre un nuevo espacio. Liberar tus emociones revitaliza tu espíritu."
+        }
+      }
+    },
+    {
+      "id": 68,
+      "name": "Cinco de Oros",
+      "image": "68_five_pentacles",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "El sentimiento de privación y exclusión centra la percepción únicamente en lo que falta. No poder ver los mecanismos de apoyo disponibles agrava aún más la dificultad. Este proceso supone una aguda toma de conciencia de que las necesidades físicas o emocionales no están cubiertas.",
+          "love": "El aislamiento emocional dentro de la relación refuerza el sentimiento de soledad. La desconexión crea una situación de no poder llegar al otro y de no ser comprendido. La creencia de inutilidad dificulta la expresión de la demanda de amor y atención.",
+          "career": "El miedo al fracaso profesional o a la exclusión del entorno laboral mina la confianza en uno mismo. Sentirse privado de redes de apoyo hace que los objetivos profesionales sean inalcanzables. Las pérdidas económicas o el desempleo hacen que se cuestione el estatus social.",
+          "spiritual": "Los sentimientos de inadecuación y marginación pueden abrumarte, alimentados por la inseguridad económica o emocional. Cuando te resulta difícil pedir apoyo, puedes sentir que llevas la carga más pesada, pero recuerda que no estás solo. Identifica un punto en el que puedas obtener ayuda y da el primer paso; es un paso importante para aligerar tu carga."
+        },
+        "reversed": {
+          "general": "La perspectiva centrada en las dificultades evoluciona hacia un enfoque orientado a las soluciones. Se reconoce el carácter temporal de la crisis y se acepta el apoyo externo. La salida de la conciencia de privación comienza con el redescubrimiento de la resiliencia y los recursos propios.",
+          "love": "Los canales de comunicación se reabren tras un periodo de crisis en la relación. Sentir que no se está solo en los momentos difíciles repara el vínculo de confianza. El valor de abordar los problemas acaba con el aislamiento emocional.",
+          "career": "Los cuellos de botella profesionales se resuelven con la aparición de nuevas oportunidades o ayudas. El miedo al fracaso disminuye, lo que da fuerzas para volver a intentarlo. Se hacen visibles rutas alternativas en la trayectoria profesional.",
+          "spiritual": "El periodo difícil ha quedado atrás; la esperanza vuelve a florecer, tu vida se renueva. El apoyo forma parte del empoderamiento; acéptalo y abre tu corazón. La situación fomenta la sensación de que estás preparado para nuevos comienzos; da pasos con valentía."
+        }
+      }
+    },
+    {
+      "id": 69,
+      "name": "Seis de Oros",
+      "image": "69_six_pentacles",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "El equilibrio en la dinámica de poder se consigue mediante la distribución justa de dar y recibir. Se aprende a mantener los límites cuando se comparten o aceptan recursos. Esta interacción se basa en el reconocimiento de la necesidad mutua, no en la jerarquía.",
+          "love": "El flujo mutuo de atención y apoyo en la relación aumenta la satisfacción emocional. Se cubren las carencias y se desarrolla una solidaridad sana. La reciprocidad de esfuerzos refuerza la confianza en la relación.",
+          "career": "La transferencia de conocimientos y experiencia favorece el desarrollo profesional a través de las relaciones de tutoría. Recibir la recompensa o el reconocimiento merecidos satisface el sentido de la justicia. Un entorno de colaboración fomenta la productividad y el intercambio.",
+          "spiritual": "El equilibrio entre dar y recibir está en primer plano; este equilibrio es la clave de la equidad en las relaciones. La situación requiere que se cuestione cómo le afecta el hecho de compartir; revisando el equilibrio entre contribución y reciprocidad, podrá expresarse con mayor claridad. Reconsidere su percepción del valor; este proceso puede aportarle una realización interior."
+        },
+        "reversed": {
+          "general": "El deterioro del equilibrio entre dar y recibir allana el camino a la dependencia o la explotación. Los juegos de poder disfrazados de ayuda empujan a una de las partes a una posición pasiva. La violación de los límites crea un sentimiento de deuda o una carga de gratitud.",
+          "love": "El sacrificio unilateral en una relación conduce al agotamiento y a la acumulación de ira oculta. Regatear las necesidades emocionales socava la intimidad. Cuando una de las partes asume el papel de salvador, impide que la otra asuma su responsabilidad.",
+          "career": "El favoritismo en el trabajo o la falta de recompensa por el trabajo reducen la motivación. Se tiende a ocultar información o a utilizar el apoyo como medio de manipulación. El comportamiento desleal de las figuras de autoridad socava la pertenencia profesional.",
+          "spiritual": "Hay un intercambio desequilibrado y la confusión del endeudamiento y el derecho preocupa tu mente. La situación requiere que aclares tus límites; revisa tus decisiones para reforzar tu autoestima. En este proceso, recordar qué valores te guían te ayudará a encontrar el equilibrio."
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": "Siete de Oros",
+      "image": "70_seven_pentacles",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Requiere fuerza de voluntad para confiar en el proceso y seguir invirtiendo sin esperar resultados instantáneos. La eficacia de la estrategia se cuestiona deteniéndose y analizando los progresos. La espera no es pasividad, sino una fase consciente de evaluación y maduración.",
+          "love": "Reflexionar sobre el curso de la relación permite tomar decisiones más claras sobre el futuro. Se cuestiona la satisfacción del vínculo trabajado y se analiza si continuar o no. La paciencia permite que la inversión emocional arraigue.",
+          "career": "Se esperan los resultados de los pasos dados para alcanzar los objetivos profesionales a largo plazo. Dado que se tardará tiempo en recoger los frutos del trabajo realizado, es importante mantener la motivación. Las pausas estratégicas sirven para confirmar la corrección de la ruta.",
+          "spiritual": "La paciencia es la clave de este momento; aquello por lo que has trabajado aún no está maduro, pero no dejes que eso te frene. Se trata más de evaluar que de esperar; mide tus progresos y siente la mejora a cada paso. Sé paciente, pero al mismo tiempo no dejes de avanzar."
+        },
+        "reversed": {
+          "general": "El retraso en el resultado esperado provoca impaciencia y frustración. La sensación de que los esfuerzos no son correspondidos desencadena la tendencia a abandonar. Darse cuenta de que se ha invertido en el objetivo equivocado provoca preocupación por la pérdida de tiempo.",
+          "love": "La sensación de que el esfuerzo realizado en la relación es baldío conduce al retraimiento emocional. La falta de progreso debilita la fe en el futuro. Las expectativas insatisfechas amenazan la sostenibilidad de la relación.",
+          "career": "El hecho de que el esfuerzo dedicado a la vida empresarial no proporcione un rendimiento tangible genera agotamiento. El bloqueo o la ineficacia de los proyectos hace necesario un cambio de estrategia. Las iniciativas ineficaces minan la autoestima profesional.",
+          "spiritual": "Puede que la impaciencia se haya apoderado de ti; esta ansiedad te impide avanzar. La situación te ofrece la oportunidad de aclarar tu objetivo; una vez que lo redefinas, verás el camino con más claridad. No dejes que la incertidumbre te asfixie; te fortalece para avanzar con un propósito claro a cada paso."
+        }
+      }
+    },
+    {
+      "id": 71,
+      "name": "Ocho de Oros",
+      "image": "71_eight_pentacles",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "La práctica repetitiva y la disciplina son la base de la maestría. Un proceso de perfeccionamiento de las habilidades centrándose en los detalles. El respeto por el proceso y la diligencia sirven para la satisfacción interior más que para la aprobación externa.",
+          "love": "Queda claro que no son los grandes gestos los que sostienen la relación, sino el cuidado y la atención diarios. Un esfuerzo paciente por conocer a la pareja profundiza el vínculo. La lealtad se demuestra con la constancia en la rutina.",
+          "career": "La atención se centra en la formación y la artesanía fina para aumentar la competencia profesional. La concentración y la meticulosidad garantizan que la calidad del trabajo realizado supere los estándares. La voluntad de especialización garantiza una sólida posición profesional.",
+          "spiritual": "La concentración y la disciplina son las claves de la maestría; tienes una profunda voluntad de trabajar en este proceso. La situación apunta a un viaje que te hará más competente; hoy puedes liberar tu potencial concentrándote en tu trabajo con plena atención."
+        },
+        "reversed": {
+          "general": "La trampa del perfeccionismo frena el progreso y provoca el ahogo en los detalles. El aburrimiento con las rutinas conduce a una disminución de la calidad del trabajo y a la pérdida de concentración. La idea equivocada de esperar resultados con un esfuerzo superficial crea un sentimiento de inadecuación.",
+          "love": "La falta de atención a la relación hace que los vínculos afectivos se debiliten. La percepción de monotonía puede provocar el deseo de alejarse de la pareja. Centrarse sólo en el trabajo y descuidar la vida privada rompe el equilibrio.",
+          "career": "La falta de motivación y el agotamiento merman el rendimiento profesional. Las formas poco desarrolladas y mecanizadas de hacer negocios provocan insatisfacción. Pasar por alto los errores daña la imagen profesional.",
+          "spiritual": "Distraído y mecanizado, es fundamental recordar por qué haces lo que haces. El propósito te motiva a la vez que da sentido a tu trabajo; no olvides recordártelo a menudo. Para captar la profundidad de cualquier cosa, es útil volver a cuestionarse."
+        }
+      }
+    },
+    {
+      "id": 72,
+      "name": "Nueve de Oros",
+      "image": "72_nine_pentacles",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "La capacidad de autosuficiencia es la base de la libertad y la seguridad interior. El orden creado por uno mismo se disfruta sin necesidad de aprobación externa. La recompensa de un pasado disciplinado destaca como un espacio vital confortable con límites claros.",
+          "love": "La preservación de identidades independientes en la relación se considera un requisito previo para una unión sana. Se muestra una postura que no depende de la pareja y que está en paz con uno mismo. La autoestima se convierte en el principal factor que determina la calidad de la relación.",
+          "career": "El nivel de competencia alcanzado en una carrera permite trabajar de forma autónoma. El éxito se mide no sólo en términos de estatus, sino también de tiempo personal y libertad. La reputación profesional da la posibilidad de elegir y un margen de maniobra.",
+          "spiritual": "Tu sentido de la independencia y la autoeficacia se está fortaleciendo; empiezas a sentir los frutos de tu trabajo. La situación te ha dado la oportunidad de sentirte orgulloso de ti mismo; celebrar este logro te hará más fuerte. Tómate un momento y recuerda tus victorias; esto aumentará tu motivación."
+        },
+        "reversed": {
+          "general": "Una vida aparentemente perfecta alberga un sentimiento interior de soledad o aislamiento. El énfasis excesivo en la independencia conduce al distanciamiento y la frialdad en las relaciones humanas. La comodidad material se convierte en un medio para cubrir la insatisfacción espiritual.",
+          "love": "El egoísmo y el individualismo excesivo en las relaciones cortan el contacto emocional con la pareja. El miedo al compromiso se oculta bajo la máscara de la libertad. Las expectativas materiales pasan a primer plano, dañando la sinceridad y la confianza.",
+          "career": "La excesiva carga de trabajo o la ambición de éxito llevan a descuidar por completo la vida social. El miedo a la pérdida de estatus crea un estado de alerta constante. Las inversiones en apariencia no bastan para compensar la falta de contenido profesional.",
+          "spiritual": "La situación crea un sentimiento de insatisfacción, perdido a la sombra de los éxitos externos; detrás de estos éxitos te espera la soledad. Aumentar lo que compartes puede ser la clave para llenar el vacío que hay en tu interior. Haz conexiones valientes; tu riqueza interior crece a medida que la compartes con los demás."
+        }
+      }
+    },
+    {
+      "id": 73,
+      "name": "Diez de Oros",
+      "image": "73_ten_pentacles",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Los valores duraderos y las estructuras bien establecidas proporcionan un sentimiento de pertenencia y seguridad. La transmisión intergeneracional y las tradiciones constituyen la base de la identidad. Los objetivos individuales adquieren sentido como parte de un todo o sistema más amplio.",
+          "love": "En la relación se hace hincapié en los planes a largo plazo y en la integración familiar. El apego seguro se basa en la estabilidad del orden establecido y los valores compartidos. La estructura tradicional proporciona un marco que sostiene y protege la relación.",
+          "career": "Se consigue una posición estable dentro de estructuras corporativas u organizaciones bien establecidas. La carrera profesional progresa centrándose en la sostenibilidad y en dejar un legado, más que en el éxito instantáneo. La acumulación y la experiencia se convierten en una autoridad a largo plazo.",
+          "spiritual": "La seguridad y la pertenencia están en el centro de tu vida; las estructuras permanentes son ahora una necesidad para ti. La situación te recuerda la importancia de echar raíces profundas. Escribe tu plan para el futuro; esto te proporcionará un mapa sólido para guiarte."
+        },
+        "reversed": {
+          "general": "Los moldes tradicionales o las expectativas familiares se están convirtiendo en una carga que coarta la libertad individual. La necesidad de un cambio radical significa que las viejas estructuras ya no funcionan. Se siente alienación dentro del sistema al que se pertenece.",
+          "love": "La presión familiar o las normas sociales interrumpen el flujo natural de la relación. Surgen conflictos profundos dentro de una estructura que parece armoniosa en el exterior. Los matrimonios orientados a lo material o al estatus causan insatisfacción emocional.",
+          "career": "La rigidez organizativa o los problemas jerárquicos en la empresa familiar dificultan el desarrollo. La pérdida de estabilidad profesional crea incertidumbre sobre el futuro. La insistencia en los métodos del pasado dificulta la adaptación a las innovaciones.",
+          "spiritual": "La situación indica que aumentan las tensiones en la familia y en la organización; la presión de las expectativas podría ahogarte. Tomar tu propio camino te dará libertad; para tu paz interior, intenta establecer límites. Controlar esta presión reforzará su autoestima."
+        }
+      }
+    },
+    {
+      "id": 74,
+      "name": "Sota de Oros",
+      "image": "74_page_pentacles",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Existe el deseo de fijarse un objetivo concreto y desarrollar habilidades prácticas. El proceso de aprendizaje progresa a través de la experiencia y la práctica más que de los conocimientos teóricos. El deseo de descubrir el potencial se combina con la energía de un comienzo disciplinado.",
+          "love": "Existe la intención de dar pasos fiables y claros en la relación. Un enfoque realista para conocer a la pareja proporciona una base sólida. Las emociones se expresan a través de un comportamiento coherente más que con palabras.",
+          "career": "El objetivo es adquirir una nueva destreza o formarse para una carrera profesional. La mentalidad de aprendiz requiere una base sólida con atención al detalle. Las oportunidades se aprovechan con planificación realista y trabajo duro.",
+          "spiritual": "Te rodea una energía abierta al aprendizaje; la combinación de curiosidad y disciplina te permite adquirir nuevas habilidades. La situación es el primer paso en tu viaje de desarrollo; sumérgete con valentía en nuevos conocimientos y explora. Cada novedad puede abrirte una nueva puerta."
+        },
+        "reversed": {
+          "general": "La falta de concentración y de disciplina dificulta la consecución de objetivos. Las expectativas poco realistas llevan a la decepción en el mundo práctico. La tendencia a dejar las cosas sin terminar lleva a desperdiciar el potencial.",
+          "love": "La falta de seriedad y la evasión de responsabilidades en la relación crean problemas de confianza. El incumplimiento de promesas crea una percepción de incoherencia en la pareja. La falta de madurez emocional impide que el vínculo se profundice.",
+          "career": "El estancamiento en el desarrollo profesional y la cerrazón al aprendizaje conducen a la pérdida de oportunidades. Una preparación inadecuada lleva a cometer errores poco profesionales en la vida empresarial. La falta de un objetivo profesional claro lleva a perder tiempo y energía.",
+          "spiritual": "Te espera la procrastinación; la frivolidad es un obstáculo para tus objetivos. La situación demuestra que tu motivación fluctúa; sin embargo, reducir tu objetivo puede volver a llenarte de energía. Da un paso pequeño pero eficaz y empieza a hacer algo cada día; esto te hará avanzar hacia metas mayores."
+        }
+      }
+    },
+    {
+      "id": 75,
+      "name": "Caballo de Oros",
+      "image": "75_knight_pentacles",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "Destaca el progreso metódico, paciente y duradero. Cumplir las rutinas se considera la forma más fiable de alcanzar el objetivo. El sentido de la responsabilidad garantiza que la atención se centre en la calidad y la realización del trabajo más que en la velocidad.",
+          "love": "La lealtad y la previsibilidad en una relación se consideran más valiosas que la excitación. Adoptar una postura inamovible frente a la pareja da confianza. Los pasos lentos pero seguros crean un vínculo duradero.",
+          "career": "La diligencia y el sentido del deber aportan prestigio profesional en la vida empresarial. El trabajo detallado y meticuloso garantiza la finalización completa de los proyectos. La estabilidad profesional se consigue perseverando en la ruta actual sin buscar aventuras.",
+          "spiritual": "La responsabilidad y la estabilidad son tu guía; son necesarios pasos lentos pero firmes. Mientras la situación refuerza tu credibilidad, mantener la misma rutina cada día te acerca más a tus objetivos. Ten paciencia para avanzar; pasos pequeños pero concisos siembran la semilla de grandes cambios."
+        },
+        "reversed": {
+          "general": "La excesiva cautela y la lentitud a la hora de actuar hacen que se pierdan oportunidades. La inercia causada por las rutinas reduce la energía vital y la motivación. La resistencia obstinada al cambio frena el desarrollo.",
+          "love": "La monotonía y la monotonía emocional en la relación alejan a la pareja. Centrarse sólo en cuestiones prácticas e ignorar las necesidades emocionales debilita los vínculos. La terquedad bloquea los canales de comunicación.",
+          "career": "El perfeccionismo y el detallismo excesivo bloquean los procesos empresariales. La cerrazón a las innovaciones debilita la competitividad y provoca retrocesos. La sensación de estar estancado en una carrera genera insatisfacción.",
+          "spiritual": "La situación demuestra que una rigidez excesiva te está limitando; los momentos de inflexibilidad bloquean tu progreso. Para sentir el viento del cambio, necesitas replantearte tu método; la novedad es más valiosa que aferrarse con fuerza. Con un ligero toque, puedes añadir movimiento a tu vida."
+        }
+      }
+    },
+    {
+      "id": 76,
+      "name": "Reina de Oros",
+      "image": "76_queen_pentacles",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "La combinación de inteligencia práctica y compasión crea un entorno propicio y de apoyo. Se confía en el entorno a la vez que se gestionan los recursos y los límites. La conciencia corporal y la armonía con la naturaleza proporcionan equilibrio interior.",
+          "love": "Hay una actitud protectora, generosa y sensible en la relación. El amor se expresa proporcionando una atención concreta y un espacio confortable. La madurez emocional aumenta la capacidad de comprender y satisfacer las necesidades de la pareja.",
+          "career": "El uso eficiente de los recursos y la capacidad de organización pasan a un primer plano en la vida empresarial. Observar los valores humanos en el entorno laboral aumenta la eficacia del equipo. Equilibrar la carrera profesional y la vida privada aporta un éxito sostenible.",
+          "spiritual": "Necesitas encontrar un equilibrio nutritivo y protector; la seguridad material y emocional van de la mano. La situación sugiere que es hora de autocompasión y soluciones prácticas. Mantén tu energía fresca creando un espacio para el autocuidado; esto te dará fuerza."
+        },
+        "reversed": {
+          "general": "Centrarse excesivamente en el mundo material conduce a la pérdida de valores espirituales. La devoción a los demás, descuidando el cuidado de uno mismo, conduce al agotamiento. El comportamiento controlador, incluso con buenas intenciones, hace que el entorno se sienta bajo presión.",
+          "love": "Existe una posesividad o sobreprotección asfixiante en la relación. Intentar compensar las carencias afectivas con regalos materiales destruye la intimidad. No respetar la independencia de la pareja crea conflictos.",
+          "career": "La pérdida de equilibrio entre la vida laboral y privada hace que el estrés se cronifique. La desorganización y la falta de planificación afectan negativamente al rendimiento profesional. La violación de los límites emocionales perjudica la profesionalidad.",
+          "spiritual": "No te descuides; sobrecargarte invita al agotamiento interno. La situación requiere que establezcas límites claros; decir no aumenta tu autoestima. Cuando no ignoras tus propias necesidades, tu flujo de energía se equilibra."
+        }
+      }
+    },
+    {
+      "id": 77,
+      "name": "Rey de Oros",
+      "image": "77_king_pentacles",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Oros",
+      "element": "Tierra",
+      "meanings": {
+        "upright": {
+          "general": "El dominio del mundo material proporciona una confianza en uno mismo y una autoridad inquebrantables. El éxito es el resultado del trabajo disciplinado y la inteligencia estratégica más que de la suerte. El liderazgo se caracteriza por una fuerza serena y un aplomo constante.",
+          "love": "La fiabilidad, la lealtad y el sentido de la responsabilidad son las piedras angulares de la relación. Predomina el deseo de ofrecer un apoyo concreto y un futuro confortable a la pareja. Las emociones se expresan a través de un comportamiento coherente y un compromiso inquebrantable.",
+          "career": "La cima profesional y la autoridad en el sector reflejan muchos años de experiencia. El espíritu emprendedor y la previsión financiera permiten gestionar con éxito grandes proyectos. La calidad y la sostenibilidad son esenciales en la vida empresarial.",
+          "spiritual": "El éxito a largo plazo y un liderazgo sólido se están forjando en tus manos; la estabilidad tranquilizadora es la piedra angular de tu viaje actual. La situación requiere que equilibres responsabilidad y sabiduría; toma decisiones con la mente tranquila y ejecútalas con claridad. Cada paso que des en este proceso te conducirá a un futuro más sólido."
+        },
+        "reversed": {
+          "general": "El consumo excesivo de sustancias y la intoxicación por el poder socavan los valores éticos. La rigidez y la obstinación impiden adaptarse a un mundo cambiante. El miedo a la pérdida de estatus conduce a una necesidad obsesiva de control.",
+          "love": "En una relación, la tendencia a ver a la pareja como una propiedad o a controlarla crea malestar. La frialdad emocional y centrarse sólo en los valores materiales debilitan el vínculo. Las actitudes obstinadas impiden el compromiso y la comunicación.",
+          "career": "La corrupción, las ganancias poco éticas o el abuso de poder conducen a la pérdida de reputación. La ambición excesiva conduce a decisiones arriesgadas y erróneas en la vida empresarial. La intolerancia al fracaso hace que el ambiente de trabajo sea tóxico.",
+          "spiritual": "El materialismo excesivo y los comportamientos controladores te oprimen; aferrarte a tus valores es la clave para recuperar tu libertad. La situación te está indicando que estás perdiendo flexibilidad; aprender a soltarte abrirá espacio en tu vida. A medida que recuerdes tus valores, podrás encontrar el equilibrio dentro de ti; esto te conducirá a nuevas oportunidades."
+        }
+      }
+    }
+  ]
+}

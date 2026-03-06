@@ -1,0 +1,1175 @@
+{
+  "planets": [
+    {
+      "key": "sun",
+      "name": "Güneş",
+      "symbol": "☉",
+      "day": "Pazar",
+      "themes": [
+        "canlılık",
+        "kimlik",
+        "liderlik",
+        "yaratıcılık",
+        "amaç"
+      ],
+      "energy": "Işıltılı, kararlı ve genişleyen",
+      "favorable": [
+        "liderlik",
+        "halka açık konuşma",
+        "yaratıcı projeler",
+        "sağlık",
+        "ağ kurma"
+      ],
+      "avoid": [
+        "geri çekilme",
+        "pasiflik",
+        "öz şüphe"
+      ],
+      "variants": [
+        {
+          "meaning": "Pazar günü güç ve netlik alanını açıyor. Harekete geçme dürtüsü yükseliyor, yaratıcı enerji seni ileri itiyor. Kendinle barışık olduğun her adım bugün daha fazla ağırlık taşıyor.",
+          "advice": "Ertelediğin bir şeyi bugün başlat. Görünür ol, sesini çıkar. Küçük ama net bir hamle yap; bugünkü kararlılık yarını şekillendiriyor."
+        },
+        {
+          "meaning": "Pazar günü enerji merkezine dönüyor. Kendini ifade etme dürtüsün keskinleşiyor, liderlik alanın genişliyor. Pasifliğe yer yok; bugün hareketsiz kalmak enerjiyi tıkıyor.",
+          "advice": "Cesur bir karar al, ertelediğin projeye el at. Bugün başladığın şey hafta boyunca ivme taşıyor."
+        },
+        {
+          "meaning": "Pazar günü kimlik sorusu sertleşiyor. Kim olduğunu ve ne istediğini sorguluyorsun. Dışarıya gösterdiğin yüz ile içerideki arasındaki mesafe bugün rahatsız ediyor.",
+          "advice": "Kendine sor: bugün yaptıkların seni mi yansıtıyor, başkalarının beklentisini mi? Yanıt net değilse o boşluğu doldur."
+        },
+        {
+          "meaning": "Pazar günü içsel bir netlik arayışı başlıyor. Yaratıcı potansiyelin sessizce birikmiş; şimdi onu fark etme zamanı. Gürültüden uzaklaşınca asıl gücünü görüyorsun.",
+          "advice": "Bugün büyük hamle yerine farkındalık kur. Neyin seni gerçekten ateşlediğini gözlemle; cevap zaten var, sadece duymuyordun."
+        },
+        {
+          "meaning": "Pazar günü yaratıcı dürtün yoğunlaşıyor. İçinde biriken bir fikir, bir proje ya da bir ifade dışarı çıkmak istiyor. Bu dürtüyü görmezden gelmek tıkanıklık yaratıyor.",
+          "advice": "Bugün bir şey üret; büyük olması şart değil, senin olması yeterli. Yaratıcılık mükemmellik değil cesaret istiyor."
+        },
+        {
+          "meaning": "Pazar günü ilişkilerde yön verme dürtüsün güçleniyor. Çevrendekiler senden netlik bekliyor. Ama liderlik kontrol etmek değil, sorumluluk almak.",
+          "advice": "Yönlendir ama dayatma. Bugün sesini çıkar; fikrini paylaşmaktan kaçınman çevreni de seni de zayıflatıyor."
+        },
+        {
+          "meaning": "Pazar günü kendini yenileme enerjisi açılıyor. Hafta boyunca biriken ağırlık bugün fark ediliyor. Tazelenmek lüks değil, devam edebilmek için zorunlu.",
+          "advice": "Kendine vakit ayır, enerji seviyeni kontrol et. Bugün doldurmak değil, boşaltmak kazandırıyor."
+        },
+        {
+          "meaning": "Pazar günü karar alma kapasiten güçleniyor. Arada kaldığın bir konu bugün daha net görünüyor. Ertelemek rahatlık gibi hissettiriyor ama aslında enerji sızıntısı.",
+          "advice": "Askıda bıraktığın bir konuda bugün karar ver. Yanlış karar bile kararsızlıktan daha az yoruyor."
+        },
+        {
+          "meaning": "Pazar günü sosyal görünürlüğün artıyor. İnsanlar seni bugün daha fazla fark ediyor; ne söylediğin ve nasıl göründüğün normalden daha fazla iz bırakıyor.",
+          "advice": "Bugün önemli bir şey paylaş, bir teklifte bulun ya da bir konuşma başlat. Görünür olduğun gün hareketsiz kalma."
+        },
+        {
+          "meaning": "Pazar günü enerji yönetimi kritik hale geliyor. Kapasiten yüksek ama nereye harcadığın belirleyici. Yanlış yere akıttığın enerji doğru yerde eksik kalıyor.",
+          "advice": "Bugün enerji denetimi yap: seni tüketen ne, besleyen ne? Tüketen bir şeye hayır de; bu tek hamle haftanı değiştiriyor."
+        },
+        {
+          "meaning": "Pazar günü amaç duygusu öne çıkıyor. \"Ne için yapıyorum?\" sorusu bugün daha yüksek sesle geliyor. Cevap yoksa motivasyon da yok; anlamsız tekrar seni yıpratıyor.",
+          "advice": "Bugün en önemli tek hedefini yeniden tanımla. Amaç netleşince enerji de yön buluyor."
+        },
+        {
+          "meaning": "Pazar günü öz değer algın hassaslaşıyor. Kendini yeterli hissedip hissetmediğin bugün daha belirgin. Dışarıdan onay aramak bu boşluğu kapatmıyor, büyütüyor.",
+          "advice": "Bugün kendine sor: onayı kimden bekliyorsun ve neden? Kendi standardını belirle; başkasının ölçüsüyle yaşamak seni küçültüyor."
+        },
+        {
+          "meaning": "Pazar günü yeni bir sayfa açma enerjisi güçleniyor. Geride bıraktığın bir şey var ve ileri gitme dürtüsün artıyor. Ama yenilik eski yarım kalanları görmezden gelmek değil.",
+          "advice": "Yeni başlangıç istiyorsan önce eskiyi kapat. Yarım bıraktığın her şey bilinçaltında enerji tüketiyor; temizle ve başla."
+        }
+      ]
+    },
+    {
+      "key": "moon",
+      "name": "Ay",
+      "symbol": "☽",
+      "day": "Pazartesi",
+      "themes": [
+        "duygu",
+        "sezgi",
+        "beslenme",
+        "hafıza",
+        "döngüler"
+      ],
+      "energy": "Akışkan, alıcı ve içe dönük",
+      "favorable": [
+        "aile",
+        "öz bakım",
+        "meditasyon",
+        "günlük tutma",
+        "yemek pişirme",
+        "duygusal bakım"
+      ],
+      "avoid": [
+        "büyük kararlar",
+        "yüzleşmeler",
+        "aşırı uyarım"
+      ],
+      "variants": [
+        {
+          "meaning": "Pazartesi günü duygusal hassasiyet artıyor, iç ses daha yüksek konuşuyor. Dışarıya değil içeriye dönme ihtiyacı seni çekiyor. Bastırdıkların yüzeye çıkmak için alan arıyor.",
+          "advice": "Kendine ve yakınlarına zaman ayır. Mantıkla değil sezgiyle hareket et. Dinlenmek pasiflik değil; bugün için en güçlü hamle."
+        },
+        {
+          "meaning": "Pazartesi günü duygusal radar açılıyor. Çevrendeki enerjiyi normalden daha yoğun hissediyorsun. Sınır koymadan bu akışa girersen tükenme riski büyüyor.",
+          "advice": "Bugün kimin enerjisini taşıdığına dikkat et. Sana ait olmayan yükleri bırak; kendi duygusal alanını korumak öncelik."
+        },
+        {
+          "meaning": "Pazartesi günü hafıza tetikleniyor. Geçmişten bir his, bir sahne ya da bir kişi kendini hatırlatıyor. Bu geri çağırma rastgele değil; bitmemiş bir şey dikkatini çekiyor.",
+          "advice": "Geri dönen duyguyu bastırma ama içinde kaybolma da. Fark et, adlandır ve bırak. Geçmiş bugünü yönetmesin."
+        },
+        {
+          "meaning": "Pazartesi günü iç dünyan dış dünyayı geçiyor. Rüyalar, sezgiler ve duygusal tepkiler normalden daha canlı. Mantık bugün geri planda; içgüdülerin ön sırada.",
+          "advice": "Büyük kararları bugüne bırakma. Sezgiyle hareket et ama tepkisel olma. Duyduğunu not al; bugünün sinyalleri yarın anlam kazanıyor."
+        },
+        {
+          "meaning": "Pazartesi günü döngüsel kalıplar belirginleşiyor. Aynı duyguyu tekrar yaşıyorsun; farklı durum, aynı his. Bu tesadüf değil, çözülmemiş bir şeyin sinyali.",
+          "advice": "Tekrar eden duyguyu bastırma, izle. Döngüyü kırmak fark etmekle başlıyor."
+        },
+        {
+          "meaning": "Pazartesi günü kendine bakım ihtiyacın yükseliyor. Başkalarına verdiğin enerjinin yarısını kendine ayırmıyorsun. Bu cömertlik değil, ihmal.",
+          "advice": "Bugün kendine bir şey yap: dinlen, ye, yürü, sessiz kal. Boş bardaktan kimseye su verilmez."
+        },
+        {
+          "meaning": "Pazartesi günü duygusal temizlik zamanı geliyor. Biriktirdiğin kırgınlıklar, söylenmemiş sözler, yutulmuş tepkiler ağırlaşıyor. Taşımaya devam etmek seni yavaşlatıyor.",
+          "advice": "Bugün bir şeyi dile getir ya da bilinçli olarak bırak. İçeride tutmak korumak değil, biriktirmek."
+        },
+        {
+          "meaning": "Pazartesi günü yakınlarınla bağın öne çıkıyor. Kimi ihmal ettin, kime uzak kaldın? Mesafe bazen koruma gibi hissettiriyor ama aslında bağı zayıflatıyor.",
+          "advice": "Bugün bir yakınını ara, bir mesaj at, yüz yüze vakit geçir. Küçük temas büyük bağı ayakta tutuyor."
+        },
+        {
+          "meaning": "Pazartesi günü bilinçaltı aktifleşiyor. Rüyalar daha canlı, gündüz hayalleri daha yoğun. Zihnin yüzeyin altında bir şeyi işliyor; müdahale etme, izle.",
+          "advice": "Bugün rüyalarını ya da gün içinde aklına takılan imgeleri not al. Bilinçaltının dili sembolik; onu dinlemeyi öğren."
+        },
+        {
+          "meaning": "Pazartesi günü duygusal dalgalanma yoğunlaşıyor. Bir an iyisin, bir an düşüyorsun. Bu dengesizlik zayıflık değil; duygusal sistemin yeniden kalibre oluyor.",
+          "advice": "Dalgalanmaya direnme, sadece sabırlı ol. Bugün dengeyi zorlamak dengesizliği artırıyor; akışına bırak."
+        },
+        {
+          "meaning": "Pazartesi günü duygu yönetimi sorgulanıyor. Hissettiklerini ne kadar ifade ediyorsun, ne kadar yutuyorsun? Yutmak güçlü görünmeni sağlıyor ama içten içe birikiyor.",
+          "advice": "Bugün bir duyguyu filtresiz ifade et. Güvendiğin birine \"şu an böyle hissediyorum\" de; bu basit cümle rahatlatıyor."
+        },
+        {
+          "meaning": "Pazartesi günü iç huzur arayışın derinleşiyor. Dışarıdaki gürültü seni normalden daha çok rahatsız ediyor. Huzur bir yer değil, bir iç durum; dışarıda bulamazsın.",
+          "advice": "Bugün sessizliğe vakit ayır. Telefonu bırak, bir süre hiçbir şey yapma. Boşluktan korkmak huzuru uzaklaştırıyor."
+        },
+        {
+          "meaning": "Pazartesi günü duygusal cesaret test ediliyor. Kırılgan hissettiğin bir alanda açık olmak bugün seni çağırıyor. Zırh giymek koruyor ama aynı zamanda izole ediyor.",
+          "advice": "Bugün bir konuda savunmasız ol. Zayıf görünmek korkutuyor ama gerçek bağlantı zırhın arkasında kurulmuyor."
+        }
+      ]
+    },
+    {
+      "key": "mars",
+      "name": "Mars",
+      "symbol": "♂",
+      "day": "Salı",
+      "themes": [
+        "eylem",
+        "cesaret",
+        "güdü",
+        "rekabet",
+        "arzu"
+      ],
+      "energy": "Cesur, doğrudan ve yüksek güçlü",
+      "favorable": [
+        "egzersiz",
+        "cesur kararlar",
+        "çatışma çözümü",
+        "yeni girişimler",
+        "fiziksel çalışma"
+      ],
+      "avoid": [
+        "saldırganlık",
+        "dikkatsizlik",
+        "tartışma başlatma"
+      ],
+      "variants": [
+        {
+          "meaning": "Salı günü enerji yükseliyor, sabırsızlık ve harekete geçme dürtüsü sertleşiyor. İçindeki savaşçı tetikleniyor; soru şu: bu enerjiyi nereye yönlendiriyorsun?",
+          "advice": "Bedenini hareket ettir, sınırlarını koru, ertelediklerini yüzleştir. Agresyon değil kararlılık; bugün fark bu."
+        },
+        {
+          "meaning": "Salı günü aksiyon enerjisi zirve yapıyor. Beklemek seni gerginleştiriyor, hareketsizlik tahammülsüzlüğe dönüşüyor. Bu enerjiyi kontrollü yönlendirmezsen seni yönlendiriyor.",
+          "advice": "Fiziksel bir şey yap: spor, yürüyüş, elle çalışma. Bedeni harekete geçir; zihin de arkasından netleşiyor."
+        },
+        {
+          "meaning": "Salı günü çatışma eşiğin düşüyor. Normalde görmezden geldiğin şeyler bugün seni tetikliyor. Öfke bir sinyal; onu bastırmak değil, doğru yere kanalize etmek asıl mesele.",
+          "advice": "Tepki vermeden önce bir nefes al. Öfkenin arkasındaki asıl ihtiyacı bul; bugün savaş açma, sınır çiz."
+        },
+        {
+          "meaning": "Salı günü cesaret alanın genişliyor. Risk almak normalden daha çekici geliyor, korku daha küçük görünüyor. Ama dürtüsel cesaret ile bilinçli cesaret arasında ince bir çizgi var.",
+          "advice": "Ertelediğin zor konuşmayı yap, başlamaktan korktuğun şeye el at. Ama \"cesaret\" adı altında düşünmeden atlamak bugünün tuzağı."
+        },
+        {
+          "meaning": "Salı günü rekabet duygusu sertleşiyor. Karşılaştırma dürtüsü yükseliyor; kim daha iyi, kim daha hızlı? Bu enerji motive edebilir ama obsesyona dönüşürse tüketir.",
+          "advice": "Bugün tek rakibin dünkü kendin olsun. Başkasını geçmek değil, kendi standardını yükseltmek kalıcı güç veriyor."
+        },
+        {
+          "meaning": "Salı günü sınır koyma kapasiten güçleniyor. Hayır demek bugün normalden daha kolay geliyor. Bu sertlik değil, kendine saygı; sınırı olmayan ilişki sağlıklı değil.",
+          "advice": "Bugün bir konuda net sınır çiz. Karşı tarafın tepkisi senin sorumluluğun değil; sınırını korumak senin hakkın."
+        },
+        {
+          "meaning": "Salı günü başlatma enerjisi zirve yapıyor. Yeni bir şeye el atma dürtüsün güçlü; ertelemenin verdiği ağırlığı hissediyorsun. Başlamak bitirmenin yarısı.",
+          "advice": "Ertelediğin bir şeye bugün ilk adımı at. Mükemmel zamanlama diye bir şey yok; en iyi zaman şimdi."
+        },
+        {
+          "meaning": "Salı günü fiziksel enerji yüksek ama kanalize edilmezse huzursuzluğa dönüşüyor. Bedende biriken gerilim zihinsel netliği bozuyor. Hareket etmek bugün zorunluluk.",
+          "advice": "Bugün bedenini yorana kadar hareket ettir. Koşu, yüzme, ağırlık; ne olursa olsun. Bedeni yoran şey zihni rahatlatıyor."
+        },
+        {
+          "meaning": "Salı günü savunma içgüdülerin tetikleniyor. Tehdit algın yüksek, korunma refleksin güçlü. Ama her uyarı gerçek tehdit değil; aşırı savunma ilişkileri yıpratır.",
+          "advice": "Refleksle tepki vermeden önce dur. Bugün savunmaya geçtiğini fark ettiğin an kendine sor: gerçek bir tehdit mi yoksa eski bir yara mı?"
+        },
+        {
+          "meaning": "Salı günü doğrudanlık enerjisi yükseliyor. Dolaylı yollardan konuşmak seni sıkıyor, net olmak istiyorsun. Bu güçlü ama dozajını ayarlamamak kırgınlık yaratır.",
+          "advice": "Bugün ne düşündüğünü söyle ama nasıl söylediğine dikkat et. Doğruluk ton olmadan yaralayıcı oluyor."
+        },
+        {
+          "meaning": "Salı günü bağımsız hareket etme dürtüsün güçleniyor. Takım çalışması seni yavaşlatıyor gibi hissettiriyor; kendi hızında kendi yolunda gitme isteğin artıyor.",
+          "advice": "Bağımsızlığın tadını çıkar ama yalnız yapman gereken ile birlikte yapılması gereken arasındaki farkı gör. Her şeyi tek başına taşımak güç değil, inat."
+        },
+        {
+          "meaning": "Salı günü kararlılık sertleşiyor. Bir kez karar verdiğinde geri dönmek bugün çok zor geliyor. Bu tutarlılık güçlü ama yeni bilgiyle fikir değiştirmek de cesaret istiyor.",
+          "advice": "Kararında dur ama yeni veri geldiğinde revize etmeye açık ol. İnatla kararlılık arasındaki çizgi bugün ince."
+        },
+        {
+          "meaning": "Salı günü arzu enerjisi yükseliyor. Ne istediğin normalden daha net; istek güçlü ve acil hissettiriyor. Ama her arzunun peşinden koşmak seni dağıtır; seçici ol.",
+          "advice": "Bugün en güçlü tek arzunu belirle ve ona odaklan. Beş şeyi yarım yapmak hiçbirini tamamlamamak demek."
+        }
+      ]
+    },
+    {
+      "key": "mercury",
+      "name": "Merkür",
+      "symbol": "☿",
+      "day": "Çarşamba",
+      "themes": [
+        "iletişim",
+        "zeka",
+        "seyahat",
+        "ticaret",
+        "öğrenme"
+      ],
+      "energy": "Hızlı, analitik ve iletişimci",
+      "favorable": [
+        "yazarlık",
+        "toplantılar",
+        "seyahat",
+        "çalışma",
+        "sözleşmeler",
+        "ağ kurma"
+      ],
+      "avoid": [
+        "belirsiz iletişim",
+        "dağınık odak",
+        "dedikodu"
+      ],
+      "variants": [
+        {
+          "meaning": "Çarşamba günü zihin hızlanıyor, kelimeler keskinleşiyor. İletişim kanalları açılıyor; söylenecekler netleşiyor ama dağınıklık da tetikleniyor.",
+          "advice": "Önemli konuşmayı bugün yap. Yaz, planla, bağlantı kur. Odağını tek noktada tut; dağılırsan bugünün gücünü kaybedersin."
+        },
+        {
+          "meaning": "Çarşamba günü bilgi akışı hızlanıyor. Her yerden veri geliyor, bağlantılar kuruluyor ama asıl mesaj gürültüde kaybolma riski taşıyor.",
+          "advice": "Filtrelemeyi öğren: her bilgi senin için değil. Bugün en önemli tek mesajı belirle ve ona odaklan."
+        },
+        {
+          "meaning": "Çarşamba günü analitik yön güçleniyor. Sorunları parçalara ayırma kapasitenin arttığını hissediyorsun. Ama aşırı analiz felç edebilir; bazen anlamak yerine hareket etmek kazandırıyor.",
+          "advice": "Düşünce döngüsüne girme. Planını yaz, kararını ver, ilet. Bugün mükemmel plan değil, net iletişim kazandırıyor."
+        },
+        {
+          "meaning": "Çarşamba günü sözcükler ağırlık taşıyor. Bugün söylediğin şey normalden daha keskin yankılanıyor. Doğru kelime kapı açıyor, yanlış kelime kapıyı kilitliyor.",
+          "advice": "Konuşmadan önce düşün ama düşünmekten konuşamamazlık yapma. Bugün netlik şart; üstü kapalı mesajlar karşı tarafta oturmuyor."
+        },
+        {
+          "meaning": "Çarşamba günü öğrenme kapasiten genişliyor. Yeni bilgi normalden daha hızlı oturuyor, bağlantılar daha kolay kuruluyor. Zihnin bugün sünger gibi; doğru malzemeyle besle.",
+          "advice": "Bugün yeni bir şey öğren: makale, podcast, kurs, konuşma. Zihnin açken en kaliteli bilgiyle doldur."
+        },
+        {
+          "meaning": "Çarşamba günü yazma ve ifade gücün zirve yapıyor. Düşüncelerini kelimeye dökmek normalden daha kolay. Bu enerjiyi harcamadan bırakmak israf.",
+          "advice": "Bugün yaz: not, plan, mektup, mesaj. Kafandaki düşünce kağıda geçince şekilleniyor."
+        },
+        {
+          "meaning": "Çarşamba günü toplantılar ve müzakereler için güçlü bir zemin var. İkna kapasiten yüksek, argümanların keskin. Ama dinlemeden konuşmak ikna değil dayatma.",
+          "advice": "Bugün önemli konuşmalarını planla. Konuş ama aynı oranda dinle; en güçlü argüman karşı tarafı anladığın argüman."
+        },
+        {
+          "meaning": "Çarşamba günü merak çeşitliliğe çekiyor. Tek konuda kalmak sıkıcı geliyor, her şeye bakmak istiyorsun. Bu enerjik ama dağınık; odak olmadan merak verimli değil.",
+          "advice": "Merakını dizginle: bugün en çok hangi sorunun cevabını bulmak istiyorsun? O tek soruya odaklan, diğerlerini yarına bırak."
+        },
+        {
+          "meaning": "Çarşamba günü iletişim kazaları riski artıyor. Hızlı düşünmek hızlı konuşmaya dönüyor; ağzından çıkan her şey niyetini yansıtmıyor. Hız netliğin düşmanı oluyor.",
+          "advice": "Bugün önemli mesajları göndermeden önce bir kez daha oku. Hızlıca yazılan beş kelime, dikkatle yazılan iki kelimeden daha az etkili."
+        },
+        {
+          "meaning": "Çarşamba günü planlama enerjisi güçleniyor. Gelecek haftayı, ayı, projeyi kafanda kurma kapasiten yüksek. Ama plan yapmak ile harekete geçmek arasında boşluk bırakma.",
+          "advice": "Bugün planla ama en az bir somut adım da at. Plan eyleme dönmezse sadece fantezi olarak kalır."
+        },
+        {
+          "meaning": "Çarşamba günü soru sorma dürtüsün sertleşiyor. Yüzeydeki açıklamalar seni tatmin etmiyor, derine inmek istiyorsun. Doğru soru doğru cevaptan daha değerli.",
+          "advice": "Bugün en çok merak ettiğin konuda cesur bir soru sor. Cevabı bilmemek utanılacak bir şey değil; sormamak öyle."
+        },
+        {
+          "meaning": "Çarşamba günü bağlantı kurma enerjisi tetikleniyor. Yeni insanlarla tanışma, eski bağlantıları canlandırma dürtüsün güçlü. Ağ kurmak sosyallik değil, stratejik yatırım.",
+          "advice": "Bugün bir bağlantını canlandır: eski bir arkadaşı ara, bir meslektaşına yaz. Küçük temas büyük fırsatın kapısını açıyor."
+        },
+        {
+          "meaning": "Çarşamba günü çoklu görev kapasiten yüksek ama tuzağı da büyük. Her şeye yetişiyormuş gibi hissediyorsun ama hiçbirine derinlemesine dalmıyorsun.",
+          "advice": "Bugün multitasking cazibesine kapılma. Tek iş, tek odak, tek sonuç. Derinlik yüzeysel genişlikten daha kalıcı."
+        }
+      ]
+    },
+    {
+      "key": "jupiter",
+      "name": "Jüpiter",
+      "symbol": "♃",
+      "day": "Perşembe",
+      "themes": [
+        "genişleme",
+        "bolluk",
+        "bilgelik",
+        "inanç",
+        "fırsat"
+      ],
+      "energy": "Genişleyen, cömert ve iyimser",
+      "favorable": [
+        "eğitim",
+        "uzun mesafeli seyahat",
+        "hukuki meseleler",
+        "yatırım",
+        "kişisel gelişim",
+        "kutlamalar"
+      ],
+      "avoid": [
+        "aşırılık",
+        "fazla taahhüt",
+        "dikkatsiz iyimserlik"
+      ],
+      "variants": [
+        {
+          "meaning": "Perşembe günü bakış açısı genişliyor, fırsatlara duyarlılık artıyor. Küçük düşünme alışkanlığın bugün sorgulanıyor; risk almak için uygun bir zemin var.",
+          "advice": "Ufkunu genişleten bir adım at. Öğren, keşfet, farklı bir perspektiften bak. Aşırıya kaçmadan cömert ol; bugünkü cömertlik geri dönüyor."
+        },
+        {
+          "meaning": "Perşembe günü büyüme enerjisi tetikleniyor. Sınırlarını zorlama isteği yükseliyor, konfor alanın dar gelmeye başlıyor. Bu genişleme dürtüsü gerçek ama kontrolsüz olursa dağıtıyor.",
+          "advice": "Bir şeyi büyütmek istiyorsan bugün başla. Ama her fırsata evet deme; seçici büyüme kontrolsüz genişlemeden daha kalıcı."
+        },
+        {
+          "meaning": "Perşembe günü iyimserlik yükseliyor, olasılıklar normalden daha parlak görünüyor. Dikkat: bu netleşen bir görüş mü yoksa görmek istediğin şeyi mi görüyorsun?",
+          "advice": "Bugün hayır demenin de bir büyüme biçimi olduğunu hatırla. Her genişleme ileri götürmüyor; hangisinin gerçek olduğunu ayırt et."
+        },
+        {
+          "meaning": "Perşembe günü öğrenme iştahın büyüyor. Yeni bir konu, farklı bir bakış açısı ya da tanımadığın bir alan seni çekiyor. Merak bugün en güçlü yakıtın.",
+          "advice": "Bilmediğin bir alana adım at. Oku, dinle, soru sor. Bugünkü merak yarının uzmanlığının tohumunu ekiyor."
+        },
+        {
+          "meaning": "Perşembe günü cömertlik dürtüsü yükseliyor. Vermek, paylaşmak, katkı sunmak bugün doğal geliyor. Ama cömertliğin sınırını bilmemek seni tüketir.",
+          "advice": "Bugün cömert ol ama hesabını bil. Kendin için ayırdığından fazlasını verme; sürdürülebilir cömertlik kalıcı."
+        },
+        {
+          "meaning": "Perşembe günü felsefi derinlik tetikleniyor. Yüzeydeki yanıtlar seni tatmin etmiyor, \"neden\" sorusu her konuda büyüyor. Bu derinlik güçlü ama eylemi felç etmesin.",
+          "advice": "Düşün ama düşüncede kaybolma. Bugün bir anlayışı eyleme dönüştür; bilgelik uygulanmadıkça teori kalır."
+        },
+        {
+          "meaning": "Perşembe günü risk iştahın artıyor. Güvenli alanda kalmak seni sıkıyor, bilinmeyen çekici geliyor. Bu cesaret güzel ama hesaplanmış risk ile kumar arasındaki farkı koru.",
+          "advice": "Bugün hesaplanmış bir risk al. Kaybetmeyi göze alabildiğin bir alanda cesaretini göster; tüm yumurtaları tek sepete koyma."
+        },
+        {
+          "meaning": "Perşembe günü kültürel açılım enerjisi büyüyor. Farklı bakış açıları, yeni yerler, tanımadığın insanlar seni zenginleştiriyor. Dar kalıplarda kalmanın maliyeti bugün daha görünür.",
+          "advice": "Bugün alışkanlık döngünden çık. Farklı bir restoran, farklı bir rota, farklı bir bakış açısı; küçük değişiklikler bakışını genişletiyor."
+        },
+        {
+          "meaning": "Perşembe günü gelecek vizyonu netleşiyor. Beş yıl sonra nerede olmak istediğin sorusu bugün daha somut. Ama vizyon olmadan plan, plan olmadan eylem yok.",
+          "advice": "Bugün uzun vadeli bir hedefini kağıda dök. Kafada kalan vizyon buharlaşır; yazılan vizyon yol haritasına dönüşür."
+        },
+        {
+          "meaning": "Perşembe günü bolluk algın değişiyor. Elindekine mi odaklanıyorsun yoksa eksiklere mi? Bakış açısı gerçekliği şekillendiriyor; bugün neye baktığına dikkat et.",
+          "advice": "Bugün eksik olan yerine var olan üzerinden düşün. Bu naiflik değil, strateji; elindeki kaynakları görmek yeni fırsatları da gösteriyor."
+        },
+        {
+          "meaning": "Perşembe günü öğretme ve mentorluk dürtüsün güçleniyor. Bildiklerini aktarma isteğin artıyor. Paylaşılan bilgi hem seni hem karşındakini büyütüyor.",
+          "advice": "Bugün birine bir şey öğret. Formal olmak zorunda değil; deneyimini paylaşmak bile yeterli. Öğretirken en çok sen öğreniyorsun."
+        },
+        {
+          "meaning": "Perşembe günü adalet duygusu keskinleşiyor. Haksızlıklara karşı toleransın düşüyor, doğru olanı savunma dürtüsün güçlü. Ama adalet arayışı intikam arayışına dönüşmesin.",
+          "advice": "Bugün adil ol ama yargıç olma. Doğru olanı savun; ama herkesin kendi yolculuğu olduğunu da hatırla."
+        },
+        {
+          "meaning": "Perşembe günü minnet duygusu yoğunlaşıyor. Şikayet yerine şükür bugün daha doğal geliyor. Bu yüzeysel pozitiflik değil; gerçekten sahip olduklarını fark etmek güç veriyor.",
+          "advice": "Bugün üç şeyi say: neyin iyi gidiyor? Şikayet otomatik ama fark etmek bilinçli bir seçim. Bu basit pratik bakışını değiştiriyor."
+        }
+      ]
+    },
+    {
+      "key": "venus",
+      "name": "Venüs",
+      "symbol": "♀",
+      "day": "Cuma",
+      "themes": [
+        "aşk",
+        "güzellik",
+        "uyum",
+        "zevk",
+        "sanat"
+      ],
+      "energy": "Manyetik, sevgi dolu ve uyumlu",
+      "favorable": [
+        "romantizm",
+        "sosyalleşme",
+        "sanat",
+        "moda",
+        "güzellik bakımı",
+        "diplomasi",
+        "müzik"
+      ],
+      "avoid": [
+        "çatışma",
+        "sert sözler",
+        "ilişkileri ihmal etme"
+      ],
+      "variants": [
+        {
+          "meaning": "Cuma günü bağlantı kurma ve güzellik arayışı tetikleniyor. İlişkilerdeki denge ihtiyacı netleşiyor, estetik hassasiyet artıyor.",
+          "advice": "İlişkilerine yatır, güzelliğin tadını çıkar, sevgini ifade et. Çatışmadan kaçınmak yerine uyum kur; bugün sert sözlerin bedeli büyük."
+        },
+        {
+          "meaning": "Cuma günü çekicilik alanın genişliyor. İnsanlar ve deneyimler sana doğru akıyor. Ama her gelen şeyi kabul etmek seçicilik değil; neyin seni gerçekten beslediğini ayırt et.",
+          "advice": "Bugün kaliteye odaklan, miktara değil. Bir derin bağlantı on yüzeysel temastan daha fazla taşıyor."
+        },
+        {
+          "meaning": "Cuma günü ilişkilerdeki dengesizlikler görünür oluyor. Kim veriyor, kim alıyor? Karşılıklılık sorgulanıyor; uyum gibi görünen şeyin altında bastırılmış bir ihtiyaç olup olmadığını kontrol et.",
+          "advice": "Uyum kurmak için kendinden vazgeçme. Bugün asıl soru şu: barışı korumak için neyi feda ediyorsun?"
+        },
+        {
+          "meaning": "Cuma günü yaratıcı ve estetik duyarlılığın zirve yapıyor. Güzellik seni besliyor, çirkinlik normalden daha çok rahatsız ediyor. Bu hassasiyet bir pusula; neyin seni canlandırdığına dikkat et.",
+          "advice": "Bugün güzel bir şey yarat, güzel bir şey deneyimle. Estetik lüks değil, ruhsal ihtiyaç. Onu ihmal etme."
+        },
+        {
+          "meaning": "Cuma günü sevgi dili sorgulanıyor. Sevgini nasıl ifade ediyorsun ve karşı taraf nasıl alıyor? Aradaki çeviri kaybı ilişkilerdeki birçok sorunu açıklıyor.",
+          "advice": "Bugün karşındakinin sevgi dilini anlamaya çalış. Senin dilinden değil, onun dilinden konuş; bağlantı orada derinleşiyor."
+        },
+        {
+          "meaning": "Cuma günü öz bakım ihtiyacın yükseliyor. Kendine vakit ayırmak bencillik değil, sürdürülebilirlik. Tükenmiş halinden kimseye fayda yok.",
+          "advice": "Bugün kendine güzel bir şey yap: uzun bir banyo, sevdiğin yemek, sessiz bir yürüyüş. Küçük dokunuşlar büyük onarım yapıyor."
+        },
+        {
+          "meaning": "Cuma günü sosyal enerji canlanıyor. İnsanlarla vakit geçirme isteğin büyüyor, yalnızlık bugün seni daraltıyor. Bağlantı ihtiyacını yok sayma.",
+          "advice": "Bugün sosyalleş: bir arkadaşla buluş, yeni biriyle tanış. Ama enerji veren insanları seç; tüketen ortamlardan uzak dur."
+        },
+        {
+          "meaning": "Cuma günü uzlaşma enerjisi güçleniyor. Çatışmalı bir durumda orta yol bulmak bugün daha kolay. Ama uzlaşma her iki tarafın da bir şeyden vazgeçmesi demek; sadece senin taviz vermen denge değil.",
+          "advice": "Bugün bir anlaşmazlıkta uzlaş. Ama \"barış\" adına kendinden vazgeçme; gerçek uzlaşma iki tarafı da kapsıyor."
+        },
+        {
+          "meaning": "Cuma günü maddi zevkler daha çekici geliyor. Harcama dürtüsü yüksek, güzel şeyler edinme isteği güçlü. Bu doğal ama dürtüsel harcama ile bilinçli yatırım arasında fark var.",
+          "advice": "Bugün güzel bir şey al ama ihtiyaç mı yoksa dürtü mü olduğunu ayırt et. Gerçek zevk bilinçli seçimden geliyor."
+        },
+        {
+          "meaning": "Cuma günü kendini beğenme-beğenmeme dengesi hassaslaşıyor. Aynaya baktığında ne görüyorsun? Bugün öz eleştiri normalden daha sert ya da daha yumuşak olabiliyor.",
+          "advice": "Bugün kendine dışarıdan baktığın gibi bak: ne güçlü, ne güzel? Eksiklere değil varoluşuna odaklan. Öz kabul lüks değil, temel."
+        },
+        {
+          "meaning": "Cuma günü sanatsal duyarlılığın zirve yapıyor. Müzik, görsel sanat, edebiyat seni normalden daha derinden etkiliyor. Bu hassasiyet bir sinyal; yaratıcı yanını besle.",
+          "advice": "Bugün bir sanat formuna vakit ayır: dinle, izle, oku ya da kendin yarat. Estetik deneyim ruhsal beslenme."
+        },
+        {
+          "meaning": "Cuma günü bağışlama kapasiten genişliyor. Kırgınlık taşımak seni bugün normalden daha ağırlaştırıyor. Bağışlamak onaylamak değil; yükü bırakmak.",
+          "advice": "Bugün bir kırgınlığı bırak. Karşı taraf için değil, kendin için. Taşıdığın yük çoğu zaman karşı taraftan daha fazla seni yıpratıyor."
+        },
+        {
+          "meaning": "Cuma günü değer yargıların netleşiyor. Neye değer verdiğin ve neye vermediğin bugün daha keskin görünüyor. Bu netlik ilişkilerde de kariyerde de pusula görevi görüyor.",
+          "advice": "Bugün kendine sor: hayatımda en çok neye değer veriyorum? Cevap net değilse orada bir kayıp var; onu bul."
+        }
+      ]
+    },
+    {
+      "key": "saturn",
+      "name": "Satürn",
+      "symbol": "♄",
+      "day": "Cumartesi",
+      "themes": [
+        "disiplin",
+        "yapı",
+        "karma",
+        "sorumluluk",
+        "ustalık"
+      ],
+      "energy": "Sabit, disiplinli ve kalıcı",
+      "favorable": [
+        "planlama",
+        "organize etme",
+        "sıkı çalışma",
+        "finanslar",
+        "geçmiş değerlendirme",
+        "gayrimenkul"
+      ],
+      "avoid": [
+        "kestirmeler",
+        "tembellik",
+        "yükümlülükleri görmezden gelme"
+      ],
+      "variants": [
+        {
+          "meaning": "Cumartesi günü sorumluluk ve disiplin çağrısı sertleşiyor. Ertelediklerin seni sıkıştırıyor; bugün yüzleşme günü. Sabır ve kararlılık birleşince kalıcı sonuçlar doğuyor.",
+          "advice": "Zor ama gerekli olanı bugün yap. Planla, organize et, taahhütlerini onurlandır. Kestirme yok; bugün attığın sağlam adım uzun vadede taşıyor."
+        },
+        {
+          "meaning": "Cumartesi günü yapı ihtiyacın büyüyor. Dağınıklık seni bunaltıyor, düzen kurma dürtüsü tetikleniyor. Bugün temelleri sağlamlaştırma zamanı; süsleme değil inşa günü.",
+          "advice": "Hayatının bir alanını bugün düzene sok. Finanslar, takvim, yaşam alanı; hangisi en çok ihmal edildiyse oradan başla."
+        },
+        {
+          "meaning": "Cumartesi günü sonuçlarla yüzleşme sertleşiyor. Attığın adımların karşılığı bugün daha net görünüyor. İyi haberler de kötü haberler de gerçekçi; bugün kendini kandırmak zor.",
+          "advice": "Hoşuna gitmeyen sonucu reddetme, analiz et. Bugünkü dürüst bakış gelecekteki hataları önlüyor. Rahatsız eden gerçek, rahatlatıcı yalandan daha değerli."
+        },
+        {
+          "meaning": "Cumartesi günü sabır testi yoğunlaşıyor. İstediğin hızda ilerlememek seni hayal kırıklığına uğratıyor. Ama bugün hızlanmak değil derinleşmek kazandırıyor; yüzeysel ilerleme kalıcı olmuyor.",
+          "advice": "Acele etme. Bugün yavaş ama sağlam bir adım, hızlı ama kırılgan on adımdan daha fazla iz bırakıyor."
+        },
+        {
+          "meaning": "Cumartesi günü zaman yönetimi sorgulanıyor. Zamanını nereye harcıyorsun ve oradan ne dönüyor? Bugün verimsiz alışkanlıklar normalden daha görünür.",
+          "advice": "Bugün bir günlüğüne zamanını izle. En büyük zaman hırsızını bul ve ona sınır koy. Farkındalık değişimin ilk adımı."
+        },
+        {
+          "meaning": "Cumartesi günü miras ve kalıcılık sorusu öne çıkıyor. Arkanda ne bırakıyorsun? Günlük koşuşturma bu soruyu gölgede bırakıyor ama bugün ön plana geliyor.",
+          "advice": "Bugün kalıcı bir şey inşa et: bir alışkanlık, bir tasarruf, bir ilişki temeli. Anlık tatmin değil uzun vadeli iz bırak."
+        },
+        {
+          "meaning": "Cumartesi günü otoriteyle ilişkin test ediliyor. Kurallar, üstler, yapılar seni bugün daha çok sıkıştırıyor. Soru şu: kurallara karşı mısın yoksa kendi kurallarını mı arıyorsun?",
+          "advice": "Başkasının yapısına isyan etmek yerine kendi yapını kur. Bugün bir alanda kendi kuralını belirle ve uygula."
+        },
+        {
+          "meaning": "Cumartesi günü finansal bilinç keskinleşiyor. Para konusu bugün daha ağırlıklı; nereye akıyor, nereden geliyor, dengesi ne durumda? Görmezden gelmek sorunu büyütüyor.",
+          "advice": "Bugün finansal durumunu gözden geçir. Kaçındığın hesabı yap, ertelediğin tasarrufu başlat. Sayılarla yüzleşmek kontrolü geri veriyor."
+        },
+        {
+          "meaning": "Cumartesi günü yalnızlık ve izolasyon arasındaki sınır inceliyor. Kendi başına vakit geçirmek güçlendiriyor ama izole olmak yıpratıyor. Bugün hangisinde olduğunu sorgula.",
+          "advice": "Yalnızlıktan keyif alıyorsan devam et. Ama kaçış olarak kullanıyorsan bugün bir insana ulaş; izolasyon koruma değil, tuzak."
+        },
+        {
+          "meaning": "Cumartesi günü öz disiplin kapasiten yüksek. Zor olan şeyi yapmak bugün normalden daha kolay geliyor. Bu pencereyi iyi kullan; motivasyon geçici, disiplin kalıcı.",
+          "advice": "Bugün en zor görevini ilk sıraya koy. Enerji yüksekken zor olanı bitir; geri kalan gün hafif geçiyor."
+        },
+        {
+          "meaning": "Cumartesi günü hata ve başarısızlıkla ilişkin sorgulanıyor. Hatayı nasıl karşılıyorsun; öğrenme mi, utanç mı? Bugün hata yapma korkun normalden daha belirgin ama aynı zamanda üstesinden gelmek de daha mümkün.",
+          "advice": "Bugün bir hatanı analiz et: ne ters gitti ve ne öğrendin? Utanç yerine analiz koy; bu dönüşüm asıl olgunluk."
+        },
+        {
+          "meaning": "Cumartesi günü sınır çizme gücün tetikleniyor. Hayır demek, vazgeçmek, geri adım atmak bugün daha kolay. Bu sertlik değil, olgunluk; her şeye evet demek gücü dağıtıyor.",
+          "advice": "Bugün bir şeye hayır de. Evet demenin kolay olduğu yerde hayır demek cesaret istiyor; o cesareti göster."
+        },
+        {
+          "meaning": "Cumartesi günü uzun vadeli taahhütlerin ağırlığı hissediliyor. Verdiğin sözler, başladığın projeler, sürdürdüğün ilişkiler bugün daha yoğun geliyor. Taahhüt hafif bir şey değil ama seni şekillendiren de o.",
+          "advice": "Bugün taahhütlerini gözden geçir: hangileri sana hizmet ediyor, hangileri yük? Yük olanı yeniden müzakere et; sessiz çekilme çözüm değil."
+        }
+      ]
+    }
+  ],
+  "zodiac": [
+    {
+      "key": "aries",
+      "name": "Koç",
+      "symbol": "♈",
+      "element": "Ateş",
+      "modality": "Öncü",
+      "ruler": "Mars",
+      "themes": [
+        "inisiyatif",
+        "cesaret",
+        "bağımsızlık",
+        "tutku",
+        "liderlik"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Koç burcundayken içindeki ateş hızlanıyor. Harekete geçme dürtüsün sertleşiyor, duygular ani ve yoğun akıyor. Başlangıç enerjisi yüksek ama frensiz cesaret seni uçuruma da sürükler.",
+          "advice": "İçgüdülerini dinle ama dürtünün kurbanı olma. İlk adımı at, ikinci adımı düşünmüş ol."
+        },
+        {
+          "meaning": "Ay Koç burcundayken sabırsızlık tırmanıyor. Beklemek seni sıkıştırıyor, hareketsizlik tahammülsüzlüğe dönüşüyor. Bu dürtü doğru kanala girerse ivme kazandırıyor; girmezse çevrendekilerle çatışma üretiyor.",
+          "advice": "Enerjini dışarı ver ama hedefsiz saçma. Bugün bir şeye başla; ama neye başladığını bilmeden koşma."
+        },
+        {
+          "meaning": "Ay Koç burcundayken bağımsızlık ihtiyacın keskinleşiyor. Kimseye danışmadan kendi kararını verme dürtüsün güçleniyor. Bu güçlü ama yalnız kalmakla bağımsız olmak arasındaki farkı gör.",
+          "advice": "Kendi yolunu çiz ama kapıları çarpmadan çık. Cesaretin gerçek testi başkalarına rağmen değil, kendinle dürüst olabilmek."
+        },
+        {
+          "meaning": "Ay Koç burcundayken liderlik dürtüsün tetikleniyor. Yönlendirme, organize etme, inisiyatif alma isteğin güçleniyor. Bu enerji grubu ileri taşır ama diktatörlüğe kayarsa uzaklaştırır.",
+          "advice": "Bugün öncülük et ama herkesi peşinden sürüklemeye çalışma. Gerçek lider yol gösterir, zorla yürütmez."
+        },
+        {
+          "meaning": "Ay Koç burcundayken ani değişim enerjisi yoğunlaşıyor. Uzun süredir ertelediğin bir kırılma noktasına yaklaşıyorsun. Bu hızlı enerji dönüştürücü ama kontrolsüz olursa yıkıcı.",
+          "advice": "Değişimi kucakla ama yangın çıkarma. Bugün hızlı ama bilinçli hamle yap; aceleyle yıkılan kolay onarılmaz."
+        }
+      ]
+    },
+    {
+      "key": "taurus",
+      "name": "Boğa",
+      "symbol": "♉",
+      "element": "Toprak",
+      "modality": "Sabit",
+      "ruler": "Venüs",
+      "themes": [
+        "istikrar",
+        "duyusallık",
+        "sabır",
+        "bolluk",
+        "sadakat"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Boğa burcundayken güvenlik ihtiyacın büyüyor, fiziksel dünya öne geçiyor. Maddi düzen ve konfor arayışı sertleşiyor. Değişime direncin artıyor ama istikrar alanında güçlü kararlar alıyorsun.",
+          "advice": "Bedenine, evine ve finanslarına özen göster. Yavaşlaman seni güçlendiriyor ama inatlaşmak kilitleniyor."
+        },
+        {
+          "meaning": "Ay Boğa burcundayken bedensel farkındalık yükseliyor. Ne yediğin, nasıl uyuduğun, neye dokunduğun bugün daha fazla önem taşıyor. Fiziksel konfor bir lüks değil, duygusal dengenin temeli.",
+          "advice": "Bugün bedenine kulak ver. Yorgunsa dinlen, açsa besle, sıkışmışsa hareket ettir. Basit ihtiyaçları ihmal etmek karmaşık sorunlar üretiyor."
+        },
+        {
+          "meaning": "Ay Boğa burcundayken sahiplenme dürtüsü sertleşiyor. Neyin sana ait olduğu sorusu büyüyor; ilişkilerde, işte, maddi dünyada. Koruma içgüdün güçlü ama kaybetme korkusuyla karıştırma.",
+          "advice": "Elindekine değer ver ama sıkıca tutmak kontrol değil, kaygı. Bugün gevşemeyi öğren; gerçekten sana ait olan zaten gitmez."
+        },
+        {
+          "meaning": "Ay Boğa burcundayken sabır kapasiten genişliyor. Hızlı sonuç beklentisi azalıyor, sürecin kendisi doyurucu olmaya başlıyor. Bu olgun ama sabır bahanesiyle hareketsiz kalma.",
+          "advice": "Bugün sürece güven ama beklerken ellerin boş olmasın. Sabırlı olmak hareketsiz olmak değil; yavaş ama istikrarlı ilerle."
+        },
+        {
+          "meaning": "Ay Boğa burcundayken değer sistemen sorgulanıyor. Neye değer veriyorsun ve neden? Maddi güvenlik mi, duygusal zenginlik mi, sosyal statü mü? Bugün öncelikler netleşiyor.",
+          "advice": "Bugün sahip olduğun şeylerin listesini yap; hangisi seni gerçekten besliyor? Değer verdiğin şeyin değerini sorgula."
+        }
+      ]
+    },
+    {
+      "key": "gemini",
+      "name": "İkizler",
+      "symbol": "♊",
+      "element": "Hava",
+      "modality": "Değişken",
+      "ruler": "Merkür",
+      "themes": [
+        "merak",
+        "iletişim",
+        "uyumluluk",
+        "zeka",
+        "ikililik"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay İkizler burcundayken zihin hızlanıyor, merak tetikleniyor. Duygular hızla yön değiştiriyor, birden fazla şeye aynı anda çekiliyorsun. İletişim ihtiyacın yükseliyor ama dağılma riski de büyüyor.",
+          "advice": "Konuş, yaz, bağlantı kur. Ama enerjini tek bir kanala topla; her şeye yetişmeye çalışmak hiçbirine yetişmemek demek."
+        },
+        {
+          "meaning": "Ay İkizler burcundayken bilgi açlığın büyüyor. Her konuya dalma isteğin var ama yüzeyden kaymak derinleşmekten kolay geliyor. Asıl soru hangi konunun gerçekten sana ait olduğu.",
+          "advice": "Merakını takip et ama her tavşan deliğine girme. Bugün bir konuyu derinlemesine anla; on konuyu yüzeyden geçmek seni doyurmuyor."
+        },
+        {
+          "meaning": "Ay İkizler burcundayken iç diyalogun yoğunlaşıyor. Kafanda iki ses aynı anda konuşuyor; biri diyor git, diğeri dur. Bu ikilik seni felç edebilir ama doğru kullanırsan her açıdan görebilirsin.",
+          "advice": "Kararsızlığı bir zayıflık olarak görme. Bugün iki tarafı da dinle, sonra tek bir karar ver ve arkana bakma."
+        },
+        {
+          "meaning": "Ay İkizler burcundayken sosyal enerji yükseliyor. İnsanlarla konuşma, fikir alışverişi, tartışma isteğin güçleniyor. Her sohbet yeni bir kapı açıyor ama yüzeysel kalmak kolay.",
+          "advice": "Bugün anlamlı bir sohbet başlat. Havadan sudan değil, gerçekten merak ettiğin bir konuda. Derinlik bağlantıyı güçlendiriyor."
+        },
+        {
+          "meaning": "Ay İkizler burcundayken uyum kapasiten genişliyor. Farklı ortamlara, insanlara, durumlara kolayca adapte oluyorsun. Bu güçlü ama her yere uyum sağlamak bazen kimliğini bulanıklaştırıyor.",
+          "advice": "Uyumlu ol ama kendini kaybetme. Bugün her ortamda aynı kişi kal; tutarlılık uyumdan daha değerli."
+        }
+      ]
+    },
+    {
+      "key": "cancer",
+      "name": "Yengeç",
+      "symbol": "♋",
+      "element": "Su",
+      "modality": "Öncü",
+      "ruler": "Ay",
+      "themes": [
+        "besleyicilik",
+        "ev",
+        "hafıza",
+        "duyarlılık",
+        "koruma"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Yengeç burcundayken duygusal hassasiyet zirve yapıyor. Aile, ev ve geçmişin seni geri çağırıyor. Koruma içgüdün sertleşiyor; kabuğuna çekilme eğilimin artıyor.",
+          "advice": "Duygularına alan ver, yakınlarına zaman ayır. Ama içine kapanmak ile kendini korumak arasındaki farkı gör."
+        },
+        {
+          "meaning": "Ay Yengeç burcundayken ev ve yuva kavramı öne çıkıyor. Güvende hissetme ihtiyacın büyüyor; fiziksel alanın duygusal durumunu yansıtıyor. Dağınık ev, dağınık zihin.",
+          "advice": "Yaşam alanını düzenle, yakınlarınla bağını tazele. Bugün dışarıya değil içeriye yatırım yap; güvenli bir temel her şeyi taşıyor."
+        },
+        {
+          "meaning": "Ay Yengeç burcundayken duygusal hafıza aktifleşiyor. Eski yaralar, çözülmemiş durumlar kendini hatırlatıyor. Bu acıtabilir ama yüzleşmekten kaçmak yarayı derinleştiriyor.",
+          "advice": "Geri gelen duyguyu yargılama; sadece fark et ve orada ol. Bugün şifa içe dönerek başlıyor, kaçarak değil."
+        },
+        {
+          "meaning": "Ay Yengeç burcundayken beslenme ve bakım enerjisi yoğunlaşıyor. Hem kendine hem yakınlarına bakma dürtüsün güçleniyor. Bu şefkat güçlü ama kendi ihtiyaçlarını en sona koyma.",
+          "advice": "Bugün önce kendini besle, sonra başkalarını. Boş bardaktan kimseye su verilemez; kendi doluluk seviyeni kontrol et."
+        },
+        {
+          "meaning": "Ay Yengeç burcundayken duygusal sınırlar bulanıklaşıyor. Kimin duygusu senin, kimin acısı sana ait? Bugün bu ayrım zorlaşıyor; empatinin sınırını tanı.",
+          "advice": "Bugün hissettiğin duygunun sana mı ait olduğunu sor. Başkasının yükünü taşımak şefkat değil, sınır ihlali."
+        }
+      ]
+    },
+    {
+      "key": "leo",
+      "name": "Aslan",
+      "symbol": "♌",
+      "element": "Ateş",
+      "modality": "Sabit",
+      "ruler": "Güneş",
+      "themes": [
+        "yaratıcılık",
+        "cömertlik",
+        "gurur",
+        "drama",
+        "sıcaklık"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Aslan burcundayken görünme ve ifade etme ihtiyacın büyüyor. Yaratıcı enerji tetikleniyor, cömertlik akıyor. Ama ego hassasiyetin de keskinleşiyor; takdir beklentisi seni kırılgan kılıyor.",
+          "advice": "Kendini cesurca ifade et, yeteneklerini paylaş. Alkışa bağımlı olmadan parla; gerçek ışık onay aramaz."
+        },
+        {
+          "meaning": "Ay Aslan burcundayken yaratıcı enerji yoğunlaşıyor. İçindeki bir şey dışarı çıkmak istiyor; bir fikir, bir proje, bir ifade. Bu dürtüyü bastırmak tıkanıklık yaratıyor.",
+          "advice": "Bugün bir şey yarat; büyük olması gerekmiyor, senin olması yeterli. Yaratıcılık mükemmellik değil, cesaret istiyor."
+        },
+        {
+          "meaning": "Ay Aslan burcundayken liderlik dürtüsün tetikleniyor. İnsanlara yön gösterme, sahne alma, organize etme isteğin büyüyor. Ama liderlik dikkat çekmek değil, sorumluluk almak.",
+          "advice": "Bugün öne çık ama sahneyi paylaş. Gerçek liderlik başkalarını da parlattığında ortaya çıkıyor."
+        },
+        {
+          "meaning": "Ay Aslan burcundayken coşku ve neşe enerjisi yükseliyor. Eğlenme, kutlama, keyif alma dürtüsün güçleniyor. Bu enerji bulaşıcı; çevrendekileri de canlandırıyor.",
+          "advice": "Bugün bir şeyi kutla; büyük olmak zorunda değil. Küçük zaferler, günlük güzellikler. Neşe ertelenecek bir şey değil."
+        },
+        {
+          "meaning": "Ay Aslan burcundayken onur ve saygınlık duygun hassaslaşıyor. Küçümsenme, görmezden gelinme bugün daha derinden acıtıyor. Bu hassasiyet haklı ama her şeyi kişisel algılama.",
+          "advice": "Bugün onurunu koru ama ego tuzağına düşme. Her eleştiri saldırı değil; hangisinin yapıcı olduğunu ayırt et."
+        }
+      ]
+    },
+    {
+      "key": "virgo",
+      "name": "Başak",
+      "symbol": "♍",
+      "element": "Toprak",
+      "modality": "Değişken",
+      "ruler": "Merkür",
+      "themes": [
+        "analiz",
+        "hizmet",
+        "hassasiyet",
+        "sağlık",
+        "alçakgönüllülük"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Başak burcundayken detaylara odak keskinleşiyor, düzen kurma dürtün tetikleniyor. Analitik bakışın güçleniyor ama mükemmeliyetçilik seni sıkıştırıyor. Her şeyi kontrol etme çabanın bedeli artıyor.",
+          "advice": "Organize ol, sağlığına bak, yardım eli uzat. Ama yeterli, mükemmelden daha güçlü; kusursuzluk peşinde kendini tüketme."
+        },
+        {
+          "meaning": "Ay Başak burcundayken eleştiri gözün keskinleşiyor. Hem kendinde hem çevrendeki eksikleri normalden daha net görüyorsun. Bu faydalı ama dozajını kaçırırsan yıpratıcı oluyor.",
+          "advice": "Gördüğün eksikleri düzelt ama her şeyi bugün çözmeye çalışma. En önemli üç şeyi seç, gerisini bırak."
+        },
+        {
+          "meaning": "Ay Başak burcundayken hizmet etme dürtüsü güçleniyor. Başkalarına yardım etmek seni besliyor ama kendi ihtiyaçlarını en sona koymak alışkanlığın da tetikleniyor.",
+          "advice": "Bugün yardım et ama önce kendine sor: ben ne ihtiyaç duyuyorum? Başkalarını kurtarmak kendi ihtiyaçlarından kaçış olmasın."
+        },
+        {
+          "meaning": "Ay Başak burcundayken problem çözme kapasiten güçleniyor. Karmaşık durumları parçalara ayırma ve sistematik çözüm üretme yeteneğin artıyor. Bu analitik güç bugün değerli.",
+          "advice": "Bugün bir sorunu ele al ve parçalarına ayır. Bütünü çözmek zor ama parçalar yönetilebilir; sistematik ol."
+        },
+        {
+          "meaning": "Ay Başak burcundayken sağlık farkındalığın yükseliyor. Bedeninden gelen sinyaller bugün daha yüksek sesiyle konuşuyor. İhmal ettiğin bir belirti, ertelediğin bir kontrol kendini hatırlatıyor.",
+          "advice": "Bugün bedenini dinle. O randevuyu al, o diyet değişikliğini başlat, o egzersizi yap. Ertelemek sorunu büyütüyor."
+        }
+      ]
+    },
+    {
+      "key": "libra",
+      "name": "Terazi",
+      "symbol": "♎",
+      "element": "Hava",
+      "modality": "Öncü",
+      "ruler": "Venüs",
+      "themes": [
+        "denge",
+        "adalet",
+        "ortaklık",
+        "güzellik",
+        "diplomasi"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Terazi burcundayken denge arayışı tetikleniyor, ilişkilerdeki adalet duygusu keskinleşiyor. İki tarafı da görmek seni askıda bırakıyor; karar vermek zorlaşan ama vazgeçilmez bir eşik.",
+          "advice": "İlişkilerine öncelik ver, dengeli çözümler ara. Ama kararsızlık seni felç etmesin; bir taraf seç ve yürü."
+        },
+        {
+          "meaning": "Ay Terazi burcundayken uyum ihtiyacın yükseliyor. Çatışma seni normalden daha çok rahatsız ediyor, barışı koruma dürtüsün sertleşiyor. Ama her zaman uyumlu olmak bazen kendinden vazgeçmek.",
+          "advice": "Barışı korumak için kendini feda etme. Bugün asıl denge seni de kapsayan bir denge; sadece karşı tarafı değil."
+        },
+        {
+          "meaning": "Ay Terazi burcundayken estetik duyarlılığın artıyor. Çevrendeki uyumsuzluklar, kaba davranışlar, görsel karmaşa seni rahatsız ediyor. Bu hassasiyet bir pusula; seni neyin beslediğini gösteriyor.",
+          "advice": "Bugün güzelliğe ve uyuma vakit ayır. Ama güzellik sadece dışarıda değil; iç huzurun da bir estetik biçimi."
+        },
+        {
+          "meaning": "Ay Terazi burcundayken ilişki kalitesi sorusu öne çıkıyor. Kimlerle vakit geçirdiğin bugün daha belirgin. Seni besleyen ilişkiler ile tüketen ilişkiler arasındaki fark netleşiyor.",
+          "advice": "Bugün ilişkilerini değerlendir. Hangisi seni büyütüyor, hangisi küçültüyor? Kalite miktardan önemli; az ama derin bağlantılar kur."
+        },
+        {
+          "meaning": "Ay Terazi burcundayken iç barış arayışın derinleşiyor. Dışarıdaki kaostan bağımsız bir huzur arayışın güçleniyor. Ama iç barış çatışmalardan kaçmak değil, onları çözmek.",
+          "advice": "Bugün iç huzurunu dışarıya bağlama. Koşullar değişmese de tutumun değişebilir; barış dışarıda değil içeride başlıyor."
+        }
+      ]
+    },
+    {
+      "key": "scorpio",
+      "name": "Akrep",
+      "symbol": "♏",
+      "element": "Su",
+      "modality": "Sabit",
+      "ruler": "Plüton / Mars",
+      "themes": [
+        "dönüşüm",
+        "derinlik",
+        "yoğunluk",
+        "gizem",
+        "güç"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Akrep burcundayken duygular derinleşiyor ve yoğunlaşıyor. Yüzeyin altındaki gerçekler tetikleniyor, eski yaralar açılıyor. Kontrol ihtiyacın sertleşiyor ama tam da bırakmak için doğru zaman.",
+          "advice": "Derinliği kucakla, artık sana hizmet etmeyeni bırak. Kontrol etmeye çalıştığın şey aslında seni kontrol ediyor."
+        },
+        {
+          "meaning": "Ay Akrep burcundayken sezgisel güç yoğunlaşıyor. İnsanların yüzeyinin altını okuyorsun; niyetleri, gizlediklerini, söylemediklerini. Bu keskin ama bu güçle ne yapacağın sana kalmış.",
+          "advice": "Gördüğünü silah olarak değil, anlama aracı olarak kullan. Bugün derinlik seni güçlendiriyor ama manipülasyona dönüştürme."
+        },
+        {
+          "meaning": "Ay Akrep burcundayken dönüşüm enerjisi tetikleniyor. Bir şeyin bitmesi yenisinin doğmasını sağlıyor. Bitirme, bırakma, geçmişteki bir bölümü kapatma dürtüsü güçlü.",
+          "advice": "Bitmesi gereken şeyi bugün bitir. Uzatmak acıyı çoğaltıyor; temiz bir kesim dağınık bir sürünmeden daha az acıtır."
+        },
+        {
+          "meaning": "Ay Akrep burcundayken güven sorusu sertleşiyor. Kime güvendiğin ve neden güvendiğin bugün sorgulanıyor. Güven körü körüne verilmez; kazanılır ve korunur.",
+          "advice": "Bugün güvenini kimseye ucuza verme. Ama güvensizliği kalkan yapıp herkesi uzak tutma da; arada bir çizgi var."
+        },
+        {
+          "meaning": "Ay Akrep burcundayken cinsellik, tutku ve yoğun bağlanma enerjisi tetikleniyor. Yüzeysel temas bugün seni tatmin etmiyor; derinlik arıyorsun. Bu yoğunluk bağlayıcı ama boğucu da olur.",
+          "advice": "Bugün yoğunluğu kucakla ama bağımlılığa çevirme. Tutku güçlü bir yakıt; ama kontrolsüz yanarsa ikisini de yakar."
+        }
+      ]
+    },
+    {
+      "key": "sagittarius",
+      "name": "Yay",
+      "symbol": "♐",
+      "element": "Ateş",
+      "modality": "Değişken",
+      "ruler": "Jüpiter",
+      "themes": [
+        "özgürlük",
+        "felsefe",
+        "macera",
+        "iyimserlik",
+        "gerçek"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Yay burcundayken özgürlük arayışı büyüyor, macera dürtüsün tetikleniyor. İyimserlik yükseliyor ama sorumluluktan kaçma eğilimin de artıyor. Büyük düşünmek güçlü ama ayakların yere bassın.",
+          "advice": "Keşfet, öğren, büyük düşün. Ama kaçış ile keşif arasındaki çizgiyi gör; sorumluluktan kaçarak özgürleşemezsin."
+        },
+        {
+          "meaning": "Ay Yay burcundayken anlam arayışı derinleşiyor. \"Neden yapıyorum?\" sorusu bugün daha yüksek sesiyle geliyor. Rutinin seni boğduğunu hissediyorsun; anlamsız tekrar seni yıpratıyor.",
+          "advice": "Yaptığın işin anlamını sorgula. Cevap yoksa ya anlam yarat ya da o işi bırak. Bugün anlamsız devam etmek en büyük enerji kaybı."
+        },
+        {
+          "meaning": "Ay Yay burcundayken doğruyu söyleme dürtüsün sertleşiyor. Diplomasi bugün sana yapay geliyor, filtresiz konuşma isteğin artıyor. Bu dürüstlük güçlü ama dozajını kaçırırsan kırıcı oluyor.",
+          "advice": "Doğruyu söyle ama kırarak değil. Bugün dürüstlük ile acımasızlık arasındaki çizgiyi koru; gerçek sevgiyle söylenince yapıcı olur."
+        },
+        {
+          "meaning": "Ay Yay burcundayken humor ve espri kapasiten güçleniyor. Hayatı daha hafif alma, gülebilme yeteneğin artıyor. Bu enerji iyileştirici; ama ciddi konuları küçümseme aracı olarak kullanma.",
+          "advice": "Bugün gül ve güldür. Hayat her zaman ağır olmak zorunda değil. Ama espriyi savunma mekanizması yapma; komedi kaçış olmasın."
+        },
+        {
+          "meaning": "Ay Yay burcundayken bağımsızlık ve taahhüt arasındaki gerilim tırmanıyor. Özgür kalmak istiyorsun ama bağlanmanın gücünü de hissediyorsun. Bu ikilem çözülmez; yönetilir.",
+          "advice": "Bugün bağlanmayı hapis olarak görme. Doğru taahhüt seni kısıtlamaz, güçlendirir. Özgürlük sorumluluktan kaçmak değil."
+        }
+      ]
+    },
+    {
+      "key": "capricorn",
+      "name": "Oğlak",
+      "symbol": "♑",
+      "element": "Toprak",
+      "modality": "Öncü",
+      "ruler": "Satürn",
+      "themes": [
+        "hırs",
+        "disiplin",
+        "otorite",
+        "miras",
+        "yapı"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Oğlak burcundayken disiplin ve hedef odağı sertleşiyor. Pratiklik duyguyu geçiyor, uzun vadeli inşa enerjisi tetikleniyor. Duygusal kabuğunu kalınlaştırıyorsun ama içindekiler birikmeye devam ediyor.",
+          "advice": "Hedeflerini netleştir, çalış, taahhütlerini koru. Ama duyguyu görevin arkasına saklamak seni içten içe yıpratıyor."
+        },
+        {
+          "meaning": "Ay Oğlak burcundayken otorite sorusu öne çıkıyor. Kimin kurallarıyla yaşıyorsun? Kendi otoriteni mi kuruyorsun yoksa başkasının çizdiği sınırlarda mı yürüyorsun?",
+          "advice": "Bugün bir alanda kendi kuralını koy. Başkasının yapısına uymak güvenli ama sınırlayıcı; kendi yapını inşa etmek riskli ama özgürleştirici."
+        },
+        {
+          "meaning": "Ay Oğlak burcundayken uzun vadeli düşünme kapasiten güçleniyor. Anlık tatmin yerine kalıcı sonuçlara yöneliyorsun. Bu olgun ama bugünün küçük zevklerini tamamen ihmal etmek de bir tür cimrilik.",
+          "advice": "Geleceği planla ama bugünü yaşamayı unutma. Sürekli yarın için çalışmak bugünü kaçırmak demek; denge kur."
+        },
+        {
+          "meaning": "Ay Oğlak burcundayken liyakat ve hak etme sorusu öne çıkıyor. Emekle kazanılmamış hiçbir şey seni tatmin etmiyor. Bu disiplin güçlü ama kendine de lütuf göstermeyi öğren.",
+          "advice": "Bugün emeğinin karşılığını al ama hediye kabul etmeyi de öğren. Her şeyi hak etmek zorunda değilsin; bazen almak da bir beceri."
+        },
+        {
+          "meaning": "Ay Oğlak burcundayken yapı ve düzen ihtiyacın sertleşiyor. Kaos seni normalden daha çok rahatsız ediyor. Bu düzen arayışı verimli ama spontanlığı öldürmesin.",
+          "advice": "Bugün bir alanını yapılandır ama her şeyi kontrol etmeye çalışma. Düzen güçlü ama esneklik olmadan kırılgan; kontrol ile akış arasında denge kur."
+        }
+      ]
+    },
+    {
+      "key": "aquarius",
+      "name": "Kova",
+      "symbol": "♒",
+      "element": "Hava",
+      "modality": "Sabit",
+      "ruler": "Uranüs / Satürn",
+      "themes": [
+        "yenilik",
+        "özgürlük",
+        "topluluk",
+        "isyan",
+        "vizyon"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Kova burcundayken bireysellik ve bağımsızlık ihtiyacın tetikleniyor. Kolektif düşünce güçleniyor, alışıldık kalıplar sorgulanıyor. Ama yakınlarından duygusal uzaklaşma riski büyüyor.",
+          "advice": "Farklı düşün, topluluğuna bağlan, alışıldık dışına çık. Ama yakınlarından uzaklaşmak özgürlük değil; bağlantı kurmadan bağımsız olamazsın."
+        },
+        {
+          "meaning": "Ay Kova burcundayken yenilik dürtüsü tetikleniyor. Eski yöntemler seni sıkıyor, farklı bir yaklaşım arıyorsun. Bu yenilikçi enerji güçlü ama farklı olmak için farklı olmak içi boş kalıyor.",
+          "advice": "Yeniliği amaçsız deneme; gerçek inovasyon bir sorunu çözüyor. Bugün neyi değiştirmek istediğini ve neden istediğini netleştir."
+        },
+        {
+          "meaning": "Ay Kova burcundayken topluluk bilincin güçleniyor. Bireysel değil kolektif düşünüyorsun; daha büyük resmi görme kapasiten artıyor. Ama kalabalıkta kaybolma riski de var.",
+          "advice": "Topluluğuna katkı sun ama kendi sesini kaybetme. Bugün hem bağlan hem bağımsız kal; bu gerilim seni besliyor."
+        },
+        {
+          "meaning": "Ay Kova burcundayken teknoloji ve yenilik ilgin artıyor. Dijital araçlar, yeni sistemler, otomasyonlar bugün daha çekici. Bu ileri bakış güçlü ama insan bağlantısını teknolojiye kurban verme.",
+          "advice": "Bugün bir teknolojiyi öğren veya bir sistemi optimize et. Ama ekranı kapat ve gerçek bir insanla da konuş; denge şart."
+        },
+        {
+          "meaning": "Ay Kova burcundayken sosyal adalet duygun güçleniyor. Eşitsizlikler, haksızlıklar bugün daha derinden rahatsız ediyor. Bu duyarlılık değerli; onu eyleme dönüştür.",
+          "advice": "Bugün bir sosyal konuda sesini çıkar ya da somut bir adım at. Değişim büyük devrimlerle değil, küçük eylemlerle başlıyor."
+        }
+      ]
+    },
+    {
+      "key": "pisces",
+      "name": "Balık",
+      "symbol": "♓",
+      "element": "Su",
+      "modality": "Değişken",
+      "ruler": "Neptün / Jüpiter",
+      "themes": [
+        "sezgi",
+        "şefkat",
+        "rüyalar",
+        "maneviyat",
+        "teslim olma"
+      ],
+      "variants": [
+        {
+          "meaning": "Ay Balık burcundayken sezgi zirve yapıyor, sınırlar bulanıklaşıyor. Yaratıcılık ve şefkat akıyor ama duygusal aşırı yüklenme riski tetikleniyor. Hassasiyetin hem gücün hem kırılgan noktan.",
+          "advice": "Dinlen, hayal kur, yarat. Ama enerjini boşaltan ortamlardan koru; hassasiyetin gücündür, onu savunmasız bırakma."
+        },
+        {
+          "meaning": "Ay Balık burcundayken hayal gücü genişliyor. Gerçeklik ile fantezi arasındaki sınır inceliyor; bu yaratıcılık için güçlü ama kaçış için tehlikeli. Nerede olduğunun farkında kal.",
+          "advice": "Hayal kur ama hayalin içinde kaybolma. Bugün yaratıcılığını somut bir şeye dönüştür; kafanda kalan fikir enerji tüketiyor."
+        },
+        {
+          "meaning": "Ay Balık burcundayken empati kapasiten yükseliyor. Başkalarının acısını kendi bedeninde hissediyorsun. Bu derin bir bağlantı gücü ama sınır koymazsan seni eritiyor.",
+          "advice": "Başkasının acısını taşımak senin görevin değil. Bugün şefkat göster ama kendi enerjini koru; boş bardaktan kimseye su verilemez."
+        },
+        {
+          "meaning": "Ay Balık burcundayken spiritüel arayış derinleşiyor. Maddi dünyanın ötesinde bir anlam arıyorsun. Bu arayış besleyici ama gerçeklikten kopmak yerine onu zenginleştirmek için kullan.",
+          "advice": "Bugün iç dünyana dal ama dünyevi sorumluluklarını ihmal etme. Maneviyat kaçış değil, hayatı daha derin yaşama aracı."
+        },
+        {
+          "meaning": "Ay Balık burcundayken bağışlama kapasiten genişliyor. Kırgınlıkları bırakma, eski yaraları kabul etme enerjisi bugün daha erişilebilir. Affetmek unutmak değil; yükü taşımayı bırakmak.",
+          "advice": "Bugün bir kırgınlığı bırak. Karşı taraf için değil, kendin için. Affetmek seni zayıflatmaz, hafifletir."
+        }
+      ]
+    }
+  ],
+  "planetElements": {
+    "sun": "fire",
+    "moon": "water",
+    "mars": "fire",
+    "mercury": "air",
+    "jupiter": "fire",
+    "venus": "earth",
+    "saturn": "earth"
+  },
+  "elementSynergy": {
+    "fire_fire": "İki ateş enerjisi birbirini alevlendiriyor. Tutku, cesaret ve yaratıcı ivme yükseliyor. Bu çifte ateşi somut bir eyleme dönüştür; istek kaybolmadan hamle yap.",
+    "fire_earth": "Ateşin hamlesi Toprağın sabrıyla buluşuyor. Vizyonu kalıcı forma dönüştürmek için güçlü bir zemin var. Cesurca başla, ardından istikrarlı biçimde inşa et.",
+    "fire_air": "Ateş ve Hava birbirini besliyor. İlham hızla çakıyor, fikirler özgürce akıyor. Bugün seni hareket ettiren şeyi konuş, yaz ve paylaş.",
+    "fire_water": "Ateşin hırsı Suyun sezgisiyle yumuşuyor. Egonun değil, kalbin sesinden hareket et. Duygusal dürüstlük gerçek ilerlemeyi besliyor.",
+    "earth_fire": "Toprak Ateşin huzursuzluğunu temelliyor. Bugünün coşkusunu somut adımlar atarak kullan. Şimdiki pratik hamle yarının atılımını yaratıyor.",
+    "earth_earth": "Çifte Toprak enerjisi maddi gerçekliğe olağanüstü bir odak getiriyor. Fiziksel, finansal ve pratik konulara sabırlı ve metodolojik bir dikkatle yaklaş.",
+    "earth_air": "Toprak Havanın uçuşunu sabitliyor. Fikirleri işe yarar planlara dönüştürmek için ideal bir gün. Vizyonunu yere indir, ilk gerçek adımı belirle.",
+    "earth_water": "Toprak ve Su birbirini besliyor. Şifa, yaratıcılık ve sabırlı duygusal büyüme için verimli bir enerji var. Seni besleyene özen göster.",
+    "air_fire": "Hava Ateşin alevlerini körüklüyor. Zihinsel berraklık tutkulu hareketle buluşuyor. Keskin düşünceni coşkunla birleştir ve anlamlı bir hedefe yönlendir.",
+    "air_earth": "Hava Toprağı aydınlatıyor. Pratik konulara analitik düşünce uygulamak için doğru zaman. Yapıları planla, sayıları değerlendir, planını net biçimde ilet.",
+    "air_air": "Çifte Hava algıyı ve iletişimi keskinleştiriyor. Fikir alışverişi yap, sorular sor; merakın seni yeni bir anlayışa taşıyor.",
+    "air_water": "Havanın mantığı Suyun sezgisiyle buluşuyor. Satır aralarını okumak için güçlü bir bileşim. Bugün hem analizine hem duygularına yaslan.",
+    "water_fire": "Su Ateşin aciliyetini serinletiyor. Bilgelikle dengelenmiş bir tutkuyla ilerle. Hangi mücadelenin değer taşıdığını duygularının rehberliğine bırak.",
+    "water_earth": "Su Toprağı yumuşatıyor. Derin beslenme, onarım ve yaratıcı sabır destekleniyor. Köklere özen göster: beden, ev ve ilişkiler.",
+    "water_air": "Suyun duygusu Havanın düşüncesiyle buluşuyor. Duygularını yazarak, konuşarak veya yaratarak işle. İç berraklık dışsal ifadeye dönüşüyor.",
+    "water_water": "Çifte Su duyarlılığı ve sezgiyi derin seviyelere taşıyor. Dinlen, yansıt ve iç dünyandan gelen sinyallere dikkat et."
+  },
+  "phaseAdvice": {
+    "new_moon": {
+      "general": "{planet} ve {zodiac} altında Yeni Ay içe dönüşü tetikliyor. Sessizlik seni rahatsız ediyorsa tam da orada durman gereken bir şey var. Bugün başlatacağın niyetin gücü, ona ne kadar dürüst başladığınla orantılı.",
+      "love": "Duygusal ihtiyaçların {zodiac} enerjisiyle netleşiyor. Yeni bir bağlantıya alan açmak istiyorsan önce eskiyle hesaplaş.",
+      "career": "{planet} ve {zodiac} altında büyük hamleler değil, net bir hedef belirleme zamanı. Kafandaki bulanıklığı dağıt; strateji gürültüde değil sessizlikte şekilleniyor.",
+      "spiritual": "İç sesin yükseliyor. {planet} enerjisi seni dışarıya değil kendine çeviriyor. Yanıtlar başkalarında değil, senin sessizliğinde bekliyor.",
+      "sentences": [
+        "Sessizlikte ek, gürültüde değil.",
+        "Bugün tohumunu dik, yarın köklensin.",
+        "Niyet netse yol açılır.",
+        "Dürüst niyet derin kök salar.",
+        "Başlamak için hazır ol, mükemmel değil."
+      ]
+    },
+    "waxing_crescent": {
+      "general": "Hilal Ay {planet} ve {zodiac} enerjisiyle ivme kazandırıyor. Yeni Ay'da belirlediğin niyet şimdi somut bir adım bekliyor. Düşünmek aşaması bitti, hareket zamanı.",
+      "love": "İlgi göster, küçük bir jest yap, ilk adımı at. {zodiac} altında bekleme modunda kalmak seni korumaz, uzaklaştırır.",
+      "career": "Hedefe giden yolda tek bir somut adım at. {planet} ve {zodiac} altında küçük ama kararlı bir hamle, planla dolu ama hareketsiz bir haftadan daha fazla taşır.",
+      "spiritual": "Niyetini eylemle test et. {planet} enerjisi kafanda güzel duran her şeyi gerçekle temas ettiriyor. Şekil değiştiriyorsa bu iyi bir şey.",
+      "sentences": [
+        "Düşünmeyi bırak, ilk adımı at.",
+        "Küçük bir hamle büyük bir döngü başlatır.",
+        "Hareket güveni inşa eder, bekleme değil.",
+        "Bekleme, başla; geri kalanı yolda şekillenir.",
+        "İlk adım cesarettir, ikincisi alışkanlık."
+      ]
+    },
+    "first_quarter": {
+      "general": "İlk Dördün Ay {planet} ve {zodiac} altında sürtünmeyi artırıyor. Karar vermekten kaçındığın bir şey seni sıkıştırıyor. Bu gerilim seni kırmak için değil, netleştirmek için burada.",
+      "love": "Ertelediğin konuşma bugün seni buluyor. {zodiac} enerjisi doğrudanlığı destekliyor; sert gelse de belirsizlikten daha az acıtır.",
+      "career": "Bir engel çıkıyorsa dur işareti değil, kalite testi. {planet} ve {zodiac} altında seni neyin yavaşlattığını belirle ve doğrudan müdahale et.",
+      "spiritual": "Hangi korku seni geri çekiyor? {planet} altında içindeki dirençle yüzleş. Onu adlandır; adlandırdığın an gücünü kaybediyor.",
+      "sentences": [
+        "Gerilim seni kırmıyor, netleştiriyor.",
+        "Kaçınmak çözüm değil, karar ver.",
+        "Sürtünme yön gösteriyor; dinle.",
+        "Zoru seç, kolay olan seni büyütmüyor.",
+        "Kararın arkasında dur, tereddüt eriyor."
+      ]
+    },
+    "waxing_gibbous": {
+      "general": "Şişkin Ay {planet} ve {zodiac} altında ince ayar zamanını getiriyor. Hedefe yakınsın ama detaylar eksik. Cilalamak, düzeltmek, son hamle öncesi kendinle dürüst olmak; bugünün işi bu.",
+      "love": "Yeni arayışlar yerine var olan bağlantının derinliğine bak. {zodiac} altında yüzeydeki sorunları görmezden gelmek ileride büyütüyor.",
+      "career": "Çalışmanı eleştirel gözle incele. {planet} enerjisi detaylarda kaybolmadan son iyileştirmeleri yapmana alan açıyor. Mükemmeliyetçilik değil, netlik peşinde ol.",
+      "spiritual": "{planet} ve {zodiac} altında niyetinle şu anki yönünü karşılaştır. Sapma varsa düzelt, yoksa devam et. Kendine dürüst ol.",
+      "sentences": [
+        "Son hamleden önce dur ve detayı gör.",
+        "Cilala, düzelt, tamamlanmaya yakınsın.",
+        "İnce ayar bugünün gücü.",
+        "Eksik gördüğün yer gelişim alanın.",
+        "Detay fark yaratır; bugün detaya bak."
+      ]
+    },
+    "full_moon": {
+      "general": "Dolunay {planet} ve {zodiac} altında her şeyi aydınlatıyor. Gizlediğin ya da görmezden geldiğin ne varsa yüzeye çıkıyor. Netlik rahat gelmiyor ama karanlıkta kalmak daha çok acıtıyor.",
+      "love": "İlişkilerindeki gerçek tablo ortaya çıkıyor. {zodiac} enerjisi kutlanacak olanı da bırakılacak olanı da aynı anda gösteriyor. Bugün ikisini de gör.",
+      "career": "Ne kadar yol aldığını fark et. {planet} altında sonuç ortada ama sana hizmet etmeyeni taşımaya devam etme.",
+      "spiritual": "İç dünyan aydınlanıyor. {planet} ve {zodiac} altında karanlıkta bıraktığın ne varsa bugün görünür oluyor. Bakma cesaretini göster.",
+      "sentences": [
+        "Gördüğünle yüzleş, kaçma.",
+        "Işık her şeyi gösteriyor; bak.",
+        "Netlik acıtır ama karanlıktan iyidir.",
+        "Aydınlık rahatsız eder ama gerekli.",
+        "Gerçeği gör; geri kalanı düşer."
+      ]
+    },
+    "waning_gibbous": {
+      "general": "{planet} ve {zodiac} altında Azalan Ay paylaşım enerjisini tetikliyor. Aldığını sindirme ve geri verme zamanı. Biriktirmek seni ağırlaştırıyor; deneyimini aktarmak hem seni hem karşındakini hafifletiyor.",
+      "love": "İlişkilerinde açık konuş. {zodiac} enerjisi öğrendiklerini paylaşmanı ve dinlemeye alan açmanı destekliyor. Tek taraflı iletişim bağlantıyı zayıflatıyor.",
+      "career": "Neyin işe yarayıp yaramadığını değerlendir. Bilgini paylaş, delege et. {planet} altında her şeyi tek başına taşımak seni yavaşlatıyor.",
+      "spiritual": "Bildiklerini aktarma zamanı. Öğretmek öğrenmeyi derinleştiriyor; {zodiac} enerjisi ama öğretirken dinlemeyi de sürdürmeni istiyor.",
+      "sentences": [
+        "Aldığını geri ver, biriktirme.",
+        "Paylaşmak seni hafifletiyor.",
+        "Deneyimini aktar, içinde tutma.",
+        "Verdiğin seni zenginleştiriyor.",
+        "Bilgiyi paylaş, değeri katlanır."
+      ]
+    },
+    "last_quarter": {
+      "general": "Son Dördün Ay {planet} ve {zodiac} altında dürüst bir yüzleşmeyi dayatıyor. Hangi alışkanlığı, inancı ya da durumu hala taşıyorsun? Bırakmak zayıflık değil; taşımaya devam etmek seni yavaşlatıyor.",
+      "love": "İşe yaramayan kalıpları gör. Tekrar eden aynı sorun, aynı kaçış. {zodiac} altında döngüyü kırmak bugün sende.",
+      "career": "Meyve vermeyen projeleri ya da yaklaşımları bırak. {planet} enerjisi bugünkü dürüst değerlendirmeyi destekliyor; yarınki boşa harcanan enerjiyi kesiyor.",
+      "spiritual": "Affetmen gereken ne var? Başkalarını değil, önce kendini. {planet} ve {zodiac} altında taşıdığın yük çoğu zaman senin kendi yargın.",
+      "sentences": [
+        "Taşımayı bırak, yürümeye devam et.",
+        "Bitmesi gereken şeyi bugün bitir.",
+        "Bırakmak ilerlemektir.",
+        "Bitirmek yeni başlangıcın şartı.",
+        "Ağırlığı bırak, hızlan."
+      ]
+    },
+    "waning_crescent": {
+      "general": "Azalan Hilal {planet} ve {zodiac} altında yavaşlamayı zorunlu kılıyor. Zorlamak bu fazda seni ilerletmiyor, yıpratıyor. Dinlenmek pasiflik değil, sonraki hamle için enerji biriktirmek.",
+      "love": "Performans göstermeden var ol. Sevdiklerinle sessizce zaman geçir. {zodiac} enerjisi her anı doldurmak zorunda olmadığını hatırlatıyor.",
+      "career": "Yeni girişimler başlatma. Sarkan uçları bağla, temizlik yap, alan aç. {planet} altında toprağı dinlendirmeden ekim yapılmaz.",
+      "spiritual": "Zihnini yavaşlat. Cevap aramayı durdur. {planet} ve {zodiac} altında en net görüş boş bir zihinde oluşuyor.",
+      "sentences": [
+        "Yavaşla, zorlamak şimdi seni ilerletmiyor.",
+        "Dinlenmek en güçlü hamle.",
+        "Dur, nefes al, yenilenmeye bırak kendini.",
+        "Dinlenmek de bir eylemdir.",
+        "Boş kalmak dolmaya hazırlık."
+      ]
+    },
+    "balsamic_moon": {
+      "general": "Balsamik Ay {planet} ve {zodiac} altında en derin dinlenme alanını açıyor. Yeni Ay'dan önceki son karanlık bu. Burada yapılacak tek iş bırakmak ve boşluğa alan vermek. Doldurmaya çalışma.",
+      "love": "Bağlantılarında bir şey bitiyorsa bitsin. Yapay canlılık seni tüketiyor. {zodiac} enerjisi altında boşluk yeni bir şeyin habercisi.",
+      "career": "Kontrol etmeyi bırak. Ne sonuçlanacaksa sonuçlanıyor. {planet} altında senin müdahalen şu an fark yaratmıyor.",
+      "spiritual": "Sessizliğe gir. Yanıt aramayı durdur. {planet} ve {zodiac} altında bu fazda cevaplar sana geliyor, sen onlara gitmiyorsun.",
+      "sentences": [
+        "Karanlıkta kal, doldurmaya çalışma.",
+        "Boşluk dolmayı bekliyor; sabret.",
+        "Sessizlik cevapları taşıyor.",
+        "Bırak gitsin, yeri dolacak.",
+        "Son karanlık, ilk ışığın habercisi."
+      ]
+    },
+    "disseminating_moon": {
+      "general": "Yayıcı Ay {planet} ve {zodiac} altında deneyimlerini aktarma enerjisini tetikliyor. Öğrendiğin şeyler sende kalırsa küçülüyor; paylaşınca hem sen hem karşındaki büyüyor.",
+      "love": "İlişkilerinde deneyimlerinden konuş. Öğretici olmadan, sadece dürüstçe. {zodiac} enerjisi altında \"benim için böyle oldu\" cümlesi bağlantıyı derinleştiriyor.",
+      "career": "Bilgini aktar, mentorluk yap, ekibinle paylaş. {planet} altında bilgiyi tekeline almak seni vazgeçilmez yapmıyor, yalnızlaştırıyor.",
+      "spiritual": "Öğrendiklerini yaşayarak göster. Söylemek değil uygulamak. {planet} ve {zodiac} altında bugün aksiyonun sözden daha güçlü.",
+      "sentences": [
+        "Bildiklerini paylaş, biriktirmek küçültüyor.",
+        "Öğretmek seni de büyütüyor.",
+        "Aktardığın bilgi sende de derinleşiyor.",
+        "Deneyimin en iyi öğretmen; paylaş.",
+        "Aktardıkça büyüyorsun."
+      ]
+    }
+  }
+}

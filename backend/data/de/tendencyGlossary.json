@@ -1,0 +1,23 @@
+{
+  "_comment": "Card tendency glossary — Yes/No v2.1 (Deutsch)",
+  "_version": "2.1",
+  "baseTendency": {
+    "strong_yes": "Eindeutiges Ja - starke, klare und unmissverständliche Bejahung (Beispiel: Sonne, Erde)",
+    "yes": "Ja - unterstützend, fließender positiver Trend",
+    "uncertain": "Ungewiss - abhängig von den Umständen, der Zeit oder der inneren Klarheit",
+    "no": "Nein - die derzeitigen Bedingungen sind nicht förderlich für Fortschritte",
+    "strong_no": "Definitives Nein - harter Stopp, Abriss oder Schließungsenergie (Beispiel: Tower)"
+  },
+  "orientationImpact": {
+    "low": "Der Archetyp ist stark; die Hauptaussage bleibt weitgehend erhalten, auch wenn die Karte umgedreht wird",
+    "standard": "Der Umkehreffekt ist normal; die Klarheit wird verringert, Bedingungen kommen ins Spiel",
+    "high": "Die Zweideutigkeit ist stark ausgeprägt; in der umgekehrten Position ist die Bedeutung stark verwischt"
+  },
+  "reversalStyle": {
+    "delay": "Delay - in die richtige Richtung, aber der Zeitpunkt ist noch nicht reif",
+    "internal": "Innere Barriere - Angst, Unentschlossenheit oder Selbstsabotage",
+    "shadow": "Schattenbereich - verdrängte Gefühle, verleugnete Realität oder unbewusster Einfluss",
+    "imbalance": "Ungleichgewicht - übermäßige Kontrolle, übermäßige Emotionen oder Orientierungslosigkeit",
+    "blocked": "Blockade - die Energie fließt nicht, es gibt ein äußeres oder inneres Hindernis"
+  }
+}

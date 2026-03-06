@@ -1,0 +1,786 @@
+{
+  "_comment": "78 Tarot kartının kökeni, hikayesi ve sembolizmi — Türkçe, max 200 karakter",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "Deli",
+      "image": "00_fool",
+      "arcana": "major",
+      "number": "0",
+      "suit": null,
+      "element": "hava",
+      "history": "Ortaçağ saray soytarısından doğdu. Numarasız tek büyük arkana; hem başlangıç hem son. Uçurumun kenarında yürür çünkü bilgelik bazen çılgınlıkta gizlidir. İtalyan 'Il Matto' geleneğinden gelir."
+    },
+    {
+      "id": 1,
+      "name": "Büyücü",
+      "image": "01_magician",
+      "arcana": "major",
+      "number": "I",
+      "suit": null,
+      "element": "hava",
+      "history": "Eski İtalyan destelerinde 'Il Bagatto' yani sokak hokkabazı. Masasında dört element sembolü bulunur. Yukarıyı aşağıya bağlayan kanal; irade ve tezahür gücünün arketipidir."
+    },
+    {
+      "id": 2,
+      "name": "Azize",
+      "image": "02_high_priestess",
+      "arcana": "major",
+      "number": "II",
+      "suit": null,
+      "element": "su",
+      "history": "Kökleri Papalık dönemine uzanır; 'Papess Johanna' efsanesinden esinlenildi. İki sütun arasında oturur: Süleyman Tapınağı'nın Boaz ve Yakin sütunları. Sezginin ve gizli bilginin koruyucusu."
+    },
+    {
+      "id": 3,
+      "name": "İmparatoriçe",
+      "image": "03_empress",
+      "arcana": "major",
+      "number": "III",
+      "suit": null,
+      "element": "toprak",
+      "history": "Venüs gezegeniyle ilişkili ana tanrıça arketipi. Demeter, İştar ve Freyja'nın izlerini taşır. Buğday tarlaları ve akan su ile çevrilir; bereket, yaratıcılık ve doğanın döngüsel gücünü simgeler."
+    },
+    {
+      "id": 4,
+      "name": "İmparator",
+      "image": "04_emperor",
+      "arcana": "major",
+      "number": "IV",
+      "suit": null,
+      "element": "ateş",
+      "history": "Koç burcuyla ilişkili Mars enerjisi taşır. Roma imparatorlarından esinlenen taş taht, otorite ve düzenin sembolü. Dört köşe yapı ve koç başları; kuralları koyan, sınırları çizen baba arketipidir."
+    },
+    {
+      "id": 5,
+      "name": "Aziz",
+      "image": "05_hierophant",
+      "arcana": "major",
+      "number": "V",
+      "suit": null,
+      "element": "toprak",
+      "history": "Eski Yunan 'hierophantes' yani kutsal sırları açan kişi. Eleusis Gizemlerinin baş rahibinden gelir. Üçlü taç ve çapraz anahtarlar; gelenek, öğreti ve ruhani otoriteyi temsil eder."
+    },
+    {
+      "id": 6,
+      "name": "Aşıklar",
+      "image": "06_lovers",
+      "arcana": "major",
+      "number": "VI",
+      "suit": null,
+      "element": "hava",
+      "history": "İlk destelerde bir adam iki kadın arasında seçim yapardı. Rider-Waite ile Adem-Havva sahnesine dönüştü. Melek Raphael yukarıdan izler; özgür irade, seçim ve kalbin çağrısını simgeler."
+    },
+    {
+      "id": 7,
+      "name": "Savaş Arabası",
+      "image": "07_chariot",
+      "arcana": "major",
+      "number": "VII",
+      "suit": null,
+      "element": "su",
+      "history": "Antik Roma zafer alaylarından esinlenildi. Siyah ve beyaz sfenks zıt güçleri temsil eder. Yıldızlı gölgelik astral korumayı simgeler; irade gücüyle engelleri aşan savaşçının hikayesidir."
+    },
+    {
+      "id": 8,
+      "name": "Güç",
+      "image": "08_strength",
+      "arcana": "major",
+      "number": "VIII",
+      "suit": null,
+      "element": "ateş",
+      "history": "Bir kadın aslanın çenesini nazikçe tutar — kaba kuvvet değil, içsel güç. Herkül'ün Nemea aslanı mitinden esinlenildi. Sonsuzluk sembolü başının üstünde; sabır ve cesaretin birleşimi."
+    },
+    {
+      "id": 9,
+      "name": "Ermiş",
+      "image": "09_hermit",
+      "arcana": "major",
+      "number": "IX",
+      "suit": null,
+      "element": "toprak",
+      "history": "Diogenes'in fener taşıyan figüründen gelir. Dağın tepesinde yalnız durur; feneri altı köşeli Süleyman yıldızı taşır. İçsel arayış, sessizlik ve kendi ışığını bulma yolculuğunun simgesi."
+    },
+    {
+      "id": 10,
+      "name": "Kader Çarkı",
+      "image": "10_wheel_of_fortune",
+      "arcana": "major",
+      "number": "X",
+      "suit": null,
+      "element": "ateş",
+      "history": "Roma tanrıçası Fortuna'nın çarkından doğdu. Çarkın üstünde sfenks, yanlarında yükselen ve düşen figürler. TARO-ROTA harfleri döngüyü gösterir; kaderin dönüşü ve evrensel döngünün kartı."
+    },
+    {
+      "id": 11,
+      "name": "Adalet",
+      "image": "11_justice",
+      "arcana": "major",
+      "number": "XI",
+      "suit": null,
+      "element": "hava",
+      "history": "Yunan tanrıçası Themis'ten esinlenildi; terazi ve kılıç taşır. Gözleri açıktır — geleneksel adalet figürünün aksine her şeyi görür. Sebep-sonuç yasası, denge ve karmanın arketipidir."
+    },
+    {
+      "id": 12,
+      "name": "Asılan Adam",
+      "image": "12_hanged_man",
+      "arcana": "major",
+      "number": "XII",
+      "suit": null,
+      "element": "su",
+      "history": "İskandinav mitinde Odin bilgelik için kendini Yggdrasil ağacına astı. İtalya'da 'hain' resimleri geleneğinden gelir. Ters bakış açısı; fedakarlık ve teslimiyetle gelen aydınlanmayı simgeler."
+    },
+    {
+      "id": 13,
+      "name": "Ölüm",
+      "image": "13_death",
+      "arcana": "major",
+      "number": "XIII",
+      "suit": null,
+      "element": "su",
+      "history": "Numarası bazı destelerde yazılmaz — uğursuzluk korkusundan. Zırhlı iskelet beyaz at üstünde; krallar ve dilenciler önünde eşittir. Fiziksel ölüm değil, köklü dönüşüm ve yenilenme kartıdır."
+    },
+    {
+      "id": 14,
+      "name": "Denge",
+      "image": "14_temperance",
+      "arcana": "major",
+      "number": "XIV",
+      "suit": null,
+      "element": "ateş",
+      "history": "Adı Latince 'temperantia' yani ölçülülükten gelir. Melek iki kap arasında su aktarır — simya sürecinin sembolü. Bir ayağı suda bir ayağı karada; bilinç ve bilinçdışını harmanlayan usta."
+    },
+    {
+      "id": 15,
+      "name": "Şeytan",
+      "image": "15_devil",
+      "arcana": "major",
+      "number": "XV",
+      "suit": null,
+      "element": "toprak",
+      "history": "Pan tanrısı ve Baphomet figüründen esinlenildi. Zincirlenmiş iki figür aslında istese çıkabilir — bağımlılık gönüllüdür. Gölge ben, tutku tuzakları ve özgürleşme potansiyelini simgeler."
+    },
+    {
+      "id": 16,
+      "name": "Yıkılan Kule",
+      "image": "16_tower",
+      "arcana": "major",
+      "number": "XVI",
+      "suit": null,
+      "element": "ateş",
+      "history": "Babil Kulesi efsanesinden doğdu. Yıldırım sahte yapıyı yıkar, taç düşer. Eski İtalyan destelerinde 'La Casa Dio' — Tanrı'nın Evi. Ani yıkım, ego çöküşü ama ardından gelen özgürleşme kartı."
+    },
+    {
+      "id": 17,
+      "name": "Yıldız",
+      "image": "17_star",
+      "arcana": "major",
+      "number": "XVII",
+      "suit": null,
+      "element": "hava",
+      "history": "Kule'nin ardından gelen şifa. Çıplak kadın suya ve toprağa hayat döker; sekiz köşeli yıldız Venüs'ü temsil eder. Pandora'nın kutusunun dibindeki umut gibi; ilham, yenilenme ve kozmik rehberlik."
+    },
+    {
+      "id": 18,
+      "name": "Ay",
+      "image": "18_moon",
+      "arcana": "major",
+      "number": "XVIII",
+      "suit": null,
+      "element": "su",
+      "history": "İki kule arasından geçen karanlık yol, bilinçdışının derinliklerine iner. Köpek ve kurt ikili doğayı, ıstakoz derinlerden yükselen korkuları simgeler. Hekate'nin gece yüzü; yanılsama ve sezgi kartı."
+    },
+    {
+      "id": 19,
+      "name": "Güneş",
+      "image": "19_sun",
+      "arcana": "major",
+      "number": "XIX",
+      "suit": null,
+      "element": "ateş",
+      "history": "Destenin en olumlu kartı. Ayçiçekleri ve çıplak çocuk saf neşeyi simgeler. Apollo ve Ra güneş tanrılarının enerjisini taşır. Duvarın üstünde dans eden çocuk; aydınlanma, başarı ve yaşam sevinci."
+    },
+    {
+      "id": 20,
+      "name": "Mahkeme",
+      "image": "20_judgement",
+      "arcana": "major",
+      "number": "XX",
+      "suit": null,
+      "element": "ateş",
+      "history": "Hristiyanlıktaki Son Yargı sahnesinden gelir. Cebrail borazanını çalar, ölüler tabutlarından kalkar. İç hesaplaşma, geçmişle yüzleşme ve ruhsal uyanış çağrısının kartıdır."
+    },
+    {
+      "id": 21,
+      "name": "Dünya",
+      "image": "21_world",
+      "arcana": "major",
+      "number": "XXI",
+      "suit": null,
+      "element": "toprak",
+      "history": "Büyük Arkana'nın son kartı — yolculuğun tamamlanması. Dört köşede aslan, kartal, boğa ve melek; dört elementi temsil eder. Defne çelengi içinde dans eden figür; bütünleşme ve kozmik birlik."
+    },
+    {
+      "id": 22,
+      "name": "Değnek Ası",
+      "image": "22_ace_wands",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Bulutlardan uzanan el yeni bir meşale sunar — ilahi kıvılcım. Değnekler takımı ateş elementiyle bağlantılı; tutku, girişim ve yaratıcı enerjiyi temsil eder. Her ası gibi saf potansiyelin başlangıcı."
+    },
+    {
+      "id": 23,
+      "name": "Değnek İkilisi",
+      "image": "23_two_wands",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Kalenin tepesinden dünyaya bakan figür elinde küre tutar. Büyük İskender'in keşif ruhunu yansıtır. İki değnek iki yol demek; planlama, vizyon ve konfor alanından çıkma kararının sembolü."
+    },
+    {
+      "id": 24,
+      "name": "Değnek Üçlüsü",
+      "image": "24_three_wands",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Tepeden denize bakan tüccar, gemilerinin dönüşünü bekler. İlk adım atılmış, sonuçlar ufukta. Ticaret yolları ve Rönesans keşif gezileri estetiğini taşır; genişleme ve ilerlemenin kartı."
+    },
+    {
+      "id": 25,
+      "name": "Değnek Dörtlüsü",
+      "image": "25_four_wands",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Dört değnekle süslenmiş tören kapısı, antik düğün ve hasat festivallerinden esinlenildi. Çiçek çelenkleri ve dans eden figürler; kutlama, yuva kurma ve topluluk sevincinin kartıdır."
+    },
+    {
+      "id": 26,
+      "name": "Değnek Beşlisi",
+      "image": "26_five_wands",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Beş genç değneklerle dövüşür ama ciddi bir savaş değildir — ortaçağ turnuva geleneğinden gelir. Rekabet, fikir çatışması ve yaratıcı gerilim; büyüme için gereken sürtünmenin kartı."
+    },
+    {
+      "id": 27,
+      "name": "Değnek Altılısı",
+      "image": "27_six_wands",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Atlı figür defne çelengiyle kalabalığın arasından geçer — Roma zafer alayı geleneği. Kahraman eve döner; tanınma, liderlik ve başarının kamusal olarak kutlanmasının kartıdır."
+    },
+    {
+      "id": 28,
+      "name": "Değnek Yedilisi",
+      "image": "28_seven_wands",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Tepenin üstünde tek başına altı değneğe karşı savunma yapan figür. Thermopylae ve son kale savunması ruhunu taşır. Bir ayakkabısı farklı — aceleyle hazırlanmış; azim ve pozisyon koruma kartı."
+    },
+    {
+      "id": 29,
+      "name": "Değnek Sekizlisi",
+      "image": "29_eight_wands",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Destenin en hızlı kartı; sekiz değnek havada uçar, yere değmemiştir. İnsan figürü yoktur — saf hareket enerjisi. Ok gibi hedefe yönelen mesajlar; hız, ivme ve ani gelişmelerin sembolü."
+    },
+    {
+      "id": 30,
+      "name": "Değnek Dokuzlusu",
+      "image": "30_nine_wands",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Yaralı savaşçı son değneğine yaslanır, arkasında sekiz değnek barikat gibi sıralanır. Son mücadele eşiği; tükenmiş ama pes etmeyen. Dayanıklılık, tecrübeyle gelen dikkat ve son direnişin kartı."
+    },
+    {
+      "id": 31,
+      "name": "Değnek Onlusu",
+      "image": "31_ten_wands",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "On değneği sırtında taşıyan figür eğilmiştir — başarının getirdiği yük. Atlas'ın dünyayı taşıması mitinden izler. Aşırı sorumluluk, tükenmişlik; delegasyon ve yük paylaşımı gerekliliğinin kartı."
+    },
+    {
+      "id": 32,
+      "name": "Değnek Prensi",
+      "image": "32_page_wands",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Ortaçağ saray sistemi; prens haberleri taşıyan genç ulaktır. Değneğine merakla bakar, semender figürü tutkuyu simgeler. Yeni fikirlerin müjdecisi, hevesli başlangıçların ve keşif ruhunun kartı."
+    },
+    {
+      "id": 33,
+      "name": "Değnek Şövalyesi",
+      "image": "33_knight_wands",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Şaha kalkmış at üstünde ileri atılan şövalye; Haçlı Seferleri ruhunu taşır. Üç piramit çöl macerasını gösterir. Dört şövalyenin en hızlısı ve en dürtüsel olanı; cesaret ama bazen pervasızlık."
+    },
+    {
+      "id": 34,
+      "name": "Değnek Kraliçesi",
+      "image": "34_queen_wands",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Tahtında ayçiçekleri ve siyah kedi ile oturur. Aslan burcunun enerjisini taşır. Ortaçağ hükümdar kadınlarından esinlenildi; karizma, özgüven ve çevresini ısıtan liderlik gücünün arketipi."
+    },
+    {
+      "id": 35,
+      "name": "Değnek Kralı",
+      "image": "35_king_wands",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "değnek",
+      "element": "ateş",
+      "history": "Tahtında oturan ama harekete hazır kral; semender kabartması ateşe dayanıklılığı simgeler. Vizyoner lider arketipi; ilham veren, risk alan ama sabırsız olabilen yönetici figürüdür."
+    },
+    {
+      "id": 36,
+      "name": "Kupa Ası",
+      "image": "36_ace_cups",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Buluttan uzanan el kutsal kadehi sunar — Kutsal Kase efsanesinin yankısı. Beş su akıntısı beş duyuyu, güvercin ise Kutsal Ruh'u temsil eder. Duygusal yenilenme ve aşkın saf başlangıcı."
+    },
+    {
+      "id": 37,
+      "name": "Kupa İkilisi",
+      "image": "37_two_cups",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "kupa",
+      "element": "su",
+      "history": "İki kişi kadeh kaldırır; aralarında kanatlı aslan başı simya birleşimini gösterir. Hermes'in asası yükselir. Antik nişan ritüellerinden esinlenildi; karşılıklı bağ, ortaklık ve duygusal dengenin kartı."
+    },
+    {
+      "id": 38,
+      "name": "Kupa Üçlüsü",
+      "image": "38_three_cups",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Üç kadın dans ederek kadeh kaldırır — antik Yunan Kharitler'den (Üç Güzeller) esinlenildi. Hasat şenlikleri ve Dionysos kutlamaları ruhu; dostluk, kutlama ve topluluk sevincinin kartı."
+    },
+    {
+      "id": 39,
+      "name": "Kupa Dörtlüsü",
+      "image": "39_four_cups",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Ağacın altında oturan figür üç kupayı görmezden gelir, buluttan uzanan dördüncüyü fark etmez. Buda'nın ağaç altı meditasyonunu andırır; bıkkınlık, içe kapanma ve kaçırılan fırsatların kartı."
+    },
+    {
+      "id": 40,
+      "name": "Kupa Beşlisi",
+      "image": "40_five_cups",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Siyah pelerinli figür devrilmiş üç kupaya bakar, arkasındaki ayakta duran ikiyi göremez. Uzaktaki köprü umut yolunu simgeler. Kayıp ve yas kartı; ama arkada kalanlar hâlâ değerli."
+    },
+    {
+      "id": 41,
+      "name": "Kupa Altılısı",
+      "image": "41_six_cups",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Küçük çocuk büyüğüne çiçekli kupa uzatır — ortaçağ bahçe sahnesi. Masumiyet ve nostalji; çocukluk anıları, geçmişten gelen hediyeler. Proust'un madeleine keki gibi; hatırlama ve saflığın kartı."
+    },
+    {
+      "id": 42,
+      "name": "Kupa Yedilisi",
+      "image": "42_seven_cups",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Bulutlarda yedi kupa; her birinde farklı vizyon — yılan, kale, mücevher, çelenk, ejderha, yüz, ışık. Pandora'nın kutusu gibi cazip ama aldatıcı. Hayal gücü, yanılsama ve seçim karmaşasının kartı."
+    },
+    {
+      "id": 43,
+      "name": "Kupa Sekizlisi",
+      "image": "43_eight_cups",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Gece ay ışığında sekiz kupayı geride bırakıp dağa yürüyen figür. Siddhartha'nın sarayı terk edişini andırır. Maddi tatminin yetersizliği; daha derin anlam arayışı ve bilinçli vazgeçişin kartı."
+    },
+    {
+      "id": 44,
+      "name": "Kupa Dokuzlusu",
+      "image": "44_nine_cups",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "kupa",
+      "element": "su",
+      "history": "'Dilek kartı' olarak bilinir. Kollarını kavuşturmuş memnun figür, arkasında yarım daire dizilmiş dokuz kupa. Ortaçağ ziyafet geleneğinden gelir; duygusal tatmin, şükran ve dileklerin gerçekleşmesi."
+    },
+    {
+      "id": 45,
+      "name": "Kupa Onlusu",
+      "image": "45_ten_cups",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Gökkuşağında on kupa, altında mutlu aile dans eder. Cennet bahçesi ve Arcadia mitinden esinlenildi. Duygusal tamlık; aile mutluluğu, uyum ve 'sonsuza dek mutlu' masalının tarot karşılığı."
+    },
+    {
+      "id": 46,
+      "name": "Kupa Prensi",
+      "image": "46_page_cups",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Kupasından beklenmedik şekilde bir balık çıkar — sürpriz mesajın sembolü. Ortaçağ saray çocuğu; hayal gücü taze ve sezgisel. Genç şair arketipi; duygusal mesajlar, yaratıcı kıvılcım ve romantik başlangıç."
+    },
+    {
+      "id": 47,
+      "name": "Kupa Şövalyesi",
+      "image": "47_knight_cups",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Beyaz at üstünde yavaşça ilerleyen şövalye kupasını özenle taşır. Kral Arthur'un Kutsal Kase arayışından esinlenildi. Dört şövalyenin en romantik olanı; ideal aşk, teklif ve duygusal çağrı."
+    },
+    {
+      "id": 48,
+      "name": "Kupa Kraliçesi",
+      "image": "48_queen_cups",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Su kenarında kapalı kupayı inceleyen kraliçe; kimse kabın içini göremez. Deniz kabuklu taht denizle bağı gösterir. Avalon'un Morgan le Fay'ından izler; sezgi, empati ve duygusal derinliğin arketipi."
+    },
+    {
+      "id": 49,
+      "name": "Kupa Kralı",
+      "image": "49_king_cups",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "kupa",
+      "element": "su",
+      "history": "Dalgalı denizde tahtında oturur ama ıslanmaz — duyguların ustası. Boynundaki balık kolye bilinçdışının hakimiyetini gösterir. Poseidon'dan esinlenildi; duygusal olgunluk ve sakin liderliğin kartı."
+    },
+    {
+      "id": 50,
+      "name": "Kılıç Ası",
+      "image": "50_ace_swords",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Buluttan uzanan el çift taraflı kılıç tutar, ucunda taç ve zeytin dalı. Excalibur efsanesinin yankısı; gerçeğin iki yüzü keskin. Zihinsel netlik, yeni fikir ve adaletin saf başlangıcının kartı."
+    },
+    {
+      "id": 51,
+      "name": "Kılıç İkilisi",
+      "image": "51_two_swords",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Gözleri bağlı kadın iki kılıcı çapraz tutar, arkasında dalgalı deniz. Adalet'in karanlık ikizi gibi; görmek istememe hali. Karar verememe, çıkmaz ve geçici barışın kartıdır."
+    },
+    {
+      "id": 52,
+      "name": "Kılıç Üçlüsü",
+      "image": "52_three_swords",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Yağmurlu gökyüzünde üç kılıcın deldiği kalp — tarot'un en ikonik görseli. Ortaçağ kutsal kalp sembolizminden gelir. Kalpten geçen acı; ihanet, kalp kırıklığı ama aynı zamanda duygusal arınma."
+    },
+    {
+      "id": 53,
+      "name": "Kılıç Dörtlüsü",
+      "image": "53_four_swords",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Kilisede yatan şövalye heykeli, üç kılıç duvarda bir tanesi altında. Ortaçağ mezar taşı geleneğinden gelir. Ölüm değil, stratejik geri çekilme; zihinsel dinlenme, iyileşme ve meditasyonun kartı."
+    },
+    {
+      "id": 54,
+      "name": "Kılıç Beşlisi",
+      "image": "54_five_swords",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Sırıtan figür beş kılıcı toplamış, iki kişi yenilmiş uzaklaşır. Pyrrhus zaferi — kazanmak ama bedeli ağır ödemek. Manipülasyon, haksız oyun ve boş zaferin acı tadını anlatan kart."
+    },
+    {
+      "id": 55,
+      "name": "Kılıç Altılısı",
+      "image": "55_six_swords",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Kayıkçı kadın ve çocuğu dalgalı sudan sakin suya taşır; altı kılıç kayığa saplanmış. Styx nehrini geçen Kharon'u andırır. Geçiş, iyileşme yolculuğu; zor bir dönemden daha iyi bir yere geçişin kartı."
+    },
+    {
+      "id": 56,
+      "name": "Kılıç Yedilisi",
+      "image": "56_seven_swords",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Düşman kampından beş kılıç çalan figür, ikiyi geride bırakır. Truva atı stratejisini andırır; her plan kusursuz değildir. Kurnazlık, gizli gündem ve yarım kalan hesapların kartıdır."
+    },
+    {
+      "id": 57,
+      "name": "Kılıç Sekizlisi",
+      "image": "57_eight_swords",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Bağlı ve gözleri kapalı kadın sekiz kılıçla çevrili ama ayakları bataklıkta serbest — istese yürüyebilir. Zihinsel hapishane; kendi yarattığın kısıtlamalar, korku ve çaresizlik yanılsamasının kartı."
+    },
+    {
+      "id": 58,
+      "name": "Kılıç Dokuzlusu",
+      "image": "58_nine_swords",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Gece yarısı yatakta elleriyle yüzünü kapatan figür, duvarda dokuz kılıç. 'Kabus kartı' olarak bilinir. Yorganın gül ve astroloji desenleri umut gizler; kaygı, uykusuzluk ve zihinsel işkencenin kartı."
+    },
+    {
+      "id": 59,
+      "name": "Kılıç Onlusu",
+      "image": "59_ten_swords",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Yüzüstü yatan figürün sırtında on kılıç — abartılı bir son. Sezar'ın senatoda bıçaklanmasını andırır. Ama ufukta güneş doğar; mutlak son, taban nokta ve ardından gelen yeniden doğuşun kartı."
+    },
+    {
+      "id": 60,
+      "name": "Kılıç Prensi",
+      "image": "60_page_swords",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Rüzgarlı tepede kılıcını havaya kaldıran genç, bulutlar hızla geçer. Ortaçağ saray casusunun enerjisini taşır. Meraklı ama tedbirsiz zeka; yeni fikirler, keskin gözlem ve bazen dedikoducu habercilik."
+    },
+    {
+      "id": 61,
+      "name": "Kılıç Şövalyesi",
+      "image": "61_knight_swords",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Dört nala koşan at üstünde kılıcını savuran şövalye; fırtınalı gökyüzü. Don Kişot'un yel değirmenlerine saldırısını andırır. Dört şövalyenin en saldırganı; hız, kararlılık ama düşünmeden hareket etme riski."
+    },
+    {
+      "id": 62,
+      "name": "Kılıç Kraliçesi",
+      "image": "62_queen_swords",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Bulutların üstünde tahtında oturan kraliçe, sol elini uzatır — kayıp ya da yalnızlık işareti. Kılıcı dik tutulur. Athena'nın bilgeliğini taşır; acı deneyimle bilenen zeka, bağımsızlık ve duygusal netlik."
+    },
+    {
+      "id": 63,
+      "name": "Kılıç Kralı",
+      "image": "63_king_swords",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "kılıç",
+      "element": "hava",
+      "history": "Tahtı bulutlara yakın, kılıcı hafif eğik — mutlak tarafsızlık mümkün değil. Kral Süleyman'ın adaletinden esinlenildi. Mantık, otorite ve entelektüel güç; duygulardan arınmış karar verme kapasitesi."
+    },
+    {
+      "id": 64,
+      "name": "Tılsım Ası",
+      "image": "64_ace_pentacles",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Buluttan uzanan el altın pentagram disk tutar; altta çiçekli bahçe kapısı. Simyacıların 'prima materia'sı — ham maddenin altına dönüşümü. Maddi fırsat, yeni gelir kapısı ve somut başlangıcın kartı."
+    },
+    {
+      "id": 65,
+      "name": "Tılsım İkilisi",
+      "image": "65_two_pentacles",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Genç adam iki pentagramı sonsuzluk şeklinde çevirir, arkada dalgalı denizde gemiler. Ortaçağ jonglöründen esinlenildi. Denge sanatı; bütçe yönetimi, çoklu görev ve değişime uyum sağlama kartı."
+    },
+    {
+      "id": 66,
+      "name": "Tılsım Üçlüsü",
+      "image": "66_three_pentacles",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Katedral inşaatında taş yontan usta, rahip ve mimar birlikte çalışır. Ortaçağ lonca sistemi ve katedral yapımcılarından gelir. Ustalık, takım çalışması ve kaliteli işçiliğin tanınmasının kartı."
+    },
+    {
+      "id": 67,
+      "name": "Tılsım Dörtlüsü",
+      "image": "67_four_pentacles",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Şehrin dışında oturan figür dört pentagramı sıkıca kavrar; başında, ayaklarında, kollarında. Cimri tüccar arketipi; güvenlik takıntısı, kontrol ihtiyacı ve kaybetme korkusuyla tutunma kartı."
+    },
+    {
+      "id": 68,
+      "name": "Tılsım Beşlisi",
+      "image": "68_five_pentacles",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Kar fırtınasında kilise vitrayının önünden geçen iki yoksul figür — biri koltuk değnekli. Vitray beş pentagram taşır ama içeri girmezler. Maddi sıkıntı, dışlanma; ama yardım kapıda, görmek yeterli."
+    },
+    {
+      "id": 69,
+      "name": "Tılsım Altılısı",
+      "image": "69_six_pentacles",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Tüccar bir eliyle terazi tutar, diğeriyle dilencilere altın dağıtır. Ortaçağ hayırseverlik geleneğinden gelir. Cömertlik, karşılıklı alışveriş; veren ve alan arasındaki güç dengesinin kartıdır."
+    },
+    {
+      "id": 70,
+      "name": "Tılsım Yedilisi",
+      "image": "70_seven_pentacles",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Çiftçi çapasına yaslanmış yedi meyveli bitkisini süzer. Emek verilmiş ama hasat zamanı henüz gelmemiş. Sabır, yatırımın değerlendirmesi ve 'doğru yolda mıyım' sorusunun kartıdır."
+    },
+    {
+      "id": 71,
+      "name": "Tılsım Sekizlisi",
+      "image": "71_eight_pentacles",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Tezgahında pentagram işleyen zanaatkar, altısını duvara asmış yedincisi üzerinde çalışır. Ortaçağ çırak sistemi; tekrar ve disiplinle ustalığa giden yol. Öğrenme, beceri geliştirme ve özenli çalışma."
+    },
+    {
+      "id": 72,
+      "name": "Tılsım Dokuzlusu",
+      "image": "72_nine_pentacles",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Üzüm bağında zarif kadın eldivenli elinde şahin tutar. Kendi emeğiyle kurduğu cennet bahçesi. Rönesans soylu kadınından esinlenildi; maddi bağımsızlık, lüks ve kendi kendine yetmenin kartı."
+    },
+    {
+      "id": 73,
+      "name": "Tılsım Onlusu",
+      "image": "73_ten_pentacles",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Üç kuşak bir arada: yaşlı, yetişkin çift ve çocuk; köpekler ayaklarında. Hayat Ağacı düzeninde on pentagram. Feodal aile mirası; nesiller arası zenginlik, aile mirası ve kalıcı güvenliğin kartı."
+    },
+    {
+      "id": 74,
+      "name": "Tılsım Prensi",
+      "image": "74_page_pentacles",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Yeşil çayırda pentagramı inceleyerek havada tutan genç — öğrenci arketipi. Dört prensin en sabırlısı ve metodik olanı. Yeni beceri öğrenme, burs haberi ve somut hedeflere doğru ilk adımın kartı."
+    },
+    {
+      "id": 75,
+      "name": "Tılsım Şövalyesi",
+      "image": "75_knight_pentacles",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Durağan siyah at üstünde pentagramını tutan şövalye; tarla ve çiftlik arkada. Dört şövalyenin en yavaşı ama en güveniliri. Azim, rutin ve adım adım ilerleme; parlak değil ama kesin sonuç alır."
+    },
+    {
+      "id": 76,
+      "name": "Tılsım Kraliçesi",
+      "image": "76_queen_pentacles",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Çiçekli bahçede tahtında oturan kraliçe, kucağında pentagram, yanında tavşan — bereket sembolü. Toprak ananın somut hali; pratik zeka, ev yönetimi ve besleyici bolluk enerjisinin arketipi."
+    },
+    {
+      "id": 77,
+      "name": "Tılsım Kralı",
+      "image": "77_king_pentacles",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "tılsım",
+      "element": "toprak",
+      "history": "Üzüm asmaları ve boğa kabartmalı tahtında oturan kral; kalesini ve bağlarını görür. Midas efsanesinin olumlu yüzü. Dört kralın en zengin ve en istikrarlı olanı; finansal ustalık ve maddi güvenlik."
+    }
+  ]
+}

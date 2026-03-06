@@ -1,0 +1,443 @@
+{
+  "planets": [
+    {
+      "key": "sun",
+      "name": "Güneş",
+      "symbol": "☉",
+      "day": "Pazar",
+      "themes": [
+        "canlılık",
+        "kimlik",
+        "liderlik",
+        "yaratıcılık",
+        "amaç"
+      ],
+      "energy": "Işıltılı, kararlı ve genişleyen",
+      "favorable": [
+        "liderlik",
+        "halka açık konuşma",
+        "yaratıcı projeler",
+        "sağlık",
+        "ağ kurma"
+      ],
+      "avoid": [
+        "geri çekilme",
+        "pasiflik",
+        "öz şüphe"
+      ]
+    },
+    {
+      "key": "moon",
+      "name": "Ay",
+      "symbol": "☽",
+      "day": "Pazartesi",
+      "themes": [
+        "duygu",
+        "sezgi",
+        "beslenme",
+        "hafıza",
+        "döngüler"
+      ],
+      "energy": "Akışkan, alıcı ve içe dönük",
+      "favorable": [
+        "aile",
+        "öz bakım",
+        "meditasyon",
+        "günlük tutma",
+        "yemek pişirme",
+        "duygusal bakım"
+      ],
+      "avoid": [
+        "büyük kararlar",
+        "yüzleşmeler",
+        "aşırı uyarım"
+      ]
+    },
+    {
+      "key": "mars",
+      "name": "Mars",
+      "symbol": "♂",
+      "day": "Salı",
+      "themes": [
+        "eylem",
+        "cesaret",
+        "güdü",
+        "rekabet",
+        "arzu"
+      ],
+      "energy": "Cesur, doğrudan ve yüksek güçlü",
+      "favorable": [
+        "egzersiz",
+        "cesur kararlar",
+        "çatışma çözümü",
+        "yeni girişimler",
+        "fiziksel çalışma"
+      ],
+      "avoid": [
+        "saldırganlık",
+        "dikkatsizlik",
+        "tartışma başlatma"
+      ]
+    },
+    {
+      "key": "mercury",
+      "name": "Merkür",
+      "symbol": "☿",
+      "day": "Çarşamba",
+      "themes": [
+        "iletişim",
+        "zeka",
+        "seyahat",
+        "ticaret",
+        "öğrenme"
+      ],
+      "energy": "Hızlı, analitik ve iletişimci",
+      "favorable": [
+        "yazarlık",
+        "toplantılar",
+        "seyahat",
+        "çalışma",
+        "sözleşmeler",
+        "ağ kurma"
+      ],
+      "avoid": [
+        "belirsiz iletişim",
+        "dağınık odak",
+        "dedikodu"
+      ]
+    },
+    {
+      "key": "jupiter",
+      "name": "Jüpiter",
+      "symbol": "♃",
+      "day": "Perşembe",
+      "themes": [
+        "genişleme",
+        "bolluk",
+        "bilgelik",
+        "inanç",
+        "fırsat"
+      ],
+      "energy": "Genişleyen, cömert ve iyimser",
+      "favorable": [
+        "eğitim",
+        "uzun mesafeli seyahat",
+        "hukuki meseleler",
+        "yatırım",
+        "kişisel gelişim",
+        "kutlamalar"
+      ],
+      "avoid": [
+        "aşırılık",
+        "fazla taahhüt",
+        "dikkatsiz iyimserlik"
+      ]
+    },
+    {
+      "key": "venus",
+      "name": "Venüs",
+      "symbol": "♀",
+      "day": "Cuma",
+      "themes": [
+        "aşk",
+        "güzellik",
+        "uyum",
+        "zevk",
+        "sanat"
+      ],
+      "energy": "Manyetik, sevgi dolu ve uyumlu",
+      "favorable": [
+        "romantizm",
+        "sosyalleşme",
+        "sanat",
+        "moda",
+        "güzellik bakımı",
+        "diplomasi",
+        "müzik"
+      ],
+      "avoid": [
+        "çatışma",
+        "sert sözler",
+        "ilişkileri ihmal etme"
+      ]
+    },
+    {
+      "key": "saturn",
+      "name": "Satürn",
+      "symbol": "♄",
+      "day": "Cumartesi",
+      "themes": [
+        "disiplin",
+        "yapı",
+        "karma",
+        "sorumluluk",
+        "ustalık"
+      ],
+      "energy": "Sabit, disiplinli ve kalıcı",
+      "favorable": [
+        "planlama",
+        "organize etme",
+        "sıkı çalışma",
+        "finanslar",
+        "geçmiş değerlendirme",
+        "gayrimenkul"
+      ],
+      "avoid": [
+        "kestirmeler",
+        "tembellik",
+        "yükümlülükleri görmezden gelme"
+      ]
+    }
+  ],
+  "zodiac": [
+    {
+      "key": "aries",
+      "name": "Koç",
+      "symbol": "♈",
+      "element": "Ateş",
+      "modality": "Öncü",
+      "ruler": "Mars",
+      "themes": [
+        "inisiyatif",
+        "cesaret",
+        "bağımsızlık",
+        "tutku",
+        "liderlik"
+      ]
+    },
+    {
+      "key": "taurus",
+      "name": "Boğa",
+      "symbol": "♉",
+      "element": "Toprak",
+      "modality": "Sabit",
+      "ruler": "Venüs",
+      "themes": [
+        "istikrar",
+        "duyusallık",
+        "sabır",
+        "bolluk",
+        "sadakat"
+      ]
+    },
+    {
+      "key": "gemini",
+      "name": "İkizler",
+      "symbol": "♊",
+      "element": "Hava",
+      "modality": "Değişken",
+      "ruler": "Merkür",
+      "themes": [
+        "merak",
+        "iletişim",
+        "uyumluluk",
+        "zeka",
+        "ikililik"
+      ]
+    },
+    {
+      "key": "cancer",
+      "name": "Yengeç",
+      "symbol": "♋",
+      "element": "Su",
+      "modality": "Öncü",
+      "ruler": "Ay",
+      "themes": [
+        "besleyicilik",
+        "ev",
+        "hafıza",
+        "duyarlılık",
+        "koruma"
+      ]
+    },
+    {
+      "key": "leo",
+      "name": "Aslan",
+      "symbol": "♌",
+      "element": "Ateş",
+      "modality": "Sabit",
+      "ruler": "Güneş",
+      "themes": [
+        "yaratıcılık",
+        "cömertlik",
+        "gurur",
+        "drama",
+        "sıcaklık"
+      ]
+    },
+    {
+      "key": "virgo",
+      "name": "Başak",
+      "symbol": "♍",
+      "element": "Toprak",
+      "modality": "Değişken",
+      "ruler": "Merkür",
+      "themes": [
+        "analiz",
+        "hizmet",
+        "hassasiyet",
+        "sağlık",
+        "alçakgönüllülük"
+      ]
+    },
+    {
+      "key": "libra",
+      "name": "Terazi",
+      "symbol": "♎",
+      "element": "Hava",
+      "modality": "Öncü",
+      "ruler": "Venüs",
+      "themes": [
+        "denge",
+        "adalet",
+        "ortaklık",
+        "güzellik",
+        "diplomasi"
+      ]
+    },
+    {
+      "key": "scorpio",
+      "name": "Akrep",
+      "symbol": "♏",
+      "element": "Su",
+      "modality": "Sabit",
+      "ruler": "Plüton / Mars",
+      "themes": [
+        "dönüşüm",
+        "derinlik",
+        "yoğunluk",
+        "gizem",
+        "güç"
+      ]
+    },
+    {
+      "key": "sagittarius",
+      "name": "Yay",
+      "symbol": "♐",
+      "element": "Ateş",
+      "modality": "Değişken",
+      "ruler": "Jüpiter",
+      "themes": [
+        "özgürlük",
+        "felsefe",
+        "macera",
+        "iyimserlik",
+        "gerçek"
+      ]
+    },
+    {
+      "key": "capricorn",
+      "name": "Oğlak",
+      "symbol": "♑",
+      "element": "Toprak",
+      "modality": "Öncü",
+      "ruler": "Satürn",
+      "themes": [
+        "hırs",
+        "disiplin",
+        "otorite",
+        "miras",
+        "yapı"
+      ]
+    },
+    {
+      "key": "aquarius",
+      "name": "Kova",
+      "symbol": "♒",
+      "element": "Hava",
+      "modality": "Sabit",
+      "ruler": "Uranüs / Satürn",
+      "themes": [
+        "yenilik",
+        "özgürlük",
+        "topluluk",
+        "isyan",
+        "vizyon"
+      ]
+    },
+    {
+      "key": "pisces",
+      "name": "Balık",
+      "symbol": "♓",
+      "element": "Su",
+      "modality": "Değişken",
+      "ruler": "Neptün / Jüpiter",
+      "themes": [
+        "sezgi",
+        "şefkat",
+        "rüyalar",
+        "maneviyat",
+        "teslim olma"
+      ]
+    }
+  ],
+  "planetElements": {
+    "sun": "fire",
+    "moon": "water",
+    "mars": "fire",
+    "mercury": "air",
+    "jupiter": "fire",
+    "venus": "earth",
+    "saturn": "earth"
+  },
+  "elementSynergy": {
+    "fire_fire": "İki ateş enerjisi birbirini alevlendiriyor. Tutku, cesaret ve yaratıcı ivme yükseliyor. Bu çifte ateşi somut bir eyleme dönüştür; istek kaybolmadan hamle yap.",
+    "fire_earth": "Ateşin hamlesi Toprağın sabrıyla buluşuyor. Vizyonu kalıcı forma dönüştürmek için güçlü bir zemin var. Cesurca başla, ardından istikrarlı biçimde inşa et.",
+    "fire_air": "Ateş ve Hava birbirini besliyor. İlham hızla çakıyor, fikirler özgürce akıyor. Bugün seni hareket ettiren şeyi konuş, yaz ve paylaş.",
+    "fire_water": "Ateşin hırsı Suyun sezgisiyle yumuşuyor. Egonun değil, kalbin sesinden hareket et. Duygusal dürüstlük gerçek ilerlemeyi besliyor.",
+    "earth_fire": "Toprak Ateşin huzursuzluğunu temelliyor. Bugünün coşkusunu somut adımlar atarak kullan. Şimdiki pratik hamle yarının atılımını yaratıyor.",
+    "earth_earth": "Çifte Toprak enerjisi maddi gerçekliğe olağanüstü bir odak getiriyor. Fiziksel, finansal ve pratik konulara sabırlı ve metodolojik bir dikkatle yaklaş.",
+    "earth_air": "Toprak Havanın uçuşunu sabitliyor. Fikirleri işe yarar planlara dönüştürmek için ideal bir gün. Vizyonunu yere indir, ilk gerçek adımı belirle.",
+    "earth_water": "Toprak ve Su birbirini besliyor. Şifa, yaratıcılık ve sabırlı duygusal büyüme için verimli bir enerji var. Seni besleyene özen göster.",
+    "air_fire": "Hava Ateşin alevlerini körüklüyor. Zihinsel berraklık tutkulu hareketle buluşuyor. Keskin düşünceni coşkunla birleştir ve anlamlı bir hedefe yönlendir.",
+    "air_earth": "Hava Toprağı aydınlatıyor. Pratik konulara analitik düşünce uygulamak için doğru zaman. Yapıları planla, sayıları değerlendir, planını net biçimde ilet.",
+    "air_air": "Çifte Hava algıyı ve iletişimi keskinleştiriyor. Fikir alışverişi yap, sorular sor; merakın seni yeni bir anlayışa taşıyor.",
+    "air_water": "Havanın mantığı Suyun sezgisiyle buluşuyor. Satır aralarını okumak için güçlü bir bileşim. Bugün hem analizine hem duygularına yaslan.",
+    "water_fire": "Su Ateşin aciliyetini serinletiyor. Bilgelikle dengelenmiş bir tutkuyla ilerle. Hangi mücadelenin değer taşıdığını duygularının rehberliğine bırak.",
+    "water_earth": "Su Toprağı yumuşatıyor. Derin beslenme, onarım ve yaratıcı sabır destekleniyor. Köklere özen göster: beden, ev ve ilişkiler.",
+    "water_air": "Suyun duygusu Havanın düşüncesiyle buluşuyor. Duygularını yazarak, konuşarak veya yaratarak işle. İç berraklık dışsal ifadeye dönüşüyor.",
+    "water_water": "Çifte Su duyarlılığı ve sezgiyi derin seviyelere taşıyor. Dinlen, yansıt ve iç dünyandan gelen sinyallere dikkat et."
+  },
+  "phases": {
+    "new_moon": {
+      "name": "Yeni Ay",
+      "emoji": "🌑"
+    },
+    "waxing_crescent": {
+      "name": "Hilal Ay",
+      "emoji": "🌒"
+    },
+    "first_quarter": {
+      "name": "İlk Dördün",
+      "emoji": "🌓"
+    },
+    "waxing_gibbous": {
+      "name": "Şişkin Ay",
+      "emoji": "🌔"
+    },
+    "full_moon": {
+      "name": "Dolunay",
+      "emoji": "🌕"
+    },
+    "waning_gibbous": {
+      "name": "Azalan Dolunay",
+      "emoji": "🌖"
+    },
+    "last_quarter": {
+      "name": "Son Dördün",
+      "emoji": "🌗"
+    },
+    "waning_crescent": {
+      "name": "Azalan Hilal",
+      "emoji": "🌘"
+    },
+    "balsamic_moon": {
+      "name": "Balsamik Ay",
+      "emoji": "🌘"
+    },
+    "disseminating_moon": {
+      "name": "Yayıcı Ay",
+      "emoji": "🌖"
+    }
+  }
+}

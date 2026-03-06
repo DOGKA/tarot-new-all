@@ -1,0 +1,26 @@
+{
+  "_comment": "Kart eğilim sistemine ait TR açıklama sözlüğü — Yes/No v2.1",
+  "_version": "2.1",
+
+  "baseTendency": {
+    "strong_yes": "Kesin Evet — güçlü, açık ve net olumlama (örnek: Güneş, Dünya)",
+    "yes": "Evet — destekleyici, akışta ilerleyen olumlu eğilim",
+    "uncertain": "Belirsiz — koşullara, zamana veya içsel netliğe bağlı",
+    "no": "Hayır — mevcut şartlar ilerlemeyi desteklemiyor",
+    "strong_no": "Kesin Hayır — sert durdurma, yıkım ya da kapanış enerjisi (örnek: Kule)"
+  },
+
+  "orientationImpact": {
+    "low": "Arketip güçlüdür; kart ters gelse bile ana mesaj büyük ölçüde korunur",
+    "standard": "Terslik etkisi normal düzeydedir; netlik azalır, şartlar devreye girer",
+    "high": "Belirsizlik yoğundur; ters konumda anlam ciddi şekilde bulanıklaşır"
+  },
+
+  "reversalStyle": {
+    "delay": "Gecikme — doğru yönde ama zamanlama henüz olgunlaşmadı",
+    "internal": "İçsel engel — korku, kararsızlık veya kendini sabote etme hali",
+    "shadow": "Gölge alan — bastırılmış duygu, inkâr edilen gerçek ya da bilinçdışı etki",
+    "imbalance": "Dengesizlik — aşırı kontrol, aşırı duygu veya yön kaybı",
+    "blocked": "Tıkanma — enerji akmıyor, dışsal ya da içsel bir set var"
+  }
+}

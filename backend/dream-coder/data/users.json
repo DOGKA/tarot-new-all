@@ -1,0 +1,356 @@
+{
+  "_comment": "Ortak kullanici veritabani — Tarot + Dream Coder",
+  "users": {
+    "test-device-123": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:13:28.888Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711667730_ync908": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:21:07.438Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711706097_gnw4uf": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:21:45.935Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711714574_hwwwbw": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:21:54.328Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711714632_h5uj7g": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:21:55.192Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711764319_3mohmt": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 0,
+      "createdAt": "2026-02-10T08:22:44.692Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711784564_b2viyp": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:23:06.687Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711792998_rue8rr": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:23:12.848Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711804584_ks6wyr": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:23:24.368Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711892620_pte58v": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:24:52.386Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711892701_t4xcim": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:24:54.304Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711938358_aenitz": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 0,
+      "createdAt": "2026-02-10T08:25:44.595Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770711966224_a3udlg": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:26:07.457Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712028457_hslpfr": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:27:08.342Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712032435_ovi76k": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:27:13.038Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712054846_i9upc8": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:27:34.743Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712080710_inl3c9": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 0,
+      "createdAt": "2026-02-10T08:28:01.908Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712193206_02p0k9": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:29:53.115Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712401847_wjq2zu": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:33:21.689Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712401908_2hiiug": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:33:24.129Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712513291_nriu2t": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:38:10.600Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712762352_onpvn3": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:39:23.104Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712786982_a7tejl": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:39:46.824Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712787060_6eldso": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:39:52.263Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712799201_qkc61c": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:39:59.683Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770712834636_h5qokr": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T08:40:34.508Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770713023613_rlx2e497": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 0,
+      "createdAt": "2026-02-10T08:43:43.519Z",
+      "isPremiumSubscriber": false,
+      "premiumExpiresAt": null,
+      "premiumPlan": null
+    },
+    "dev_1770716982010_6xnd5ug7": {
+      "gemstoneBalance": 10000,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T09:49:41.990Z"
+    },
+    "dev_1770716982010_ns74ratd": {
+      "gemstoneBalance": 9643,
+      "dreamFreeCredit": 1,
+      "createdAt": "2026-02-10T09:49:41.994Z"
+    },
+    "test-profanity-001": {
+      "gemstoneBalance": 990,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-10T11:15:31.065Z"
+    },
+    "dev_test_bulk_001": {
+      "gemstoneBalance": 885,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-13T09:32:23.416Z"
+    },
+    "dev_test_v3_001": {
+      "gemstoneBalance": 885,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-13T09:55:45.445Z"
+    },
+    "dev_final_test_001": {
+      "gemstoneBalance": 874,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-13T10:17:12.585Z"
+    },
+    "dev_mass_test_001": {
+      "gemstoneBalance": 684,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-13T10:26:37.449Z"
+    },
+    "dev_stress_test_001": {
+      "gemstoneBalance": 665,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-13T10:42:17.074Z"
+    },
+    "dev_v32_final_001": {
+      "gemstoneBalance": 673,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-13T11:23:25.637Z"
+    },
+    "dev_jp_retest_001": {
+      "gemstoneBalance": 984,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-13T12:01:09.378Z"
+    },
+    "dev_1771062466717_fflihzs8": {
+      "gemstoneBalance": 922,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-14T09:47:46.714Z"
+    },
+    "dev_1771062466717_ieivzle3": {
+      "gemstoneBalance": 1000,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-02-14T09:47:46.724Z"
+    },
+    "dev_1772623594408_cbovdqp3": {
+      "gemstoneBalance": 1000,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-03-04T11:26:34.441Z"
+    },
+    "dev_1772623594408_gro4e2o2": {
+      "gemstoneBalance": 926,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-03-04T11:26:34.450Z",
+      "birthDate": "1992-12-07",
+      "birthTime": "14:30",
+      "birthCity": "Ankara",
+      "birthLatitude": 39.93,
+      "birthLongitude": 32.86,
+      "natalChart": {
+        "sunSign": "sagittarius",
+        "moonSign": "taurus",
+        "risingSign": "gemini",
+        "elements": {
+          "fire": 3,
+          "earth": 2,
+          "air": 1,
+          "water": 0,
+          "dominant": "fire"
+        }
+      }
+    },
+    "mock": {
+      "gemstoneBalance": 1000,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-03-06T07:08:45.625Z",
+      "birthDate": "1992-12-07",
+      "birthTime": "14:30",
+      "birthCity": "Ankara",
+      "birthLatitude": 39.93,
+      "birthLongitude": 32.86,
+      "natalChart": {
+        "sunSign": "sagittarius",
+        "moonSign": "taurus",
+        "risingSign": "gemini",
+        "elements": {
+          "fire": 3,
+          "earth": 2,
+          "air": 1,
+          "water": 0,
+          "dominant": "fire"
+        }
+      }
+    }
+  }
+}

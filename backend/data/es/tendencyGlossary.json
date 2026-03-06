@@ -1,0 +1,23 @@
+{
+  "_comment": "Card tendency glossary — Yes/No v2.1 (Español)",
+  "_version": "2.1",
+  "baseTendency": {
+    "strong_yes": "Sí definitivo - afirmación fuerte, clara e inequívoca (ejemplo: Sol, Tierra)",
+    "yes": "Sí - apoyo, tendencia positiva fluyente",
+    "uncertain": "Incierto: depende de las circunstancias, el tiempo o la claridad intrínseca.",
+    "no": "No - las condiciones actuales no favorecen el progreso",
+    "strong_no": "No definitivo - parada brusca, demolición o cierre energético (ejemplo: Torre)"
+  },
+  "orientationImpact": {
+    "low": "El arquetipo es fuerte; el mensaje principal se mantiene en gran medida aunque la carta se invierta",
+    "standard": "El efecto de inversión es normal; la claridad se reduce, las condiciones entran en juego",
+    "high": "La ambigüedad es intensa; en la posición invertida el significado queda muy difuminado"
+  },
+  "reversalStyle": {
+    "delay": "Retraso: en la dirección correcta, pero aún no es el momento oportuno",
+    "internal": "Barrera interior: miedo, indecisión o autosabotaje",
+    "shadow": "Zona de sombra - emoción reprimida, realidad negada o influencia inconsciente",
+    "imbalance": "Desequilibrio - control excesivo, emoción excesiva o pérdida de dirección",
+    "blocked": "Bloqueo - la energía no fluye, hay una barrera externa o interna"
+  }
+}

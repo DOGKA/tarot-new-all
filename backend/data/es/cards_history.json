@@ -1,0 +1,786 @@
+{
+  "_comment": "78 Tarot kartının kökeni, hikayesi ve sembolizmi — Español, max 200 karakter",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "El Loco",
+      "image": "00_fool",
+      "arcana": "major",
+      "number": "0",
+      "suit": null,
+      "element": "Aire",
+      "history": "Nacido de un bufón de la corte medieval. El único gran arcano sin número, principio y fin. Camina al borde del abismo porque la sabiduría a veces se esconde en la locura. Procede de la tradición italiana de Il Matto."
+    },
+    {
+      "id": 1,
+      "name": "El Mago",
+      "image": "01_magician",
+      "arcana": "major",
+      "number": "I",
+      "suit": null,
+      "element": "Aire",
+      "history": "En las antiguas barajas italianas, \"Il Bagatto\", el malabarista callejero. Sobre su mesa están los símbolos de los cuatro elementos. El canal que conecta arriba y abajo es el arquetipo de la voluntad y el poder de manifestación."
+    },
+    {
+      "id": 2,
+      "name": "La Sacerdotisa",
+      "image": "02_high_priestess",
+      "arcana": "major",
+      "number": "II",
+      "suit": null,
+      "element": "Agua",
+      "history": "Sus orígenes se remontan al Papado; se inspiró en la leyenda de la \"Papisa Johanna\". Está sentada entre dos pilares: Boaz y Yakin del Templo de Salomón. Guardiana de la intuición y el conocimiento secreto."
+    },
+    {
+      "id": 3,
+      "name": "La Emperatriz",
+      "image": "03_empress",
+      "arcana": "major",
+      "number": "III",
+      "suit": null,
+      "element": "Tierra",
+      "history": "Arquetipo de diosa madre asociada al planeta Venus. Lleva las huellas de Deméter, Ishtar y Freyja. Rodeada de campos de trigo y agua corriente, simboliza la fertilidad, la creatividad y el poder cíclico de la naturaleza."
+    },
+    {
+      "id": 4,
+      "name": "El Emperador",
+      "image": "04_emperor",
+      "arcana": "major",
+      "number": "IV",
+      "suit": null,
+      "element": "Fuego",
+      "history": "Es portador de la energía de Marte, asociada a Aries. El trono de piedra, inspirado en los emperadores romanos, simboliza la autoridad y el orden. La estructura de cuatro esquinas y las cabezas de carnero son el arquetipo paterno que establece las normas y traza los límites."
+    },
+    {
+      "id": 5,
+      "name": "El Sumo Sacerdote",
+      "image": "05_hierophant",
+      "arcana": "major",
+      "number": "V",
+      "suit": null,
+      "element": "Tierra",
+      "history": "Griego antiguo \"hierophantes\", el que abre los secretos sagrados. Procede del sumo sacerdote de los Misterios de Eleusis. La triple corona y las llaves cruzadas representan la tradición, la doctrina y la autoridad espiritual."
+    },
+    {
+      "id": 6,
+      "name": "Los Enamorados",
+      "image": "06_lovers",
+      "arcana": "major",
+      "number": "VI",
+      "suit": null,
+      "element": "Aire",
+      "history": "En las primeras cubiertas, un hombre tenía que elegir entre dos mujeres. Con Rider-Waite, se convirtió en la escena de Adán y Eva. El ángel Rafael observa desde arriba, simbolizando el libre albedrío, la elección y la llamada del corazón."
+    },
+    {
+      "id": 7,
+      "name": "El Carro",
+      "image": "07_chariot",
+      "arcana": "major",
+      "number": "VII",
+      "suit": null,
+      "element": "Agua",
+      "history": "Inspirado en las antiguas procesiones triunfales romanas. La esfinge blanca y la negra representan fuerzas opuestas. El dosel estrellado simboliza la protección astral; es la historia del guerrero que supera los obstáculos gracias a su fuerza de voluntad."
+    },
+    {
+      "id": 8,
+      "name": "La Fuerza",
+      "image": "08_strength",
+      "arcana": "major",
+      "number": "VIII",
+      "suit": null,
+      "element": "Fuego",
+      "history": "Una mujer sujeta suavemente las fauces del león: no es fuerza bruta, sino fuerza interior. Inspirado en el mito del león de Nemea de Hércules. El símbolo de la eternidad está sobre su cabeza; una combinación de paciencia y valor."
+    },
+    {
+      "id": 9,
+      "name": "El Ermitaño",
+      "image": "09_hermit",
+      "arcana": "major",
+      "number": "IX",
+      "suit": null,
+      "element": "Tierra",
+      "history": "Procede de la figura de Diógenes portando una linterna. Está solo en la cima de la montaña; su linterna lleva la estrella de seis puntas de Salomón. Simboliza la búsqueda interior, el silencio y el viaje para encontrar la propia luz."
+    },
+    {
+      "id": 10,
+      "name": "La Rueda de la Fortuna",
+      "image": "10_wheel_of_fortune",
+      "arcana": "major",
+      "number": "X",
+      "suit": null,
+      "element": "Fuego",
+      "history": "Nace de la rueda de la diosa romana Fortuna. Encima de la rueda está la esfinge, a sus lados figuras ascendentes y descendentes. Las letras TARO-ROTA indican el ciclo; el giro del destino y la carta del ciclo universal."
+    },
+    {
+      "id": 11,
+      "name": "La Justicia",
+      "image": "11_justice",
+      "arcana": "major",
+      "number": "XI",
+      "suit": null,
+      "element": "Aire",
+      "history": "Inspirada en la diosa griega Themis; lleva una balanza y una espada. Sus ojos están abiertos: lo ve todo, a diferencia de la figura tradicional de la justicia. Es el arquetipo de la ley de causa y efecto, el equilibrio y el karma."
+    },
+    {
+      "id": 12,
+      "name": "El Colgado",
+      "image": "12_hanged_man",
+      "arcana": "major",
+      "number": "XII",
+      "suit": null,
+      "element": "Agua",
+      "history": "En el mito nórdico, Odín se colgaba del árbol Yggdrasil para obtener sabiduría. En Italia procede de la tradición de las pinturas de \"traidores\". La perspectiva invertida simboliza la iluminación a través del sacrificio y la entrega."
+    },
+    {
+      "id": 13,
+      "name": "La Muerte",
+      "image": "13_death",
+      "arcana": "major",
+      "number": "XIII",
+      "suit": null,
+      "element": "Agua",
+      "history": "Su número no está escrito en algunas barajas, por miedo a la mala suerte. Esqueleto acorazado sobre un caballo blanco; igual ante reyes y mendigos. No es una carta de muerte física, sino de transformación radical y regeneración."
+    },
+    {
+      "id": 14,
+      "name": "La Templanza",
+      "image": "14_temperance",
+      "arcana": "major",
+      "number": "XIV",
+      "suit": null,
+      "element": "Fuego",
+      "history": "El nombre procede del latín \"temperantia\", que significa moderación. El ángel transfiere agua entre dos vasijas, símbolo del proceso alquímico. Un pie en el agua y otro en la tierra; el maestro mezcla la conciencia y el inconsciente."
+    },
+    {
+      "id": 15,
+      "name": "El Diablo",
+      "image": "15_devil",
+      "arcana": "major",
+      "number": "XV",
+      "suit": null,
+      "element": "Tierra",
+      "history": "Inspirado en el dios Pan y la figura de Baphomet. Las dos figuras encadenadas pueden salir si lo desean: la adicción es voluntaria. El yo en la sombra simboliza las trampas de la pasión y el potencial de liberación."
+    },
+    {
+      "id": 16,
+      "name": "La Torre",
+      "image": "16_tower",
+      "arcana": "major",
+      "number": "XVI",
+      "suit": null,
+      "element": "Fuego",
+      "history": "Nacido de la leyenda de la Torre de Babel. Un rayo destruye la falsa estructura, la corona cae. La Casa Dio\" en las antiguas barajas italianas: la Casa de Dios. Una carta de destrucción repentina, colapso del ego pero seguido de liberación."
+    },
+    {
+      "id": 17,
+      "name": "La Estrella",
+      "image": "17_star",
+      "arcana": "major",
+      "number": "XVII",
+      "suit": null,
+      "element": "Aire",
+      "history": "La curación que sigue a la Torre. La mujer desnuda vierte vida en el agua y la tierra; la estrella de ocho puntas representa a Venus. Como la esperanza en el fondo de la caja de Pandora; inspiración, renovación y guía cósmica."
+    },
+    {
+      "id": 18,
+      "name": "La Luna",
+      "image": "18_moon",
+      "arcana": "major",
+      "number": "XVIII",
+      "suit": null,
+      "element": "Agua",
+      "history": "El camino oscuro que pasa entre las dos torres conduce a las profundidades del inconsciente. El perro y el lobo simbolizan la doble naturaleza, la langosta simboliza los miedos que surgen de las profundidades. La cara nocturna de Hécate; la carta de la ilusión y la intuición."
+    },
+    {
+      "id": 19,
+      "name": "El Sol",
+      "image": "19_sun",
+      "arcana": "major",
+      "number": "XIX",
+      "suit": null,
+      "element": "Fuego",
+      "history": "La carta más positiva de la baraja. Los girasoles y el niño desnudo simbolizan la alegría pura. Apolo y Ra son portadores de la energía de los dioses del sol. El niño que baila en la pared simboliza la iluminación, el éxito y la alegría de vivir."
+    },
+    {
+      "id": 20,
+      "name": "El Juicio",
+      "image": "20_judgement",
+      "arcana": "major",
+      "number": "XX",
+      "suit": null,
+      "element": "Fuego",
+      "history": "Procede de la escena cristiana del Juicio Final. Gabriel toca la trompeta y los muertos se levantan de sus ataúdes. Es la carta del ajuste de cuentas interior, la confrontación con el pasado y la llamada al despertar espiritual."
+    },
+    {
+      "id": 21,
+      "name": "El Mundo",
+      "image": "21_world",
+      "arcana": "major",
+      "number": "XXI",
+      "suit": null,
+      "element": "Tierra",
+      "history": "La última carta de los Grandes Arcanos: la culminación del viaje. León, águila, toro y ángel en las cuatro esquinas; representan los cuatro elementos. Figura danzante en corona de laurel; integración y unidad cósmica."
+    },
+    {
+      "id": 22,
+      "name": "As de Bastos",
+      "image": "22_ace_wands",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "La mano que se extiende desde las nubes ofrece una nueva antorcha: la chispa divina. El juego de varitas está vinculado al elemento fuego, que representa la pasión, la empresa y la energía creativa. El comienzo de un potencial puro, como todo as."
+    },
+    {
+      "id": 23,
+      "name": "Dos de Bastos",
+      "image": "23_two_wands",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "La figura que contempla el mundo desde lo alto del castillo sostiene un globo terráqueo en la mano. Refleja el espíritu explorador de Alejandro Magno. Dos varitas significan dos caminos, que simbolizan la planificación, la visión y la decisión de abandonar la zona de confort."
+    },
+    {
+      "id": 24,
+      "name": "Tres de Bastos",
+      "image": "24_three_wands",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "Mirando al mar desde la colina, el mercader espera el regreso de sus barcos. Se ha dado el primer paso, los resultados están en el horizonte. Lleva la estética de las rutas comerciales y las expediciones renacentistas; una carta de expansión y progreso."
+    },
+    {
+      "id": 25,
+      "name": "Cuatro de Bastos",
+      "image": "25_four_wands",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "La puerta ceremonial, decorada con cuatro varitas, se inspira en los antiguos festivales de bodas y cosechas. Las coronas de flores y las figuras danzantes son tarjetas de celebración, anidamiento y alegría comunitaria."
+    },
+    {
+      "id": 26,
+      "name": "Cinco de Bastos",
+      "image": "26_five_wands",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "Cinco jóvenes luchan con palos, pero no es una batalla seria: procede de la tradición de los torneos medievales. La competición, el choque de ideas y la tensión creativa son las cartas de la fricción necesaria para el crecimiento."
+    },
+    {
+      "id": 27,
+      "name": "Seis de Bastos",
+      "image": "27_six_wands",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "La figura ecuestre atraviesa la multitud con una corona de laurel: la tradición romana de una procesión triunfal. El héroe regresa a casa; es la tarjeta de celebración pública del reconocimiento, el liderazgo y los logros."
+    },
+    {
+      "id": 28,
+      "name": "Siete de Bastos",
+      "image": "28_seven_wands",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "Figura sola en lo alto de la colina defendiéndose de seis palos. En el espíritu de las Termópilas y la defensa de la última fortaleza. Un zapato diferente - preparado apresuradamente; carta de perseverancia y defensa de la posición."
+    },
+    {
+      "id": 29,
+      "name": "Ocho de Bastos",
+      "image": "29_eight_wands",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "La carta más rápida de la baraja; ocho varitas vuelan por el aire, sin tocar nunca el suelo. Sin figura humana: pura energía de movimiento. Mensajes dirigidos como flechas; un símbolo de velocidad, aceleración y acontecimientos repentinos."
+    },
+    {
+      "id": 30,
+      "name": "Nueve de Bastos",
+      "image": "30_nine_wands",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "El guerrero herido se apoya en su última muleta, detrás de él ocho muletas se alinean como barricadas. El último umbral de la lucha, agotado pero sin rendirse. Resistencia, la vigilancia que da la experiencia y la carta de la última resistencia."
+    },
+    {
+      "id": 31,
+      "name": "Diez de Bastos",
+      "image": "31_ten_wands",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "La figura que lleva los diez palos a la espalda está encorvada: la carga del éxito. Vestigios del mito de Atlas cargando con el mundo. Excesiva responsabilidad, agotamiento; tarjeta de la necesidad de delegar y compartir la carga."
+    },
+    {
+      "id": 32,
+      "name": "Sota de Bastos",
+      "image": "32_page_wands",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "Sistema de corte medieval; el príncipe es el joven mensajero que lleva las noticias. Mira su varita con curiosidad, la figura de la salamandra simboliza la pasión. El heraldo de las nuevas ideas, la carta de los comienzos entusiastas y el espíritu de descubrimiento."
+    },
+    {
+      "id": 33,
+      "name": "Caballo de Bastos",
+      "image": "33_knight_wands",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "El caballero que avanza a lomos de un caballo rampante transmite el espíritu de las Cruzadas. Las tres pirámides muestran la aventura del desierto. El más rápido e impulsivo de los cuatro caballeros; coraje pero a veces temeridad."
+    },
+    {
+      "id": 34,
+      "name": "Reina de Bastos",
+      "image": "34_queen_wands",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "Se sienta en su trono con girasoles y un gato negro. Lleva la energía de Leo. Inspirada en las mujeres gobernantes medievales; el arquetipo del carisma, la confianza en sí misma y el poder de liderazgo que calienta su entorno."
+    },
+    {
+      "id": 35,
+      "name": "Rey de Bastos",
+      "image": "35_king_wands",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Bastos",
+      "element": "Fuego",
+      "history": "El rey sentado en su trono pero listo para la acción; el relieve de la salamandra simboliza la resistencia al fuego. El arquetipo del líder visionario es una figura ejecutiva inspiradora, arriesgada pero impaciente."
+    },
+    {
+      "id": 36,
+      "name": "As de Copas",
+      "image": "36_ace_cups",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "La mano que sale de la nube ofrece el cáliz sagrado, un eco de la leyenda del Santo Grial. Las cinco corrientes de agua representan los cinco sentidos y la paloma, el Espíritu Santo. La renovación emocional y el puro comienzo del amor."
+    },
+    {
+      "id": 37,
+      "name": "Dos de Copas",
+      "image": "37_two_cups",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "Dos personas brindan; entre ellas, la cabeza de león alada muestra la combinación alquímica. El bastón de Hermes se eleva. Inspirada en los antiguos rituales de compromiso; una carta de vínculo mutuo, asociación y equilibrio emocional."
+    },
+    {
+      "id": 38,
+      "name": "Tres de Copas",
+      "image": "38_three_cups",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "Tres mujeres bailan y brindan, inspiradas en las antiguas Kharites (Tres Gracias) griegas. En el espíritu de las fiestas de la cosecha y las celebraciones dionisíacas; una tarjeta de amistad, celebración y alegría comunitaria."
+    },
+    {
+      "id": 39,
+      "name": "Cuatro de Copas",
+      "image": "39_four_cups",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "La figura sentada bajo el árbol ignora las tres copas, sin fijarse en la cuarta que se extiende desde la nube. Es una reminiscencia de la meditación de Buda bajo el árbol; una carta de aburrimiento, retraimiento y oportunidades perdidas."
+    },
+    {
+      "id": 40,
+      "name": "Cinco de Copas",
+      "image": "40_five_cups",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "El personaje de la capa negra mira las tres copas volcadas, incapaz de ver a los dos que están detrás de él. El puente a lo lejos simboliza el camino de la esperanza. Una carta de pérdida y luto, pero lo que queda atrás sigue siendo valioso."
+    },
+    {
+      "id": 41,
+      "name": "Seis de Copas",
+      "image": "41_six_cups",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "Un niño entrega una copa con flores a un anciano - escena de jardín medieval. Inocencia y nostalgia; recuerdos de la infancia, regalos del pasado. Como la tarta magdalena de Proust; una tarjeta de recuerdo y pureza."
+    },
+    {
+      "id": 42,
+      "name": "Siete de Copas",
+      "image": "42_seven_cups",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "Siete copas en las nubes; diferente visión en cada una: serpiente, castillo, joya, guirnalda, dragón, rostro, luz. Como la caja de Pandora, tentadora pero engañosa. Una carta de imaginación, ilusión y confusión de elección."
+    },
+    {
+      "id": 43,
+      "name": "Ocho de Copas",
+      "image": "43_eight_cups",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "La figura sube la montaña de noche, a la luz de la luna, dejando atrás las ocho copas. Recuerda a Siddhartha abandonando el palacio. La insuficiencia de la realización material; la búsqueda de un significado más profundo y la carta de la renuncia consciente."
+    },
+    {
+      "id": 44,
+      "name": "Nueve de Copas",
+      "image": "44_nine_cups",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "Conocida como \"carta de los deseos\". Figura satisfecha con los brazos cruzados y nueve copas dispuestas en semicírculo a sus espaldas. Procede de la tradición medieval de la fiesta; satisfacción emocional, gratitud y cumplimiento de deseos."
+    },
+    {
+      "id": 45,
+      "name": "Diez de Copas",
+      "image": "45_ten_cups",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "Diez copas en el arco iris, bajo las cuales baila la familia feliz. Inspirado en el mito del Jardín del Edén y Arcadia. Plenitud emocional; equivalente en el tarot a la felicidad familiar, la armonía y el cuento de hadas de \"felices para siempre\"."
+    },
+    {
+      "id": 46,
+      "name": "Sota de Copas",
+      "image": "46_page_cups",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "Un pez sale inesperadamente de su copa, símbolo de un mensaje sorpresa. Joven de la corte medieval; imaginación fresca e intuitiva. Arquetipo de joven poeta; mensajes emotivos, chispa creativa y comienzo romántico."
+    },
+    {
+      "id": 47,
+      "name": "Caballo de Copas",
+      "image": "47_knight_cups",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "El caballero, que viaja lentamente sobre un caballo blanco, lleva la copa con cuidado. Inspirado en la búsqueda del Santo Grial por el Rey Arturo. El más romántico de los cuatro caballeros; el ideal del amor, la proposición y la llamada emocional."
+    },
+    {
+      "id": 48,
+      "name": "Reina de Copas",
+      "image": "48_queen_cups",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "La reina examina la copa cerrada al borde del agua; nadie puede ver el interior de la copa. El trono de conchas muestra una conexión con el mar. Rastros de Morgan le Fay de Avalon, el arquetipo de la intuición, la empatía y la profundidad emocional."
+    },
+    {
+      "id": 49,
+      "name": "Rey de Copas",
+      "image": "49_king_cups",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Copas",
+      "element": "Agua",
+      "history": "Se sienta en su trono en el mar embravecido, pero no se moja: el maestro de las emociones. El colgante de pez que lleva al cuello muestra el dominio del inconsciente. Inspirada en Poseidón, la carta de la madurez emocional y el liderazgo tranquilo."
+    },
+    {
+      "id": 50,
+      "name": "As de Espadas",
+      "image": "50_ace_swords",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "La mano que sale de la nube sostiene una espada de doble filo, en cuya punta hay una corona y una rama de olivo. Un eco de la leyenda de Excalibur; la verdad es de doble filo. La carta de la claridad mental, las nuevas ideas y el puro principio de la justicia."
+    },
+    {
+      "id": 51,
+      "name": "Dos de Espadas",
+      "image": "51_two_swords",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "La mujer con los ojos vendados sostiene dos espadas cruzadas, detrás de ella el mar ondulante. Es como el gemelo oscuro de la Justicia, un estado de no querer ver. La incapacidad de decidir es la carta del estancamiento y la paz temporal."
+    },
+    {
+      "id": 52,
+      "name": "Tres de Espadas",
+      "image": "52_three_swords",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "El corazón atravesado por tres espadas en el cielo lluvioso: la imagen más icónica del tarot. Procede del simbolismo medieval del corazón sagrado. El dolor que atraviesa el corazón; la traición, el desamor, pero también la purificación emocional."
+    },
+    {
+      "id": 53,
+      "name": "Cuatro de Espadas",
+      "image": "53_four_swords",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "Estatua del caballero yacente en la iglesia, tres espadas bajo una de ellas en la pared. Procede de la tradición de las lápidas medievales. No la muerte, sino el retiro estratégico; la carta del descanso mental, la curación y la meditación."
+    },
+    {
+      "id": 54,
+      "name": "Cinco de Espadas",
+      "image": "54_five_swords",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "La figura sonriente recoge cinco espadas, dos hombres se alejan derrotados. La victoria de Pirro, que gana pero paga un alto precio. Una carta sobre la manipulación, el juego sucio y el amargo sabor de una victoria vacía."
+    },
+    {
+      "id": 55,
+      "name": "Seis de Espadas",
+      "image": "55_six_swords",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "Un barquero transporta a una mujer y a un niño de aguas bravas a aguas tranquilas; seis espadas clavadas en la barca. Recuerda a Kharon cruzando el río Estigia. La travesía, un viaje de curación; una carta de transición de un periodo difícil a un lugar mejor."
+    },
+    {
+      "id": 56,
+      "name": "Siete de Espadas",
+      "image": "56_seven_swords",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "La figura roba cinco espadas del campamento enemigo, dejando dos atrás. Se parece a la estrategia del caballo de Troya; no todos los planes son perfectos. La astucia es la carta de las agendas ocultas y las cuentas pendientes."
+    },
+    {
+      "id": 57,
+      "name": "Ocho de Espadas",
+      "image": "57_eight_swords",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "La mujer atada y con los ojos vendados está rodeada por ocho espadas, pero sus pies están libres en el pantano: puede caminar si quiere. Prisión mental; una carta de limitaciones autocreadas, miedo e ilusión de impotencia."
+    },
+    {
+      "id": 58,
+      "name": "Nueve de Espadas",
+      "image": "58_nine_swords",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "Figura en la cama a medianoche con las manos cubriendo la cara, nueve espadas en la pared. Conocida como la \"carta de la pesadilla\". La rosa y los motivos astrológicos del edredón ocultan la esperanza; la carta de la ansiedad, el insomnio y el tormento mental."
+    },
+    {
+      "id": 59,
+      "name": "Diez de Espadas",
+      "image": "59_ten_swords",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "Diez espadas en la espalda de la figura tendida: un final exagerado. Se parece al César apuñalado en el senado. Pero en el horizonte sale el sol, la carta del final absoluto, el punto más bajo y el renacimiento que le sigue."
+    },
+    {
+      "id": 60,
+      "name": "Sota de Espadas",
+      "image": "60_page_swords",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "Levantando su espada en el aire sobre la colina ventosa, el joven atraviesa rápidamente las nubes. Tiene la energía de un espía de la corte medieval. Inteligencia curiosa pero imprudente; ideas nuevas, observación aguda e información a veces chismosa."
+    },
+    {
+      "id": 61,
+      "name": "Caballo de Espadas",
+      "image": "61_knight_swords",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "Caballero a caballo al galope blandiendo su espada; cielo tormentoso. Recuerda el ataque de Don Quijote a los molinos de viento. El más agresivo de los cuatro caballeros; velocidad, determinación, pero el riesgo de actuar precipitadamente."
+    },
+    {
+      "id": 62,
+      "name": "Reina de Espadas",
+      "image": "62_queen_swords",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "La reina, sentada en su trono sobre las nubes, extiende la mano izquierda, signo de pérdida o soledad. Su espada está en posición vertical. Es portadora de la sabiduría de Atenea: inteligencia, independencia y claridad emocional perfeccionadas por la amarga experiencia."
+    },
+    {
+      "id": 63,
+      "name": "Rey de Espadas",
+      "image": "63_king_swords",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Espadas",
+      "element": "Aire",
+      "history": "Su trono está cerca de las nubes, su espada ligeramente inclinada: la imparcialidad absoluta es imposible. Inspirado en la justicia del rey Salomón. Lógica, autoridad y fuerza intelectual; capacidad de juzgar sin emoción."
+    },
+    {
+      "id": 64,
+      "name": "As de Oros",
+      "image": "64_ace_pentacles",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "Mano que sale de una nube y sostiene un disco de oro en forma de pentagrama. La \"materia prima\" de los alquimistas: la transformación de la materia prima en oro. Una carta de oportunidad financiera, nuevos ingresos y un comienzo concreto."
+    },
+    {
+      "id": 65,
+      "name": "Dos de Oros",
+      "image": "65_two_pentacles",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "Joven voltea dos pentagramas en forma de infinito, barcos de fondo en el mar agitado. Inspirado en un malabarista medieval. El arte del equilibrio; gestión de presupuestos, multitarea y adaptación a la carta del cambio."
+    },
+    {
+      "id": 66,
+      "name": "Tres de Oros",
+      "image": "66_three_pentacles",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "En la construcción de catedrales, el maestro cantero, el sacerdote y el arquitecto trabajan juntos. Procede del sistema gremial medieval y de los constructores de catedrales. La carta de la artesanía, el trabajo en equipo y el reconocimiento de la calidad de la mano de obra."
+    },
+    {
+      "id": 67,
+      "name": "Cuatro de Oros",
+      "image": "67_four_pentacles",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "La figura sentada fuera de la ciudad agarra con fuerza los cuatro pentagramas; en la cabeza, los pies, los brazos. El arquetipo del comerciante tacaño; la carta de aferrarse a través de la obsesión por la seguridad, la necesidad de control y el miedo a la pérdida."
+    },
+    {
+      "id": 68,
+      "name": "Cinco de Oros",
+      "image": "68_five_pentacles",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "Dos pobres figuras -una de ellas con muletas- pasan junto a la vidriera de una iglesia en medio de una tormenta de nieve. La vidriera tiene cinco pentagramas, pero no entran. Penurias económicas, ostracismo, pero la ayuda está a la puerta, sólo hay que verla."
+    },
+    {
+      "id": 69,
+      "name": "Seis de Oros",
+      "image": "69_six_pentacles",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "El mercader sostiene la balanza con una mano y distribuye oro a los mendigos con la otra. Procede de la tradición medieval de la caridad. La generosidad, el intercambio mutuo, es la carta del equilibrio de poder entre quien da y quien recibe."
+    },
+    {
+      "id": 70,
+      "name": "Siete de Oros",
+      "image": "70_seven_pentacles",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "El agricultor se apoya en su azada y observa su planta de siete frutos. El trabajo está hecho, pero aún no ha llegado el momento de la cosecha. La paciencia es la carta de la evaluación de la inversión y la pregunta \"¿voy por buen camino?"
+    },
+    {
+      "id": 71,
+      "name": "Ocho de Oros",
+      "image": "71_eight_pentacles",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "Un artesano con un pentagrama en su banco de trabajo, seis de ellos colgados en la pared, trabajando en el séptimo. Sistema medieval de aprendices; el camino hacia la maestría a través de la repetición y la disciplina. Aprendizaje, desarrollo de habilidades y trabajo minucioso."
+    },
+    {
+      "id": 72,
+      "name": "Nueve de Oros",
+      "image": "72_nine_pentacles",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "En el viñedo, una elegante mujer sostiene un halcón en su mano enguantada. Un jardín paradisíaco creado con su propio trabajo. Inspirado en la mujer noble del Renacimiento; una carta de independencia material, lujo y autosuficiencia."
+    },
+    {
+      "id": 73,
+      "name": "Diez de Oros",
+      "image": "73_ten_pentacles",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "Tres generaciones juntas: anciano, pareja adulta y niño; perros a sus pies. Diez pentagramas en el orden del Árbol de la Vida. Herencia familiar feudal; carta de la riqueza intergeneracional, la herencia familiar y la seguridad duradera."
+    },
+    {
+      "id": 74,
+      "name": "Sota de Oros",
+      "image": "74_page_pentacles",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "El arquetipo de la juventud - el estudiante, que mantiene en alto en el verde prado estudiando el pentagrama. El más paciente y metódico de los cuatro príncipes. La carta del aprendizaje de nuevas habilidades, noticias de becas y el primer paso hacia metas concretas."
+    },
+    {
+      "id": 75,
+      "name": "Caballo de Oros",
+      "image": "75_knight_pentacles",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "Caballero sobre un caballo negro inmóvil que sostiene su pentagrama; campo y granja al fondo. El más lento de los cuatro caballeros, pero el más fiable. Perseverancia, rutina y progreso paso a paso; resultados no brillantes pero seguros."
+    },
+    {
+      "id": 76,
+      "name": "Reina de Oros",
+      "image": "76_queen_pentacles",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "La reina sentada en su trono en el jardín florido, con un pentagrama en su regazo y un conejo a su lado, símbolo de la fertilidad. La encarnación de la madre tierra; el arquetipo de la inteligencia práctica, la gestión del hogar y la energía nutritiva de la abundancia."
+    },
+    {
+      "id": 77,
+      "name": "Rey de Oros",
+      "image": "77_king_pentacles",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Oros",
+      "element": "Tierra",
+      "history": "El rey sentado en su trono repujado con vides y un toro; ve su castillo y sus viñedos. El lado positivo de la leyenda de Midas. El más rico y estable de los cuatro reyes; dominio financiero y seguridad material."
+    }
+  ]
+}

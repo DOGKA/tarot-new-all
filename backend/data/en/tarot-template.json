@@ -1,0 +1,1798 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "image": "00_fool",
+      "arcana": "major",
+      "number": "0",
+      "suit": null,
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "You are on the threshold of a new chapter; the curiosity and creative spark inside you wants to redraw your course. You don't have to take everything for granted before you take the first step, but you should keep your intentions clear. Don't listen too much to the pessimism of others as you choose your own path; your courage will open unexpected doors.",
+          "love": "There is a desire for a fresh start in love: move forward without closing your heart, but without becoming blind. Instead of hiding your feelings, speak plainly; this openness can lead to a more lively and honest connection. If there are new acquaintances, take your time and enjoy the flow.",
+          "career": "Career 'experimentation' energy is high: a new project, a different role or a completely different direction may beckon. If you're going to take risks, start with small but clear steps; your speed of learning will propel you forward. Your pioneering attitude can attract the right people and opportunities.",
+          "spiritual": "You stand before a new threshold; your curiosity and inner vitality call you to action. Uncertainty feeds your creativity; you must trust your courage to find your way through the darkness. Relax your need for control; experimentation can lead to unexpected discoveries. The situation asks you to put in writing the idea you've been putting off; just define the first step and time will tell."
+        },
+        "reversed": {
+          "general": "You may feel like you have fallen back into the same cycle; in fact, it is a threshold that fear is testing again. Instead of running away, name what is holding you back: uncertainty, criticism, the possibility of failure? Even a small confrontation loosens the chain and gives you room to move again.",
+          "love": "Insecurities from the past can be re-triggered, creating a tendency to either withdraw or act too hastily. For clarity in the relationship, have an honest conversation about 'what you need'. If you address these fears instead of sweeping them under the rug, it will be easier to build a more secure connection.",
+          "career": "The obstacles that stopped you before may come up again; this is a warning not to 'repeat the same mistake'. Simplify the plan, prioritize one goal and set a benchmark for progress. When determination returns, the blockage dissolves.",
+          "spiritual": "There is a moment when you want to move forward but you hold back; over-caution or scattered courage gives you pause. The situation oscillates between fear of making a mistake and flight; this uncertainty can lead to either a careless jump or a complete freeze. Set a boundary before making a decision; clarify what you absolutely will not do, and trust yourself to take this step."
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "image": "01_magician",
+      "arcana": "major",
+      "number": "I",
+      "suit": null,
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Now you have both the idea and the tools: it's a matter of getting started without distracting your focus. It's as much about talking and designing as it is about execution. Don't be afraid to showcase your talent; if your intentions are clear, the results will appear quickly.",
+          "love": "Your power of attraction and communication in relationships is increasing. Show emotion, but don't play games to 'impress' the other person; sincerity is the most powerful move. Small surprises, a good conversation and a common goal can quickly deepen the bond.",
+          "career": "Your career is in your hands: with the right presentation and the right timing, you can grow your influence. Choose a project that showcases your strengths; a 'problem solver' role is particularly good for you. The more you take the initiative, the more open your environment will be to support.",
+          "spiritual": "You have the tools, knowledge and skills; it's just a matter of using them consciously. Your mental focus is high and your power of expression is clear; when you concentrate your strength on one point instead of scattering it, your progress accelerates. The situation demands that you choose a single goal today; give it your undivided attention for 30 minutes and your results may surprise you."
+        },
+        "reversed": {
+          "general": "If there are too many ideas and unclear direction, progress slows down; or vice versa, things can fall apart because you miss details. Reduce confusion: one goal, one plan, one clear step. And make it transparent, without falling into the trap of 'manipulation' or unnecessary pretension.",
+          "love": "Misunderstandings or unrealistic expectations in love can create tension. Match what you say with what you do; use clear sentences instead of innuendo. Talking about the goal of the relationship can defuse small frictions before they escalate.",
+          "career": "Over-planning or under-execution can put you in a cycle of 'staying in preparation'. Focus on producing results, not a presentation file: deadline, accountability, output. Once you take a step, the momentum comes back.",
+          "spiritual": "You have potential but your confidence is shaken; this is causing energy to flow in the wrong directions. The situation suggests that feelings of manipulation and procrastination are affecting you; this is leading to a loss of power. Remembering your own achievements is important to restore inner balance; make a short list of what you can do and give yourself evidence."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "image": "02_high_priestess",
+      "arcana": "major",
+      "number": "II",
+      "suit": null,
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "There is another layer behind the visible; your intuition does not speak in vain. Instead of making quick decisions, listen to the signs and your inner voice: the right information will appear in time. When clarity comes, you can act without hesitation.",
+          "love": "In love, intuition is very powerful: if something troubles you or gives you peace of mind, take its message seriously. If there is emotional fog, it's good to clear the space with a gentle but open conversation. Subtlety is the key to this card.",
+          "career": "The 'sudden epiphany' effect in professional life: the right role, the right project, the right partnership can suddenly appear. Opportunities that seem difficult at first can grow you; if your instinct says 'yes', it's worth considering. After calmly gathering the details, take the leap.",
+          "spiritual": "Your voice resonates above the noise; your intuitive awareness guides you. You don't have to share your every thought; patience and deep observation are your best friends in this process. The situation suggests that your knowledge is still in the maturing stage; wait for a day and write down your feelings and your inner journey will be illuminated."
+        },
+        "reversed": {
+          "general": "You may be suppressing your inner voice because you don't want to see certain truths. Uncomfortable information is often the gateway to growth; the more you avoid it, the more it grows. Re-evaluate the situation with a neutral eye and ask 'what am I avoiding hearing?",
+          "love": "Denial in a relationship does not solve the problem; it only postpones it. If there is an unspoken issue, bring it up calmly: with the intention of understanding, not blaming. Honesty may be difficult, but it strengthens the relationship in the long run.",
+          "career": "Fear of the prospect of change can limit career progression. It may require steps such as getting feedback, thinking about a new path or changing the job description. Once you accept reality, your options multiply.",
+          "spiritual": "You are suppressing your intuition; your search for external validation is drowning out your inner voice. The situation makes it difficult to trust your own knowledge; this lost silence can threaten your inner peace. Jot down your own answer in a single sentence; this simple act will help you to hear your inner voice again."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "image": "03_empress",
+      "arcana": "major",
+      "number": "III",
+      "suit": null,
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "It is a growing, multiplying, nurturing period: you are opening a 'living space' for yourself and your environment. Compassion is the fuel for productivity; what you give regular attention to will flourish. In relationships and at work, establishing a trusting ground strengthens you.",
+          "love": "Your love language is softer and more inclusive: bonding, caring, laboring come to the fore. Talk to your partner about your needs, build trust with small gestures. If you are single, taking care of yourself first is the fastest way to attract the right relationship.",
+          "career": "Your supportive role shines in the business environment: keeping teams together, nurturing newcomers, calming processes. You can increase your influence in areas such as mentoring, training, coordination. The idea of 'growing together' accelerates success.",
+          "spiritual": "You are in a nourishing period; when you make space for yourself and your surroundings, your life takes a natural flow. The situation is enriched by self-compassion and creativity coming to the forefront; efficiency, not redundancy, awaits you. Incorporate a routine that feels good for you into your week; it will boost your productivity and breathe fresh air into your life."
+        },
+        "reversed": {
+          "general": "If you neglect your nurturing side, both you and your environment can dry up. Over-giving leads to depletion; under-giving leads to detachment: find the balance. Even a small maintenance routine in daily life (sleep, nutrition, order) makes a big difference.",
+          "love": "Lack of communication or emotional neglect can create distance in a relationship. Letting go of the assumption of 'being understood' and being clear about what you expect improves. When respect and compassion are present at the same time, problems are solved faster.",
+          "career": "Isolation or isolation can reduce efficiency. Collaborate, share responsibility, ask for help when needed. Reconnecting with your team restores both results and motivation.",
+          "spiritual": "You oscillate between neglecting or over-giving yourself, and this imbalance wears on your soul. The situation envelops you with feelings of burnout or guilt; it's up to you to break the cycle. Today, plan something just for you; don't procrastinate, take action and give yourself a gift."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "image": "04_emperor",
+      "arcana": "major",
+      "number": "IV",
+      "suit": null,
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "It's time to organize and set boundaries: reduce uncertainty and you will become stronger. The steps you take now are the foundation for the future, so clarify your plan and follow it with discipline. Even when emotion fluctuates, structure will sustain you.",
+          "love": "The need for trust and stability in relationships is increasing. Being clear about what you want is not to bore the other person, but to solidify the ground. If boundaries and responsibilities are clear, the bond will be more peaceful.",
+          "career": "The energy to take responsibility, manage and build systems in your career is strong. Taking on seemingly difficult tasks will take you to the next level. Concretize the goal: calendar, process, benchmark; then take it step by step.",
+          "spiritual": "It's time for structure and responsibility; clear boundaries increase a sense of trust. The situation wants to put your need for control into a healthy framework; putting the rules in writing in one area of your life creates a strong start. By taking clear steps, you can solidify the balance in your life."
+        },
+        "reversed": {
+          "general": "The greater the need for control, the less flexibility you can have, which can lead you off track. Review your recent choices: do they really serve the purpose, or were they chosen just because it was 'easier'? Build a smart, not rigid, structure to correct your direction.",
+          "love": "Power struggles or rigid attitudes in love can exhaust the relationship. Set the goal of 'being understood' instead of 'being right' and look for common ground. If there is disharmony, clarifying it with an open conversation is the right step.",
+          "career": "Shortcuts may be tempting but may not bring sustainable success. Realign your plan with the long-term goal; redesign processes if necessary. If you are experiencing friction with authority, soften and clarify the language of communication.",
+          "spiritual": "Either you seek too much control or you run away from authority, which creates tension with the power within you. Indecision grips you. The situation will become clearer when you honestly identify the area in which you are avoiding responsibility; this will galvanize you into action."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "image": "05_hierophant",
+      "arcana": "major",
+      "number": "V",
+      "suit": null,
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "A period of learning and alignment with conventional wisdom: a teacher, a system or a method can guide you. Instead of getting defensive when confronted with different points of view, try to capture the lesson. The purpose of rules is not oppression, but a framework that provides stability.",
+          "love": "Values, family dynamics and perceptions of 'right and wrong' can come to the fore in a relationship. Talking about what you believe in together strengthens the foundation of the bond. If there are differences, it is good to establish a common ritual or order.",
+          "career": "Mentoring, training, corporate culture and processes can grow your career. Working with someone with more experience both accelerates and reduces the margin for error. When you take knowledge and put it into practice, your visibility increases.",
+          "spiritual": "You are experiencing a profound transformation in your search for status, wisdom and guidance; your desire to learn is clarifying your values. Integrate what you learn into your life; applying that single principle from a trusted source will open new doors for you. Remember, every piece of knowledge helps you take a step forward and strengthens your belonging."
+        },
+        "reversed": {
+          "general": "Complacency or the idea that 'this is the way it is' can slow down progress. Running away because change is difficult prolongs the lesson. Make space for new knowledge to update your own truths.",
+          "love": "Avoiding difficult conversations in a relationship can magnify small problems. If traditional expectations bore you, discuss it calmly and create a pattern that works for you. The bond is only strengthened when real needs are discussed.",
+          "career": "Avoiding feedback or putting off learning limits professional growth. Take concrete steps like finding a mentor, taking a course or trying a new method. The comfort zone is comfortable in the short term but expensive in the long term.",
+          "spiritual": "Patterns limit you; blind conformity overshadows your originality. The situation calls for questioning every rule you think 'this is how it should be'; stretch and create space for yourself. If you take a bold step out of your habits, you can unleash your creative potential."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "image": "06_lovers",
+      "arcana": "major",
+      "number": "VI",
+      "suit": null,
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "You are on the threshold of a choice: if your decision is in line with your values, you will have more peace of mind. 'What do I want' instead of 'what everyone else says' is the guiding question. When heart and head are in conflict, find common ground: intention + result.",
+          "love": "True harmony in love is not just attraction, but shared values and open communication. It can even be something that doesn't conform to social norms; the important thing is whether it's right for you. If you speak honestly, the relationship will either deepen or clarify.",
+          "career": "A choice may arise between prestige and meaning in a career. Go for what satisfies sustainably, not just what \"looks good\". Once your decision is clear, opportunities align faster.",
+          "spiritual": "A door of choice is opening; making decisions that are in line with your values means going deep into your soul. The situation should clarify what this decision represents for you; if you reveal your inner honesty, you are on the right path."
+        },
+        "reversed": {
+          "general": "Indecision may look like 'waiting' but it is actually a waste of energy. You have to choose a direction; otherwise circumstances will choose for you. If you are torn between two options, write down your core value and deal with it accordingly.",
+          "love": "Clarity is essential in a relationship: what do you want, what can't you tolerate, what do you want to grow? Leaving it vague increases dissatisfaction. A clear conversation either brings harmony or dissolves unnecessary ties.",
+          "career": "Dithering between job options can lead to missed opportunities. Define your goal and focus on a single route. Once you have made a choice, it will be easier to execute the plan.",
+          "spiritual": "Indecision grips you; you avoid confronting your values. The situation is driven by your inner conflicts in an effort to please you. Deal clearly with the option you don't want; this could be the key to your freedom. When you don't take a stand, you lose the flow of life."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "image": "07_chariot",
+      "arcana": "major",
+      "number": "VII",
+      "suit": null,
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "There is momentum: events are coming one after the other and if you have direction, this momentum will carry you forward. Stay on target without distractions; small adjustments go a long way. Control is not rigidity; it is consistent management.",
+          "love": "If the relationship is moving fast, make sure both parties are comfortable with the pace. Talking about feelings without hiding them reduces the stress of the pace. If you look at the same goal, the bond is strengthened.",
+          "career": "A chance to build momentum at work: new project, new role, new responsibility. Opportunity to show leadership; staying calm makes a difference, especially in times of crisis. Clarify the goal, align the team, move forward.",
+          "spiritual": "Willpower and clarity are strengthened as you focus on the goal; external obstacles fade into the background. The situation strengthens your focus while balancing discipline and determination. Set one priority for the week; this decision keeps you on the right track."
+        },
+        "reversed": {
+          "general": "If the pace is overwhelming, this is a warning to 'put on the brakes and choose a direction'. Not every opportunity is your opportunity; be selective. Prioritize first, then pick up the pace again; otherwise the risk of falling apart increases.",
+          "love": "If rushing is exhausting the relationship, it is essential to talk about the pace. If you need to 'go slower', say so clearly. Getting into the same rhythm avoids unnecessary conflict.",
+          "career": "You may be tempted to avoid difficult projects; instead, divide and delegate your workload wisely and focus on the highest impact work. Targeted energy wins, not scattered energy. A short plan revision restores momentum.",
+          "spiritual": "The situation is that your energy is scattered and strained; control anxiety is blocking your progress. Slow down the pace and gain clarity by simplifying your goals. This simple shift reduces the clutter in your mind and points you in the right direction."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "image": "08_strength",
+      "arcana": "major",
+      "number": "VIII",
+      "suit": null,
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "The source of strength is not noise, but calm courage. When you choose to manage difficult emotions rather than suppress them, the chaos around you calms down. Patience and self-discipline are your trump cards during this period.",
+          "love": "A soft determination in the relationship: speaking clearly but without offending increases the trust of the bond. If there are conflicts, set the goal of 'understanding' rather than 'winning'. A compassionate attitude is more effective than expected in solving problems.",
+          "career": "On the business side, resilience and leadership shine through. Tough negotiations, intense projects, decision-making under pressure... staying calm in all of them will differentiate you. As your willpower rises, those around you may look to you for direction.",
+          "spiritual": "Strength manifests itself in a soft touch; your resilience and self-compassion rise. When faced with a difficult moment, you must consciously soften your tone of voice; this brings peace to yourself and to those around you. When your determination is combined with gentle strength, transformation begins."
+        },
+        "reversed": {
+          "general": "Your energy may be leaking: either you are overloaded or you are stuck on things you cannot control. To get your power back, first set limits, then return to a 'one problem, one solution' approach. Recognizing the self-defeating cycle is halfway there.",
+          "love": "If burnout or accumulated resentment is evident in the relationship, it is necessary to talk about it rather than cover it up. Even a small step is enough to ease the emotional burden: a clear request, a clear boundary, an honest confession. In this way harmony can be restored.",
+          "career": "If obstacles are demoralizing, isolate their source: is it the process, the person, the time management? Get the problem right and the solution will accelerate. Instead of uncontrolled anger or withdrawal, choose planned struggle.",
+          "spiritual": "Your self-esteem is shaken; pent-up anger is fueling the storm inside you. The situation is exacerbated when you speak harshly to yourself. Be kind to yourself; soft language can ease the conflicts in your heart. A dialog with yourself has the power to heal the wounds of your soul."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "image": "09_hermit",
+      "arcana": "major",
+      "number": "IX",
+      "suit": null,
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "The Hermit is the card to step back and get clear: when the crowd is silenced, your voice is heard. Use this period to understand your goals, your values and your true need. Solitude is not a punishment; it is a means of establishing inner order.",
+          "love": "In love life, the question 'what do I need? For those in a relationship, healthy personal space doesn't weaken the bond; it strengthens it when it's done right. If you are single, this is a good time to get to know yourself before a new beginning.",
+          "career": "A short career pause and reflection pays big dividends in the long run. Take a step away from the hectic pace and realign your goals; plan for training/certification/specialization if necessary. Quiet preparation opens doors at the right time.",
+          "spiritual": "You are intoxicated by the situation, the desire to turn inward and simplify; wisdom brings clarity, not loneliness. Slow down the day and create a quiet time; this will help you find your inner peace."
+        },
+        "reversed": {
+          "general": "'Looking busy' when you are tired can drain you even more. Don't deny the need for rest; slowing down is not going backwards. A short break and fixing basic routines (sleep, nutrition, organization) can clear your mind.",
+          "love": "Pretending to be 'fine' when you are not creates distance in the relationship. Talk to your partner in a calm language: your need to be alone, the intensity of your feelings, your limits. This clarity reduces misunderstandings and increases trust.",
+          "career": "The workload may have increased unnecessarily or your work may feel like it has lost its meaning. Re-prioritize, weed out unproductive tasks and, if necessary, discuss role definition. It's not about running more, but walking in the right direction.",
+          "spiritual": "The situation reveals an effort to suppress your inner voice; loneliness can darken your thoughts. When you choose to share your thoughts with someone you trust, a light shines in the darkness. This step increases your inner peace; others' perspectives open new doors for you."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "The Wheel of Fortune",
+      "image": "10_wheel_of_fortune",
+      "arcana": "major",
+      "number": "X",
+      "suit": null,
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "The wheel is turning: external conditions are changing and your role is to take advantage of this change. Even if it feels uncomfortable at first, this movement can be part of a transition to a better order. If you remain flexible, the door of luck will open more easily.",
+          "love": "Relationship dynamics are evolving: a deeper connection, a new era or decisions that take the relationship to a different level may come up. Talking about the vision of the future softens this change. Going with the flow soothes the heart.",
+          "career": "A window of opportunity in your career: a promotion, a change of role, a new offer or a visible success. If you adapt quickly to the changing role, this period can be a springboard. Produce tangible output to show you are ready.",
+          "spiritual": "Change is inevitable, but you can determine its direction. The situation opens doors of opportunity with your flexibility; choosing the one area you can control will empower you. Have the courage to forge your own path; each step will open up new opportunities."
+        },
+        "reversed": {
+          "general": "The opportunity is there, but it can slip away if you are passive; it is not enough to keep the wheels turning. Catch the small signs and make the necessary move. A 'one small step today' approach instead of 'one day' will move you forward.",
+          "love": "You may be overlooking opportunities for relationship growth: a small conversation, a gesture, a clarification... All of them change the direction of the bond. Listen more carefully to your partner's signals; these cues are valuable.",
+          "career": "An opportunity in front of your eyes on the business side may seem 'too mundane' and be missed. Gather information, ask, be visible; active participation magnifies opportunity. Luck doesn't like the ready but also the mover.",
+          "spiritual": "The cycle is like a pattern that squeezes you; you have to avoid repeating the same mistakes. The situation requires you to face your lack of awareness; naming this pattern is the first step towards freedom. Pay attention, recognize this cycle and develop strategies to break it."
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "image": "11_justice",
+      "arcana": "major",
+      "number": "XI",
+      "suit": null,
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Now is the time for clarity: what is true, what is real, what is fair... you want to see it clearly. When you weigh the picture without emotion, you will make the soundest decision. The justice card reminds you that \"the results will be in line with your choices\".",
+          "love": "Balance and honesty are essential in love: if intentions, boundaries and expectations are clear, the relationship is relaxed. If there is a feeling of injustice about something, talking about it calmly but openly can heal it. The bond is more secure when mutual responsibilities are shared fairly.",
+          "career": "A period of measurement and evaluation in your career: performance, agreement, contract, promotion or reassignment may be on the agenda. Concretize your document, your result, your contribution to get what you deserve. A fair and clear stance will make you look strong in this period.",
+          "spiritual": "Balance, honesty and clarity are the essence of this moment; it's time to take responsibility. The situation demands that you write down your decision with objective criteria; this will clarify your thoughts and strengthen your actions. Express yourself openly and express your inner decision; this will accelerate your progress."
+        },
+        "reversed": {
+          "general": "A sense of injustice or bias may cloud your judgment. You may be too hard on yourself or too tolerant of someone else. To see the truth, you need to put emotion aside and turn to concrete evidence.",
+          "love": "Unfair distribution of burdens in a relationship can create silent resentment: one gives more, the other may not notice. Waiting to be \"understood\" without speaking clearly is exhausting; say clearly what you need. Without balance, the relationship wears out, dragging in the same place.",
+          "career": "In business, misunderstandings, unfair evaluations or promises that remain verbal can create risks. Put communication in writing, clarify expectations and make your contribution visible. A systematic approach instead of an emotional reaction is the most effective defense during this period.",
+          "spiritual": "The situation is wrapped in perceived injustice and inner contradictions; when you calmly assess your part in it, you will see the truth more clearly. Instead of suppressing your feelings, confront them; this will open the door to inner peace. Be kind to yourself, this is an opportunity to get to know yourself again."
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "image": "12_hanged_man",
+      "arcana": "major",
+      "number": "XII",
+      "suit": null,
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "The present moment is not speed, but a change of perspective brings gain: waiting is preparation, not futility. When you let go of what you are trying to control, your mind works more clearly and the right answer appears by itself. This card says \"stop and look at it from a different angle\".",
+          "love": "Instead of rushing to judgment in love, it is necessary to make space to understand the feeling. If there is a pause in the relationship, this is not a rupture; it is often an opportunity for 're-evaluation'. When you talk patiently and calmly, the real needs become clearer.",
+          "career": "There may be a pending career process: a decision is pending, the circumstances are not ripe, or the timing is not yet right. If you use this period to strategize, train and prepare, you will move forward much stronger. The right move at the right time is more productive than pushing stubbornly.",
+          "spiritual": "Waiting allows you to gain a new perspective; taking your time brings deeper understanding. The situation is testing your patience and surrender; in the process, you will become clearer every day. Give yourself time; sometimes stopping is the greatest progress."
+        },
+        "reversed": {
+          "general": "If waiting is no longer productive, this card is a warning that you are \"stuck\". Going round and round in the same mindset won't move you forward; even a small move can unlock the lock. You may be making unnecessary sacrifices or you may be afraid to take action: distinguish between both.",
+          "love": "Keeping silent in a relationship generates resentment instead of love after a while. It is necessary to speak for clarity; otherwise stagnation becomes permanent. If you are constantly sacrificing yourself, setting boundaries is essential at this time.",
+          "career": "On the business side, procrastination or indecision can turn into lost opportunities. If you're constantly preparing but not executing, scale down the goal and take a concrete step: deadline, deliverable, accountability. Once the action starts, your mind quickly recovers.",
+          "spiritual": "The situation shows that unnecessary sacrifices are wearing you down; stubbornness is blocking your progress. Clarify what you need to let go of; what burdens are weighing heavy on your heart? You have to take a bold step to become lighter; your freedom begins with letting go of past burdens."
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "image": "13_death",
+      "arcana": "major",
+      "number": "XIII",
+      "suit": null,
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "A cycle is closing and this closure is necessary to make room for a new beginning. When what you are holding on to no longer carries you, letting go is not 'losing' but lightening. Change is frightening at first, but when the cleaning is done in the right place, life is quickly refreshed.",
+          "love": "In love, an old habit, an old resentment or the distribution of roles in a relationship may have come to an end. This card reveals when you say 'we can't go on the same way'; it takes courage to transform. An honest conversation and a clear decision will either renew the bond or end the unnecessary burden.",
+          "career": "A sharp career transition is coming: a change of role, team, goal or industry. Instead of holding on to the old way, you need to let go of what no longer works and build the new strategy. This ending allows you to come back with a stronger identity and a clearer direction.",
+          "spiritual": "A cycle is closing, and this closure is essential to open the doors to new opportunities. When the situation clarifies what no longer functions, the burden will lighten. To say goodbye is not to lose, but to renew and grow. Be brave, let go and make room for the new."
+        },
+        "reversed": {
+          "general": "You may be prolonging something that needs to end, which makes change more painful. Returning to the same cycle because of fear increases the burden that exhausts you. If you clarify the question 'What am I afraid to let go of?",
+          "love": "Maintaining a dynamic in a relationship that is no longer working can drain both love and respect. Instead of rehashing old arguments, it is necessary to talk about the root of the problem and turn over a new leaf. If it is necessary to leave, it is essential to do so without prolonging it; if it is necessary to stay, it is essential to actually change the behavior.",
+          "career": "If there is a need for change in business life and you say 'I'll manage for now', opportunities may be missed. Expecting different results with the same method brings burnout. Even a small move (role clarification, new competence, different project) can open the door to transformation.",
+          "spiritual": "Fear of holding on and fear of change surrounds you; feeling this fear is part of being human. The situation suggests that it is time to say goodbye to the habits in your life; consciously choose to let go. The end of everything is a harbinger of new beginnings; if you set out with courage, you can see the fresh opportunities that await you."
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "image": "14_temperance",
+      "arcana": "major",
+      "number": "XIV",
+      "suit": null,
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "What life asks of you is not speed, but harmony: not to live at the extremes, but to take the middle path. Patience is the hidden power of this card; things that fall apart in a hurry will come together as you find a rhythm. Small but steady steps yield more lasting results than big leaps.",
+          "love": "In love, soft communication and mutual understanding improve the relationship. Instead of 'my way or the highway', it is important to establish a common order that both parties are comfortable with. Small gestures, calm conversations and measured expectations are the real fuel that strengthens the bond.",
+          "career": "It is the period of establishing processes in your career, maintaining balance within the team and achieving a sustainable tempo. Efficiency increases if you divide the work into parts and move forward with rhythm, rather than trying to do everything at once. Harmonious collaboration moves you forward faster than solo efforts during this period.",
+          "spiritual": "Harmony and moderation are strengthened; the seeds of patience are planted. Your inner peace increases as the situation stabilizes your daily rhythm; this balance stabilizes you. Take each moment and strengthen this balance by making small changes."
+        },
+        "reversed": {
+          "general": "The balance may be out of balance; you are either pushing too hard or spreading out too much. Excesses come at a steep price: everything from sleep and nutrition to work pace and emotion management are interconnected. To find your center again, first slow down, then restore order.",
+          "love": "You may have run out of patience or expectations may have gone to extremes. When one of you gives too much and the other doesn't seem to notice, the bond frays. Talking about the middle ground, clarifying responsibilities and needs is the best medicine during this period.",
+          "career": "Clutter and unbalanced load distribution on the work side can reduce performance. Simplify priorities, choose the work that produces the highest impact and plan the rest. When process and routine return, motivation will pick up.",
+          "spiritual": "Extremes wear on your soul; take a step back and take a deep breath to find balance. By turning down one of the extremes, you can create a calmer ground; this offers the opportunity to rebuild your inner peace. Remember, sometimes taking a step back is the best foundation for moving forward."
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "The Devil",
+      "image": "15_devil",
+      "arcana": "major",
+      "number": "XV",
+      "suit": null,
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "What may be holding you back is not so much an external force as an internal habit and attachment. The devil's card says 'see the chain': addiction, obsession, need for control, escape through pleasure... All of them begin to unravel when they are first recognized.",
+          "love": "Intense attraction in love is good, but it can turn into bondage if it breaks boundaries. Jealousy, control, dependent attachment or 'I can't do without him/her' constricts the relationship. When you separate passion and trust and establish healthy boundaries, the bond works much stronger.",
+          "career": "You may be stuck in a career arrangement you don't want in order to 'stay safe'; or you may be worn down by the ambition for status/money. Beware of the risk of giving up your long-term self for short-term gain. A clear boundary and a healthier goal will get you out of this cycle.",
+          "spiritual": "Your attachments and habits come to the surface; the chains that hold you are now visible. The situation is shaped by an inner sense of attachment; you are in control, but you are afraid to use it. It's time for awareness, not guilt; be brave to illuminate the darkness. State the self-limiting habit in a clear sentence; if you honestly describe what you bring to it, you can pave the way to freedom."
+        },
+        "reversed": {
+          "general": "A threshold where the chain loosens: awareness increases and you can say 'I don't want this'. When this card is reversed, liberation is not instantaneous, but step by step; but the direction is clear. Even a small decision (a limit, an order, a 'no') opens the door to freedom.",
+          "love": "In love, the unhealthy bond begins to dissolve; either the relationship evolves into a healthier form or the unnecessary dependency is broken. Open talk, honest expressions of need and setting boundaries are healing. Passion may remain, but it no longer rules you; you rule it.",
+          "career": "On the work side, there may be a point where you say 'enough is enough': a toxic team, a task that has lost its meaning or a pace that exploits you. This is the right time to draw boundaries to protect yourself and explore alternatives. In the long run, this change will increase both productivity and self-confidence.",
+          "spiritual": "Your chains are beginning to loosen; you are on the brink of freedom and they are no longer as strong as before. The situation shows that your courage is rising, but you are hesitant to make the final move. Change is at the door, but you must take a conscious step. Postpone your limiting behavior once today, observe the effect and enjoy the liberation."
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "image": "16_tower",
+      "arcana": "major",
+      "number": "XVI",
+      "suit": null,
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "The tower says 'the wrong structure will collapse'; it is jarring but realistic. A sudden piece of news, an unexpected break or a disruption to a plan can be a shock at first. But this destruction gives you space to build a more accurate and solid order.",
+          "love": "Suppressed truths in love can become visible: unspoken problems, hidden resentments, underlying mistrust. This card says 'face it now' or the relationship will explode on its own. Honesty is difficult but healing; real balance replaces false peace.",
+          "career": "A system failure in your career: an expected project cancellation, team change, role shift or conflict with authority. While the first reaction may be 'everything has fallen apart', it may actually be taking you off course. If you stay calm and build the new plan, this crisis will lift you up.",
+          "spiritual": "A sudden realization shakes your existing structure; unexpected truths illuminate points you have long ignored. It's uncomfortable, but this jolt shows you the truth; don't stay in the shadow of denial, choose to face it. Unraveling the false foundation is not destruction; write down your outdated belief and stop defending it; this will open a door to freedom."
+        },
+        "reversed": {
+          "general": "Delaying the shaking can magnify the destruction, because the problem is there. When this card is reversed, it is usually a warning to 'avoid' and 'postpone'. If a small confrontation is made now, a major collapse can be avoided.",
+          "love": "There may be a sense of a potential break in the relationship but avoid talking about it. Silence does not protect trust; on the contrary, it gnaws it from within. A gentle but clear conversation can either strengthen the relationship or end an unnecessary breakdown early and cleanly.",
+          "career": "If you see a change coming on the business side and think 'I'll manage', you may find it more difficult later. Clarifying processes, expectations and your role now is the smartest move. Small adjustments and communication often prevent major crises.",
+          "spiritual": "Postponing change is causing the structure to crack, but it has not yet collapsed. Be aware that your quest for control is delaying transformation. The situation suggests a conscious unraveling rather than a sudden break. By ending a single habit, you can take a small step instead of a big break; it opens a new path."
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "image": "17_star",
+      "arcana": "major",
+      "number": "XVII",
+      "suit": null,
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "The star is the calm hope that comes after the storm: the healing begins and the path lights up again. Things don't have to get better all at once; what matters is the feeling that you are in the right direction. If you keep your faith fresh, even small signs will lead you to the right place.",
+          "love": "In love, it's a time of reopening the heart: a more honest, transparent and healing connection is possible. If there are past resentments, this is a good time to soften them and rebuild trust. If you're single, a promising meeting could be on the agenda; for those in a relationship, the relationship could be 'cleaned up' and refreshed.",
+          "career": "Career inspiration and vision are rising: 'I can do it' energy is coming back. The right project, the right team or the right target may appear on the horizon; increased visibility is especially possible. If you keep your plan realistic and move forward steadily, this period will create a long-term leap forward.",
+          "spiritual": "After a challenging period, there is a sense of relief; it marks a phase of healing and rebuilding trust. Hope is not a passive expectation, but the practice of believing in yourself again. Take small but consistent steps every day during this period; write down a single intention for the future and choose a simple symbol to remind you of it."
+        },
+        "reversed": {
+          "general": "When despair descends like a fog, you can't see the light, but the Star is still there. When this card is reversed, it often says 'your faith is weakened', but the solution is not to give up completely, but to set the goal realistically again. A small success plan can quickly restore motivation.",
+          "love": "In love, thinking 'it won't work out anyway' can cool the relationship. To restore hope, first clean up communication: clear statements not innuendo, confrontation not avoidance. Even a small step of intimacy can revitalize trust and warmth.",
+          "career": "If you feel low self-esteem or burnout at work, it may be temporary, but it should be taken seriously. Make the goals smaller, the output more tangible and get yourself back in rhythm. When the momentum returns, you'll see the opportunities more clearly and start to shine again.",
+          "spiritual": "Hope is clouded by fatigue; your perception is narrowed and there is a vague fog around you. The situation is not permanent; it is a temporary reflection of exhaustion. Stop beating yourself up, lower your expectations and allow yourself to rest. As you relax, a new clarity will emerge."
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "image": "18_moon",
+      "arcana": "major",
+      "number": "XVIII",
+      "suit": null,
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "The Moon is the card of uncertainty and intuition: everything may not seem clear, but your feelings are not in vain. You are walking in a foggy field; it is necessary to proceed with calm observation, not panic. This period teaches not to rush to judgment until the truth is revealed.",
+          "love": "Mixed signals, misunderstandings or hidden feelings may come up in love. Open talk instead of innuendo and assumption is essential; otherwise the mind will create scenarios. Your intuition is strong, but if you support it with clear communication, the relationship will be more secure.",
+          "career": "Behind-the-scenes dynamics, uncertain processes or unclear expectations in your career can be tiring. During this period, don't believe everything you are told; verify information, ask for details and ask for written clarity. When the fog clears, you will see the right position much more easily.",
+          "spiritual": "Uncertainty and emotional fluctuations surround you; your fears are not reflections of reality, but shadows whispered from the dark corners of your mind. The situation calls for listening to your intuition instead of looking for clear answers. Turn the unsettling uncertainty into a concrete question; write it down and address it."
+        },
+        "reversed": {
+          "general": "The fog begins to clear: as confusion subsides, the truth becomes clearer. When this card is reversed, it's usually a break from the cycle of 'self-deception'; clarity replaces fear. Still, it's best to take your time, digest the truth you see and move on.",
+          "love": "Misunderstandings in a relationship can be resolved, but only with an open and calm conversation. Instead of acting out of jealousy, delusion or suspicion, a return to concrete reality can heal. When clarity comes, either trust grows or unnecessary uncertainty ends.",
+          "career": "Closed issues on the work side can be clarified: role definition, expectations, processes and responsibilities become clear. Rely on official information, not rumors; verification is invaluable at this time. The clearer picture makes it easier for you to make decisions.",
+          "spiritual": "The fog is lifting; the truth is slowly emerging. The situation calls for a balance between intuition and reason; it's up to you to clear the confusion. Clear the fog in your mind by separating assumptions from reality; take steps to let everything find its place."
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "image": "19_sun",
+      "arcana": "major",
+      "number": "XIX",
+      "suit": null,
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "The Sun brings clarity and vitality: confidence is rising within you and things are coming together more visibly. This card says, \"now show, share, perform\"; the energy of hiding is gone. When you choose the simple, life opens up faster.",
+          "love": "There is warmth, sincerity and openness in love: the heart expresses more freely. The relationship can move to a more joyful and secure level; it's good to make plans together, to talk about the future. If you are single, energy is high: you attract attention even in your natural state.",
+          "career": "Visible success in career: recognition, promotion, a good result, a strong project closure could be on the agenda. Keep your communication open, showcase your output and own your success; this is a time to shine. Clear goal + high energy brings fast progress.",
+          "spiritual": "You are intoxicated by openness and vitality; you enjoy expressing yourself. The situation boosts the confidence that comes from being authentic; you can exist without needing the approval of others. Celebrate every accomplishment; it will be a spark that feeds your inner strength."
+        },
+        "reversed": {
+          "general": "There is light, but it seems to be obscured: either you underestimate yourself or you don't fully embrace success. Low morale can be temporary; the main thing is to put your focus back on the right thing. A little order and a clear goal can bring the energy back quickly.",
+          "love": "If the joy in a relationship has diminished, it is often because of small unspoken resentments. A simple but real step is enough to bring back the warmth: a clear sentence, a small plan, a sincere gesture. Instead of excessive expectations, real intimacy builds bonds.",
+          "career": "There may be a lack of visibility or demotivation on the business side, but that doesn't mean there is no potential. Make the output tangible, set the benchmark for success and put yourself in the right place. When momentum returns, opportunities open up faster.",
+          "spiritual": "The situation shows that your energy level is down and joy is overshadowed; excessive seriousness is holding you back. Remember, the light doesn't disappear; it just gets a little blurry. By returning to those simple activities that nourish you, you can revitalize your spirit."
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "Judgement",
+      "image": "20_judgement",
+      "arcana": "major",
+      "number": "XX",
+      "suit": null,
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "You are on the threshold of an awakening: time to carry the lessons of the past, not its burdens. Your inner call is not random; it demands the courage to change direction. When you are true to yourself, a new chapter of life opens up quickly.",
+          "love": "In love, you cannot move forward until past issues are closed. Forgiveness is not forgetting; it is letting go of the burden. An open confrontation either cleanses the relationship or ends it in the right way.",
+          "career": "The big career decision is at hand: stay or go, grow or change direction? Look at your future potential, not your past success. A bold choice brings freedom in the long run.",
+          "spiritual": "The past is taking on a new meaning; the awareness calling you says it's time to review old cycles. The situation is on the verge of a conscious decision; self-forgiveness and taking responsibility go hand in hand in this process. Once you articulate the decision you are struggling with in a clear sentence, your burdens will lighten and your path will be cleared."
+        },
+        "reversed": {
+          "general": "Ignoring the call repeats the same cycle. Fear of change does not keep you safe; it only keeps you in place. Even a small confrontation opens the way.",
+          "love": "An unspoken past in a relationship can poison the present. Old resentments should be cleaned up, not hidden. The longer clarity is delayed, the greater the distance.",
+          "career": "Delaying a decision is a lost opportunity. Constant preparation and lack of implementation will tire you. Choose a direction and start walking.",
+          "spiritual": "You are in the trap of judging yourself harshly; guilt and regret are blocking your progress. It starts with an inward turn of forgiveness; revisit your past decisions with the knowledge of the present. Be kind to yourself; moving forward in this way will help you find your freedom."
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "image": "21_world",
+      "arcana": "major",
+      "number": "XXI",
+      "suit": null,
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "A cycle is completed and your journey now reaches a visible conclusion. The world card is a sense of wholeness built through labor; the pieces fall into place and the picture makes sense. Embracing this success rather than minimizing it feeds the energy for the next step.",
+          "love": "Maturity and acceptance prevail in the relationship: imperfections are managed, not hidden. The order established together is now more realistic and sustainable. Talking about the future is not scary; on the contrary, it becomes a step that strengthens the bond.",
+          "career": "There is an energy of career completion: a process you have been working on for a long time can be closed or crowned with visible success. At this point, it is important not to speed up, but to see the outcome clearly and celebrate it. Accepting success is the psychological threshold that opens new doors.",
+          "spiritual": "A cycle is completing; you can now clearly feel the fruits of your labor. It's time to close the process and be satisfied; this completion prepares you for new beginnings. Perform a symbolic ritual to honor what is finished, so that you are free from the burden of the past."
+        },
+        "reversed": {
+          "general": "A process that needs to be completed may be dragging on; hesitating to take the last step delays progress. Unfinished business creates mental weight and blocks new beginnings. Finishing is more liberating than you think.",
+          "love": "The feeling of 'completion' can be delayed by unspoken issues in the relationship. Instead of pretending that everything is fine, the missing piece needs to be addressed honestly. Without clarity, peace cannot last.",
+          "career": "A career project or goal may be dragging on; a file that needs to be closed is not being closed. Focusing and making the final move saves you unnecessary energy. Finished work quickly restores confidence.",
+          "spiritual": "You are very close to completion; you don't need to wait to take the final step. The situation is making you feel the difficulty of saying goodbye; feeling incomplete is an obstacle to completion. Clarify the last unfinished detail; it's like putting the last brick in place to complete your process."
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "Ace of Wands",
+      "image": "22_ace_wands",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "A new spark is born; this card is pure start-up energy. The idea may be small, but the will to act is strong. Procrastination extinguishes the fire, but trying makes it grow.",
+          "love": "In love, vitality and attraction increase; communication is more direct and honest. A new acquaintance or a fresh period in a relationship is possible. Bold expression quickly deepens the bond.",
+          "career": "A creative career opportunity or new project is on the horizon. Taking the first step is more valuable than waiting for the perfect plan. The energy to experiment is your biggest advantage during this period.",
+          "spiritual": "A new spark is emerging; your inner desire is calling you to action. The situation points to a strong potential that has yet to take shape; you must act now to capitalize on this potential. Excitement and the need to express yourself is a powerful energy driving you; don't leave this energy unplanned, don't let it dissipate."
+        },
+        "reversed": {
+          "general": "The energy is there, but it may be directionless, which creates inner restlessness. If there are lots of ideas but no implementation, motivation drops rapidly. Setting a focus can reignite the fire.",
+          "love": "There is passion in the relationship but misunderstandings can arise if communication is not clear. Instead of implying, it is necessary to use clear sentences. Clarity calms the energy.",
+          "career": "The project idea is exciting, but if it is scattered, it will not produce results. Simplify the goal and focus on one point. Otherwise the energy will run out.",
+          "spiritual": "The spark in yourself is suppressed; the situation dances with directionlessness. Waiting for the perfect moment prevents you from moving forward, so gather your courage and test that desire with a small experiment. Remember, every step brings you one step closer to your goals."
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "Two of Wands",
+      "image": "23_two_wands",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "You are on the threshold of choice and vision; direction needs to be set. The horizon is wide, but there can be no progress until the decision is clear. This card says the plan is ready to grow.",
+          "love": "The relationship is about the future; common goals strengthen the bond. Looking in the same direction creates trust. Clear speech brings peace of mind.",
+          "career": "Planning a new route is on the agenda: expansion, relocation, changing space. Look with courage and opportunities appear. Decision initiates action.",
+          "spiritual": "You are in the process of choosing a direction; you are thinking about where to channel your potential. The situation seeks to develop a vision and broaden your horizons. You need to strike a balance between control and exploration; as you write, you will see which option makes you grow more."
+        },
+        "reversed": {
+          "general": "Indecision drains energy; lack of direction creates restlessness. Waiting is not the solution. It is necessary to choose a route.",
+          "love": "Uncertainty can strain a relationship. You can't move forward without being clear. Clarity is essential.",
+          "career": "Lack of a plan can lead to missed opportunities. Define goals. Clutter stops progress.",
+          "spiritual": "Indecision is like a fog that gives you pause; a narrow perspective slows your progress. The situation shows how risk aversion limits you. Consciously consider an option and take a step; even in uncertainty, courage opens new paths."
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "Three of Wands",
+      "image": "24_three_wands",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "A period of expansion and exploration: borders are growing. You look to the horizon and new areas seem possible. Courage is the fuel for this card.",
+          "love": "The relationship is growing and developing. New experiences together deepen the bond. Movement keeps the relationship alive.",
+          "career": "New markets, new projects or new areas are on the agenda. It is advantageous to think broadly. Risk must be controlled.",
+          "spiritual": "The fruits of your labor are beginning to appear, a sign of progress and expansion. In a process where situation, patience and trust go hand in hand, review the steps you have taken and determine your next move. Each detail is like a compass that will take you further."
+        },
+        "reversed": {
+          "general": "Expected progress may be delayed. Impatience disrupts the process. The timing is not yet right.",
+          "love": "Incompatible tempos can create problems. One side may be fast and the other slow. Rhythm should be discussed.",
+          "career": "The plan may be failing; revision is needed. Blind persistence is a losing proposition. Update strategy.",
+          "spiritual": "Your expectations are delayed; there is no progress. The situation is that a sense of urgency envelops you. In this process, you need to rethink your steps, simplify your timelines, remove complexity. Taking the right steps, not the fast ones, is everything."
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "Four of Wands",
+      "image": "25_four_wands",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "A card of celebration and stability: what you have worked for is on secure ground. This card is a moment of breathing. The balance is established.",
+          "love": "There is peace and trust in the relationship. The space established together feels solid. The bond relaxes.",
+          "career": "Period of stability on the business side: the process is settling down. Sustainability is important, not rushing. The ground is strong.",
+          "spiritual": "A temporary sense of balance and security envelops you; your need to celebrate and settle down increases. The situation demands that you appreciate the process you have completed; this reinforces a sense of belonging and relief. Reward yourself, have a small celebration, take this moment to solidify your next steps."
+        },
+        "reversed": {
+          "general": "The celebration may have been postponed; inner peace is missing. The foundation is there, but it is shaking. The order must be revised.",
+          "love": "Temporary unrest can strain a relationship. Small problems should not be made big. It should be talked about.",
+          "career": "Disorganization reduces efficiency. The process must be re-established. Clarity is essential.",
+          "spiritual": "The balance is out of balance; peace is far away like a temporary guest. The situation shows that the thought 'I didn't deserve it' has overtaken you. Stop belittling success; every step is a worthy victory and acknowledging this opens the door to inner peace."
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "Five of Wands",
+      "image": "26_five_wands",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "Conflict and competition arise; everyone is talking but no one may be really listening. This friction carries a navigational energy, not a destructive one: you see where you are really strong. If you read the discussion as structural rather than personal, you grow.",
+          "love": "Small tensions in a relationship can grow, but the real issue is the need to be understood. Focusing on hearing instead of trying to be right builds connection. Arguments, when managed correctly, strengthen the relationship, not weaken it.",
+          "career": "Competition in your career is on the rise, whether it's a clash of ideas, friction within a team or a jockeying for position. This space is there to sharpen you, not to hold you back. Clear communication and boundaries are the biggest advantage (protection) during this period.",
+          "spiritual": "Conflicts of opinion and competition surround you; it is not about comparisons with others, but within yourself. The need to prove yourself is wearing you down; channel your energy into development, not comparison. Focusing on yourself unlocks your potential and helps you find your true power."
+        },
+        "reversed": {
+          "general": "Avoiding friction looks like peace in the short term, but tensions build up inside. Repressed conflict is not resolved; it changes direction. Addressing the problem when it is small is less exhausting.",
+          "love": "Unspoken discomfort in a relationship can create distance. Silence is not peace; it is often an explosion in waiting. Gentle but clear speech heals.",
+          "career": "Being passive at work can create invisibility. Not speaking up feels safe but stops progress. Don't be afraid of healthy competition.",
+          "spiritual": "You may be tempted to avoid or suppress the situation, avoiding or suppressing the conflict, which causes you to take a step back in your search for inner peace. Expressing what is bothering you calmly is actually showing courage. When you express your feelings, you also create a balance on the outside; remember, silence is not the solution."
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "Six of Wands",
+      "image": "27_six_wands",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "A period of recognition and approval: what you do is visible. This card represents internal validation rather than external applause. Accepting success is part of growth.",
+          "love": "Confidence in the relationship is growing; you see your partner and yourself more clearly. There can be a sense of victory won together. Appreciation builds bonds.",
+          "career": "Visible success in career: project, presentation or result stands out. Don't hold back; own this space. Self-confidence magnifies opportunities.",
+          "spiritual": "Appreciation and visibility are increasing; your efforts are no longer ignored. This goes hand in hand with your self-confidence; embrace your success and share this light with others. Expressing yourself will bring more."
+        },
+        "reversed": {
+          "general": "The search for approval may be externalized, which undermines inner peace. Don't use someone else's scales to measure success. Set your own criteria.",
+          "love": "Lack of appreciation in a relationship can create resentment. Feeling unseen creates distance. Clear expression is needed.",
+          "career": "On the business side, there may be a problem of visibility; there may be a feeling that your work is not recognized. Showing yourself is difficult but necessary. Silence does not advance.",
+          "spiritual": "Lack of appreciation has gripped you; your dissatisfaction is fueling your search for approval. The situation calls for you to set your own benchmarks of progress; this will allow you to chart a path independent of the judgment of others. Restore your confidence; this is the key to inner peace."
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "Seven of Wands",
+      "image": "28_seven_wands",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "Defense and posture card: you need to protect the space you have won. This struggle requires consciousness, not fear. It takes courage to stay in your rightful place.",
+          "love": "Period of setting boundaries in the relationship: love and self-protection can coexist. It is possible to connect without losing oneself. Clarity creates trust.",
+          "career": "In your career you may need to defend your position; the idea, role or project may be controversial. Build an argument instead of retreating. A decisive stance brings respect.",
+          "spiritual": "It's time to defend your space; setting boundaries is a sign of a healthy sense of self-worth. The situation requires you to discover the power of saying 'no'; this clarity will increase your resolve. Respecting yourself is the first step to respecting others."
+        },
+        "reversed": {
+          "general": "Constantly being on the defensive can lead to burnout. You don't have to fight every battle. Use your energy selectively.",
+          "love": "Unnecessary defenses in the relationship may prevent intimacy. The perception of threat may be exaggerated. Softening builds bonds.",
+          "career": "Excessive defensiveness on the work side disrupts communication. Try not to read criticism as an attack. Flexibility is power.",
+          "spiritual": "The situation may be that you are in a period of withdrawal and burnout; the burden seems to be weighing you down. Simplify your responsibilities, this will lighten your load and allow you to breathe. As you make space for yourself, opportunities for renewal and refreshment will arise."
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "Eight of Wands",
+      "image": "29_eight_wands",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "Acceleration card: events are unfolding one after the other. Momentum is built; if you have the direction, you will move forward. It is necessary to lead, not to stop.",
+          "love": "The relationship can move fast; there is intense communication and attraction. Make sure you keep the same pace. Openness reduces stress.",
+          "career": "Career momentum is building; projects and opportunities may overlap. Prioritization is essential. Speed is an advantage but needs control.",
+          "spiritual": "The speed and flow are increasing; you feel the momentum building. The situation opens the doors to act with clarity; you have to step in without waiting. When you find your own rhythm, everything flows more easily."
+        },
+        "reversed": {
+          "general": "The pace can become overwhelming; it is necessary to stop and choose a direction. Not every opportunity is yours. Be selective.",
+          "love": "Rushing can tire a relationship. Rhythm should be discussed. Slowing down builds trust.",
+          "career": "Disorganized speed breeds mistakes. Simplify priorities. Otherwise you will run out of energy.",
+          "spiritual": "Situation, clutter and delay surround you; your priorities are overshadowed by the clutter in your mind. Push the distractions aside; putting things in order clarifies your steps. There is a time for everything, and when you focus on just one thing, it's easier to move forward."
+        }
+      }
+    },
+    {
+      "id": 30,
+      "name": "Nine of Wands",
+      "image": "30_nine_wands",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "Endurance card: you are tired but not finished. This is the home stretch. Resilience is proof of growth.",
+          "love": "There may be relationship fatigue, but the bond is still alive. It's time to grow stronger instead of giving up. Patience builds bonds.",
+          "career": "The final career test: it can be tempting to quit. But resisting now will pay off. It's only a matter of time.",
+          "spiritual": "Even as fatigue grips you, resilience continues to burn like a flame; you realize you are approaching a final threshold. The situation demands that you set your limits; take swift action to protect yourself. This is not weakness, but a clever show of strength; once you set your boundaries, your inner resilience will shine through."
+        },
+        "reversed": {
+          "general": "Burnout signals burnout; blind resistance hurts. Rest is not weakness. It is necessary to gather strength.",
+          "love": "Constant defense in a relationship can be exhausting. Create a space of trust. Put up a wall.",
+          "career": "Overload on the work side reduces efficiency. Request support. Don't carry it alone.",
+          "spiritual": "The situation shows that burnout is increasing; the pressure to 'keep going' is wearing you down. Taking a break is not weakness; on the contrary, it is the key to re-energizing. Give yourself a breather; this pause will allow you to come back stronger."
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "Ten of Wands",
+      "image": "31_ten_wands",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "The burden you have been carrying is now becoming visible; it means you have reached your card limit. Taking responsibility is empowering, but too much can crush the identity. You have to ask if all the things you carry really belong to you.",
+          "love": "There may be a feeling of one-sided burden in the relationship; one carries it and the other doesn't notice. Sacrifice is not love, it hides imbalance. Unless the burden is shared, the bond tires.",
+          "career": "Excessive responsibility in a career can lead to burnout; taking on everything alone is not sustainable. Delegation is a strategy, not a weakness. Productivity increases when the load is distributed.",
+          "spiritual": "Excessive burden and responsibility are overwhelming you; carrying this pressure alone feeds your need for control. The situation emphasizes the importance of sharing your burden; seeking support is a wise strategy, not a weakness. Create space for yourself; collaborating with others will lighten the load."
+        },
+        "reversed": {
+          "general": "The need to let go of the burden may no longer be postponable. It is liberating to accept that you don't have to carry everything. This card teaches to set limits.",
+          "love": "The burden in a relationship should be shared fairly, not shirked. Open expression heals instead of silent resentment. Otherwise the bond will collapse from within.",
+          "career": "There may be a denial of responsibility or an impulse to escape on the work side; this is often the result of excessive pressure. It is necessary to rebuild the system. A balanced load is sustainable.",
+          "spiritual": "The burden is ready to lighten; leaving unnecessary responsibilities behind liberates you. The situation blows like the cool wind when you feel the weight on you, the desire to let go. Create a space for yourself; this is the first step to refreshment."
+        }
+      }
+    },
+    {
+      "id": 32,
+      "name": "Page of Wands",
+      "image": "32_page_wands",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "The energy of discovery and curiosity is rising; the desire to learn is seeking direction. This card is about growing through experimentation. Making mistakes is part of the process.",
+          "love": "In love there is flirtation and excitement; the relationship is light but lively. Honest curiosity, not excessive seriousness, builds bonds. Experimentation is not scary but instructive.",
+          "career": "A new learning space opens up in your career; an internship, a course, a project or a trial role is possible. The start is small but the potential is big. Bold curiosity leads to progress.",
+          "spiritual": "The fire of curiosity is not extinguished; a period of exploration and experimentation is knocking at your door. Your enthusiasm leads you into the unknown. Bring your new idea to life; as you take steps, your horizons will expand."
+        },
+        "reversed": {
+          "general": "Energy is there but scattered; curiosity may be directionless. Unfocused action creates burnout. It is necessary to choose a single goal.",
+          "love": "Childish reactions in a relationship can weaken communication. There may be excitement but lack depth. It is necessary to strike a balance.",
+          "career": "Impatience in a career can undermine the learning process. Stability, not speed, teaches. Don't interrupt the process.",
+          "spiritual": "There is a scattered enthusiasm inside you; you are directionless and it is giving you pause. The situation shows that procrastination is slowly pushing you backwards, but you can minimize your start, you can move forward even at the first step. Setting a goal in the midst of uncertainty gets you moving again."
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "Knight of Wands",
+      "image": "33_knight_wands",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "The card of action and courage: you want to jump instead of waiting. This energy moves forward but blind speed is risky. Passion requires direction.",
+          "love": "There is intense attraction and a desire for adventure in love. The relationship can move fast; it is important to talk about rhythm. Passion alone is not enough.",
+          "career": "It's time for a bold career move; a new project, move or change of direction is possible. Taking risks will grow, but it must be calculated. Uncontrolled speed tires.",
+          "spiritual": "Passion and action are fueling the fire of your soul; the situation invites you to take swift action. Your courage is high, now focus your energy on a single goal; this will clarify your path and move you forward."
+        },
+        "reversed": {
+          "general": "Impulsive action can create chaos; speed makes you lose control. Energy can be disoriented. Stop and align.",
+          "love": "Haste can burn the relationship. Intensity can create pressure, not connection. Give breathing space.",
+          "career": "Risk without planning weakens a career. Speed without strategy is meaningless. Braking is necessary.",
+          "spiritual": "The situation oscillates between haste and directionlessness; don't let impatience drive you. Adjusting your pace will stabilize your progress; focus on your goal without distractions. When you stay calm and measure your steps, you will begin to set a clear course."
+        }
+      }
+    },
+    {
+      "id": 34,
+      "name": "Queen of Wands",
+      "image": "34_queen_wands",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "The card of self-confidence and inner strength: you know who you are. This energy also warms others. Charisma is a calm power.",
+          "love": "Attraction and respect work together in a relationship. The more you are yourself, the stronger the bond. Naturalness is the strongest influence.",
+          "career": "In your career, leadership energy rises; you motivate people. Your sphere of influence grows. Maintain confidence.",
+          "spiritual": "This is a time when confidence and charisma shine; dare to lead by being yourself. The situation offers you the opportunity to make your strong voice heard; express your opinion openly, this will strengthen your power. Believe in yourself, because this belief will inspire those around you."
+        },
+        "reversed": {
+          "general": "Self-confidence may be broken; the search for external approval increases. Self-deprecation lowers energy. Return to the inner center.",
+          "love": "There may be jealousy or controlling tendencies in the relationship. When trust is weakened, the bond is strained. It is necessary to speak openly.",
+          "career": "Fear of visibility at work can hinder progress. Don't hide yourself. Potential wants to be seen.",
+          "spiritual": "Your self-esteem is fluctuating; comparison with others is like a shadow that envelops you. The situation needs you to remember your own strength. As you discover your potential, comparisons are replaced by confidence, which makes you stronger."
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "King of Wands",
+      "image": "35_king_wands",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "wands",
+      "element": "fire",
+      "meanings": {
+        "upright": {
+          "general": "Vision and direction card: you see the big picture. Leadership is inspiration, not control. People follow your direction.",
+          "love": "There is a reassuring presence in the relationship; determination builds bonds. Partnership works with equal power. Clarity reassures.",
+          "career": "A period of strategic career growth; leadership and direction-setting come to the fore. You can take risks because the ground is solid. Vision drives forward.",
+          "spiritual": "Visionary leadership lies in seeing the big picture; you must balance responsibility and inspiration while moving forward with determination. The situation requires you to set a clear direction; articulate your decision clearly, this will mobilize the crowd around you."
+        },
+        "reversed": {
+          "general": "Authority can be confused with control; it creates oppression. Power is not imposition. Flexibility is needed.",
+          "love": "A dominant attitude in a relationship can create distance. Listening builds connection. Harshness breaks.",
+          "career": "Excessive control on the business side tires the team. Trust is more effective. Leadership is shared.",
+          "spiritual": "You're in a period of feeling controlling; a loss of inspiration is overshadowing your creativity. The situation shows that the pressure is mounting; softening your leadership will give you and those around you a breather. When you choose to be flexible, you can open the door to new ideas."
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "Ace of Cups",
+      "image": "36_ace_cups",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "An emotional overflow or expansion of capacity is experienced; repressed feelings come to the surface, creating an inner release. It's about giving yourself permission to feel, rather than expecting something from outside. An open heart loosens defense mechanisms and clarifies perception.",
+          "love": "The courage to be vulnerable in a relationship changes the quality of the bond. Approaching with curiosity instead of fear makes it easier to see the other person as they are. A new wave of emotion moves the tone of communication to a softer and more accepting frequency.",
+          "career": "Creative impulses can override logical processes; the need to attach an emotional meaning to the work increases. Inspiration comes when the mind is freed, not forced. In the professional field, using intuition as data can offer different solutions.",
+          "spiritual": "Emotionally, you're making a fresh start; the desire to express yourself ignites a spark inside you. The situation requires you to trust your feelings over logic; repressed emotions want to surface. Allow them; acceptance is the key to a relaxing journey. Now, identify in one word the dominant emotion you feel and write it down; this simple action will help you discover yourself."
+        },
+        "reversed": {
+          "general": "Emotional blockage causes unexpressed needs to build up inside. The feeling of not being self-sufficient can create a distant or reactive stance towards the outside. A stoppage in the flow indicates the need for an internal repair process.",
+          "love": "There may be a conflict between the desire for closeness and the fear of being hurt. Masking emotions eliminates the possibility of being understood. Withdrawal is sometimes a protective reflex, sometimes a reflection of unresolved resentment.",
+          "career": "Loss of motivation can result from a disconnection between the work and the inner world. Blocked creativity indicates emotional exhaustion rather than mental fatigue. Ignoring the need for rest reduces productivity.",
+          "spiritual": "Suppressing your feelings only compresses you further; the walls you build actually block your freedom. The situation demands that you find a way out before your inner pressure builds up; fear of being hurt should not make you run away from feeling. Confess honestly to yourself today what is bothering you; stay with this feeling for just 10 minutes and be free."
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": "Two of Cups",
+      "image": "37_two_cups",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "There is a state of balance where both parties listen and understand each other without judgment. This card marks moments when projections are reduced and the truth is shared. Harmony is achieved when the parties meet by staying in their own center.",
+          "love": "The dynamic in the relationship is a healthy balance between being 'us' and remaining 'me'. Mutual transparency naturally resolves trust issues. Instead of trying to fix each other, just being there for each other has a healing effect.",
+          "career": "Collaboration is highly synchronized; common goals minimize conflict. A good negotiation takes place on the ground where both sides feel heard. Trust-based professional relationships yield results faster than written rules.",
+          "spiritual": "You swim in the deep waters of communication; you nurture your relationships by balancing 'me' and 'we'. The situation is brimming with mutual understanding; understanding others while maintaining boundaries opens the doors of your heart. Today, offer a sincere word of appreciation to someone you care about; it will strengthen your bonds even more."
+        },
+        "reversed": {
+          "general": "There may be a disconnect or asymmetry in communication channels. When one side is dominant and the other is recessive, the balance is disturbed. Disharmony is often caused by the accumulation of unspoken expectations.",
+          "love": "Projection mechanisms in the relationship may have kicked in; you may be seeing your own fears in your partner. If misunderstandings are not corrected, emotional distance becomes permanent. Disconnection triggers mistrust.",
+          "career": "Lack of trust or incompatible partnerships in the business environment slows down the process. Disagreements may seem technical on the surface, but they are fundamentally based on a communication problem. Contracts or promises need to be clarified.",
+          "spiritual": "There is a gap in communication; your expectations clash with reality. The situation requires you to explore the areas where you are not expressing yourself; first clarify your own needs. Don't get caught up in accusations, name your most basic need in the relationship and claim it; this is a journey that will empower you."
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "Three of Cups",
+      "image": "38_three_cups",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "A period when the social support system is active and the sense of belonging is strengthened. Sharing difficulties instead of bearing them alone increases psychological resilience. The bond established with the community alleviates individual anxieties.",
+          "love": "Living in a social context, not just between two people, gives the relationship a breath of fresh air. A friendship-based approach reduces romantic pressure. Shared experiences nurture the joyful side of the bond.",
+          "career": "Solidarity within the team and positive group dynamics provide morale beyond performance. When a culture of cooperation is adopted instead of competition, processes accelerate. Celebrating success collectively makes motivation sustainable.",
+          "spiritual": "It's time to get together with your social circle; sharing feeds your soul and support boosts your morale. The situation shows that mixing with people rather than being alone opens your mind; your friendships give you strength during this period. Today, call a friend who's good for you and energize yourself by starting a pleasant conversation with no agenda."
+        },
+        "reversed": {
+          "general": "The expectations of the social environment or tensions within the group can tire the individual. The feeling of not being understood in a crowd indicates being in the wrong place. Sometimes it is necessary to withdraw into one's own space in order to get rid of social masks.",
+          "love": "The influence of external factors or third parties on the relationship can be corrosive. Failure to maintain the boundaries of privacy undermines trust between the couple. Gossip or comparison eats away at the relationship from within.",
+          "career": "Groupings or exclusion at work weaken professional belonging. Team disharmony also pulls down individual performance. Superficial relationships prevent deepening and trust.",
+          "spiritual": "You feel lost in crowds; the noise of your social environment eats away at you. Gossip and superficial relationships are draining your energy, so it's best to retreat into your own space. The situation dictates that you should cancel one of your plans for today; time for yourself will nourish your soul."
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "Four of Cups",
+      "image": "39_four_cups",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "A state of unresponsiveness or inward-looking dissatisfaction with stimuli from the outside world. The dissatisfaction with the opportunities offered is actually indicative of a deeper search for meaning. This stagnation serves as a pause to realize what is missing.",
+          "love": "Existing relationships or candidates may not generate excitement; this may be due to dullness within oneself. Routine, while safe, dulls emotional vitality. Questioning expectations is more productive than blaming the outside.",
+          "career": "A career plateau; even when things are going well, there can be a lack of motivation. Monotony has become a factor that stifles creativity. This feeling is data to reconsider the course.",
+          "spiritual": "Emotional stagnation is like a fog that envelops you; opportunities are right in front of you, but boredom is boring you inside. This is an opportunity to question what you want; it's up to you to change your perspective. Today, notice one thing in your routine that is bothering you and take a bold step towards it; change starts with small touches."
+        },
+        "reversed": {
+          "general": "A transitional phase in which internal isolation comes to an end and attention turns back to the outside world. Details that have been omitted or options that have been rejected are seen in a new light. The will to act dissipates the mental fog.",
+          "love": "The attempt to break the miscommunication in the relationship and reconnect begins. Lowering your own walls allows the other person to step in. Passive waiting gives way to active interest.",
+          "career": "The feeling of burnout is shaken off and interest in new projects or methods is rekindled. Procrastination ends as inspiration returns. The reflex to seize opportunities is strengthened.",
+          "spiritual": "The weight is slowly lifting and your motivation is revitalized; your will to act shines brightly to embrace new opportunities. This indicates that the period of withdrawal is over; you're ready to meet the outside world. Take advantage of this awakening; taking up a procrastinated job or hobby with fresh energy will breathe new life into your life."
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "Five of Cups",
+      "image": "40_five_cups",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "When the focus is locked on what has been lost, the potential that remains becomes invisible. Grief and disappointment are natural processes, but getting stuck in them narrows perception. Progress stops when regret for the past begins to rule the present.",
+          "love": "The shadow of an ending story or an unmet expectation may be affecting the current relationship. Constantly looking back obscures the presence of the person next to you. Emotional healing begins with acknowledging the loss.",
+          "career": "Fear of failure or making mistakes can block new initiatives. Generalizing negative experiences undermines professional self-confidence. Crisis management requires analyzing the mistake and moving on.",
+          "spiritual": "Disappointments can plunge you into a deep darkness; instead of crumbling under the weight of what you have lost, choose to stand. Grieving is human, but getting lost in it keeps you from moving forward. Instead of looking back, focus on the solid resources you have at your disposal; today, write down what is upsetting you and add two positive things you have right now and let this be a source of light for you."
+        },
+        "reversed": {
+          "general": "With acceptance, perspective changes and solutions become visible. The intensity of grief decreases, giving way to a calmer awareness. The will to build the future strengthens as the weight of the past is released.",
+          "love": "A time when old wounds begin to heal and the heart opens to new possibilities. Forgiveness liberates the person, not the other person. Relationship blockages are resolved through honest confrontation.",
+          "career": "The phase of learning from career setbacks and turning the experience into an advantage. It is accepted that making mistakes is part of learning. The reorganization process begins.",
+          "spiritual": "You heal your wounds; one by one the burden of the past falls away and you begin to look to the future with hope. Learning from mistakes is the key to recovery; say aloud to yourself one mistake you have forgiven and let it go. Remember, every closure is a new beginning; move forward with courage and light your way."
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "Six of Cups",
+      "image": "41_six_cups",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "Longing for the safe and familiar waters of the past can increase. Nostalgia is nourishing when used as a means of drawing strength from roots, not as an escape from a challenging 'now'. Pure intention and simplicity can guide the solution of complex problems.",
+          "love": "In relationships, old scores may be settled or someone from the past may come up. Taking a more innocent and expectation-free approach to connecting reduces tension. Memories remind us of the foundation of the present bond.",
+          "career": "Old methods or previously tried projects can be re-evaluated. Staying in the safe zone and avoiding risk may be a strategic choice for the time being. Past experiences guide today's problems.",
+          "spiritual": "Warm memories of the past envelop you; familiar feelings create a trust in your heart. You seek simplicity and intimacy; nostalgia has the power to rebuild the present. The challenge is to spend 15 minutes doing an activity you loved as a child; this short period of time will nourish your soul and allow you to move forward in the light of the past."
+        },
+        "reversed": {
+          "general": "Holding on to the past can make it difficult to grow as an individual and adapt to the present. Idealizing the old days can be an escape from the responsibilities of the present. Development is only possible when the past is left behind.",
+          "love": "Bringing old relationship dynamics or people into the present disrupts the existing harmony. 'It used to be like this' comparisons create a sense of inadequacy in the partner. Maturing requires accepting change.",
+          "career": "Resistance to changing market conditions or new technologies undermines professionalism. Living in the shadow of old achievements prevents setting new goals. It may become necessary to get out of the comfort zone.",
+          "spiritual": "The web of the past cuts you off from the present; taking refuge in the old days is not an escape from growing up, it is feeding your losses. Nostalgia should not be a trap; you need to focus on the present. It's a matter of removing an item or a photo that holds you in the past from your sight today; this will be your first step towards freedom."
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": "Seven of Cups",
+      "image": "42_seven_cups",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "A state of mental clutter or being lost in a plethora of options. Imagination is active, but it can be difficult to discern which is realistic. It is important to analyze the costs and benefits of each option before making a decision.",
+          "love": "An idealized image of a partner or multiple possibilities interferes with focus. Dissatisfaction grows as the gap between the real relationship and the fantasy world widens. Not knowing what you are looking for leads to wrong choices.",
+          "career": "Many ideas are floating around but a concrete action plan is missing. Lack of focus can leave projects unfinished. Narrowing and prioritizing goals is essential.",
+          "spiritual": "Your mind is overflowing with options, but inaction gives you pause. Dreaming is a safe harbor, but staying in that harbor is a distraction. Your energy will dissipate if you don't prioritize. Now, choose one of the projects you have in mind and take a bold step towards it; this first step will clarify your path."
+        },
+        "reversed": {
+          "general": "The blurred picture becomes clear; illusions dissipate and reality becomes visible. It becomes easier to sift through the options and take a single path. Clarity of mind brings determination.",
+          "love": "Expectations become more realistic; instead of looking for the impossible, the present is appreciated. Gaining clarity in the relationship ends the anxiety caused by uncertainty. An honest assessment is made.",
+          "career": "Non-viable projects are eliminated, energy is channeled towards a single goal. Disorganization gives way to a strategic plan. Result-oriented work increases efficiency.",
+          "spiritual": "As the uncertainty dissipates, you set a clear roadmap; it's time to step from dreamy to realistic. Your mind begins to sift through the options and focus; this clarity is the key to achieving your goal. Simplify your to-do list; start moving forward by completing the most important item immediately."
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": "Eight of Cups",
+      "image": "43_eight_cups",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "The need to get away from a situation or environment that is no longer emotionally nourishing. This is not an escape, but the result of a deeper search for meaning. Staying where you don't feel you belong undermines inner integrity.",
+          "love": "Even when everything seems fine in the relationship, a feeling of incompleteness may prevail. The problem is not conflict, but a loss of depth in the bond. The decision to leave is based on self-respect.",
+          "career": "There is a sense that an era in a career is coming to a close; current achievements no longer satisfy. The search for a more meaningful or values-aligned path begins. Giving up status and choosing peace of mind becomes an option.",
+          "spiritual": "You have the courage to leave a situation behind; it is not a renunciation, but the beginning of a search for something more meaningful. It's scary to get out of your comfort zone, but remember that it's more corrosive to stay. Accept that it's time to go; today, identify something you've been holding on to out of habit and say goodbye to it."
+        },
+        "reversed": {
+          "general": "Although the need for change is evident, the fear of uncertainty keeps the person in place. The dilemma of whether to go or stay creates a mental paralysis. The inertia created by the comfort zone prevents movement despite unhappiness.",
+          "love": "Prolonging a relationship that should end or clinging to a toxic bond out of fear of loneliness. Thinking 'maybe it will get better' is a delaying tactic rather than a realistic hope. Avoiding confrontation makes the process harder.",
+          "career": "There is a desire to leave the job, but financial concerns or insecurity prevail. Dissatisfaction turns into constant complaints but no action. Inability to take risks increases burnout.",
+          "spiritual": "Indecision chains you; every moment you can't take a step increases the weight of your soul. Fear of the unknown robs you of your happiness; this darkness, no matter how familiar, blinds you. Name your fear and ask yourself 'what is the cost of staying here?' Your courage will be your greatest ally in breaking free."
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "Nine of Cups",
+      "image": "44_nine_cups",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "A point of balance where individual fulfillment and inner peace are high. A state of contentment with one's own existence, without the need for external approval. Happiness is the ability to enjoy the present moment rather than reaching a goal.",
+          "love": "Being at peace with oneself reflects positively on relationship dynamics. Self-confidence and comfort increase the power of attraction. Feelings of pleasure, joy and gratitude are at the forefront of the relationship.",
+          "career": "A phase where efforts are rewarded and a sense of achievement is tasted. The relief of having achieved professional goals reduces stress. The effort to prove oneself ends, replaced by mastery.",
+          "spiritual": "You are in a period of fulfillment and self-confidence, discovering your own power and feeling the value of what you have achieved. Stop seeking external approval; your inner happiness is your true power. Today, giving yourself a break is the best way to appreciate yourself; enjoy this moment."
+        },
+        "reversed": {
+          "general": "Behind the outwardly perfect picture may lie dissatisfaction. Living for pleasure can overshadow deepening and the search for meaning. 'Wanting more' makes it difficult to appreciate what you have.",
+          "love": "Self-centered attitudes or lack of empathy in a relationship can create problems. Focusing only on your own needs objectifies the other person. Superficial harmony is no substitute for a deep connection.",
+          "career": "A sense of emptiness despite success can indicate that goals have been chosen incorrectly. Arrogance or complacency can stall progress. The feeling of not being able to use one's full potential is disturbing.",
+          "spiritual": "The situation, the appearance on the outside is misleading; the emptiness inside pushes you into a deep search. Instead of seeking happiness in fleeting pleasures, you should seek moments that touch your heart. True fulfillment lies in the depths of your soul; set aside distracting pleasures and nourish yourself with simple action."
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": "Ten of Cups",
+      "image": "45_ten_cups",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "A state in which emotional wholeness and a sense of belonging are fully experienced. A sustainable state of peace, where conflicts between the inner world and the outer world cease. Harmony does not arise from perfection, but from acceptance and shared values.",
+          "love": "There is a deep trust in the relationship and a shared vision of the future. The bond evolves into a familial and deep-rooted structure, not just a romantic one. A shared vision of life provides individuals with a space of trust.",
+          "career": "Team cohesion at work and a work environment that is in line with values. Satisfaction increases when work has a social or individual meaning. A sense of belonging naturally increases performance.",
+          "spiritual": "Your inner peace is shaped by the bonds you form with your loved ones; emotional integrity feeds the warmth in your heart. Feeling trust and support is the greatest gift of this environment. The occasion is to let them know that you care about them with a sincere message today; this small gesture will strengthen your bond even more."
+        },
+        "reversed": {
+          "general": "The difference between idealized life and reality can be disappointing. The 'happy' image maintained outwardly may be masking the disconnect within. Dissonance grows the longer it is ignored.",
+          "love": "Family problems or value conflicts with the partner can disturb the peace. The relationship may continue in form but may be empty of content. Maintaining habits instead of real connection is exhausting.",
+          "career": "A mismatch between corporate culture and personal values. Not feeling belonging to a place depletes motivation from within. Conflicts within the team are a source of unrest.",
+          "spiritual": "You feel a dissonance in relationships; your striving to look perfect is weakening your real bonds. You shouldn't get lost in disappointment when your expectations are not met; you should confront problems instead of ignoring them. When you express your discomfort in 'I language' without blaming, the walls of hearts can come down."
+        }
+      }
+    },
+    {
+      "id": 46,
+      "name": "Page of Cups",
+      "image": "46_page_cups",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "A state of being open to new emotional experiences and recognizing intuitive messages. An initial phase in which logic takes over, guided by the inner voice and imagination. Vulnerability is not seen as a weakness but as a necessity of being receptive.",
+          "love": "There is a naive and unexpecting sense of curiosity about the relationship. A small gesture or step can hold great potential. Inexperience in expressing emotions is a sign of sincerity.",
+          "career": "A period when creative ideas are sprouting but not yet materialized. Artistic or intuitive approaches can breathe new life into business processes. A mindset eager to learn and explore comes to the fore.",
+          "spiritual": "Your emotional curiosity is calling you to new horizons; your intuition wants you to explore an unknown direction. Your logic should take a back seat; trust your feelings, a naive beginning is with you. Unexpected inspirations may knock on your door; today, jot down any creative ideas that come to you without judgment and unleash your potential."
+        },
+        "reversed": {
+          "general": "Emotional immaturity or excessive sensitivity prevents seeing things clearly. Inner turmoil is reflected on the outside as inconsistent reactions. Escaping into a fantasy world distracts from real responsibilities.",
+          "love": "Passive-aggressive attitudes or childish expectations in a relationship block communication. Inability to manage one's own emotions leads to blaming the other person. Exaggerated fear of indifference or rejection.",
+          "career": "Creative blockage or ideas not being taken seriously leads to frustration. Disconnecting from work discipline and just waiting for inspiration disrupts the process. In the professional world, emotional reactions damage reputation.",
+          "spiritual": "Emotional vulnerability has intoxicated you; small issues are becoming huge problems. It's about your inner child getting frustrated; reacting without calming down will only worsen the situation. Take a deep breath and look at things with a mature eye; this will put you on a firmer footing."
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "Knight of Cups",
+      "image": "47_knight_cups",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "The desire to put feelings into action and pursue an idealistic vision. There is a high motivation to not only feel, but to translate that feeling into an expression or relationship. Guidance of the heart transcends the limits of logic.",
+          "love": "A process in which romance and emotional deepening take priority. Courage is shown to invest in the relationship and share feelings openly. Attraction is fueled by transparency and elegance.",
+          "career": "An effort to advance in a field of passion or to bring a creative vision to work. Diplomatic skills are the key to open difficult doors. Persuasiveness combined with emotional intelligence.",
+          "spiritual": "It's time to follow your feelings; logic aside, passion and ideals are at the wheel. You're eager to take action on a romantic or creative matter; this energy propels you forward. The situation changes today when you stop waiting on something you're passionate about; taking a gentle step that shows your intentions opens doors."
+        },
+        "reversed": {
+          "general": "A situation where emotional fluctuations impair judgment. Chasing dreams disconnected from reality increases the risk of disappointment. A mood of eagerness one day and resignation the next stops progress.",
+          "love": "Inconsistent behavior or unrealistic expectations in a relationship can be exhausting. Idealizing the partner and then growing cold when seeing their flaws indicates an attachment problem. Emotional manipulation should be avoided.",
+          "career": "Lack of discipline and focus at work. Projects start with excitement but are left unfinished. Professional responsibilities cannot be managed according to mood.",
+          "spiritual": "You should not be driven by emotional fluctuations; one day you may be burning with fire and the next day you may be a dying coal. Unrealistic expectations are wearing you down; you need to be patient. Put your feet on the ground before making big decisions; waiting for your feelings to pass will help you find your balance again."
+        }
+      }
+    },
+    {
+      "id": 48,
+      "name": "Queen of Cups",
+      "image": "48_queen_cups",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "A state of deep intuitive insight and emotional balance. Being in touch with one's inner world allows one to face external events more calmly. Empathy is not a weakness, but a strength to analyze things.",
+          "love": "An understanding and inclusive attitude in the relationship creates a safe space. Being able to sense the emotional needs of the partner prevents miscommunication. Compassion is the strongest cement of the bond.",
+          "career": "Processes managed with emotional intelligence in the business environment bring success. People-oriented approach and listening skills soften crises. Intuition captures details that logical data cannot see.",
+          "spiritual": "You are in a world woven with empathy; your intuition leads you to deep understanding. Your emotional intelligence is your most trusted guide on this journey; when you listen to others, you do not forget yourself. Sometimes it's not the solution to a problem, but the power of listening; today, listen to those around you and be a light with your compassion."
+        },
+        "reversed": {
+          "general": "Taking on the emotional burdens of others leads to boundary violations and burnout. Being a giver, ignoring one's own needs, turns into resentment over time. Emotional boundaries need to be redrawn.",
+          "love": "There may be a tendency to develop dependency or self-sacrifice in the relationship. Being overly compliant for fear of loss damages self-esteem. There may be a vulnerability to emotional manipulation.",
+          "career": "In business, personalizing criticism or being overly sensitive affects professionalism. There is a risk of not being able to focus on one's own work because of trying to solve other people's problems. Emotional distance is essential.",
+          "spiritual": "The situation is that taking on the burdens of others is draining you; your boundaries are blurring and your emotional burden is increasing. You need to step out of the role of self-sacrifice; you need to put on your own mask first. Today, refuse a request that you find difficult to say no to and take that time for yourself, because your own needs must come before helping others."
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": "King of Cups",
+      "image": "49_king_cups",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "cups",
+      "element": "water",
+      "meanings": {
+        "upright": {
+          "general": "Emotional maturity is not the control of emotions, but their wise management. Maintaining inner balance, even in moments of chaos, builds immunity to environmental influences. Responding rather than reacting is a sign of strength.",
+          "love": "The relationship is stable, caring and reassuring. Problems are solved calmly and with understanding, without drama. Love is expressed through consistent behavior rather than words.",
+          "career": "Leadership style is shaped by considering the motivation and psychology of the team. Creating solutions without panicking in times of crisis solidifies authority. Diplomatic language opens even the most difficult negotiations.",
+          "spiritual": "Your emotional maturity shines like a beacon; even in times of crisis, you reassure others with your calmness. The situation is an opportunity to showcase your ability to manage your emotions; in a challenging situation, choose your calm, not your reaction. This balance allows you to make the right decisions; take a deep breath and approach things from your calmest side."
+        },
+        "reversed": {
+          "general": "Repressed emotions or unmanaged impulses lead to a loss of balance. While wearing a cold mask on the outside, storms may be raging on the inside. Manipulative behavior is a reflection of inner insecurity.",
+          "love": "Emotional unavailability or hidden agendas in the relationship undermine trust. The desire to control the partner may be an attempt to cover up a lack of love. Insincerity undermines the foundation of the bond.",
+          "career": "In business life, decisions that change according to mood create a perception of inconsistency. Passive-aggressive attitudes or abdication of responsibility undermine leadership qualities. There may be a credibility problem.",
+          "spiritual": "Your emotions are surging like a wave; you are losing control and this is threatening your relationships. Manipulation and outbursts are the outward manifestation of your inner storm. The situation requires you to cut off communication in tense moments; take a breath until you calm down. Once you've regained your composure, you can regain the power to manage your emotions."
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": "Ace of Swords",
+      "image": "50_ace_swords",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "There is a sudden sharpening of mental clarity; it is no longer possible to see things differently than they are. Realizing the truth is not comforting but liberating. This card represents the moment to choose clarity over illusion.",
+          "love": "Honest conversations may become inevitable in a relationship. Hiding the truth does not build bonds, it only delays them. Open communication is harsh in the short term and healing in the long term.",
+          "career": "Time for clear decisions in the professional field; fuzzy goals are no longer sustainable. Analytical thinking can override emotion and this is temporarily necessary. Sharpness, if used correctly, gives direction.",
+          "spiritual": "A fog lifts in his mind; a shining light appears to find its way in the darkness. The situation invites you to accept reality as it is and to drop the masks. Honesty closes the distance between yourself and those around you; as you clarify your thoughts, you liberate your emotions. If your questions are troubling you, simplify them; defining the main problem in a single sentence will clear your mind of confusion."
+        },
+        "reversed": {
+          "general": "The mind may be overloaded; thought wanders instead of becoming clear. Avoiding facing reality magnifies confusion. Making decisions before the fog clears is risky.",
+          "love": "Misunderstandings can poison communication. What is left unsaid can weigh more than what is said. Not talking is not the solution.",
+          "career": "Lack of information or incorrect analysis on the business side can stop progress. Instead of making a quick decision, it is necessary to stop and check. Hasty thinking magnifies the error.",
+          "spiritual": "The mind is confused and thoughts are fuzzy; too much information and internal contradictions keep you in a deadlock. The situation stems from facing a reality you want to avoid; uncertainty envelops you as you move away from clarity. Hasty decisions can lead to mistakes, so instead of making an important decision today, focus on defining the problem correctly. Clarify yourself, and ask the right questions."
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "Two of Swords",
+      "image": "51_two_swords",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "The decision is postponed because both options involve costs. What looks like equilibrium is in fact suspended equilibrium. Even remaining neutral is a choice.",
+          "love": "An unspoken issue in a relationship may be pending. Silence is not peace, but temporary suspension. Without clarity the bond cannot progress.",
+          "career": "A professional fork in the road appears; both directions carry risks. Indecision drains energy. Making a choice initiates progress.",
+          "spiritual": "Indecision means being stuck between two thoughts; it reflects logic trying to suppress your emotions. Stop forcing yourself to 'do no wrong'; waiting is also a choice. Write down the pros and cons of both options and focus on which path will give you more comfort in the long run."
+        },
+        "reversed": {
+          "general": "The decision that was avoided is now coming to the surface. The balance is upset because the truth cannot be suppressed. Ignoring it is not the solution.",
+          "love": "Emotional avoidance weakens the relationship. Tension grows as open talk is postponed. Confrontation is healing.",
+          "career": "Fear of making the wrong choice may have stopped the movement. The possibility of making mistakes is part of development. Freezing is the greatest loss.",
+          "spiritual": "The period of keeping your eyes closed is over; it's time to make a decision. The situation is intensifying as repressed emotions come to the surface. Procrastination dulls you more than it protects you; name your fear and get rid of this burden. Uncertainty is magnified by inaction."
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "Three of Swords",
+      "image": "52_three_swords",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "The moment of breaking hurts because it reveals the truth. When denial ends, healing begins. Pain carries knowledge.",
+          "love": "Heartbreak is not healed without confrontation. Suppressed emotion does not heal, it freezes. A bond is not closed without mourning.",
+          "career": "Professional disappointment can be taken personally, but it can be instructive. Failure is not identity. Experience is harsh but clear.",
+          "spiritual": "There is a break in your mind; disappointment and hurt envelop your heart. The situation presents an opportunity to acknowledge and face the pain; ignoring it will delay your healing. Put your emotions aside and express the hurt in a simple sentence; this will shed light into the darkness."
+        },
+        "reversed": {
+          "general": "Healing may have begun, but the scars are still tender. It is necessary to make sense of the pain, not deny it. Time alone will not solve it.",
+          "love": "Forgiveness is painful but possible. Carrying the past spoils the present. Releasing it lightens it.",
+          "career": "If resentment spills over into work, performance suffers. Emotional cleansing brings professional clarity. The lighter the load, the easier the movement.",
+          "spiritual": "The healing process begins; the pain no longer holds you captive. Instead of dwelling on past wounds, the situation requires you to step forward; discover the place where you are at peace with yourself. Put this point on paper and open the door to inner peace."
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": "Four of Swords",
+      "image": "53_four_swords",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "The mind demands rest. Constant movement does not bring clarity. Stopping is restorative.",
+          "love": "Distance may be needed in a relationship. Creating space is not detachment. Silence is sometimes healing.",
+          "career": "A professional break can be an investment, not a productivity drain. The mind without rest makes mistakes. The tempo must be consciously adjusted.",
+          "spiritual": "Mental fatigue is calling you; it's time to stop and rest. The situation reminds you that retreat is repair, not escape; make space for yourself and embrace rebirth. Today, plan a conscious break; it will clear the cloudiness in your mind."
+        },
+        "reversed": {
+          "general": "Burnout grows as rest is postponed. Escape may be confused with recovery. Stopping becomes inevitable.",
+          "love": "Avoidance behavior in a relationship weakens the bond. Distance is dangerous if it arises from miscommunication. Talking is necessary.",
+          "career": "A desire to disconnect from work is an alarm. The overload is unsustainable. The system must change.",
+          "spiritual": "Your mind is always busy, rest is postponed; don't put pressure on yourself, it can overwhelm you. The situation indicates an increased risk of overload; slow down and give yourself space. Take a breath, release what has accumulated in your mind."
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": "Five of Swords",
+      "image": "54_five_swords",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Even a won conflict may not bring satisfaction; the feeling of victory may be empty. Being right and preserving a relationship are not always the same thing. This card is a reminder of victories that come at a price.",
+          "love": "Power struggles in a relationship can erode the essence of the bond. Winning an argument does not create closeness. Harsh communication leaves a permanent mark.",
+          "career": "Competition in a professional environment can be toxic. Success loses meaning when the desire to win undermines team trust. Strategy must be balanced with ethics.",
+          "spiritual": "You are in a mental struggle; the desire to be right is damaging your relationships. The situation shows that your ego and defense mechanisms are driving you; this is weakening your real bonds. If you clarify what you want to win, perhaps you are the winner."
+        },
+        "reversed": {
+          "general": "The desire to withdraw from the conflict may be growing; the fatigue of war is being felt. Letting go is sometimes not a loss but a relief. Conserving energy may be a priority.",
+          "love": "Stopping the power struggle can be healing. Peace is chosen over righteousness. Softness builds bonds.",
+          "career": "Moving away from competition can increase productivity. Constant defense creates burnout. Cooperation is more sustainable.",
+          "spiritual": "It's time to take a step back to de-escalate; your inner longing for peace is calling you to a softer path. The situation emphasizes the importance of taking the first step towards reconciliation; this small correction can bring great peace. If you step boldly, the fire in your heart will begin to die down."
+        }
+      }
+    },
+    {
+      "id": 55,
+      "name": "Six of Swords",
+      "image": "55_six_swords",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "It's a time of transition; the mind wants to move away from old burdens. Movement can be uneasy but necessary. Moving forward is not always comfortable.",
+          "love": "Healing in a relationship is slow but possible. Distance sometimes creates space for repair. Time is needed.",
+          "career": "Professional change requires adaptation. The new order may initially feel unfamiliar. Transition requires patience.",
+          "spiritual": "There is a transition in your mind; you are getting closer to calmness step by step. The situation demonstrates a desire to leave past problems behind. Let go of the burdens that weigh down your thoughts; pushing them aside is the key to rebuilding your inner peace."
+        },
+        "reversed": {
+          "general": "The inability to break with the past slows progress. The road gets heavier as old burdens are carried. It is necessary to let go.",
+          "love": "Old resentments may be carried into the relationship. Uncleared past taints the present. Repair requires confrontation.",
+          "career": "Resistance to change stops development. The old way may seem safe but it is limiting. Movement is essential.",
+          "spiritual": "The past is a weight holding you back; it is necessary to release your thoughts, to lighten up. When the situation feels burdened by carrying old issues, pick up the pen and write down everything you need to leave behind. Clean the pages of your own story; make room for new beginnings."
+        }
+      }
+    },
+    {
+      "id": 56,
+      "name": "Seven of Swords",
+      "image": "56_seven_swords",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Concealment or avoidance behavior may be at work. Indirect ways are chosen instead of direct confrontation. This strategy appears protective in the short term.",
+          "love": "A hidden truth in a relationship can erode trust. Half-truths do not build bonds. The longer transparency is postponed, the greater the distance.",
+          "career": "Ethical gray area can occur in the professional environment. Shortcuts carry risk. When trust is broken, it is difficult to repair.",
+          "spiritual": "Evasive thoughts surround you; the situation poses a test of honesty. You are in a state of uncertainty even with yourself; this darkness shadows the truth within you. Confess to yourself the thought you have been hiding, and this courage will enlighten you."
+        },
+        "reversed": {
+          "general": "What is hidden may tend to come out. Escape becomes unsustainable. Confrontation is inevitable.",
+          "love": "The truth wants to be spoken. The energy of withholding is exhausting. Openness alleviates it.",
+          "career": "On the business side, honesty must be restored. Loss of trust is slow to repair. Clarity is essential.",
+          "spiritual": "Everything that has been hidden is impatient to come to light; your search for truth ignites the passion within you. The situation suggests it's time for open communication; speak boldly and open your heart so that the disturbing shadows give way to clarity."
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": "Eight of Swords",
+      "image": "57_eight_swords",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "The feeling of being stuck can come from a mental frame. The obstacle may not be outside but inside. Perception creates boundaries.",
+          "love": "The feeling of helplessness in a relationship may not be real but perceptual. Unspoken fears build bonds. A change of perspective opens space.",
+          "career": "Professional blockage can arise from self-judgment. Talent may be underestimated. The limit may be mental.",
+          "spiritual": "The stuckness in your mind shows that you are lost in a maze created by your thoughts; the obstacles are the product of your mind. The situation reveals that a feeling of helplessness has overtaken you; to overcome it, identify the one area you can control. The power lies in your choices; make that choice and break the chains of your mind."
+        },
+        "reversed": {
+          "general": "The feeling of limitation starts to dissolve. New perspective brings freedom. The chain was mental.",
+          "love": "Hope returns in the relationship. The way out begins to be seen. The space expands.",
+          "career": "Professional trust can be restored. Barriers are shrinking. Movement is possible.",
+          "spiritual": "You are becoming aware of your limitations; this awareness is the first step towards dissolution. The situation paves the way for your empowerment; you can break your chains by making the first move to liberate yourself. A small change in your life opens the door to big transformations."
+        }
+      }
+    },
+    {
+      "id": 58,
+      "name": "Nine of Swords",
+      "image": "58_nine_swords",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Mental anxiety can be magnified; thought feels heavier than reality. Night enlarges the mind, day shrinks it. Fear often resonates inside.",
+          "love": "The relationship may be carrying guilt or regret. Unspoken words grow inside. Sharing lessens the burden.",
+          "career": "Professional stress can eat away at the mind. Fear of failure stops action. The perception of pressure may be magnified.",
+          "spiritual": "Anxiety and mental burden are getting heavier; the thoughts that buzz in his mind at night increase his restlessness. The situation is characterized by guilt and fears coming to the surface. Write down your worries; paper can be a way to lighten your burdens. Free your thoughts, create a space to relax."
+        },
+        "reversed": {
+          "general": "Anxiety begins to dissolve; fear shrinks as it becomes visible. The mind may be realigning with reality. The breathing space opens up.",
+          "love": "As guilt is let go, the bond lightens. Talking heals. The burden is shared.",
+          "career": "Stress becomes manageable. Perspective is coming back. Movement is possible.",
+          "spiritual": "Anxiety is subsiding; thoughts are now more manageable. The situation is on the verge of an inner relaxation; when you choose to be soft with yourself, peace comes naturally. Avoid harsh judgments, approach yourself with a gentle voice and it will flow like water nourishing your soul."
+        }
+      }
+    },
+    {
+      "id": 59,
+      "name": "Ten of Swords",
+      "image": "59_ten_swords",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "A cycle may be closing dramatically. The last pain is often the threshold of transformation. There is nothing less.",
+          "love": "There can be a definite break in the relationship. The end is sometimes liberating. Pain brings clarity.",
+          "career": "What looks like professional collapse can be a new beginning. When the old structure collapses, a new one is built. The end makes room.",
+          "spiritual": "A mental cycle has ended; to continue it is now only a burden. The situation marks a difficult but definite closure. Move forward with acceptance instead of resistance; this will set you free. To formalize the closure, write down what you feel."
+        },
+        "reversed": {
+          "general": "Healing is beginning; the worst may be behind us. The wound is still tender but closing. Resistance is coming back.",
+          "love": "Even if the broken bond is not mended, the heart is mended. The grief dissolves. Space opens.",
+          "career": "Professional recovery is slow but possible. New ground is being broken. Experience is preserved.",
+          "spiritual": "Recovery is at the door; it's time to get yourself back on your feet. Let go of the confusion in your mind and move on with a small correction. Nurture your courage at every step; change is the gateway to new horizons that await you."
+        }
+      }
+    },
+    {
+      "id": 60,
+      "name": "Page of Swords",
+      "image": "60_page_swords",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Curiosity and mental acuity are on the rise. Questioning is part of growing up. The desire to learn is alive.",
+          "love": "Observation and analysis may increase in the relationship. The mind may be working before emotion. Distance comes from thought.",
+          "career": "Time to learn and gather knowledge in the professional field. A young mind is an advantage. Questions drive progress.",
+          "spiritual": "You are at the peak of mental vitality; your curiosity calls you to explore new horizons. Your courage to ask questions opens the doors to learning; everything you don't know will take you one step further. Take action to investigate, you will find yourself in the process."
+        },
+        "reversed": {
+          "general": "Over-analysis could stop the move. Doubt may be magnified. The mind gets tired.",
+          "love": "Excessive questioning weakens the bond. Trust is not built by analysis. Doubt is exhausting.",
+          "career": "Too much knowledge can hinder action. Thought must turn into action. Otherwise the cycle continues.",
+          "spiritual": "You are distracted; your thoughts are lost in a sea of superficiality. The situation allows impatience to drive you; narrow your focus and get clear. When you focus on your goal, your thoughts deepen and light your path."
+        }
+      }
+    },
+    {
+      "id": 61,
+      "name": "Knight of Swords",
+      "image": "61_knight_swords",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Quick thinking leads to quick action. Determination is high but sharp. Momentum is strong.",
+          "love": "Direct communication in a relationship may be perceived as harsh. Honesty may be unfiltered. Tone is important.",
+          "career": "Aggressive progress in the professional field is possible. Speed is an advantage. Control must not be lost.",
+          "spiritual": "Thoughts are flowing fast; your desire for action drives you. The situation carries the risk of rushing; take a breath before making your decisions. Your words are effective when they find the right direction, so stop and think before you speak."
+        },
+        "reversed": {
+          "general": "Uncontrolled speed can create chaos. Thought must overtake action. The brake is needed.",
+          "love": "Harsh communication can open wounds. It is necessary to stop and listen. Speed does not build bonds.",
+          "career": "Unplanned action breeds error. Strategy may be lacking. Slowing down is difficult.",
+          "spiritual": "You are lost in a strong rigidity; when you act without thinking, the consequences can be overwhelming. The situation requires you to gain a new perspective by consciously slowing down your pace. Slowing down is actually like taking a deep breath; clarify your thoughts, and then take action."
+        }
+      }
+    },
+    {
+      "id": 62,
+      "name": "Queen of Swords",
+      "image": "62_queen_swords",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Clear vision independent of emotion. Truth is perceived without filters. Distance brings clarity.",
+          "love": "In a relationship, the head can take precedence over the heart. Coldness can be protective. Clarity gives confidence.",
+          "career": "Professional sharpness is an advantage. Objective vision improves the quality of judgment. Emotion takes a back seat.",
+          "spiritual": "Mental maturity and clarity are at the forefront for you; be guided by logic without losing your emotions. The situation requires you to protect yourself with firm boundaries; expressing the truth in a calm way will help you gain strength. Once you find the balance between your emotions and reason, new horizons may open up in your life."
+        },
+        "reversed": {
+          "general": "Excessive distance can create loneliness. The wall of protection may have thickened. A softening is needed.",
+          "love": "Emotional disconnection weakens the bond. Rigidity is defensive. Openness can be lacking.",
+          "career": "Lack of empathy can strain the team relationship. Coldness cuts communication. Balance is needed.",
+          "spiritual": "The situation shows that emotional distance has increased; coldness and criticality have created a barrier between you. When you start consciously adding empathy, this wall can come down. Putting yourself in the other person's shoes will rekindle the warmth of the relationship."
+        }
+      }
+    },
+    {
+      "id": 63,
+      "name": "King of Swords",
+      "image": "63_king_swords",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "swords",
+      "element": "air",
+      "meanings": {
+        "upright": {
+          "general": "Mental authority and power of structure are high. Decisions are sharp but conscious. Leadership comes from the mind.",
+          "love": "Rational balance is at the forefront of the relationship. Emotion is kept within the structure. Trust arises from the system.",
+          "career": "Strategic control is strong in the professional field. Management demands clarity. Discipline drives progress.",
+          "spiritual": "Strategic thinking lights the light of mental leadership; seeing the big picture is your greatest strength. The situation is an area where responsibility and fairness are in the balance; announcing your decision clearly and calmly preserves the balance around you. Remember, clarity gives you direction."
+        },
+        "reversed": {
+          "general": "Authority can become rigid. Control can destroy flexibility. Rigidity breaks.",
+          "love": "Excessive rationality weakens the bond. Emotion may be repressed. Intimacy is reduced.",
+          "career": "Despotic rule creates resistance. Power must be shared. Rigidity tires.",
+          "spiritual": "Controlling thoughts are squeezing you; rigidity is stifling your creativity. The situation calls for opening the door to different perspectives; if you choose to be flexible, new opportunities will arise. Give yourself permission, even in uncertainty you can create space."
+        }
+      }
+    },
+    {
+      "id": 64,
+      "name": "Ace of Pentacles",
+      "image": "64_ace_pentacles",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "The inner groundwork is being laid to translate abstract ideas in the mind into concrete reality. The ability to transform potential into physical form is recognized. This process marks the determination and willingness to be grounded in the transition from dream to action.",
+          "love": "The desire to build a secure and tangible foundation for the relationship becomes dominant. The correspondence of the emotional bond in the physical world eliminates uncertainty. Instead of abstract promises, concrete behaviors open up space for each other.",
+          "career": "Favorable conditions are created for professional skills to be transformed into a concrete project. A new focus for investing time and effort is identified. Success is shaped not by luck, but by the impulse of a planned start.",
+          "spiritual": "A concrete starting gate is opening; this is a sign of a viable opportunity. The situation shows that you are seeking security and stability; choosing what is permanent means taking your time. Clarify your target area and identify the simplest step to take; a small but effective action will accelerate your progress."
+        },
+        "reversed": {
+          "general": "A disconnect with the physical world leads to blocked potential. Reluctance to take concrete steps keeps opportunities stuck in the mental plane. A weak sense of security makes it difficult to take action.",
+          "love": "Lack of promised trust in the relationship leads to disappointment and hesitation. The lack of concrete steps creates hesitation to make emotional investments. The uncertainty created by an unfounded bond creates a desire to withdraw.",
+          "career": "Under-utilization of resources or wrong timing prevents projects from starting. The opportunity to showcase talents is not yet felt to have been seized. Unrealistic expectations are not realized in the practical world.",
+          "spiritual": "You have an opportunity, but perhaps you are underestimating it or putting it off. The situation is shaped by a feeling of unworthiness or a belief that 'I'm not ready yet'. You are right to question whether you see your potential; write down what you have and concretize what you have; this will clarify the path ahead."
+        }
+      }
+    },
+    {
+      "id": 65,
+      "name": "Two of Pentacles",
+      "image": "65_two_pentacles",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "Adapting to the changing rhythm of life requires mental flexibility and momentary awareness. Priorities are constantly rearranged to maintain balance. This process is the ability to go with the flow, rather than rigidly maintaining control.",
+          "love": "There is a constant negotiation between relationship dynamics and individual responsibilities. The capacity to adapt instantly to changing needs is tested. The balance between seriousness and playfulness keeps the bond alive.",
+          "career": "The ability to manage multiple tasks requires practical intelligence and quick adaptability. Fluctuations in workload force us to develop more efficient methods. Success comes not from a fixed posture, but from a strategy that can adapt to the situation.",
+          "spiritual": "The struggle for balance keeps you constantly on the move, juggling time, money and energy. The situation calls into question how you manage multiple responsibilities; your flexibility is important, but you risk falling apart. Today, consciously postpone a non-prioritized task; this simple action will create a clearing of your mind."
+        },
+        "reversed": {
+          "general": "Excessive responsibilities lead to mental clutter and loss of focus. The effort to keep up with constantly changing circumstances creates a feeling of chronic fatigue. Fear of losing balance restricts mobility and leads to inefficiency.",
+          "love": "Relationship inconsistencies and confused priorities undermine emotional trust. Failure to manage time and energy leads to feelings of neglect. Communication breakdowns make it difficult to restore balance.",
+          "career": "Attempting to carry out tasks at the same time leads to a decrease in quality and an increase in errors. Lack of organization damages the professional image. The feeling of being crushed under the workload leads to loss of control.",
+          "spiritual": "The balance is out of balance; the effort to keep up with everything is wearing you down. The situation is wrapped in fear of loss of control; now you need to take a step to ease your mind. Simplify one of your simultaneous tasks; this will allow you to breathe and redirect your energy."
+        }
+      }
+    },
+    {
+      "id": 66,
+      "name": "Three of Pentacles",
+      "image": "66_three_pentacles",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "The integration of individual talents into a collective structure brings tangible success. Expertise, combined with the insights of others, creates a more comprehensive result. Being open to feedback is an important development tool on the road to mastery.",
+          "love": "The joint effort to maintain the relationship determines the quality of the bond. A third eye or mutual experience is used to solve problems. Acknowledging each other's contribution creates a constructive basis.",
+          "career": "Teamwork and hierarchical cohesion keep projects moving forward. External validation of professional competence strengthens motivation and belonging. Bringing together different disciplines increases the quality of the work.",
+          "spiritual": "You are on a journey of co-production and learning; your labor is now becoming visible. The situation feeds the desire to contribute and be appreciated; being open to feedback accelerates this process. Discover the potential around you by hearing your own voice more."
+        },
+        "reversed": {
+          "general": "Environmental disharmony and miscommunication prevent the achievement of common goals. The tendency to take criticism personally hinders development. A superficial approach reduces the quality of the work or situation.",
+          "love": "Being pulled in different directions creates a lack of vision in the relationship. Failure to establish a common language leads to wasted efforts. Feelings of disapproval lead to withdrawal or defensiveness.",
+          "career": "Competition or feelings of inadequacy in the work environment sabotage productive work. Disruption of team dynamics leads to project failure. Sloppy work carries the risk of losing professional dignity.",
+          "spiritual": "This creates disharmony and a feeling of being ignored within the team, which can be demotivating. Clearly articulating your expectations improves communication. When you make yourself clear, you can get more support from the other side."
+        }
+      }
+    },
+    {
+      "id": 67,
+      "name": "Four of Pentacles",
+      "image": "67_four_pentacles",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "The drive to protect one's values turns into rigid boundaries and the need for control. The search for security leads to an attitude closed to change. The effort to maintain the status quo is a defense mechanism against risks from the outside world.",
+          "love": "Fear of loss in a relationship triggers possessive and restrictive behaviors. Building emotional walls prevents intimacy even though it protects from getting hurt. The inability to let go of control stops the natural flow and deepening of the relationship.",
+          "career": "Worries about losing a vested position make it difficult to take risks and innovate. Being closed to sharing information or authority leads to isolation. Maintaining the status quo is an obstacle to development.",
+          "spiritual": "Your desire for security tightens you up; the need to hold and protect restricts the flow of life. The situation shows that you are held captive by the fear of loss; when you recognize unnecessary controls, you take the first step towards liberation. Releasing your fears opens up a new space."
+        },
+        "reversed": {
+          "general": "The loosening of control mechanisms releases pent-up energy. The risk of change is accepted as the walls of defense come down. Letting go requires the courage to face uncertainty.",
+          "love": "Breaking down emotional defenses opens the door to more transparent communication. Reducing jealousy and possessiveness gives both parties breathing space. Facing the fear of loss initiates the transition to a healthier form of attachment.",
+          "career": "Abandoning the insistence on the status quo in careers makes it possible to try new methods. Task sharing and delegation increase productivity by lightening the workload. Reducing position anxiety creates a more creative and flexible working environment.",
+          "spiritual": "You are ready to let go and relax; the desire to share is growing within you. The situation requires you to consciously let go of something excess; this lightens your heart and opens up new space. Releasing your emotions revitalizes your spirit."
+        }
+      }
+    },
+    {
+      "id": 68,
+      "name": "Five of Pentacles",
+      "image": "68_five_pentacles",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "The feeling of deprivation and exclusion focuses the perception only on what is missing. Failure to see the available support mechanisms deepens the difficulty. This process is a sharp realization that physical or emotional needs are not being met.",
+          "love": "Emotional isolation within the relationship reinforces the feeling of loneliness. The disconnection creates a situation of not being able to reach each other and not being understood. The belief of worthlessness makes it difficult to express the demand for love and attention.",
+          "career": "Fear of professional failure or exclusion from the workplace undermines self-confidence. Feeling deprived of support networks makes career goals unattainable. Financial losses or unemployment cause social status to be questioned.",
+          "spiritual": "Feelings of inadequacy and isolation can overwhelm you, fueled by financial or emotional insecurity. When you find it difficult to ask for support, you may feel like you are carrying the biggest burden, but remember, you are not alone. Identify a point where you can get help and take the first step - this is an important move to lighten your burden."
+        },
+        "reversed": {
+          "general": "The perspective focusing on challenges evolves into a solution-oriented approach. The transience of the crisis is recognized and external support is accepted. Exit from the consciousness of deprivation begins with the rediscovery of one's own resilience and resources.",
+          "love": "Communication channels are reopened after a period of crisis in the relationship. Feeling that you are not alone in difficult times repairs the bond of trust. The courage to address problems ends emotional isolation.",
+          "career": "Professional blockages are resolved as new opportunities or help appear. Fear of failure diminishes, giving you the strength to try again. Alternative routes on the career path become visible.",
+          "spiritual": "The challenging period is behind you; hope is blossoming again, your life is renewed. Support is part of empowerment; accept it and open your heart. The situation fosters the feeling that you are ready for new beginnings; take steps boldly."
+        }
+      }
+    },
+    {
+      "id": 69,
+      "name": "Six of Pentacles",
+      "image": "69_six_pentacles",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "Balance in power dynamics is achieved through a fair distribution of giving and receiving. One learns to maintain boundaries when sharing or accepting resources. This interaction is based on the recognition of mutual need, not hierarchy.",
+          "love": "The mutual flow of attention and support in the relationship increases emotional satisfaction. Deficiencies are filled and a healthy solidarity is developed. The reciprocation of efforts reinforces trust in the relationship.",
+          "career": "Transfer of knowledge and experience supports professional development through mentoring relationships. A well-deserved reward or recognition satisfies the sense of justice. A collaborative environment encourages productivity and sharing.",
+          "spiritual": "The balance of giving and receiving is at the forefront; this balance is the key to fairness in relationships. The situation requires you to question how sharing affects you; by reviewing the balance of contribution and reciprocation, you can express yourself more clearly. Revisit your sense of value; this process can bring an inner enlightenment."
+        },
+        "reversed": {
+          "general": "The deterioration in the balance between giving and receiving paves the way for dependency or exploitation. Power games in the name of aid push one party into a passive position. Violation of boundaries creates a sense of indebtedness or a burden of gratitude.",
+          "love": "One-sided sacrifice in a relationship leads to burnout and hidden anger. Bargaining over emotional needs undermines intimacy. When one party takes on the role of savior, it prevents the other from taking responsibility.",
+          "career": "Favoritism at work or lack of compensation for labor reduces motivation. There is a tendency to withhold information or use support as a means of manipulation. Unjust attitudes of authority figures undermine professional belonging.",
+          "spiritual": "There's an unbalanced exchange and the confusion of indebtedness and entitlement occupies your mind. The situation requires you to clarify your boundaries; review your decisions to boost your self-esteem. During this process, remembering which values guide you will help you find balance."
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": "Seven of Pentacles",
+      "image": "70_seven_pentacles",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "It takes willpower to trust the process and continue investing without expecting instant results. The efficiency of the strategy is questioned by stopping and analyzing the progress. Waiting is not passivity, but a conscious evaluation and maturation phase.",
+          "love": "Reflecting on the course of the relationship allows for clearer decisions about the future. By questioning the fulfillment of the laborious bond, it is analyzed whether to continue or not. Patience allows the emotional investment to take root.",
+          "career": "The results of the steps taken for long-term career goals are expected. It is important to stay motivated as it takes time to reap the fruits of the work done. Strategic breaks serve to confirm the correctness of the route.",
+          "spiritual": "Patience is the key to this moment; what you have worked for is not yet ripe, but don't let that slow you down. It's more about evaluating than waiting; measure your progress and feel the improvement at every step. Be patient, but also don't stop moving forward."
+        },
+        "reversed": {
+          "general": "Delayed results lead to impatience and frustration. The feeling that efforts are unrewarded triggers the tendency to give up. The realization that one has invested in the wrong target leads to concerns about wasting time.",
+          "love": "The feeling that the effort put into the relationship is wasted leads to emotional withdrawal. Lack of progress weakens faith in the future. Unmet expectations threaten the sustainability of the relationship.",
+          "career": "When the effort spent in business life does not yield a tangible return, it creates burnout. Stalled or inefficient projects necessitate a change of strategy. Ineffective initiatives undermine professional self-confidence.",
+          "spiritual": "Impatience may have overtaken you; this anxiety is preventing you from moving forward. The situation offers you an opportunity to clarify your goal; once you redefine it, you will see the path better. Don't let uncertainty suffocate you; it empowers you to move forward with a clear purpose every step of the way."
+        }
+      }
+    },
+    {
+      "id": 71,
+      "name": "Eight of Pentacles",
+      "image": "71_eight_pentacles",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "Repetitive practice and discipline form the basis of mastery. A process of perfecting skills by focusing on details. Respect for the process and diligence serve for inner satisfaction rather than external validation.",
+          "love": "It becomes clear that it is not grand gestures that sustain the relationship, but daily care and attention. A patient effort to get to know the partner deepens the bond. Loyalty is proven by consistency in routine.",
+          "career": "The focus is on training and fine craftsmanship to increase professional competence. Concentration and meticulousness raise the quality of the work produced above the standards. The desire to specialize guarantees a solid career position.",
+          "spiritual": "Focus and discipline are the keys to mastery, and you have a deep willingness to labor in this process. The situation points to a journey that will make you more competent; today you can unleash your potential by focusing on your work with full attention."
+        },
+        "reversed": {
+          "general": "The trap of perfectionism stalls progress and leads to drowning in details. Boredom with routines leads to a decline in the quality of work and loss of focus. The fallacy of expecting results with superficial effort creates a sense of inadequacy.",
+          "love": "Lack of attention to the relationship leads to a weakening of emotional bonds. The perception of monotony may lead to a desire to distance from the partner. Focusing only on work and neglecting private life destabilizes the balance.",
+          "career": "Lack of motivation and burnout drag down professional performance. Undeveloped, mechanized ways of doing business create dissatisfaction. Mistakes are overlooked, damaging the professional image.",
+          "spiritual": "Distracted and mechanized, it is critical to remember why you are doing what you are doing. Purpose gives meaning to your work and motivates you; remember to remind yourself often. To grasp the depth of anything, it is useful to question yourself again."
+        }
+      }
+    },
+    {
+      "id": 72,
+      "name": "Nine of Pentacles",
+      "image": "72_nine_pentacles",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "The capacity for self-sufficiency is the basis for freedom and inner security. Self-created order is enjoyed without the need for external approval. The reward of a disciplined past is a comfortable living space with clear boundaries.",
+          "love": "Preserving independent identities in the relationship is seen as a prerequisite for a healthy union. A stance that is not dependent on the partner and is at peace with oneself is displayed. Self-esteem becomes the main factor determining the quality of the relationship.",
+          "career": "The level of competence achieved in a career enables autonomous work. Success is measured not only by status, but also by personal time and freedom. Professional reputation gives choice and room for maneuver.",
+          "spiritual": "Your sense of independence and self-efficacy is strengthening; you are beginning to feel rewarded for your efforts. The situation has given you an opportunity to be proud of yourself; celebrating this achievement will make you stronger. Take a moment and remember your victories; this will boost your motivation."
+        },
+        "reversed": {
+          "general": "A life that appears perfect on the outside, harbors an inner sense of loneliness or isolation. Overemphasizing independence leads to distance and coldness in human relationships. Material comfort becomes a means to cover spiritual dissatisfaction.",
+          "love": "Selfishness and excessive individualism in relationships cut off emotional contact with the partner. Fear of commitment is hidden under the mask of freedom. Material expectations come to the fore, undermining intimacy and trust.",
+          "career": "Excessive workload or ambition for success leads to a complete neglect of social life. Fear of loss of status creates a constant state of vigilance. Investment in appearance is not enough to fill the void of professional content.",
+          "spiritual": "The situation creates a feeling of dissatisfaction, lost in the shadow of external successes; loneliness is waiting for you behind these successes. Increasing your sharing can be the key to filling the emptiness inside. Make courageous connections; your inner wealth grows as you share it with others."
+        }
+      }
+    },
+    {
+      "id": 73,
+      "name": "Ten of Pentacles",
+      "image": "73_ten_pentacles",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "Enduring values and well-established structures provide a sense of belonging and security. Intergenerational transmission and traditions form the basis for shaping identity. Individual goals make sense as part of a larger whole or system.",
+          "love": "The relationship emphasizes long-term plans and family integration. Secure attachment is based on the stability of the established order and shared values. The traditional structure provides a framework that supports and protects the relationship.",
+          "career": "A stable position is achieved within corporate structures or well-established organizations. Career progresses with a focus on sustainability and leaving a legacy rather than instant success. Accumulation and experience turn into a long-term authority.",
+          "spiritual": "Security and belonging are at the center of your life; permanent structures are now a necessity. The situation reminds you of the importance of putting down deep roots. Write down your plan for the future, a solid map to guide you."
+        },
+        "reversed": {
+          "general": "Traditional patterns or familial expectations become a burden that limits individual freedom. The need for radical change means that old structures no longer function. Alienation is felt within the system to which one belongs.",
+          "love": "Family pressure or social norms disrupt the natural flow of the relationship. Deep conflicts arise within a structure that appears harmonious on the outside. Material or status-oriented marriages lead to emotional dissatisfaction.",
+          "career": "Organizational rigidity or hierarchical problems in the family business hinder development. Loss of career stability creates uncertainty about the future. Insisting on the methods of the past makes it difficult to adapt to innovations.",
+          "spiritual": "The situation suggests that tensions are rising in the family and in the system; the pressure of expectations can stifle you. Taking your own path will give you freedom; for your inner peace, try setting boundaries. Managing this pressure will boost your self-esteem."
+        }
+      }
+    },
+    {
+      "id": 74,
+      "name": "Page of Pentacles",
+      "image": "74_page_pentacles",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "There is a desire to set a concrete goal and develop practical skills. The learning process progresses through experience and practice rather than theoretical knowledge. The desire to discover potential is combined with the energy of a disciplined start.",
+          "love": "There is an intention to take reliable and clear steps forward in the relationship. A realistic approach to getting to know the partner provides a solid foundation. Emotions are expressed through consistent behavior rather than words.",
+          "career": "The focus is on gaining a new skill or training for a career path. The apprenticeship mindset requires a solid foundation with attention to detail. Opportunities are seized through realistic planning and hard work.",
+          "spiritual": "An energy of openness to learning surrounds you; the combination of curiosity and discipline enables you to acquire new skills. The situation is the first step on your journey of development; dive boldly into new knowledge and explore. Each new thing can open a new door for you."
+        },
+        "reversed": {
+          "general": "Lack of focus and lack of discipline hinder the achievement of goals. Unrealistic expectations lead to disappointment in the practical world. The tendency to leave things unfinished leads to wasted potential.",
+          "love": "Lack of seriousness and avoidance of responsibility in a relationship creates trust issues. Breaking promises creates a perception of inconsistency in the partner. Lack of emotional maturity prevents the bond from deepening.",
+          "career": "Stagnation in professional development and closedness to learning lead to missed opportunities. Inadequate preparation leads to amateurish mistakes in business life. Lack of a clear career goal leads to wasted time and energy.",
+          "spiritual": "Procrastination awaits you; frivolity is an obstacle to your goals. The situation suggests that your motivation is fluctuating; nevertheless, downsizing your goal can re-energize you. Take a small but effective step and start doing something every day; this will move you towards bigger goals."
+        }
+      }
+    },
+    {
+      "id": 75,
+      "name": "Knight of Pentacles",
+      "image": "75_knight_pentacles",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "Methodical, patient and resilient progress stands out. Sticking to routines is seen as the most reliable way to reach the goal. A sense of responsibility leads to a focus on the quality and completion of work rather than speed.",
+          "love": "Loyalty and predictability in a relationship are considered more valuable than excitement. Taking an unwavering stance with your partner inspires confidence. Slow but steady progress creates a lasting bond.",
+          "career": "Diligence and sense of duty earn professional respect in business life. Detailed and meticulous work guarantees the complete completion of projects. Career stability is achieved by persevering on the current course without seeking adventure.",
+          "spiritual": "Responsibility and stability are your guide; you need to take slow but firm steps. The situation reinforces your credibility, while maintaining the same routine every day will bring you closer to your goals. Be patient to move forward; small steps sow the seeds for big changes."
+        },
+        "reversed": {
+          "general": "Excessive caution and slowness to take action lead to missed opportunities. Inertia created by routines lowers life energy and motivation. Stubborn resistance to change halts progress.",
+          "love": "Monotony and emotional dullness in the relationship pushes the partner away. Focusing only on practical matters and ignoring emotional needs weakens bonds. Stubbornness leads to blocked communication channels.",
+          "career": "Perfectionism and excessive detail-orientedness lock business processes. Closedness to innovation weakens competitiveness and causes regression. The feeling of being stuck in a career creates dissatisfaction.",
+          "spiritual": "The situation shows that excessive rigidity is limiting you; moments of inflexibility are blocking your progress. To feel the wind of change, you need to rethink your method; novelty is more valuable than holding on tight. With a light touch, you can add movement to your life."
+        }
+      }
+    },
+    {
+      "id": 76,
+      "name": "Queen of Pentacles",
+      "image": "76_queen_pentacles",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "The combination of practical intelligence and compassion creates a nurturing and supportive environment. The environment is trusted while managing resources and boundaries. Bodily awareness and harmony with nature bring inner balance.",
+          "love": "There is a protective, generous and sensitive attitude in the relationship. Love is expressed by providing concrete attention and a comfortable space. Emotional maturity increases the capacity to understand and meet the needs of the partner.",
+          "career": "Efficient use of resources and organizational skills stand out in business life. Observing human values in the work environment increases the efficiency of the team. Balancing career and private life brings sustainable success.",
+          "spiritual": "You need to strike a nurturing and protective balance; material and emotional security go hand in hand. The situation suggests it's time for self-compassion and practical solutions. Keep your energy fresh by creating a space for self-care; this will give you strength."
+        },
+        "reversed": {
+          "general": "Excessive focus on the material world leads to the loss of spiritual values. Devotion to others, neglecting self-care, leads to burnout. Controlling behavior, even with good intentions, makes the environment feel oppressed.",
+          "love": "There is a suffocating possessiveness or over-protectiveness in the relationship. Trying to cover emotional deficits with material gifts destroys intimacy. Not respecting the partner's independence creates conflict.",
+          "career": "Loss of work-life balance makes stress chronic. Disorganization and lack of planning negatively affect professional performance. Violation of emotional boundaries undermines professionalism.",
+          "spiritual": "Don't neglect yourself; overloading yourself invites internal burnout. The situation requires you to set clear boundaries; saying no boosts your self-esteem. When you don't ignore your own needs, your energy flow is balanced."
+        }
+      }
+    },
+    {
+      "id": 77,
+      "name": "King of Pentacles",
+      "image": "77_king_pentacles",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "pentacles",
+      "element": "earth",
+      "meanings": {
+        "upright": {
+          "general": "Mastery of the material world provides unshakable self-confidence and authority. Success is the result of disciplined work and strategic intelligence rather than luck. Leadership is characterized by calm strength and steady poise.",
+          "love": "Reliability, loyalty and sense of responsibility are the cornerstones of the relationship. The desire to offer tangible support and a comfortable future to their partner is dominant. Emotions are expressed through consistent behavior and unwavering commitment.",
+          "career": "Professional peak and authority in the sector reflects many years of experience. Entrepreneurial spirit and financial foresight enable successful management of large projects. Business life is based on quality and sustainability.",
+          "spiritual": "Long-term success and solid leadership are taking shape in your hands; reassuring stability is the cornerstone of your current journey. The situation demands a balance of responsibility and wisdom; make decisions with a calm mind and execute them with clarity. Every step you take in this process will lead you to a more solid future."
+        },
+        "reversed": {
+          "general": "Overindulgence in substances and power intoxication undermine ethical values. Rigidity and stubbornness make it impossible to adapt to a changing world. Fear of loss of status leads to an obsessive need for control.",
+          "love": "In a relationship, the tendency to see the partner as property or to control them creates unrest. Emotional coldness and focusing only on material values weakens the bond. Stubborn attitudes prevent compromise and communication.",
+          "career": "Corruption, unethical gain or abuse of power leads to loss of reputation. Excessive ambition leads to risky and erroneous decisions in business life. Intolerance of failure makes the work environment toxic.",
+          "spiritual": "You're being squeezed by excessive materialism and controlling behavior; holding on to your values is the key to regaining your freedom. The situation is signaling that you're losing your flexibility; learning to let go opens up space in your life. As you remember your values, you can find balance within yourself, which will lead you to new opportunities."
+        }
+      }
+    }
+  ]
+}

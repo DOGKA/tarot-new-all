@@ -1,0 +1,173 @@
+{
+  "slots": [
+    {
+      "id": "2026-03-05T082713Z_full_moon_libra_jupiter",
+      "start": "2026-03-05T08:27:13.495Z",
+      "end": "2026-03-05T11:11:17.245Z",
+      "phase": "full_moon",
+      "zodiac": "libra",
+      "planet": "jupiter",
+      "content": {
+        "planet": {
+          "meaning": "Perşembe günü Jüpiter, genişleme ve fırsatları tetikliyor. İçsel büyümeni ve yeni imkanları keşfetmeni sağlıyor.",
+          "advice": "Kitaplığındaki o kalın kitabı aç."
+        },
+        "zodiac": {
+          "meaning": "Ay Terazi burcunda dengeyi ve uyumu netleştiriyor. İlişkilerde adalet arayışın öne çıkıyor.",
+          "firsat": "Arkadaşlarınla barışçıl bir buluşma düzenle.",
+          "his": "huzurlu denge, adil arayış"
+        },
+        "phase": {
+          "sentence": "Dolunay parlıyor, yüzleş.",
+          "general": "Dolunay, duygusal dalgalanmaları büyütüyor. Gizli kalan hisler açığa çıkıyor.",
+          "ayna": "Uzun zamandır ertelediğin kararın yüzüne bakıyor."
+        }
+      }
+    },
+    {
+      "id": "2026-03-05T111117Z_disseminating_moon_libra_jupiter",
+      "start": "2026-03-05T11:11:17.245Z",
+      "end": "2026-03-06T00:00:00.000Z",
+      "phase": "disseminating_moon",
+      "zodiac": "libra",
+      "planet": "jupiter",
+      "content": {
+        "planet": {
+          "meaning": "Perşembe günü Jüpiter genişletiyor. Bugün içsel potansiyelini büyütüyor.",
+          "advice": "Karşılaştığın yeni bir fikri kabul et."
+        },
+        "zodiac": {
+          "meaning": "Ay Terazi burcunda dengeyi arıyor. Sosyal ilişkilerini yeniden şekillendiriyor.",
+          "firsat": "Yeni bir ilişkiyi başlat.",
+          "his": "dengeli huzursuzluk"
+        },
+        "phase": {
+          "sentence": "Genişlet, yayıl, keşfet!",
+          "general": "Yayıcı Ay fırsatları artırıyor. Düşüncelerin ve seçeneklerin çoğalıyor.",
+          "ayna": "Ertelenen kararları netleştir. Göz ardı edilen potansiyel açığa çıkıyor."
+        }
+      }
+    },
+    {
+      "id": "2026-03-06T000000Z_disseminating_moon_libra_venus",
+      "start": "2026-03-06T00:00:00.000Z",
+      "end": "2026-03-07T00:00:00.000Z",
+      "phase": "disseminating_moon",
+      "zodiac": "libra",
+      "planet": "venus",
+      "content": {
+        "planet": {
+          "meaning": "Cuma günü Venüs ilişkilerini aydınlatıyor. Estetik ve güzellik anlayışın derinleşiyor.",
+          "advice": "Bir resim sergisine git."
+        },
+        "zodiac": {
+          "meaning": "Ay Terazi burcunda denge arayışını tetikliyor. İlişkilerinde adalet duygusu öne çıkıyor.",
+          "firsat": "Arkadaşlarınla bir araya gel ve eski bir konuyu konuş.",
+          "his": "huzurlu denge, dikkatli uyum"
+        },
+        "phase": {
+          "sentence": "Soylenmemis sozleri soyle.",
+          "general": "Yayıcı Ay iletişimi keskinleştiriyor. Duygular daha kolay ifade buluyor.",
+          "ayna": "Görmezden geldiğin ilişkisel sorunları açığa çıkarıyor."
+        }
+      }
+    },
+    {
+      "id": "2026-03-07T000000Z_disseminating_moon_libra_saturn",
+      "start": "2026-03-07T00:00:00.000Z",
+      "end": "2026-03-07T02:39:24.745Z",
+      "phase": "disseminating_moon",
+      "zodiac": "libra",
+      "planet": "saturn",
+      "content": {
+        "planet": {
+          "meaning": "Cumartesi günü Satürn, disiplinini ve sorumluluk duygunu harekete geçiriyor. Engellerle başa çıkarken dayanıklılığını artırıyor.",
+          "advice": "Bugün tamamlanmamış bir projeyi bitir."
+        },
+        "zodiac": {
+          "meaning": "Ay Terazi burcunda dengenin ve uyumun önemini hatırlatıyor. İlişkilerde adalet arayışı duygusal derinliği artırıyor.",
+          "firsat": "Bekleyen bir anlaşmazlığı çöz.",
+          "his": "huzurlu denge, adil arayış"
+        },
+        "phase": {
+          "sentence": "Fikri yay, büyüt!",
+          "general": "Yayıcı Ay, fikirlerin hızlıca yayılmasını sağlıyor. İletişim artıyor, bağlantılar güçleniyor.",
+          "ayna": "Görmezden geldiğin bir fikrin potansiyelini açığa çıkarıyor."
+        }
+      }
+    },
+    {
+      "id": "2026-03-07T023924Z_disseminating_moon_scorpio_saturn",
+      "start": "2026-03-07T02:39:24.745Z",
+      "end": "2026-03-07T07:29:09.745Z",
+      "phase": "disseminating_moon",
+      "zodiac": "scorpio",
+      "planet": "saturn",
+      "content": {
+        "planet": {
+          "meaning": "Cumartesi günü Satürn, disiplini ve sorumluluğu tetikliyor. İçsel yapını ve planlarını sıkılaştırıyor.",
+          "advice": "Bugün uzun vadeli bir hedef için somut bir adım at."
+        },
+        "zodiac": {
+          "meaning": "Ay Akrep burcunda derin duyguları bastırıyor. İçsel dönüşümün ve gizli arzuların kapısını aralıyor.",
+          "firsat": "Gizli kalmış bir yeteneği açığa çıkar.",
+          "his": "yoğun tutkular, derin sorgulama"
+        },
+        "phase": {
+          "sentence": "Fikirler kök salıyor mu?",
+          "general": "Yayıcı Ay, yeni fikirleri büyütüyor. Eski kalıplar yıkılıyor, yenileri inşa ediliyor.",
+          "ayna": "Görmezden geldiğin yaratıcı potansiyel kendini gösteriyor."
+        }
+      }
+    },
+    {
+      "id": "2026-03-07T072909Z_waning_gibbous_scorpio_saturn",
+      "start": "2026-03-07T07:29:09.745Z",
+      "end": "2026-03-08T00:00:00.000Z",
+      "phase": "waning_gibbous",
+      "zodiac": "scorpio",
+      "planet": "saturn",
+      "content": {
+        "planet": {
+          "meaning": "Cumartesi günü Satürn, disiplin ve sorumluluk alanını tetikliyor. Zorunluluklar ve görevler, daha belirgin bir şekilde önüne geliyor.",
+          "advice": "Ertelediğin o zor işi tamamla."
+        },
+        "zodiac": {
+          "meaning": "Ay Akrep burcunda, duygusal derinlikleri kesiyor. Gizli kalmış hisler su yüzüne çıkıyor, içsel çatışmalar belirginleşiyor.",
+          "firsat": "Derin bir meditasyon yap.",
+          "his": "yoğun huzursuzluk"
+        },
+        "phase": {
+          "sentence": "Artık bırak!",
+          "general": "Azalan Dolunay, gereksiz yükleri eritiyor. Geçmiş yükler yavaşça çözülüyor.",
+          "ayna": "Tuttuğun eski kinleri fark et."
+        }
+      }
+    },
+    {
+      "id": "2026-03-08T000000Z_waning_gibbous_scorpio_sun",
+      "start": "2026-03-08T00:00:00.000Z",
+      "end": "2026-03-08T08:27:13.495Z",
+      "phase": "waning_gibbous",
+      "zodiac": "scorpio",
+      "planet": "sun",
+      "content": {
+        "planet": {
+          "meaning": "Pazar günü Güneş içsel enerjini aydınlatıyor. Kendine dair yeni bir farkındalık uyanıyor.",
+          "advice": "Bir süredir aklında olan o yaratıcı projeye başla."
+        },
+        "zodiac": {
+          "meaning": "Ay Akrep burcunda derin duygusal dönüşümleri tetikliyor. Gizli kalmış hisler yüzeye çıkıyor.",
+          "firsat": "Eski bir dostla yüzleşme şansı doğuyor.",
+          "his": "yoğun içsel sorgulama"
+        },
+        "phase": {
+          "sentence": "Geçmişi serbest bırak.",
+          "general": "Azalan Dolunay eski yükleri eritiyor. Geçmişle vedalaşmayı kolaylaştırıyor.",
+          "ayna": "Ertelenmiş yüzleşmeleri daha fazla bekleme. Bugün o kapıyı aç."
+        }
+      }
+    }
+  ],
+  "generatedUntil": "2026-03-08T08:27:13.495Z"
+}

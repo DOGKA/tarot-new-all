@@ -1,0 +1,786 @@
+{
+  "_comment": "78 Tarot kartının kökeni, hikayesi ve sembolizmi — Deutsch, max 200 karakter",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "Der Narr",
+      "image": "00_fool",
+      "arcana": "major",
+      "number": "0",
+      "suit": null,
+      "element": "Luft",
+      "history": "Geboren von einem mittelalterlichen Hofnarren. Die eine große Arkana ohne Zahl, sowohl Anfang als auch Ende. Er wandelt am Rande des Abgrunds, denn Weisheit ist manchmal im Wahnsinn verborgen. Er stammt aus der italienischen Tradition von Il Matto."
+    },
+    {
+      "id": 1,
+      "name": "Der Magier",
+      "image": "01_magician",
+      "arcana": "major",
+      "number": "I",
+      "suit": null,
+      "element": "Luft",
+      "history": "In alten italienischen Decks \"Il Bagatto\", der Straßenjongleur. Auf seinem Tisch liegen die Symbole der vier Elemente. Der Kanal, der oben und unten verbindet, ist der Archetyp des Willens und der Kraft der Manifestation."
+    },
+    {
+      "id": 2,
+      "name": "Die Hohepriesterin",
+      "image": "02_high_priestess",
+      "arcana": "major",
+      "number": "II",
+      "suit": null,
+      "element": "Wasser",
+      "history": "Seine Ursprünge gehen auf das Papsttum zurück; es wurde durch die Legende der \"Päpstin Johanna\" inspiriert. Sie sitzt zwischen zwei Säulen: Boas und Yakin des Salomonischen Tempels. Hüterin der Intuition und des geheimen Wissens."
+    },
+    {
+      "id": 3,
+      "name": "Die Herrscherin",
+      "image": "03_empress",
+      "arcana": "major",
+      "number": "III",
+      "suit": null,
+      "element": "Erde",
+      "history": "Archetypus der Muttergöttin, der mit dem Planeten Venus verbunden ist. Sie trägt die Spuren von Demeter, Ishtar und Freyja. Umgeben von Weizenfeldern und fließendem Wasser, symbolisiert sie Fruchtbarkeit, Kreativität und die zyklische Kraft der Natur."
+    },
+    {
+      "id": 4,
+      "name": "Der Herrscher",
+      "image": "04_emperor",
+      "arcana": "major",
+      "number": "IV",
+      "suit": null,
+      "element": "Feuer",
+      "history": "Er trägt die mit dem Widder verbundene Mars-Energie. Inspiriert von römischen Kaisern ist der Steinthron ein Symbol für Autorität und Ordnung. Die viereckige Struktur und die Widderköpfe sind der Archetyp des Vaters, der die Regeln festlegt und die Grenzen zieht."
+    },
+    {
+      "id": 5,
+      "name": "Der Hierophant",
+      "image": "05_hierophant",
+      "arcana": "major",
+      "number": "V",
+      "suit": null,
+      "element": "Erde",
+      "history": "Altgriechisch 'hierophantes', jemand, der heilige Geheimnisse öffnet. Es stammt vom Hohepriester der Eleusinischen Mysterien. Die dreifache Krone und die gekreuzten Schlüssel stehen für Tradition, Doktrin und geistige Autorität."
+    },
+    {
+      "id": 6,
+      "name": "Die Liebenden",
+      "image": "06_lovers",
+      "arcana": "major",
+      "number": "VI",
+      "suit": null,
+      "element": "Luft",
+      "history": "In den frühen Decks musste sich ein Mann zwischen zwei Frauen entscheiden. Mit Rider-Waite wurde daraus die Adam-und-Eva-Szene. Der Engel Raphael wacht von oben und symbolisiert den freien Willen, die Wahl und den Ruf des Herzens."
+    },
+    {
+      "id": 7,
+      "name": "Der Wagen",
+      "image": "07_chariot",
+      "arcana": "major",
+      "number": "VII",
+      "suit": null,
+      "element": "Wasser",
+      "history": "Inspiriert von den Triumphzügen im alten Rom. Die schwarze und die weiße Sphinx stehen für gegensätzliche Kräfte. Der Sternenhimmel symbolisiert den astralen Schutz; es ist die Geschichte des Kriegers, der Hindernisse durch Willenskraft überwindet."
+    },
+    {
+      "id": 8,
+      "name": "Die Kraft",
+      "image": "08_strength",
+      "arcana": "major",
+      "number": "VIII",
+      "suit": null,
+      "element": "Feuer",
+      "history": "Eine Frau hält sanft das Maul des Löwen - nicht mit roher Gewalt, sondern mit innerer Stärke. Inspiriert vom Mythos des Löwen von Nemea des Herkules. Über seinem Kopf befindet sich das Symbol der Ewigkeit; eine Kombination aus Geduld und Mut."
+    },
+    {
+      "id": 9,
+      "name": "Der Eremit",
+      "image": "09_hermit",
+      "arcana": "major",
+      "number": "IX",
+      "suit": null,
+      "element": "Erde",
+      "history": "Er stammt von der Figur des Diogenes, der eine Laterne trägt. Er steht allein auf dem Gipfel des Berges; seine Laterne trägt den sechszackigen Stern Salomons. Er symbolisiert die innere Suche, die Stille und den Weg, das eigene Licht zu finden."
+    },
+    {
+      "id": 10,
+      "name": "Das Rad des Schicksals",
+      "image": "10_wheel_of_fortune",
+      "arcana": "major",
+      "number": "X",
+      "suit": null,
+      "element": "Feuer",
+      "history": "Entstanden aus dem Rad der römischen Göttin Fortuna. Oben auf dem Rad befindet sich die Sphinx, an ihren Seiten steigende und fallende Figuren. Die Buchstaben TARO-ROTA weisen auf den Zyklus hin; die Wendung des Schicksals und die Karte des universellen Zyklus."
+    },
+    {
+      "id": 11,
+      "name": "Die Gerechtigkeit",
+      "image": "11_justice",
+      "arcana": "major",
+      "number": "XI",
+      "suit": null,
+      "element": "Luft",
+      "history": "Inspiriert von der griechischen Göttin Themis; trägt Waage und Schwert. Ihre Augen sind offen - sie sieht alles, anders als die traditionelle Figur der Gerechtigkeit. Sie ist der Archetyp für das Gesetz von Ursache und Wirkung, Gleichgewicht und Karma."
+    },
+    {
+      "id": 12,
+      "name": "Der Gehängte",
+      "image": "12_hanged_man",
+      "arcana": "major",
+      "number": "XII",
+      "suit": null,
+      "element": "Wasser",
+      "history": "In der nordischen Mythologie erhängte sich Odin im Namen der Weisheit an den Yggdrasil-Baum. In Italien stammt es aus der Tradition der \"Verräter\"-Gemälde. Die umgekehrte Perspektive symbolisiert die Erleuchtung durch Aufopferung und Hingabe."
+    },
+    {
+      "id": 13,
+      "name": "Der Tod",
+      "image": "13_death",
+      "arcana": "major",
+      "number": "XIII",
+      "suit": null,
+      "element": "Wasser",
+      "history": "In manchen Decks wird seine Nummer nicht geschrieben - aus Angst vor Unglück. Gepanzertes Skelett auf einem weißen Pferd; gleichberechtigt vor Königen und Bettlern. Es ist keine Karte des physischen Todes, sondern der radikalen Transformation und Regeneration."
+    },
+    {
+      "id": 14,
+      "name": "Die Mäßigkeit",
+      "image": "14_temperance",
+      "arcana": "major",
+      "number": "XIV",
+      "suit": null,
+      "element": "Feuer",
+      "history": "Der Name kommt vom lateinischen Wort \"temperantia\" und bedeutet \"Mäßigung\". Der Engel transferiert Wasser zwischen zwei Gefäßen - ein Symbol für den alchemistischen Prozess. Ein Fuß im Wasser und ein Fuß an Land; der Meister verschmilzt Bewusstsein und Unbewusstes."
+    },
+    {
+      "id": 15,
+      "name": "Der Teufel",
+      "image": "15_devil",
+      "arcana": "major",
+      "number": "XV",
+      "suit": null,
+      "element": "Erde",
+      "history": "Inspiriert durch den Gott Pan und die Figur des Baphomet. Die beiden angeketteten Figuren können sich tatsächlich befreien, wenn sie es wollen - die Sucht ist freiwillig. Das Schattenselbst symbolisiert die Fallen der Leidenschaft und das Potenzial zur Befreiung."
+    },
+    {
+      "id": 16,
+      "name": "Der Turm",
+      "image": "16_tower",
+      "arcana": "major",
+      "number": "XVI",
+      "suit": null,
+      "element": "Feuer",
+      "history": "Entstanden aus der Legende vom Turmbau zu Babel. Ein Blitz zerstört das falsche Bauwerk, die Krone fällt. La Casa Dio\" in alten italienischen Decks - das Haus Gottes. Eine Karte der plötzlichen Zerstörung, des Zusammenbruchs des Egos, aber gefolgt von der Befreiung."
+    },
+    {
+      "id": 17,
+      "name": "Der Stern",
+      "image": "17_star",
+      "arcana": "major",
+      "number": "XVII",
+      "suit": null,
+      "element": "Luft",
+      "history": "Die Heilung, die auf den Turm folgt. Die nackte Frau gießt Leben in Wasser und Erde; der achtzackige Stern steht für Venus. Wie die Hoffnung auf dem Grund der Büchse der Pandora; Inspiration, Erneuerung und kosmische Führung."
+    },
+    {
+      "id": 18,
+      "name": "Der Mond",
+      "image": "18_moon",
+      "arcana": "major",
+      "number": "XVIII",
+      "suit": null,
+      "element": "Wasser",
+      "history": "Der dunkle Pfad, der zwischen den beiden Türmen verläuft, führt in die Tiefen des Unterbewusstseins. Der Hund und der Wolf symbolisieren die duale Natur, der Hummer symbolisiert die Ängste, die aus der Tiefe aufsteigen. Das Nachtgesicht der Hekate; die Karte der Illusion und der Intuition."
+    },
+    {
+      "id": 19,
+      "name": "Die Sonne",
+      "image": "19_sun",
+      "arcana": "major",
+      "number": "XIX",
+      "suit": null,
+      "element": "Feuer",
+      "history": "Die positivste Karte des Decks. Sonnenblumen und das nackte Kind symbolisieren reine Freude. Apollo und Ra tragen die Energie der Sonnengötter. Das tanzende Kind an der Wand symbolisiert Erleuchtung, Erfolg und Lebensfreude."
+    },
+    {
+      "id": 20,
+      "name": "Das Gericht",
+      "image": "20_judgement",
+      "arcana": "major",
+      "number": "XX",
+      "suit": null,
+      "element": "Feuer",
+      "history": "Sie stammt aus der christlichen Szene des Jüngsten Gerichts. Gabriel bläst seine Trompete, die Toten erheben sich aus ihren Särgen. Es ist die Karte der inneren Abrechnung, der Konfrontation mit der Vergangenheit und der Aufforderung zum geistigen Erwachen."
+    },
+    {
+      "id": 21,
+      "name": "Die Welt",
+      "image": "21_world",
+      "arcana": "major",
+      "number": "XXI",
+      "suit": null,
+      "element": "Erde",
+      "history": "Die letzte Karte der Großen Arkana - die Vollendung der Reise. Löwe, Adler, Stier und Engel in den vier Ecken; sie stehen für die vier Elemente. Tanzende Figur im Lorbeerkranz; Integration und kosmische Einheit."
+    },
+    {
+      "id": 22,
+      "name": "As der Stäbe",
+      "image": "22_ace_wands",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Die Hand, die sich aus den Wolken streckt, bietet eine neue Fackel - den göttlichen Funken. Das Stabpaar ist mit dem Element Feuer verbunden; es steht für Leidenschaft, Unternehmungsgeist und kreative Energie. Der Beginn des reinen Potenzials, wie jedes Ass."
+    },
+    {
+      "id": 23,
+      "name": "Zwei Stäbe",
+      "image": "23_two_wands",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Die Figur, die von der Spitze der Burg auf die Welt blickt, hält einen Globus in der Hand. Sie spiegelt den Entdeckergeist von Alexander dem Großen wider. Zwei Stäbe bedeuten zwei Wege und symbolisieren Planung, Vision und die Entscheidung, die Komfortzone zu verlassen."
+    },
+    {
+      "id": 24,
+      "name": "Drei Stäbe",
+      "image": "24_three_wands",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Vom Hügel aus überblickt der Kaufmann das Meer und wartet auf die Rückkehr seiner Schiffe. Der erste Schritt ist getan, die Ergebnisse sind am Horizont zu sehen. Es trägt die Ästhetik von Handelsrouten und Renaissance-Expeditionen; eine Karte der Expansion und des Fortschritts."
+    },
+    {
+      "id": 25,
+      "name": "Vier Stäbe",
+      "image": "25_four_wands",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Das zeremonielle Tor, das mit vier Stäben verziert ist, wurde von alten Hochzeits- und Erntefesten inspiriert. Blumenkränze und tanzende Figuren stehen für Fest, Nestbau und Gemeinschaftsfreude."
+    },
+    {
+      "id": 26,
+      "name": "Fünf Stäbe",
+      "image": "26_five_wands",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Fünf junge Leute kämpfen mit Stöcken, aber es ist keine ernsthafte Schlacht - sie stammt aus der mittelalterlichen Turniertradition. Wettbewerb, Aufeinanderprallen von Ideen und kreative Spannung sind die Karten der Reibung, die für Wachstum notwendig ist."
+    },
+    {
+      "id": 27,
+      "name": "Sechs der Stäbe",
+      "image": "27_six_wands",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Die Reiterfigur zieht mit einem Lorbeerkranz durch die Menge - die römische Tradition eines Triumphzuges. Der Held kehrt nach Hause zurück; es ist die Karte der öffentlichen Feier von Anerkennung, Führung und Leistung."
+    },
+    {
+      "id": 28,
+      "name": "Sieben der Stäbe",
+      "image": "28_seven_wands",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Die Figur steht allein auf der Spitze des Hügels und verteidigt sich gegen sechs Stöcke. In Anlehnung an die Thermopylen und die Verteidigung der letzten Festung. Ein Schuh anders - hastig vorbereitet; Karte der Ausdauer und Verteidigung der Position."
+    },
+    {
+      "id": 29,
+      "name": "Acht der Stäbe",
+      "image": "29_eight_wands",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Die schnellste Karte im Deck; acht Stäbe fliegen durch die Luft, ohne den Boden zu berühren. Keine menschliche Figur - reine Energie der Bewegung. Die Botschaften sind wie Pfeile ausgerichtet; ein Symbol für Geschwindigkeit, Beschleunigung und plötzliche Entwicklungen."
+    },
+    {
+      "id": 30,
+      "name": "Neun der Stäbe",
+      "image": "30_nine_wands",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Der verwundete Krieger stützt sich auf seine letzte Krücke, hinter ihm reihen sich acht Krücken wie Barrikaden auf. Die letzte Schwelle des Kampfes, erschöpft, aber nicht aufgebend. Ausdauer, die Wachsamkeit, die mit der Erfahrung und der Karte des letzten Kampfes einhergeht."
+    },
+    {
+      "id": 31,
+      "name": "Zehn der Stäbe",
+      "image": "31_ten_wands",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Die Figur, die die zehn Stöcke auf dem Rücken trägt, ist gebeugt - die Last des Erfolgs. Spuren des Mythos von Atlas, der die Welt trägt. Übermäßige Verantwortung, Burnout; Karte der Notwendigkeit von Delegation und Lastenteilung."
+    },
+    {
+      "id": 32,
+      "name": "Prinz der Stäbe",
+      "image": "32_page_wands",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Mittelalterliches Hofsystem; der Prinz ist der junge Bote, der die Nachricht überbringt. Er schaut neugierig auf seinen Zauberstab, die Salamanderfigur symbolisiert die Leidenschaft. Der Bote neuer Ideen, die Karte des enthusiastischen Aufbruchs und des Entdeckergeistes."
+    },
+    {
+      "id": 33,
+      "name": "Ritter der Stäbe",
+      "image": "33_knight_wands",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Der Ritter, der auf einem tänzelnden Pferd vorwärts stürmt, verkörpert den Geist der Kreuzzüge. Die drei Pyramiden zeigen das Wüstenabenteuer. Der schnellste und impulsivste der vier Ritter: Mut, aber manchmal auch Unbesonnenheit."
+    },
+    {
+      "id": 34,
+      "name": "Königin der Stäbe",
+      "image": "34_queen_wands",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Er sitzt auf seinem Thron mit Sonnenblumen und einer schwarzen Katze. Sie trägt die Energie des Löwen. Inspiriert von mittelalterlichen Herrscherinnen; der Archetyp des Charismas, des Selbstbewusstseins und der Führungsstärke, die ihre Umgebung erwärmt."
+    },
+    {
+      "id": 35,
+      "name": "König der Stäbe",
+      "image": "35_king_wands",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Stäbe",
+      "element": "Feuer",
+      "history": "Der König sitzt auf seinem Thron, ist aber zum Handeln bereit; das Salamanderrelief symbolisiert den Widerstand gegen das Feuer. Der Archetyp des visionären Führers ist eine inspirierende, risikofreudige, aber ungeduldige Führungspersönlichkeit."
+    },
+    {
+      "id": 36,
+      "name": "Ass der Kelche",
+      "image": "36_ace_cups",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Die Hand, die sich aus der Wolke streckt, bietet den heiligen Kelch an - ein Echo auf die Legende vom Heiligen Gral. Die fünf Wasserströme stehen für die fünf Sinne und die Taube für den Heiligen Geist. Emotionale Erneuerung und der reine Beginn der Liebe."
+    },
+    {
+      "id": 37,
+      "name": "Zwei Kelche",
+      "image": "37_two_cups",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Zwei Menschen stoßen an; zwischen ihnen zeigt der geflügelte Löwenkopf die alchemistische Kombination. Der Stab des Hermes erhebt sich. Inspiriert von antiken Verlobungsritualen; eine Karte der gegenseitigen Bindung, Partnerschaft und des emotionalen Gleichgewichts."
+    },
+    {
+      "id": 38,
+      "name": "Drei Kelche",
+      "image": "38_three_cups",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Drei Frauen tanzen und stoßen an - inspiriert von den altgriechischen Kharites (Drei Grazien). Im Geiste von Erntefesten und dionysischen Feiern; eine Karte der Freundschaft, des Feierns und der Freude an der Gemeinschaft."
+    },
+    {
+      "id": 39,
+      "name": "Vier Kelche",
+      "image": "39_four_cups",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Die unter dem Baum sitzende Figur ignoriert die drei Kelche und bemerkt nicht den vierten, der aus der Wolke herausragt. Sie erinnert an die Meditation des Buddha unter dem Baum; eine Karte der Langeweile, des Rückzugs und der verpassten Gelegenheiten."
+    },
+    {
+      "id": 40,
+      "name": "Fünf der Kelche",
+      "image": "40_five_cups",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Die schwarz gekleidete Gestalt blickt auf die drei umgestürzten Tassen, ohne die beiden hinter ihr stehenden Personen zu sehen. Die Brücke in der Ferne symbolisiert den Weg der Hoffnung. Eine Karte des Verlusts und der Trauer, aber das, was zurückbleibt, ist immer noch wertvoll."
+    },
+    {
+      "id": 41,
+      "name": "Sechs Kelche",
+      "image": "41_six_cups",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Kleiner Junge überreicht einem älteren Mann einen Becher mit Blumen - mittelalterliche Gartenszene. Unschuld und Nostalgie, Kindheitserinnerungen, Geschenke aus der Vergangenheit. Wie Prousts Madeleine-Kuchen; eine Karte der Erinnerung und Reinheit."
+    },
+    {
+      "id": 42,
+      "name": "Sieben der Kelche",
+      "image": "42_seven_cups",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Sieben Kelche in den Wolken; in jedem eine andere Vision - Schlange, Schloss, Juwel, Girlande, Drache, Gesicht, Licht. Wie die Büchse der Pandora, verlockend, aber trügerisch. Eine Karte der Phantasie, Illusion und Verwirrung der Wahl."
+    },
+    {
+      "id": 43,
+      "name": "Acht der Kelche",
+      "image": "43_eight_cups",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Die Figur geht nachts im Mondlicht den Berg hinauf und lässt die acht Kelche zurück. Erinnert an Siddhartha beim Verlassen des Palastes. Die Unzulänglichkeit der materiellen Erfüllung; die Suche nach einem tieferen Sinn und die Karte des bewussten Verzichts."
+    },
+    {
+      "id": 44,
+      "name": "Neun der Kelche",
+      "image": "44_nine_cups",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Auch bekannt als \"Wunschkarte\". Zufriedene Figur mit verschränkten Armen, hinter der neun Becher in einem Halbkreis angeordnet sind. Stammt aus der mittelalterlichen Tradition des Festmahls; emotionale Zufriedenheit, Dankbarkeit und Wunscherfüllung."
+    },
+    {
+      "id": 45,
+      "name": "Zehn der Kelche",
+      "image": "45_ten_cups",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Zehn Tassen im Regenbogen, unter denen die glückliche Familie tanzt. Inspiriert durch den Mythos vom Garten Eden und Arkadien. Emotionale Vollständigkeit; Tarot-Äquivalent der Familie Glück, Harmonie und das Märchen von \"glücklich bis ans Lebensende\"."
+    },
+    {
+      "id": 46,
+      "name": "Bube der Kelche",
+      "image": "46_page_cups",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Ein Fisch taucht unerwartet aus seinem Becher auf - das Symbol für eine überraschende Botschaft. Mittelalterlicher Hofjunge; Phantasie frisch und intuitiv. Junger Dichter-Archetyp; emotionale Botschaften, kreativer Funke und romantischer Beginn."
+    },
+    {
+      "id": 47,
+      "name": "Ritter der Kelche",
+      "image": "47_knight_cups",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Der Ritter, der langsam auf einem weißen Pferd reitet, trägt den Kelch mit Sorgfalt. Inspiriert von König Artus' Suche nach dem Heiligen Gral. Der romantischste der vier Ritter; die ideale Liebe, der Heiratsantrag und der emotionale Aufruf."
+    },
+    {
+      "id": 48,
+      "name": "Königin der Kelche",
+      "image": "48_queen_cups",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Die Königin begutachtet den geschlossenen Becher am Rande des Wassers; niemand kann in den Becher hineinsehen. Der Muschelthron zeigt eine Verbindung mit dem Meer. Spuren von Morgan le Fay von Avalon, dem Archetyp für Intuition, Einfühlungsvermögen und emotionale Tiefe."
+    },
+    {
+      "id": 49,
+      "name": "König der Kelche",
+      "image": "49_king_cups",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Kelche",
+      "element": "Wasser",
+      "history": "Er sitzt auf seinem Thron im rauen Meer, wird aber nicht nass - der Herr der Gefühle. Der Fisch-Anhänger um seinen Hals zeigt die Dominanz des Unbewussten. Inspiriert von Poseidon; die Karte der emotionalen Reife und ruhigen Führung."
+    },
+    {
+      "id": 50,
+      "name": "Ass der Schwerter",
+      "image": "50_ace_swords",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Die Hand, die sich aus der Wolke streckt, hält ein zweischneidiges Schwert, an der Spitze eine Krone und einen Olivenzweig. Ein Echo auf die Legende von Excalibur; die Wahrheit ist zweischneidig. Die Karte der geistigen Klarheit, neuer Ideen und des reinen Anfangs der Gerechtigkeit."
+    },
+    {
+      "id": 51,
+      "name": "Duo der Schwerter",
+      "image": "51_two_swords",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Die Frau mit den verbundenen Augen hält zwei gekreuzte Schwerter, hinter ihr das wogende Meer. Es ist wie der dunkle Zwilling der Gerechtigkeit, ein Zustand des Nicht-Sehen-Wollens. Die Unfähigkeit, sich zu entscheiden, ist die Karte der Pattsituation und des vorübergehenden Friedens."
+    },
+    {
+      "id": 52,
+      "name": "Trio der Schwerter",
+      "image": "52_three_swords",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Das von drei Schwertern durchbohrte Herz im regnerischen Himmel - das ikonischste Bild des Tarot. Es stammt aus der mittelalterlichen Symbolik des heiligen Herzens. Der Schmerz, der durch das Herz geht; Verrat, Herzschmerz, aber auch emotionale Reinigung."
+    },
+    {
+      "id": 53,
+      "name": "Vier der Schwerter",
+      "image": "53_four_swords",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Statue des Ritters, der in der Kirche liegt, drei Schwerter unter einem von ihnen an der Wand. Sie stammt aus der mittelalterlichen Grabsteintradition. Nicht der Tod, sondern der strategische Rückzug; die Karte der geistigen Ruhe, der Heilung und der Meditation."
+    },
+    {
+      "id": 54,
+      "name": "Fünf Schwerter",
+      "image": "54_five_swords",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Die grinsende Gestalt sammelt fünf Schwerter ein, zwei Männer gehen besiegt von dannen. Der Sieg des Pyrrhus - gewinnen, aber einen hohen Preis zahlen. Eine Karte über Manipulation, unfaires Spiel und den bitteren Geschmack des leeren Sieges."
+    },
+    {
+      "id": 55,
+      "name": "Sechs der Schwerter",
+      "image": "55_six_swords",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Bootsmann trägt Frau und Kind aus dem rauen Wasser in ruhiges Wasser; sechs Schwerter stecken im Boot. Erinnert an Kharon, der den Fluss Styx überquert. Überquerung, eine Reise der Heilung; eine Karte des Übergangs von einer schwierigen Zeit zu einem besseren Ort."
+    },
+    {
+      "id": 56,
+      "name": "Sieben der Schwerter",
+      "image": "56_seven_swords",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Die Figur stiehlt fünf Schwerter aus dem feindlichen Lager und lässt zwei zurück. Es ähnelt einer Strategie des trojanischen Pferdes; nicht jeder Plan ist perfekt. Gerissenheit ist die Karte der versteckten Absichten und der unvollendeten Rechnungen."
+    },
+    {
+      "id": 57,
+      "name": "Acht der Schwerter",
+      "image": "57_eight_swords",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Die gefesselte und mit verbundenen Augen ausgestattete Frau ist von acht Schwertern umgeben, aber ihre Füße sind frei im Sumpf - sie kann gehen, wenn sie will. Geistiges Gefängnis; eine Karte der selbst geschaffenen Einschränkungen, der Angst und der Illusion der Hilflosigkeit."
+    },
+    {
+      "id": 58,
+      "name": "Neun der Schwerter",
+      "image": "58_nine_swords",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Figur im Bett um Mitternacht mit Händen, die das Gesicht bedecken, neun Schwerter an der Wand. Bekannt als die \"Alptraumkarte\". Die Rosen- und Astrologiemuster der Steppdecke verbergen die Hoffnung; die Karte der Angst, der Schlaflosigkeit und der seelischen Qualen."
+    },
+    {
+      "id": 59,
+      "name": "Zehn der Schwerter",
+      "image": "59_ten_swords",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Zehn Schwerter auf dem Rücken der liegenden Figur - ein übertriebenes Ende. Es erinnert daran, wie Caesar im Senat erstochen wird. Aber die Sonne geht am Horizont auf, die Karte des absoluten Endes, des Tiefpunkts und der darauf folgenden Wiedergeburt."
+    },
+    {
+      "id": 60,
+      "name": "Prinz der Schwerter",
+      "image": "60_page_swords",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Der Jüngling hebt sein Schwert auf dem windigen Hügel hoch in die Luft und zieht schnell durch die Wolken. Er hat die Energie eines mittelalterlichen Hofspions. Neugierige, aber unvorsichtige Intelligenz; neue Ideen, scharfe Beobachtung und manchmal klatschsüchtige Berichte."
+    },
+    {
+      "id": 61,
+      "name": "Ritter der Schwerter",
+      "image": "61_knight_swords",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Ein Ritter auf einem galoppierenden Pferd, der sein Schwert schwingt; stürmischer Himmel. Erinnert an den Angriff von Don Quijote auf die Windmühlen. Der aggressivste der vier Ritter; Schnelligkeit, Entschlossenheit, aber auch das Risiko, unüberlegt zu handeln."
+    },
+    {
+      "id": 62,
+      "name": "Königin der Schwerter",
+      "image": "62_queen_swords",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Die Königin, die auf ihrem Thron über den Wolken sitzt, streckt ihre linke Hand aus - ein Zeichen für Verlust oder Einsamkeit. Ihr Schwert hält sie aufrecht. Sie trägt die Weisheit der Athene in sich: Intelligenz, Unabhängigkeit und emotionale Klarheit, geschärft durch bittere Erfahrung."
+    },
+    {
+      "id": 63,
+      "name": "König der Schwerter",
+      "image": "63_king_swords",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Schwerter",
+      "element": "Luft",
+      "history": "Sein Thron ist nah an den Wolken, sein Schwert leicht geneigt - absolute Neutralität ist unmöglich. Inspiriert von der Gerechtigkeit König Salomons. Logik, Autorität und intellektuelle Stärke; die Fähigkeit, frei von Emotionen zu urteilen."
+    },
+    {
+      "id": 64,
+      "name": "As der Münzen",
+      "image": "64_ace_pentacles",
+      "arcana": "minor",
+      "number": "As",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Eine Hand, die aus einer Wolke herausragt und eine goldene Pentagrammscheibe hält; darunter ein blühendes Gartentor. Die \"prima materia\" der Alchemisten - die Umwandlung von Rohmaterial in Gold. Die Karte der finanziellen Möglichkeiten, des neuen Einkommens und eines konkreten Anfangs."
+    },
+    {
+      "id": 65,
+      "name": "Zwei Münzen",
+      "image": "65_two_pentacles",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Junger Mann dreht zwei Pentagramme in Form einer Unendlichkeit um, im Hintergrund Schiffe auf dem kabbeligen Meer. Inspiriert von einem mittelalterlichen Gaukler. Die Kunst des Gleichgewichts; Haushaltsführung, Multitasking und Anpassung an den Wandel Karte."
+    },
+    {
+      "id": 66,
+      "name": "Drei Münzen",
+      "image": "66_three_pentacles",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Beim Kathedralenbau arbeiten der Steinmetzmeister, der Priester und der Architekt zusammen. Sie stammt aus dem mittelalterlichen Zunftwesen und den Kathedralenbauern. Die Karte der Handwerkskunst, der Teamarbeit und der Anerkennung von Qualitätsarbeit."
+    },
+    {
+      "id": 67,
+      "name": "Vier Münzen",
+      "image": "67_four_pentacles",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Die Figur, die vor der Stadt sitzt, hält die vier Pentagramme fest umklammert: am Kopf, an den Füßen und an den Armen. Der Archetyp des geizigen Kaufmanns; die Karte des Festhaltens durch Besessenheit von Sicherheit, Kontrollbedürfnis und Angst vor Verlust."
+    },
+    {
+      "id": 68,
+      "name": "Fünf Münzen",
+      "image": "68_five_pentacles",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Zwei arme Gestalten - eine davon auf Krücken - gehen in einem Schneesturm an einem Kirchenfenster vorbei. Auf dem Glasfenster sind fünf Pentagramme zu sehen, aber sie treten nicht ein. Finanzielle Not, Ausgrenzung, aber die Hilfe steht vor der Tür, man muss sie nur sehen."
+    },
+    {
+      "id": 69,
+      "name": "Sechs Münzen",
+      "image": "69_six_pentacles",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Der Kaufmann hält mit einer Hand die Waage und verteilt mit der anderen Hand Gold an die Bettler. Es stammt aus der mittelalterlichen Tradition der Wohltätigkeit. Großzügigkeit, gegenseitiger Austausch, ist die Karte des Machtgleichgewichts zwischen Geber und Empfänger."
+    },
+    {
+      "id": 70,
+      "name": "Sieben Münzen",
+      "image": "70_seven_pentacles",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Der Bauer stützt sich auf seine Hacke und betrachtet seine siebenfrüchtige Pflanze. Die Arbeit ist getan, aber die Erntezeit ist noch nicht gekommen. Geduld ist die Karte der Bewertung der Investition und der Frage \"bin ich auf dem richtigen Weg\"."
+    },
+    {
+      "id": 71,
+      "name": "Acht Münzen",
+      "image": "71_eight_pentacles",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Ein Handwerker mit einem Pentagramm auf seiner Werkbank, sechs davon hängen an der Wand, er arbeitet am siebten. Mittelalterliches Lehrlingssystem; der Weg zur Meisterschaft durch Wiederholung und Disziplin. Lernen, Entwicklung von Fähigkeiten und mühsame Arbeit."
+    },
+    {
+      "id": 72,
+      "name": "Neun Münzen",
+      "image": "72_nine_pentacles",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Im Weinberg hält eine elegante Frau einen Falken in ihrer behandschuhten Hand. Ein paradiesischer Garten, den sie durch ihre eigene Arbeit geschaffen hat. Inspiriert von der adligen Frau der Renaissance, einem Aushängeschild für materielle Unabhängigkeit, Luxus und Selbstgenügsamkeit."
+    },
+    {
+      "id": 73,
+      "name": "Zehn Münzen",
+      "image": "73_ten_pentacles",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Drei Generationen zusammen: Ältester, erwachsenes Paar und Kind; Hunde zu ihren Füßen. Zehn Pentagramme in der Reihenfolge des Lebensbaums. Feudales Familienerbe; Karte des generationsübergreifenden Reichtums, des Familienerbes und der dauerhaften Sicherheit."
+    },
+    {
+      "id": 74,
+      "name": "Bube der Münzen",
+      "image": "74_page_pentacles",
+      "arcana": "minor",
+      "number": "Prens",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Der Archetyp der Jugend - der Student, der auf der grünen Wiese das Pentagramm studiert. Der geduldigste und methodischste der vier Prinzen. Die Karte des Lernens neuer Fähigkeiten, Nachrichten von Stipendien und der erste Schritt zu konkreten Zielen."
+    },
+    {
+      "id": 75,
+      "name": "Ritter der Münzen",
+      "image": "75_knight_pentacles",
+      "arcana": "minor",
+      "number": "Şövalye",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Ritter auf einem stehenden schwarzen Pferd, der sein Pentagramm hält; Feld und Hof im Hintergrund. Der langsamste der vier Ritter, aber der zuverlässigste. Beharrlichkeit, Routine und schrittweises Vorankommen; nicht brillant, aber sichere Ergebnisse."
+    },
+    {
+      "id": 76,
+      "name": "Königin der Münzen",
+      "image": "76_queen_pentacles",
+      "arcana": "minor",
+      "number": "Kraliçe",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Die Königin sitzt auf ihrem Thron im blühenden Garten, das Pentagramm auf ihrem Schoß, das Kaninchen an ihrer Seite - Symbol der Fruchtbarkeit. Die Verkörperung von Mutter Erde; der Archetyp der praktischen Intelligenz, der Haushaltsführung und der nährenden Energie des Überflusses."
+    },
+    {
+      "id": 77,
+      "name": "König der Münzen",
+      "image": "77_king_pentacles",
+      "arcana": "minor",
+      "number": "Kral",
+      "suit": "Münzen",
+      "element": "Erde",
+      "history": "Der König sitzt auf seinem Thron mit Weinreben und Stier; er sieht sein Schloss und seine Weinberge. Die positive Seite der Midas-Legende. Der reichste und stabilste der vier Könige; finanzielle Herrschaft und materielle Sicherheit."
+    }
+  ]
+}

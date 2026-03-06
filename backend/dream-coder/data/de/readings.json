@@ -1,0 +1,59 @@
+{
+  "_comment": "Dream Coder readings — de",
+  "readings": [
+    {
+      "id": "84e4903e-ff2c-452a-9a3e-9a1940107e8d",
+      "requestId": "1770798313974_h76d45",
+      "userId": "dev_1770716982010_ns74ratd",
+      "language": "de",
+      "mode": "B",
+      "dreamText": "Rüyamda koşuyordum bir anda düştüm ve yuvarlanarak denize gittim",
+      "feelingTag": null,
+      "lifeContextTag": null,
+      "wasFree": false,
+      "gemstoneCost": 22,
+      "resultJson": {
+        "overall": "Ein Gefühl des Kontrollverlusts kann dich innerlich verfolgen. Der Traum zeigt ein abruptes Ende deiner Bemühungen, was auf einen plötzlichen Umbruch oder Unsicherheit hindeuten könnte. Hinterfrage, ob du dich in bestimmten Lebensbereichen überfordert fühlst.",
+        "beats": [
+          "Laufen symbolisiert Bemühungen um Fortschritt und Erfolg. Aber plötzliches Fallen deutet auf unvorhergesehene Hindernisse hin.",
+          "Das Rollen verstärkt das Gefühl des Kontrollverlusts. Es zeigt, wie du in einer Situation mitgerissen wirst.",
+          "Der Ozean steht oft für das Unbewusste und Emotionen. Der Sturz ins Wasser kann auf überwältigende Gefühle hinweisen.",
+          "Das plötzliche Eintauchen in den Ozean könnte auf eine konfrontative Auseinandersetzung mit deinen Emotionen hinweisen."
+        ],
+        "pattern": "Der Auslöser könnte eine plötzliche, unerwartete Herausforderung oder Veränderung in deinem Leben sein. Deine automatische Reaktion ist der Versuch, zu fliehen oder dich zu schützen, was jedoch oft dazu führt, dass du die Kontrolle verlierst. Kurzfristig entkommst du der Situation, aber langfristig vermeidest du die Auseinandersetzung mit den dahinterliegenden Emotionen und Problemen, was zu einem Kreislauf von Verdrängung und wiederholtem Kontrollverlust führt.",
+        "nextStep": "Diese Woche notiere dir täglich Momente, in denen du dich überfordert fühlst, und wie du darauf reagierst.",
+        "keywords": [
+          "Kontrollverlust",
+          "Überforderung",
+          "Emotionen"
+        ],
+        "journal": "Was bringt dich dazu, die Kontrolle zu verlieren?",
+        "upsellSymbol": {
+          "symbol": "Küste",
+          "insight": "Die Küste symbolisiert den Übergang zwischen Bewusstsein und Unterbewusstsein. Vielleicht stehst du an einem Punkt in deinem Leben, an dem du mehr über deine inneren Gefühle erfahren möchtest."
+        }
+      },
+      "upsellCandidates": [
+        {
+          "symbol": "Küste",
+          "hint": "Die Grenze zwischen Land und Wasser.",
+          "insight": "Die Küste symbolisiert den Übergang zwischen Bewusstsein und Unterbewusstsein. Vielleicht stehst du an einem Punkt in deinem Leben, an dem du mehr über deine inneren Gefühle erfahren möchtest."
+        },
+        {
+          "symbol": "Sturz",
+          "hint": "Der Moment des Verlusts der Bodenhaftung.",
+          "insight": "Der Sturz zeigt eine plötzliche Veränderung oder einen Schock. Du könntest mit einer Situation konfrontiert sein, die schneller als erwartet auf dich zukommt und dich aus dem Gleichgewicht bringt."
+        },
+        {
+          "symbol": "Wellen",
+          "hint": "Die Bewegung des Wassers im Ozean.",
+          "insight": "Wellen symbolisieren die ständige Veränderung und Bewegung in deinem emotionalen Zustand. Es könnte sein, dass du dich von den Schwankungen deiner Gefühle überwältigt fühlst und nach einer Möglichkeit suchst, auf diesen Wellen zu reiten."
+        }
+      ],
+      "upsellUnlocked": true,
+      "upsellSymbol": "Küste",
+      "upsellCost": 3,
+      "createdAt": "2026-02-11T08:25:25.526Z"
+    }
+  ]
+}
