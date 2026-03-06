@@ -1840,9 +1840,20 @@ app.get("/api/cards/:language", (req, res) => {
     const data = JSON.parse(fs.readFileSync(templatePath, "utf8"));
     const historyMap = getCardsHistoryMap();
 
+    // Normalize suit to English keys regardless of template language
+    const SUIT_NORMALIZE: Record<string, string> = {
+      "değnek": "wands", "degnek": "wands", "asa": "wands",
+      "kupa": "cups", "kopa": "cups",
+      "kılıç": "swords", "kilic": "swords", "espada": "swords",
+      "tılsım": "pentacles", "tilsim": "pentacles", "pentaculos": "pentacles",
+      "wands": "wands", "cups": "cups", "swords": "swords", "pentacles": "pentacles",
+      "stäbe": "wands", "stabe": "wands", "kelche": "cups", "schwerter": "swords", "münzen": "pentacles", "munzen": "pentacles",
+    };
+
     // Merge history field from cards_history.json into each card
     const cards = data.cards.map(card => ({
       ...card,
+      suit: card.suit ? (SUIT_NORMALIZE[card.suit.toLowerCase()] || card.suit) : null,
       history: historyMap[card.image]?.history || null,
     }));
 

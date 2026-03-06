@@ -322,6 +322,11 @@ export default function WelcomeScreen() {
     }
   }, [language]);
 
+  // Auto-load Tarot Masası cards on mount
+  useEffect(() => {
+    fetchTarotMasaCards();
+  }, []);
+
   const handleLanguageSelect = (lang: Language) => {
     setLanguage(lang);
     i18n.changeLanguage(lang);
@@ -605,6 +610,7 @@ export default function WelcomeScreen() {
               >
                 <Text style={styles.tarotGateBtnTitle}>{t("tarotFreeTitle") || "Ücretsiz"}</Text>
                 <Text style={styles.tarotGateBtnSub}>{t("tarotFreeSubtitle") || "Anında okuma"}</Text>
+                <Text style={styles.tarotGateBtnCount}>8 açılım</Text>
               </TouchableOpacity>
               <View style={styles.tarotGateDivider} />
               <TouchableOpacity
@@ -614,6 +620,7 @@ export default function WelcomeScreen() {
               >
                 <Text style={[styles.tarotGateBtnTitle, { color: "#c084fc" }]}>{t("tarotPremiumTitle") || "Sana Özel"}</Text>
                 <Text style={[styles.tarotGateBtnSub, { color: "rgba(192,132,252,0.7)" }]}>{t("tarotPremiumSubtitle") || "Sana özel yorum"}</Text>
+                <Text style={[styles.tarotGateBtnCount, { color: "rgba(192,132,252,0.6)" }]}>16 açılım</Text>
               </TouchableOpacity>
             </View>
           )}
@@ -795,32 +802,41 @@ export default function WelcomeScreen() {
 
         {/* ═══ TAROT MASASI ═══ */}
         <View style={styles.masaSection}>
-          <TouchableOpacity
-            style={styles.masaHeader}
-            onPress={fetchTarotMasaCards}
-            activeOpacity={0.8}
-          >
+          <View style={styles.masaHeader}>
             <Text style={styles.masaTitle}>✨ Tarot Masası</Text>
-            <Text style={styles.masaSubtitle}>
-              {tarotMasaCards.length > 0 ? `${tarotMasaCards.length} kart` : "Keşfet"}
-            </Text>
-          </TouchableOpacity>
+            {tarotMasaCards.length > 0 && (
+              <Text style={styles.masaSubtitle}>{tarotMasaCards.length} kart</Text>
+            )}
+          </View>
 
           {tarotMasaLoading && (
             <ActivityIndicator color="#a855f7" size="small" style={{ marginVertical: 20 }} />
           )}
 
           {tarotMasaCards.length > 0 && (() => {
+            // Frontend suit normalization (fallback if backend hasn't restarted)
+            const SUIT_NORM: Record<string, string> = {
+              değnek: "wands", degnek: "wands", asa: "wands",
+              kupa: "cups", kopa: "cups",
+              kılıç: "swords", kilic: "swords",
+              tılsım: "pentacles", tilsim: "pentacles",
+              wands: "wands", cups: "cups", swords: "swords", pentacles: "pentacles",
+            };
+            const normCards = tarotMasaCards.map(c => ({
+              ...c,
+              suit: c.suit ? (SUIT_NORM[c.suit.toLowerCase()] || c.suit) : null,
+            }));
+
             const SUIT_LABELS: Record<string, string> = {
               wands: "🔥 Değnekler", cups: "💧 Kupalar",
-              swords: "💨 Kılıçlar", pentacles: "🌍 Pentaklar",
+              swords: "⚡ Kılıçlar", pentacles: "🌿 Pentaklar",
             };
             const groups = [
-              { key: "major", label: "⭐ Büyük Arkana", cards: tarotMasaCards.filter(c => c.arcana === "major") },
-              { key: "wands", label: SUIT_LABELS.wands, cards: tarotMasaCards.filter(c => c.suit === "wands") },
-              { key: "cups", label: SUIT_LABELS.cups, cards: tarotMasaCards.filter(c => c.suit === "cups") },
-              { key: "swords", label: SUIT_LABELS.swords, cards: tarotMasaCards.filter(c => c.suit === "swords") },
-              { key: "pentacles", label: SUIT_LABELS.pentacles, cards: tarotMasaCards.filter(c => c.suit === "pentacles") },
+              { key: "major", label: "✦ Büyük Arkana", cards: normCards.filter(c => c.arcana === "major") },
+              { key: "wands", label: SUIT_LABELS.wands, cards: normCards.filter(c => c.suit === "wands") },
+              { key: "cups", label: SUIT_LABELS.cups, cards: normCards.filter(c => c.suit === "cups") },
+              { key: "swords", label: SUIT_LABELS.swords, cards: normCards.filter(c => c.suit === "swords") },
+              { key: "pentacles", label: SUIT_LABELS.pentacles, cards: normCards.filter(c => c.suit === "pentacles") },
             ];
             return groups.map(group => (
               <View key={group.key} style={{ marginBottom: 20 }}>
@@ -831,20 +847,37 @@ export default function WelcomeScreen() {
                   showsHorizontalScrollIndicator={false}
                   keyExtractor={c => String(c.id)}
                   contentContainerStyle={{ paddingHorizontal: 4, gap: 10 }}
-                  renderItem={({ item: card }) => (
-                    <TouchableOpacity
-                      style={styles.masaCardItem}
-                      activeOpacity={0.8}
-                      onPress={() => { setSelectedCard(card); setCardDetailTab("general"); setCardDetailOrientation("upright"); fetchCardReadings(card.image); }}
-                    >
-                      <Image
-                        source={{ uri: `${API_BASE.replace("/api", "")}/cards/${card.image}.jpg` }}
-                        style={styles.masaCardImage}
-                        resizeMode="cover"
-                      />
-                      <Text style={styles.masaCardName} numberOfLines={2}>{card.name}</Text>
-                    </TouchableOpacity>
-                  )}
+                  renderItem={({ item: card }) => {
+                    const SUIT_COLORS: Record<string, string[]> = {
+                      wands:     ["rgba(251,146,60,0.6)",  "rgba(180,60,0,0.9)"],
+                      cups:      ["rgba(56,189,248,0.6)",  "rgba(0,80,160,0.9)"],
+                      swords:    ["rgba(148,163,184,0.6)", "rgba(30,50,80,0.9)"],
+                      pentacles: ["rgba(74,222,128,0.6)",  "rgba(0,80,30,0.9)"],
+                    };
+                    const cardColors = card.suit
+                      ? SUIT_COLORS[card.suit] || ["rgba(168,85,247,0.6)", "rgba(40,10,60,0.9)"]
+                      : ["rgba(168,85,247,0.6)", "rgba(40,10,60,0.9)"];
+                    const SUIT_EMOJI: Record<string, string> = { wands: "🔥", cups: "💧", swords: "⚡", pentacles: "🌿" };
+                    const cardEmoji = card.suit ? SUIT_EMOJI[card.suit] || "✦" : "✦";
+                    return (
+                      <TouchableOpacity
+                        style={styles.masaCardItem}
+                        activeOpacity={0.8}
+                        onPress={() => { setSelectedCard(card); setCardDetailTab("general"); setCardDetailOrientation("upright"); fetchCardReadings(card.image); }}
+                      >
+                        <LinearGradient
+                          colors={cardColors as [string, string]}
+                          style={styles.masaCardTile}
+                          start={{ x: 0, y: 0 }}
+                          end={{ x: 1, y: 1 }}
+                        >
+                          <Text style={styles.masaCardEmoji}>{cardEmoji}</Text>
+                          {card.number ? <Text style={styles.masaCardNumber}>{card.number}</Text> : null}
+                        </LinearGradient>
+                        <Text style={styles.masaCardName} numberOfLines={2}>{card.name}</Text>
+                      </TouchableOpacity>
+                    );
+                  }}
                 />
               </View>
             ));
@@ -872,26 +905,37 @@ export default function WelcomeScreen() {
                 </TouchableOpacity>
 
                 <ScrollView showsVerticalScrollIndicator={false}>
-                  {/* Card image + name */}
-                  <View style={styles.cardModalHero}>
-                    <Image
-                      source={{ uri: `${API_BASE.replace("/api", "")}/cards/${selectedCard.image}.jpg` }}
-                      style={styles.cardModalImage}
-                      resizeMode="cover"
-                    />
-                    <View style={styles.cardModalMeta}>
-                      <Text style={styles.cardModalName}>{selectedCard.name}</Text>
-                      <Text style={styles.cardModalBadge}>
-                        {selectedCard.arcana === "major" ? "Büyük Arkana" : `${selectedCard.suit ? selectedCard.suit.charAt(0).toUpperCase() + selectedCard.suit.slice(1) : ""}`}
-                        {selectedCard.number ? `  ${selectedCard.number}` : ""}
-                      </Text>
-                      {selectedCard.element && (
-                        <Text style={styles.cardModalElement}>{selectedCard.element}</Text>
-                      )}
-                    </View>
-                  </View>
+                  {/* Card tile + name */}
+                  {(() => {
+                    const SUIT_COLORS: Record<string, string[]> = {
+                      wands:     ["rgba(251,146,60,0.6)",  "rgba(180,60,0,0.9)"],
+                      cups:      ["rgba(56,189,248,0.6)",  "rgba(0,80,160,0.9)"],
+                      swords:    ["rgba(148,163,184,0.6)", "rgba(30,50,80,0.9)"],
+                      pentacles: ["rgba(74,222,128,0.6)",  "rgba(0,80,30,0.9)"],
+                    };
+                    const SUIT_EMOJI: Record<string, string> = { wands: "🔥", cups: "💧", swords: "⚡", pentacles: "🌿" };
+                    const cc = selectedCard.suit ? SUIT_COLORS[selectedCard.suit] || ["rgba(168,85,247,0.6)", "rgba(40,10,60,0.9)"] : ["rgba(168,85,247,0.6)", "rgba(40,10,60,0.9)"];
+                    const emoji = selectedCard.suit ? SUIT_EMOJI[selectedCard.suit] || "✦" : "✦";
+                    const SUIT_TR: Record<string, string> = { wands: "Değnekler", cups: "Kupalar", swords: "Kılıçlar", pentacles: "Pentaklar" };
+                    const suitLabel = selectedCard.arcana === "major" ? "Büyük Arkana" : (selectedCard.suit ? SUIT_TR[selectedCard.suit] || selectedCard.suit : "");
+                    return (
+                      <View style={styles.cardModalHero}>
+                        <LinearGradient colors={cc as [string, string]} style={styles.cardModalImage} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }}>
+                          <Text style={{ fontSize: 32, textAlign: "center" }}>{emoji}</Text>
+                          {selectedCard.number ? <Text style={{ color: "rgba(255,255,255,0.7)", fontSize: 13, fontWeight: "800", textAlign: "center", marginTop: 8 }}>{selectedCard.number}</Text> : null}
+                        </LinearGradient>
+                        <View style={styles.cardModalMeta}>
+                          <Text style={styles.cardModalName}>{selectedCard.name}</Text>
+                          <Text style={styles.cardModalBadge}>{suitLabel}{selectedCard.number ? `  ·  ${selectedCard.number}` : ""}</Text>
+                          {selectedCard.element && (
+                            <Text style={styles.cardModalElement}>{selectedCard.element}</Text>
+                          )}
+                        </View>
+                      </View>
+                    );
+                  })()}
 
-                  {/* History — always visible */}
+                  {/* Tarih & Sembolizm — herkese açık */}
                   {selectedCard.history && (
                     <View style={styles.cardModalHistoryBox}>
                       <Text style={styles.cardModalHistoryLabel}>Tarih & Sembolizm</Text>
@@ -899,89 +943,28 @@ export default function WelcomeScreen() {
                     </View>
                   )}
 
-                  {/* Orientation toggle */}
-                  <View style={styles.cardModalOrientRow}>
-                    {(["upright", "reversed"] as const).map(o => (
-                      <TouchableOpacity
-                        key={o}
-                        style={[styles.cardModalOrientBtn, cardDetailOrientation === o && styles.cardModalOrientBtnActive]}
-                        onPress={() => setCardDetailOrientation(o)}
-                      >
-                        <Text style={[styles.cardModalOrientText, cardDetailOrientation === o && { color: "#fff" }]}>
-                          {o === "upright" ? "Düz" : "Ters"}
-                        </Text>
-                      </TouchableOpacity>
-                    ))}
-                  </View>
-
-                  {/* Category tabs */}
-                  <View style={styles.cardModalTabRow}>
-                    {(["general", "love", "career", "spiritual"] as const).map(tab => {
-                      const isPremiumTab = tab !== "general";
-                      const locked = isPremiumTab && !isPremium;
-                      return (
-                        <TouchableOpacity
-                          key={tab}
-                          style={[styles.cardModalTab, cardDetailTab === tab && styles.cardModalTabActive, locked && styles.cardModalTabLocked]}
-                          onPress={() => !locked && setCardDetailTab(tab)}
-                          activeOpacity={locked ? 1 : 0.7}
-                        >
-                          <Text style={[styles.cardModalTabText, cardDetailTab === tab && { color: "#c084fc" }, locked && { color: "rgba(255,255,255,0.2)" }]}>
-                            {tab === "general" ? "Genel" : tab === "love" ? "Aşk" : tab === "career" ? "Kariyer" : "Ruhsal"}
-                            {locked ? " 🔒" : ""}
-                          </Text>
-                        </TouchableOpacity>
-                      );
-                    })}
-                  </View>
-
-                  {/* Meaning content */}
-                  <View style={styles.cardModalMeaningBox}>
-                    {cardDetailTab === "general" || isPremium ? (
-                      <Text style={styles.cardModalMeaningText}>
-                        {selectedCard.meanings[cardDetailOrientation][cardDetailTab]}
-                      </Text>
-                    ) : (
-                      <View style={styles.cardModalBlurBox}>
-                        <BlurView intensity={20} tint="dark" style={StyleSheet.absoluteFillObject} />
-                        <Text style={styles.cardModalMeaningText} numberOfLines={3}>
-                          {selectedCard.meanings[cardDetailOrientation][cardDetailTab]}
-                        </Text>
-                        <View style={styles.cardModalLockOverlay}>
-                          <Text style={styles.cardModalLockText}>Premium ile Aç</Text>
-                          <TouchableOpacity style={styles.cardModalMarketBtn} onPress={() => { setSelectedCard(null); router.push("/market"); }}>
-                            <Text style={styles.cardModalMarketBtnText}>Market →</Text>
+                  {/* Genel Anlam — herkese açık, düz/ters toggle */}
+                  <View style={styles.cardModalHistoryBox}>
+                    <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+                      <Text style={styles.cardModalHistoryLabel}>Genel Anlam</Text>
+                      <View style={{ flexDirection: "row", gap: 6 }}>
+                        {(["upright", "reversed"] as const).map(o => (
+                          <TouchableOpacity
+                            key={o}
+                            style={[styles.cardModalOrientBtn, cardDetailOrientation === o && styles.cardModalOrientBtnActive]}
+                            onPress={() => setCardDetailOrientation(o)}
+                          >
+                            <Text style={[styles.cardModalOrientText, cardDetailOrientation === o && { color: "#fff" }]}>
+                              {o === "upright" ? "Düz" : "Ters"}
+                            </Text>
                           </TouchableOpacity>
-                        </View>
+                        ))}
                       </View>
-                    )}
-                  </View>
-
-                  {/* Card Reading History — premium only */}
-                  {isPremium && (
-                    <View style={styles.cardModalHistoryBox}>
-                      <Text style={styles.cardModalHistoryLabel}>Geçmiş Okumalar</Text>
-                      {cardReadingsLoading ? (
-                        <ActivityIndicator color="#a855f7" size="small" style={{ marginVertical: 8 }} />
-                      ) : cardReadings.length > 0 ? (
-                        cardReadings.map((r, i) => (
-                          <View key={i} style={{ paddingVertical: 6, borderBottomWidth: i < cardReadings.length - 1 ? 1 : 0, borderBottomColor: "rgba(255,255,255,0.05)" }}>
-                            <Text style={{ fontSize: 12, color: "rgba(255,255,255,0.55)", fontWeight: "600" }}>
-                              {r.focusArea ? r.focusArea.charAt(0).toUpperCase() + r.focusArea.slice(1) : "Genel"}
-                              {r.orientation ? ` · ${r.orientation === "upright" ? "Düz" : "Ters"}` : ""}
-                            </Text>
-                            <Text style={{ fontSize: 11, color: "rgba(255,255,255,0.3)", marginTop: 2 }}>
-                              {new Date(r.timestamp).toLocaleDateString("tr-TR", { day: "2-digit", month: "2-digit", year: "2-digit" })}
-                            </Text>
-                          </View>
-                        ))
-                      ) : (
-                        <Text style={{ fontSize: 13, color: "rgba(255,255,255,0.3)", fontStyle: "italic" }}>
-                          Bu kart henüz okuma geçmişinde görünmüyor.
-                        </Text>
-                      )}
                     </View>
-                  )}
+                    <Text style={styles.cardModalMeaningText}>
+                      {selectedCard.meanings[cardDetailOrientation].general}
+                    </Text>
+                  </View>
 
                   <View style={{ height: 40 }} />
                 </ScrollView>
@@ -1951,6 +1934,14 @@ const styles = StyleSheet.create({
     color: "rgba(255,255,255,0.45)",
     fontSize: 11,
     fontWeight: "500",
+    marginBottom: 4,
+  },
+  tarotGateBtnCount: {
+    color: "rgba(255,255,255,0.28)",
+    fontSize: 10,
+    fontWeight: "700",
+    letterSpacing: 0.5,
+    marginTop: 2,
   },
   dreamBadge: {
     backgroundColor: "rgba(56, 189, 248, 0.2)",
@@ -2035,14 +2026,25 @@ const styles = StyleSheet.create({
     width: 72,
     alignItems: "center",
   },
-  masaCardImage: {
+  masaCardTile: {
     width: 68,
     height: 110,
-    borderRadius: 8,
-    backgroundColor: "rgba(255,255,255,0.06)",
+    borderRadius: 10,
     marginBottom: 6,
+    alignItems: "center",
+    justifyContent: "center",
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.10)",
+    borderColor: "rgba(255,255,255,0.15)",
+  },
+  masaCardEmoji: {
+    fontSize: 22,
+  },
+  masaCardNumber: {
+    color: "rgba(255,255,255,0.65)",
+    fontSize: 11,
+    fontWeight: "800",
+    marginTop: 6,
+    letterSpacing: 1,
   },
   masaCardName: {
     fontSize: 9,
@@ -2086,7 +2088,10 @@ const styles = StyleSheet.create({
     width: 80,
     height: 130,
     borderRadius: 10,
-    backgroundColor: "rgba(255,255,255,0.06)",
+    alignItems: "center",
+    justifyContent: "center",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.15)",
   },
   cardModalMeta: {
     flex: 1,

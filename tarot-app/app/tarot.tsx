@@ -47,10 +47,12 @@ export default function TarotScreen() {
               <Text style={styles.modeLabel}>{t("tarotFreeTitle") || "Ücretsiz Okuma"}</Text>
             )}
           </View>
-          <View style={styles.balanceBadge}>
-            <GemstoneIcon size={26} />
-            <Text style={styles.balanceText}> {gemstoneBalance}</Text>
-          </View>
+          {!isFreeMode && (
+            <View style={styles.balanceBadge}>
+              <GemstoneIcon size={26} />
+              <Text style={styles.balanceText}> {gemstoneBalance}</Text>
+            </View>
+          )}
         </View>
 
         {/* General Category */}
@@ -60,7 +62,7 @@ export default function TarotScreen() {
           </Text>
 
           <SpreadCard title={t("singleCard")} description={getDesc("singleCardDesc")} cardCount="single" categoryColor={COLORS.general}
-            gemCost={3}
+            gemCost={isFreeMode ? undefined : 3}
             onPress={() => handleSpreadSelect("single_card", "general")} />
 
           {!isFreeMode && (
@@ -70,7 +72,7 @@ export default function TarotScreen() {
           )}
 
           <SpreadCard title={t("yesNo")} description={getDesc("yesNoGeneralDesc")} cardCount="single" categoryColor={COLORS.general}
-            gemCost={3}
+            gemCost={isFreeMode ? undefined : 3}
             onPress={() => handleSpreadSelect("yes_no", "general")} />
 
           {!isFreeMode && (
@@ -87,11 +89,11 @@ export default function TarotScreen() {
           </Text>
 
           <SpreadCard title={t("singleCard")} description={getDesc("singleCardDesc")} cardCount="single" categoryColor={COLORS.love}
-            gemCost={3}
+            gemCost={isFreeMode ? undefined : 3}
             onPress={() => handleSpreadSelect("single_card", "love")} />
 
           <SpreadCard title={t("yesNo")} description={getDesc("yesNoLoveDesc")} cardCount="single" categoryColor={COLORS.love}
-            gemCost={3}
+            gemCost={isFreeMode ? undefined : 3}
             onPress={() => handleSpreadSelect("yes_no", "love")} />
 
           {!isFreeMode && (<>
@@ -114,11 +116,11 @@ export default function TarotScreen() {
           </Text>
 
           <SpreadCard title={t("singleCard")} description={getDesc("singleCardDesc")} cardCount="single" categoryColor={COLORS.career}
-            gemCost={3}
+            gemCost={isFreeMode ? undefined : 3}
             onPress={() => handleSpreadSelect("single_card", "career")} />
 
           <SpreadCard title={t("yesNo")} description={getDesc("yesNoCareerDesc")} cardCount="single" categoryColor={COLORS.career}
-            gemCost={3}
+            gemCost={isFreeMode ? undefined : 3}
             onPress={() => handleSpreadSelect("yes_no", "career")} />
 
           {!isFreeMode && (<>
@@ -144,11 +146,11 @@ export default function TarotScreen() {
           </Text>
 
           <SpreadCard title={t("singleCard")} description={getDesc("singleCardDesc")} cardCount="single" categoryColor={COLORS.spiritual}
-            gemCost={3}
+            gemCost={isFreeMode ? undefined : 3}
             onPress={() => handleSpreadSelect("single_card", "spiritual")} />
 
           <SpreadCard title={t("yesNo")} description={getDesc("yesNoSpiritualDesc")} cardCount="single" categoryColor={COLORS.spiritual}
-            gemCost={3}
+            gemCost={isFreeMode ? undefined : 3}
             onPress={() => handleSpreadSelect("yes_no", "spiritual")} />
 
           {!isFreeMode && (<>
