@@ -16,6 +16,7 @@ import { GradientBackground, GlassCard } from "../../components/ui";
 import { shuffleArray, getOrientation } from "../../utils";
 import type { Card, SelectedCard, SpreadType, TarotData, FocusArea } from "../../types/tarot";
 import Constants from "expo-constants";
+import { recordCardDraw } from "../../utils/cardHistory";
 
 // Backend API URL - always use dynamic Expo host IP
 const host = Constants.expoConfig?.hostUri?.split(":")[0] || "localhost";
@@ -250,6 +251,18 @@ export default function PickScreen() {
 
   const handleContinue = () => {
     setSelectedCards(selected);
+    // Record each drawn card to history
+    const now = new Date().toISOString();
+    selected.forEach(s => {
+      recordCardDraw({
+        cardImage: s.card.image || s.card.name,
+        cardName: s.card.name,
+        spreadType: spread || "single_card",
+        focusArea: focusArea || "general",
+        orientation: s.orientation as "upright" | "reversed",
+        date: now,
+      });
+    });
     if (spread === "yes_no") {
       router.push("/yesno-result");
     } else if (isPremium) {

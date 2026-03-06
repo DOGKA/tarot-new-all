@@ -14,6 +14,8 @@ import { BlurView } from "expo-blur";
 import type { Language } from "../types/tarot";
 import type { MoonSlot, MoonApiResponse } from "../utils/moon";
 import { getTimeUntilTransition } from "../utils/moon";
+import { getCardHistory, SPREAD_LABELS, FOCUS_LABELS } from "../utils/cardHistory";
+import type { CardDrawRecord } from "../utils/cardHistory";
 
 const host = Constants.expoConfig?.hostUri?.split(":")[0] || "localhost";
 const API_BASE = `http://${host}:3001/api`;
@@ -147,32 +149,24 @@ export default function WelcomeScreen() {
   const [tarotMasaCards, setTarotMasaCards] = useState<TarotCardData[]>([]);
   const [tarotMasaLoading, setTarotMasaLoading] = useState(false);
   const [selectedCard, setSelectedCard] = useState<TarotCardData | null>(null);
-  const [cardDetailTab, setCardDetailTab] = useState<"general" | "love" | "career" | "spiritual">("general");
   const [cardDetailOrientation, setCardDetailOrientation] = useState<"upright" | "reversed">("upright");
 
-  const [cardReadings, setCardReadings] = useState<Array<{ type: string; focusArea: string | null; timestamp: string; orientation: string | null }>>([]);
-  const [cardReadingsLoading, setCardReadingsLoading] = useState(false);
+  const [cardDrawHistory, setCardDrawHistory] = useState<CardDrawRecord[]>([]);
 
-  const fetchCardReadings = async (image: string) => {
-    if (!isPremium) return;
-    setCardReadings([]);
-    setCardReadingsLoading(true);
+  const loadCardHistory = async (image: string) => {
     try {
-      const res = await fetch(`${API_BASE}/cards/${image}/readings?limit=5`);
-      if (res.ok) {
-        const data = await res.json();
-        setCardReadings(data.readings || []);
-      }
-    } catch { /* silent */ } finally {
-      setCardReadingsLoading(false);
+      const history = await getCardHistory(image);
+      setCardDrawHistory(history);
+    } catch {
+      setCardDrawHistory([]);
     }
   };
 
-  const fetchTarotMasaCards = async () => {
-    if (tarotMasaCards.length > 0) return;
+  const fetchTarotMasaCards = async (lang?: string) => {
     setTarotMasaLoading(true);
+    setTarotMasaCards([]);
     try {
-      const res = await fetch(`${API_BASE}/cards/${language}`);
+      const res = await fetch(`${API_BASE}/cards/${lang || language}`);
       if (res.ok) {
         const data = await res.json();
         setTarotMasaCards(data.cards || []);
@@ -322,10 +316,10 @@ export default function WelcomeScreen() {
     }
   }, [language]);
 
-  // Auto-load Tarot Masası cards on mount
+  // Auto-load Tarot Masası cards on mount and language change
   useEffect(() => {
-    fetchTarotMasaCards();
-  }, []);
+    fetchTarotMasaCards(language);
+  }, [language]);
 
   const handleLanguageSelect = (lang: Language) => {
     setLanguage(lang);
@@ -863,7 +857,7 @@ export default function WelcomeScreen() {
                       <TouchableOpacity
                         style={styles.masaCardItem}
                         activeOpacity={0.8}
-                        onPress={() => { setSelectedCard(card); setCardDetailTab("general"); setCardDetailOrientation("upright"); fetchCardReadings(card.image); }}
+                        onPress={() => { setSelectedCard(card); setCardDetailOrientation("upright"); loadCardHistory(card.image); }}
                       >
                         <LinearGradient
                           colors={cardColors as [string, string]}
@@ -964,6 +958,42 @@ export default function WelcomeScreen() {
                     <Text style={styles.cardModalMeaningText}>
                       {selectedCard.meanings[cardDetailOrientation].general}
                     </Text>
+                  </View>
+
+                  {/* Kart Geçmişi — herkese açık, AsyncStorage'dan */}
+                  <View style={styles.cardModalHistoryBox}>
+                    <Text style={styles.cardModalHistoryLabel}>Bu Kart Sende</Text>
+                    {cardDrawHistory.length === 0 ? (
+                      <Text style={{ fontSize: 13, color: "rgba(255,255,255,0.35)", fontStyle: "italic" }}>
+                        Bu kart henüz açılmadı.
+                      </Text>
+                    ) : (
+                      <>
+                        <Text style={{ fontSize: 13, color: "#a78bfa", fontWeight: "700", marginBottom: 10 }}>
+                          {cardDrawHistory.length} kez çıktı
+                        </Text>
+                        {cardDrawHistory.slice(0, 5).map((r, i) => (
+                          <View key={i} style={{ paddingVertical: 8, borderBottomWidth: i < Math.min(cardDrawHistory.length, 5) - 1 ? 1 : 0, borderBottomColor: "rgba(255,255,255,0.06)" }}>
+                            <View style={{ flexDirection: "row", justifyContent: "space-between", marginBottom: 3 }}>
+                              <Text style={{ fontSize: 12, color: "rgba(255,255,255,0.65)", fontWeight: "700" }}>
+                                {SPREAD_LABELS[r.spreadType] || r.spreadType}
+                              </Text>
+                              <Text style={{ fontSize: 11, color: "rgba(255,255,255,0.3)" }}>
+                                {new Date(r.date).toLocaleDateString("tr-TR", { day: "2-digit", month: "2-digit", year: "2-digit" })}
+                              </Text>
+                            </View>
+                            <View style={{ flexDirection: "row", gap: 8 }}>
+                              <Text style={{ fontSize: 11, color: "rgba(255,255,255,0.4)" }}>
+                                {FOCUS_LABELS[r.focusArea] || r.focusArea}
+                              </Text>
+                              <Text style={{ fontSize: 11, color: r.orientation === "upright" ? "#4ade80" : "#f87171", fontWeight: "700" }}>
+                                {r.orientation === "upright" ? "● Düz" : "● Ters"}
+                              </Text>
+                            </View>
+                          </View>
+                        ))}
+                      </>
+                    )}
                   </View>
 
                   <View style={{ height: 40 }} />

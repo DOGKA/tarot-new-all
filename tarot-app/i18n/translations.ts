@@ -309,6 +309,10 @@ export const translations = {
       // DREAM CODER
       // ============================================
       tarotWelcomeDesc: "Use the cards to clarify your direction.",
+      tarotFreeTitle: "Free",
+      tarotFreeSubtitle: "Instant reading",
+      tarotPremiumTitle: "For You",
+      tarotPremiumSubtitle: "Personal reading",
       dreamWelcomeDesc: "Decode your dreams. See what you're carrying.",
       tarotBadge: "16+ Readings",
       dreamBadge: "3 Modes",
@@ -769,6 +773,10 @@ export const translations = {
       // ============================================
       // Welcome screen
       tarotWelcomeDesc: "Kartlarla yönünü netleştir.",
+      tarotFreeTitle: "Ücretsiz",
+      tarotFreeSubtitle: "Anında okuma",
+      tarotPremiumTitle: "Sana Özel",
+      tarotPremiumSubtitle: "Kişisel yorum",
       dreamWelcomeDesc: "Rüyalarını çözümle. Ne taşıdığını gör.",
       tarotBadge: "16+ Açılım",
       dreamBadge: "3 Mod",
@@ -1231,6 +1239,10 @@ export const translations = {
       // DREAM CODER
       // ============================================
       tarotWelcomeDesc: "Nutze die Karten, um deine Richtung zu klären.",
+      tarotFreeTitle: "Kostenlos",
+      tarotFreeSubtitle: "Sofortige Lesung",
+      tarotPremiumTitle: "Für dich",
+      tarotPremiumSubtitle: "Persönliche Lesung",
       dreamWelcomeDesc: "Entschlüssle deine Träume. Sieh, was du trägst.",
       tarotBadge: "16+ Legungen",
       dreamBadge: "3 Modi",
@@ -1690,6 +1702,10 @@ export const translations = {
       // DREAM CODER
       // ============================================
       tarotWelcomeDesc: "Usa las cartas para aclarar tu rumbo.",
+      tarotFreeTitle: "Gratis",
+      tarotFreeSubtitle: "Lectura inmediata",
+      tarotPremiumTitle: "Para ti",
+      tarotPremiumSubtitle: "Lectura personal",
       dreamWelcomeDesc: "Descifra tus sueños. Mira lo que estás cargando.",
       tarotBadge: "16+ Lecturas",
       dreamBadge: "3 Modos",
