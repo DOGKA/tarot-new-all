@@ -1810,6 +1810,23 @@ app.post("/api/reading/free", (req, res) => {
 // CARDS API - Serve tarot card data
 // ============================================
 
+// Load TR cards_history once (history is language-agnostic, written in TR)
+let _cardsHistoryMap = null;
+const getCardsHistoryMap = () => {
+  if (!_cardsHistoryMap) {
+    try {
+      const historyPath = path.join(backendDataPath, "tr", "cards_history.json");
+      const historyData = JSON.parse(fs.readFileSync(historyPath, "utf8"));
+      _cardsHistoryMap = {};
+      historyData.cards.forEach(c => { _cardsHistoryMap[c.image] = c; });
+    } catch (e) {
+      console.warn("[Cards] Could not load cards_history.json:", e.message);
+      _cardsHistoryMap = {};
+    }
+  }
+  return _cardsHistoryMap;
+};
+
 app.get("/api/cards/:language", (req, res) => {
   const { language } = req.params;
   const validLangs = ["tr", "en", "de", "es"];
@@ -1821,10 +1838,45 @@ app.get("/api/cards/:language", (req, res) => {
   try {
     const templatePath = path.join(backendDataPath, language, "tarot-template.json");
     const data = JSON.parse(fs.readFileSync(templatePath, "utf8"));
-    res.json(data);
+    const historyMap = getCardsHistoryMap();
+
+    // Merge history field from cards_history.json into each card
+    const cards = data.cards.map(card => ({
+      ...card,
+      history: historyMap[card.image]?.history || null,
+    }));
+
+    res.json({ cards });
   } catch (error) {
     console.error(`Error loading cards for ${language}:`, error.message);
     res.status(500).json({ error: "Could not load card data" });
+  }
+});
+
+// GET /api/cards/:image/readings?limit=5  — recent readings for a card (premium display)
+app.get("/api/cards/:image/readings", (req, res) => {
+  try {
+    const { image } = req.params;
+    const limit = Math.min(parseInt(req.query.limit) || 5, 20);
+    let readings = [];
+    try {
+      readings = JSON.parse(fs.readFileSync(logsFilePath, "utf8")) || [];
+    } catch { readings = []; }
+
+    const cardReadings = readings
+      .filter(r => r.card?.image === image || r.cards?.some?.(c => c.image === image))
+      .slice(-limit)
+      .reverse()
+      .map(r => ({
+        type: r.type || "reading",
+        focusArea: r.focusArea || null,
+        timestamp: r.timestamp,
+        orientation: r.card?.orientation || null,
+      }));
+
+    res.json({ success: true, cardImage: image, readings: cardReadings });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
   }
 });
 

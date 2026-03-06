@@ -131,6 +131,59 @@ export default function WelcomeScreen() {
   const flatListRef = useRef<FlatList>(null);
   const tabScrollRef = useRef<ScrollView>(null);
 
+  // Tarot entry gate
+  const [tarotExpanded, setTarotExpanded] = useState(false);
+
+  // Tarot Masası
+  type TarotCardData = {
+    id: number; name: string; image: string; arcana: string;
+    number: string; suit: string | null; element: string;
+    history: string | null;
+    meanings: {
+      upright: { general: string; love: string; career: string; spiritual: string };
+      reversed: { general: string; love: string; career: string; spiritual: string };
+    };
+  };
+  const [tarotMasaCards, setTarotMasaCards] = useState<TarotCardData[]>([]);
+  const [tarotMasaLoading, setTarotMasaLoading] = useState(false);
+  const [selectedCard, setSelectedCard] = useState<TarotCardData | null>(null);
+  const [cardDetailTab, setCardDetailTab] = useState<"general" | "love" | "career" | "spiritual">("general");
+  const [cardDetailOrientation, setCardDetailOrientation] = useState<"upright" | "reversed">("upright");
+
+  const [cardReadings, setCardReadings] = useState<Array<{ type: string; focusArea: string | null; timestamp: string; orientation: string | null }>>([]);
+  const [cardReadingsLoading, setCardReadingsLoading] = useState(false);
+
+  const fetchCardReadings = async (image: string) => {
+    if (!isPremium) return;
+    setCardReadings([]);
+    setCardReadingsLoading(true);
+    try {
+      const res = await fetch(`${API_BASE}/cards/${image}/readings?limit=5`);
+      if (res.ok) {
+        const data = await res.json();
+        setCardReadings(data.readings || []);
+      }
+    } catch { /* silent */ } finally {
+      setCardReadingsLoading(false);
+    }
+  };
+
+  const fetchTarotMasaCards = async () => {
+    if (tarotMasaCards.length > 0) return;
+    setTarotMasaLoading(true);
+    try {
+      const res = await fetch(`${API_BASE}/cards/${language}`);
+      if (res.ok) {
+        const data = await res.json();
+        setTarotMasaCards(data.cards || []);
+      }
+    } catch (err) {
+      console.warn("Tarot Masası fetch error:", err);
+    } finally {
+      setTarotMasaLoading(false);
+    }
+  };
+
   // Language dropdown
   const [langOpen, setLangOpen] = useState(false);
 
@@ -519,8 +572,12 @@ export default function WelcomeScreen() {
 
         {/* ═══ Cards ═══ */}
         <View style={styles.cardsContainer}>
-          {/* Tarot Card */}
-          <TouchableOpacity style={styles.card} activeOpacity={0.85} onPress={() => router.push("/tarot")}>
+          {/* Tarot Card — inline entry gate */}
+          <TouchableOpacity
+            style={styles.card}
+            activeOpacity={0.85}
+            onPress={() => setTarotExpanded(v => !v)}
+          >
             <LinearGradient
               colors={["rgba(168, 85, 247, 0.3)", "rgba(99, 102, 241, 0.2)", "rgba(30, 20, 60, 0.8)"]}
               style={styles.cardGradient}
@@ -530,11 +587,36 @@ export default function WelcomeScreen() {
               <Text style={styles.cardIcon}>✨</Text>
               <Text style={styles.cardTitle}>Tarot</Text>
               <Text style={styles.cardDescription}>{t("tarotWelcomeDesc")}</Text>
-              <View style={styles.cardBadge}>
-                <Text style={styles.cardBadgeText}>{t("tarotBadge")}</Text>
-              </View>
+              {!tarotExpanded && (
+                <View style={styles.cardBadge}>
+                  <Text style={styles.cardBadgeText}>{t("tarotBadge")}</Text>
+                </View>
+              )}
             </LinearGradient>
           </TouchableOpacity>
+
+          {/* Inline Tarot Mode Selection */}
+          {tarotExpanded && (
+            <View style={styles.tarotGateRow}>
+              <TouchableOpacity
+                style={styles.tarotGateBtn}
+                activeOpacity={0.8}
+                onPress={() => { setTarotExpanded(false); router.push("/tarot?mode=free"); }}
+              >
+                <Text style={styles.tarotGateBtnTitle}>{t("tarotFreeTitle") || "Ücretsiz"}</Text>
+                <Text style={styles.tarotGateBtnSub}>{t("tarotFreeSubtitle") || "Anında okuma"}</Text>
+              </TouchableOpacity>
+              <View style={styles.tarotGateDivider} />
+              <TouchableOpacity
+                style={[styles.tarotGateBtn, styles.tarotGateBtnPremium]}
+                activeOpacity={0.8}
+                onPress={() => { setTarotExpanded(false); router.push("/tarot?mode=premium"); }}
+              >
+                <Text style={[styles.tarotGateBtnTitle, { color: "#c084fc" }]}>{t("tarotPremiumTitle") || "Sana Özel"}</Text>
+                <Text style={[styles.tarotGateBtnSub, { color: "rgba(192,132,252,0.7)" }]}>{t("tarotPremiumSubtitle") || "Sana özel yorum"}</Text>
+              </TouchableOpacity>
+            </View>
+          )}
 
           {/* Dream Coder Card */}
           <TouchableOpacity style={styles.card} activeOpacity={0.85} onPress={() => router.push("/dream")}>
@@ -711,9 +793,203 @@ export default function WelcomeScreen() {
           </TouchableOpacity>
         </View>
 
+        {/* ═══ TAROT MASASI ═══ */}
+        <View style={styles.masaSection}>
+          <TouchableOpacity
+            style={styles.masaHeader}
+            onPress={fetchTarotMasaCards}
+            activeOpacity={0.8}
+          >
+            <Text style={styles.masaTitle}>✨ Tarot Masası</Text>
+            <Text style={styles.masaSubtitle}>
+              {tarotMasaCards.length > 0 ? `${tarotMasaCards.length} kart` : "Keşfet"}
+            </Text>
+          </TouchableOpacity>
+
+          {tarotMasaLoading && (
+            <ActivityIndicator color="#a855f7" size="small" style={{ marginVertical: 20 }} />
+          )}
+
+          {tarotMasaCards.length > 0 && (() => {
+            const SUIT_LABELS: Record<string, string> = {
+              wands: "🔥 Değnekler", cups: "💧 Kupalar",
+              swords: "💨 Kılıçlar", pentacles: "🌍 Pentaklar",
+            };
+            const groups = [
+              { key: "major", label: "⭐ Büyük Arkana", cards: tarotMasaCards.filter(c => c.arcana === "major") },
+              { key: "wands", label: SUIT_LABELS.wands, cards: tarotMasaCards.filter(c => c.suit === "wands") },
+              { key: "cups", label: SUIT_LABELS.cups, cards: tarotMasaCards.filter(c => c.suit === "cups") },
+              { key: "swords", label: SUIT_LABELS.swords, cards: tarotMasaCards.filter(c => c.suit === "swords") },
+              { key: "pentacles", label: SUIT_LABELS.pentacles, cards: tarotMasaCards.filter(c => c.suit === "pentacles") },
+            ];
+            return groups.map(group => (
+              <View key={group.key} style={{ marginBottom: 20 }}>
+                <Text style={styles.masaGroupLabel}>{group.label}</Text>
+                <FlatList
+                  data={group.cards}
+                  horizontal
+                  showsHorizontalScrollIndicator={false}
+                  keyExtractor={c => String(c.id)}
+                  contentContainerStyle={{ paddingHorizontal: 4, gap: 10 }}
+                  renderItem={({ item: card }) => (
+                    <TouchableOpacity
+                      style={styles.masaCardItem}
+                      activeOpacity={0.8}
+                      onPress={() => { setSelectedCard(card); setCardDetailTab("general"); setCardDetailOrientation("upright"); fetchCardReadings(card.image); }}
+                    >
+                      <Image
+                        source={{ uri: `${API_BASE.replace("/api", "")}/cards/${card.image}.jpg` }}
+                        style={styles.masaCardImage}
+                        resizeMode="cover"
+                      />
+                      <Text style={styles.masaCardName} numberOfLines={2}>{card.name}</Text>
+                    </TouchableOpacity>
+                  )}
+                />
+              </View>
+            ));
+          })()}
+        </View>
+
         {/* Version */}
         <Text style={styles.version}>v4.1</Text>
       </ScrollView>
+
+      {/* ═══ CARD DETAIL MODAL ═══ */}
+      <Modal
+        visible={!!selectedCard}
+        transparent
+        animationType="slide"
+        onRequestClose={() => setSelectedCard(null)}
+      >
+        <View style={styles.cardModalOverlay}>
+          <View style={styles.cardModalSheet}>
+            {selectedCard && (
+              <>
+                {/* Close */}
+                <TouchableOpacity style={styles.cardModalClose} onPress={() => setSelectedCard(null)}>
+                  <Text style={{ color: "rgba(255,255,255,0.5)", fontSize: 18 }}>✕</Text>
+                </TouchableOpacity>
+
+                <ScrollView showsVerticalScrollIndicator={false}>
+                  {/* Card image + name */}
+                  <View style={styles.cardModalHero}>
+                    <Image
+                      source={{ uri: `${API_BASE.replace("/api", "")}/cards/${selectedCard.image}.jpg` }}
+                      style={styles.cardModalImage}
+                      resizeMode="cover"
+                    />
+                    <View style={styles.cardModalMeta}>
+                      <Text style={styles.cardModalName}>{selectedCard.name}</Text>
+                      <Text style={styles.cardModalBadge}>
+                        {selectedCard.arcana === "major" ? "Büyük Arkana" : `${selectedCard.suit ? selectedCard.suit.charAt(0).toUpperCase() + selectedCard.suit.slice(1) : ""}`}
+                        {selectedCard.number ? `  ${selectedCard.number}` : ""}
+                      </Text>
+                      {selectedCard.element && (
+                        <Text style={styles.cardModalElement}>{selectedCard.element}</Text>
+                      )}
+                    </View>
+                  </View>
+
+                  {/* History — always visible */}
+                  {selectedCard.history && (
+                    <View style={styles.cardModalHistoryBox}>
+                      <Text style={styles.cardModalHistoryLabel}>Tarih & Sembolizm</Text>
+                      <Text style={styles.cardModalHistoryText}>{selectedCard.history}</Text>
+                    </View>
+                  )}
+
+                  {/* Orientation toggle */}
+                  <View style={styles.cardModalOrientRow}>
+                    {(["upright", "reversed"] as const).map(o => (
+                      <TouchableOpacity
+                        key={o}
+                        style={[styles.cardModalOrientBtn, cardDetailOrientation === o && styles.cardModalOrientBtnActive]}
+                        onPress={() => setCardDetailOrientation(o)}
+                      >
+                        <Text style={[styles.cardModalOrientText, cardDetailOrientation === o && { color: "#fff" }]}>
+                          {o === "upright" ? "Düz" : "Ters"}
+                        </Text>
+                      </TouchableOpacity>
+                    ))}
+                  </View>
+
+                  {/* Category tabs */}
+                  <View style={styles.cardModalTabRow}>
+                    {(["general", "love", "career", "spiritual"] as const).map(tab => {
+                      const isPremiumTab = tab !== "general";
+                      const locked = isPremiumTab && !isPremium;
+                      return (
+                        <TouchableOpacity
+                          key={tab}
+                          style={[styles.cardModalTab, cardDetailTab === tab && styles.cardModalTabActive, locked && styles.cardModalTabLocked]}
+                          onPress={() => !locked && setCardDetailTab(tab)}
+                          activeOpacity={locked ? 1 : 0.7}
+                        >
+                          <Text style={[styles.cardModalTabText, cardDetailTab === tab && { color: "#c084fc" }, locked && { color: "rgba(255,255,255,0.2)" }]}>
+                            {tab === "general" ? "Genel" : tab === "love" ? "Aşk" : tab === "career" ? "Kariyer" : "Ruhsal"}
+                            {locked ? " 🔒" : ""}
+                          </Text>
+                        </TouchableOpacity>
+                      );
+                    })}
+                  </View>
+
+                  {/* Meaning content */}
+                  <View style={styles.cardModalMeaningBox}>
+                    {cardDetailTab === "general" || isPremium ? (
+                      <Text style={styles.cardModalMeaningText}>
+                        {selectedCard.meanings[cardDetailOrientation][cardDetailTab]}
+                      </Text>
+                    ) : (
+                      <View style={styles.cardModalBlurBox}>
+                        <BlurView intensity={20} tint="dark" style={StyleSheet.absoluteFillObject} />
+                        <Text style={styles.cardModalMeaningText} numberOfLines={3}>
+                          {selectedCard.meanings[cardDetailOrientation][cardDetailTab]}
+                        </Text>
+                        <View style={styles.cardModalLockOverlay}>
+                          <Text style={styles.cardModalLockText}>Premium ile Aç</Text>
+                          <TouchableOpacity style={styles.cardModalMarketBtn} onPress={() => { setSelectedCard(null); router.push("/market"); }}>
+                            <Text style={styles.cardModalMarketBtnText}>Market →</Text>
+                          </TouchableOpacity>
+                        </View>
+                      </View>
+                    )}
+                  </View>
+
+                  {/* Card Reading History — premium only */}
+                  {isPremium && (
+                    <View style={styles.cardModalHistoryBox}>
+                      <Text style={styles.cardModalHistoryLabel}>Geçmiş Okumalar</Text>
+                      {cardReadingsLoading ? (
+                        <ActivityIndicator color="#a855f7" size="small" style={{ marginVertical: 8 }} />
+                      ) : cardReadings.length > 0 ? (
+                        cardReadings.map((r, i) => (
+                          <View key={i} style={{ paddingVertical: 6, borderBottomWidth: i < cardReadings.length - 1 ? 1 : 0, borderBottomColor: "rgba(255,255,255,0.05)" }}>
+                            <Text style={{ fontSize: 12, color: "rgba(255,255,255,0.55)", fontWeight: "600" }}>
+                              {r.focusArea ? r.focusArea.charAt(0).toUpperCase() + r.focusArea.slice(1) : "Genel"}
+                              {r.orientation ? ` · ${r.orientation === "upright" ? "Düz" : "Ters"}` : ""}
+                            </Text>
+                            <Text style={{ fontSize: 11, color: "rgba(255,255,255,0.3)", marginTop: 2 }}>
+                              {new Date(r.timestamp).toLocaleDateString("tr-TR", { day: "2-digit", month: "2-digit", year: "2-digit" })}
+                            </Text>
+                          </View>
+                        ))
+                      ) : (
+                        <Text style={{ fontSize: 13, color: "rgba(255,255,255,0.3)", fontStyle: "italic" }}>
+                          Bu kart henüz okuma geçmişinde görünmüyor.
+                        </Text>
+                      )}
+                    </View>
+                  )}
+
+                  <View style={{ height: 40 }} />
+                </ScrollView>
+              </>
+            )}
+          </View>
+        </View>
+      </Modal>
 
       {/* ═══════════════════════════════════════════════ */}
       {/* SETTINGS MODAL                                 */}
@@ -1640,6 +1916,42 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     letterSpacing: 0.5,
   },
+  tarotGateRow: {
+    flexDirection: "row",
+    marginHorizontal: 0,
+    marginTop: 8,
+    marginBottom: 4,
+    borderRadius: 16,
+    overflow: "hidden",
+    borderWidth: 1,
+    borderColor: "rgba(168,85,247,0.25)",
+    backgroundColor: "rgba(15,10,35,0.85)",
+  },
+  tarotGateBtn: {
+    flex: 1,
+    paddingVertical: 18,
+    paddingHorizontal: 12,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  tarotGateBtnPremium: {
+    backgroundColor: "rgba(139,92,246,0.10)",
+  },
+  tarotGateDivider: {
+    width: 1,
+    backgroundColor: "rgba(168,85,247,0.25)",
+  },
+  tarotGateBtnTitle: {
+    color: "rgba(255,255,255,0.90)",
+    fontSize: 15,
+    fontWeight: "800",
+    marginBottom: 4,
+  },
+  tarotGateBtnSub: {
+    color: "rgba(255,255,255,0.45)",
+    fontSize: 11,
+    fontWeight: "500",
+  },
   dreamBadge: {
     backgroundColor: "rgba(56, 189, 248, 0.2)",
     borderColor: "rgba(56, 189, 248, 0.4)",
@@ -1686,6 +1998,225 @@ const styles = StyleSheet.create({
     color: "rgba(255, 255, 255, 0.2)",
     fontSize: 12,
     marginTop: 24,
+  },
+
+  // ── Tarot Masası ──
+  masaSection: {
+    marginTop: 28,
+    marginBottom: 8,
+  },
+  masaHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: 16,
+    paddingHorizontal: 4,
+  },
+  masaTitle: {
+    fontSize: 20,
+    fontWeight: "800",
+    color: "#fff",
+    letterSpacing: 0.5,
+  },
+  masaSubtitle: {
+    fontSize: 12,
+    color: "rgba(255,255,255,0.35)",
+    fontWeight: "600",
+  },
+  masaGroupLabel: {
+    fontSize: 14,
+    fontWeight: "700",
+    color: "rgba(255,255,255,0.55)",
+    marginBottom: 10,
+    paddingHorizontal: 4,
+    letterSpacing: 0.5,
+  },
+  masaCardItem: {
+    width: 72,
+    alignItems: "center",
+  },
+  masaCardImage: {
+    width: 68,
+    height: 110,
+    borderRadius: 8,
+    backgroundColor: "rgba(255,255,255,0.06)",
+    marginBottom: 6,
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.10)",
+  },
+  masaCardName: {
+    fontSize: 9,
+    color: "rgba(255,255,255,0.55)",
+    textAlign: "center",
+    fontWeight: "600",
+    lineHeight: 13,
+  },
+
+  // ── Card Detail Modal ──
+  cardModalOverlay: {
+    flex: 1,
+    backgroundColor: "rgba(0,0,0,0.7)",
+    justifyContent: "flex-end",
+  },
+  cardModalSheet: {
+    backgroundColor: "rgba(12,8,30,0.98)",
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    paddingTop: 20,
+    paddingHorizontal: 20,
+    paddingBottom: 0,
+    maxHeight: "88%",
+    borderTopWidth: 1,
+    borderColor: "rgba(168,85,247,0.2)",
+  },
+  cardModalClose: {
+    position: "absolute",
+    top: 16,
+    right: 20,
+    zIndex: 10,
+    padding: 4,
+  },
+  cardModalHero: {
+    flexDirection: "row",
+    gap: 16,
+    marginBottom: 20,
+    marginTop: 8,
+  },
+  cardModalImage: {
+    width: 80,
+    height: 130,
+    borderRadius: 10,
+    backgroundColor: "rgba(255,255,255,0.06)",
+  },
+  cardModalMeta: {
+    flex: 1,
+    justifyContent: "center",
+    gap: 6,
+  },
+  cardModalName: {
+    fontSize: 22,
+    fontWeight: "800",
+    color: "#fff",
+  },
+  cardModalBadge: {
+    fontSize: 12,
+    color: "#a78bfa",
+    fontWeight: "700",
+    letterSpacing: 0.5,
+  },
+  cardModalElement: {
+    fontSize: 12,
+    color: "rgba(255,255,255,0.4)",
+    fontWeight: "600",
+    textTransform: "capitalize",
+  },
+  cardModalHistoryBox: {
+    backgroundColor: "rgba(255,255,255,0.04)",
+    borderRadius: 14,
+    padding: 14,
+    marginBottom: 16,
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.07)",
+  },
+  cardModalHistoryLabel: {
+    fontSize: 11,
+    letterSpacing: 2,
+    color: "rgba(255,255,255,0.35)",
+    fontWeight: "700",
+    textTransform: "uppercase",
+    marginBottom: 8,
+  },
+  cardModalHistoryText: {
+    fontSize: 14,
+    lineHeight: 22,
+    color: "rgba(255,255,255,0.7)",
+  },
+  cardModalOrientRow: {
+    flexDirection: "row",
+    gap: 8,
+    marginBottom: 12,
+  },
+  cardModalOrientBtn: {
+    paddingHorizontal: 16,
+    paddingVertical: 7,
+    borderRadius: 10,
+    backgroundColor: "rgba(255,255,255,0.06)",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.10)",
+  },
+  cardModalOrientBtnActive: {
+    backgroundColor: "rgba(139,92,246,0.3)",
+    borderColor: "rgba(139,92,246,0.6)",
+  },
+  cardModalOrientText: {
+    fontSize: 13,
+    fontWeight: "700",
+    color: "rgba(255,255,255,0.45)",
+  },
+  cardModalTabRow: {
+    flexDirection: "row",
+    gap: 6,
+    marginBottom: 14,
+  },
+  cardModalTab: {
+    flex: 1,
+    paddingVertical: 9,
+    borderRadius: 10,
+    backgroundColor: "rgba(255,255,255,0.05)",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.08)",
+    alignItems: "center",
+  },
+  cardModalTabActive: {
+    backgroundColor: "rgba(139,92,246,0.2)",
+    borderColor: "rgba(139,92,246,0.4)",
+  },
+  cardModalTabLocked: {
+    opacity: 0.5,
+  },
+  cardModalTabText: {
+    fontSize: 12,
+    fontWeight: "700",
+    color: "rgba(255,255,255,0.4)",
+  },
+  cardModalMeaningBox: {
+    marginBottom: 16,
+    minHeight: 120,
+  },
+  cardModalMeaningText: {
+    fontSize: 15,
+    lineHeight: 25,
+    color: "rgba(255,255,255,0.80)",
+  },
+  cardModalBlurBox: {
+    borderRadius: 14,
+    overflow: "hidden",
+    minHeight: 120,
+  },
+  cardModalLockOverlay: {
+    position: "absolute",
+    top: 0, left: 0, right: 0, bottom: 0,
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 10,
+  },
+  cardModalLockText: {
+    color: "#c084fc",
+    fontSize: 15,
+    fontWeight: "800",
+  },
+  cardModalMarketBtn: {
+    paddingHorizontal: 20,
+    paddingVertical: 8,
+    borderRadius: 10,
+    backgroundColor: "rgba(168,85,247,0.25)",
+    borderWidth: 1,
+    borderColor: "rgba(168,85,247,0.5)",
+  },
+  cardModalMarketBtnText: {
+    color: "#c084fc",
+    fontWeight: "700",
+    fontSize: 13,
   },
 });
 
