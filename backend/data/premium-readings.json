@@ -351,5 +351,284 @@
       "nextStep": "Bir günlük tutarak niyetlerini yaz ve neye ulaşmak istediğini netleştir.",
       "journal": "Hayatımda dengeyi nasıl daha iyi sağlayabilirim?"
     }
+  },
+  {
+    "timestamp": "2026-03-06T14:46:23.010Z",
+    "type": "yes_no_premium_v2",
+    "language": "tr",
+    "focusArea": "love",
+    "card": {
+      "name": "Kupa Kraliçesi",
+      "image": "48_queen_cups",
+      "orientation": "reversed"
+    },
+    "tendency": "evet",
+    "prompt": "Sen profesyonel bir tarot okuyucususun. Evet/Hayır okuma yapıyorsun.\nModern, psikolojik ve yüzleştirici yaz. Kısa ve net cümleler kur.\nTüm metin 'sen' diliyle yazılacak. 'siz' kullanma.\n\nKart: Kupa Kraliçesi (Ters)\nCevap: Evet\nNetlik: Şartlı\nBağlam: Zayıf bir eğilim var, dikkatli ol.\nOdak alanı: love\n\nKurallar:\n- 15-30 kelime arasında açıklama yaz\n- Cevabın arkasındaki enerjiyi açıkla\n- Kartın bu yönü neden gösterdiğini anlat\n- Ters kart yorumu: genel ters etki\n- Samimi ama profesyonel ol\n- Kartın ismini en fazla 1 kez kullan\n\nSadece JSON döndür:\n{\"explanation\": \"...\"}",
+    "rawResponse": "{\"explanation\": \"Duyguların karışık, dengeyi bulmalısın. Aşk hayatında dikkatli ol, yanlış anlaşılmalar olabilir. Enerji zayıf ama potansiyel var.\"}",
+    "response": {
+      "title": "Kupa Kraliçesi — Evet / Hayır",
+      "focusArea": "love",
+      "answer": "yes",
+      "confidence": 60,
+      "clarityLabel": "Şartlı",
+      "explanation": "Duyguların karışık, dengeyi bulmalısın. Aşk hayatında dikkatli ol, yanlış anlaşılmalar olabilir. Enerji zayıf ama potansiyel var.",
+      "keywords": [
+        "anlayış",
+        "derin bağ"
+      ],
+      "baseTendency": "evet",
+      "answerMayChange": false,
+      "conditionMessage": null
+    }
+  },
+  {
+    "timestamp": "2026-03-06T14:47:01.948Z",
+    "type": "yes_no_premium_v2",
+    "language": "tr",
+    "focusArea": "career",
+    "card": {
+      "name": "Değnek Dörtlüsü",
+      "image": "25_four_wands",
+      "orientation": "upright"
+    },
+    "tendency": "evet",
+    "prompt": "Sen profesyonel bir tarot okuyucususun. Evet/Hayır okuma yapıyorsun.\nModern, psikolojik ve yüzleştirici yaz. Kısa ve net cümleler kur.\nTüm metin 'sen' diliyle yazılacak. 'siz' kullanma.\n\nKart: Değnek Dörtlüsü (Düz)\nCevap: Evet\nNetlik: Net\nBağlam: Net ve güçlü bir yön var.\nOdak alanı: career\n\nKurallar:\n- 15-30 kelime arasında açıklama yaz\n- Cevabın arkasındaki enerjiyi açıkla\n- Kartın bu yönü neden gösterdiğini anlat\n- Samimi ama profesyonel ol\n- Kartın ismini en fazla 1 kez kullan\n\nSadece JSON döndür:\n{\"explanation\": \"...\"}",
+    "rawResponse": "{\"explanation\": \"Kariyerinde kutlama ve başarı seni bekliyor. Destekleyici bir çevre ve sağlam temellerle ilerliyorsun. Güvenle adım at.\"}",
+    "response": {
+      "title": "Değnek Dörtlüsü — Evet / Hayır",
+      "focusArea": "career",
+      "answer": "yes",
+      "confidence": 85,
+      "clarityLabel": "Net",
+      "explanation": "Kariyerinde kutlama ve başarı seni bekliyor. Destekleyici bir çevre ve sağlam temellerle ilerliyorsun. Güvenle adım at.",
+      "keywords": [
+        "başarı",
+        "kutlama"
+      ],
+      "baseTendency": "evet",
+      "answerMayChange": false,
+      "conditionMessage": null
+    }
+  },
+  {
+    "timestamp": "2026-03-06T14:49:33.124Z",
+    "model": "gpt-4o",
+    "structureId": "ppf_v15_story",
+    "hasNextStep": null,
+    "hasJournal": null,
+    "qualityWarns": [],
+    "request": {
+      "language": "tr",
+      "spread": "love_choice",
+      "cards": [
+        {
+          "position": "optionA",
+          "name": "Kılıç Onlusu",
+          "orientation": "upright"
+        },
+        {
+          "position": "optionA_outcome",
+          "name": "Aşıklar",
+          "orientation": "upright"
+        },
+        {
+          "position": "optionB",
+          "name": "Tılsım Dokuzlusu",
+          "orientation": "reversed"
+        },
+        {
+          "position": "optionB_outcome",
+          "name": "Kupa Dörtlüsü",
+          "orientation": "reversed"
+        },
+        {
+          "position": "advice",
+          "name": "Değnek Kralı",
+          "orientation": "upright"
+        }
+      ]
+    },
+    "response": {
+      "title": "Kılıç Onlusu·Aşıklar·Tılsım Dokuzlusu·Kupa Dörtlüsü·Değnek Kralı — Aşk Seçimi",
+      "overall": "Bu iki yol arasında duygusal bir yeniden doğuş ve kişisel tatmin ile ilgili bir gerilim var. Seçimlerin, kendinle ve ilişkideki potansiyel sonuçlarla yüzleşmeni gerektiriyor.",
+      "beats": {
+        "optionA": "Kılıç Onlusu, A yolunun seni eski yaralardan kurtulmaya ve yeni başlangıçlar yapmaya teşvik ettiğini gösteriyor.",
+        "optionA_outcome": "Aşıklar kartı burada uyumlu ve derin bağlar kurabileceğin bir duruma dönüşebileceğini işaret ediyor.",
+        "optionB": "Tılsım Dokuzlusu'nun ters gelmesi, B yolunun kendi değerinle ilgili şüpheler ve içsel dirençlerle yüzleşmene neden olabileceğini gösteriyor.",
+        "optionB_outcome": "Kupa Dörtlüsü'nün ters pozisyonu, bu yolda duygusal tatminsizlikten kaçınmak için içsel engelleri aşman gerektiğini ima ediyor.",
+        "advice": "Değnek Kralı, cesur ve kararlı olman gerektiğini ve hangi yolda ilerlersen ilerle, güçlü bir liderlik göstermenin önemini vurguluyor."
+      },
+      "decisionLens": "Kişisel gelişim ve duygusal dengeyi ön planda tutarak karar ver.",
+      "nextStep": "Önümüzdeki iki hafta içinde her iki seçeneği de objektif bir şekilde değerlendirmek için zaman ayır.",
+      "keywords": [
+        "yeniden doğuş",
+        "öz-değer",
+        "liderlik"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-06T14:51:00.681Z",
+    "model": "gpt-4o",
+    "structureId": "ppf_v15_story",
+    "hasNextStep": null,
+    "hasJournal": null,
+    "qualityWarns": [],
+    "request": {
+      "language": "tr",
+      "spread": "celestial_illumination",
+      "cards": [
+        {
+          "position": "signal",
+          "name": "Güç",
+          "orientation": "upright"
+        },
+        {
+          "position": "guidance",
+          "name": "Değnek Dörtlüsü",
+          "orientation": "upright"
+        },
+        {
+          "position": "integration",
+          "name": "Kupa Altılısı",
+          "orientation": "upright"
+        }
+      ]
+    },
+    "response": {
+      "title": "Güç·Değnek Dörtlüsü·Kupa Altılısı — Kozmik Aydınlanma",
+      "overall": "Evren, içsel gücünü kutlama ve geçmişin tatlı hatıralarıyla bağ kurmanın önemini vurguluyor. Kozmos seni, dayanıklılıkla dolu bir kutlama dönemine yönlendiriyor.",
+      "celestialMessage": "Evren sana direncinin ve kararlılığının bir kutlama ve birliktelikle ödüllendirileceğini söylüyor. Geçmişin sıcak anılarını hatırlayarak, içsel huzura ulaşabilirsin.",
+      "beats": {
+        "signal": "Evren sana şu işareti gönderiyor: İçindeki güç, tüm zorlukları aşacak kapasitede.",
+        "guidance": "İlahi rehberlik, seni toplulukla birleşmeye ve başarını kutlamaya yönlendiriyor.",
+        "integration": "Bu mesajı hayatına şöyle yansıt: Geçmişteki güzel anıları hatırlayarak anı kutla."
+      },
+      "omenKeywords": [
+        "güç",
+        "kutlama",
+        "hatıra"
+      ],
+      "nextStep": "Sevdiklerinle birlikte bir kutlama düzenle ve bu anın tadını çıkar.",
+      "journal": "Hangi geçmiş anıların seni bugünkü gücüne ulaştırdı?"
+    }
+  },
+  {
+    "timestamp": "2026-03-06T14:52:22.017Z",
+    "model": "gpt-4o",
+    "structureId": "ppf_v15_story",
+    "hasNextStep": null,
+    "hasJournal": null,
+    "qualityWarns": [],
+    "request": {
+      "language": "tr",
+      "spread": "destinys_embrace",
+      "cards": [
+        {
+          "position": "destiny",
+          "name": "Kılıç Sekizlisi",
+          "orientation": "reversed"
+        },
+        {
+          "position": "path",
+          "name": "Kılıç Şövalyesi",
+          "orientation": "upright"
+        },
+        {
+          "position": "union",
+          "name": "Dünya",
+          "orientation": "reversed"
+        }
+      ]
+    },
+    "response": {
+      "title": "Kılıç Sekizlisi·Kılıç Şövalyesi·Dünya — Kaderin Kucağı",
+      "overall": "Bu bağ, içsel blokajların aşılması ve net iletişim çabasını gerektiriyor. Ana gerilim, kişinin kendi sınırlamalarıyla yüzleşmesi ve zihinsel esnekliğini artırması üzerine kurulu. İlişkinin yönü, karşılıklı anlayış ve açık ifadelerle şekillenecek.",
+      "beats": {
+        "destiny": "Kılıç Sekizlisi ters pozisyonda, bu bağın sana özgüven ve içsel güç kazanımını getiriyor. İçsel dirençleri aşmak, ilişkinin ana teması.",
+        "path": "Kılıç Şövalyesi, kararlı ve direkt iletişimin ilişkinin güçlenmesinde belirleyici olduğunu gösteriyor. Açık ve dürüst davranışlar, bağınızı derinleştirebilir.",
+        "union": "Dünya ters pozisyonda, birleşme için içsel tatmin ve bir bütün olma hissi önemli. Kendi değerini tanımlamak birleşme ihtimalini artırabilir."
+      },
+      "nextStep": "Bu hafta, duygularını açıkça ifade etmeye odaklan.",
+      "keywords": [
+        "özgüven",
+        "iletişim",
+        "bütünlük"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-06T14:53:49.324Z",
+    "model": "gpt-4o",
+    "structureId": "ppf_v15_story",
+    "hasNextStep": null,
+    "hasJournal": null,
+    "qualityWarns": [],
+    "request": {
+      "language": "tr",
+      "spread": "wealth_flow",
+      "cards": [
+        {
+          "position": "income",
+          "name": "Kılıç Dörtlüsü",
+          "orientation": "upright"
+        },
+        {
+          "position": "block",
+          "name": "İmparator",
+          "orientation": "upright"
+        },
+        {
+          "position": "resource",
+          "name": "Kupa Kralı",
+          "orientation": "upright"
+        },
+        {
+          "position": "growth",
+          "name": "Kılıç Üçlüsü",
+          "orientation": "upright"
+        },
+        {
+          "position": "balance",
+          "name": "Kılıç Sekizlisi",
+          "orientation": "upright"
+        }
+      ]
+    },
+    "response": {
+      "title": "Kılıç Dörtlüsü·İmparator·Kupa Kralı·Kılıç Üçlüsü·Kılıç Sekizlisi — Finansal Akış",
+      "overall": "Finansal akışın, derin düşünce ve strateji gerektiren bir dönemde. Akışta bir disiplin ve yapı ihtiyacı öne çıkıyor, aynı zamanda duygusal zekanın güçlü bir kaynak olduğu bu süreçte rahatlamak da önem taşıyor.",
+      "flowInsight": "Gelir akışın bir değerlendirme ve yenilenme sürecinde. Bu, yaratıcı stratejiler ve yeni çözümlerle daha verimli hale gelebilir.",
+      "optimization": "Finansal engeller, otorite figürleri veya kurallarla ilişkili olabilir. Bu yapılarla uyum içinde çalışmak, akışın daha pürüzsüz olmasına yardımcı olabilir.",
+      "directionHint": "Duygusal zekanın rehberliğinde, finansal kararlarında daha empatik ve anlayışlı bir yaklaşım öne çıkabilir.",
+      "journal": "Finansal akışımda hangi kurallar veya yapılar beni kısıtlıyor olabilir?"
+    }
+  },
+  {
+    "timestamp": "2026-03-06T16:02:05.376Z",
+    "type": "yes_no_free_v2",
+    "language": "tr",
+    "focusArea": "general",
+    "card": {
+      "name": "Aşıklar",
+      "image": "06_lovers",
+      "orientation": "upright"
+    },
+    "tendency": "belirsiz",
+    "response": {
+      "title": "Aşıklar — Evet / Hayır",
+      "focusArea": "general",
+      "answer": "uncertain",
+      "confidence": 75,
+      "clarityLabel": "Net",
+      "explanation": "Belirsiz; bir kararın eşiğindesin. Cevap kalbinin yöneldiği yerde.",
+      "keywords": [
+        "seçim",
+        "uyum"
+      ],
+      "baseTendency": "belirsiz",
+      "answerMayChange": true,
+      "conditionMessage": "Koşullara göre netleşir"
+    }
   }
 ]

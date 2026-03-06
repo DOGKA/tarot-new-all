@@ -305,7 +305,7 @@
       "createdAt": "2026-03-04T11:26:34.441Z"
     },
     "dev_1772623594408_gro4e2o2": {
-      "gemstoneBalance": 926,
+      "gemstoneBalance": 873,
       "isPremiumSubscriber": false,
       "premiumPlan": null,
       "premiumExpiresAt": null,
@@ -316,7 +316,7 @@
       "birthLatitude": 39.93,
       "birthLongitude": 32.86,
       "natalChart": {
-        "sunSign": "aries",
+        "sunSign": "sagittarius",
         "moonSign": "aries",
         "risingSign": "gemini",
         "elements": {

@@ -1810,21 +1810,20 @@ app.post("/api/reading/free", (req, res) => {
 // CARDS API - Serve tarot card data
 // ============================================
 
-// Load TR cards_history once (history is language-agnostic, written in TR)
-let _cardsHistoryMap = null;
-const getCardsHistoryMap = () => {
-  if (!_cardsHistoryMap) {
+const _cardsHistoryMaps = {};
+const getCardsHistoryMap = (lang = "tr") => {
+  if (!_cardsHistoryMaps[lang]) {
     try {
-      const historyPath = path.join(backendDataPath, "tr", "cards_history.json");
+      const historyPath = path.join(backendDataPath, lang, "cards_history.json");
       const historyData = JSON.parse(fs.readFileSync(historyPath, "utf8"));
-      _cardsHistoryMap = {};
-      historyData.cards.forEach(c => { _cardsHistoryMap[c.image] = c; });
+      _cardsHistoryMaps[lang] = {};
+      historyData.cards.forEach(c => { _cardsHistoryMaps[lang][c.image] = c; });
     } catch (e) {
-      console.warn("[Cards] Could not load cards_history.json:", e.message);
-      _cardsHistoryMap = {};
+      console.warn(`[Cards] Could not load ${lang}/cards_history.json:`, e.message);
+      _cardsHistoryMaps[lang] = {};
     }
   }
-  return _cardsHistoryMap;
+  return _cardsHistoryMaps[lang];
 };
 
 app.get("/api/cards/:language", (req, res) => {
@@ -1838,7 +1837,7 @@ app.get("/api/cards/:language", (req, res) => {
   try {
     const templatePath = path.join(backendDataPath, language, "tarot-template.json");
     const data = JSON.parse(fs.readFileSync(templatePath, "utf8"));
-    const historyMap = getCardsHistoryMap();
+    const historyMap = getCardsHistoryMap(language);
 
     // Normalize suit to English keys — handles Turkish/German/Spanish special chars
     const normalizeSuit = (s) => {

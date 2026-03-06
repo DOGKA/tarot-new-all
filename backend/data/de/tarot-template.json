@@ -511,7 +511,7 @@
       "name": "As der Stäbe",
       "image": "22_ace_wands",
       "arcana": "minor",
-      "number": "As",
+      "number": "Ass",
       "suit": "Stäbe",
       "element": "Feuer",
       "meanings": {
@@ -741,7 +741,7 @@
       "name": "Prinz der Stäbe",
       "image": "32_page_wands",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Bube",
       "suit": "Stäbe",
       "element": "Feuer",
       "meanings": {
@@ -764,7 +764,7 @@
       "name": "Ritter der Stäbe",
       "image": "33_knight_wands",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Ritter",
       "suit": "Stäbe",
       "element": "Feuer",
       "meanings": {
@@ -787,7 +787,7 @@
       "name": "Königin der Stäbe",
       "image": "34_queen_wands",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Königin",
       "suit": "Stäbe",
       "element": "Feuer",
       "meanings": {
@@ -810,7 +810,7 @@
       "name": "König der Stäbe",
       "image": "35_king_wands",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "König",
       "suit": "Stäbe",
       "element": "Feuer",
       "meanings": {
@@ -833,7 +833,7 @@
       "name": "Ass der Kelche",
       "image": "36_ace_cups",
       "arcana": "minor",
-      "number": "As",
+      "number": "Ass",
       "suit": "Kelche",
       "element": "Wasser",
       "meanings": {
@@ -1063,7 +1063,7 @@
       "name": "Bube der Kelche",
       "image": "46_page_cups",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Bube",
       "suit": "Kelche",
       "element": "Wasser",
       "meanings": {
@@ -1086,7 +1086,7 @@
       "name": "Ritter der Kelche",
       "image": "47_knight_cups",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Ritter",
       "suit": "Kelche",
       "element": "Wasser",
       "meanings": {
@@ -1109,7 +1109,7 @@
       "name": "Königin der Kelche",
       "image": "48_queen_cups",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Königin",
       "suit": "Kelche",
       "element": "Wasser",
       "meanings": {
@@ -1132,7 +1132,7 @@
       "name": "König der Kelche",
       "image": "49_king_cups",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "König",
       "suit": "Kelche",
       "element": "Wasser",
       "meanings": {
@@ -1155,7 +1155,7 @@
       "name": "Ass der Schwerter",
       "image": "50_ace_swords",
       "arcana": "minor",
-      "number": "As",
+      "number": "Ass",
       "suit": "Schwerter",
       "element": "Luft",
       "meanings": {
@@ -1385,7 +1385,7 @@
       "name": "Prinz der Schwerter",
       "image": "60_page_swords",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Bube",
       "suit": "Schwerter",
       "element": "Luft",
       "meanings": {
@@ -1408,7 +1408,7 @@
       "name": "Ritter der Schwerter",
       "image": "61_knight_swords",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Ritter",
       "suit": "Schwerter",
       "element": "Luft",
       "meanings": {
@@ -1431,7 +1431,7 @@
       "name": "Königin der Schwerter",
       "image": "62_queen_swords",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Königin",
       "suit": "Schwerter",
       "element": "Luft",
       "meanings": {
@@ -1454,7 +1454,7 @@
       "name": "König der Schwerter",
       "image": "63_king_swords",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "König",
       "suit": "Schwerter",
       "element": "Luft",
       "meanings": {
@@ -1477,7 +1477,7 @@
       "name": "As der Münzen",
       "image": "64_ace_pentacles",
       "arcana": "minor",
-      "number": "As",
+      "number": "Ass",
       "suit": "Münzen",
       "element": "Erde",
       "meanings": {
@@ -1707,7 +1707,7 @@
       "name": "Bube der Münzen",
       "image": "74_page_pentacles",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Bube",
       "suit": "Münzen",
       "element": "Erde",
       "meanings": {
@@ -1730,7 +1730,7 @@
       "name": "Ritter der Münzen",
       "image": "75_knight_pentacles",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Ritter",
       "suit": "Münzen",
       "element": "Erde",
       "meanings": {
@@ -1753,7 +1753,7 @@
       "name": "Königin der Münzen",
       "image": "76_queen_pentacles",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Königin",
       "suit": "Münzen",
       "element": "Erde",
       "meanings": {
@@ -1776,7 +1776,7 @@
       "name": "König der Münzen",
       "image": "77_king_pentacles",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "König",
       "suit": "Münzen",
       "element": "Erde",
       "meanings": {

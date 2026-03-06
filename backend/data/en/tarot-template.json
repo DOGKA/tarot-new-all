@@ -511,7 +511,7 @@
       "name": "Ace of Wands",
       "image": "22_ace_wands",
       "arcana": "minor",
-      "number": "As",
+      "number": "Ace",
       "suit": "wands",
       "element": "fire",
       "meanings": {
@@ -741,7 +741,7 @@
       "name": "Page of Wands",
       "image": "32_page_wands",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Page",
       "suit": "wands",
       "element": "fire",
       "meanings": {
@@ -764,7 +764,7 @@
       "name": "Knight of Wands",
       "image": "33_knight_wands",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Knight",
       "suit": "wands",
       "element": "fire",
       "meanings": {
@@ -787,7 +787,7 @@
       "name": "Queen of Wands",
       "image": "34_queen_wands",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Queen",
       "suit": "wands",
       "element": "fire",
       "meanings": {
@@ -810,7 +810,7 @@
       "name": "King of Wands",
       "image": "35_king_wands",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "King",
       "suit": "wands",
       "element": "fire",
       "meanings": {
@@ -833,7 +833,7 @@
       "name": "Ace of Cups",
       "image": "36_ace_cups",
       "arcana": "minor",
-      "number": "As",
+      "number": "Ace",
       "suit": "cups",
       "element": "water",
       "meanings": {
@@ -1063,7 +1063,7 @@
       "name": "Page of Cups",
       "image": "46_page_cups",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Page",
       "suit": "cups",
       "element": "water",
       "meanings": {
@@ -1086,7 +1086,7 @@
       "name": "Knight of Cups",
       "image": "47_knight_cups",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Knight",
       "suit": "cups",
       "element": "water",
       "meanings": {
@@ -1109,7 +1109,7 @@
       "name": "Queen of Cups",
       "image": "48_queen_cups",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Queen",
       "suit": "cups",
       "element": "water",
       "meanings": {
@@ -1132,7 +1132,7 @@
       "name": "King of Cups",
       "image": "49_king_cups",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "King",
       "suit": "cups",
       "element": "water",
       "meanings": {
@@ -1155,7 +1155,7 @@
       "name": "Ace of Swords",
       "image": "50_ace_swords",
       "arcana": "minor",
-      "number": "As",
+      "number": "Ace",
       "suit": "swords",
       "element": "air",
       "meanings": {
@@ -1385,7 +1385,7 @@
       "name": "Page of Swords",
       "image": "60_page_swords",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Page",
       "suit": "swords",
       "element": "air",
       "meanings": {
@@ -1408,7 +1408,7 @@
       "name": "Knight of Swords",
       "image": "61_knight_swords",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Knight",
       "suit": "swords",
       "element": "air",
       "meanings": {
@@ -1431,7 +1431,7 @@
       "name": "Queen of Swords",
       "image": "62_queen_swords",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Queen",
       "suit": "swords",
       "element": "air",
       "meanings": {
@@ -1454,7 +1454,7 @@
       "name": "King of Swords",
       "image": "63_king_swords",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "King",
       "suit": "swords",
       "element": "air",
       "meanings": {
@@ -1477,7 +1477,7 @@
       "name": "Ace of Pentacles",
       "image": "64_ace_pentacles",
       "arcana": "minor",
-      "number": "As",
+      "number": "Ace",
       "suit": "pentacles",
       "element": "earth",
       "meanings": {
@@ -1707,7 +1707,7 @@
       "name": "Page of Pentacles",
       "image": "74_page_pentacles",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Page",
       "suit": "pentacles",
       "element": "earth",
       "meanings": {
@@ -1730,7 +1730,7 @@
       "name": "Knight of Pentacles",
       "image": "75_knight_pentacles",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Knight",
       "suit": "pentacles",
       "element": "earth",
       "meanings": {
@@ -1753,7 +1753,7 @@
       "name": "Queen of Pentacles",
       "image": "76_queen_pentacles",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Queen",
       "suit": "pentacles",
       "element": "earth",
       "meanings": {
@@ -1776,7 +1776,7 @@
       "name": "King of Pentacles",
       "image": "77_king_pentacles",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "King",
       "suit": "pentacles",
       "element": "earth",
       "meanings": {

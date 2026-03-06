@@ -10,6 +10,7 @@ import { useApp } from "../context/AppContext";
 import { GradientBackground, Moon3D, Planet3D, Zodiac3D, StarField, GemstoneIcon } from "../components/ui";
 import { getMoonIllumination } from "../utils/moon";
 import { LinearGradient } from "expo-linear-gradient";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { BlurView } from "expo-blur";
 import type { Language } from "../types/tarot";
 import type { MoonSlot, MoonApiResponse } from "../utils/moon";
@@ -163,16 +164,16 @@ export default function WelcomeScreen() {
     return null;
   };
 
-  const SUIT_EMOJI: Record<string, string> = { fire: "🔥", water: "💧", air: "⚡", earth: "🌿" };
+  const SUIT_ICON: Record<string, string> = { fire: "magic-staff", water: "cup", air: "sword-cross", earth: "star-four-points" };
   const SUIT_COLORS_MAP: Record<string, [string, string]> = {
     fire:  ["rgba(251,146,60,0.7)",  "rgba(160,50,0,0.95)"],
     water: ["rgba(56,189,248,0.7)",  "rgba(0,70,150,0.95)"],
     air:   ["rgba(148,163,184,0.7)", "rgba(20,40,70,0.95)"],
     earth: ["rgba(74,222,128,0.7)",  "rgba(0,70,25,0.95)"],
   };
-  const SUIT_LABEL: Record<string, string> = { fire: "Değnekler", water: "Kupalar", air: "Kılıçlar", earth: "Tılsımlar" };
+  const SUIT_LABEL: Record<string, string> = { fire: t("suitWands"), water: t("suitCups"), air: t("suitSwords"), earth: t("suitPentacles") };
 
-  const getCardEmoji  = (suit: string | null) => suit ? (SUIT_EMOJI[getSuitType(suit) || ""] || "✦") : "✦";
+  const getCardIcon = (suit: string | null): string => suit ? (SUIT_ICON[getSuitType(suit) || ""] || "cards-outline") : "cards-outline";
   const getCardColors = (suit: string | null): [string, string] => suit
     ? (SUIT_COLORS_MAP[getSuitType(suit) || ""] || ["rgba(168,85,247,0.7)", "rgba(40,10,60,0.95)"])
     : ["rgba(168,85,247,0.7)", "rgba(40,10,60,0.95)"];
@@ -204,14 +205,13 @@ export default function WelcomeScreen() {
       .map(suit => {
         const suitType = getSuitType(suit);
         const label = suitType ? (SUIT_LABEL[suitType] || suit) : suit;
-        const emoji = SUIT_EMOJI[suitType || ""] || "✦";
-        return { suit, suitType, label, emoji, cards: suitMap[suit] };
+        const icon = SUIT_ICON[suitType || ""] || "cards-outline";
+        return { suit, suitType, label, icon, cards: suitMap[suit] };
       });
   }, [minorArcanaCards]);
 
   const renderMasaCard = (card: TarotCardData) => {
     const colors = getCardColors(card.suit);
-    const emoji = getCardEmoji(card.suit);
     return (
       <TouchableOpacity
         key={String(card.id)}
@@ -220,7 +220,7 @@ export default function WelcomeScreen() {
         onPress={() => { setSelectedCard(card); setCardDetailOrientation("upright"); loadCardHistory(card.image); }}
       >
         <LinearGradient colors={colors} style={styles.masaCardTile} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }}>
-          <Text style={styles.masaCardEmoji}>{emoji}</Text>
+          <MaterialCommunityIcons name="cards-outline" size={24} color="rgba(255,255,255,0.7)" />
           {card.number ? <Text style={styles.masaCardNumber}>{card.number}</Text> : null}
         </LinearGradient>
         <Text style={styles.masaCardName} numberOfLines={2}>{card.name}</Text>
@@ -871,10 +871,7 @@ export default function WelcomeScreen() {
         {/* ═══ TAROT MASASI ═══ */}
         <View style={styles.masaSection}>
           <View style={styles.masaHeader}>
-            <Text style={styles.masaTitle}>✨ Tarot Masası</Text>
-            {tarotMasaCards.length > 0 && (
-              <Text style={styles.masaSubtitle}>{tarotMasaCards.length} kart</Text>
-            )}
+            <Text style={styles.masaTitle}>Tarot Masası</Text>
           </View>
 
           {tarotMasaLoading && (
@@ -885,7 +882,10 @@ export default function WelcomeScreen() {
         {/* ── Büyük Arkana ── */}
         {majorArcanaCards.length > 0 && (
           <View style={{ alignSelf: "stretch", marginBottom: 20 }}>
-            <Text style={styles.masaGroupLabel}>✦ Büyük Arkana</Text>
+            <View style={{ flexDirection: "row", alignItems: "center", gap: 6, marginBottom: 8 }}>
+              <MaterialCommunityIcons name="star-four-points-outline" size={16} color="rgba(255,255,255,0.55)" />
+              <Text style={[styles.masaGroupLabel, { marginBottom: 0 }]}>{t("majorArcana")}</Text>
+            </View>
             <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 4, gap: 10 }}>
               {majorArcanaCards.map(renderMasaCard)}
             </ScrollView>
@@ -895,15 +895,19 @@ export default function WelcomeScreen() {
         {/* ── Küçük Arkana ── */}
         {minorArcanaSuits.length > 0 && (
           <View style={{ alignSelf: "stretch", marginTop: 12, marginBottom: 4 }}>
-            <Text style={styles.masaGroupLabel}>✦ Küçük Arkana</Text>
+            <View style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
+              <MaterialCommunityIcons name="cards-outline" size={16} color="rgba(255,255,255,0.55)" />
+              <Text style={[styles.masaGroupLabel, { marginBottom: 0 }]}>{t("minorArcana")}</Text>
+            </View>
           </View>
         )}
 
-        {minorArcanaSuits.map(({ suit, emoji, label, cards }) => (
+        {minorArcanaSuits.map(({ suit, icon, label, cards }) => (
           <View key={suit} style={{ alignSelf: "stretch", marginBottom: 20 }}>
-            <Text style={[styles.masaGroupLabel, { fontSize: 13, paddingLeft: 8, opacity: 0.85, marginBottom: 8 }]}>
-              {emoji} {label}
-            </Text>
+            <View style={{ flexDirection: "row", alignItems: "center", gap: 6, paddingLeft: 8, marginBottom: 8 }}>
+              <MaterialCommunityIcons name={icon as any} size={14} color="rgba(255,255,255,0.5)" />
+              <Text style={[styles.masaGroupLabel, { fontSize: 13, opacity: 0.85, marginBottom: 0 }]}>{label}</Text>
+            </View>
             <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 4, gap: 10 }}>
               {cards.map(renderMasaCard)}
             </ScrollView>
@@ -939,15 +943,15 @@ export default function WelcomeScreen() {
                       swords:    ["rgba(148,163,184,0.6)", "rgba(30,50,80,0.9)"],
                       pentacles: ["rgba(74,222,128,0.6)",  "rgba(0,80,30,0.9)"],
                     };
-                    const SUIT_EMOJI: Record<string, string> = { wands: "🔥", cups: "💧", swords: "⚡", pentacles: "🌿" };
+                    const SUIT_ICON_MAP: Record<string, string> = { wands: "magic-staff", cups: "cup", swords: "sword-cross", pentacles: "star-four-points" };
                     const cc = selectedCard.suit ? SUIT_COLORS[selectedCard.suit] || ["rgba(168,85,247,0.6)", "rgba(40,10,60,0.9)"] : ["rgba(168,85,247,0.6)", "rgba(40,10,60,0.9)"];
-                    const emoji = selectedCard.suit ? SUIT_EMOJI[selectedCard.suit] || "✦" : "✦";
-                    const SUIT_TR: Record<string, string> = { wands: "Değnekler", cups: "Kupalar", swords: "Kılıçlar", pentacles: "Pentaklar" };
-                    const suitLabel = selectedCard.arcana === "major" ? "Büyük Arkana" : (selectedCard.suit ? SUIT_TR[selectedCard.suit] || selectedCard.suit : "");
+                    const iconName = selectedCard.suit ? SUIT_ICON_MAP[selectedCard.suit] || "cards-outline" : "cards-outline";
+                    const SUIT_I18N: Record<string, string> = { wands: t("suitWands"), cups: t("suitCups"), swords: t("suitSwords"), pentacles: t("suitPentacles") };
+                    const suitLabel = selectedCard.arcana === "major" ? t("majorArcana") : (selectedCard.suit ? SUIT_I18N[selectedCard.suit] || selectedCard.suit : "");
                     return (
                       <View style={styles.cardModalHero}>
                         <LinearGradient colors={cc as [string, string]} style={styles.cardModalImage} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }}>
-                          <Text style={{ fontSize: 32, textAlign: "center" }}>{emoji}</Text>
+                          <MaterialCommunityIcons name={iconName as any} size={32} color="rgba(255,255,255,0.7)" />
                           {selectedCard.number ? <Text style={{ color: "rgba(255,255,255,0.7)", fontSize: 13, fontWeight: "800", textAlign: "center", marginTop: 8 }}>{selectedCard.number}</Text> : null}
                         </LinearGradient>
                         <View style={styles.cardModalMeta}>
@@ -964,15 +968,15 @@ export default function WelcomeScreen() {
                   {/* Tarih & Sembolizm — herkese açık */}
                   {selectedCard.history && (
                     <View style={styles.cardModalHistoryBox}>
-                      <Text style={styles.cardModalHistoryLabel}>Tarih & Sembolizm</Text>
+                      <Text style={styles.cardModalHistoryLabel}>{t("historySymbolism")}</Text>
                       <Text style={styles.cardModalHistoryText}>{selectedCard.history}</Text>
                     </View>
                   )}
 
                   {/* Genel Anlam — herkese açık, düz/ters toggle */}
                   <View style={styles.cardModalHistoryBox}>
-                    <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
-                      <Text style={styles.cardModalHistoryLabel}>Genel Anlam</Text>
+                    <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", rowGap: 8, marginBottom: 12 }}>
+                      <Text style={[styles.cardModalHistoryLabel, { marginRight: 8 }]}>{t("generalMeaning")}</Text>
                       <View style={{ flexDirection: "row", gap: 6 }}>
                         {(["upright", "reversed"] as const).map(o => (
                           <TouchableOpacity
@@ -981,7 +985,7 @@ export default function WelcomeScreen() {
                             onPress={() => setCardDetailOrientation(o)}
                           >
                             <Text style={[styles.cardModalOrientText, cardDetailOrientation === o && { color: "#fff" }]}>
-                              {o === "upright" ? "Düz" : "Ters"}
+                              {t(o)}
                             </Text>
                           </TouchableOpacity>
                         ))}
@@ -994,15 +998,15 @@ export default function WelcomeScreen() {
 
                   {/* Kart Geçmişi — herkese açık, AsyncStorage'dan */}
                   <View style={styles.cardModalHistoryBox}>
-                    <Text style={styles.cardModalHistoryLabel}>Bu Kart Sende</Text>
+                    <Text style={styles.cardModalHistoryLabel}>{t("yourCardHistory")}</Text>
                     {cardDrawHistory.length === 0 ? (
                       <Text style={{ fontSize: 13, color: "rgba(255,255,255,0.35)", fontStyle: "italic" }}>
-                        Bu kart henüz açılmadı.
+                        {t("cardNotDrawn")}
                       </Text>
                     ) : (
                       <>
                         <Text style={{ fontSize: 13, color: "#a78bfa", fontWeight: "700", marginBottom: 10 }}>
-                          {cardDrawHistory.length} kez çıktı
+                          {t("timesDrawn", { count: cardDrawHistory.length })}
                         </Text>
                         {cardDrawHistory.slice(0, 5).map((r, i) => (
                           <View key={i} style={{ paddingVertical: 8, borderBottomWidth: i < Math.min(cardDrawHistory.length, 5) - 1 ? 1 : 0, borderBottomColor: "rgba(255,255,255,0.06)" }}>
@@ -1011,7 +1015,7 @@ export default function WelcomeScreen() {
                                 {SPREAD_LABELS[r.spreadType] || r.spreadType}
                               </Text>
                               <Text style={{ fontSize: 11, color: "rgba(255,255,255,0.3)" }}>
-                                {new Date(r.date).toLocaleDateString("tr-TR", { day: "2-digit", month: "2-digit", year: "2-digit" })}
+                                {new Date(r.date).toLocaleDateString(language === "tr" ? "tr-TR" : language === "de" ? "de-DE" : language === "es" ? "es-ES" : "en-US", { day: "2-digit", month: "2-digit", year: "2-digit" })}
                               </Text>
                             </View>
                             <View style={{ flexDirection: "row", gap: 8 }}>
@@ -1019,7 +1023,7 @@ export default function WelcomeScreen() {
                                 {FOCUS_LABELS[r.focusArea] || r.focusArea}
                               </Text>
                               <Text style={{ fontSize: 11, color: r.orientation === "upright" ? "#4ade80" : "#f87171", fontWeight: "700" }}>
-                                {r.orientation === "upright" ? "● Düz" : "● Ters"}
+                                {r.orientation === "upright" ? `● ${t("upright")}` : `● ${t("reversed")}`}
                               </Text>
                             </View>
                           </View>

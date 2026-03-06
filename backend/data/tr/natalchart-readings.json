@@ -1,17 +1,17 @@
 {
   "readings": {
     "dev_1772623594408_gro4e2o2": {
-      "createdAt": "2026-03-05T13:04:39.970Z",
+      "createdAt": "2026-03-06T14:32:22.058Z",
       "lang": "tr",
       "interpretation": {
-        "title": "Duygusal Derinlik ve Denge",
+        "title": "Duygusal Labirent",
         "coreSelf": {
-          "headline": "Estetik İçinde Denge Arayışı",
-          "body": "Dışarıya zarif ve dengeli bir insan olarak görünüyorsun, her zaman uyum ve estetik peşindesin. Ancak iç dünyanda sürekli olarak duygularını ve ilişkilerini dengelemeye çalışıyorsun. Dördüncü evindeki Ay ve Venüs’ün etkisiyle, ev ve aile konularında duygusal bağlar kurma ihtiyacı duyarsın. Beşinci evdeki Güneş ise, yaratıcı ve eğlenceli yanını öne çıkarıyor. Sevdiklerine karşı cömertçe zaman ayırıyor, sanat ve eğlenceyle dolu bir yaşam sürdürmeyi önemseyebilirsin."
+          "headline": "Dengede Duygusal Derinlik",
+          "body": "Dışarıdan bakıldığında, sıcak ve davetkâr bir insan gibi görünüyorsun. İnsanlar seni sosyal ve anlaşılır biri olarak algılıyorlar, fakat içsel dünyanda sürekli bir denge arayışı içerisindesin. Evde zaman geçirmeyi ve sevdiklerine odaklanmayı önemsiyorsun. Yaratıcılığın ve iletişim becerilerinle dikkat çekiyorsun, fakat bazen kendi duygusal labirentinde kaybolabiliyorsun. Karar alırken, başkalarını da hesaba katan bir yapın var."
         },
         "ascendant": {
-          "headline": "Duygusal ve Şefkatli",
-          "body": "Yengeç burcu yükselenin sayesinde, insanlara içten ve şefkatli bir izlenim bırakıyorsun. İlk tanıştıklarında seni koruyucu ve duyarlı biri olarak algılıyorlar. Yabancılar, sıcak ve samimi enerjini hemen fark ediyor."
+          "headline": "Duygusal ve Koruyucu",
+          "body": "Dışarıdan ilk bakışta şefkatli ve koruyucu bir izlenim veriyorsun. Fiziksel enerjin, başkalarını rahatlatan bir sıcaklık yayıyor. Yabancılar seni nazik ve güven verici biri olarak algılıyor."
         },
         "planets": [
           {
@@ -19,79 +19,79 @@
             "symbol": "☿",
             "sign": "Akrep",
             "house": 5,
-            "headline": "Derinlemesine Düşünce Yapısı",
-            "body": "Zor konuşmalarda, olayların özüne inme eğilimindesin. Bir sorunla karşılaştığında, 10 dakika sonra çözüm önerisiyle masaya dönebiliyorsun. Yaratıcı projelerde detaycı düşüncenle diğerlerinden farklı bir bakış açısı sunuyorsun."
+            "headline": "Keskin Gözlemci",
+            "body": "Zihinsel olarak çok derinlere dalabilirsin ve sohbetlerinde sıkça alttan alta derin mesajlar verirsin. Eğlenceli ortamlarda bile detayları kaçırmaz, insanları çözümlemeye çalışırsın. Yaratıcılık gerektiren konularda gizemli bir yaklaşımla özgün çözümler getirirsin."
           },
           {
             "planet": "venus",
             "symbol": "♀",
             "sign": "Terazi",
             "house": 4,
-            "headline": "Uyumlu Aile İlişkileri",
-            "body": "Dördüncü evdeki Venüs, ev ve aile içinde huzur ve uyumu arayan bir yapıya sahip olduğuna işaret ediyor. Evin, senin için bir sığınak, estetik ve barış aradığın bir yer. Sevdiklerinle zaman geçirirken, onların mutlu ve huzurlu olduğunu görmek seni de mutlu ediyor."
+            "headline": "Uyum Arayıcısı",
+            "body": "Aile yaşamında huzur ve denge senin için vazgeçilmez. Evin içinde estetik ve uyum yaratmak için çabalarsın, bu da sevdiklerinle ilişkilerini sağlamlaştırır. Zaman zaman sevdiklerinle aranda oluşabilecek gerilimleri tatlı dilinle çözersin."
           },
           {
             "planet": "mars",
             "symbol": "♂",
             "sign": "Akrep",
             "house": 5,
-            "headline": "Tutkulu Yaratıcılık",
-            "body": "Beşinci evdeki Mars, yaratıcı projelere tutkulu bir şekilde yaklaşmanı sağlıyor. Enerjini sanat ve hobilerine kanalize ediyorsun ve bu alanda rekabetçi bir yaklaşım sergiliyorsun. Hobilerinle ilgili yeni bir şey öğrendiğinde, tüm enerjini bu yeni bilgiye adıyorsun."
+            "headline": "Tutkulu İfade",
+            "body": "Kendini ifade ederken büyük bir tutku gösterirsin. Yaratıcılığın ve enerjinle dikkat çekersin, sahnede veya bir proje içinde kendini gösterdiğinde çevrendekileri büyüleyebilirsin. Kimi zaman rekabetçi bir ruhla hareket edebilir, bu da seni daha ileriye taşır."
           },
           {
             "planet": "jupiter",
             "symbol": "♃",
             "sign": "Yengeç",
             "house": 1,
-            "headline": "Koruyucu ve Cömert Enerji",
-            "body": "Jüpiter'in birinci evindeki konumu, seni cömert, sevecen ve koruyucu bir kişi yapıyor. İnsanlar, seninle birlikteyken kendilerini güvende hissederler. Geniş bir çevre edinmeyi ve insanları bir araya getirmeyi seviyorsun."
+            "headline": "Koruyucu Şans",
+            "body": "İnsanlar seni doğal bir lider olarak görürler ve senin etrafında toplanmak isterler. Şansın genellikle ailevi ve ev konularında yanında olur. Kendini koruma altında hissettiğin anlarda diğerlerine de aynı güveni aşılayabilirsin."
           },
           {
             "planet": "saturn",
             "symbol": "♄",
             "sign": "Balık",
             "house": 10,
-            "headline": "İçsel Sorumluluk ve Kariyer",
-            "body": "Onuncu evdeki Satürn, kariyerinle ilgili sorumluluk bilincini artırıyor. İçsel süreçlerinde, mesleki hedeflerinle ilgili derin düşünceler ve yeniden değerlendirmeler yapıyorsun. Geleceğini planlarken, daha dikkatli ve sistemli hareket etme eğilimindesin."
+            "headline": "Kariyer Yolunda İçsel Sorgulama",
+            "body": "Kariyer hayatında zaman zaman içsel bir sorgulama yaşarsın. Toplum önünde kendini nasıl daha iyi ifade edebileceğin üzerine düşünür, içindeki yaratıcı potansiyeli hayata geçirmeye çalışırsın. Ancak, bu süreç bazen yavaş ilerleyebilir."
           }
         ],
         "retrogrades": {
-          "headline": "İçsel Yolculuk ve Yeniden Değerlendirme",
-          "body": "Satürn'ün retrograde konumu, kariyerinde ve toplum içindeki duruşunda gecikmelere ve içsel sorgulamalara yol açabilir. Uranüs'ün retro etkisi, arkadaş çevren ve sosyal gruplarla ilgili yenilikçi düşüncelerini yeniden değerlendirmeni sağlıyor. Neptün retrograde, hayallerin ve uzun vadeli hedeflerin üzerinde tekrar düşünmeni gerektiriyor ve bu alanda zaman zaman belirsizlikler yaşayabilirsin."
+          "headline": "İçsel Gerçeklikler",
+          "body": "Satürn retrosu, kariyerinde ve toplumsal algılarında içsel bir değerlendirme süreci geçirmen gerektiğini işaret eder. Uranüs retrosu, arkadaş çevren ve sosyal gruplar içerisindeki yenilikçi fikirlerini uygulamadan önce yeniden değerlendirme ihtiyacını gösterir. Neptün retrosu ise kariyerinde hayallerinle gerçekler arasında bir denge kurma çabanı yansıtır."
         },
         "aspects": [
           {
             "pair": "☽moon-♀venus",
             "type": "conjunction",
             "headline": "Duygusal Harmoni",
-            "body": "Ay ve Venüs’ün birleşimi, duygusal ilişkilerinde empati ve uyumu ön plana çıkarıyor. Sevdiklerinle olan bağların çok güçlü, onlara karşı derin bir anlayış geliştiriyorsun. Duygusal anlarda, çevrendekilere sevgi dolu ve destekleyici bir şekilde yaklaşabilirsin."
+            "body": "Duygularınla estetik anlayışın arasında güçlü bir uyum var. Bu yüzden sanatla veya güzelliklerle ilgili konularda derin bir anlayış geliştirebilirsin. Sevdiklerine karşı oldukça şefkatli ve sevecen davranışlar sergilersin."
           },
           {
             "pair": "☿mercury-♂mars",
             "type": "conjunction",
-            "headline": "Keskin Zeka ve Hareket",
-            "body": "Merkür ve Mars’ın birleşimi, düşüncelerinde hızlı ve etkili kararlar almanı sağlıyor. Tartışmalarda hızlı cevaplar verir, zekanla karşı tarafı etkileyebilirsin. İkna edici konuşmalar yaparak, hedeflerine kolayca ulaşabilirsin."
+            "headline": "Tutkulu İletişim",
+            "body": "Konuşmalarında kararlı ve net bir tutum sergilersin. Bu, seni bazen iddialı bir tartışmacı haline getirebilir. Fikirlerini savunurken oldukça cesur ve etkili olursun."
           },
           {
             "pair": "♀venus-square-ASCasc",
             "type": "square",
-            "headline": "Görünüş ve Estetik Çelişkisi",
-            "body": "Venüs ve yükselen burcun arasındaki gerilim, dış görünüşünle ilgili bazı içsel çatışmalar yaşayabileceğini gösteriyor. Bazen kendini yeterince estetik bulmayabilir ve bu konudaki eleştiriler seni daha fazla etkileyebilir."
+            "headline": "Güzellik ve Algı Çatışması",
+            "body": "Kendini ifade ederken nasıl göründüğün üzerine güçlü bir hassasiyetin var. Dışarıdan gelen tepkilere karşı duyarlı olabilirsin ve bu, zaman zaman çekingen davranmana sebep olabilir."
           },
           {
-            "pair": "♂mars-trine-☊north_node",
+            "pair": "☿mercury-trine-☊north_node",
             "type": "trine",
-            "headline": "Geleceğe Uyumlu Enerji",
-            "body": "Mars ve Kuzey Düğüm'ün uyumlu açısı, yaşam yolculuğunda enerjini doğru yönlendirdiğini gösterir. Hedeflerine ulaşmak için doğal bir motivasyona sahipsin ve geleceğe yönelik adımlarında kendine güveniyorsun."
+            "headline": "Kaderle Uyumlu İletişim",
+            "body": "İletişim becerilerin, hayat amacına ulaşmanda önemli bir rol oynar. Zihinsel esnekliğin sayesinde doğru insanlarla bağlantı kurarak geleceğine yön verebilirsin."
           }
         ],
         "houseEmphasis": {
-          "headline": "Kreatif ve Kişisel Gelişim",
-          "body": "Beşinci evdeki gezegen yoğunluğu, yaratıcı projeler ve kişisel gelişim alanında yoğun bir odaklanma olduğunu gösteriyor. Bu alanlarda kendini ifade etme ve yaratıcılığını sergileme ihtiyacı hissediyorsun. Kendi yeteneklerini keşfetmek ve sevdiklerinle paylaşmak yaşamında önemli bir yer tutuyor."
+          "headline": "Yaratıcılık ve Aile Hayatı",
+          "body": "Beşinci evindeki yoğunluk, yaratıcı projelere ve kendini ifade etmeye odaklanmanı sağlıyor. Aile hayatında huzur ve dengenin önemli olduğunu gösteren dördüncü evdeki yoğunluk ise, içsel dünyanda huzur bulmanı sağlıyor."
         },
         "nodeAxis": {
-          "headline": "Aileden Topluma Doğru",
-          "body": "Güney Düğüm Başak burcunda ve dördüncü evde, geçmişte ailevi sorumluluklar ve detaylara takılmayla ilgili kalıpların olduğunu gösteriyor. Kuzey Düğüm Balık'ta ve onuncu evde, toplumsal alanda daha esnek ve sezgisel bir yaklaşım geliştirmen gerekiyor. Kariyerinde hayallerini gerçekleştirirken, iç sesini dinlemek ve akışta kalmak sana fayda sağlayacak."
+          "headline": "Aileden Topluma",
+          "body": "Geçmişte aile odaklı bir yaşam sürmüş olabilirsin, ama şimdi toplumsal alanda kendi yerini bulma vakti. Kariyer ve toplumsal algı üzerinde daha fazla odaklanarak, kişisel gelişimini tamamlayabilirsin. Aileden kazandığın değerleri, topluma katkı sağlamak için kullanabilirsin."
         },
         "elements": {
           "dominant": "water",
@@ -99,24 +99,24 @@
           "earth": 1,
           "air": 8,
           "water": 11,
-          "summary": "Su elementinin baskınlığı, seni son derece duygusal ve sezgisel bir insan yapıyor. Derin duyguların ve empati yeteneğin, başkalarını anlama ve destekleme konusunda seni öne çıkarıyor."
+          "summary": "Su elementi baskın olduğundan, duygusal derinliğin ve empati yeteneğin oldukça gelişmiştir. Bu, seni başkalarını anlamada ve onlara destek olmada eşsiz kılar."
         },
-        "lifeMission": "Duygusal derinliğini ve yaratıcılığını toplumsal alanlarda ifade etmek, senin için hayati önem taşıyor. Ailevi bağlarından aldığın güçle, kariyerinde ve kişisel gelişim yolculuğunda önemli adımlar atabilirsin.",
+        "lifeMission": "Duygusal zekanı ve yaratıcı yeteneklerini kullanarak topluma katkı sağlamak senin için önemli. İç dünyanı dengeleyerek kariyerinde ve sosyal çevrende kalıcı izler bırakabilirsin.",
         "strengths": [
-          "İlişkilerinde derin empati ve anlayış",
-          "Yaratıcı projelerde tutkulu ve enerjik yaklaşım",
-          "Zor durumlarda hızlı ve etkili karar verme",
-          "Geniş sosyal çevrelerde cömert ve koruyucu tavır",
-          "Kariyer hedeflerinde sorumluluk bilinci"
+          "Duygusal derinlik ve empati yeteneği.",
+          "Güçlü iletişim becerileri ve ikna kabiliyeti.",
+          "Yaratıcı projelerdeki başarın.",
+          "Ailevi değerleri koruma ve yaşatma isteği.",
+          "Başkalarına ilham verebilme özelliği."
         ],
         "challenges": [
-          "Dış görünüşünle ilgili içsel çatışmalar",
-          "Kariyerdeki belirsizlikler ve gecikmeler",
-          "Ailevi detaylara fazla takılma eğilimi",
-          "Duygusal anlarda aşırı hassasiyet",
-          "Toplum içinde daha fazla özgüven ihtiyacı"
+          "Kendi duygusal ihtiyaçlarını ihmal etme eğilimi.",
+          "Dışarıdan gelen eleştirilere karşı hassasiyet.",
+          "Kariyer hedeflerinde belirsizlik hissi.",
+          "Yaratıcı blokajlar yaşama riski.",
+          "Çok fazla düşünmekten dolayı karar alma zorluğu."
         ],
-        "advice": "Duygusal zekanı ve sezgilerini kullanarak, kariyer hedeflerine ulaşmanda içsel rehberliğini dinlemelisin. Yaratıcılığını ve empati yeteneğini topluma katkı sağlamak için kullan. Aileden aldığın değerlerle, toplumsal alanda daha esnek olmayı öğrenebilirsin."
+        "advice": "Duygularını ve sezgilerini dinleyerek hareket et. Toplumsal rolünü belirlerken içsel dengeni korumaya özen göster. Bu süreçte kendini keşfederken sabırlı ol ve her anın tadını çıkar."
       }
     }
   }

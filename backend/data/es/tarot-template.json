@@ -741,7 +741,7 @@
       "name": "Sota de Bastos",
       "image": "32_page_wands",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Sota",
       "suit": "Bastos",
       "element": "Fuego",
       "meanings": {
@@ -764,7 +764,7 @@
       "name": "Caballo de Bastos",
       "image": "33_knight_wands",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Caballero",
       "suit": "Bastos",
       "element": "Fuego",
       "meanings": {
@@ -787,7 +787,7 @@
       "name": "Reina de Bastos",
       "image": "34_queen_wands",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Reina",
       "suit": "Bastos",
       "element": "Fuego",
       "meanings": {
@@ -810,7 +810,7 @@
       "name": "Rey de Bastos",
       "image": "35_king_wands",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "Rey",
       "suit": "Bastos",
       "element": "Fuego",
       "meanings": {
@@ -1063,7 +1063,7 @@
       "name": "Sota de Copas",
       "image": "46_page_cups",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Sota",
       "suit": "Copas",
       "element": "Agua",
       "meanings": {
@@ -1086,7 +1086,7 @@
       "name": "Caballo de Copas",
       "image": "47_knight_cups",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Caballero",
       "suit": "Copas",
       "element": "Agua",
       "meanings": {
@@ -1109,7 +1109,7 @@
       "name": "Reina de Copas",
       "image": "48_queen_cups",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Reina",
       "suit": "Copas",
       "element": "Agua",
       "meanings": {
@@ -1132,7 +1132,7 @@
       "name": "Rey de Copas",
       "image": "49_king_cups",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "Rey",
       "suit": "Copas",
       "element": "Agua",
       "meanings": {
@@ -1385,7 +1385,7 @@
       "name": "Sota de Espadas",
       "image": "60_page_swords",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Sota",
       "suit": "Espadas",
       "element": "Aire",
       "meanings": {
@@ -1408,7 +1408,7 @@
       "name": "Caballo de Espadas",
       "image": "61_knight_swords",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Caballero",
       "suit": "Espadas",
       "element": "Aire",
       "meanings": {
@@ -1431,7 +1431,7 @@
       "name": "Reina de Espadas",
       "image": "62_queen_swords",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Reina",
       "suit": "Espadas",
       "element": "Aire",
       "meanings": {
@@ -1454,7 +1454,7 @@
       "name": "Rey de Espadas",
       "image": "63_king_swords",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "Rey",
       "suit": "Espadas",
       "element": "Aire",
       "meanings": {
@@ -1707,7 +1707,7 @@
       "name": "Sota de Oros",
       "image": "74_page_pentacles",
       "arcana": "minor",
-      "number": "Prens",
+      "number": "Sota",
       "suit": "Oros",
       "element": "Tierra",
       "meanings": {
@@ -1730,7 +1730,7 @@
       "name": "Caballo de Oros",
       "image": "75_knight_pentacles",
       "arcana": "minor",
-      "number": "Şövalye",
+      "number": "Caballero",
       "suit": "Oros",
       "element": "Tierra",
       "meanings": {
@@ -1753,7 +1753,7 @@
       "name": "Reina de Oros",
       "image": "76_queen_pentacles",
       "arcana": "minor",
-      "number": "Kraliçe",
+      "number": "Reina",
       "suit": "Oros",
       "element": "Tierra",
       "meanings": {
@@ -1776,7 +1776,7 @@
       "name": "Rey de Oros",
       "image": "77_king_pentacles",
       "arcana": "minor",
-      "number": "Kral",
+      "number": "Rey",
       "suit": "Oros",
       "element": "Tierra",
       "meanings": {
