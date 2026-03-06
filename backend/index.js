@@ -1840,20 +1840,29 @@ app.get("/api/cards/:language", (req, res) => {
     const data = JSON.parse(fs.readFileSync(templatePath, "utf8"));
     const historyMap = getCardsHistoryMap();
 
-    // Normalize suit to English keys regardless of template language
-    const SUIT_NORMALIZE: Record<string, string> = {
-      "değnek": "wands", "degnek": "wands", "asa": "wands",
-      "kupa": "cups", "kopa": "cups",
-      "kılıç": "swords", "kilic": "swords", "espada": "swords",
-      "tılsım": "pentacles", "tilsim": "pentacles", "pentaculos": "pentacles",
-      "wands": "wands", "cups": "cups", "swords": "swords", "pentacles": "pentacles",
-      "stäbe": "wands", "stabe": "wands", "kelche": "cups", "schwerter": "swords", "münzen": "pentacles", "munzen": "pentacles",
+    // Normalize suit to English keys — handles Turkish/German/Spanish special chars
+    const normalizeSuit = (s) => {
+      if (!s) return null;
+      const v = s.toLowerCase()
+        .replace(/\u011f/g, "g")  // ğ
+        .replace(/\u0131/g, "i")  // ı (dotless i)
+        .replace(/\u015f/g, "s")  // ş
+        .replace(/\u00e7/g, "c")  // ç
+        .replace(/\u00f6/g, "o")  // ö
+        .replace(/\u00fc/g, "u")  // ü
+        .replace(/\u00e4/g, "a")  // ä
+        .replace(/\u00e9/g, "e"); // é
+      if (v === "wands"    || v === "degnek"  || v === "asa"    || v === "stabe"  || v.startsWith("wand"))  return "wands";
+      if (v === "cups"     || v === "kupa"    || v === "kopa"   || v === "kelche" || v.startsWith("cup"))   return "cups";
+      if (v === "swords"   || v === "kilic"   || v === "espadas"|| v === "schwerter" || v.startsWith("sword")) return "swords";
+      if (v === "pentacles"|| v === "tilsim"  || v === "para"   || v === "munzen" || v === "oros" || v.startsWith("pent")) return "pentacles";
+      return s;
     };
 
     // Merge history field from cards_history.json into each card
     const cards = data.cards.map(card => ({
       ...card,
-      suit: card.suit ? (SUIT_NORMALIZE[card.suit.toLowerCase()] || card.suit) : null,
+      suit: normalizeSuit(card.suit),
       history: historyMap[card.image]?.history || null,
     }));
 

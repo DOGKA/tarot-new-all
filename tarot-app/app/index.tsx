@@ -809,16 +809,18 @@ export default function WelcomeScreen() {
 
           {tarotMasaCards.length > 0 && (() => {
             // Frontend suit normalization (fallback if backend hasn't restarted)
-            const SUIT_NORM: Record<string, string> = {
-              değnek: "wands", degnek: "wands", asa: "wands",
-              kupa: "cups", kopa: "cups",
-              kılıç: "swords", kilic: "swords",
-              tılsım: "pentacles", tilsim: "pentacles",
-              wands: "wands", cups: "cups", swords: "swords", pentacles: "pentacles",
+            const normalizeSuit = (s: string | null): string | null => {
+              if (!s) return null;
+              const v = s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace("ı", "i").replace("ğ", "g").replace("ş", "s").replace("ç", "c").replace("ö", "o").replace("ü", "u");
+              if (v === "wands"    || v === "degnek"  || v === "asa"    || v.startsWith("wand")) return "wands";
+              if (v === "cups"     || v === "kupa"    || v === "kopa"   || v.startsWith("cup"))  return "cups";
+              if (v === "swords"   || v === "kilic"   || v.startsWith("sword")) return "swords";
+              if (v === "pentacles"|| v === "tilsim"  || v === "para"   || v.startsWith("pent")) return "pentacles";
+              return s;
             };
             const normCards = tarotMasaCards.map(c => ({
               ...c,
-              suit: c.suit ? (SUIT_NORM[c.suit.toLowerCase()] || c.suit) : null,
+              suit: normalizeSuit(c.suit),
             }));
 
             const SUIT_LABELS: Record<string, string> = {
@@ -832,7 +834,7 @@ export default function WelcomeScreen() {
               { key: "swords", label: SUIT_LABELS.swords, cards: normCards.filter(c => c.suit === "swords") },
               { key: "pentacles", label: SUIT_LABELS.pentacles, cards: normCards.filter(c => c.suit === "pentacles") },
             ];
-            return groups.map(group => (
+            return groups.filter(g => g.cards.length > 0).map(group => (
               <View key={group.key} style={{ marginBottom: 20 }}>
                 <Text style={styles.masaGroupLabel}>{group.label}</Text>
                 <FlatList
