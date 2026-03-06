@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, useCallback } from "react";
+import React, { useEffect, useState, useRef, useCallback, useMemo } from "react";
 import {
   View, Text, TouchableOpacity, StyleSheet, ScrollView, Animated,
   FlatList, Dimensions, Modal, ActivityIndicator, Image, ImageBackground,
@@ -153,6 +153,81 @@ export default function WelcomeScreen() {
 
   const [cardDrawHistory, setCardDrawHistory] = useState<CardDrawRecord[]>([]);
 
+  const getSuitType = (suit: string): "fire" | "water" | "air" | "earth" | null => {
+    if (!suit) return null;
+    const v = suit.toLowerCase();
+    if (v.includes("wand") || v.includes("egnek") || v.includes("basto") || v.includes("stab") || v.includes("bagu") || v.includes("asa")) return "fire";
+    if (v.includes("cup") || v.includes("kupa") || v.includes("copa") || v.includes("kelch") || v.includes("coppe")) return "water";
+    if (v.includes("sword") || v.includes("kilic") || v.includes("kil") || v.includes("espada") || v.includes("schwert") || v.includes("spade")) return "air";
+    if (v.includes("pent") || v.includes("tilsim") || v.includes("ilsim") || v.includes("oro") || v.includes("munz") || v.includes("denaros") || v.includes("disco")) return "earth";
+    return null;
+  };
+
+  const SUIT_EMOJI: Record<string, string> = { fire: "🔥", water: "💧", air: "⚡", earth: "🌿" };
+  const SUIT_COLORS_MAP: Record<string, [string, string]> = {
+    fire:  ["rgba(251,146,60,0.7)",  "rgba(160,50,0,0.95)"],
+    water: ["rgba(56,189,248,0.7)",  "rgba(0,70,150,0.95)"],
+    air:   ["rgba(148,163,184,0.7)", "rgba(20,40,70,0.95)"],
+    earth: ["rgba(74,222,128,0.7)",  "rgba(0,70,25,0.95)"],
+  };
+  const SUIT_LABEL: Record<string, string> = { fire: "Değnekler", water: "Kupalar", air: "Kılıçlar", earth: "Tılsımlar" };
+
+  const getCardEmoji  = (suit: string | null) => suit ? (SUIT_EMOJI[getSuitType(suit) || ""] || "✦") : "✦";
+  const getCardColors = (suit: string | null): [string, string] => suit
+    ? (SUIT_COLORS_MAP[getSuitType(suit) || ""] || ["rgba(168,85,247,0.7)", "rgba(40,10,60,0.95)"])
+    : ["rgba(168,85,247,0.7)", "rgba(40,10,60,0.95)"];
+
+  const majorArcanaCards = useMemo(() => tarotMasaCards.filter(c => c.arcana === "major"), [tarotMasaCards]);
+
+  const minorArcanaCards = useMemo(() => tarotMasaCards.filter(c => c.arcana === "minor"), [tarotMasaCards]);
+
+  const extractSuit = (card: TarotCardData): string => {
+    if (card.suit) return card.suit;
+    const img = card.image?.toLowerCase() || "";
+    if (img.includes("wand")) return "wands";
+    if (img.includes("cup")) return "cups";
+    if (img.includes("sword")) return "swords";
+    if (img.includes("pent")) return "pentacles";
+    return "other";
+  };
+
+  const minorArcanaSuits = useMemo(() => {
+    const suitOrder = ["wands", "cups", "swords", "pentacles"];
+    const suitMap: Record<string, TarotCardData[]> = {};
+    minorArcanaCards.forEach(c => {
+      const k = extractSuit(c);
+      if (!suitMap[k]) suitMap[k] = [];
+      suitMap[k].push(c);
+    });
+    return suitOrder
+      .filter(s => suitMap[s]?.length > 0)
+      .map(suit => {
+        const suitType = getSuitType(suit);
+        const label = suitType ? (SUIT_LABEL[suitType] || suit) : suit;
+        const emoji = SUIT_EMOJI[suitType || ""] || "✦";
+        return { suit, suitType, label, emoji, cards: suitMap[suit] };
+      });
+  }, [minorArcanaCards]);
+
+  const renderMasaCard = (card: TarotCardData) => {
+    const colors = getCardColors(card.suit);
+    const emoji = getCardEmoji(card.suit);
+    return (
+      <TouchableOpacity
+        key={String(card.id)}
+        style={styles.masaCardItem}
+        activeOpacity={0.8}
+        onPress={() => { setSelectedCard(card); setCardDetailOrientation("upright"); loadCardHistory(card.image); }}
+      >
+        <LinearGradient colors={colors} style={styles.masaCardTile} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }}>
+          <Text style={styles.masaCardEmoji}>{emoji}</Text>
+          {card.number ? <Text style={styles.masaCardNumber}>{card.number}</Text> : null}
+        </LinearGradient>
+        <Text style={styles.masaCardName} numberOfLines={2}>{card.name}</Text>
+      </TouchableOpacity>
+    );
+  };
+
   const loadCardHistory = async (image: string) => {
     try {
       const history = await getCardHistory(image);
@@ -164,7 +239,6 @@ export default function WelcomeScreen() {
 
   const fetchTarotMasaCards = async (lang?: string) => {
     setTarotMasaLoading(true);
-    setTarotMasaCards([]);
     try {
       const res = await fetch(`${API_BASE}/cards/${lang || language}`);
       if (res.ok) {
@@ -806,85 +880,35 @@ export default function WelcomeScreen() {
           {tarotMasaLoading && (
             <ActivityIndicator color="#a855f7" size="small" style={{ marginVertical: 20 }} />
           )}
-
-          {tarotMasaCards.length > 0 && (() => {
-            // Frontend suit normalization (fallback if backend hasn't restarted)
-            const normalizeSuit = (s: string | null): string | null => {
-              if (!s) return null;
-              const v = s.toLowerCase()
-                .normalize("NFD")
-                .replace(/[\u0300-\u036f]/g, "")  // combining marks (ğ→g, ç→c etc)
-                .replace(/\u0131/g, "i")           // ı (dotless i) — global!
-                .replace(/\u015f/g, "s")           // ş
-                .replace(/\u00f6/g, "o")           // ö
-                .replace(/\u00fc/g, "u");          // ü
-              if (v === "wands"    || v === "degnek"  || v === "asa"    || v.startsWith("wand")) return "wands";
-              if (v === "cups"     || v === "kupa"    || v === "kopa"   || v.startsWith("cup"))  return "cups";
-              if (v === "swords"   || v === "kilic"   || v.startsWith("sword")) return "swords";
-              if (v === "pentacles"|| v === "tilsim"  || v === "para"   || v.startsWith("pent")) return "pentacles";
-              return s;
-            };
-            const normCards = tarotMasaCards.map(c => ({
-              ...c,
-              suit: normalizeSuit(c.suit),
-            }));
-
-            const SUIT_LABELS: Record<string, string> = {
-              wands: "🔥 Değnekler", cups: "💧 Kupalar",
-              swords: "⚡ Kılıçlar", pentacles: "🌿 Pentaklar",
-            };
-            const groups = [
-              { key: "major", label: "✦ Büyük Arkana", cards: normCards.filter(c => c.arcana === "major") },
-              { key: "wands", label: SUIT_LABELS.wands, cards: normCards.filter(c => c.suit === "wands") },
-              { key: "cups", label: SUIT_LABELS.cups, cards: normCards.filter(c => c.suit === "cups") },
-              { key: "swords", label: SUIT_LABELS.swords, cards: normCards.filter(c => c.suit === "swords") },
-              { key: "pentacles", label: SUIT_LABELS.pentacles, cards: normCards.filter(c => c.suit === "pentacles") },
-            ];
-            return groups.filter(g => g.cards.length > 0).map(group => (
-              <View key={group.key} style={{ marginBottom: 20 }}>
-                <Text style={styles.masaGroupLabel}>{group.label}</Text>
-                <FlatList
-                  data={group.cards}
-                  horizontal
-                  showsHorizontalScrollIndicator={false}
-                  keyExtractor={c => String(c.id)}
-                  contentContainerStyle={{ paddingHorizontal: 4, gap: 10 }}
-                  renderItem={({ item: card }) => {
-                    const SUIT_COLORS: Record<string, string[]> = {
-                      wands:     ["rgba(251,146,60,0.6)",  "rgba(180,60,0,0.9)"],
-                      cups:      ["rgba(56,189,248,0.6)",  "rgba(0,80,160,0.9)"],
-                      swords:    ["rgba(148,163,184,0.6)", "rgba(30,50,80,0.9)"],
-                      pentacles: ["rgba(74,222,128,0.6)",  "rgba(0,80,30,0.9)"],
-                    };
-                    const cardColors = card.suit
-                      ? SUIT_COLORS[card.suit] || ["rgba(168,85,247,0.6)", "rgba(40,10,60,0.9)"]
-                      : ["rgba(168,85,247,0.6)", "rgba(40,10,60,0.9)"];
-                    const SUIT_EMOJI: Record<string, string> = { wands: "🔥", cups: "💧", swords: "⚡", pentacles: "🌿" };
-                    const cardEmoji = card.suit ? SUIT_EMOJI[card.suit] || "✦" : "✦";
-                    return (
-                      <TouchableOpacity
-                        style={styles.masaCardItem}
-                        activeOpacity={0.8}
-                        onPress={() => { setSelectedCard(card); setCardDetailOrientation("upright"); loadCardHistory(card.image); }}
-                      >
-                        <LinearGradient
-                          colors={cardColors as [string, string]}
-                          style={styles.masaCardTile}
-                          start={{ x: 0, y: 0 }}
-                          end={{ x: 1, y: 1 }}
-                        >
-                          <Text style={styles.masaCardEmoji}>{cardEmoji}</Text>
-                          {card.number ? <Text style={styles.masaCardNumber}>{card.number}</Text> : null}
-                        </LinearGradient>
-                        <Text style={styles.masaCardName} numberOfLines={2}>{card.name}</Text>
-                      </TouchableOpacity>
-                    );
-                  }}
-                />
-              </View>
-            ));
-          })()}
         </View>
+
+        {/* ── Büyük Arkana ── */}
+        {majorArcanaCards.length > 0 && (
+          <View style={{ alignSelf: "stretch", marginBottom: 20 }}>
+            <Text style={styles.masaGroupLabel}>✦ Büyük Arkana</Text>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 4, gap: 10 }}>
+              {majorArcanaCards.map(renderMasaCard)}
+            </ScrollView>
+          </View>
+        )}
+
+        {/* ── Küçük Arkana ── */}
+        {minorArcanaSuits.length > 0 && (
+          <View style={{ alignSelf: "stretch", marginTop: 12, marginBottom: 4 }}>
+            <Text style={styles.masaGroupLabel}>✦ Küçük Arkana</Text>
+          </View>
+        )}
+
+        {minorArcanaSuits.map(({ suit, emoji, label, cards }) => (
+          <View key={suit} style={{ alignSelf: "stretch", marginBottom: 20 }}>
+            <Text style={[styles.masaGroupLabel, { fontSize: 13, paddingLeft: 8, opacity: 0.85, marginBottom: 8 }]}>
+              {emoji} {label}
+            </Text>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 4, gap: 10 }}>
+              {cards.map(renderMasaCard)}
+            </ScrollView>
+          </View>
+        ))}
 
         {/* Version */}
         <Text style={styles.version}>v4.1</Text>
