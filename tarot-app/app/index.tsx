@@ -1361,7 +1361,7 @@ export default function WelcomeScreen() {
                   )}
 
                   {/* ─── Refresh Button ─── */}
-                  <TouchableOpacity style={ms.refreshBtn} onPress={fetchStatuses} activeOpacity={0.7}>
+                  <TouchableOpacity style={ms.refreshBtn} onPress={() => fetchStatuses()} activeOpacity={0.7}>
                     {statusLoading ? (
                       <ActivityIndicator color="#a855f7" size="small" />
                     ) : (
