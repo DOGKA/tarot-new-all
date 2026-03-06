@@ -811,7 +811,13 @@ export default function WelcomeScreen() {
             // Frontend suit normalization (fallback if backend hasn't restarted)
             const normalizeSuit = (s: string | null): string | null => {
               if (!s) return null;
-              const v = s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace("ı", "i").replace("ğ", "g").replace("ş", "s").replace("ç", "c").replace("ö", "o").replace("ü", "u");
+              const v = s.toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")  // combining marks (ğ→g, ç→c etc)
+                .replace(/\u0131/g, "i")           // ı (dotless i) — global!
+                .replace(/\u015f/g, "s")           // ş
+                .replace(/\u00f6/g, "o")           // ö
+                .replace(/\u00fc/g, "u");          // ü
               if (v === "wands"    || v === "degnek"  || v === "asa"    || v.startsWith("wand")) return "wands";
               if (v === "cups"     || v === "kupa"    || v === "kopa"   || v.startsWith("cup"))  return "cups";
               if (v === "swords"   || v === "kilic"   || v.startsWith("sword")) return "swords";
