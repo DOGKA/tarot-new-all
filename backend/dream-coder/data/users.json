@@ -316,12 +316,12 @@
       "birthLatitude": 39.93,
       "birthLongitude": 32.86,
       "natalChart": {
-        "sunSign": "sagittarius",
-        "moonSign": "taurus",
+        "sunSign": "aries",
+        "moonSign": "aries",
         "risingSign": "gemini",
         "elements": {
-          "fire": 3,
-          "earth": 2,
+          "fire": 5,
+          "earth": 0,
           "air": 1,
           "water": 0,
           "dominant": "fire"
