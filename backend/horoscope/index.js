@@ -469,19 +469,38 @@ function addDays(dateStr, n) {
   return d.toISOString().split("T")[0];
 }
 
-// Generate one day, save to cache (all langs), prune old entries
+// Generate one day, save to each language's own cache file (like Moon Astro)
 async function generateAndSaveDay(date) {
-  const horoscopes = await generateDayHoroscopes(date);
-  const cache = loadCache("tr");
-  cache.dates[date] = { horoscopes, createdAt: new Date().toISOString() };
-  cache.lastUpdated = new Date().toISOString();
-
-  // Keep 7-day rolling window: delete dates older than D-2
+  const horoscopes = await generateDayHoroscopes(date); // multi-lang objects
+  const now = new Date().toISOString();
   const cutoff = addDays(getUTCDate(0), -2);
-  for (const d of Object.keys(cache.dates)) {
-    if (d < cutoff) delete cache.dates[d];
+
+  for (const lang of SUPPORTED_LANGS) {
+    // Extract language-specific flat records
+    const langHoroscopes = horoscopes.map(h => ({
+      date: h.date,
+      sign: h.sign,
+      headline: h.headline[lang] || h.headline.tr,
+      body:     h.body[lang]     || h.body.tr,
+      do:       h.do[lang]       || h.do.tr,
+      dont:     h.dont[lang]     || h.dont.tr,
+      theme:    h.theme,
+      createdAt: h.createdAt,
+    }));
+
+    const cache = loadCache(lang);
+    cache.dates[date] = { horoscopes: langHoroscopes, createdAt: now };
+    cache.lastUpdated = now;
+
+    // Prune: keep 7-day rolling window
+    for (const d of Object.keys(cache.dates)) {
+      if (d < cutoff) delete cache.dates[d];
+    }
+
+    saveCache(cache, lang);
+    console.log(`[Horoscope] ${lang.toUpperCase()} cache saved for ${date} (${langHoroscopes.length} signs)`);
   }
-  saveCache(cache, "tr");
+
   return horoscopes;
 }
 
@@ -711,7 +730,8 @@ router.post("/free", (req, res) => {
       targetDate = localDate;
     }
 
-    const cache = loadCache("tr");
+    // Load from the language-specific cache file
+    const cache = loadCache(validLang);
     const dayData = cache.dates?.[targetDate];
 
     if (!dayData || !dayData.horoscopes?.length) {
@@ -741,11 +761,11 @@ router.post("/free", (req, res) => {
       data: {
         date: horoscope.date,
         sign: horoscope.sign,
-        headline: horoscope.headline[validLang] || horoscope.headline.tr,
-        body: horoscope.body[validLang] || horoscope.body.tr,
-        do: horoscope.do[validLang] || horoscope.do.tr,
-        dont: horoscope.dont[validLang] || horoscope.dont.tr,
-        theme: horoscope.theme,
+        headline: horoscope.headline,
+        body:     horoscope.body,
+        do:       horoscope.do,
+        dont:     horoscope.dont,
+        theme:    horoscope.theme,
         diveDeeper,
       },
       source: "cache",
