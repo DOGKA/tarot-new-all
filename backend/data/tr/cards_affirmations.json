@@ -1,0 +1,474 @@
+{
+  "_comment": "78 Tarot kartının mottosu — Türkçe, birinci tekil şahıs",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "Deli",
+      "image": "00_fool",
+      "affirmation": "Bilinmeyene doğru cesurca adım atıyorum; her anı yeni başlangıçlarla dolu kabul ediyorum."
+    },
+    {
+      "id": 1,
+      "name": "Büyücü",
+      "image": "01_magician",
+      "affirmation": "Gücümle ve irademle, düşündüğüm her şeyi gerçeğe dönüştürüyorum."
+    },
+    {
+      "id": 2,
+      "name": "Azize",
+      "image": "02_high_priestess",
+      "affirmation": "İçsel bilgelik denizinde yol alıyorum; sezgilerim bana rehber oluyor."
+    },
+    {
+      "id": 3,
+      "name": "İmparatoriçe",
+      "image": "03_empress",
+      "affirmation": "Doğanın bereketiyle sarılıyorum; yaratıcılığın ve bolluğun kaynağı benim."
+    },
+    {
+      "id": 4,
+      "name": "İmparator",
+      "image": "04_emperor",
+      "affirmation": "Düzen ve otorite ile hükmediyorum; güven ve kararlılıkla yönümü belirliyorum."
+    },
+    {
+      "id": 5,
+      "name": "Aziz",
+      "image": "05_hierophant",
+      "affirmation": "Bilgeliğin sonsuz derinliğinde, içsel huzuru ve yolumu aydınlatan rehberliği buluyorum."
+    },
+    {
+      "id": 6,
+      "name": "Aşıklar",
+      "image": "06_lovers",
+      "affirmation": "Kalbimin rehberliğinde, aşkı ve uyumu kucaklıyor, hayatımın dansına katılıyorum."
+    },
+    {
+      "id": 7,
+      "name": "Savaş Arabası",
+      "image": "07_chariot",
+      "affirmation": "Azmim ve irademle her engeli aşar, kendi kaderimi özgürce yönlendiririm."
+    },
+    {
+      "id": 8,
+      "name": "Güç",
+      "image": "08_strength",
+      "affirmation": "İçimdeki sonsuz gücü keşfediyor, sevgiyle zorlukların üstesinden geliyorum."
+    },
+    {
+      "id": 9,
+      "name": "Ermiş",
+      "image": "09_hermit",
+      "affirmation": "Sessizliğin içinde, içsel ışığımı bulur ve bilgelikle yeni yollar açarım."
+    },
+    {
+      "id": 10,
+      "name": "Kader Çarkı",
+      "image": "10_wheel_of_fortune",
+      "affirmation": "Kaderin döngülerinde, değişimin rüzgarında cesurca yükselirim; ne olursa olsun, yolum aydınlanır."
+    },
+    {
+      "id": 11,
+      "name": "Adalet",
+      "image": "11_justice",
+      "affirmation": "Adaletin terazisinde, dürüstlük ve denge ile gerçeği ararım; hakikat her zaman parlak ışık gibi yolumu aydınlatır."
+    },
+    {
+      "id": 12,
+      "name": "Asılan Adam",
+      "image": "12_hanged_man",
+      "affirmation": "Durup düşündüğümde, içsel huzurla evrende yeni perspektifler keşfederim; sabırla bekler, anlayışla büyürüm."
+    },
+    {
+      "id": 13,
+      "name": "Ölüm",
+      "image": "13_death",
+      "affirmation": "Her bitiş yeni bir başlangıçtır; kabullenirim ve eskiyi bırakırken, yepyeni hayatlara kucak açarım."
+    },
+    {
+      "id": 14,
+      "name": "Denge",
+      "image": "14_temperance",
+      "affirmation": "Huzurun dengesiyle, içimdeki ateşi ahenkle harmanlarım; sabırla yol alır, dengeyi bulurum."
+    },
+    {
+      "id": 15,
+      "name": "Şeytan",
+      "image": "15_devil",
+      "affirmation": "Karanlık yüzleşmelerimden güçlenerek doğarım; bağımlılıklarımı özgürleştirmeyi seçiyorum."
+    },
+    {
+      "id": 16,
+      "name": "Yıkılan Kule",
+      "image": "16_tower",
+      "affirmation": "Eski yapılar yıkılsa da, küllerinden yeni bir ben yaratırım."
+    },
+    {
+      "id": 17,
+      "name": "Yıldız",
+      "image": "17_star",
+      "affirmation": "Umut yıldızlarından ilham alır, evrenin rehberliğinde yolumu bulurum."
+    },
+    {
+      "id": 18,
+      "name": "Ay",
+      "image": "18_moon",
+      "affirmation": "Gölgeler ve sırların ardındaki gerçekleri sezgimle aydınlatıyorum."
+    },
+    {
+      "id": 19,
+      "name": "Güneş",
+      "image": "19_sun",
+      "affirmation": "Kendi ışığımda parlıyor, içimdeki gücü tüm dünyaya yayıyorum."
+    },
+    {
+      "id": 20,
+      "name": "Mahkeme",
+      "image": "20_judgement",
+      "affirmation": "Küllerimden doğarak, kendi gerçeğimi bulurum; içimdeki ateşle kendimi yeniden diriltirim."
+    },
+    {
+      "id": 21,
+      "name": "Dünya",
+      "image": "21_world",
+      "affirmation": "Dünyanın ritmiyle uyum içinde dönerim; tamamlanmanın ve bütünlüğün armağanını kabul ederim."
+    },
+    {
+      "id": 22,
+      "name": "Değnek Ası",
+      "image": "22_ace_wands",
+      "affirmation": "Yaratıcılığın ateşini tutuşturarak, yeni başlangıçlara cesaretle adım atarım."
+    },
+    {
+      "id": 23,
+      "name": "Değnek İkilisi",
+      "image": "23_two_wands",
+      "affirmation": "Ufka bakarım, keşiflerin ve olanakların sınırsız olduğunu bilirim; planlarımı cesurca gerçekleştiririm."
+    },
+    {
+      "id": 24,
+      "name": "Değnek Üçlüsü",
+      "image": "24_three_wands",
+      "affirmation": "Ufuklarımı genişletir, vizyonumu somut gerçekliğe dönüştürmek için kararlılıkla ilerlerim."
+    },
+    {
+      "id": 25,
+      "name": "Değnek Dörtlüsü",
+      "image": "25_four_wands",
+      "affirmation": "Başarı ve kutlama anında, ateşin ışığıyla yüreğimde parlıyorum."
+    },
+    {
+      "id": 26,
+      "name": "Değnek Beşlisi",
+      "image": "26_five_wands",
+      "affirmation": "Rekabetin ateşi beni güçlendirir, engelleri cesaretle aşarım."
+    },
+    {
+      "id": 27,
+      "name": "Değnek Altılısı",
+      "image": "27_six_wands",
+      "affirmation": "Zaferin tadını çıkarırken, içimdeki liderlik ateşiyle yol alıyorum."
+    },
+    {
+      "id": 28,
+      "name": "Değnek Yedilisi",
+      "image": "28_seven_wands",
+      "affirmation": "Tutkumla savunmama devam ederken, kararlılığımla zirveye ulaşıyorum."
+    },
+    {
+      "id": 29,
+      "name": "Değnek Sekizlisi",
+      "image": "29_eight_wands",
+      "affirmation": "Düşüncelerim ve eylemlerim hızla uyum sağlıyor, hedefime doğru akarım."
+    },
+    {
+      "id": 30,
+      "name": "Değnek Dokuzlusu",
+      "image": "30_nine_wands",
+      "affirmation": "Direncimle ayaktayım, her darbenin ardından daha güçlü kalkarım."
+    },
+    {
+      "id": 31,
+      "name": "Değnek Onlusu",
+      "image": "31_ten_wands",
+      "affirmation": "Yüklerim ağır ama hedefim net; bu yolu başarıyla tamamlayacağım."
+    },
+    {
+      "id": 32,
+      "name": "Değnek Prensi",
+      "image": "32_page_wands",
+      "affirmation": "Merak ve macera tutkumla yeni ufuklara cesurca atılıyorum."
+    },
+    {
+      "id": 33,
+      "name": "Değnek Şövalyesi",
+      "image": "33_knight_wands",
+      "affirmation": "Ateşin gücüyle hızla ilerliyor, tutkumu cesaretle harmanlıyorum."
+    },
+    {
+      "id": 34,
+      "name": "Değnek Kraliçesi",
+      "image": "34_queen_wands",
+      "affirmation": "Kendi ışığımın lideriyim; içimdeki ateşle başkalarına ilham veririm."
+    },
+    {
+      "id": 35,
+      "name": "Değnek Kralı",
+      "image": "35_king_wands",
+      "affirmation": "Ateşle yanar, cesaretle liderlik ederim; tutkularımın peşinden koşarım."
+    },
+    {
+      "id": 36,
+      "name": "Kupa Ası",
+      "image": "36_ace_cups",
+      "affirmation": "Kalbimin derinliklerinden sevgi taşar; duygu denizinde yeni başlangıçlara açılırım."
+    },
+    {
+      "id": 37,
+      "name": "Kupa İkilisi",
+      "image": "37_two_cups",
+      "affirmation": "Birlikteyken güçleniriz; sevgi bizi bir araya getirir, ruhlarımızı birleştirir."
+    },
+    {
+      "id": 38,
+      "name": "Kupa Üçlüsü",
+      "image": "38_three_cups",
+      "affirmation": "Kutlamaların neşesiyle doluyum; dostlarla paylaşmak, hayatı anlamlandırır."
+    },
+    {
+      "id": 39,
+      "name": "Kupa Dörtlüsü",
+      "image": "39_four_cups",
+      "affirmation": "İçsel sularımda derinlere dalar, tatminsizliklerin ötesinde yeni anlamlar bulurum."
+    },
+    {
+      "id": 40,
+      "name": "Kupa Beşlisi",
+      "image": "40_five_cups",
+      "affirmation": "Geçmişin ağırlığını bırakıp, kayıpları kabullenerek yeni umutlara yelken açıyorum."
+    },
+    {
+      "id": 41,
+      "name": "Kupa Altılısı",
+      "image": "41_six_cups",
+      "affirmation": "Anıların ışığında, içimdeki çocuğu sevgiyle besliyor ve geçmişten güç alıyorum."
+    },
+    {
+      "id": 42,
+      "name": "Kupa Yedilisi",
+      "image": "42_seven_cups",
+      "affirmation": "Hayallerin denizinde seçimlerimi bilgelikle yapıyor, yanılsamalardan özgürleşiyorum."
+    },
+    {
+      "id": 43,
+      "name": "Kupa Sekizlisi",
+      "image": "43_eight_cups",
+      "affirmation": "Ardımda bıraktığım her şeyle içsel yolculuğuma cesaretle devam ediyorum."
+    },
+    {
+      "id": 44,
+      "name": "Kupa Dokuzlusu",
+      "image": "44_nine_cups",
+      "affirmation": "Dileklerime kavuşmanın huzuruyla, minnettarlıkla dolup taşıyorum."
+    },
+    {
+      "id": 45,
+      "name": "Kupa Onlusu",
+      "image": "45_ten_cups",
+      "affirmation": "Ailemin ve sevdiklerimin yanında huzur buluyorum; sevgiyle dolu bir dünyanın mimarıyım."
+    },
+    {
+      "id": 46,
+      "name": "Kupa Prensi",
+      "image": "46_page_cups",
+      "affirmation": "Kalbimin derinliklerinden gelen yaratıcılığı ve hayal gücünü cesurca kucaklıyorum."
+    },
+    {
+      "id": 47,
+      "name": "Kupa Şövalyesi",
+      "image": "47_knight_cups",
+      "affirmation": "Aşkın ve duyguların şövalyesi olarak, kalbimin sesini dinleyerek yol alıyorum."
+    },
+    {
+      "id": 48,
+      "name": "Kupa Kraliçesi",
+      "image": "48_queen_cups",
+      "affirmation": "Duygularımın derin sularında bilgelik ve şefkatle hüküm sürüyorum."
+    },
+    {
+      "id": 49,
+      "name": "Kupa Kralı",
+      "image": "49_king_cups",
+      "affirmation": "Duygularımda ustalaşarak, dengeli ve etkili bir lider olarak hükmediyorum."
+    },
+    {
+      "id": 50,
+      "name": "Kılıç Ası",
+      "image": "50_ace_swords",
+      "affirmation": "Zihnimin keskinliğinde yeni başlangıçlar yaratıyor, gerçeği kılıcım gibi ustalıkla kullanıyorum."
+    },
+    {
+      "id": 51,
+      "name": "Kılıç İkilisi",
+      "image": "51_two_swords",
+      "affirmation": "Zihnimdeki dengeyi buluyor, içsel huzurumla zorlukları aşmayı seçiyorum."
+    },
+    {
+      "id": 52,
+      "name": "Kılıç Üçlüsü",
+      "image": "52_three_swords",
+      "affirmation": "Kırılmalardan güç alıyor, kalbimin derinliklerinde yeniden doğuyorum."
+    },
+    {
+      "id": 53,
+      "name": "Kılıç Dörtlüsü",
+      "image": "53_four_swords",
+      "affirmation": "Zihnimi dinlendiriyor, sessizliğin derinliğinde huzur buluyorum."
+    },
+    {
+      "id": 54,
+      "name": "Kılıç Beşlisi",
+      "image": "54_five_swords",
+      "affirmation": "Zaferlerin bedelini anlıyor, kendi iç barışımı korumaya odaklanıyorum."
+    },
+    {
+      "id": 55,
+      "name": "Kılıç Altılısı",
+      "image": "55_six_swords",
+      "affirmation": "Zihnimi huzurun rüzgarına bırakıyor, dingin sulara doğru yol alıyorum."
+    },
+    {
+      "id": 56,
+      "name": "Kılıç Yedilisi",
+      "image": "56_seven_swords",
+      "affirmation": "Zekâmı kullanarak engelleri aşıyor, stratejiyle ilerliyorum."
+    },
+    {
+      "id": 57,
+      "name": "Kılıç Sekizlisi",
+      "image": "57_eight_swords",
+      "affirmation": "Tutsak hissetsem de, özgürlük yolunu bulmak için içsel gücümü keşfediyorum."
+    },
+    {
+      "id": 58,
+      "name": "Kılıç Dokuzlusu",
+      "image": "58_nine_swords",
+      "affirmation": "Geceyi aşan cesaretimle, karanlık düşünceleri aydınlığa çeviriyorum."
+    },
+    {
+      "id": 59,
+      "name": "Kılıç Onlusu",
+      "image": "59_ten_swords",
+      "affirmation": "Acının sonuna ulaşıyor, küllerimden yeniden doğuyorum."
+    },
+    {
+      "id": 60,
+      "name": "Kılıç Prensi",
+      "image": "60_page_swords",
+      "affirmation": "Bilincimin keskin kılıcıyla gerçeği ararım, düşüncelerim rüzgar gibi özgürdür."
+    },
+    {
+      "id": 61,
+      "name": "Kılıç Şövalyesi",
+      "image": "61_knight_swords",
+      "affirmation": "Cesaretle dolu kalbim, fırtınaların ortasında bile stratejik adımlarla ilerlerim."
+    },
+    {
+      "id": 62,
+      "name": "Kılıç Kraliçesi",
+      "image": "62_queen_swords",
+      "affirmation": "Akıl ve sezgilerimle hükmederim; netliğin ışığıyla yolları aydınlatırım."
+    },
+    {
+      "id": 63,
+      "name": "Kılıç Kralı",
+      "image": "63_king_swords",
+      "affirmation": "Bilgeliğimle adaleti sağlar, düşüncelerimde sağlam ve kararlıyım."
+    },
+    {
+      "id": 64,
+      "name": "Tılsım Ası",
+      "image": "64_ace_pentacles",
+      "affirmation": "Evrenin bana sunduğu fırsatlarla köklerimi derinleştirir, bereketi kucaklarım."
+    },
+    {
+      "id": 65,
+      "name": "Tılsım İkilisi",
+      "image": "65_two_pentacles",
+      "affirmation": "Hayatın değişen ritmine ustalıkla ayak uyduruyorum; esneklik ve denge benim rehberlerimdir."
+    },
+    {
+      "id": 66,
+      "name": "Tılsım Üçlüsü",
+      "image": "66_three_pentacles",
+      "affirmation": "İşbirliği ve ortak çabalarla zenginlik ve başarıya ulaşırım; birlikte yükseliyorum."
+    },
+    {
+      "id": 67,
+      "name": "Tılsım Dörtlüsü",
+      "image": "67_four_pentacles",
+      "affirmation": "Güvende kalmanın gücünü hissediyorum, ama büyümek için açılmaya cesaret ediyorum."
+    },
+    {
+      "id": 68,
+      "name": "Tılsım Beşlisi",
+      "image": "68_five_pentacles",
+      "affirmation": "Karanlık günlerde bile içsel ışığımla yolumu bulurum; umut kararlılıkla birleşir."
+    },
+    {
+      "id": 69,
+      "name": "Tılsım Altılısı",
+      "image": "69_six_pentacles",
+      "affirmation": "Cömertlik ve denge beni zenginleştirir; paylaşarak çoğalırım."
+    },
+    {
+      "id": 70,
+      "name": "Tılsım Yedilisi",
+      "image": "70_seven_pentacles",
+      "affirmation": "Emeğimin meyvelerini sabırla büyütüyor, toprağın gücüyle hayallerimi gerçeğe dönüştürüyorum."
+    },
+    {
+      "id": 71,
+      "name": "Tılsım Sekizlisi",
+      "image": "71_eight_pentacles",
+      "affirmation": "Titizlikle işlediğim her detay, ustalığımın ve kararlılığımın bir yansımasıdır."
+    },
+    {
+      "id": 72,
+      "name": "Tılsım Dokuzlusu",
+      "image": "72_nine_pentacles",
+      "affirmation": "Kendi bahçemde huzuru ve bolluğu buluyor, özgürlüğün keyfini çıkarıyorum."
+    },
+    {
+      "id": 73,
+      "name": "Tılsım Onlusu",
+      "image": "73_ten_pentacles",
+      "affirmation": "Ailemin ve geçmişimin mirasıyla köklü bir gelecek inşa ediyorum."
+    },
+    {
+      "id": 74,
+      "name": "Tılsım Prensi",
+      "image": "74_page_pentacles",
+      "affirmation": "Öğrenme tutkumla yeni başlangıçlar yaratıyor, hayallerimin peşinden kararlılıkla gidiyorum."
+    },
+    {
+      "id": 75,
+      "name": "Tılsım Şövalyesi",
+      "image": "75_knight_pentacles",
+      "affirmation": "Sabır ve kararlılıkla her adımımda sağlam bir temel kuruyorum; başarı benimle."
+    },
+    {
+      "id": 76,
+      "name": "Tılsım Kraliçesi",
+      "image": "76_queen_pentacles",
+      "affirmation": "Bolluk ve güvenle çevriliyim; içsel huzur ve şefkatle dünyama zenginlik katıyorum."
+    },
+    {
+      "id": 77,
+      "name": "Tılsım Kralı",
+      "image": "77_king_pentacles",
+      "affirmation": "Bilgelik ve liderlikle hükmediyorum; maddi gücümle dünyamda kalıcılığı sağlıyorum."
+    }
+  ]
+}

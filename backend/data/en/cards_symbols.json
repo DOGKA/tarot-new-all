@@ -1,0 +1,1800 @@
+{
+  "_comment": "78 Tarot kartının görsel sembolleri ve anlamları — English",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "image": "00_fool",
+      "symbols": [
+        {
+          "symbol": "White Dog",
+          "meaning": "Loyalty and protection."
+        },
+        {
+          "symbol": "Cliff",
+          "meaning": "Risk-taking, the unknown."
+        },
+        {
+          "symbol": "Flower",
+          "meaning": "Purity and new beginnings."
+        },
+        {
+          "symbol": "Sun",
+          "meaning": "Optimism and hope."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "image": "01_magician",
+      "symbols": [
+        {
+          "symbol": "Asa",
+          "meaning": "Will and power."
+        },
+        {
+          "symbol": "Sword",
+          "meaning": "Mind and intellect."
+        },
+        {
+          "symbol": "Cup",
+          "meaning": "Emotions and intuition."
+        },
+        {
+          "symbol": "Pentacle",
+          "meaning": "The material world, wealth."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "image": "02_high_priestess",
+      "symbols": [
+        {
+          "symbol": "Moon",
+          "meaning": "Secret knowledge and intuition."
+        },
+        {
+          "symbol": "Columns",
+          "meaning": "Balance and duality."
+        },
+        {
+          "symbol": "Tora",
+          "meaning": "Wisdom and secrets."
+        },
+        {
+          "symbol": "Ring",
+          "meaning": "Commitment and integrity."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "image": "03_empress",
+      "symbols": [
+        {
+          "symbol": "Wheat",
+          "meaning": "Blessings and abundance."
+        },
+        {
+          "symbol": "Crown",
+          "meaning": "Authority and power."
+        },
+        {
+          "symbol": "Venus Symbol",
+          "meaning": "Love and beauty."
+        },
+        {
+          "symbol": "Nature",
+          "meaning": "Fertility and life."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "image": "04_emperor",
+      "symbols": [
+        {
+          "symbol": "Throne",
+          "meaning": "Control and authority."
+        },
+        {
+          "symbol": "Armor",
+          "meaning": "Protection and power."
+        },
+        {
+          "symbol": "Mountains",
+          "meaning": "Resilience and determination."
+        },
+        {
+          "symbol": "Red Robe",
+          "meaning": "Power and passion."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "image": "05_hierophant",
+      "symbols": [
+        {
+          "symbol": "The Saint Wearing the Crown",
+          "meaning": "Spiritual authority and teaching."
+        },
+        {
+          "symbol": "Switches",
+          "meaning": "Secret knowledge and opening doors."
+        },
+        {
+          "symbol": "Pope Throne",
+          "meaning": "Traditional power and authority."
+        },
+        {
+          "symbol": "Double Column",
+          "meaning": "Duality and balance."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "image": "06_lovers",
+      "symbols": [
+        {
+          "symbol": "Couple in Love",
+          "meaning": "Love and togetherness."
+        },
+        {
+          "symbol": "Angel",
+          "meaning": "Divine guidance and protection."
+        },
+        {
+          "symbol": "Mountains",
+          "meaning": "Challenges and obstacles."
+        },
+        {
+          "symbol": "Snake Tree",
+          "meaning": "Knowledge and charm."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "image": "07_chariot",
+      "symbols": [
+        {
+          "symbol": "Victory Car",
+          "meaning": "Control and will power."
+        },
+        {
+          "symbol": "Black and White Sphinxes",
+          "meaning": "Contrasts and orientation."
+        },
+        {
+          "symbol": "Starry Crown",
+          "meaning": "Success and divine protection."
+        },
+        {
+          "symbol": "City Wall",
+          "meaning": "Safety and protection."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "image": "08_strength",
+      "symbols": [
+        {
+          "symbol": "Woman and Lion",
+          "meaning": "Gentle strength and courage."
+        },
+        {
+          "symbol": "Infinity Symbol",
+          "meaning": "Infinite energy and potential."
+        },
+        {
+          "symbol": "Flower Wreath",
+          "meaning": "Natural beauty and harmony."
+        },
+        {
+          "symbol": "Mountains",
+          "meaning": "Resilience and determination."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "image": "09_hermit",
+      "symbols": [
+        {
+          "symbol": "The Hermit Holding a Lantern",
+          "meaning": "Seeking and inner guidance."
+        },
+        {
+          "symbol": "White Robe",
+          "meaning": "Purity and knowledge."
+        },
+        {
+          "symbol": "Mountain",
+          "meaning": "Struggle and loneliness."
+        },
+        {
+          "symbol": "Walking Stick",
+          "meaning": "Support and trust."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "The Wheel of Fortune",
+      "image": "10_wheel_of_fortune",
+      "symbols": [
+        {
+          "symbol": "Wheel",
+          "meaning": "Change and cycles."
+        },
+        {
+          "symbol": "Angel",
+          "meaning": "Protective forces."
+        },
+        {
+          "symbol": "Aslan",
+          "meaning": "Strength and courage."
+        },
+        {
+          "symbol": "Eagle",
+          "meaning": "High visibility and freedom."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "image": "11_justice",
+      "symbols": [
+        {
+          "symbol": "Libra",
+          "meaning": "Balance and justice."
+        },
+        {
+          "symbol": "Sword",
+          "meaning": "Truth and decisions."
+        },
+        {
+          "symbol": "Throne",
+          "meaning": "Authority and authority."
+        },
+        {
+          "symbol": "Cloak",
+          "meaning": "Privacy and protection."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "image": "12_hanged_man",
+      "symbols": [
+        {
+          "symbol": "Reverse Man",
+          "meaning": "Different perspectives."
+        },
+        {
+          "symbol": "Rope",
+          "meaning": "Commitment and restraint."
+        },
+        {
+          "symbol": "Tree",
+          "meaning": "Growth and resilience."
+        },
+        {
+          "symbol": "Halo",
+          "meaning": "Enlightenment and inspiration."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "image": "13_death",
+      "symbols": [
+        {
+          "symbol": "Skeleton",
+          "meaning": "Inevitable endings."
+        },
+        {
+          "symbol": "At",
+          "meaning": "Movement and progress."
+        },
+        {
+          "symbol": "Sun",
+          "meaning": "New beginnings"
+        },
+        {
+          "symbol": "Flag",
+          "meaning": "Transformation and change."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "image": "14_temperance",
+      "symbols": [
+        {
+          "symbol": "Angel",
+          "meaning": "Guidance and protection."
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Emotional balance."
+        },
+        {
+          "symbol": "Cup",
+          "meaning": "Emotions and relationships."
+        },
+        {
+          "symbol": "Road",
+          "meaning": "Process and progress."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "The Devil",
+      "image": "15_devil",
+      "symbols": [
+        {
+          "symbol": "Devil Figure",
+          "meaning": "Addiction and materialism."
+        },
+        {
+          "symbol": "People in Chains",
+          "meaning": "A sense of being in control."
+        },
+        {
+          "symbol": "Inverted Pentagram",
+          "meaning": "Negative energy and evil."
+        },
+        {
+          "symbol": "Horns",
+          "meaning": "Animal urges and instincts."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "image": "16_tower",
+      "symbols": [
+        {
+          "symbol": "Collapsed Tower",
+          "meaning": "Sudden change and destruction."
+        },
+        {
+          "symbol": "Lightning",
+          "meaning": "Unexpected events."
+        },
+        {
+          "symbol": "Falling People",
+          "meaning": "Loss of control and chaos."
+        },
+        {
+          "symbol": "Black Clouds",
+          "meaning": "Uncertainty and challenges."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "image": "17_star",
+      "symbols": [
+        {
+          "symbol": "Star",
+          "meaning": "Hope and guidance."
+        },
+        {
+          "symbol": "Water Jug",
+          "meaning": "Emotional balance and purification."
+        },
+        {
+          "symbol": "Naked Woman",
+          "meaning": "Clarity and purity."
+        },
+        {
+          "symbol": "Seven Little Stars",
+          "meaning": "High ideals and inspiration."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "image": "18_moon",
+      "symbols": [
+        {
+          "symbol": "Moon",
+          "meaning": "The subconscious and illusions."
+        },
+        {
+          "symbol": "Wolf and Dog",
+          "meaning": "Internal and external conflict."
+        },
+        {
+          "symbol": "Waterway",
+          "meaning": "Unknown paths and emotions."
+        },
+        {
+          "symbol": "Two Towers",
+          "meaning": "Safety and protection."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "image": "19_sun",
+      "symbols": [
+        {
+          "symbol": "Sun",
+          "meaning": "Happiness and success."
+        },
+        {
+          "symbol": "Child",
+          "meaning": "Innocence and joy."
+        },
+        {
+          "symbol": "At",
+          "meaning": "Movement and progress."
+        },
+        {
+          "symbol": "Sun Flowers",
+          "meaning": "Life energy and vitality."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Judgement",
+      "image": "20_judgement",
+      "symbols": [
+        {
+          "symbol": "Angel",
+          "meaning": "Heightened awareness and inner calling."
+        },
+        {
+          "symbol": "Trumpet",
+          "meaning": "Awakening and divine messages."
+        },
+        {
+          "symbol": "Resurrected People",
+          "meaning": "Rebirth and change."
+        },
+        {
+          "symbol": "Clouds",
+          "meaning": "The presence of the mysterious and the divine."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "image": "21_world",
+      "symbols": [
+        {
+          "symbol": "Dancing Woman",
+          "meaning": "Completion and balance."
+        },
+        {
+          "symbol": "Wreath",
+          "meaning": "Victory and success."
+        },
+        {
+          "symbol": "The Four Elements",
+          "meaning": "Earth, water, air, fire balance."
+        },
+        {
+          "symbol": "Shawl",
+          "meaning": "Protection and inclusion."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Ace of Wands",
+      "image": "22_ace_wands",
+      "symbols": [
+        {
+          "symbol": "Wand",
+          "meaning": "New beginnings and opportunities."
+        },
+        {
+          "symbol": "Green Landscape",
+          "meaning": "Growth and potential."
+        },
+        {
+          "symbol": "White Clouds",
+          "meaning": "Purity and inspiration."
+        },
+        {
+          "symbol": "Blue Sky",
+          "meaning": "Clarity and hope."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Two of Wands",
+      "image": "23_two_wands",
+      "symbols": [
+        {
+          "symbol": "Two Wands",
+          "meaning": "Decision making and planning."
+        },
+        {
+          "symbol": "World Globe",
+          "meaning": "Global perspective and control."
+        },
+        {
+          "symbol": "Castle Wall",
+          "meaning": "Safety and protection."
+        },
+        {
+          "symbol": "Sea",
+          "meaning": "Exploration and opportunities."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Three of Wands",
+      "image": "24_three_wands",
+      "symbols": [
+        {
+          "symbol": "Three Wands",
+          "meaning": "Expectations and progress."
+        },
+        {
+          "symbol": "Sea",
+          "meaning": "Exploration and distant goals."
+        },
+        {
+          "symbol": "Hills",
+          "meaning": "Challenges and opportunities."
+        },
+        {
+          "symbol": "Wide Horizon",
+          "meaning": "Broad vision and vision."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Four of Wands",
+      "image": "25_four_wands",
+      "symbols": [
+        {
+          "symbol": "Flower Wands",
+          "meaning": "A sign of celebration and success."
+        },
+        {
+          "symbol": "Wreath",
+          "meaning": "A symbol of victory and unity."
+        },
+        {
+          "symbol": "Bridge",
+          "meaning": "Connection and transition."
+        },
+        {
+          "symbol": "People in the background",
+          "meaning": "Community and togetherness."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Five of Wands",
+      "image": "26_five_wands",
+      "symbols": [
+        {
+          "symbol": "Colliding Wands",
+          "meaning": "Competition and conflict."
+        },
+        {
+          "symbol": "Five people",
+          "meaning": "Multiple views and disagreement."
+        },
+        {
+          "symbol": "Discussion",
+          "meaning": "Disagreement and disagreement."
+        },
+        {
+          "symbol": "Hot environment",
+          "meaning": "Tension and stress."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Six of Wands",
+      "image": "27_six_wands",
+      "symbols": [
+        {
+          "symbol": "Victory Wreath",
+          "meaning": "Success and victory."
+        },
+        {
+          "symbol": "White Horse",
+          "meaning": "Purity and leadership."
+        },
+        {
+          "symbol": "Applauding Crowd",
+          "meaning": "Recognition and support."
+        },
+        {
+          "symbol": "High Wand",
+          "meaning": "Power and authority."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Seven of Wands",
+      "image": "28_seven_wands",
+      "symbols": [
+        {
+          "symbol": "Seven Wands",
+          "meaning": "Defense and struggle."
+        },
+        {
+          "symbol": "Lonely Person",
+          "meaning": "Self-defense."
+        },
+        {
+          "symbol": "Standing on High Ground",
+          "meaning": "Superiority and advantage."
+        },
+        {
+          "symbol": "Resistance",
+          "meaning": "Stability and resilience."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Eight of Wands",
+      "image": "29_eight_wands",
+      "symbols": [
+        {
+          "symbol": "Flying Wands",
+          "meaning": "Rapid developments."
+        },
+        {
+          "symbol": "Clear Sky",
+          "meaning": "Freedom and openness."
+        },
+        {
+          "symbol": "Movement",
+          "meaning": "Progress and change."
+        },
+        {
+          "symbol": "Dynamic Energy",
+          "meaning": "Quickness and energy."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Nine of Wands",
+      "image": "30_nine_wands",
+      "symbols": [
+        {
+          "symbol": "Wounded Man",
+          "meaning": "Resilience and continuing the struggle."
+        },
+        {
+          "symbol": "Nine Wands",
+          "meaning": "It shows defense and readiness."
+        },
+        {
+          "symbol": "Bandage",
+          "meaning": "It bears traces of past difficulties."
+        },
+        {
+          "symbol": "Wooden Fence",
+          "meaning": "The need for protection and demarcation."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Ten of Wands",
+      "image": "31_ten_wands",
+      "symbols": [
+        {
+          "symbol": "Man Carrying a Load",
+          "meaning": "Excessive responsibility and burden."
+        },
+        {
+          "symbol": "Ten Wands",
+          "meaning": "The process of completion and finalization."
+        },
+        {
+          "symbol": "Bowing Man",
+          "meaning": "Being under pressure and the weight of the burden."
+        },
+        {
+          "symbol": "Home Away",
+          "meaning": "The will and effort to achieve the goal."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Page of Wands",
+      "image": "32_page_wands",
+      "symbols": [
+        {
+          "symbol": "Young Man",
+          "meaning": "New beginnings and excitement."
+        },
+        {
+          "symbol": "Wand",
+          "meaning": "Creativity and action."
+        },
+        {
+          "symbol": "Desert Landscape",
+          "meaning": "Exploration and new adventures."
+        },
+        {
+          "symbol": "Feathered Hat",
+          "meaning": "Originality and individual expression."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Knight of Wands",
+      "image": "33_knight_wands",
+      "symbols": [
+        {
+          "symbol": "Knight",
+          "meaning": "Moving forward with energy and determination."
+        },
+        {
+          "symbol": "Wand",
+          "meaning": "Entrepreneurship and active movement."
+        },
+        {
+          "symbol": "Hot Horse",
+          "meaning": "Passion and rapid progress."
+        },
+        {
+          "symbol": "Cloak",
+          "meaning": "Protection and courage."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Queen of Wands",
+      "image": "34_queen_wands",
+      "symbols": [
+        {
+          "symbol": "Queen",
+          "meaning": "Creativity and leadership ability."
+        },
+        {
+          "symbol": "Wand",
+          "meaning": "Inspiration and vision."
+        },
+        {
+          "symbol": "Sun Flower",
+          "meaning": "Happiness and positive energy."
+        },
+        {
+          "symbol": "Throne",
+          "meaning": "A symbol of power and authority."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "King of Wands",
+      "image": "35_king_wands",
+      "symbols": [
+        {
+          "symbol": "King",
+          "meaning": "Authority, leadership, determination."
+        },
+        {
+          "symbol": "Wand",
+          "meaning": "Creativity, passion, energy."
+        },
+        {
+          "symbol": "Aslan",
+          "meaning": "Strength, courage, protection."
+        },
+        {
+          "symbol": "Yellow Tunic",
+          "meaning": "Joy, vitality, optimism."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Ace of Cups",
+      "image": "36_ace_cups",
+      "symbols": [
+        {
+          "symbol": "Cup",
+          "meaning": "Emotions, love, relationships."
+        },
+        {
+          "symbol": "El",
+          "meaning": "Opportunity, presentation, offer."
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Emotional flow, novelty."
+        },
+        {
+          "symbol": "Lotus Flower",
+          "meaning": "Purification, spiritual growth."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Two of Cups",
+      "image": "37_two_cups",
+      "symbols": [
+        {
+          "symbol": "Two Cups",
+          "meaning": "Partnership, unity, balance."
+        },
+        {
+          "symbol": "Cup Holding Couple",
+          "meaning": "Understanding, harmony, love."
+        },
+        {
+          "symbol": "Asa",
+          "meaning": "Balance, support, strength."
+        },
+        {
+          "symbol": "Winged Lion",
+          "meaning": "Protection, courage, leadership."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Three of Cups",
+      "image": "38_three_cups",
+      "symbols": [
+        {
+          "symbol": "Three Cups",
+          "meaning": "Celebration, togetherness, community."
+        },
+        {
+          "symbol": "Dancing Women",
+          "meaning": "Joy, friendship, sharing."
+        },
+        {
+          "symbol": "Flower Wreaths",
+          "meaning": "Success, happiness, reward."
+        },
+        {
+          "symbol": "Vineyard",
+          "meaning": "Fertility, abundance, fertility."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Four of Cups",
+      "image": "39_four_cups",
+      "symbols": [
+        {
+          "symbol": "Four Cups",
+          "meaning": "Dissatisfaction, inner search."
+        },
+        {
+          "symbol": "The Man Under the Tree",
+          "meaning": "Thought, solitude, meditation."
+        },
+        {
+          "symbol": "Cloud",
+          "meaning": "Opportunity, inspiration, uncertainty."
+        },
+        {
+          "symbol": "Offered Trophy",
+          "meaning": "Option, suggestion, attention-grabbing."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Five of Cups",
+      "image": "40_five_cups",
+      "symbols": [
+        {
+          "symbol": "Black Cloaked Figure",
+          "meaning": "A sense of loss and mourning."
+        },
+        {
+          "symbol": "Spilled Mugs",
+          "meaning": "Lost opportunities."
+        },
+        {
+          "symbol": "Surviving Trophies",
+          "meaning": "Unseen hopes."
+        },
+        {
+          "symbol": "River",
+          "meaning": "The flow of emotions."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Six of Cups",
+      "image": "41_six_cups",
+      "symbols": [
+        {
+          "symbol": "Children",
+          "meaning": "Innocence and nostalgia."
+        },
+        {
+          "symbol": "Flower Mugs",
+          "meaning": "Love and gifts."
+        },
+        {
+          "symbol": "Old Clothes",
+          "meaning": "Links to the past."
+        },
+        {
+          "symbol": "Home",
+          "meaning": "Security and belonging."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Seven of Cups",
+      "image": "42_seven_cups",
+      "symbols": [
+        {
+          "symbol": "Trophies on Clouds",
+          "meaning": "Dreams and illusions."
+        },
+        {
+          "symbol": "Dragon",
+          "meaning": "Dangerous desires."
+        },
+        {
+          "symbol": "Snake",
+          "meaning": "Subconscious fears."
+        },
+        {
+          "symbol": "Castle",
+          "meaning": "The search for power and trust."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Eight of Cups",
+      "image": "43_eight_cups",
+      "symbols": [
+        {
+          "symbol": "Figure Turning His Back",
+          "meaning": "Seeking and giving up."
+        },
+        {
+          "symbol": "Moon",
+          "meaning": "The unknown and instincts."
+        },
+        {
+          "symbol": "Mountains",
+          "meaning": "Challenges and goals."
+        },
+        {
+          "symbol": "Ordered Trophies",
+          "meaning": "The search for emotional fulfillment."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Nine of Cups",
+      "image": "44_nine_cups",
+      "symbols": [
+        {
+          "symbol": "The Man Who Binds His Arms",
+          "meaning": "Satisfaction and confidence."
+        },
+        {
+          "symbol": "Stacked Cups",
+          "meaning": "Emotional satisfaction."
+        },
+        {
+          "symbol": "Red Hat",
+          "meaning": "Passion and energy."
+        },
+        {
+          "symbol": "Wooden Table",
+          "meaning": "Stability and support."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Ten of Cups",
+      "image": "45_ten_cups",
+      "symbols": [
+        {
+          "symbol": "Rainbow",
+          "meaning": "A life of happiness and harmony."
+        },
+        {
+          "symbol": "Family",
+          "meaning": "Happy moments spent together."
+        },
+        {
+          "symbol": "Home",
+          "meaning": "A safe home."
+        },
+        {
+          "symbol": "Green Land",
+          "meaning": "Abundance and peace."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Page of Cups",
+      "image": "46_page_cups",
+      "symbols": [
+        {
+          "symbol": "Fish",
+          "meaning": "Creativity and surprise."
+        },
+        {
+          "symbol": "Sea",
+          "meaning": "Emotional depth."
+        },
+        {
+          "symbol": "Blue Dress",
+          "meaning": "Emotional openness."
+        },
+        {
+          "symbol": "Cup",
+          "meaning": "Emotional messages."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Knight of Cups",
+      "image": "47_knight_cups",
+      "symbols": [
+        {
+          "symbol": "At",
+          "meaning": "Motion and energy."
+        },
+        {
+          "symbol": "Cup",
+          "meaning": "Emotional seeking."
+        },
+        {
+          "symbol": "Armor",
+          "meaning": "Protection and courage."
+        },
+        {
+          "symbol": "Stream",
+          "meaning": "Emotional flow."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Queen of Cups",
+      "image": "48_queen_cups",
+      "symbols": [
+        {
+          "symbol": "Throne",
+          "meaning": "Power and authority."
+        },
+        {
+          "symbol": "Sea Shell",
+          "meaning": "Emotional depth."
+        },
+        {
+          "symbol": "Cup",
+          "meaning": "Emotional richness."
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Emotional fluidity."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "King of Cups",
+      "image": "49_king_cups",
+      "symbols": [
+        {
+          "symbol": "Crown",
+          "meaning": "Leadership and wisdom."
+        },
+        {
+          "symbol": "Cup",
+          "meaning": "Emotional control."
+        },
+        {
+          "symbol": "Sea",
+          "meaning": "Emotional depth."
+        },
+        {
+          "symbol": "Gray Dress",
+          "meaning": "Neutrality and balance."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Ace of Swords",
+      "image": "50_ace_swords",
+      "symbols": [
+        {
+          "symbol": "Cloud Hand",
+          "meaning": "Unexpected opportunities and inspiration."
+        },
+        {
+          "symbol": "Sword",
+          "meaning": "Strength, wisdom, and new beginnings."
+        },
+        {
+          "symbol": "Crown",
+          "meaning": "Victory and success."
+        },
+        {
+          "symbol": "Mountains",
+          "meaning": "Challenges and obstacles."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Two of Swords",
+      "image": "51_two_swords",
+      "symbols": [
+        {
+          "symbol": "Connected Eyes",
+          "meaning": "Indecision and uncertainty."
+        },
+        {
+          "symbol": "Crossed Swords",
+          "meaning": "Inner conflict and the search for balance."
+        },
+        {
+          "symbol": "Moon",
+          "meaning": "Intuition and mystery."
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Emotional depth and the subconscious."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Three of Swords",
+      "image": "52_three_swords",
+      "symbols": [
+        {
+          "symbol": "Swords in the Heart",
+          "meaning": "Heartbreak and pain."
+        },
+        {
+          "symbol": "Rain",
+          "meaning": "Sadness and tears."
+        },
+        {
+          "symbol": "Clouds",
+          "meaning": "Temporary difficulties and confusion."
+        },
+        {
+          "symbol": "Red Background",
+          "meaning": "Passion and intense emotions."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Four of Swords",
+      "image": "53_four_swords",
+      "symbols": [
+        {
+          "symbol": "Reclining Knight",
+          "meaning": "Rest and inner reflection."
+        },
+        {
+          "symbol": "Swords",
+          "meaning": "Thoughts and mental struggle."
+        },
+        {
+          "symbol": "Stained Glass Window",
+          "meaning": "Spiritual guidance and hope."
+        },
+        {
+          "symbol": "Coffin",
+          "meaning": "Temporary pause and renewal."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Five of Swords",
+      "image": "54_five_swords",
+      "symbols": [
+        {
+          "symbol": "Victory Winner",
+          "meaning": "Success and excellence."
+        },
+        {
+          "symbol": "Defeated",
+          "meaning": "Loss and disappointment."
+        },
+        {
+          "symbol": "Sea",
+          "meaning": "Emotional fluctuations."
+        },
+        {
+          "symbol": "Cloudy Sky",
+          "meaning": "Confusion and uncertainty."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Six of Swords",
+      "image": "55_six_swords",
+      "symbols": [
+        {
+          "symbol": "Boat",
+          "meaning": "Transition and journey"
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Emotional state and subconscious"
+        },
+        {
+          "symbol": "Swords",
+          "meaning": "Mental struggles"
+        },
+        {
+          "symbol": "Rowing person",
+          "meaning": "Help or guidance"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Seven of Swords",
+      "image": "56_seven_swords",
+      "symbols": [
+        {
+          "symbol": "Thief",
+          "meaning": "Cheating, secrecy"
+        },
+        {
+          "symbol": "Tents",
+          "meaning": "Protection and confidentiality"
+        },
+        {
+          "symbol": "Swords",
+          "meaning": "Mental strategy"
+        },
+        {
+          "symbol": "Footprints",
+          "meaning": "Traces of the past"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Eight of Swords",
+      "image": "57_eight_swords",
+      "symbols": [
+        {
+          "symbol": "Bound woman",
+          "meaning": "Restriction, obstruction"
+        },
+        {
+          "symbol": "Swords",
+          "meaning": "Mental limitations"
+        },
+        {
+          "symbol": "Blindfold",
+          "meaning": "Failure to see reality"
+        },
+        {
+          "symbol": "Puddle",
+          "meaning": "Emotional state"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Nine of Swords",
+      "image": "58_nine_swords",
+      "symbols": [
+        {
+          "symbol": "Person sitting on the bed",
+          "meaning": "Anxiety and insomnia"
+        },
+        {
+          "symbol": "Swords",
+          "meaning": "Mental stress"
+        },
+        {
+          "symbol": "The person who closes his hands",
+          "meaning": "Guilt or shame"
+        },
+        {
+          "symbol": "Dark room",
+          "meaning": "Closure or solitude"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Ten of Swords",
+      "image": "59_ten_swords",
+      "symbols": [
+        {
+          "symbol": "Person lying on the ground",
+          "meaning": "Exhaustion and defeat"
+        },
+        {
+          "symbol": "Swords",
+          "meaning": "Conclusion and decision"
+        },
+        {
+          "symbol": "Dark sky",
+          "meaning": "Challenges and gloom"
+        },
+        {
+          "symbol": "Red cape",
+          "meaning": "Passion and pain"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Page of Swords",
+      "image": "60_page_swords",
+      "symbols": [
+        {
+          "symbol": "Young Man",
+          "meaning": "Curiosity and a desire to learn."
+        },
+        {
+          "symbol": "Sword",
+          "meaning": "Mental strength and sharpness."
+        },
+        {
+          "symbol": "Windy Sky",
+          "meaning": "Variability and alertness."
+        },
+        {
+          "symbol": "Green Land",
+          "meaning": "Potential and growth."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Knight of Swords",
+      "image": "61_knight_swords",
+      "symbols": [
+        {
+          "symbol": "At",
+          "meaning": "Speed and movement."
+        },
+        {
+          "symbol": "Sword",
+          "meaning": "Determination and struggle."
+        },
+        {
+          "symbol": "Cloudy Sky",
+          "meaning": "Challenges and confusion."
+        },
+        {
+          "symbol": "Wind",
+          "meaning": "Energy and change."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Queen of Swords",
+      "image": "62_queen_swords",
+      "symbols": [
+        {
+          "symbol": "Crown",
+          "meaning": "Wisdom and authority."
+        },
+        {
+          "symbol": "Sword",
+          "meaning": "Sharp mind and justice."
+        },
+        {
+          "symbol": "Cloudy Sky",
+          "meaning": "Mental clarity and resolution."
+        },
+        {
+          "symbol": "Throne",
+          "meaning": "Power and leadership."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "King of Swords",
+      "image": "63_king_swords",
+      "symbols": [
+        {
+          "symbol": "Crown",
+          "meaning": "Kingdom and power."
+        },
+        {
+          "symbol": "Sword",
+          "meaning": "Decision-making and authority."
+        },
+        {
+          "symbol": "High Throne",
+          "meaning": "Dominance and control."
+        },
+        {
+          "symbol": "Low Glasses",
+          "meaning": "Sharp gaze and vision."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Ace of Pentacles",
+      "image": "64_ace_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talisman",
+          "meaning": "Financial gains and opportunities."
+        },
+        {
+          "symbol": "El",
+          "meaning": "Gifts and potential."
+        },
+        {
+          "symbol": "Green Land",
+          "meaning": "Abundance and growth."
+        },
+        {
+          "symbol": "Mountains",
+          "meaning": "Goals and challenges."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Two of Pentacles",
+      "image": "65_two_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismans",
+          "meaning": "The search for material balance and harmony."
+        },
+        {
+          "symbol": "Infinity symbol",
+          "meaning": "Eternity, constant cycle and change."
+        },
+        {
+          "symbol": "Waves",
+          "meaning": "Emotional fluctuations and difficulties."
+        },
+        {
+          "symbol": "Sky",
+          "meaning": "Clarity and broad perspective."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Three of Pentacles",
+      "image": "66_three_pentacles",
+      "symbols": [
+        {
+          "symbol": "Architect",
+          "meaning": "Planning and collaboration."
+        },
+        {
+          "symbol": "Master",
+          "meaning": "Skills and experience."
+        },
+        {
+          "symbol": "Apprentice",
+          "meaning": "Learning and development process."
+        },
+        {
+          "symbol": "Cathedral",
+          "meaning": "Long-term projects and goals."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Four of Pentacles",
+      "image": "67_four_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismans",
+          "meaning": "Material security and protection."
+        },
+        {
+          "symbol": "King",
+          "meaning": "Control and ownership."
+        },
+        {
+          "symbol": "City",
+          "meaning": "Social bonds and structure."
+        },
+        {
+          "symbol": "Feet",
+          "meaning": "The need for foundation and rooting."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Five of Pentacles",
+      "image": "68_five_pentacles",
+      "symbols": [
+        {
+          "symbol": "Snowy weather",
+          "meaning": "Hardship and deprivation."
+        },
+        {
+          "symbol": "Church window",
+          "meaning": "Hope and solidarity."
+        },
+        {
+          "symbol": "Wounded man",
+          "meaning": "Physical and emotional pain."
+        },
+        {
+          "symbol": "Walking Stick",
+          "meaning": "Seeking support and endurance."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Six of Pentacles",
+      "image": "69_six_pentacles",
+      "symbols": [
+        {
+          "symbol": "Libra",
+          "meaning": "Justice, balance and equality."
+        },
+        {
+          "symbol": "Rich man",
+          "meaning": "Generosity and helpfulness."
+        },
+        {
+          "symbol": "The poor",
+          "meaning": "Seeking needs and support."
+        },
+        {
+          "symbol": "Money",
+          "meaning": "Material resources and distribution."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Seven of Pentacles",
+      "image": "70_seven_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismans",
+          "meaning": "It symbolizes material success and security."
+        },
+        {
+          "symbol": "Working Man",
+          "meaning": "It represents effort and patient waiting."
+        },
+        {
+          "symbol": "Plants",
+          "meaning": "Explains growth and development processes."
+        },
+        {
+          "symbol": "Soil",
+          "meaning": "It symbolizes natural cycles and patient waiting."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Eight of Pentacles",
+      "image": "71_eight_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismans",
+          "meaning": "It refers to the material world and skills."
+        },
+        {
+          "symbol": "Workbench",
+          "meaning": "It shows manual skill and craftsmanship."
+        },
+        {
+          "symbol": "Hammer",
+          "meaning": "It symbolizes work and labor."
+        },
+        {
+          "symbol": "Focused Man",
+          "meaning": "It represents concentration and specialization."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Nine of Pentacles",
+      "image": "72_nine_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismans",
+          "meaning": "It symbolizes material abundance and prosperity."
+        },
+        {
+          "symbol": "Vineyards",
+          "meaning": "It represents abundance and wealth."
+        },
+        {
+          "symbol": "Sahin",
+          "meaning": "It symbolizes control and freedom."
+        },
+        {
+          "symbol": "Rich Woman",
+          "meaning": "It shows independence and financial strength."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Ten of Pentacles",
+      "image": "73_ten_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismans",
+          "meaning": "The family symbolizes wealth and heritage."
+        },
+        {
+          "symbol": "Family",
+          "meaning": "It represents togetherness and commitment."
+        },
+        {
+          "symbol": "Dogs",
+          "meaning": "It symbolizes loyalty and trust."
+        },
+        {
+          "symbol": "Castles",
+          "meaning": "It stands for security and deep-rooted history."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Page of Pentacles",
+      "image": "74_page_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talisman",
+          "meaning": "It symbolizes the physical world and opportunities."
+        },
+        {
+          "symbol": "The Young Prince",
+          "meaning": "It represents curiosity and the desire to learn."
+        },
+        {
+          "symbol": "Meadow",
+          "meaning": "It symbolizes natural growth and innovation."
+        },
+        {
+          "symbol": "Green Clothes",
+          "meaning": "It stands for nature and innovation."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Knight of Pentacles",
+      "image": "75_knight_pentacles",
+      "symbols": [
+        {
+          "symbol": "Knight",
+          "meaning": "It symbolizes stability and determination."
+        },
+        {
+          "symbol": "Talisman",
+          "meaning": "It represents financial security and success."
+        },
+        {
+          "symbol": "Field",
+          "meaning": "It means hard work and labor."
+        },
+        {
+          "symbol": "At",
+          "meaning": "It shows strength and mobility."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Queen of Pentacles",
+      "image": "76_queen_pentacles",
+      "symbols": [
+        {
+          "symbol": "Queen",
+          "meaning": "It represents compassion and understanding."
+        },
+        {
+          "symbol": "Talisman",
+          "meaning": "It means material prosperity and abundance."
+        },
+        {
+          "symbol": "Nature",
+          "meaning": "It symbolizes fertility and fertility."
+        },
+        {
+          "symbol": "Crown",
+          "meaning": "It signifies leadership and power."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "King of Pentacles",
+      "image": "77_king_pentacles",
+      "symbols": [
+        {
+          "symbol": "King",
+          "meaning": "It symbolizes authority and power."
+        },
+        {
+          "symbol": "Talisman",
+          "meaning": "It indicates material success and security."
+        },
+        {
+          "symbol": "Throne",
+          "meaning": "It represents power and control."
+        },
+        {
+          "symbol": "Hanging",
+          "meaning": "It signifies wealth and abundance."
+        }
+      ]
+    }
+  ]
+}

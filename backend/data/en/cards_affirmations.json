@@ -1,0 +1,474 @@
+{
+  "_comment": "78 Tarot kartının mottosu — English, birinci tekil şahıs",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "image": "00_fool",
+      "affirmation": "I step boldly into the unknown; I accept every moment as full of new beginnings."
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "image": "01_magician",
+      "affirmation": "With my strength and will, I make everything I think come true."
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "image": "02_high_priestess",
+      "affirmation": "I navigate the sea of inner wisdom; my intuition guides me."
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "image": "03_empress",
+      "affirmation": "I am surrounded by the abundance of nature; I am the source of creativity and abundance."
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "image": "04_emperor",
+      "affirmation": "I rule with order and authority; I steer with confidence and determination."
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "image": "05_hierophant",
+      "affirmation": "In the infinite depth of wisdom, I find inner peace and guidance that illuminates my path."
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "image": "06_lovers",
+      "affirmation": "Guided by my heart, I embrace love and harmony and join the dance of my life."
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "image": "07_chariot",
+      "affirmation": "With my determination and willpower, I overcome every obstacle and freely direct my own destiny."
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "image": "08_strength",
+      "affirmation": "I discover the infinite power within me and overcome difficulties with love."
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "image": "09_hermit",
+      "affirmation": "In silence, I find my inner light and open new paths with wisdom."
+    },
+    {
+      "id": 10,
+      "name": "The Wheel of Fortune",
+      "image": "10_wheel_of_fortune",
+      "affirmation": "In the cycles of fate, in the wind of change, I rise bravely; no matter what happens, my path is illuminated."
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "image": "11_justice",
+      "affirmation": "I seek the truth with honesty and balance on the scales of justice; the truth always illuminates my path like a bright light."
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "image": "12_hanged_man",
+      "affirmation": "When I pause and reflect, I discover new perspectives in the universe with inner peace; I wait with patience and grow with understanding."
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "image": "13_death",
+      "affirmation": "Every ending is a new beginning; I accept it, and as I let go of the old, I embrace brand new lives."
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "image": "14_temperance",
+      "affirmation": "With the balance of peace, I harmoniously blend the fire within me; I move forward with patience and find the balance."
+    },
+    {
+      "id": 15,
+      "name": "The Devil",
+      "image": "15_devil",
+      "affirmation": "I emerge stronger from my dark confrontations; I choose to liberate my addictions."
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "image": "16_tower",
+      "affirmation": "Even if old structures collapse, I create a new me from the ashes."
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "image": "17_star",
+      "affirmation": "I am inspired by the stars of hope and guided by the universe."
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "image": "18_moon",
+      "affirmation": "I illuminate the truths behind the shadows and secrets with my intuition."
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "image": "19_sun",
+      "affirmation": "I shine in my own light and spread the power within me all over the world."
+    },
+    {
+      "id": 20,
+      "name": "Judgement",
+      "image": "20_judgement",
+      "affirmation": "Rising from the ashes, I find my own truth; I resurrect myself with the fire within me."
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "image": "21_world",
+      "affirmation": "I spin in harmony with the rhythm of the world; I accept the gift of completion and wholeness."
+    },
+    {
+      "id": 22,
+      "name": "Ace of Wands",
+      "image": "22_ace_wands",
+      "affirmation": "By igniting the fire of creativity, I step boldly into new beginnings."
+    },
+    {
+      "id": 23,
+      "name": "Two of Wands",
+      "image": "23_two_wands",
+      "affirmation": "I look to the horizon, I know that discoveries and possibilities are limitless; I boldly realize my plans."
+    },
+    {
+      "id": 24,
+      "name": "Three of Wands",
+      "image": "24_three_wands",
+      "affirmation": "I expand my horizons and move forward with determination to turn my vision into concrete reality."
+    },
+    {
+      "id": 25,
+      "name": "Four of Wands",
+      "image": "25_four_wands",
+      "affirmation": "In the moment of success and celebration, I shine in my heart with the light of fire."
+    },
+    {
+      "id": 26,
+      "name": "Five of Wands",
+      "image": "26_five_wands",
+      "affirmation": "The fire of competition makes me strong, I overcome obstacles with courage."
+    },
+    {
+      "id": 27,
+      "name": "Six of Wands",
+      "image": "27_six_wands",
+      "affirmation": "As I savor the victory, I am driven by the fire of leadership in me."
+    },
+    {
+      "id": 28,
+      "name": "Seven of Wands",
+      "image": "28_seven_wands",
+      "affirmation": "As I continue my defense with passion, I reach the summit with determination."
+    },
+    {
+      "id": 29,
+      "name": "Eight of Wands",
+      "image": "29_eight_wands",
+      "affirmation": "My thoughts and actions quickly harmonize, I flow towards my goal."
+    },
+    {
+      "id": 30,
+      "name": "Nine of Wands",
+      "image": "30_nine_wands",
+      "affirmation": "I am resilient, I get up stronger after every blow."
+    },
+    {
+      "id": 31,
+      "name": "Ten of Wands",
+      "image": "31_ten_wands",
+      "affirmation": "My burdens are heavy but my goal is clear; I will successfully complete this path."
+    },
+    {
+      "id": 32,
+      "name": "Page of Wands",
+      "image": "32_page_wands",
+      "affirmation": "I boldly venture into new horizons with my curiosity and passion for adventure."
+    },
+    {
+      "id": 33,
+      "name": "Knight of Wands",
+      "image": "33_knight_wands",
+      "affirmation": "I rush forward with the power of fire, blending my passion with courage."
+    },
+    {
+      "id": 34,
+      "name": "Queen of Wands",
+      "image": "34_queen_wands",
+      "affirmation": "I am the leader of my own light; I inspire others with my inner fire."
+    },
+    {
+      "id": 35,
+      "name": "King of Wands",
+      "image": "35_king_wands",
+      "affirmation": "I burn with fire, I lead with courage; I pursue my passions."
+    },
+    {
+      "id": 36,
+      "name": "Ace of Cups",
+      "image": "36_ace_cups",
+      "affirmation": "Love overflows from the depths of my heart; I open to new beginnings in the sea of emotions."
+    },
+    {
+      "id": 37,
+      "name": "Two of Cups",
+      "image": "37_two_cups",
+      "affirmation": "We are stronger together; love brings us together, unites our souls."
+    },
+    {
+      "id": 38,
+      "name": "Three of Cups",
+      "image": "38_three_cups",
+      "affirmation": "I am full of the joy of celebrations; sharing with friends makes life meaningful."
+    },
+    {
+      "id": 39,
+      "name": "Four of Cups",
+      "image": "39_four_cups",
+      "affirmation": "I dive deep into my inner waters and find new meanings beyond dissatisfaction."
+    },
+    {
+      "id": 40,
+      "name": "Five of Cups",
+      "image": "40_five_cups",
+      "affirmation": "I let go of the weight of the past, accept the losses and set sail for new hopes."
+    },
+    {
+      "id": 41,
+      "name": "Six of Cups",
+      "image": "41_six_cups",
+      "affirmation": "In the light of memories, I nurture my inner child with love and draw strength from the past."
+    },
+    {
+      "id": 42,
+      "name": "Seven of Cups",
+      "image": "42_seven_cups",
+      "affirmation": "In the sea of dreams, I make my choices with wisdom and become free from illusions."
+    },
+    {
+      "id": 43,
+      "name": "Eight of Cups",
+      "image": "43_eight_cups",
+      "affirmation": "I courageously continue my inner journey with everything I have left behind."
+    },
+    {
+      "id": 44,
+      "name": "Nine of Cups",
+      "image": "44_nine_cups",
+      "affirmation": "I am overflowing with gratitude, with the peace of having my wishes fulfilled."
+    },
+    {
+      "id": 45,
+      "name": "Ten of Cups",
+      "image": "45_ten_cups",
+      "affirmation": "I find peace with my family and loved ones; I am the architect of a world full of love."
+    },
+    {
+      "id": 46,
+      "name": "Page of Cups",
+      "image": "46_page_cups",
+      "affirmation": "I bravely embrace creativity and imagination from the bottom of my heart."
+    },
+    {
+      "id": 47,
+      "name": "Knight of Cups",
+      "image": "47_knight_cups",
+      "affirmation": "As a knight of love and emotions, I follow the voice of my heart."
+    },
+    {
+      "id": 48,
+      "name": "Queen of Cups",
+      "image": "48_queen_cups",
+      "affirmation": "I reign with wisdom and compassion in the deep waters of my emotions."
+    },
+    {
+      "id": 49,
+      "name": "King of Cups",
+      "image": "49_king_cups",
+      "affirmation": "By mastering my emotions, I rule as a balanced and effective leader."
+    },
+    {
+      "id": 50,
+      "name": "Ace of Swords",
+      "image": "50_ace_swords",
+      "affirmation": "I create new beginnings with the sharpness of my mind and wield truth like a sword."
+    },
+    {
+      "id": 51,
+      "name": "Two of Swords",
+      "image": "51_two_swords",
+      "affirmation": "I find balance in my mind and choose to overcome difficulties with inner peace."
+    },
+    {
+      "id": 52,
+      "name": "Three of Swords",
+      "image": "52_three_swords",
+      "affirmation": "I draw strength from the brokenness, I am reborn in the depths of my heart."
+    },
+    {
+      "id": 53,
+      "name": "Four of Swords",
+      "image": "53_four_swords",
+      "affirmation": "I rest my mind and find peace in the depth of silence."
+    },
+    {
+      "id": 54,
+      "name": "Five of Swords",
+      "image": "54_five_swords",
+      "affirmation": "I understand the cost of victories and focus on maintaining my own inner peace."
+    },
+    {
+      "id": 55,
+      "name": "Six of Swords",
+      "image": "55_six_swords",
+      "affirmation": "I leave my mind to the wind of tranquility and sail towards calm waters."
+    },
+    {
+      "id": 56,
+      "name": "Seven of Swords",
+      "image": "56_seven_swords",
+      "affirmation": "I use my intelligence to overcome obstacles and strategize."
+    },
+    {
+      "id": 57,
+      "name": "Eight of Swords",
+      "image": "57_eight_swords",
+      "affirmation": "Even though I feel imprisoned, I discover my inner strength to find the path to freedom."
+    },
+    {
+      "id": 58,
+      "name": "Nine of Swords",
+      "image": "58_nine_swords",
+      "affirmation": "With courage that transcends the night, I turn dark thoughts into light."
+    },
+    {
+      "id": 59,
+      "name": "Ten of Swords",
+      "image": "59_ten_swords",
+      "affirmation": "I reach the end of pain, I am reborn from my ashes."
+    },
+    {
+      "id": 60,
+      "name": "Page of Swords",
+      "image": "60_page_swords",
+      "affirmation": "I seek the truth with the sharp sword of my consciousness, my thoughts are free as the wind."
+    },
+    {
+      "id": 61,
+      "name": "Knight of Swords",
+      "image": "61_knight_swords",
+      "affirmation": "My heart full of courage, I take strategic steps even in the midst of storms."
+    },
+    {
+      "id": 62,
+      "name": "Queen of Swords",
+      "image": "62_queen_swords",
+      "affirmation": "I rule with reason and intuition; I light the way with the light of clarity."
+    },
+    {
+      "id": 63,
+      "name": "King of Swords",
+      "image": "63_king_swords",
+      "affirmation": "I do justice with my wisdom and am firm and resolute in my thoughts."
+    },
+    {
+      "id": 64,
+      "name": "Ace of Pentacles",
+      "image": "64_ace_pentacles",
+      "affirmation": "I deepen my roots and embrace abundance with the opportunities the universe offers me."
+    },
+    {
+      "id": 65,
+      "name": "Two of Pentacles",
+      "image": "65_two_pentacles",
+      "affirmation": "I skillfully adapt to the changing rhythm of life; flexibility and balance are my guides."
+    },
+    {
+      "id": 66,
+      "name": "Three of Pentacles",
+      "image": "66_three_pentacles",
+      "affirmation": "I achieve wealth and success through cooperation and joint efforts; I rise together."
+    },
+    {
+      "id": 67,
+      "name": "Four of Pentacles",
+      "image": "67_four_pentacles",
+      "affirmation": "I feel the power of staying safe, but I dare to open up to grow."
+    },
+    {
+      "id": 68,
+      "name": "Five of Pentacles",
+      "image": "68_five_pentacles",
+      "affirmation": "Even on dark days I find my way with my inner light; hope merges with determination."
+    },
+    {
+      "id": 69,
+      "name": "Six of Pentacles",
+      "image": "69_six_pentacles",
+      "affirmation": "Generosity and balance enrich me; I multiply by sharing."
+    },
+    {
+      "id": 70,
+      "name": "Seven of Pentacles",
+      "image": "70_seven_pentacles",
+      "affirmation": "I patiently grow the fruits of my labor and turn my dreams into reality with the power of the soil."
+    },
+    {
+      "id": 71,
+      "name": "Eight of Pentacles",
+      "image": "71_eight_pentacles",
+      "affirmation": "Every meticulous detail is a reflection of my mastery and determination."
+    },
+    {
+      "id": 72,
+      "name": "Nine of Pentacles",
+      "image": "72_nine_pentacles",
+      "affirmation": "In my own garden I find peace and abundance and enjoy freedom."
+    },
+    {
+      "id": 73,
+      "name": "Ten of Pentacles",
+      "image": "73_ten_pentacles",
+      "affirmation": "I am building a future rooted in the legacy of my family and my past."
+    },
+    {
+      "id": 74,
+      "name": "Page of Pentacles",
+      "image": "74_page_pentacles",
+      "affirmation": "With my passion for learning, I create new beginnings and pursue my dreams with determination."
+    },
+    {
+      "id": 75,
+      "name": "Knight of Pentacles",
+      "image": "75_knight_pentacles",
+      "affirmation": "With patience and determination, I build a solid foundation at every step; success is with me."
+    },
+    {
+      "id": 76,
+      "name": "Queen of Pentacles",
+      "image": "76_queen_pentacles",
+      "affirmation": "I am surrounded by abundance and security; I enrich my world with inner peace and compassion."
+    },
+    {
+      "id": 77,
+      "name": "King of Pentacles",
+      "image": "77_king_pentacles",
+      "affirmation": "With wisdom and leadership I rule; with material power I ensure permanence in my world."
+    }
+  ]
+}

@@ -1,0 +1,1800 @@
+{
+  "_comment": "78 Tarot kartının görsel sembolleri ve anlamları — Español",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "El Loco",
+      "image": "00_fool",
+      "symbols": [
+        {
+          "symbol": "Perro blanco",
+          "meaning": "Lealtad y protección."
+        },
+        {
+          "symbol": "Cliff",
+          "meaning": "Asumir riesgos, lo desconocido."
+        },
+        {
+          "symbol": "Flor",
+          "meaning": "Pureza y nuevos comienzos."
+        },
+        {
+          "symbol": "Sol",
+          "meaning": "Optimismo y esperanza."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "El Mago",
+      "image": "01_magician",
+      "symbols": [
+        {
+          "symbol": "Asa",
+          "meaning": "Voluntad y poder."
+        },
+        {
+          "symbol": "Espada",
+          "meaning": "Mente e intelecto."
+        },
+        {
+          "symbol": "Taza",
+          "meaning": "Emociones e intuición."
+        },
+        {
+          "symbol": "Pentáculo",
+          "meaning": "El mundo material, la riqueza."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "La Sacerdotisa",
+      "image": "02_high_priestess",
+      "symbols": [
+        {
+          "symbol": "Luna",
+          "meaning": "Conocimiento secreto e intuición."
+        },
+        {
+          "symbol": "Columnas",
+          "meaning": "Equilibrio y dualidad."
+        },
+        {
+          "symbol": "Tora",
+          "meaning": "Sabiduría y secretos."
+        },
+        {
+          "symbol": "Anillo",
+          "meaning": "Compromiso e integridad."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "La Emperatriz",
+      "image": "03_empress",
+      "symbols": [
+        {
+          "symbol": "Trigo",
+          "meaning": "Abundancia y prosperidad."
+        },
+        {
+          "symbol": "Corona",
+          "meaning": "Autoridad y poder."
+        },
+        {
+          "symbol": "Símbolo de Venus",
+          "meaning": "Amor y belleza."
+        },
+        {
+          "symbol": "Naturaleza",
+          "meaning": "La fertilidad y la vida."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "El Emperador",
+      "image": "04_emperor",
+      "symbols": [
+        {
+          "symbol": "Trono",
+          "meaning": "Control y autoridad."
+        },
+        {
+          "symbol": "Armadura",
+          "meaning": "Protección y potencia."
+        },
+        {
+          "symbol": "Montañas",
+          "meaning": "Resistencia y determinación."
+        },
+        {
+          "symbol": "Túnica Roja",
+          "meaning": "Poder y pasión."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "El Sumo Sacerdote",
+      "image": "05_hierophant",
+      "symbols": [
+        {
+          "symbol": "El Santo Coronado",
+          "meaning": "Autoridad espiritual y enseñanza."
+        },
+        {
+          "symbol": "Interruptores",
+          "meaning": "Información secreta y apertura de puertas."
+        },
+        {
+          "symbol": "Trono del Papa",
+          "meaning": "Poder y autoridad tradicionales."
+        },
+        {
+          "symbol": "Doble columna",
+          "meaning": "Dualidad y equilibrio."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Los Enamorados",
+      "image": "06_lovers",
+      "symbols": [
+        {
+          "symbol": "Pareja enamorada",
+          "meaning": "Amor y unidad."
+        },
+        {
+          "symbol": "Ángel",
+          "meaning": "Guía y protección divinas."
+        },
+        {
+          "symbol": "Montañas",
+          "meaning": "Retos y obstáculos."
+        },
+        {
+          "symbol": "Árbol serpiente",
+          "meaning": "Conocimiento y glamour."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "El Carro",
+      "image": "07_chariot",
+      "symbols": [
+        {
+          "symbol": "Carro de la Victoria",
+          "meaning": "Control y fuerza de voluntad."
+        },
+        {
+          "symbol": "Esfinges en blanco y negro",
+          "meaning": "Contrastes y orientación."
+        },
+        {
+          "symbol": "Corona estrellada",
+          "meaning": "Éxito y protección divina."
+        },
+        {
+          "symbol": "Muro de la ciudad",
+          "meaning": "Seguridad y protección."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "La Fuerza",
+      "image": "08_strength",
+      "symbols": [
+        {
+          "symbol": "Mujer y León",
+          "meaning": "Fuerza y valor gentiles."
+        },
+        {
+          "symbol": "Símbolo del Infinito",
+          "meaning": "Energía y potencial infinitos."
+        },
+        {
+          "symbol": "Corona de flores",
+          "meaning": "Belleza natural y armonía."
+        },
+        {
+          "symbol": "Montañas",
+          "meaning": "Resistencia y determinación."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "El Ermitaño",
+      "image": "09_hermit",
+      "symbols": [
+        {
+          "symbol": "El ermitaño con un farol en la mano",
+          "meaning": "Búsqueda y guía interior."
+        },
+        {
+          "symbol": "Bata blanca",
+          "meaning": "Pureza y conocimiento."
+        },
+        {
+          "symbol": "Montaña",
+          "meaning": "Lucha y soledad."
+        },
+        {
+          "symbol": "Bastón",
+          "meaning": "Apoyo y confianza."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "La Rueda de la Fortuna",
+      "image": "10_wheel_of_fortune",
+      "symbols": [
+        {
+          "symbol": "Rueda",
+          "meaning": "Cambios y ciclos."
+        },
+        {
+          "symbol": "Ángel",
+          "meaning": "Fuerzas de protección."
+        },
+        {
+          "symbol": "Aslan",
+          "meaning": "Fuerza y valor."
+        },
+        {
+          "symbol": "Águila",
+          "meaning": "Gran visibilidad y libertad."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "La Justicia",
+      "image": "11_justice",
+      "symbols": [
+        {
+          "symbol": "Libra",
+          "meaning": "Equilibrio y justicia."
+        },
+        {
+          "symbol": "Espada",
+          "meaning": "Hechos y juicios."
+        },
+        {
+          "symbol": "Trono",
+          "meaning": "Autorización y autoridad."
+        },
+        {
+          "symbol": "Capa",
+          "meaning": "Privacidad y protección."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "El Colgado",
+      "image": "12_hanged_man",
+      "symbols": [
+        {
+          "symbol": "Hombre invertido",
+          "meaning": "Diferentes perspectivas."
+        },
+        {
+          "symbol": "Cuerda",
+          "meaning": "Compromiso y moderación."
+        },
+        {
+          "symbol": "Árbol",
+          "meaning": "Crecimiento y resistencia."
+        },
+        {
+          "symbol": "Halo",
+          "meaning": "Iluminación e inspiración."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "La Muerte",
+      "image": "13_death",
+      "symbols": [
+        {
+          "symbol": "Esqueleto",
+          "meaning": "Finales inevitables."
+        },
+        {
+          "symbol": "En",
+          "meaning": "Movimiento y progreso."
+        },
+        {
+          "symbol": "Sol",
+          "meaning": "Nuevos comienzos"
+        },
+        {
+          "symbol": "Bandera",
+          "meaning": "Transformación y cambio."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "La Templanza",
+      "image": "14_temperance",
+      "symbols": [
+        {
+          "symbol": "Ángel",
+          "meaning": "Orientación y protección."
+        },
+        {
+          "symbol": "Agua",
+          "meaning": "Equilibrio emocional."
+        },
+        {
+          "symbol": "Taza",
+          "meaning": "Emociones y relaciones."
+        },
+        {
+          "symbol": "Carretera",
+          "meaning": "Proceso y progreso."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "El Diablo",
+      "image": "15_devil",
+      "symbols": [
+        {
+          "symbol": "Figura del diablo",
+          "meaning": "Adicción y materialismo."
+        },
+        {
+          "symbol": "Personas encadenadas",
+          "meaning": "La sensación de tener el control."
+        },
+        {
+          "symbol": "Pentagrama invertido",
+          "meaning": "La energía negativa y el mal."
+        },
+        {
+          "symbol": "Cuernos",
+          "meaning": "Impulsos e instintos animales."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "La Torre",
+      "image": "16_tower",
+      "symbols": [
+        {
+          "symbol": "Torre derrumbada",
+          "meaning": "Cambio repentino y destrucción."
+        },
+        {
+          "symbol": "Rayo",
+          "meaning": "Acontecimientos inesperados."
+        },
+        {
+          "symbol": "Gente que cae",
+          "meaning": "Pérdida de control y caos."
+        },
+        {
+          "symbol": "Nubes negras",
+          "meaning": "Incertidumbre y dificultades."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "La Estrella",
+      "image": "17_star",
+      "symbols": [
+        {
+          "symbol": "Estrella",
+          "meaning": "Esperanza y orientación."
+        },
+        {
+          "symbol": "Jarra de agua",
+          "meaning": "Equilibrio emocional y purificación."
+        },
+        {
+          "symbol": "Mujer desnuda",
+          "meaning": "Claridad y pureza."
+        },
+        {
+          "symbol": "Siete estrellitas",
+          "meaning": "Altos ideales e inspiración."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "La Luna",
+      "image": "18_moon",
+      "symbols": [
+        {
+          "symbol": "Luna",
+          "meaning": "El subconsciente y las ilusiones."
+        },
+        {
+          "symbol": "Lobo y perro",
+          "meaning": "Conflicto interno y externo."
+        },
+        {
+          "symbol": "Vía navegable",
+          "meaning": "Caminos y sentimientos desconocidos."
+        },
+        {
+          "symbol": "Dos Torres",
+          "meaning": "Seguridad y protección."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "El Sol",
+      "image": "19_sun",
+      "symbols": [
+        {
+          "symbol": "Sol",
+          "meaning": "Felicidad y éxito."
+        },
+        {
+          "symbol": "Niño",
+          "meaning": "Inocencia y alegría."
+        },
+        {
+          "symbol": "En",
+          "meaning": "Movimiento y progreso."
+        },
+        {
+          "symbol": "Flores de sol",
+          "meaning": "Energía vital y vitalidad."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "El Juicio",
+      "image": "20_judgement",
+      "symbols": [
+        {
+          "symbol": "Ángel",
+          "meaning": "Mayor conciencia y llamada interior."
+        },
+        {
+          "symbol": "Trompeta",
+          "meaning": "Despertar y mensajes divinos."
+        },
+        {
+          "symbol": "Personas resucitadas",
+          "meaning": "Renacimiento y cambio."
+        },
+        {
+          "symbol": "Nubes",
+          "meaning": "La presencia de lo misterioso y lo divino."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "El Mundo",
+      "image": "21_world",
+      "symbols": [
+        {
+          "symbol": "Mujer Bailarina",
+          "meaning": "Finalización y equilibrio."
+        },
+        {
+          "symbol": "Corona",
+          "meaning": "Victoria y éxito."
+        },
+        {
+          "symbol": "Los cuatro elementos",
+          "meaning": "Equilibrio tierra, agua, aire, fuego."
+        },
+        {
+          "symbol": "Chal",
+          "meaning": "Protección e inclusión."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "As de Bastos",
+      "image": "22_ace_wands",
+      "symbols": [
+        {
+          "symbol": "Varita",
+          "meaning": "Nuevos comienzos y oportunidades."
+        },
+        {
+          "symbol": "Paisaje verde",
+          "meaning": "Crecimiento y potencial."
+        },
+        {
+          "symbol": "Nubes blancas",
+          "meaning": "Pureza e inspiración."
+        },
+        {
+          "symbol": "Cielo azul",
+          "meaning": "Claridad y esperanza."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Dos de Bastos",
+      "image": "23_two_wands",
+      "symbols": [
+        {
+          "symbol": "Dos varitas",
+          "meaning": "Toma de decisiones y planificación."
+        },
+        {
+          "symbol": "Globo terráqueo",
+          "meaning": "Perspectiva global y control."
+        },
+        {
+          "symbol": "Muro del Castillo",
+          "meaning": "Seguridad y protección."
+        },
+        {
+          "symbol": "Mar",
+          "meaning": "Exploración y oportunidades."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Tres de Bastos",
+      "image": "24_three_wands",
+      "symbols": [
+        {
+          "symbol": "Tres varitas",
+          "meaning": "Expectativas y progreso."
+        },
+        {
+          "symbol": "Mar",
+          "meaning": "Reconocimiento y objetivos a distancia."
+        },
+        {
+          "symbol": "Colinas",
+          "meaning": "Retos y oportunidades."
+        },
+        {
+          "symbol": "Horizonte Amplio",
+          "meaning": "Amplitud de miras y visión."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Cuatro de Bastos",
+      "image": "25_four_wands",
+      "symbols": [
+        {
+          "symbol": "Varitas de flores",
+          "meaning": "Un signo de celebración y éxito."
+        },
+        {
+          "symbol": "Corona",
+          "meaning": "Un símbolo de victoria y unidad."
+        },
+        {
+          "symbol": "Puente",
+          "meaning": "Conexión y conmutación."
+        },
+        {
+          "symbol": "Gente en el fondo",
+          "meaning": "Comunidad y unión."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Cinco de Bastos",
+      "image": "26_five_wands",
+      "symbols": [
+        {
+          "symbol": "Varitas Colisionadoras",
+          "meaning": "Competencia y conflicto."
+        },
+        {
+          "symbol": "Cinco personas",
+          "meaning": "Múltiples opiniones y desacuerdos."
+        },
+        {
+          "symbol": "Debate",
+          "meaning": "Desacuerdo y desacuerdo."
+        },
+        {
+          "symbol": "Ambiente febril",
+          "meaning": "Tensión y estrés."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Seis de Bastos",
+      "image": "27_six_wands",
+      "symbols": [
+        {
+          "symbol": "Corona de la Victoria",
+          "meaning": "Éxito y victoria."
+        },
+        {
+          "symbol": "Caballo blanco",
+          "meaning": "Pureza y liderazgo."
+        },
+        {
+          "symbol": "Multitud aplaudiendo",
+          "meaning": "Reconocimiento y apoyo."
+        },
+        {
+          "symbol": "Varita Alta",
+          "meaning": "Poder y autoridad."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Siete de Bastos",
+      "image": "28_seven_wands",
+      "symbols": [
+        {
+          "symbol": "Siete Bastos",
+          "meaning": "Defensa y lucha."
+        },
+        {
+          "symbol": "Persona solitaria",
+          "meaning": "Autodefensa."
+        },
+        {
+          "symbol": "De pie en terreno elevado",
+          "meaning": "Superioridad y ventaja."
+        },
+        {
+          "symbol": "Resistencia",
+          "meaning": "Estabilidad y resistencia."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Ocho de Bastos",
+      "image": "29_eight_wands",
+      "symbols": [
+        {
+          "symbol": "Varitas Voladoras",
+          "meaning": "Desarrollos rápidos."
+        },
+        {
+          "symbol": "Cielo despejado",
+          "meaning": "Libertad y apertura."
+        },
+        {
+          "symbol": "Movimiento",
+          "meaning": "Progreso y cambio."
+        },
+        {
+          "symbol": "Energía dinámica",
+          "meaning": "Rapidez y energía."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Nueve de Bastos",
+      "image": "30_nine_wands",
+      "symbols": [
+        {
+          "symbol": "Hombre herido",
+          "meaning": "Resiliencia y persistencia."
+        },
+        {
+          "symbol": "Nueve Bastos",
+          "meaning": "Demuestra defensa y disposición."
+        },
+        {
+          "symbol": "Venda",
+          "meaning": "Lleva huellas de dificultades pasadas."
+        },
+        {
+          "symbol": "Valla de madera",
+          "meaning": "La necesidad de protección y demarcación."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Diez de Bastos",
+      "image": "31_ten_wands",
+      "symbols": [
+        {
+          "symbol": "Hombre con carga",
+          "meaning": "Responsabilidad y carga excesivas."
+        },
+        {
+          "symbol": "Diez Bastos",
+          "meaning": "El proceso de realización y finalización."
+        },
+        {
+          "symbol": "Hombre inclinado",
+          "meaning": "Estar bajo presión y el peso de la carga."
+        },
+        {
+          "symbol": "Fuera de casa",
+          "meaning": "Deseo y empeño por alcanzar el objetivo."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Sota de Bastos",
+      "image": "32_page_wands",
+      "symbols": [
+        {
+          "symbol": "Hombre joven",
+          "meaning": "Nuevos comienzos y emoción."
+        },
+        {
+          "symbol": "Varita",
+          "meaning": "Creatividad y acción."
+        },
+        {
+          "symbol": "Paisaje desértico",
+          "meaning": "Exploración y nuevas aventuras."
+        },
+        {
+          "symbol": "Sombrero de plumas",
+          "meaning": "Originalidad y expresión individual."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Caballo de Bastos",
+      "image": "33_knight_wands",
+      "symbols": [
+        {
+          "symbol": "Caballero",
+          "meaning": "Avanza con energía y determinación."
+        },
+        {
+          "symbol": "Varita",
+          "meaning": "Emprendimiento y movimiento activo."
+        },
+        {
+          "symbol": "Caballo caliente",
+          "meaning": "Pasión y progreso rápido."
+        },
+        {
+          "symbol": "Capa",
+          "meaning": "Protección y valor."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Reina de Bastos",
+      "image": "34_queen_wands",
+      "symbols": [
+        {
+          "symbol": "Reina",
+          "meaning": "Creatividad y capacidad de liderazgo."
+        },
+        {
+          "symbol": "Varita",
+          "meaning": "Inspiración y visión."
+        },
+        {
+          "symbol": "Flor del Sol",
+          "meaning": "Felicidad y energía positiva."
+        },
+        {
+          "symbol": "Trono",
+          "meaning": "Un símbolo de poder y autoridad."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Rey de Bastos",
+      "image": "35_king_wands",
+      "symbols": [
+        {
+          "symbol": "Rey",
+          "meaning": "Autoridad, liderazgo, determinación."
+        },
+        {
+          "symbol": "Varita",
+          "meaning": "Creatividad, pasión, energía."
+        },
+        {
+          "symbol": "Aslan",
+          "meaning": "Fuerza, valor, protección."
+        },
+        {
+          "symbol": "Túnica amarilla",
+          "meaning": "Alegría, vitalidad, optimismo."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "As de Copas",
+      "image": "36_ace_cups",
+      "symbols": [
+        {
+          "symbol": "Taza",
+          "meaning": "Emociones, amor, relaciones."
+        },
+        {
+          "symbol": "El",
+          "meaning": "Oportunidad, presentación, oferta."
+        },
+        {
+          "symbol": "Agua",
+          "meaning": "Flujo emocional, novedad."
+        },
+        {
+          "symbol": "Flor de loto",
+          "meaning": "Purificación, desarrollo espiritual."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Dos de Copas",
+      "image": "37_two_cups",
+      "symbols": [
+        {
+          "symbol": "Dos tazas",
+          "meaning": "Asociación, unidad, equilibrio."
+        },
+        {
+          "symbol": "Pareja Sujeta Tazas",
+          "meaning": "Comprensión, armonía, amor."
+        },
+        {
+          "symbol": "Asa",
+          "meaning": "Equilibrio, apoyo, fuerza."
+        },
+        {
+          "symbol": "León alado",
+          "meaning": "Protección, valor, liderazgo."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Tres de Copas",
+      "image": "38_three_cups",
+      "symbols": [
+        {
+          "symbol": "Tres tazas",
+          "meaning": "Celebración, unidad, comunidad."
+        },
+        {
+          "symbol": "Mujeres bailarinas",
+          "meaning": "Alegría, amistad, compartir."
+        },
+        {
+          "symbol": "Coronas de flores",
+          "meaning": "Éxito, felicidad, recompensa."
+        },
+        {
+          "symbol": "Viñedo",
+          "meaning": "Fecundidad, abundancia, fertilidad."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Cuatro de Copas",
+      "image": "39_four_cups",
+      "symbols": [
+        {
+          "symbol": "Cuatro tazas",
+          "meaning": "Insatisfacción, búsqueda interior."
+        },
+        {
+          "symbol": "El hombre bajo el árbol",
+          "meaning": "Pensamiento, soledad, meditación."
+        },
+        {
+          "symbol": "Nube",
+          "meaning": "Oportunidad, inspiración, incertidumbre."
+        },
+        {
+          "symbol": "Trofeo ofrecido",
+          "meaning": "Opción, sugerencia, llamar la atención."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Cinco de Copas",
+      "image": "40_five_cups",
+      "symbols": [
+        {
+          "symbol": "Figura con capa negra",
+          "meaning": "Un sentimiento de pérdida y duelo."
+        },
+        {
+          "symbol": "Tazas derramadas",
+          "meaning": "Oportunidades perdidas."
+        },
+        {
+          "symbol": "Sobrevivir a los trofeos",
+          "meaning": "Esperanzas invisibles."
+        },
+        {
+          "symbol": "Río",
+          "meaning": "El flujo de las emociones."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Seis de Copas",
+      "image": "41_six_cups",
+      "symbols": [
+        {
+          "symbol": "Niños",
+          "meaning": "Inocencia y nostalgia."
+        },
+        {
+          "symbol": "Tazas Flor",
+          "meaning": "Amor y regalos."
+        },
+        {
+          "symbol": "Ropa vieja",
+          "meaning": "Vínculos con el pasado."
+        },
+        {
+          "symbol": "Inicio",
+          "meaning": "Seguridad y pertenencia."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Siete de Copas",
+      "image": "42_seven_cups",
+      "symbols": [
+        {
+          "symbol": "Trofeos en las nubes",
+          "meaning": "Sueños e ilusiones."
+        },
+        {
+          "symbol": "Dragón",
+          "meaning": "Deseos peligrosos."
+        },
+        {
+          "symbol": "Serpiente",
+          "meaning": "Miedos subconscientes."
+        },
+        {
+          "symbol": "Castillo",
+          "meaning": "La búsqueda del poder y la confianza."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Ocho de Copas",
+      "image": "43_eight_cups",
+      "symbols": [
+        {
+          "symbol": "Figura que da la espalda",
+          "meaning": "Buscar y renunciar."
+        },
+        {
+          "symbol": "Luna",
+          "meaning": "Lo desconocido y los instintos."
+        },
+        {
+          "symbol": "Montañas",
+          "meaning": "Retos y objetivos."
+        },
+        {
+          "symbol": "Trofeos pedidos",
+          "meaning": "La búsqueda de la realización emocional."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Nueve de Copas",
+      "image": "44_nine_cups",
+      "symbols": [
+        {
+          "symbol": "El hombre que se ata los brazos",
+          "meaning": "Satisfacción y confianza en ti mismo."
+        },
+        {
+          "symbol": "Tazas apiladas",
+          "meaning": "Realización emocional."
+        },
+        {
+          "symbol": "Red Hat",
+          "meaning": "Pasión y energía."
+        },
+        {
+          "symbol": "Mesa de madera",
+          "meaning": "Estabilidad y apoyo."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Diez de Copas",
+      "image": "45_ten_cups",
+      "symbols": [
+        {
+          "symbol": "Arco iris",
+          "meaning": "Una vida llena de felicidad y armonía."
+        },
+        {
+          "symbol": "Familia",
+          "meaning": "Momentos felices pasados juntos."
+        },
+        {
+          "symbol": "Inicio",
+          "meaning": "Un hogar seguro."
+        },
+        {
+          "symbol": "Tierra Verde",
+          "meaning": "Abundancia y paz."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Sota de Copas",
+      "image": "46_page_cups",
+      "symbols": [
+        {
+          "symbol": "Pescado",
+          "meaning": "Creatividad y sorpresa."
+        },
+        {
+          "symbol": "Mar",
+          "meaning": "Profundidad emocional."
+        },
+        {
+          "symbol": "Vestido azul",
+          "meaning": "Apertura emocional."
+        },
+        {
+          "symbol": "Taza",
+          "meaning": "Mensajes emocionales."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Caballo de Copas",
+      "image": "47_knight_cups",
+      "symbols": [
+        {
+          "symbol": "En",
+          "meaning": "Movimiento y energía."
+        },
+        {
+          "symbol": "Taza",
+          "meaning": "Búsqueda emocional."
+        },
+        {
+          "symbol": "Armadura",
+          "meaning": "Protección y valor."
+        },
+        {
+          "symbol": "Flujo",
+          "meaning": "Flujo emocional."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Reina de Copas",
+      "image": "48_queen_cups",
+      "symbols": [
+        {
+          "symbol": "Trono",
+          "meaning": "Poder y autoridad."
+        },
+        {
+          "symbol": "Concha marina",
+          "meaning": "Profundidad emocional."
+        },
+        {
+          "symbol": "Taza",
+          "meaning": "Riqueza emocional."
+        },
+        {
+          "symbol": "Agua",
+          "meaning": "Fluidez emocional."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Rey de Copas",
+      "image": "49_king_cups",
+      "symbols": [
+        {
+          "symbol": "Corona",
+          "meaning": "Liderazgo y sabiduría."
+        },
+        {
+          "symbol": "Taza",
+          "meaning": "Control emocional."
+        },
+        {
+          "symbol": "Mar",
+          "meaning": "Profundidad emocional."
+        },
+        {
+          "symbol": "Vestido gris",
+          "meaning": "Neutralidad y equilibrio."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "As de Espadas",
+      "image": "50_ace_swords",
+      "symbols": [
+        {
+          "symbol": "Mano de nube",
+          "meaning": "Oportunidades inesperadas e inspiración."
+        },
+        {
+          "symbol": "Espada",
+          "meaning": "Fuerza, sabiduría y nuevos comienzos."
+        },
+        {
+          "symbol": "Corona",
+          "meaning": "Victoria y éxito."
+        },
+        {
+          "symbol": "Montañas",
+          "meaning": "Retos y obstáculos."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Dos de Espadas",
+      "image": "51_two_swords",
+      "symbols": [
+        {
+          "symbol": "Ojos Atados",
+          "meaning": "Indecisión e incertidumbre."
+        },
+        {
+          "symbol": "Espadas cruzadas",
+          "meaning": "El conflicto interior y la búsqueda del equilibrio."
+        },
+        {
+          "symbol": "Luna",
+          "meaning": "Intuición y misterio."
+        },
+        {
+          "symbol": "Agua",
+          "meaning": "Profundidad emocional y subconsciente."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Tres de Espadas",
+      "image": "52_three_swords",
+      "symbols": [
+        {
+          "symbol": "Espadas en el corazón",
+          "meaning": "Angustia y dolor."
+        },
+        {
+          "symbol": "Lluvia",
+          "meaning": "Tristeza y lágrimas."
+        },
+        {
+          "symbol": "Nubes",
+          "meaning": "Dificultades y confusión temporales."
+        },
+        {
+          "symbol": "Fondo Rojo",
+          "meaning": "Pasión y emociones intensas."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Cuatro de Espadas",
+      "image": "53_four_swords",
+      "symbols": [
+        {
+          "symbol": "Caballero reclinado",
+          "meaning": "Descanso y reflexión interior."
+        },
+        {
+          "symbol": "Espadas",
+          "meaning": "Pensamientos y lucha mental."
+        },
+        {
+          "symbol": "Vidriera",
+          "meaning": "Guía espiritual y esperanza."
+        },
+        {
+          "symbol": "Ataúd",
+          "meaning": "Pausa temporal y regeneración."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Cinco de Espadas",
+      "image": "54_five_swords",
+      "symbols": [
+        {
+          "symbol": "Ganador de la Victoria",
+          "meaning": "Éxito y excelencia."
+        },
+        {
+          "symbol": "Derrotado",
+          "meaning": "Pérdida y decepción."
+        },
+        {
+          "symbol": "Mar",
+          "meaning": "Fluctuaciones emocionales."
+        },
+        {
+          "symbol": "Cielo nublado",
+          "meaning": "Confusión e incertidumbre."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Seis de Espadas",
+      "image": "55_six_swords",
+      "symbols": [
+        {
+          "symbol": "Barco",
+          "meaning": "Transición y viaje"
+        },
+        {
+          "symbol": "Agua",
+          "meaning": "Estado emocional y subconsciente"
+        },
+        {
+          "symbol": "Espadas",
+          "meaning": "Luchas mentales"
+        },
+        {
+          "symbol": "Remero",
+          "meaning": "Ayuda u orientación"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Siete de Espadas",
+      "image": "56_seven_swords",
+      "symbols": [
+        {
+          "symbol": "Ladrón",
+          "meaning": "Engaño, secretismo"
+        },
+        {
+          "symbol": "Tiendas de campaña",
+          "meaning": "Protección y confidencialidad"
+        },
+        {
+          "symbol": "Espadas",
+          "meaning": "Estrategia mental"
+        },
+        {
+          "symbol": "Huellas",
+          "meaning": "Huellas del pasado"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Ocho de Espadas",
+      "image": "57_eight_swords",
+      "symbols": [
+        {
+          "symbol": "Mujer atada",
+          "meaning": "Restricción, inhibición"
+        },
+        {
+          "symbol": "Espadas",
+          "meaning": "Limitaciones mentales"
+        },
+        {
+          "symbol": "Venda en los ojos",
+          "meaning": "No ver la realidad"
+        },
+        {
+          "symbol": "Charco",
+          "meaning": "Estado emocional"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Nueve de Espadas",
+      "image": "58_nine_swords",
+      "symbols": [
+        {
+          "symbol": "Persona sentada en la cama",
+          "meaning": "Ansiedad e insomnio"
+        },
+        {
+          "symbol": "Espadas",
+          "meaning": "Estrés mental"
+        },
+        {
+          "symbol": "El que cierra las manos",
+          "meaning": "Culpabilidad o vergüenza"
+        },
+        {
+          "symbol": "Cuarto oscuro",
+          "meaning": "Cierre o soledad"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Diez de Espadas",
+      "image": "59_ten_swords",
+      "symbols": [
+        {
+          "symbol": "Persona tumbada en el suelo",
+          "meaning": "Agotamiento y derrota"
+        },
+        {
+          "symbol": "Espadas",
+          "meaning": "Conclusión y juicio"
+        },
+        {
+          "symbol": "Cielo oscuro",
+          "meaning": "Dificultades y pesimismo"
+        },
+        {
+          "symbol": "Capa roja",
+          "meaning": "Pasión y dolor"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Sota de Espadas",
+      "image": "60_page_swords",
+      "symbols": [
+        {
+          "symbol": "Hombre joven",
+          "meaning": "Curiosidad y ganas de aprender."
+        },
+        {
+          "symbol": "Espada",
+          "meaning": "Fuerza y agudeza mental."
+        },
+        {
+          "symbol": "Cielo ventoso",
+          "meaning": "Variabilidad y alerta."
+        },
+        {
+          "symbol": "Tierra Verde",
+          "meaning": "Potencial y crecimiento."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Caballo de Espadas",
+      "image": "61_knight_swords",
+      "symbols": [
+        {
+          "symbol": "En",
+          "meaning": "Velocidad y movimiento."
+        },
+        {
+          "symbol": "Espada",
+          "meaning": "Determinación y lucha."
+        },
+        {
+          "symbol": "Cielo nublado",
+          "meaning": "Dificultades y confusión."
+        },
+        {
+          "symbol": "Viento",
+          "meaning": "Energía y cambio."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Reina de Espadas",
+      "image": "62_queen_swords",
+      "symbols": [
+        {
+          "symbol": "Corona",
+          "meaning": "Sabiduría y autoridad."
+        },
+        {
+          "symbol": "Espada",
+          "meaning": "Mente aguda y justicia."
+        },
+        {
+          "symbol": "Cielo nublado",
+          "meaning": "Claridad mental y resolución."
+        },
+        {
+          "symbol": "Trono",
+          "meaning": "Poder y liderazgo."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Rey de Espadas",
+      "image": "63_king_swords",
+      "symbols": [
+        {
+          "symbol": "Corona",
+          "meaning": "Reino y poder."
+        },
+        {
+          "symbol": "Espada",
+          "meaning": "Toma de decisiones y autoridad."
+        },
+        {
+          "symbol": "Alto Trono",
+          "meaning": "Dominio y control."
+        },
+        {
+          "symbol": "Gafas bajas",
+          "meaning": "Mirada y visión agudas."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "As de Oros",
+      "image": "64_ace_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismán",
+          "meaning": "Ganancias y oportunidades financieras."
+        },
+        {
+          "symbol": "El",
+          "meaning": "Don y potencial."
+        },
+        {
+          "symbol": "Tierra Verde",
+          "meaning": "Abundancia y crecimiento."
+        },
+        {
+          "symbol": "Montañas",
+          "meaning": "Objetivos y retos."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Dos de Oros",
+      "image": "65_two_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismanes",
+          "meaning": "La búsqueda del equilibrio y la armonía materiales."
+        },
+        {
+          "symbol": "Símbolo del infinito",
+          "meaning": "Eternidad, ciclo y cambio constantes."
+        },
+        {
+          "symbol": "Olas",
+          "meaning": "Fluctuaciones y dificultades emocionales."
+        },
+        {
+          "symbol": "Cielo",
+          "meaning": "Claridad y perspectiva amplia."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Tres de Oros",
+      "image": "66_three_pentacles",
+      "symbols": [
+        {
+          "symbol": "Arquitecto",
+          "meaning": "Planificación y cooperación."
+        },
+        {
+          "symbol": "Maestro",
+          "meaning": "Habilidades y experiencia."
+        },
+        {
+          "symbol": "Aprendiz",
+          "meaning": "Proceso de aprendizaje y desarrollo."
+        },
+        {
+          "symbol": "Catedral",
+          "meaning": "Proyectos y objetivos a largo plazo."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Cuatro de Oros",
+      "image": "67_four_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismanes",
+          "meaning": "Seguridad y protección del material."
+        },
+        {
+          "symbol": "Rey",
+          "meaning": "Control y propiedad."
+        },
+        {
+          "symbol": "Ciudad",
+          "meaning": "Vínculos y estructura social."
+        },
+        {
+          "symbol": "Pies",
+          "meaning": "La necesidad de cimentación y arraigo."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Cinco de Oros",
+      "image": "68_five_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tiempo de nieve",
+          "meaning": "Dificultades y privaciones."
+        },
+        {
+          "symbol": "Ventana de la iglesia",
+          "meaning": "Esperanza y solidaridad."
+        },
+        {
+          "symbol": "Hombre herido",
+          "meaning": "Dolor físico y emocional."
+        },
+        {
+          "symbol": "Bastón",
+          "meaning": "Buscando apoyo y resistencia."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Seis de Oros",
+      "image": "69_six_pentacles",
+      "symbols": [
+        {
+          "symbol": "Libra",
+          "meaning": "Justicia, equilibrio e igualdad."
+        },
+        {
+          "symbol": "Hombre rico",
+          "meaning": "Generosidad y benevolencia."
+        },
+        {
+          "symbol": "Los pobres",
+          "meaning": "Búsqueda de necesidades y apoyo."
+        },
+        {
+          "symbol": "Dinero",
+          "meaning": "Recursos materiales y distribución."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Siete de Oros",
+      "image": "70_seven_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismanes",
+          "meaning": "Simboliza el éxito financiero y la seguridad."
+        },
+        {
+          "symbol": "Trabajador",
+          "meaning": "Representa la espera con esfuerzo y paciencia."
+        },
+        {
+          "symbol": "Plantas",
+          "meaning": "Explica los procesos de crecimiento y desarrollo."
+        },
+        {
+          "symbol": "Suelo",
+          "meaning": "Simboliza los ciclos naturales y la espera paciente."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Ocho de Oros",
+      "image": "71_eight_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismanes",
+          "meaning": "Se refiere al mundo material y a la habilidad."
+        },
+        {
+          "symbol": "Banco de trabajo",
+          "meaning": "Demuestra habilidad manual y artesanía."
+        },
+        {
+          "symbol": "Martillo",
+          "meaning": "Simboliza el trabajo y la laboriosidad."
+        },
+        {
+          "symbol": "Hombre centrado",
+          "meaning": "Representa la concentración y la especialización."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Nueve de Oros",
+      "image": "72_nine_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismanes",
+          "meaning": "Simboliza la abundancia material y la prosperidad."
+        },
+        {
+          "symbol": "Viñedos",
+          "meaning": "Representa la abundancia y la riqueza."
+        },
+        {
+          "symbol": "Halcón",
+          "meaning": "Simboliza el control y la libertad."
+        },
+        {
+          "symbol": "Mujer rica",
+          "meaning": "Demuestra independencia y solidez financiera."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Diez de Oros",
+      "image": "73_ten_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismanes",
+          "meaning": "La familia simboliza la riqueza y el patrimonio."
+        },
+        {
+          "symbol": "Familia",
+          "meaning": "Representa la unión y el compromiso."
+        },
+        {
+          "symbol": "Perros",
+          "meaning": "Simboliza la lealtad y la confianza."
+        },
+        {
+          "symbol": "Castillos",
+          "meaning": "Se refiere a la seguridad y a la historia arraigada."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Sota de Oros",
+      "image": "74_page_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismán",
+          "meaning": "Simboliza el mundo físico y las oportunidades."
+        },
+        {
+          "symbol": "El joven príncipe",
+          "meaning": "Representa la curiosidad y el deseo de aprender."
+        },
+        {
+          "symbol": "Pradera",
+          "meaning": "Simboliza el crecimiento natural y la innovación."
+        },
+        {
+          "symbol": "Ropa verde",
+          "meaning": "Expresa naturaleza e innovación."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Caballo de Oros",
+      "image": "75_knight_pentacles",
+      "symbols": [
+        {
+          "symbol": "Caballero",
+          "meaning": "Simboliza la estabilidad y la determinación."
+        },
+        {
+          "symbol": "Talismán",
+          "meaning": "Representa la seguridad financiera y el éxito."
+        },
+        {
+          "symbol": "Campo",
+          "meaning": "Significa trabajo duro y laborioso."
+        },
+        {
+          "symbol": "En",
+          "meaning": "Demuestra fuerza y movilidad."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Reina de Oros",
+      "image": "76_queen_pentacles",
+      "symbols": [
+        {
+          "symbol": "Reina",
+          "meaning": "Representa la compasión y la comprensión."
+        },
+        {
+          "symbol": "Talismán",
+          "meaning": "Significa prosperidad material y abundancia."
+        },
+        {
+          "symbol": "Naturaleza",
+          "meaning": "Simboliza la fertilidad y la fecundidad."
+        },
+        {
+          "symbol": "Corona",
+          "meaning": "Significa liderazgo y poder."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Rey de Oros",
+      "image": "77_king_pentacles",
+      "symbols": [
+        {
+          "symbol": "Rey",
+          "meaning": "Simboliza autoridad y mando."
+        },
+        {
+          "symbol": "Talismán",
+          "meaning": "Indica éxito material y seguridad."
+        },
+        {
+          "symbol": "Trono",
+          "meaning": "Representa el poder y el control."
+        },
+        {
+          "symbol": "Colgando",
+          "meaning": "Expresa riqueza y abundancia."
+        }
+      ]
+    }
+  ]
+}

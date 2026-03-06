@@ -1,0 +1,1800 @@
+{
+  "_comment": "78 Tarot kartının görsel sembolleri ve anlamları — Deutsch",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "Der Narr",
+      "image": "00_fool",
+      "symbols": [
+        {
+          "symbol": "Weißer Hund",
+          "meaning": "Loyalität und Schutz."
+        },
+        {
+          "symbol": "Cliff",
+          "meaning": "Risikobereitschaft, das Unbekannte."
+        },
+        {
+          "symbol": "Blume",
+          "meaning": "Reinheit und Neuanfänge."
+        },
+        {
+          "symbol": "Sonne",
+          "meaning": "Optimismus und Hoffnung."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Der Magier",
+      "image": "01_magician",
+      "symbols": [
+        {
+          "symbol": "Asa",
+          "meaning": "Wille und Macht."
+        },
+        {
+          "symbol": "Schwert",
+          "meaning": "Geist und Intellekt."
+        },
+        {
+          "symbol": "Tasse",
+          "meaning": "Emotionen und Intuition."
+        },
+        {
+          "symbol": "Pentagramm",
+          "meaning": "Die materielle Welt, der Reichtum."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Die Hohepriesterin",
+      "image": "02_high_priestess",
+      "symbols": [
+        {
+          "symbol": "Mond",
+          "meaning": "Geheimes Wissen und Intuition."
+        },
+        {
+          "symbol": "Kolumnen",
+          "meaning": "Gleichgewicht und Dualität."
+        },
+        {
+          "symbol": "Tora",
+          "meaning": "Weisheit und Geheimnisse."
+        },
+        {
+          "symbol": "Ring",
+          "meaning": "Engagement und Integrität."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Die Herrscherin",
+      "image": "03_empress",
+      "symbols": [
+        {
+          "symbol": "Weizen",
+          "meaning": "Reichtum und Wohlstand."
+        },
+        {
+          "symbol": "Krone",
+          "meaning": "Autorität und Macht."
+        },
+        {
+          "symbol": "Venus Symbol",
+          "meaning": "Liebe und Schönheit."
+        },
+        {
+          "symbol": "Natur",
+          "meaning": "Fruchtbarkeit und Leben."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Der Herrscher",
+      "image": "04_emperor",
+      "symbols": [
+        {
+          "symbol": "Thron",
+          "meaning": "Kontrolle und Autorität."
+        },
+        {
+          "symbol": "Rüstung",
+          "meaning": "Schutz und Leistung."
+        },
+        {
+          "symbol": "Berge",
+          "meaning": "Ausdauer und Entschlossenheit."
+        },
+        {
+          "symbol": "Rote Robe",
+          "meaning": "Kraft und Leidenschaft."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Der Hierophant",
+      "image": "05_hierophant",
+      "symbols": [
+        {
+          "symbol": "Der gekrönte Heilige",
+          "meaning": "Geistliche Autorität und Lehre."
+        },
+        {
+          "symbol": "Schaltet",
+          "meaning": "Geheime Informationen und offene Türen."
+        },
+        {
+          "symbol": "Papstthron",
+          "meaning": "Traditionelle Macht und Autorität."
+        },
+        {
+          "symbol": "Doppelspalte",
+          "meaning": "Dualität und Gleichgewicht."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Die Liebenden",
+      "image": "06_lovers",
+      "symbols": [
+        {
+          "symbol": "Verliebtes Paar",
+          "meaning": "Liebe und Einigkeit."
+        },
+        {
+          "symbol": "Engel",
+          "meaning": "Göttliche Führung und Schutz."
+        },
+        {
+          "symbol": "Berge",
+          "meaning": "Herausforderungen und Hindernisse."
+        },
+        {
+          "symbol": "Schlangenbaum",
+          "meaning": "Wissen und Glamour."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Der Wagen",
+      "image": "07_chariot",
+      "symbols": [
+        {
+          "symbol": "Victory Auto",
+          "meaning": "Kontrolle und Willenskraft."
+        },
+        {
+          "symbol": "Schwarze und weiße Sphinxen",
+          "meaning": "Kontraste und Orientierung."
+        },
+        {
+          "symbol": "Sternenkrone",
+          "meaning": "Erfolg und göttlicher Schutz."
+        },
+        {
+          "symbol": "Stadtmauer",
+          "meaning": "Sicherheit und Schutz."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Die Kraft",
+      "image": "08_strength",
+      "symbols": [
+        {
+          "symbol": "Frau und Löwe",
+          "meaning": "Sanfte Stärke und Mut."
+        },
+        {
+          "symbol": "Unendlichkeitssymbol",
+          "meaning": "Unendliche Energie und Potenzial."
+        },
+        {
+          "symbol": "Blumenkranz",
+          "meaning": "Natürliche Schönheit und Harmonie."
+        },
+        {
+          "symbol": "Berge",
+          "meaning": "Ausdauer und Entschlossenheit."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Der Eremit",
+      "image": "09_hermit",
+      "symbols": [
+        {
+          "symbol": "Der Einsiedler hält eine Laterne",
+          "meaning": "Suche und innere Führung."
+        },
+        {
+          "symbol": "Weißes Gewand",
+          "meaning": "Reinheit und Wissen."
+        },
+        {
+          "symbol": "Berg",
+          "meaning": "Kämpfe und Einsamkeit."
+        },
+        {
+          "symbol": "Gehstock",
+          "meaning": "Unterstützung und Vertrauen."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Das Rad des Schicksals",
+      "image": "10_wheel_of_fortune",
+      "symbols": [
+        {
+          "symbol": "Rad",
+          "meaning": "Wandel und Zyklen."
+        },
+        {
+          "symbol": "Engel",
+          "meaning": "Schutzkräfte."
+        },
+        {
+          "symbol": "Aslan",
+          "meaning": "Stärke und Mut."
+        },
+        {
+          "symbol": "Eagle",
+          "meaning": "Hohe Sichtbarkeit und Freiheit."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Die Gerechtigkeit",
+      "image": "11_justice",
+      "symbols": [
+        {
+          "symbol": "Waage",
+          "meaning": "Gleichgewicht und Gerechtigkeit."
+        },
+        {
+          "symbol": "Schwert",
+          "meaning": "Fakten und Urteile."
+        },
+        {
+          "symbol": "Thron",
+          "meaning": "Ermächtigung und Befugnis."
+        },
+        {
+          "symbol": "Umhang",
+          "meaning": "Privatsphäre und Schutz."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Der Gehängte",
+      "image": "12_hanged_man",
+      "symbols": [
+        {
+          "symbol": "Umgekehrter Mann",
+          "meaning": "Unterschiedliche Perspektiven."
+        },
+        {
+          "symbol": "Seil",
+          "meaning": "Verbindlichkeit und Zurückhaltung."
+        },
+        {
+          "symbol": "Baum",
+          "meaning": "Wachstum und Ausdauer."
+        },
+        {
+          "symbol": "Halo",
+          "meaning": "Erleuchtung und Inspiration."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Der Tod",
+      "image": "13_death",
+      "symbols": [
+        {
+          "symbol": "Skelett",
+          "meaning": "Unvermeidliche Endungen."
+        },
+        {
+          "symbol": "Unter",
+          "meaning": "Bewegung und Fortschritt."
+        },
+        {
+          "symbol": "Sonne",
+          "meaning": "Neue Anfänge"
+        },
+        {
+          "symbol": "Flagge",
+          "meaning": "Transformation und Wandel."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Die Mäßigkeit",
+      "image": "14_temperance",
+      "symbols": [
+        {
+          "symbol": "Engel",
+          "meaning": "Beratung und Schutz."
+        },
+        {
+          "symbol": "Wasser",
+          "meaning": "Emotionales Gleichgewicht."
+        },
+        {
+          "symbol": "Tasse",
+          "meaning": "Emotionen und Beziehungen."
+        },
+        {
+          "symbol": "Straße",
+          "meaning": "Prozess und Fortschritt."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Der Teufel",
+      "image": "15_devil",
+      "symbols": [
+        {
+          "symbol": "Teufelsfigur",
+          "meaning": "Sucht und Materialismus."
+        },
+        {
+          "symbol": "Menschen in Ketten",
+          "meaning": "Das Gefühl, die Kontrolle zu haben."
+        },
+        {
+          "symbol": "Umgekehrtes Pentagramm",
+          "meaning": "Negative Energie und das Böse."
+        },
+        {
+          "symbol": "Hörner",
+          "meaning": "Tierische Triebe und Instinkte."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Der Turm",
+      "image": "16_tower",
+      "symbols": [
+        {
+          "symbol": "Eingestürzter Turm",
+          "meaning": "Plötzliche Veränderung und Zerstörung."
+        },
+        {
+          "symbol": "Blitzschlag",
+          "meaning": "Unerwartete Ereignisse."
+        },
+        {
+          "symbol": "Fallende Menschen",
+          "meaning": "Kontrollverlust und Chaos."
+        },
+        {
+          "symbol": "Schwarze Wolken",
+          "meaning": "Ungewissheit und Schwierigkeiten."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Der Stern",
+      "image": "17_star",
+      "symbols": [
+        {
+          "symbol": "Stern",
+          "meaning": "Hoffnung und Orientierung."
+        },
+        {
+          "symbol": "Wasserkrug",
+          "meaning": "Emotionales Gleichgewicht und Entschlackung."
+        },
+        {
+          "symbol": "Nackte Frau",
+          "meaning": "Klarheit und Reinheit."
+        },
+        {
+          "symbol": "Sieben kleine Sterne",
+          "meaning": "Hohe Ideale und Inspiration."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Der Mond",
+      "image": "18_moon",
+      "symbols": [
+        {
+          "symbol": "Mond",
+          "meaning": "Das Unterbewusstsein und Illusionen."
+        },
+        {
+          "symbol": "Wolf und Hund",
+          "meaning": "Interne und externe Konflikte."
+        },
+        {
+          "symbol": "Wasserstraße",
+          "meaning": "Unbekannte Wege und Gefühle."
+        },
+        {
+          "symbol": "Zwei Türme",
+          "meaning": "Sicherheit und Schutz."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Die Sonne",
+      "image": "19_sun",
+      "symbols": [
+        {
+          "symbol": "Sonne",
+          "meaning": "Glück und Erfolg."
+        },
+        {
+          "symbol": "Kind",
+          "meaning": "Unschuld und Freude."
+        },
+        {
+          "symbol": "Unter",
+          "meaning": "Bewegung und Fortschritt."
+        },
+        {
+          "symbol": "Sonne Blumen",
+          "meaning": "Lebensenergie und Vitalität."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Das Gericht",
+      "image": "20_judgement",
+      "symbols": [
+        {
+          "symbol": "Engel",
+          "meaning": "Erhöhtes Bewusstsein und innere Berufung."
+        },
+        {
+          "symbol": "Trompete",
+          "meaning": "Erwachen und göttliche Botschaften."
+        },
+        {
+          "symbol": "Auferstandene Menschen",
+          "meaning": "Wiedergeburt und Veränderung."
+        },
+        {
+          "symbol": "Wolken",
+          "meaning": "Die Gegenwart des Geheimnisvollen und Göttlichen."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Die Welt",
+      "image": "21_world",
+      "symbols": [
+        {
+          "symbol": "Tanzende Frau",
+          "meaning": "Vollendung und Gleichgewicht."
+        },
+        {
+          "symbol": "Kranz",
+          "meaning": "Sieg und Erfolg."
+        },
+        {
+          "symbol": "Die vier Elemente",
+          "meaning": "Gleichgewicht von Erde, Wasser, Luft und Feuer."
+        },
+        {
+          "symbol": "Halstuch",
+          "meaning": "Schutz und Inklusion."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "As der Stäbe",
+      "image": "22_ace_wands",
+      "symbols": [
+        {
+          "symbol": "Zauberstab",
+          "meaning": "Neue Anfänge und Möglichkeiten."
+        },
+        {
+          "symbol": "Grüne Landschaft",
+          "meaning": "Wachstum und Potenzial."
+        },
+        {
+          "symbol": "Weiße Wolken",
+          "meaning": "Reinheit und Inspiration."
+        },
+        {
+          "symbol": "Blauer Himmel",
+          "meaning": "Klarheit und Hoffnung."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Zwei Stäbe",
+      "image": "23_two_wands",
+      "symbols": [
+        {
+          "symbol": "Zwei Stäbe",
+          "meaning": "Entscheidungsfindung und Planung."
+        },
+        {
+          "symbol": "Weltkugel",
+          "meaning": "Globale Perspektive und Kontrolle."
+        },
+        {
+          "symbol": "Burgmauer",
+          "meaning": "Sicherheit und Schutz."
+        },
+        {
+          "symbol": "Meer",
+          "meaning": "Erkundung und Möglichkeiten."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Drei Stäbe",
+      "image": "24_three_wands",
+      "symbols": [
+        {
+          "symbol": "Drei Stäbe",
+          "meaning": "Erwartungen und Fortschritte."
+        },
+        {
+          "symbol": "Meer",
+          "meaning": "Aufklärung und entfernte Ziele."
+        },
+        {
+          "symbol": "Hügel",
+          "meaning": "Herausforderungen und Chancen."
+        },
+        {
+          "symbol": "Weiter Horizont",
+          "meaning": "Weitblick und Vision."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Vier Stäbe",
+      "image": "25_four_wands",
+      "symbols": [
+        {
+          "symbol": "Flower Wands",
+          "meaning": "Ein Zeichen des Feierns und des Erfolgs."
+        },
+        {
+          "symbol": "Kranz",
+          "meaning": "Ein Symbol des Sieges und der Einigkeit."
+        },
+        {
+          "symbol": "Brücke",
+          "meaning": "Verbindung und Vermittlung."
+        },
+        {
+          "symbol": "Menschen im Hintergrund",
+          "meaning": "Gemeinschaft und Zusammengehörigkeit."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Fünf Stäbe",
+      "image": "26_five_wands",
+      "symbols": [
+        {
+          "symbol": "Kollidierende Zauberstäbe",
+          "meaning": "Wettbewerb und Konflikt."
+        },
+        {
+          "symbol": "Fünf Leute",
+          "meaning": "Mehrere Meinungen und Meinungsverschiedenheiten."
+        },
+        {
+          "symbol": "Diskussion",
+          "meaning": "Meinungsverschiedenheiten und Unstimmigkeiten."
+        },
+        {
+          "symbol": "Fiebrige Umgebung",
+          "meaning": "Anspannung und Stress."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Sechs der Stäbe",
+      "image": "27_six_wands",
+      "symbols": [
+        {
+          "symbol": "Siegeskranz",
+          "meaning": "Erfolg und Sieg."
+        },
+        {
+          "symbol": "Weißes Pferd",
+          "meaning": "Reinheit und Führung."
+        },
+        {
+          "symbol": "Applaudierende Menge",
+          "meaning": "Anerkennung und Unterstützung."
+        },
+        {
+          "symbol": "Hoher Stab",
+          "meaning": "Macht und Autorität."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Sieben der Stäbe",
+      "image": "28_seven_wands",
+      "symbols": [
+        {
+          "symbol": "Sieben Stäbe",
+          "meaning": "Verteidigung und Kampf."
+        },
+        {
+          "symbol": "Einsame Person",
+          "meaning": "Selbstverteidigung."
+        },
+        {
+          "symbol": "Auf hohem Grund stehend",
+          "meaning": "Überlegenheit und Vorteil."
+        },
+        {
+          "symbol": "Widerstand",
+          "meaning": "Stabilität und Widerstand."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Acht der Stäbe",
+      "image": "29_eight_wands",
+      "symbols": [
+        {
+          "symbol": "Fliegende Zauberstäbe",
+          "meaning": "Schnelle Entwicklungen."
+        },
+        {
+          "symbol": "Klarer Himmel",
+          "meaning": "Freiheit und Offenheit."
+        },
+        {
+          "symbol": "Bewegung",
+          "meaning": "Fortschritt und Wandel."
+        },
+        {
+          "symbol": "Dynamische Energie",
+          "meaning": "Schnelligkeit und Energie."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Neun der Stäbe",
+      "image": "30_nine_wands",
+      "symbols": [
+        {
+          "symbol": "Verwundeter Mann",
+          "meaning": "Widerstandsfähigkeit und Ausdauer."
+        },
+        {
+          "symbol": "Neun Stäbe",
+          "meaning": "Es zeigt Verteidigung und Bereitschaft."
+        },
+        {
+          "symbol": "Bandage",
+          "meaning": "Sie trägt die Spuren der vergangenen Schwierigkeiten."
+        },
+        {
+          "symbol": "Hölzerner Zaun",
+          "meaning": "Das Bedürfnis nach Schutz und Abgrenzung."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Zehn der Stäbe",
+      "image": "31_ten_wands",
+      "symbols": [
+        {
+          "symbol": "Mann, der eine Last trägt",
+          "meaning": "Übermäßige Verantwortung und Lastentragung."
+        },
+        {
+          "symbol": "Zehn Stäbe",
+          "meaning": "Der Prozess der Fertigstellung und des Abschlusses."
+        },
+        {
+          "symbol": "Verbeugender Mann",
+          "meaning": "Unter Druck stehen und das Gewicht der Last."
+        },
+        {
+          "symbol": "Auswärts zu Hause",
+          "meaning": "Der Wunsch und das Bestreben, das Ziel zu erreichen."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Prinz der Stäbe",
+      "image": "32_page_wands",
+      "symbols": [
+        {
+          "symbol": "Junger Mann",
+          "meaning": "Neue Anfänge und Aufregung."
+        },
+        {
+          "symbol": "Zauberstab",
+          "meaning": "Kreativität und Aktion."
+        },
+        {
+          "symbol": "Wüstenlandschaft",
+          "meaning": "Erkundung und neue Abenteuer."
+        },
+        {
+          "symbol": "Gefiederter Hut",
+          "meaning": "Originalität und individueller Ausdruck."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Ritter der Stäbe",
+      "image": "33_knight_wands",
+      "symbols": [
+        {
+          "symbol": "Ritter",
+          "meaning": "Komme mit Energie und Entschlossenheit voran."
+        },
+        {
+          "symbol": "Zauberstab",
+          "meaning": "Unternehmertum und aktive Bewegung."
+        },
+        {
+          "symbol": "Heißes Pferd",
+          "meaning": "Leidenschaft und schneller Fortschritt."
+        },
+        {
+          "symbol": "Umhang",
+          "meaning": "Schutz und Mut."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Königin der Stäbe",
+      "image": "34_queen_wands",
+      "symbols": [
+        {
+          "symbol": "Königin",
+          "meaning": "Kreativität und Führungsqualitäten."
+        },
+        {
+          "symbol": "Zauberstab",
+          "meaning": "Inspiration und Vision."
+        },
+        {
+          "symbol": "Sonnenblume",
+          "meaning": "Fröhlichkeit und positive Energie."
+        },
+        {
+          "symbol": "Thron",
+          "meaning": "Ein Symbol für Macht und Autorität."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "König der Stäbe",
+      "image": "35_king_wands",
+      "symbols": [
+        {
+          "symbol": "König",
+          "meaning": "Autorität, Führung, Entschlossenheit."
+        },
+        {
+          "symbol": "Zauberstab",
+          "meaning": "Kreativität, Leidenschaft, Energie."
+        },
+        {
+          "symbol": "Aslan",
+          "meaning": "Stärke, Mut, Schutz."
+        },
+        {
+          "symbol": "Gelbe Tunika",
+          "meaning": "Fröhlichkeit, Vitalität, Optimismus."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Ass der Kelche",
+      "image": "36_ace_cups",
+      "symbols": [
+        {
+          "symbol": "Tasse",
+          "meaning": "Emotionen, Liebe, Beziehungen."
+        },
+        {
+          "symbol": "El",
+          "meaning": "Gelegenheit, Präsentation, Angebot."
+        },
+        {
+          "symbol": "Wasser",
+          "meaning": "Emotionaler Fluss, Neuartigkeit."
+        },
+        {
+          "symbol": "Lotusblume",
+          "meaning": "Läuterung, spirituelle Entwicklung."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Zwei Kelche",
+      "image": "37_two_cups",
+      "symbols": [
+        {
+          "symbol": "Zwei Tassen",
+          "meaning": "Partnerschaft, Einigkeit, Gleichgewicht."
+        },
+        {
+          "symbol": "Cup Holding Paar",
+          "meaning": "Verstehen, Harmonie, Liebe."
+        },
+        {
+          "symbol": "Asa",
+          "meaning": "Gleichgewicht, Unterstützung, Stärke."
+        },
+        {
+          "symbol": "Geflügelter Löwe",
+          "meaning": "Schutz, Mut, Führung."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Drei Kelche",
+      "image": "38_three_cups",
+      "symbols": [
+        {
+          "symbol": "Drei Tassen",
+          "meaning": "Feiern, Einigkeit, Gemeinschaft."
+        },
+        {
+          "symbol": "Tanzende Frauen",
+          "meaning": "Freude, Freundschaft, Teilen."
+        },
+        {
+          "symbol": "Blumenkränze",
+          "meaning": "Erfolg, Glück, Belohnung."
+        },
+        {
+          "symbol": "Weinberg",
+          "meaning": "Fruchtbarkeit, Reichtum, Fruchtbarkeit."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Vier Kelche",
+      "image": "39_four_cups",
+      "symbols": [
+        {
+          "symbol": "Vier Tassen",
+          "meaning": "Unzufriedenheit, innere Suche."
+        },
+        {
+          "symbol": "Der Mann unter dem Baum",
+          "meaning": "Nachdenken, Einsamkeit, Meditation."
+        },
+        {
+          "symbol": "Wolke",
+          "meaning": "Gelegenheit, Inspiration, Unsicherheit."
+        },
+        {
+          "symbol": "Angebotene Trophäe",
+          "meaning": "Option, Anregung, Aufmerksamkeit erregen."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Fünf der Kelche",
+      "image": "40_five_cups",
+      "symbols": [
+        {
+          "symbol": "Schwarz verhüllte Figur",
+          "meaning": "Ein Gefühl von Verlust und Trauer."
+        },
+        {
+          "symbol": "Verschüttete Becher",
+          "meaning": "Verpasste Chancen."
+        },
+        {
+          "symbol": "Überlebende Trophäen",
+          "meaning": "Ungesehene Hoffnungen."
+        },
+        {
+          "symbol": "Fluss",
+          "meaning": "Der Fluss der Gefühle."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Sechs Kelche",
+      "image": "41_six_cups",
+      "symbols": [
+        {
+          "symbol": "Kinder",
+          "meaning": "Unschuld und Nostalgie."
+        },
+        {
+          "symbol": "Blumenbecher",
+          "meaning": "Liebe und Geschenke."
+        },
+        {
+          "symbol": "Alte Klamotten",
+          "meaning": "Links zur Vergangenheit."
+        },
+        {
+          "symbol": "Zuhause",
+          "meaning": "Sicherheit und Zugehörigkeit."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Sieben der Kelche",
+      "image": "42_seven_cups",
+      "symbols": [
+        {
+          "symbol": "Trophäen auf Wolken",
+          "meaning": "Träume und Illusionen."
+        },
+        {
+          "symbol": "Drache",
+          "meaning": "Gefährliche Begierden."
+        },
+        {
+          "symbol": "Schlange",
+          "meaning": "Unterbewusste Ängste."
+        },
+        {
+          "symbol": "Burg",
+          "meaning": "Die Suche nach Macht und Vertrauen."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Acht der Kelche",
+      "image": "43_eight_cups",
+      "symbols": [
+        {
+          "symbol": "Figur wendet sich ab",
+          "meaning": "Suchen und aufgeben."
+        },
+        {
+          "symbol": "Mond",
+          "meaning": "Das Unbekannte und die Instinkte."
+        },
+        {
+          "symbol": "Berge",
+          "meaning": "Herausforderungen und Ziele."
+        },
+        {
+          "symbol": "Bestellte Trophäen",
+          "meaning": "Die Suche nach emotionaler Erfüllung."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Neun der Kelche",
+      "image": "44_nine_cups",
+      "symbols": [
+        {
+          "symbol": "Der Mann, der seine Arme bindet",
+          "meaning": "Befriedigung und Selbstvertrauen."
+        },
+        {
+          "symbol": "Gestapelte Becher",
+          "meaning": "Emotionale Erfüllung."
+        },
+        {
+          "symbol": "Red Hat",
+          "meaning": "Leidenschaft und Energie."
+        },
+        {
+          "symbol": "Holztisch",
+          "meaning": "Stabilität und Unterstützung."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Zehn der Kelche",
+      "image": "45_ten_cups",
+      "symbols": [
+        {
+          "symbol": "Regenbogen",
+          "meaning": "Ein Leben voller Glück und Harmonie."
+        },
+        {
+          "symbol": "Familie",
+          "meaning": "Glückliche Momente, die wir gemeinsam verbringen."
+        },
+        {
+          "symbol": "Zuhause",
+          "meaning": "Ein sicheres Zuhause."
+        },
+        {
+          "symbol": "Grünes Land",
+          "meaning": "Reichtum und Frieden."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Bube der Kelche",
+      "image": "46_page_cups",
+      "symbols": [
+        {
+          "symbol": "Fisch",
+          "meaning": "Kreativität und Überraschung."
+        },
+        {
+          "symbol": "Meer",
+          "meaning": "Emotionale Tiefe."
+        },
+        {
+          "symbol": "Blaues Kleid",
+          "meaning": "Emotionale Offenheit."
+        },
+        {
+          "symbol": "Tasse",
+          "meaning": "Emotionale Botschaften."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Ritter der Kelche",
+      "image": "47_knight_cups",
+      "symbols": [
+        {
+          "symbol": "Unter",
+          "meaning": "Bewegung und Energie."
+        },
+        {
+          "symbol": "Tasse",
+          "meaning": "Emotionales Suchen."
+        },
+        {
+          "symbol": "Rüstung",
+          "meaning": "Schutz und Mut."
+        },
+        {
+          "symbol": "Stream",
+          "meaning": "Emotionaler Fluss."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Königin der Kelche",
+      "image": "48_queen_cups",
+      "symbols": [
+        {
+          "symbol": "Thron",
+          "meaning": "Macht und Autorität."
+        },
+        {
+          "symbol": "Muschel",
+          "meaning": "Emotionale Tiefe."
+        },
+        {
+          "symbol": "Tasse",
+          "meaning": "Emotionaler Reichtum."
+        },
+        {
+          "symbol": "Wasser",
+          "meaning": "Emotionale Beweglichkeit."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "König der Kelche",
+      "image": "49_king_cups",
+      "symbols": [
+        {
+          "symbol": "Krone",
+          "meaning": "Führungsqualitäten und Weisheit."
+        },
+        {
+          "symbol": "Tasse",
+          "meaning": "Emotionale Kontrolle."
+        },
+        {
+          "symbol": "Meer",
+          "meaning": "Emotionale Tiefe."
+        },
+        {
+          "symbol": "Graues Kleid",
+          "meaning": "Neutralität und Ausgewogenheit."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Ass der Schwerter",
+      "image": "50_ace_swords",
+      "symbols": [
+        {
+          "symbol": "Wolkenhand",
+          "meaning": "Unerwartete Gelegenheiten und Inspiration."
+        },
+        {
+          "symbol": "Schwert",
+          "meaning": "Kraft, Weisheit und Neuanfänge."
+        },
+        {
+          "symbol": "Krone",
+          "meaning": "Sieg und Erfolg."
+        },
+        {
+          "symbol": "Berge",
+          "meaning": "Herausforderungen und Hindernisse."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Duo der Schwerter",
+      "image": "51_two_swords",
+      "symbols": [
+        {
+          "symbol": "Gefesselte Augen",
+          "meaning": "Unentschlossenheit und Unsicherheit."
+        },
+        {
+          "symbol": "Gekreuzte Schwerter",
+          "meaning": "Innere Konflikte und die Suche nach dem Gleichgewicht."
+        },
+        {
+          "symbol": "Mond",
+          "meaning": "Intuition und Geheimnis."
+        },
+        {
+          "symbol": "Wasser",
+          "meaning": "Emotionale Tiefe und Unbewusstes."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Trio der Schwerter",
+      "image": "52_three_swords",
+      "symbols": [
+        {
+          "symbol": "Schwerter im Herzen",
+          "meaning": "Herzschmerz und Schmerz."
+        },
+        {
+          "symbol": "Regen",
+          "meaning": "Traurigkeit und Tränen."
+        },
+        {
+          "symbol": "Wolken",
+          "meaning": "Vorübergehende Schwierigkeiten und Verwirrung."
+        },
+        {
+          "symbol": "Roter Hintergrund",
+          "meaning": "Leidenschaft und intensive Gefühle."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Vier der Schwerter",
+      "image": "53_four_swords",
+      "symbols": [
+        {
+          "symbol": "Liegender Ritter",
+          "meaning": "Ruhe und innere Einkehr."
+        },
+        {
+          "symbol": "Schwerter",
+          "meaning": "Gedanken und mentaler Kampf."
+        },
+        {
+          "symbol": "Buntglasfenster",
+          "meaning": "Geistliche Führung und Hoffnung."
+        },
+        {
+          "symbol": "Sarg",
+          "meaning": "Vorübergehende Pause und Regeneration."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Fünf Schwerter",
+      "image": "54_five_swords",
+      "symbols": [
+        {
+          "symbol": "Gewinner des Sieges",
+          "meaning": "Erfolg und Exzellenz."
+        },
+        {
+          "symbol": "Besiegt",
+          "meaning": "Verlust und Enttäuschung."
+        },
+        {
+          "symbol": "Meer",
+          "meaning": "Emotionale Schwankungen."
+        },
+        {
+          "symbol": "Bewölkter Himmel",
+          "meaning": "Verwirrung und Unsicherheit."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Sechs der Schwerter",
+      "image": "55_six_swords",
+      "symbols": [
+        {
+          "symbol": "Boot",
+          "meaning": "Übergang und Reise"
+        },
+        {
+          "symbol": "Wasser",
+          "meaning": "Emotionaler Zustand und Unterbewusstsein"
+        },
+        {
+          "symbol": "Schwerter",
+          "meaning": "Seelische Kämpfe"
+        },
+        {
+          "symbol": "Ruderer",
+          "meaning": "Hilfe oder Anleitung"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Sieben der Schwerter",
+      "image": "56_seven_swords",
+      "symbols": [
+        {
+          "symbol": "Dieb",
+          "meaning": "Betrug, Geheimhaltung"
+        },
+        {
+          "symbol": "Zelte",
+          "meaning": "Schutz und Vertraulichkeit"
+        },
+        {
+          "symbol": "Schwerter",
+          "meaning": "Mentale Strategie"
+        },
+        {
+          "symbol": "Fußabdrücke",
+          "meaning": "Spuren der Vergangenheit"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Acht der Schwerter",
+      "image": "57_eight_swords",
+      "symbols": [
+        {
+          "symbol": "Gefesselte Frau",
+          "meaning": "Einschränkung, Hemmung"
+        },
+        {
+          "symbol": "Schwerter",
+          "meaning": "Geistige Einschränkungen"
+        },
+        {
+          "symbol": "Augenbinde",
+          "meaning": "Unfähigkeit, die Realität zu sehen"
+        },
+        {
+          "symbol": "Pfütze",
+          "meaning": "Emotionaler Zustand"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Neun der Schwerter",
+      "image": "58_nine_swords",
+      "symbols": [
+        {
+          "symbol": "Person auf dem Bett sitzend",
+          "meaning": "Ängste und Schlaflosigkeit"
+        },
+        {
+          "symbol": "Schwerter",
+          "meaning": "Psychischer Stress"
+        },
+        {
+          "symbol": "Derjenige, der seine Hände verschließt",
+          "meaning": "Schuld oder Scham"
+        },
+        {
+          "symbol": "Dunkler Raum",
+          "meaning": "Abgeschlossenheit oder Einsamkeit"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Zehn der Schwerter",
+      "image": "59_ten_swords",
+      "symbols": [
+        {
+          "symbol": "Person auf dem Boden liegend",
+          "meaning": "Erschöpfung und Niederlage"
+        },
+        {
+          "symbol": "Schwerter",
+          "meaning": "Fazit und Urteil"
+        },
+        {
+          "symbol": "Dunkler Himmel",
+          "meaning": "Schwierigkeiten und Trübsal"
+        },
+        {
+          "symbol": "Roter Umhang",
+          "meaning": "Leidenschaft und Schmerz"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Prinz der Schwerter",
+      "image": "60_page_swords",
+      "symbols": [
+        {
+          "symbol": "Junger Mann",
+          "meaning": "Neugierde und der Wunsch zu lernen."
+        },
+        {
+          "symbol": "Schwert",
+          "meaning": "Mentale Stärke und Schärfe."
+        },
+        {
+          "symbol": "Windiger Himmel",
+          "meaning": "Variabilität und Wachsamkeit."
+        },
+        {
+          "symbol": "Grünes Land",
+          "meaning": "Potenzial und Wachstum."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Ritter der Schwerter",
+      "image": "61_knight_swords",
+      "symbols": [
+        {
+          "symbol": "Unter",
+          "meaning": "Geschwindigkeit und Bewegung."
+        },
+        {
+          "symbol": "Schwert",
+          "meaning": "Entschlossenheit und Kampf."
+        },
+        {
+          "symbol": "Bewölkter Himmel",
+          "meaning": "Schwierigkeiten und Verwirrung."
+        },
+        {
+          "symbol": "Wind",
+          "meaning": "Energie und Wandel."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Königin der Schwerter",
+      "image": "62_queen_swords",
+      "symbols": [
+        {
+          "symbol": "Krone",
+          "meaning": "Weisheit und Autorität."
+        },
+        {
+          "symbol": "Schwert",
+          "meaning": "Scharfer Verstand und Gerechtigkeit."
+        },
+        {
+          "symbol": "Bewölkter Himmel",
+          "meaning": "Mentale Klarheit und Entschlossenheit."
+        },
+        {
+          "symbol": "Thron",
+          "meaning": "Macht und Führung."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "König der Schwerter",
+      "image": "63_king_swords",
+      "symbols": [
+        {
+          "symbol": "Krone",
+          "meaning": "Königreich und Macht."
+        },
+        {
+          "symbol": "Schwert",
+          "meaning": "Entscheidungsfindung und Autorität."
+        },
+        {
+          "symbol": "Hoher Thron",
+          "meaning": "Dominanz und Kontrolle."
+        },
+        {
+          "symbol": "Niedrige Gläser",
+          "meaning": "Scharfer Blick und scharfes Sehen."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "As der Münzen",
+      "image": "64_ace_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talisman",
+          "meaning": "Finanzielle Gewinne und Möglichkeiten."
+        },
+        {
+          "symbol": "El",
+          "meaning": "Begabung und Potenzial."
+        },
+        {
+          "symbol": "Grünes Land",
+          "meaning": "Reichtum und Wachstum."
+        },
+        {
+          "symbol": "Berge",
+          "meaning": "Ziele und Herausforderungen."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Zwei Münzen",
+      "image": "65_two_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismane",
+          "meaning": "Die Suche nach materiellem Gleichgewicht und Harmonie."
+        },
+        {
+          "symbol": "Unendlichkeitssymbol",
+          "meaning": "Ewigkeit, ständiger Kreislauf und Wandel."
+        },
+        {
+          "symbol": "Wellen",
+          "meaning": "Emotionale Schwankungen und Schwierigkeiten."
+        },
+        {
+          "symbol": "Himmel",
+          "meaning": "Klarheit und eine breite Perspektive."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Drei Münzen",
+      "image": "66_three_pentacles",
+      "symbols": [
+        {
+          "symbol": "Architekt",
+          "meaning": "Planung und Zusammenarbeit."
+        },
+        {
+          "symbol": "Meister",
+          "meaning": "Fertigkeiten und Erfahrungen."
+        },
+        {
+          "symbol": "Auszubildender",
+          "meaning": "Lern- und Entwicklungsprozess."
+        },
+        {
+          "symbol": "Kathedrale",
+          "meaning": "Langfristige Projekte und Ziele."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Vier Münzen",
+      "image": "67_four_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismane",
+          "meaning": "Materielle Sicherheit und Schutz."
+        },
+        {
+          "symbol": "König",
+          "meaning": "Kontrolle und Eigentum."
+        },
+        {
+          "symbol": "Stadt",
+          "meaning": "Soziale Bindungen und Struktur."
+        },
+        {
+          "symbol": "Füße",
+          "meaning": "Die Notwendigkeit der Gründung und Verwurzelung."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Fünf Münzen",
+      "image": "68_five_pentacles",
+      "symbols": [
+        {
+          "symbol": "Schneereiches Wetter",
+          "meaning": "Schwierigkeiten und Entbehrungen."
+        },
+        {
+          "symbol": "Kirchenfenster",
+          "meaning": "Hoffnung und Solidarität."
+        },
+        {
+          "symbol": "Verwundeter Mann",
+          "meaning": "Körperlicher und emotionaler Schmerz."
+        },
+        {
+          "symbol": "Gehstock",
+          "meaning": "Auf der Suche nach Unterstützung und Ausdauer."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Sechs Münzen",
+      "image": "69_six_pentacles",
+      "symbols": [
+        {
+          "symbol": "Waage",
+          "meaning": "Gerechtigkeit, Gleichgewicht und Gleichheit."
+        },
+        {
+          "symbol": "Reicher Mann",
+          "meaning": "Großzügigkeit und Wohlwollen."
+        },
+        {
+          "symbol": "Die Armen",
+          "meaning": "Suche nach Bedürfnissen und Unterstützung."
+        },
+        {
+          "symbol": "Geld",
+          "meaning": "Materielle Ressourcen und Verteilung."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Sieben Münzen",
+      "image": "70_seven_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismane",
+          "meaning": "Er symbolisiert finanziellen Erfolg und Sicherheit."
+        },
+        {
+          "symbol": "Arbeitsmann",
+          "meaning": "Es steht für das Warten mit Mühe und Geduld."
+        },
+        {
+          "symbol": "Pflanzen",
+          "meaning": "Erläutert Wachstums- und Entwicklungsprozesse."
+        },
+        {
+          "symbol": "Boden",
+          "meaning": "Er symbolisiert natürliche Zyklen und geduldiges Warten."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Acht Münzen",
+      "image": "71_eight_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismane",
+          "meaning": "Er bezieht sich auf die materielle Welt und das Können."
+        },
+        {
+          "symbol": "Werkbank",
+          "meaning": "Es zeigt handwerkliches Geschick und handwerkliches Können."
+        },
+        {
+          "symbol": "Hammer",
+          "meaning": "Er symbolisiert Arbeit und Mühe."
+        },
+        {
+          "symbol": "Fokussierter Mann",
+          "meaning": "Sie steht für Konzentration und Spezialisierung."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Neun Münzen",
+      "image": "72_nine_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismane",
+          "meaning": "Er symbolisiert materiellen Reichtum und Wohlstand."
+        },
+        {
+          "symbol": "Weinberge",
+          "meaning": "Er steht für Überfluss und Reichtum."
+        },
+        {
+          "symbol": "Falke",
+          "meaning": "Er symbolisiert Kontrolle und Freiheit."
+        },
+        {
+          "symbol": "Reiche Frau",
+          "meaning": "Es zeigt Unabhängigkeit und finanzielle Stärke."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Zehn Münzen",
+      "image": "73_ten_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talismane",
+          "meaning": "Die Familie symbolisiert Reichtum und Erbe."
+        },
+        {
+          "symbol": "Familie",
+          "meaning": "Er steht für Zusammengehörigkeit und Engagement."
+        },
+        {
+          "symbol": "Hunde",
+          "meaning": "Sie symbolisiert Loyalität und Vertrauen."
+        },
+        {
+          "symbol": "Schlösser",
+          "meaning": "Bezieht sich auf Sicherheit und eine tief verwurzelte Geschichte."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Bube der Münzen",
+      "image": "74_page_pentacles",
+      "symbols": [
+        {
+          "symbol": "Talisman",
+          "meaning": "Er symbolisiert die physische Welt und die Möglichkeiten."
+        },
+        {
+          "symbol": "Der junge Prinz",
+          "meaning": "Es steht für Neugierde und den Wunsch zu lernen."
+        },
+        {
+          "symbol": "Wiese",
+          "meaning": "Er symbolisiert natürliches Wachstum und Innovation."
+        },
+        {
+          "symbol": "Grüne Klamotten",
+          "meaning": "Es drückt Natur und Innovation aus."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Ritter der Münzen",
+      "image": "75_knight_pentacles",
+      "symbols": [
+        {
+          "symbol": "Ritter",
+          "meaning": "Er symbolisiert Stabilität und Entschlossenheit."
+        },
+        {
+          "symbol": "Talisman",
+          "meaning": "Er steht für finanzielle Sicherheit und Erfolg."
+        },
+        {
+          "symbol": "Feld",
+          "meaning": "Es bedeutet harte Arbeit und Mühe."
+        },
+        {
+          "symbol": "Unter",
+          "meaning": "Sie zeigt Stärke und Beweglichkeit."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Königin der Münzen",
+      "image": "76_queen_pentacles",
+      "symbols": [
+        {
+          "symbol": "Königin",
+          "meaning": "Sie steht für Mitgefühl und Verständnis."
+        },
+        {
+          "symbol": "Talisman",
+          "meaning": "Es bedeutet materiellen Wohlstand und Überfluss."
+        },
+        {
+          "symbol": "Natur",
+          "meaning": "Er symbolisiert Fruchtbarkeit und Fruchtbarkeit."
+        },
+        {
+          "symbol": "Krone",
+          "meaning": "Er steht für Führung und Macht."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "König der Münzen",
+      "image": "77_king_pentacles",
+      "symbols": [
+        {
+          "symbol": "König",
+          "meaning": "Er symbolisiert Macht und Autorität."
+        },
+        {
+          "symbol": "Talisman",
+          "meaning": "Steht für materiellen Erfolg und Sicherheit."
+        },
+        {
+          "symbol": "Thron",
+          "meaning": "Er steht für Macht und Kontrolle."
+        },
+        {
+          "symbol": "Hängend",
+          "meaning": "Er steht für Reichtum und Überfluss."
+        }
+      ]
+    }
+  ]
+}

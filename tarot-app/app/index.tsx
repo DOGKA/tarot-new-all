@@ -142,6 +142,8 @@ export default function WelcomeScreen() {
     id: number; name: string; image: string; arcana: string;
     number: string; suit: string | null; element: string;
     history: string | null;
+    symbols: { symbol: string; meaning: string }[];
+    affirmation: string | null;
     meanings: {
       upright: { general: string; love: string; career: string; spiritual: string };
       reversed: { general: string; love: string; career: string; spiritual: string };
@@ -973,28 +975,28 @@ export default function WelcomeScreen() {
                     </View>
                   )}
 
-                  {/* Genel Anlam — herkese açık, düz/ters toggle */}
-                  <View style={styles.cardModalHistoryBox}>
-                    <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", rowGap: 8, marginBottom: 12 }}>
-                      <Text style={[styles.cardModalHistoryLabel, { marginRight: 8 }]}>{t("generalMeaning")}</Text>
-                      <View style={{ flexDirection: "row", gap: 6 }}>
-                        {(["upright", "reversed"] as const).map(o => (
-                          <TouchableOpacity
-                            key={o}
-                            style={[styles.cardModalOrientBtn, cardDetailOrientation === o && styles.cardModalOrientBtnActive]}
-                            onPress={() => setCardDetailOrientation(o)}
-                          >
-                            <Text style={[styles.cardModalOrientText, cardDetailOrientation === o && { color: "#fff" }]}>
-                              {t(o)}
-                            </Text>
-                          </TouchableOpacity>
-                        ))}
-                      </View>
+                  {/* Affirmation / Motto */}
+                  {selectedCard.affirmation && (
+                    <View style={[styles.cardModalHistoryBox, { alignItems: "center", paddingVertical: 20 }]}>
+                      <MaterialCommunityIcons name="format-quote-open" size={20} color="rgba(167,139,250,0.5)" style={{ marginBottom: 6 }} />
+                      <Text style={{ fontSize: 15, color: "rgba(255,255,255,0.85)", fontStyle: "italic", textAlign: "center", lineHeight: 22, paddingHorizontal: 8 }}>
+                        {selectedCard.affirmation}
+                      </Text>
                     </View>
-                    <Text style={styles.cardModalMeaningText}>
-                      {selectedCard.meanings[cardDetailOrientation].general}
-                    </Text>
-                  </View>
+                  )}
+
+                  {/* Semboller */}
+                  {selectedCard.symbols && selectedCard.symbols.length > 0 && (
+                    <View style={styles.cardModalHistoryBox}>
+                      <Text style={styles.cardModalHistoryLabel}>{t("cardSymbols")}</Text>
+                      {selectedCard.symbols.map((sym, idx) => (
+                        <View key={idx} style={{ flexDirection: "row", alignItems: "flex-start", marginBottom: 8, gap: 8 }}>
+                          <Text style={{ fontSize: 12, color: "#a78bfa", fontWeight: "700", minWidth: 80 }}>{sym.symbol}</Text>
+                          <Text style={{ fontSize: 12, color: "rgba(255,255,255,0.5)", flex: 1 }}>{sym.meaning}</Text>
+                        </View>
+                      ))}
+                    </View>
+                  )}
 
                   {/* Kart Geçmişi — herkese açık, AsyncStorage'dan */}
                   <View style={styles.cardModalHistoryBox}>

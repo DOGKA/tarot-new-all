@@ -1,0 +1,474 @@
+{
+  "_comment": "78 Tarot kartının mottosu — Español, birinci tekil şahıs",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "El Loco",
+      "image": "00_fool",
+      "affirmation": "Paso valientemente hacia lo desconocido; acepto cada momento como lleno de nuevos comienzos."
+    },
+    {
+      "id": 1,
+      "name": "El Mago",
+      "image": "01_magician",
+      "affirmation": "Con mi fuerza y voluntad, hago realidad todo lo que pienso."
+    },
+    {
+      "id": 2,
+      "name": "La Sacerdotisa",
+      "image": "02_high_priestess",
+      "affirmation": "Viajo en el mar de la sabiduría interior; mi intuición me guía."
+    },
+    {
+      "id": 3,
+      "name": "La Emperatriz",
+      "image": "03_empress",
+      "affirmation": "Estoy rodeado de la abundancia de la naturaleza; soy la fuente de la creatividad y la abundancia."
+    },
+    {
+      "id": 4,
+      "name": "El Emperador",
+      "image": "04_emperor",
+      "affirmation": "Gobierno con orden y autoridad; dirijo con confianza y determinación."
+    },
+    {
+      "id": 5,
+      "name": "El Sumo Sacerdote",
+      "image": "05_hierophant",
+      "affirmation": "En la profundidad infinita de la sabiduría, encuentro la paz interior y la guía que ilumina mi camino."
+    },
+    {
+      "id": 6,
+      "name": "Los Enamorados",
+      "image": "06_lovers",
+      "affirmation": "Guiada por mi corazón, abrazo el amor y la armonía y me uno a la danza de mi vida."
+    },
+    {
+      "id": 7,
+      "name": "El Carro",
+      "image": "07_chariot",
+      "affirmation": "Con mi determinación y fuerza de voluntad, supero todos los obstáculos y dirijo libremente mi propio destino."
+    },
+    {
+      "id": 8,
+      "name": "La Fuerza",
+      "image": "08_strength",
+      "affirmation": "Descubro el poder infinito que hay en mí y supero las dificultades con amor."
+    },
+    {
+      "id": 9,
+      "name": "El Ermitaño",
+      "image": "09_hermit",
+      "affirmation": "En el silencio, encuentro mi luz interior y abro nuevos caminos con sabiduría."
+    },
+    {
+      "id": 10,
+      "name": "La Rueda de la Fortuna",
+      "image": "10_wheel_of_fortune",
+      "affirmation": "En los ciclos del destino, en el viento del cambio, me elevo con valentía; pase lo que pase, mi camino está iluminado."
+    },
+    {
+      "id": 11,
+      "name": "La Justicia",
+      "image": "11_justice",
+      "affirmation": "Busco la verdad con honestidad y equilibrio en la balanza de la justicia; la verdad siempre ilumina mi camino como una luz brillante."
+    },
+    {
+      "id": 12,
+      "name": "El Colgado",
+      "image": "12_hanged_man",
+      "affirmation": "Cuando me detengo a pensar, descubro nuevas perspectivas en el universo con paz interior; espero con paciencia y crezco con comprensión."
+    },
+    {
+      "id": 13,
+      "name": "La Muerte",
+      "image": "13_death",
+      "affirmation": "Cada final es un nuevo comienzo; lo acepto y abrazo nuevas vidas mientras abandono las antiguas."
+    },
+    {
+      "id": 14,
+      "name": "La Templanza",
+      "image": "14_temperance",
+      "affirmation": "Con el equilibrio de la paz, mezclo el fuego que hay en mí con la armonía; avanzo con paciencia y encuentro el equilibrio."
+    },
+    {
+      "id": 15,
+      "name": "El Diablo",
+      "image": "15_devil",
+      "affirmation": "Salgo fortalecido de mis oscuros enfrentamientos; elijo liberar mis adicciones."
+    },
+    {
+      "id": 16,
+      "name": "La Torre",
+      "image": "16_tower",
+      "affirmation": "Aunque las viejas estructuras se derrumben, creo un nuevo yo a partir de las cenizas."
+    },
+    {
+      "id": 17,
+      "name": "La Estrella",
+      "image": "17_star",
+      "affirmation": "Inspirado por las estrellas de la esperanza, encuentro mi camino con la guía del universo."
+    },
+    {
+      "id": 18,
+      "name": "La Luna",
+      "image": "18_moon",
+      "affirmation": "Ilumino la verdad tras las sombras y los secretos con mi intuición."
+    },
+    {
+      "id": 19,
+      "name": "El Sol",
+      "image": "19_sun",
+      "affirmation": "Brillo con mi propia luz y difundo el poder que hay en mí a todo el mundo."
+    },
+    {
+      "id": 20,
+      "name": "El Juicio",
+      "image": "20_judgement",
+      "affirmation": "Resurgiendo de mis cenizas, encuentro mi propia verdad; resucito con el fuego que hay en mí."
+    },
+    {
+      "id": 21,
+      "name": "El Mundo",
+      "image": "21_world",
+      "affirmation": "Giro en armonía con el ritmo del mundo; acepto el don de la plenitud y la totalidad."
+    },
+    {
+      "id": 22,
+      "name": "As de Bastos",
+      "image": "22_ace_wands",
+      "affirmation": "Encendiendo el fuego de la creatividad, avanzo hacia nuevos comienzos con valentía."
+    },
+    {
+      "id": 23,
+      "name": "Dos de Bastos",
+      "image": "23_two_wands",
+      "affirmation": "Miro al horizonte, sé que los descubrimientos y las posibilidades son ilimitados; realizo audazmente mis planes."
+    },
+    {
+      "id": 24,
+      "name": "Tres de Bastos",
+      "image": "24_three_wands",
+      "affirmation": "Amplío mis horizontes y avanzo con determinación para transformar mi visión en una realidad concreta."
+    },
+    {
+      "id": 25,
+      "name": "Cuatro de Bastos",
+      "image": "25_four_wands",
+      "affirmation": "En el momento del éxito y de la celebración, brilla en mi corazón la luz del fuego."
+    },
+    {
+      "id": 26,
+      "name": "Cinco de Bastos",
+      "image": "26_five_wands",
+      "affirmation": "El fuego de la competición me fortalece, supero los obstáculos con valentía."
+    },
+    {
+      "id": 27,
+      "name": "Seis de Bastos",
+      "image": "27_six_wands",
+      "affirmation": "Mientras saboreo la victoria, me aviva el fuego del liderazgo."
+    },
+    {
+      "id": 28,
+      "name": "Siete de Bastos",
+      "image": "28_seven_wands",
+      "affirmation": "Mientras continúo mi defensa con mi pasión, llego a la cima con mi determinación."
+    },
+    {
+      "id": 29,
+      "name": "Ocho de Bastos",
+      "image": "29_eight_wands",
+      "affirmation": "Mis pensamientos y mis acciones se armonizan rápidamente, fluyo hacia mi objetivo."
+    },
+    {
+      "id": 30,
+      "name": "Nueve de Bastos",
+      "image": "30_nine_wands",
+      "affirmation": "Me mantengo en pie con mi resistencia, me levanto más fuerte después de cada golpe."
+    },
+    {
+      "id": 31,
+      "name": "Diez de Bastos",
+      "image": "31_ten_wands",
+      "affirmation": "Mis cargas son pesadas, pero mi objetivo está claro: completaré con éxito este camino."
+    },
+    {
+      "id": 32,
+      "name": "Sota de Bastos",
+      "image": "32_page_wands",
+      "affirmation": "Me aventuro valientemente hacia nuevos horizontes con mi pasión por la curiosidad y la aventura."
+    },
+    {
+      "id": 33,
+      "name": "Caballo de Bastos",
+      "image": "33_knight_wands",
+      "affirmation": "Me muevo velozmente con la fuerza del fuego, mezclando mi pasión con el valor."
+    },
+    {
+      "id": 34,
+      "name": "Reina de Bastos",
+      "image": "34_queen_wands",
+      "affirmation": "Soy el líder de mi propia luz; inspiro a los demás con mi fuego interior."
+    },
+    {
+      "id": 35,
+      "name": "Rey de Bastos",
+      "image": "35_king_wands",
+      "affirmation": "Ardo con fuego, dirijo con valentía; persigo mis pasiones."
+    },
+    {
+      "id": 36,
+      "name": "As de Copas",
+      "image": "36_ace_cups",
+      "affirmation": "El amor rebosa desde lo más profundo de mi corazón; me abro a nuevos comienzos en el mar de las emociones."
+    },
+    {
+      "id": 37,
+      "name": "Dos de Copas",
+      "image": "37_two_cups",
+      "affirmation": "Juntos somos más fuertes; el amor nos une, une nuestras almas."
+    },
+    {
+      "id": 38,
+      "name": "Tres de Copas",
+      "image": "38_three_cups",
+      "affirmation": "Estoy llena de la alegría de las celebraciones; compartir con los amigos da sentido a la vida."
+    },
+    {
+      "id": 39,
+      "name": "Cuatro de Copas",
+      "image": "39_four_cups",
+      "affirmation": "Me sumerjo en mis aguas interiores y encuentro nuevos significados más allá de la insatisfacción."
+    },
+    {
+      "id": 40,
+      "name": "Cinco de Copas",
+      "image": "40_five_cups",
+      "affirmation": "Dejo el peso del pasado, acepto las pérdidas y zarpo hacia nuevas esperanzas."
+    },
+    {
+      "id": 41,
+      "name": "Seis de Copas",
+      "image": "41_six_cups",
+      "affirmation": "A la luz de los recuerdos, alimento a mi niño interior con amor y saco fuerzas del pasado."
+    },
+    {
+      "id": 42,
+      "name": "Siete de Copas",
+      "image": "42_seven_cups",
+      "affirmation": "En el mar de los sueños, hago mis elecciones con sabiduría y me libero de las ilusiones."
+    },
+    {
+      "id": 43,
+      "name": "Ocho de Copas",
+      "image": "43_eight_cups",
+      "affirmation": "Continúo valientemente mi viaje interior con todo lo que he dejado atrás."
+    },
+    {
+      "id": 44,
+      "name": "Nueve de Copas",
+      "image": "44_nine_cups",
+      "affirmation": "Estoy rebosante de gratitud, con la paz del cumplimiento de mis deseos."
+    },
+    {
+      "id": 45,
+      "name": "Diez de Copas",
+      "image": "45_ten_cups",
+      "affirmation": "Encuentro la paz con mi familia y mis seres queridos; soy el arquitecto de un mundo lleno de amor."
+    },
+    {
+      "id": 46,
+      "name": "Sota de Copas",
+      "image": "46_page_cups",
+      "affirmation": "Abrazo valientemente la creatividad y la imaginación desde el fondo de mi corazón."
+    },
+    {
+      "id": 47,
+      "name": "Caballo de Copas",
+      "image": "47_knight_cups",
+      "affirmation": "Como caballero del amor y de las emociones, viajo escuchando la voz de mi corazón."
+    },
+    {
+      "id": 48,
+      "name": "Reina de Copas",
+      "image": "48_queen_cups",
+      "affirmation": "Reino con sabiduría y compasión en las aguas profundas de mis emociones."
+    },
+    {
+      "id": 49,
+      "name": "Rey de Copas",
+      "image": "49_king_cups",
+      "affirmation": "Dominando mis emociones, gobierno como un líder equilibrado y eficaz."
+    },
+    {
+      "id": 50,
+      "name": "As de Espadas",
+      "image": "50_ace_swords",
+      "affirmation": "Creo nuevos comienzos con la agudeza de mi mente, uso la verdad como mi espada."
+    },
+    {
+      "id": 51,
+      "name": "Dos de Espadas",
+      "image": "51_two_swords",
+      "affirmation": "Encuentro el equilibrio en mi mente y elijo superar las dificultades con mi paz interior."
+    },
+    {
+      "id": 52,
+      "name": "Tres de Espadas",
+      "image": "52_three_swords",
+      "affirmation": "Cojo fuerzas de las rupturas, renazco en lo más profundo de mi corazón."
+    },
+    {
+      "id": 53,
+      "name": "Cuatro de Espadas",
+      "image": "53_four_swords",
+      "affirmation": "Descanso mi mente y encuentro la paz en la profundidad del silencio."
+    },
+    {
+      "id": 54,
+      "name": "Cinco de Espadas",
+      "image": "54_five_swords",
+      "affirmation": "Comprendo el coste de las victorias y me centro en mantener mi propia paz interior."
+    },
+    {
+      "id": 55,
+      "name": "Seis de Espadas",
+      "image": "55_six_swords",
+      "affirmation": "Dejo mi mente al viento de la paz y navego hacia aguas tranquilas."
+    },
+    {
+      "id": 56,
+      "name": "Siete de Espadas",
+      "image": "56_seven_swords",
+      "affirmation": "Utilizo mi inteligencia para superar obstáculos y elaborar estrategias."
+    },
+    {
+      "id": 57,
+      "name": "Ocho de Espadas",
+      "image": "57_eight_swords",
+      "affirmation": "Aunque me sienta prisionera, descubro mi fuerza interior para encontrar el camino hacia la libertad."
+    },
+    {
+      "id": 58,
+      "name": "Nueve de Espadas",
+      "image": "58_nine_swords",
+      "affirmation": "Con mi valor más allá de la noche, convierto los pensamientos oscuros en luz."
+    },
+    {
+      "id": 59,
+      "name": "Diez de Espadas",
+      "image": "59_ten_swords",
+      "affirmation": "Llego al final del dolor, renazco de las cenizas."
+    },
+    {
+      "id": 60,
+      "name": "Sota de Espadas",
+      "image": "60_page_swords",
+      "affirmation": "Busco la verdad con la espada afilada de mi conciencia, mis pensamientos son libres como el viento."
+    },
+    {
+      "id": 61,
+      "name": "Caballo de Espadas",
+      "image": "61_knight_swords",
+      "affirmation": "Con el corazón lleno de valor, avanzo con pasos estratégicos incluso en medio de las tormentas."
+    },
+    {
+      "id": 62,
+      "name": "Reina de Espadas",
+      "image": "62_queen_swords",
+      "affirmation": "Juzgo con la razón y la intuición; ilumino el camino con la luz de la claridad."
+    },
+    {
+      "id": 63,
+      "name": "Rey de Espadas",
+      "image": "63_king_swords",
+      "affirmation": "Hago justicia con mi sabiduría y soy firme y resuelto en mis pensamientos."
+    },
+    {
+      "id": 64,
+      "name": "As de Oros",
+      "image": "64_ace_pentacles",
+      "affirmation": "Profundizo en mis raíces y abrazo la abundancia con las oportunidades que me ofrece el universo."
+    },
+    {
+      "id": 65,
+      "name": "Dos de Oros",
+      "image": "65_two_pentacles",
+      "affirmation": "Me adapto hábilmente al ritmo cambiante de la vida; la flexibilidad y el equilibrio son mis guías."
+    },
+    {
+      "id": 66,
+      "name": "Tres de Oros",
+      "image": "66_three_pentacles",
+      "affirmation": "Alcanzo la riqueza y el éxito mediante la cooperación y los esfuerzos conjuntos; me elevo unido."
+    },
+    {
+      "id": 67,
+      "name": "Cuatro de Oros",
+      "image": "67_four_pentacles",
+      "affirmation": "Siento la fuerza de mantenerme a salvo, pero me atrevo a abrirme para crecer."
+    },
+    {
+      "id": 68,
+      "name": "Cinco de Oros",
+      "image": "68_five_pentacles",
+      "affirmation": "Incluso en los días oscuros encuentro mi camino con mi luz interior; la esperanza se funde con la determinación."
+    },
+    {
+      "id": 69,
+      "name": "Seis de Oros",
+      "image": "69_six_pentacles",
+      "affirmation": "La generosidad y el equilibrio me enriquecen; me multiplico compartiendo."
+    },
+    {
+      "id": 70,
+      "name": "Siete de Oros",
+      "image": "70_seven_pentacles",
+      "affirmation": "Cultivo pacientemente los frutos de mi trabajo y convierto mis sueños en realidad con el poder de la tierra."
+    },
+    {
+      "id": 71,
+      "name": "Ocho de Oros",
+      "image": "71_eight_pentacles",
+      "affirmation": "Cada minucioso detalle es un reflejo de mi maestría y determinación."
+    },
+    {
+      "id": 72,
+      "name": "Nueve de Oros",
+      "image": "72_nine_pentacles",
+      "affirmation": "Encuentro paz y abundancia en mi propio jardín y disfruto de la libertad."
+    },
+    {
+      "id": 73,
+      "name": "Diez de Oros",
+      "image": "73_ten_pentacles",
+      "affirmation": "Estoy construyendo un futuro enraizado en el legado de mi familia y mi pasado."
+    },
+    {
+      "id": 74,
+      "name": "Sota de Oros",
+      "image": "74_page_pentacles",
+      "affirmation": "Con mi pasión por aprender, creo nuevos comienzos y persigo mis sueños con determinación."
+    },
+    {
+      "id": 75,
+      "name": "Caballo de Oros",
+      "image": "75_knight_pentacles",
+      "affirmation": "Con paciencia y determinación, construyo una base sólida a cada paso; el éxito me acompaña."
+    },
+    {
+      "id": 76,
+      "name": "Reina de Oros",
+      "image": "76_queen_pentacles",
+      "affirmation": "Estoy rodeada de abundancia y seguridad; enriquezco mi mundo con paz interior y compasión."
+    },
+    {
+      "id": 77,
+      "name": "Rey de Oros",
+      "image": "77_king_pentacles",
+      "affirmation": "Con sabiduría y liderazgo gobierno; con poder material aseguro la permanencia en mi mundo."
+    }
+  ]
+}

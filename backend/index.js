@@ -1826,6 +1826,38 @@ const getCardsHistoryMap = (lang = "tr") => {
   return _cardsHistoryMaps[lang];
 };
 
+const _cardsSymbolsMaps = {};
+const getCardsSymbolsMap = (lang = "tr") => {
+  if (!_cardsSymbolsMaps[lang]) {
+    try {
+      const p = path.join(backendDataPath, lang, "cards_symbols.json");
+      const d = JSON.parse(fs.readFileSync(p, "utf8"));
+      _cardsSymbolsMaps[lang] = {};
+      d.cards.forEach(c => { _cardsSymbolsMaps[lang][c.image] = c.symbols; });
+    } catch (e) {
+      console.warn(`[Cards] Could not load ${lang}/cards_symbols.json:`, e.message);
+      _cardsSymbolsMaps[lang] = {};
+    }
+  }
+  return _cardsSymbolsMaps[lang];
+};
+
+const _cardsAffirmationsMaps = {};
+const getCardsAffirmationsMap = (lang = "tr") => {
+  if (!_cardsAffirmationsMaps[lang]) {
+    try {
+      const p = path.join(backendDataPath, lang, "cards_affirmations.json");
+      const d = JSON.parse(fs.readFileSync(p, "utf8"));
+      _cardsAffirmationsMaps[lang] = {};
+      d.cards.forEach(c => { _cardsAffirmationsMaps[lang][c.image] = c.affirmation; });
+    } catch (e) {
+      console.warn(`[Cards] Could not load ${lang}/cards_affirmations.json:`, e.message);
+      _cardsAffirmationsMaps[lang] = {};
+    }
+  }
+  return _cardsAffirmationsMaps[lang];
+};
+
 app.get("/api/cards/:language", (req, res) => {
   const { language } = req.params;
   const validLangs = ["tr", "en", "de", "es"];
@@ -1838,6 +1870,8 @@ app.get("/api/cards/:language", (req, res) => {
     const templatePath = path.join(backendDataPath, language, "tarot-template.json");
     const data = JSON.parse(fs.readFileSync(templatePath, "utf8"));
     const historyMap = getCardsHistoryMap(language);
+    const symbolsMap = getCardsSymbolsMap(language);
+    const affirmationsMap = getCardsAffirmationsMap(language);
 
     // Normalize suit to English keys — handles Turkish/German/Spanish special chars
     const normalizeSuit = (s) => {
@@ -1858,11 +1892,12 @@ app.get("/api/cards/:language", (req, res) => {
       return s;
     };
 
-    // Merge history field from cards_history.json into each card
     const cards = data.cards.map(card => ({
       ...card,
       suit: normalizeSuit(card.suit),
       history: historyMap[card.image]?.history || null,
+      symbols: symbolsMap[card.image] || [],
+      affirmation: affirmationsMap[card.image] || null,
     }));
 
     res.json({ cards });

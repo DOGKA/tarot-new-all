@@ -1,0 +1,1800 @@
+{
+  "_comment": "78 Tarot kartının görsel sembolleri ve anlamları — Türkçe",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "Deli",
+      "image": "00_fool",
+      "symbols": [
+        {
+          "symbol": "Beyaz Köpek",
+          "meaning": "Sadakat ve koruma."
+        },
+        {
+          "symbol": "Uçurum",
+          "meaning": "Risk alma, bilinmezlik."
+        },
+        {
+          "symbol": "Çiçek",
+          "meaning": "Saflık ve yeni başlangıçlar."
+        },
+        {
+          "symbol": "Güneş",
+          "meaning": "İyimserlik ve umut."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Büyücü",
+      "image": "01_magician",
+      "symbols": [
+        {
+          "symbol": "Asa",
+          "meaning": "İrade ve güç."
+        },
+        {
+          "symbol": "Kılıç",
+          "meaning": "Zihin ve akıl."
+        },
+        {
+          "symbol": "Kupa",
+          "meaning": "Duygular ve sezgi."
+        },
+        {
+          "symbol": "Pentacle",
+          "meaning": "Maddi dünya, zenginlik."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Azize",
+      "image": "02_high_priestess",
+      "symbols": [
+        {
+          "symbol": "Ay",
+          "meaning": "Gizli bilgi ve sezgi."
+        },
+        {
+          "symbol": "Sütunlar",
+          "meaning": "Denge ve ikilik."
+        },
+        {
+          "symbol": "Tora",
+          "meaning": "Bilgelik ve sırlar."
+        },
+        {
+          "symbol": "Yüzük",
+          "meaning": "Bağlılık ve bütünlük."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "İmparatoriçe",
+      "image": "03_empress",
+      "symbols": [
+        {
+          "symbol": "Buğday",
+          "meaning": "Bereket ve bolluk."
+        },
+        {
+          "symbol": "Taç",
+          "meaning": "Otorite ve güç."
+        },
+        {
+          "symbol": "Venüs Sembolü",
+          "meaning": "Aşk ve güzellik."
+        },
+        {
+          "symbol": "Doğa",
+          "meaning": "Doğurganlık ve yaşam."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "İmparator",
+      "image": "04_emperor",
+      "symbols": [
+        {
+          "symbol": "Taht",
+          "meaning": "Kontrol ve otorite."
+        },
+        {
+          "symbol": "Zırh",
+          "meaning": "Koruma ve güç."
+        },
+        {
+          "symbol": "Dağlar",
+          "meaning": "Dayanıklılık ve kararlılık."
+        },
+        {
+          "symbol": "Kırmızı Cübbe",
+          "meaning": "Güç ve tutku."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Aziz",
+      "image": "05_hierophant",
+      "symbols": [
+        {
+          "symbol": "Taç Giyen Aziz",
+          "meaning": "Ruhsal otorite ve öğreti."
+        },
+        {
+          "symbol": "Anahtarlar",
+          "meaning": "Gizli bilgi ve kapıları açma."
+        },
+        {
+          "symbol": "Papa Tahtı",
+          "meaning": "Geleneksel güç ve otorite."
+        },
+        {
+          "symbol": "Çift Sütun",
+          "meaning": "İkilik ve denge."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Aşıklar",
+      "image": "06_lovers",
+      "symbols": [
+        {
+          "symbol": "Aşık Çift",
+          "meaning": "Sevgi ve birliktelik."
+        },
+        {
+          "symbol": "Melek",
+          "meaning": "İlahi rehberlik ve koruma."
+        },
+        {
+          "symbol": "Dağlar",
+          "meaning": "Zorluklar ve engeller."
+        },
+        {
+          "symbol": "Yılanlı Ağaç",
+          "meaning": "Bilgi ve cazibe."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Savaş Arabası",
+      "image": "07_chariot",
+      "symbols": [
+        {
+          "symbol": "Zafer Arabası",
+          "meaning": "Kontrol ve irade gücü."
+        },
+        {
+          "symbol": "Siyah ve Beyaz Sfenksler",
+          "meaning": "Karşıtlıklar ve yönlendirme."
+        },
+        {
+          "symbol": "Yıldızlı Taç",
+          "meaning": "Başarı ve ilahi koruma."
+        },
+        {
+          "symbol": "Şehir Duvarı",
+          "meaning": "Güvenlik ve koruma."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Güç",
+      "image": "08_strength",
+      "symbols": [
+        {
+          "symbol": "Kadın ve Aslan",
+          "meaning": "Nazik güç ve cesaret."
+        },
+        {
+          "symbol": "Sonsuzluk Sembolü",
+          "meaning": "Sonsuz enerji ve potansiyel."
+        },
+        {
+          "symbol": "Çiçekli Çelenk",
+          "meaning": "Doğal güzellik ve uyum."
+        },
+        {
+          "symbol": "Dağlar",
+          "meaning": "Dayanıklılık ve kararlılık."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ermiş",
+      "image": "09_hermit",
+      "symbols": [
+        {
+          "symbol": "Elde Fener Tutan Ermiş",
+          "meaning": "Arayış ve içsel rehberlik."
+        },
+        {
+          "symbol": "Beyaz Cübbe",
+          "meaning": "Saflık ve bilgi."
+        },
+        {
+          "symbol": "Dağ",
+          "meaning": "Mücadele ve yalnızlık."
+        },
+        {
+          "symbol": "Baston",
+          "meaning": "Destek ve güven."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Kader Çarkı",
+      "image": "10_wheel_of_fortune",
+      "symbols": [
+        {
+          "symbol": "Çark",
+          "meaning": "Değişim ve döngüler."
+        },
+        {
+          "symbol": "Melek",
+          "meaning": "Koruyucu güçler."
+        },
+        {
+          "symbol": "Aslan",
+          "meaning": "Güç ve cesaret."
+        },
+        {
+          "symbol": "Kartal",
+          "meaning": "Yüksek görüş ve özgürlük."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Adalet",
+      "image": "11_justice",
+      "symbols": [
+        {
+          "symbol": "Terazi",
+          "meaning": "Denge ve adalet."
+        },
+        {
+          "symbol": "Kılıç",
+          "meaning": "Gerçek ve kararlar."
+        },
+        {
+          "symbol": "Taht",
+          "meaning": "Yetki ve otorite."
+        },
+        {
+          "symbol": "Pelerin",
+          "meaning": "Gizlilik ve koruma."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Asılan Adam",
+      "image": "12_hanged_man",
+      "symbols": [
+        {
+          "symbol": "Ters Adam",
+          "meaning": "Farklı bakış açıları."
+        },
+        {
+          "symbol": "İp",
+          "meaning": "Bağlılık ve kısıtlama."
+        },
+        {
+          "symbol": "Ağaç",
+          "meaning": "Büyüme ve dayanıklılık."
+        },
+        {
+          "symbol": "Halo",
+          "meaning": "Aydınlanma ve ilham."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Ölüm",
+      "image": "13_death",
+      "symbols": [
+        {
+          "symbol": "İskelet",
+          "meaning": "Kaçınılmaz sonlar."
+        },
+        {
+          "symbol": "At",
+          "meaning": "Hareket ve ilerleme."
+        },
+        {
+          "symbol": "Güneş",
+          "meaning": "Yeni başlangıçlar."
+        },
+        {
+          "symbol": "Bayrak",
+          "meaning": "Dönüşüm ve değişim."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Denge",
+      "image": "14_temperance",
+      "symbols": [
+        {
+          "symbol": "Melek",
+          "meaning": "Rehberlik ve koruma."
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Duygusal denge."
+        },
+        {
+          "symbol": "Kupa",
+          "meaning": "Duygular ve ilişkiler."
+        },
+        {
+          "symbol": "Yol",
+          "meaning": "Süreç ve ilerleme."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Şeytan",
+      "image": "15_devil",
+      "symbols": [
+        {
+          "symbol": "Şeytan Figürü",
+          "meaning": "Bağımlılık ve materyalizm."
+        },
+        {
+          "symbol": "Zincirli İnsanlar",
+          "meaning": "Kontrol altında olma hissi."
+        },
+        {
+          "symbol": "Ters Pentagram",
+          "meaning": "Negatif enerji ve kötülük."
+        },
+        {
+          "symbol": "Boynuzlar",
+          "meaning": "Hayvani dürtüler ve içgüdüler."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Yıkılan Kule",
+      "image": "16_tower",
+      "symbols": [
+        {
+          "symbol": "Yıkılan Kule",
+          "meaning": "Ani değişim ve yıkım."
+        },
+        {
+          "symbol": "Yıldırım",
+          "meaning": "Beklenmedik olaylar."
+        },
+        {
+          "symbol": "Düşen İnsanlar",
+          "meaning": "Kontrol kaybı ve kaos."
+        },
+        {
+          "symbol": "Kara Bulutlar",
+          "meaning": "Belirsizlik ve güçlükler."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Yıldız",
+      "image": "17_star",
+      "symbols": [
+        {
+          "symbol": "Yıldız",
+          "meaning": "Umut ve rehberlik."
+        },
+        {
+          "symbol": "Su Testisi",
+          "meaning": "Duygusal denge ve arınma."
+        },
+        {
+          "symbol": "Çıplak Kadın",
+          "meaning": "Açıklık ve saflık."
+        },
+        {
+          "symbol": "Yedi Küçük Yıldız",
+          "meaning": "Yüksek idealler ve ilham."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Ay",
+      "image": "18_moon",
+      "symbols": [
+        {
+          "symbol": "Ay",
+          "meaning": "Bilinçaltı ve yanılsamalar."
+        },
+        {
+          "symbol": "Kurt ve Köpek",
+          "meaning": "İçsel ve dışsal çatışma."
+        },
+        {
+          "symbol": "Su Yolu",
+          "meaning": "Bilinmeyen yollar ve duygular."
+        },
+        {
+          "symbol": "İki Kule",
+          "meaning": "Güvenlik ve koruma."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Güneş",
+      "image": "19_sun",
+      "symbols": [
+        {
+          "symbol": "Güneş",
+          "meaning": "Mutluluk ve başarı."
+        },
+        {
+          "symbol": "Çocuk",
+          "meaning": "Masumiyet ve neşe."
+        },
+        {
+          "symbol": "At",
+          "meaning": "Hareket ve ilerleme."
+        },
+        {
+          "symbol": "Güneş Çiçekleri",
+          "meaning": "Hayat enerjisi ve canlılık."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Mahkeme",
+      "image": "20_judgement",
+      "symbols": [
+        {
+          "symbol": "Melek",
+          "meaning": "Yüksek farkındalık ve içsel çağrı."
+        },
+        {
+          "symbol": "Trompet",
+          "meaning": "Uyanış ve ilahi mesajlar."
+        },
+        {
+          "symbol": "Dirilen İnsanlar",
+          "meaning": "Yeniden doğuş ve değişim."
+        },
+        {
+          "symbol": "Bulutlar",
+          "meaning": "Gizemli ve ilahi olanın varlığı."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Dünya",
+      "image": "21_world",
+      "symbols": [
+        {
+          "symbol": "Dans Eden Kadın",
+          "meaning": "Tamamlanma ve denge."
+        },
+        {
+          "symbol": "Çelenk",
+          "meaning": "Zafer ve başarı."
+        },
+        {
+          "symbol": "Dört Element",
+          "meaning": "Dünya, su, hava, ateş dengesi."
+        },
+        {
+          "symbol": "Şal",
+          "meaning": "Koruma ve kapsayıcılık."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Değnek Ası",
+      "image": "22_ace_wands",
+      "symbols": [
+        {
+          "symbol": "Değnek",
+          "meaning": "Yeni başlangıçlar ve fırsatlar."
+        },
+        {
+          "symbol": "Yeşil Manzara",
+          "meaning": "Büyüme ve potansiyel."
+        },
+        {
+          "symbol": "Beyaz Bulutlar",
+          "meaning": "Saflık ve ilham."
+        },
+        {
+          "symbol": "Mavi Gökyüzü",
+          "meaning": "Açıklık ve umut."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Değnek İkilisi",
+      "image": "23_two_wands",
+      "symbols": [
+        {
+          "symbol": "İki Değnek",
+          "meaning": "Karar verme ve planlama."
+        },
+        {
+          "symbol": "Dünya Küresi",
+          "meaning": "Küresel perspektif ve kontrol."
+        },
+        {
+          "symbol": "Kale Duvarı",
+          "meaning": "Güvenlik ve koruma."
+        },
+        {
+          "symbol": "Deniz",
+          "meaning": "Keşif ve fırsatlar."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Değnek Üçlüsü",
+      "image": "24_three_wands",
+      "symbols": [
+        {
+          "symbol": "Üç Değnek",
+          "meaning": "Beklentiler ve ilerleme."
+        },
+        {
+          "symbol": "Deniz",
+          "meaning": "Keşif ve uzak hedefler."
+        },
+        {
+          "symbol": "Tepeler",
+          "meaning": "Zorluklar ve fırsatlar."
+        },
+        {
+          "symbol": "Geniş Ufuk",
+          "meaning": "Geniş görüş ve vizyon."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Değnek Dörtlüsü",
+      "image": "25_four_wands",
+      "symbols": [
+        {
+          "symbol": "Çiçekli Değnekler",
+          "meaning": "Kutlama ve başarı işareti."
+        },
+        {
+          "symbol": "Çelenk",
+          "meaning": "Zafer ve birlik sembolü."
+        },
+        {
+          "symbol": "Köprü",
+          "meaning": "Bağlantı kurma ve geçiş."
+        },
+        {
+          "symbol": "Arka planda insanlar",
+          "meaning": "Topluluk ve birlikte olma."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Değnek Beşlisi",
+      "image": "26_five_wands",
+      "symbols": [
+        {
+          "symbol": "Çarpışan Değnekler",
+          "meaning": "Rekabet ve çatışma."
+        },
+        {
+          "symbol": "Beş kişi",
+          "meaning": "Çoklu görüşler ve anlaşmazlık."
+        },
+        {
+          "symbol": "Tartışma",
+          "meaning": "Fikir ayrılığı ve anlaşmazlık."
+        },
+        {
+          "symbol": "Hararetli ortam",
+          "meaning": "Gerginlik ve stres."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Değnek Altılısı",
+      "image": "27_six_wands",
+      "symbols": [
+        {
+          "symbol": "Zafer Çelengi",
+          "meaning": "Başarı ve zafer."
+        },
+        {
+          "symbol": "Beyaz At",
+          "meaning": "Saflık ve liderlik."
+        },
+        {
+          "symbol": "Alkışlayan Kalabalık",
+          "meaning": "Tanınırlık ve destek."
+        },
+        {
+          "symbol": "Yüksek Değnek",
+          "meaning": "Güç ve otorite."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Değnek Yedilisi",
+      "image": "28_seven_wands",
+      "symbols": [
+        {
+          "symbol": "Yedi Değnek",
+          "meaning": "Savunma ve mücadele."
+        },
+        {
+          "symbol": "Yalnız Kişi",
+          "meaning": "Kendini savunma."
+        },
+        {
+          "symbol": "Yüksek Zeminde Durma",
+          "meaning": "Üstünlük ve avantaj."
+        },
+        {
+          "symbol": "Direniş",
+          "meaning": "Kararlılık ve direnç."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Değnek Sekizlisi",
+      "image": "29_eight_wands",
+      "symbols": [
+        {
+          "symbol": "Uçuşan Değnekler",
+          "meaning": "Hızlı gelişmeler."
+        },
+        {
+          "symbol": "Açık Gökyüzü",
+          "meaning": "Özgürlük ve açıklık."
+        },
+        {
+          "symbol": "Hareket",
+          "meaning": "İlerleme ve değişim."
+        },
+        {
+          "symbol": "Dinamik Enerji",
+          "meaning": "Çabukluk ve enerji."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Değnek Dokuzlusu",
+      "image": "30_nine_wands",
+      "symbols": [
+        {
+          "symbol": "Yaralı Adam",
+          "meaning": "Direnç ve mücadeleye devam etme."
+        },
+        {
+          "symbol": "Dokuz Değnek",
+          "meaning": "Savunma ve hazır olma durumunu gösterir."
+        },
+        {
+          "symbol": "Bandaj",
+          "meaning": "Geçmişteki zorlukların izlerini taşır."
+        },
+        {
+          "symbol": "Tahta Çit",
+          "meaning": "Koruma ve sınırları belirleme ihtiyacı."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Değnek Onlusu",
+      "image": "31_ten_wands",
+      "symbols": [
+        {
+          "symbol": "Yük Taşıyan Adam",
+          "meaning": "Aşırı sorumluluk ve yük taşıma."
+        },
+        {
+          "symbol": "On Değnek",
+          "meaning": "Tamamlanma ve sonuca ulaşma süreci."
+        },
+        {
+          "symbol": "Eğilen Adam",
+          "meaning": "Baskı altında olma ve yükün ağırlığı."
+        },
+        {
+          "symbol": "Uzakta Ev",
+          "meaning": "Hedefe ulaşma isteği ve çaba."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Değnek Prensi",
+      "image": "32_page_wands",
+      "symbols": [
+        {
+          "symbol": "Genç Adam",
+          "meaning": "Yeni başlangıçlar ve heyecan."
+        },
+        {
+          "symbol": "Değnek",
+          "meaning": "Yaratıcılık ve eyleme geçme."
+        },
+        {
+          "symbol": "Çöl Manzarası",
+          "meaning": "Keşif ve yeni maceralar."
+        },
+        {
+          "symbol": "Tüylü Şapka",
+          "meaning": "Özgünlük ve bireysel ifade."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Değnek Şövalyesi",
+      "image": "33_knight_wands",
+      "symbols": [
+        {
+          "symbol": "Şövalye",
+          "meaning": "Enerji ve kararlılıkla ilerleme."
+        },
+        {
+          "symbol": "Değnek",
+          "meaning": "Girişimcilik ve aktif hareket."
+        },
+        {
+          "symbol": "Ateşli At",
+          "meaning": "Tutku ve hızla ilerleme."
+        },
+        {
+          "symbol": "Pelerin",
+          "meaning": "Korunma ve cesaret."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Değnek Kraliçesi",
+      "image": "34_queen_wands",
+      "symbols": [
+        {
+          "symbol": "Kraliçe",
+          "meaning": "Yaratıcılık ve liderlik yeteneği."
+        },
+        {
+          "symbol": "Değnek",
+          "meaning": "İlham ve vizyon sahibi olma."
+        },
+        {
+          "symbol": "Güneş Çiçeği",
+          "meaning": "Mutluluk ve pozitif enerji."
+        },
+        {
+          "symbol": "Taht",
+          "meaning": "Güç ve otoritenin simgesi."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Değnek Kralı",
+      "image": "35_king_wands",
+      "symbols": [
+        {
+          "symbol": "Kral",
+          "meaning": "Otorite, liderlik, kararlılık."
+        },
+        {
+          "symbol": "Değnek",
+          "meaning": "Yaratıcılık, tutku, enerji."
+        },
+        {
+          "symbol": "Aslan",
+          "meaning": "Güç, cesaret, koruma."
+        },
+        {
+          "symbol": "Sarı Tunik",
+          "meaning": "Neşe, canlılık, iyimserlik."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Kupa Ası",
+      "image": "36_ace_cups",
+      "symbols": [
+        {
+          "symbol": "Kupa",
+          "meaning": "Duygular, aşk, ilişkiler."
+        },
+        {
+          "symbol": "El",
+          "meaning": "Fırsat, sunum, teklif."
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Duygusal akış, yenilik."
+        },
+        {
+          "symbol": "Lotus Çiçeği",
+          "meaning": "Arınma, ruhsal gelişim."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Kupa İkilisi",
+      "image": "37_two_cups",
+      "symbols": [
+        {
+          "symbol": "İki Kupa",
+          "meaning": "Ortaklık, birlik, denge."
+        },
+        {
+          "symbol": "Kupa Tutan Çift",
+          "meaning": "Anlayış, uyum, sevgi."
+        },
+        {
+          "symbol": "Asa",
+          "meaning": "Denge, destek, güç."
+        },
+        {
+          "symbol": "Kanatlı Aslan",
+          "meaning": "Koruma, cesaret, liderlik."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Kupa Üçlüsü",
+      "image": "38_three_cups",
+      "symbols": [
+        {
+          "symbol": "Üç Kupa",
+          "meaning": "Kutlama, birliktelik, topluluk."
+        },
+        {
+          "symbol": "Dans Eden Kadınlar",
+          "meaning": "Neşe, dostluk, paylaşım."
+        },
+        {
+          "symbol": "Çiçek Çelenkleri",
+          "meaning": "Başarı, mutluluk, ödüllendirme."
+        },
+        {
+          "symbol": "Üzüm Bağı",
+          "meaning": "Bereket, bolluk, doğurganlık."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Kupa Dörtlüsü",
+      "image": "39_four_cups",
+      "symbols": [
+        {
+          "symbol": "Dört Kupa",
+          "meaning": "Memnuniyetsizlik, içsel arayış."
+        },
+        {
+          "symbol": "Ağaç Altındaki Adam",
+          "meaning": "Düşünce, yalnızlık, meditasyon."
+        },
+        {
+          "symbol": "Bulut",
+          "meaning": "Fırsat, ilham, belirsizlik."
+        },
+        {
+          "symbol": "Teklif Edilen Kupa",
+          "meaning": "Seçenek, öneri, dikkat çekme."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Kupa Beşlisi",
+      "image": "40_five_cups",
+      "symbols": [
+        {
+          "symbol": "Siyah Pelerinli Figür",
+          "meaning": "Kayıp ve yas duygusu."
+        },
+        {
+          "symbol": "Dökülmüş Kupalar",
+          "meaning": "Kaybedilen fırsatlar."
+        },
+        {
+          "symbol": "Ayakta Kalan Kupalar",
+          "meaning": "Görülmeyen umutlar."
+        },
+        {
+          "symbol": "Nehir",
+          "meaning": "Duyguların akışı."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Kupa Altılısı",
+      "image": "41_six_cups",
+      "symbols": [
+        {
+          "symbol": "Çocuklar",
+          "meaning": "Masumiyet ve nostalji."
+        },
+        {
+          "symbol": "Çiçekli Kupalar",
+          "meaning": "Sevgi ve armağanlar."
+        },
+        {
+          "symbol": "Eski Kıyafetler",
+          "meaning": "Geçmişe ait bağlantılar."
+        },
+        {
+          "symbol": "Ev",
+          "meaning": "Güvenlik ve aidiyet."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Kupa Yedilisi",
+      "image": "42_seven_cups",
+      "symbols": [
+        {
+          "symbol": "Bulutlar Üzerinde Kupalar",
+          "meaning": "Hayaller ve illüzyonlar."
+        },
+        {
+          "symbol": "Ejderha",
+          "meaning": "Tehlikeli arzular."
+        },
+        {
+          "symbol": "Yılan",
+          "meaning": "Bilinçaltı korkular."
+        },
+        {
+          "symbol": "Kale",
+          "meaning": "Güç ve güven arayışı."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Kupa Sekizlisi",
+      "image": "43_eight_cups",
+      "symbols": [
+        {
+          "symbol": "Sırtını Dönen Figür",
+          "meaning": "Arayış ve vazgeçiş."
+        },
+        {
+          "symbol": "Ay",
+          "meaning": "Bilinmeyen ve içgüdüler."
+        },
+        {
+          "symbol": "Dağlar",
+          "meaning": "Zorluklar ve hedefler."
+        },
+        {
+          "symbol": "Düzenli Sıralanmış Kupalar",
+          "meaning": "Duygusal tamamlama arayışı."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Kupa Dokuzlusu",
+      "image": "44_nine_cups",
+      "symbols": [
+        {
+          "symbol": "Kollarını Bağlayan Adam",
+          "meaning": "Memnuniyet ve kendine güven."
+        },
+        {
+          "symbol": "Dizilmiş Kupalar",
+          "meaning": "Duygusal tatmin."
+        },
+        {
+          "symbol": "Kırmızı Şapka",
+          "meaning": "Tutku ve enerji."
+        },
+        {
+          "symbol": "Ahşap Masa",
+          "meaning": "Stabilite ve destek."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Kupa Onlusu",
+      "image": "45_ten_cups",
+      "symbols": [
+        {
+          "symbol": "Gökkuşağı",
+          "meaning": "Mutluluk ve uyum dolu yaşam."
+        },
+        {
+          "symbol": "Aile",
+          "meaning": "Birlikte geçirilen mutlu anlar."
+        },
+        {
+          "symbol": "Ev",
+          "meaning": "Güvenli bir yuva."
+        },
+        {
+          "symbol": "Yeşil Arazi",
+          "meaning": "Bolluk ve huzur."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Kupa Prensi",
+      "image": "46_page_cups",
+      "symbols": [
+        {
+          "symbol": "Balık",
+          "meaning": "Yaratıcılık ve sürpriz."
+        },
+        {
+          "symbol": "Deniz",
+          "meaning": "Duygusal derinlik."
+        },
+        {
+          "symbol": "Mavi Elbise",
+          "meaning": "Duygusal açıklık."
+        },
+        {
+          "symbol": "Kupa",
+          "meaning": "Duygusal mesajlar."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Kupa Şövalyesi",
+      "image": "47_knight_cups",
+      "symbols": [
+        {
+          "symbol": "At",
+          "meaning": "Hareket ve enerji."
+        },
+        {
+          "symbol": "Kupa",
+          "meaning": "Duygusal arayış."
+        },
+        {
+          "symbol": "Zırh",
+          "meaning": "Koruma ve cesaret."
+        },
+        {
+          "symbol": "Akarsu",
+          "meaning": "Duygusal akış."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Kupa Kraliçesi",
+      "image": "48_queen_cups",
+      "symbols": [
+        {
+          "symbol": "Taht",
+          "meaning": "Güç ve otorite."
+        },
+        {
+          "symbol": "Deniz Kabuğu",
+          "meaning": "Duygusal derinlik."
+        },
+        {
+          "symbol": "Kupa",
+          "meaning": "Duygusal zenginlik."
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Duygusal akışkanlık."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Kupa Kralı",
+      "image": "49_king_cups",
+      "symbols": [
+        {
+          "symbol": "Taç",
+          "meaning": "Liderlik ve bilgelik."
+        },
+        {
+          "symbol": "Kupa",
+          "meaning": "Duygusal kontrol."
+        },
+        {
+          "symbol": "Deniz",
+          "meaning": "Duygusal derinlik."
+        },
+        {
+          "symbol": "Gri Elbise",
+          "meaning": "Tarafsızlık ve denge."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Kılıç Ası",
+      "image": "50_ace_swords",
+      "symbols": [
+        {
+          "symbol": "Bulut El",
+          "meaning": "Beklenmedik fırsatlar ve ilham."
+        },
+        {
+          "symbol": "Kılıç",
+          "meaning": "Güç, akıl, ve yeni başlangıçlar."
+        },
+        {
+          "symbol": "Taç",
+          "meaning": "Zafer ve başarı."
+        },
+        {
+          "symbol": "Dağlar",
+          "meaning": "Zorluklar ve engeller."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Kılıç İkilisi",
+      "image": "51_two_swords",
+      "symbols": [
+        {
+          "symbol": "Bağlı Gözler",
+          "meaning": "Kararsızlık ve belirsizlik."
+        },
+        {
+          "symbol": "Çapraz Kılıçlar",
+          "meaning": "İçsel çatışma ve denge arayışı."
+        },
+        {
+          "symbol": "Ay",
+          "meaning": "Sezgiler ve gizem."
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Duygusal derinlik ve bilinçaltı."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Kılıç Üçlüsü",
+      "image": "52_three_swords",
+      "symbols": [
+        {
+          "symbol": "Kalpte Kılıçlar",
+          "meaning": "Kalp kırıklığı ve acı."
+        },
+        {
+          "symbol": "Yağmur",
+          "meaning": "Üzüntü ve gözyaşları."
+        },
+        {
+          "symbol": "Bulutlar",
+          "meaning": "Geçici zorluklar ve karışıklık."
+        },
+        {
+          "symbol": "Kırmızı Arka Plan",
+          "meaning": "Tutku ve yoğun duygular."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Kılıç Dörtlüsü",
+      "image": "53_four_swords",
+      "symbols": [
+        {
+          "symbol": "Yatan Şövalye",
+          "meaning": "Dinlenme ve içsel düşünme."
+        },
+        {
+          "symbol": "Kılıçlar",
+          "meaning": "Düşünceler ve zihinsel mücadele."
+        },
+        {
+          "symbol": "Vitray Pencere",
+          "meaning": "Ruhsal rehberlik ve umut."
+        },
+        {
+          "symbol": "Tabut",
+          "meaning": "Geçici duraklama ve yenilenme."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Kılıç Beşlisi",
+      "image": "54_five_swords",
+      "symbols": [
+        {
+          "symbol": "Zafer Kazanan",
+          "meaning": "Başarı ve üstünlük."
+        },
+        {
+          "symbol": "Yenilenler",
+          "meaning": "Kaybetme ve hayal kırıklığı."
+        },
+        {
+          "symbol": "Deniz",
+          "meaning": "Duygusal dalgalanmalar."
+        },
+        {
+          "symbol": "Bulutlu Gökyüzü",
+          "meaning": "Karışıklık ve belirsizlik."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Kılıç Altılısı",
+      "image": "55_six_swords",
+      "symbols": [
+        {
+          "symbol": "Tekne",
+          "meaning": "Geçiş ve yolculuk"
+        },
+        {
+          "symbol": "Su",
+          "meaning": "Duygusal durum ve bilinçaltı"
+        },
+        {
+          "symbol": "Kılıçlar",
+          "meaning": "Zihinsel mücadeleler"
+        },
+        {
+          "symbol": "Kürek çeken kişi",
+          "meaning": "Yardım veya rehberlik"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Kılıç Yedilisi",
+      "image": "56_seven_swords",
+      "symbols": [
+        {
+          "symbol": "Hırsız",
+          "meaning": "Hile, gizlilik"
+        },
+        {
+          "symbol": "Çadırlar",
+          "meaning": "Koruma ve gizlilik"
+        },
+        {
+          "symbol": "Kılıçlar",
+          "meaning": "Zihinsel strateji"
+        },
+        {
+          "symbol": "Ayak izleri",
+          "meaning": "Geçmişin izleri"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Kılıç Sekizlisi",
+      "image": "57_eight_swords",
+      "symbols": [
+        {
+          "symbol": "Bağlı kadın",
+          "meaning": "Kısıtlanma, engellenme"
+        },
+        {
+          "symbol": "Kılıçlar",
+          "meaning": "Zihinsel sınırlamalar"
+        },
+        {
+          "symbol": "Göz bağı",
+          "meaning": "Gerçekleri görememe"
+        },
+        {
+          "symbol": "Su birikintisi",
+          "meaning": "Duygusal durum"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Kılıç Dokuzlusu",
+      "image": "58_nine_swords",
+      "symbols": [
+        {
+          "symbol": "Yatakta oturan kişi",
+          "meaning": "Endişe ve uykusuzluk"
+        },
+        {
+          "symbol": "Kılıçlar",
+          "meaning": "Zihinsel stres"
+        },
+        {
+          "symbol": "Ellerini kapayan kişi",
+          "meaning": "Suçluluk veya utanç"
+        },
+        {
+          "symbol": "Karanlık oda",
+          "meaning": "Kapanma veya yalnızlık"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Kılıç Onlusu",
+      "image": "59_ten_swords",
+      "symbols": [
+        {
+          "symbol": "Yerde yatan kişi",
+          "meaning": "Bitkinlik ve yenilgi"
+        },
+        {
+          "symbol": "Kılıçlar",
+          "meaning": "Sonuç ve karar"
+        },
+        {
+          "symbol": "Karanlık gökyüzü",
+          "meaning": "Zorluklar ve kasvet"
+        },
+        {
+          "symbol": "Kırmızı pelerin",
+          "meaning": "Tutku ve acı"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Kılıç Prensi",
+      "image": "60_page_swords",
+      "symbols": [
+        {
+          "symbol": "Genç Adam",
+          "meaning": "Merak ve öğrenme isteği."
+        },
+        {
+          "symbol": "Kılıç",
+          "meaning": "Zihinsel güç ve keskinlik."
+        },
+        {
+          "symbol": "Rüzgarlı Gökyüzü",
+          "meaning": "Değişkenlik ve uyanıklık."
+        },
+        {
+          "symbol": "Yeşil Arazi",
+          "meaning": "Potansiyel ve büyüme."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Kılıç Şövalyesi",
+      "image": "61_knight_swords",
+      "symbols": [
+        {
+          "symbol": "At",
+          "meaning": "Hız ve hareket."
+        },
+        {
+          "symbol": "Kılıç",
+          "meaning": "Kararlılık ve mücadele."
+        },
+        {
+          "symbol": "Bulutlu Gökyüzü",
+          "meaning": "Zorluklar ve karmaşa."
+        },
+        {
+          "symbol": "Rüzgar",
+          "meaning": "Enerji ve değişim."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Kılıç Kraliçesi",
+      "image": "62_queen_swords",
+      "symbols": [
+        {
+          "symbol": "Taç",
+          "meaning": "Bilgelik ve otorite."
+        },
+        {
+          "symbol": "Kılıç",
+          "meaning": "Keskin zihin ve adalet."
+        },
+        {
+          "symbol": "Bulutlu Gökyüzü",
+          "meaning": "Zihinsel netlik ve çözüm."
+        },
+        {
+          "symbol": "Taht",
+          "meaning": "Güç ve liderlik."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Kılıç Kralı",
+      "image": "63_king_swords",
+      "symbols": [
+        {
+          "symbol": "Taç",
+          "meaning": "Krallık ve güç."
+        },
+        {
+          "symbol": "Kılıç",
+          "meaning": "Karar verme ve otorite."
+        },
+        {
+          "symbol": "Yüksek Taht",
+          "meaning": "Hakimiyet ve kontrol."
+        },
+        {
+          "symbol": "Alçak Gözlük",
+          "meaning": "Keskin bakış ve görüş."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Tılsım Ası",
+      "image": "64_ace_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tılsım",
+          "meaning": "Maddi kazanç ve fırsatlar."
+        },
+        {
+          "symbol": "El",
+          "meaning": "Armağan ve potansiyel."
+        },
+        {
+          "symbol": "Yeşil Arazi",
+          "meaning": "Bereket ve büyüme."
+        },
+        {
+          "symbol": "Dağlar",
+          "meaning": "Hedefler ve zorluklar."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Tılsım İkilisi",
+      "image": "65_two_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tılsımlar",
+          "meaning": "Maddi denge ve uyum arayışı."
+        },
+        {
+          "symbol": "İnfinity sembolü",
+          "meaning": "Sonsuzluk, sürekli döngü ve değişim."
+        },
+        {
+          "symbol": "Dalgalar",
+          "meaning": "Duygusal dalgalanmalar ve zorluklar."
+        },
+        {
+          "symbol": "Gökyüzü",
+          "meaning": "Açıklık ve geniş perspektif."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Tılsım Üçlüsü",
+      "image": "66_three_pentacles",
+      "symbols": [
+        {
+          "symbol": "Mimar",
+          "meaning": "Planlama ve işbirliği."
+        },
+        {
+          "symbol": "Usta",
+          "meaning": "Beceriler ve deneyim."
+        },
+        {
+          "symbol": "Çırak",
+          "meaning": "Öğrenme ve gelişim süreci."
+        },
+        {
+          "symbol": "Katedral",
+          "meaning": "Uzun vadeli projeler ve hedefler."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Tılsım Dörtlüsü",
+      "image": "67_four_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tılsımlar",
+          "meaning": "Maddi güvenlik ve koruma."
+        },
+        {
+          "symbol": "Kral",
+          "meaning": "Kontrol ve sahiplenme."
+        },
+        {
+          "symbol": "Şehir",
+          "meaning": "Toplumsal bağlar ve yapı."
+        },
+        {
+          "symbol": "Ayaklar",
+          "meaning": "Temel ve köklenme ihtiyacı."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Tılsım Beşlisi",
+      "image": "68_five_pentacles",
+      "symbols": [
+        {
+          "symbol": "Karlı hava",
+          "meaning": "Zorluklar ve yoksunluk."
+        },
+        {
+          "symbol": "Kilise penceresi",
+          "meaning": "Umut ve yardımlaşma."
+        },
+        {
+          "symbol": "Yaralı adam",
+          "meaning": "Fiziksel ve duygusal acı."
+        },
+        {
+          "symbol": "Baston",
+          "meaning": "Destek arayışı ve dayanma."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Tılsım Altılısı",
+      "image": "69_six_pentacles",
+      "symbols": [
+        {
+          "symbol": "Terazi",
+          "meaning": "Adalet, denge ve eşitlik."
+        },
+        {
+          "symbol": "Zengin adam",
+          "meaning": "Cömertlik ve yardımseverlik."
+        },
+        {
+          "symbol": "Fakirler",
+          "meaning": "İhtiyaç ve destek arayışı."
+        },
+        {
+          "symbol": "Para",
+          "meaning": "Maddi kaynaklar ve dağıtım."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Tılsım Yedilisi",
+      "image": "70_seven_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tılsımlar",
+          "meaning": "Maddi başarı ve güvenceyi simgeler."
+        },
+        {
+          "symbol": "Çalışan Adam",
+          "meaning": "Çaba ve sabırla beklemeyi temsil eder."
+        },
+        {
+          "symbol": "Bitkiler",
+          "meaning": "Büyüme ve gelişme süreçlerini anlatır."
+        },
+        {
+          "symbol": "Toprak",
+          "meaning": "Doğal döngüler ve sabırla beklemeyi simgeler."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Tılsım Sekizlisi",
+      "image": "71_eight_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tılsımlar",
+          "meaning": "Maddi dünya ve beceriyi ifade eder."
+        },
+        {
+          "symbol": "Çalışma Tezgahı",
+          "meaning": "El becerisi ve işçiliği gösterir."
+        },
+        {
+          "symbol": "Çekiç",
+          "meaning": "Çalışma ve emeği simgeler."
+        },
+        {
+          "symbol": "Odaklanmış Adam",
+          "meaning": "Konsantrasyon ve uzmanlaşmayı temsil eder."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Tılsım Dokuzlusu",
+      "image": "72_nine_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tılsımlar",
+          "meaning": "Maddi bolluk ve refahı simgeler."
+        },
+        {
+          "symbol": "Üzüm Bağları",
+          "meaning": "Bolluk ve zenginliği temsil eder."
+        },
+        {
+          "symbol": "Şahin",
+          "meaning": "Kontrol ve özgürlüğü simgeler."
+        },
+        {
+          "symbol": "Zengin Kadın",
+          "meaning": "Bağımsızlık ve maddi gücü gösterir."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Tılsım Onlusu",
+      "image": "73_ten_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tılsımlar",
+          "meaning": "Aile zenginliği ve mirası simgeler."
+        },
+        {
+          "symbol": "Aile",
+          "meaning": "Birliktelik ve bağlılığı temsil eder."
+        },
+        {
+          "symbol": "Köpekler",
+          "meaning": "Sadakat ve güveni simgeler."
+        },
+        {
+          "symbol": "Kaleler",
+          "meaning": "Güvenlik ve köklü geçmişi ifade eder."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Tılsım Prensi",
+      "image": "74_page_pentacles",
+      "symbols": [
+        {
+          "symbol": "Tılsım",
+          "meaning": "Fiziksel dünya ve fırsatları simgeler."
+        },
+        {
+          "symbol": "Genç Prens",
+          "meaning": "Merak ve öğrenme isteğini temsil eder."
+        },
+        {
+          "symbol": "Çayır",
+          "meaning": "Doğal büyüme ve yeniliği simgeler."
+        },
+        {
+          "symbol": "Yeşil Giysiler",
+          "meaning": "Doğa ve yeniliği ifade eder."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Tılsım Şövalyesi",
+      "image": "75_knight_pentacles",
+      "symbols": [
+        {
+          "symbol": "Şövalye",
+          "meaning": "İstikrar ve kararlılığı simgeler."
+        },
+        {
+          "symbol": "Tılsım",
+          "meaning": "Maddi güvence ve başarıyı temsil eder."
+        },
+        {
+          "symbol": "Tarla",
+          "meaning": "Çalışkanlık ve emek verme anlamına gelir."
+        },
+        {
+          "symbol": "At",
+          "meaning": "Güç ve hareket kabiliyetini gösterir."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Tılsım Kraliçesi",
+      "image": "76_queen_pentacles",
+      "symbols": [
+        {
+          "symbol": "Kraliçe",
+          "meaning": "Şefkat ve anlayışı temsil eder."
+        },
+        {
+          "symbol": "Tılsım",
+          "meaning": "Maddi refah ve bolluk anlamına gelir."
+        },
+        {
+          "symbol": "Doğa",
+          "meaning": "Bereket ve doğurganlığı simgeler."
+        },
+        {
+          "symbol": "Taç",
+          "meaning": "Liderlik ve gücü ifade eder."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Tılsım Kralı",
+      "image": "77_king_pentacles",
+      "symbols": [
+        {
+          "symbol": "Kral",
+          "meaning": "Yetki ve otoriteyi simgeler."
+        },
+        {
+          "symbol": "Tılsım",
+          "meaning": "Maddi başarı ve güvenliği gösterir."
+        },
+        {
+          "symbol": "Taht",
+          "meaning": "Güç ve kontrolü temsil eder."
+        },
+        {
+          "symbol": "Asma",
+          "meaning": "Zenginlik ve bolluğu ifade eder."
+        }
+      ]
+    }
+  ]
+}

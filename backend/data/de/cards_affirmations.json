@@ -1,0 +1,474 @@
+{
+  "_comment": "78 Tarot kartının mottosu — Deutsch, birinci tekil şahıs",
+  "_version": "1.0",
+  "cards": [
+    {
+      "id": 0,
+      "name": "Der Narr",
+      "image": "00_fool",
+      "affirmation": "Ich gehe mutig ins Unbekannte; ich akzeptiere jeden Moment als einen neuen Anfang."
+    },
+    {
+      "id": 1,
+      "name": "Der Magier",
+      "image": "01_magician",
+      "affirmation": "Mit meiner Kraft und meinem Willen mache ich alles wahr, was ich denke."
+    },
+    {
+      "id": 2,
+      "name": "Die Hohepriesterin",
+      "image": "02_high_priestess",
+      "affirmation": "Ich bin auf dem Meer der inneren Weisheit unterwegs; meine Intuition leitet mich."
+    },
+    {
+      "id": 3,
+      "name": "Die Herrscherin",
+      "image": "03_empress",
+      "affirmation": "Ich bin von der Fülle der Natur umgeben; ich bin die Quelle der Kreativität und des Überflusses."
+    },
+    {
+      "id": 4,
+      "name": "Der Herrscher",
+      "image": "04_emperor",
+      "affirmation": "Ich regiere mit Ordnung und Autorität; ich steuere mit Zuversicht und Entschlossenheit."
+    },
+    {
+      "id": 5,
+      "name": "Der Hierophant",
+      "image": "05_hierophant",
+      "affirmation": "In der unendlichen Tiefe der Weisheit finde ich inneren Frieden und Führung, die meinen Weg erhellt."
+    },
+    {
+      "id": 6,
+      "name": "Die Liebenden",
+      "image": "06_lovers",
+      "affirmation": "Geleitet von meinem Herzen, umarme ich Liebe und Harmonie und nehme am Tanz meines Lebens teil."
+    },
+    {
+      "id": 7,
+      "name": "Der Wagen",
+      "image": "07_chariot",
+      "affirmation": "Mit meiner Entschlossenheit und Willenskraft überwinde ich jedes Hindernis und lenke frei mein eigenes Schicksal."
+    },
+    {
+      "id": 8,
+      "name": "Die Kraft",
+      "image": "08_strength",
+      "affirmation": "Ich entdecke die unendliche Kraft in mir und überwinde Schwierigkeiten mit Liebe."
+    },
+    {
+      "id": 9,
+      "name": "Der Eremit",
+      "image": "09_hermit",
+      "affirmation": "In der Stille finde ich mein inneres Licht und öffne mit Weisheit neue Wege."
+    },
+    {
+      "id": 10,
+      "name": "Das Rad des Schicksals",
+      "image": "10_wheel_of_fortune",
+      "affirmation": "In den Zyklen des Schicksals, im Wind des Wandels, erhebe ich mich mutig; egal was passiert, mein Weg ist erleuchtet."
+    },
+    {
+      "id": 11,
+      "name": "Die Gerechtigkeit",
+      "image": "11_justice",
+      "affirmation": "Ich suche die Wahrheit mit Ehrlichkeit und Gleichgewicht auf der Waage der Gerechtigkeit; die Wahrheit erhellt meinen Weg immer wie ein helles Licht."
+    },
+    {
+      "id": 12,
+      "name": "Der Gehängte",
+      "image": "12_hanged_man",
+      "affirmation": "Wenn ich innehalte und nachdenke, entdecke ich mit innerem Frieden neue Perspektiven im Universum; ich warte mit Geduld und wachse mit Verständnis."
+    },
+    {
+      "id": 13,
+      "name": "Der Tod",
+      "image": "13_death",
+      "affirmation": "Jedes Ende ist ein neuer Anfang; ich akzeptiere es und umarme brandneue Leben, während ich das alte verlasse."
+    },
+    {
+      "id": 14,
+      "name": "Die Mäßigkeit",
+      "image": "14_temperance",
+      "affirmation": "Mit dem Gleichgewicht des Friedens mische ich das Feuer in mir mit Harmonie; ich bewege mich mit Geduld vorwärts und finde das Gleichgewicht."
+    },
+    {
+      "id": 15,
+      "name": "Der Teufel",
+      "image": "15_devil",
+      "affirmation": "Ich gehe gestärkt aus meinen dunklen Konfrontationen hervor; ich entscheide mich, meine Süchte zu befreien."
+    },
+    {
+      "id": 16,
+      "name": "Der Turm",
+      "image": "16_tower",
+      "affirmation": "Selbst wenn die alten Strukturen zusammenbrechen, erschaffe ich aus der Asche ein neues Ich."
+    },
+    {
+      "id": 17,
+      "name": "Der Stern",
+      "image": "17_star",
+      "affirmation": "Inspiriert von den Sternen der Hoffnung, finde ich meinen Weg mit der Führung des Universums."
+    },
+    {
+      "id": 18,
+      "name": "Der Mond",
+      "image": "18_moon",
+      "affirmation": "Mit meiner Intuition bringe ich die Wahrheit hinter Schatten und Geheimnissen ans Licht."
+    },
+    {
+      "id": 19,
+      "name": "Die Sonne",
+      "image": "19_sun",
+      "affirmation": "Ich leuchte in meinem eigenen Licht und verbreite die Kraft in mir in die ganze Welt."
+    },
+    {
+      "id": 20,
+      "name": "Das Gericht",
+      "image": "20_judgement",
+      "affirmation": "Ich erhebe mich aus meiner Asche und finde meine eigene Wahrheit; ich lasse mich mit dem Feuer in mir wieder auferstehen."
+    },
+    {
+      "id": 21,
+      "name": "Die Welt",
+      "image": "21_world",
+      "affirmation": "Ich drehe mich im Einklang mit dem Rhythmus der Welt; ich nehme das Geschenk der Vollendung und Ganzheit an."
+    },
+    {
+      "id": 22,
+      "name": "As der Stäbe",
+      "image": "22_ace_wands",
+      "affirmation": "Indem ich das Feuer der Kreativität entfache, gehe ich mutig in neue Anfänge."
+    },
+    {
+      "id": 23,
+      "name": "Zwei Stäbe",
+      "image": "23_two_wands",
+      "affirmation": "Ich blicke zum Horizont, ich weiß, dass Entdeckungen und Möglichkeiten grenzenlos sind; ich verwirkliche mutig meine Pläne."
+    },
+    {
+      "id": 24,
+      "name": "Drei Stäbe",
+      "image": "24_three_wands",
+      "affirmation": "Ich erweitere meinen Horizont und gehe entschlossen vorwärts, um meine Vision in konkrete Realität umzusetzen."
+    },
+    {
+      "id": 25,
+      "name": "Vier Stäbe",
+      "image": "25_four_wands",
+      "affirmation": "Im Moment des Erfolgs und der Feier leuchte ich in meinem Herzen mit dem Licht des Feuers."
+    },
+    {
+      "id": 26,
+      "name": "Fünf Stäbe",
+      "image": "26_five_wands",
+      "affirmation": "Das Feuer des Wettbewerbs stärkt mich, ich überwinde Hindernisse mit Mut."
+    },
+    {
+      "id": 27,
+      "name": "Sechs der Stäbe",
+      "image": "27_six_wands",
+      "affirmation": "Während ich den Sieg genieße, werde ich durch das Feuer der Führung angeheizt."
+    },
+    {
+      "id": 28,
+      "name": "Sieben der Stäbe",
+      "image": "28_seven_wands",
+      "affirmation": "Wenn ich meine Verteidigung mit meiner Leidenschaft fortsetze, erreiche ich mit meiner Entschlossenheit die Spitze."
+    },
+    {
+      "id": 29,
+      "name": "Acht der Stäbe",
+      "image": "29_eight_wands",
+      "affirmation": "Meine Gedanken und Handlungen harmonisieren schnell, ich fließe auf mein Ziel zu."
+    },
+    {
+      "id": 30,
+      "name": "Neun der Stäbe",
+      "image": "30_nine_wands",
+      "affirmation": "Ich stehe mit meiner Widerstandsfähigkeit auf, ich stehe nach jedem Schlag stärker auf."
+    },
+    {
+      "id": 31,
+      "name": "Zehn der Stäbe",
+      "image": "31_ten_wands",
+      "affirmation": "Meine Bürde ist schwer, aber mein Ziel ist klar: Ich werde diesen Weg erfolgreich abschließen."
+    },
+    {
+      "id": 32,
+      "name": "Prinz der Stäbe",
+      "image": "32_page_wands",
+      "affirmation": "Mit meiner Leidenschaft für Neugierde und Abenteuer wage ich mich mutig an neue Horizonte."
+    },
+    {
+      "id": 33,
+      "name": "Ritter der Stäbe",
+      "image": "33_knight_wands",
+      "affirmation": "Ich bewege mich schnell mit der Kraft des Feuers und vermische meine Leidenschaft mit Mut."
+    },
+    {
+      "id": 34,
+      "name": "Königin der Stäbe",
+      "image": "34_queen_wands",
+      "affirmation": "Ich bin der Anführer meines eigenen Lichts; ich inspiriere andere mit meinem inneren Feuer."
+    },
+    {
+      "id": 35,
+      "name": "König der Stäbe",
+      "image": "35_king_wands",
+      "affirmation": "Ich brenne mit Feuer, ich führe mit Mut; ich verfolge meine Leidenschaften."
+    },
+    {
+      "id": 36,
+      "name": "Ass der Kelche",
+      "image": "36_ace_cups",
+      "affirmation": "Die Liebe strömt aus den Tiefen meines Herzens; ich öffne mich für neue Anfänge im Meer der Gefühle."
+    },
+    {
+      "id": 37,
+      "name": "Zwei Kelche",
+      "image": "37_two_cups",
+      "affirmation": "Gemeinsam sind wir stärker; die Liebe bringt uns zusammen, vereint unsere Seelen."
+    },
+    {
+      "id": 38,
+      "name": "Drei Kelche",
+      "image": "38_three_cups",
+      "affirmation": "Ich bin erfüllt von der Freude am Feiern; das Teilen mit Freunden macht das Leben sinnvoll."
+    },
+    {
+      "id": 39,
+      "name": "Vier Kelche",
+      "image": "39_four_cups",
+      "affirmation": "Ich tauche tief in meine inneren Gewässer und finde neue Bedeutungen jenseits der Unzufriedenheit."
+    },
+    {
+      "id": 40,
+      "name": "Fünf der Kelche",
+      "image": "40_five_cups",
+      "affirmation": "Ich lasse die Last der Vergangenheit hinter mir, akzeptiere die Verluste und setze die Segel für neue Hoffnungen."
+    },
+    {
+      "id": 41,
+      "name": "Sechs Kelche",
+      "image": "41_six_cups",
+      "affirmation": "Im Licht der Erinnerungen nähre ich mein inneres Kind mit Liebe und schöpfe Kraft aus der Vergangenheit."
+    },
+    {
+      "id": 42,
+      "name": "Sieben der Kelche",
+      "image": "42_seven_cups",
+      "affirmation": "Im Meer der Träume treffe ich meine Entscheidungen mit Weisheit und werde frei von Illusionen."
+    },
+    {
+      "id": 43,
+      "name": "Acht der Kelche",
+      "image": "43_eight_cups",
+      "affirmation": "Ich setze meine innere Reise mutig fort, mit allem, was ich hinter mir gelassen habe."
+    },
+    {
+      "id": 44,
+      "name": "Neun der Kelche",
+      "image": "44_nine_cups",
+      "affirmation": "Ich bin überfüllt mit Dankbarkeit, mit dem Frieden der Erfüllung meiner Wünsche."
+    },
+    {
+      "id": 45,
+      "name": "Zehn der Kelche",
+      "image": "45_ten_cups",
+      "affirmation": "Ich finde Frieden mit meiner Familie und meinen Lieben; ich bin der Architekt einer Welt voller Liebe."
+    },
+    {
+      "id": 46,
+      "name": "Bube der Kelche",
+      "image": "46_page_cups",
+      "affirmation": "Ich lasse mich von ganzem Herzen auf Kreativität und Fantasie ein."
+    },
+    {
+      "id": 47,
+      "name": "Ritter der Kelche",
+      "image": "47_knight_cups",
+      "affirmation": "Als Ritter der Liebe und der Gefühle bin ich unterwegs, indem ich auf die Stimme meines Herzens höre."
+    },
+    {
+      "id": 48,
+      "name": "Königin der Kelche",
+      "image": "48_queen_cups",
+      "affirmation": "Ich regiere mit Weisheit und Mitgefühl in den tiefen Gewässern meiner Gefühle."
+    },
+    {
+      "id": 49,
+      "name": "König der Kelche",
+      "image": "49_king_cups",
+      "affirmation": "Wenn ich meine Emotionen im Griff habe, bin ich eine ausgeglichene und effektive Führungskraft."
+    },
+    {
+      "id": 50,
+      "name": "Ass der Schwerter",
+      "image": "50_ace_swords",
+      "affirmation": "Ich schaffe neue Anfänge mit der Schärfe meines Geistes, ich benutze die Wahrheit als mein Schwert."
+    },
+    {
+      "id": 51,
+      "name": "Duo der Schwerter",
+      "image": "51_two_swords",
+      "affirmation": "Ich finde das Gleichgewicht in meinem Geist und entscheide mich, Schwierigkeiten mit meinem inneren Frieden zu überwinden."
+    },
+    {
+      "id": 52,
+      "name": "Trio der Schwerter",
+      "image": "52_three_swords",
+      "affirmation": "Ich nehme Kraft aus den Brüchen, ich werde in der Tiefe meines Herzens neu geboren."
+    },
+    {
+      "id": 53,
+      "name": "Vier der Schwerter",
+      "image": "53_four_swords",
+      "affirmation": "Ich ruhe meinen Geist aus und finde Frieden in der Tiefe der Stille."
+    },
+    {
+      "id": 54,
+      "name": "Fünf Schwerter",
+      "image": "54_five_swords",
+      "affirmation": "Ich verstehe den Preis von Siegen und konzentriere mich darauf, meinen eigenen inneren Frieden zu bewahren."
+    },
+    {
+      "id": 55,
+      "name": "Sechs der Schwerter",
+      "image": "55_six_swords",
+      "affirmation": "Ich überlasse meinen Geist dem Wind des Friedens und segle auf ruhige Gewässer zu."
+    },
+    {
+      "id": 56,
+      "name": "Sieben der Schwerter",
+      "image": "56_seven_swords",
+      "affirmation": "Ich nutze meine Intelligenz, um Hindernisse zu überwinden und Strategien zu entwickeln."
+    },
+    {
+      "id": 57,
+      "name": "Acht der Schwerter",
+      "image": "57_eight_swords",
+      "affirmation": "Auch wenn ich mich gefangen fühle, entdecke ich meine innere Stärke, um den Weg in die Freiheit zu finden."
+    },
+    {
+      "id": 58,
+      "name": "Neun der Schwerter",
+      "image": "58_nine_swords",
+      "affirmation": "Mit meinem Mut jenseits der Nacht, verwandle ich dunkle Gedanken in Licht."
+    },
+    {
+      "id": 59,
+      "name": "Zehn der Schwerter",
+      "image": "59_ten_swords",
+      "affirmation": "Ich erreiche das Ende des Schmerzes, ich werde aus der Asche wiedergeboren."
+    },
+    {
+      "id": 60,
+      "name": "Prinz der Schwerter",
+      "image": "60_page_swords",
+      "affirmation": "Ich suche die Wahrheit mit dem scharfen Schwert meines Bewusstseins, meine Gedanken sind frei wie der Wind."
+    },
+    {
+      "id": 61,
+      "name": "Ritter der Schwerter",
+      "image": "61_knight_swords",
+      "affirmation": "Mein Herz ist voller Mut und ich gehe mit strategischen Schritten voran, selbst inmitten von Stürmen."
+    },
+    {
+      "id": 62,
+      "name": "Königin der Schwerter",
+      "image": "62_queen_swords",
+      "affirmation": "Ich urteile mit Vernunft und Intuition; ich leuchte den Weg mit dem Licht der Klarheit."
+    },
+    {
+      "id": 63,
+      "name": "König der Schwerter",
+      "image": "63_king_swords",
+      "affirmation": "Ich werde mit meiner Weisheit gerecht und bin fest und entschlossen in meinen Gedanken."
+    },
+    {
+      "id": 64,
+      "name": "As der Münzen",
+      "image": "64_ace_pentacles",
+      "affirmation": "Ich vertiefe meine Wurzeln und nutze die Möglichkeiten, die mir das Universum bietet, um die Fülle zu genießen."
+    },
+    {
+      "id": 65,
+      "name": "Zwei Münzen",
+      "image": "65_two_pentacles",
+      "affirmation": "Ich passe mich gekonnt dem wechselnden Lebensrhythmus an; Flexibilität und Ausgeglichenheit sind meine Leitfäden."
+    },
+    {
+      "id": 66,
+      "name": "Drei Münzen",
+      "image": "66_three_pentacles",
+      "affirmation": "Ich erreiche Wohlstand und Erfolg durch Zusammenarbeit und gemeinsame Anstrengungen; ich steige gemeinsam auf."
+    },
+    {
+      "id": 67,
+      "name": "Vier Münzen",
+      "image": "67_four_pentacles",
+      "affirmation": "Ich spüre die Kraft, sicher zu bleiben, aber ich traue mich, mich zu öffnen, um zu wachsen."
+    },
+    {
+      "id": 68,
+      "name": "Fünf Münzen",
+      "image": "68_five_pentacles",
+      "affirmation": "Selbst an dunklen Tagen finde ich meinen Weg mit meinem inneren Licht; Hoffnung verbindet sich mit Entschlossenheit."
+    },
+    {
+      "id": 69,
+      "name": "Sechs Münzen",
+      "image": "69_six_pentacles",
+      "affirmation": "Großzügigkeit und Ausgeglichenheit bereichern mich; ich vervielfältige mich durch Teilen."
+    },
+    {
+      "id": 70,
+      "name": "Sieben Münzen",
+      "image": "70_seven_pentacles",
+      "affirmation": "Ich baue geduldig die Früchte meiner Arbeit an und lasse meine Träume mit der Kraft des Bodens Wirklichkeit werden."
+    },
+    {
+      "id": 71,
+      "name": "Acht Münzen",
+      "image": "71_eight_pentacles",
+      "affirmation": "Jedes akribische Detail ist ein Spiegelbild meiner Meisterschaft und Entschlossenheit."
+    },
+    {
+      "id": 72,
+      "name": "Neun Münzen",
+      "image": "72_nine_pentacles",
+      "affirmation": "Ich finde Frieden und Fülle in meinem eigenen Garten und genieße die Freiheit."
+    },
+    {
+      "id": 73,
+      "name": "Zehn Münzen",
+      "image": "73_ten_pentacles",
+      "affirmation": "Ich baue eine Zukunft auf, die auf dem Erbe meiner Familie und meiner Vergangenheit beruht."
+    },
+    {
+      "id": 74,
+      "name": "Bube der Münzen",
+      "image": "74_page_pentacles",
+      "affirmation": "Mit meiner Leidenschaft fürs Lernen schaffe ich neue Anfänge und verfolge meine Träume mit Entschlossenheit."
+    },
+    {
+      "id": 75,
+      "name": "Ritter der Münzen",
+      "image": "75_knight_pentacles",
+      "affirmation": "Mit Geduld und Entschlossenheit baue ich bei jedem Schritt ein solides Fundament; der Erfolg ist mit mir."
+    },
+    {
+      "id": 76,
+      "name": "Königin der Münzen",
+      "image": "76_queen_pentacles",
+      "affirmation": "Ich bin von Überfluss und Sicherheit umgeben; ich bereichere meine Welt mit innerem Frieden und Mitgefühl."
+    },
+    {
+      "id": 77,
+      "name": "König der Münzen",
+      "image": "77_king_pentacles",
+      "affirmation": "Mit Weisheit und Führung regiere ich; mit materieller Macht sorge ich für Beständigkeit in meiner Welt."
+    }
+  ]
+}
