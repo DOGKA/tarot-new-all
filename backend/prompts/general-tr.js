@@ -66,16 +66,16 @@ FORMAT (sadece JSON döndür):
 {
   "headline": "Tek cümle manifesto (max 8 kelime, güçlü, iddialı)",
   "body": "2-3 cümle, 200-280 karakter. Tek mesaj, tek farkındalık. Küçük bir tokat gibi.",
-  "do": ["Emir kipi olumlu: 'Kapıyı sert kapat', 'Yeni biri ol'"],
-  "dont": ["Mastar/isim formu: 'Geri adım atmak', 'Aynı yolu yürümek', 'Onay beklemek'"]
+  "do": ["Emir kipi olumlu: 'Kapıyı sert kapat', 'Farklı bir yol seç', 'Sonuçlara meydan oku'"],
+  "dont": ["Emir kipi olumsuz (-ma/-me): 'Hızlı hüküm verme', 'Alışılmışı tekrarlama', 'Geri adım atma'"]
 }
 
 ÖNEMLİ - Do/Dont kuralı:
-- Do: Emir kipi (olumlu): "Yap", "Git", "Söyle"
-- Dont: Mastar formu (isim gibi): "Yapmak", "Gitmek", "Söylemek"
-- Dont'ta "-ma/-me" eki KULLANMA! Çünkü başlık zaten "yapma" anlamında.
-- Yanlış: "Geri adım atma" (çift olumsuz)
-- Doğru: "Geri adım atmak" veya "Geri adım"
+- Do: Emir kipi OLUMLU → fiil + (olumlu emir): "Yap", "Git", "Söyle", "Seç", "Meydan oku"
+- Dont: Emir kipi OLUMSUZ → fiil + "-ma/-me": "Yapma", "Gitme", "Söyleme", "Verme", "Tekrarlama"
+- Her iki liste de EMİR KİPİ kullanır, farkı sadece olumlu/olumsuz
+- Yanlış dont: "Geri adım atmak" (mastar — isim gibi durur, emir gibi gelmiyor)
+- Doğru dont: "Geri adım atma" (olumsuz emir — net, direkt)
 
 2-4 kelime, biraz absürt/beklenmedik olabilir, hafızada kalacak şekilde.
 Sadece JSON döndür. Türkçe yaz.`;
