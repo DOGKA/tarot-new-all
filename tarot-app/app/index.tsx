@@ -142,7 +142,7 @@ export default function WelcomeScreen() {
   const [actionLoading, setActionLoading] = useState<string | null>(null);
   const [actionResult, setActionResult] = useState<string | null>(null);
   const autoRefreshRef = useRef<ReturnType<typeof setInterval> | null>(null);
-  const [slotListOpen, setSlotListOpen] = useState(false);
+  const [slotListOpen, setSlotListOpen] = useState(true);
 
   // Natal chart — direct sign selection
   const ZODIAC_LIST = [
