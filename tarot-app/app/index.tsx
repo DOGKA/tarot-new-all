@@ -980,19 +980,24 @@ export default function WelcomeScreen() {
                     <View style={[styles.cardModalHistoryBox, { alignItems: "center", paddingVertical: 20 }]}>
                       <MaterialCommunityIcons name="format-quote-open" size={20} color="rgba(167,139,250,0.5)" style={{ marginBottom: 6 }} />
                       <Text style={{ fontSize: 15, color: "rgba(255,255,255,0.85)", fontStyle: "italic", textAlign: "center", lineHeight: 22, paddingHorizontal: 8 }}>
-                        {selectedCard.affirmation}
+                        "{selectedCard.affirmation}"
+                      </Text>
+                      <Text style={{ fontSize: 12, color: "rgba(167,139,250,0.6)", fontWeight: "600", marginTop: 10 }}>
+                        — {selectedCard.name}
                       </Text>
                     </View>
                   )}
 
-                  {/* Semboller */}
+                  {/* Semboller — chip + meaning list */}
                   {selectedCard.symbols && selectedCard.symbols.length > 0 && (
                     <View style={styles.cardModalHistoryBox}>
                       <Text style={styles.cardModalHistoryLabel}>{t("cardSymbols")}</Text>
                       {selectedCard.symbols.map((sym, idx) => (
-                        <View key={idx} style={{ flexDirection: "row", alignItems: "flex-start", marginBottom: 8, gap: 8 }}>
-                          <Text style={{ fontSize: 12, color: "#a78bfa", fontWeight: "700", minWidth: 80 }}>{sym.symbol}</Text>
-                          <Text style={{ fontSize: 12, color: "rgba(255,255,255,0.5)", flex: 1 }}>{sym.meaning}</Text>
+                        <View key={idx} style={{ flexDirection: "row", alignItems: "center", marginBottom: 10, gap: 10 }}>
+                          <View style={{ backgroundColor: "rgba(167,139,250,0.1)", borderWidth: 1, borderColor: "rgba(167,139,250,0.2)", borderRadius: 20, paddingHorizontal: 10, paddingVertical: 4 }}>
+                            <Text style={{ fontSize: 12, color: "#a78bfa", fontWeight: "700" }}>{sym.symbol}</Text>
+                          </View>
+                          <Text style={{ fontSize: 12, color: "rgba(255,255,255,0.45)", flex: 1 }}>{sym.meaning}</Text>
                         </View>
                       ))}
                     </View>

@@ -1,173 +1,189 @@
 {
   "slots": [
     {
-      "id": "2026-03-05T082713Z_full_moon_libra_jupiter",
-      "start": "2026-03-05T08:27:13.495Z",
-      "end": "2026-03-05T11:11:17.245Z",
-      "phase": "full_moon",
-      "zodiac": "libra",
-      "planet": "jupiter",
-      "content": {
-        "planet": {
-          "meaning": "On Thursday, Jupiter triggers expansion and opportunities. It allows you to grow internally and explore new possibilities.",
-          "advice": "Open that thick book on your bookshelf."
-        },
-        "zodiac": {
-          "meaning": "The Moon in Libra clarifies balance and harmony. Your search for justice in relationships comes to the fore.",
-          "firsat": "Organize a peaceful gathering with your friends.",
-          "his": "peaceful balance, fair pursuit"
-        },
-        "phase": {
-          "sentence": "The full moon is shining, face it.",
-          "general": "The Full Moon magnifies emotional fluctuations. Hidden feelings are revealed.",
-          "ayna": "The decision you have put off for so long stares you in the face."
-        }
-      }
-    },
-    {
-      "id": "2026-03-05T111117Z_disseminating_moon_libra_jupiter",
-      "start": "2026-03-05T11:11:17.245Z",
-      "end": "2026-03-06T00:00:00.000Z",
-      "phase": "disseminating_moon",
-      "zodiac": "libra",
-      "planet": "jupiter",
-      "content": {
-        "planet": {
-          "meaning": "On Thursday Jupiter is expanding. Today he magnifies your inner potential.",
-          "advice": "Accept a new idea when you encounter it."
-        },
-        "zodiac": {
-          "meaning": "The Moon in Libra seeks balance. It reshapes your social relationships.",
-          "firsat": "Start a new relationship.",
-          "his": "balanced restlessness"
-        },
-        "phase": {
-          "sentence": "Expand, spread, explore!",
-          "general": "The radiating Moon increases opportunities. Your thoughts and options multiply.",
-          "ayna": "Clarify postponed decisions. Unlocking overlooked potential."
-        }
-      }
-    },
-    {
-      "id": "2026-03-06T000000Z_disseminating_moon_libra_venus",
-      "start": "2026-03-06T00:00:00.000Z",
+      "id": "2026-03-06T213729Z_disseminating_moon_libra_venus",
+      "start": "2026-03-06T21:37:29.449Z",
       "end": "2026-03-07T00:00:00.000Z",
       "phase": "disseminating_moon",
       "zodiac": "libra",
       "planet": "venus",
       "content": {
         "planet": {
-          "meaning": "Venus illuminates your relationships on Friday. Your sense of aesthetics and beauty deepens.",
-          "advice": "Go to a painting exhibition."
+          "meaning": "Cuma günü Venüs, estetik ve güzellik arayışını tetikliyor. İlişkilerde dengeyi ve uyumu netleştiriyor. Sosyal bağlar güçleniyor, etkileşimler daha derinleşiyor.",
+          "advice": "Sevdiğin birine küçük bir hediye al."
         },
         "zodiac": {
-          "meaning": "The Moon in Libra triggers a search for balance. The sense of justice comes to the fore in your relationships.",
-          "firsat": "Get together with your friends and talk about an old topic.",
-          "his": "peaceful balance, careful harmony"
+          "meaning": "Ay Terazi burcunda, duygusal dengeyi ve uyumu ön plana çıkarıyor. Sosyal ilişkilerde diplomasi ve nezaket önem kazanıyor. Kararsızlık duygularını bastırıyor, daha adil kararlar almanı sağlıyor.",
+          "firsat": "Bir arkadaşınla barış çubuğu yak.",
+          "his": "sakin denge, nazik merak"
         },
         "phase": {
-          "sentence": "Say the unsaid words.",
-          "general": "The radiating Moon sharpens communication. Emotions find expression more easily.",
-          "ayna": "It exposes relational problems that you ignore."
+          "general": "Yayıcı Ay, projelerin ve fikirlerin genişlemesine kapı açıyor. Yeni bilgiler ve deneyimler hızla entegre ediliyor. Sosyal bağlantılar genişliyor, öğrenme süreçleri hızlanıyor.",
+          "ayna": "Ertelenmiş bir projeyi tamamlamak için cesaret buluyorsun."
         }
       }
     },
     {
       "id": "2026-03-07T000000Z_disseminating_moon_libra_saturn",
       "start": "2026-03-07T00:00:00.000Z",
-      "end": "2026-03-07T02:39:24.745Z",
+      "end": "2026-03-07T02:39:21.949Z",
       "phase": "disseminating_moon",
       "zodiac": "libra",
       "planet": "saturn",
       "content": {
         "planet": {
-          "meaning": "On Saturday, Saturn activates your discipline and sense of responsibility. It increases your stamina in dealing with obstacles.",
-          "advice": "Finish an unfinished project today."
+          "meaning": "Cumartesi günü Satürn, sorumluluklarını netleştiriyor. Geçmişten gelen yükleri daha belirgin hale getiriyor ve disiplinli olmayı zorunlu kılıyor. Bugün, zaman yönetimini sertleştiriyor ve planlı hareket etmeyi gerektiriyor.",
+          "advice": "Günlük işlerini listele ve sıraya koy."
         },
         "zodiac": {
-          "meaning": "The Moon in Libra reminds us of the importance of balance and harmony. The search for justice in relationships increases emotional depth.",
-          "firsat": "Resolve a pending dispute.",
-          "his": "peaceful balance, fair pursuit"
+          "meaning": "Ay Terazi burcunda, ilişkilerinde denge arayışını tetikliyor. Duygusal bağlarını gözden geçirip, adil bir paylaşım arayışına itiyor. Sosyal çevrende huzuru ve uyumu önemseyerek hareket etmen gerekiyor.",
+          "firsat": "Eski bir dostunla bağlantını tazele.",
+          "his": "huzurlu denge, nazik merak"
         },
         "phase": {
-          "sentence": "Spread the idea, grow it!",
-          "general": "The spreading Moon allows ideas to spread quickly. Communication increases and connections are strengthened.",
-          "ayna": "It unlocks the potential of an idea you've been ignoring."
+          "general": "Yayıcı Ay, fikirleri ve projeleri büyütüyor. Başladığın işleri genişletip, daha fazla kişiye ulaşmanı sağlıyor. Bu evre, yaratıcılığını hızlandırıyor ve cesaretini artırıyor.",
+          "ayna": "Uzun zamandır ertelediğin o yaratıcı proje seni bekliyor."
         }
       }
     },
     {
-      "id": "2026-03-07T023924Z_disseminating_moon_scorpio_saturn",
-      "start": "2026-03-07T02:39:24.745Z",
-      "end": "2026-03-07T07:29:09.745Z",
+      "id": "2026-03-07T023921Z_disseminating_moon_scorpio_saturn",
+      "start": "2026-03-07T02:39:21.949Z",
+      "end": "2026-03-07T07:29:03.199Z",
       "phase": "disseminating_moon",
       "zodiac": "scorpio",
       "planet": "saturn",
       "content": {
         "planet": {
-          "meaning": "Saturn on Saturday triggers discipline and responsibility. It tightens your inner structure and plans.",
-          "advice": "Take a concrete step towards a long-term goal today."
+          "meaning": "Cumartesi günü Satürn, sorumluluk ve disiplin duygusunu keskinleştiriyor. Hayatında hangi alanlarda daha fazla ciddiyetle yaklaşman gerektiğini netleştiriyor. Zaman yönetimi ve görevlerini önceliklendirme konularını açıyor.",
+          "advice": "Bugün, haftalık iş planını yeniden düzenle."
         },
         "zodiac": {
-          "meaning": "Moon in Scorpio suppresses deep emotions. It opens the door to inner transformation and hidden desires.",
-          "firsat": "A hidden talent is revealed.",
-          "his": "intense passions, deep questioning"
+          "meaning": "Ay Akrep burcunda derin duygusal dönüşümleri tetikliyor. İçsel tutkuların ve gizli kalmış hislerin yüzeye çıkıyor. Yoğun duygusal dalgalanmalar ilişki dinamiklerini sarsıyor.",
+          "firsat": "Derinlemesine bir meditasyon yap.",
+          "his": "yoğun tutkular, içsel huzursuzluk"
         },
         "phase": {
-          "sentence": "Do ideas take root?",
-          "general": "The Diffuser Moon is nurturing new ideas. Old patterns are being broken and new ones are being built.",
-          "ayna": "The creative potential you ignore is showing itself."
+          "general": "Yayıcı Ay, fikirlerini ve projelerini geniş bir kitleye duyuruyor. Görüşmeler ve iş birlikleri hızlanıyor, ilişkilerdeki iletişim akışını artırıyor. Yaratıcı projelerin için yeni bir ivme kazanılıyor.",
+          "ayna": "Uzun zamandır ertelediğin o önemli konuşmayı yapma zamanı geldi."
         }
       }
     },
     {
-      "id": "2026-03-07T072909Z_waning_gibbous_scorpio_saturn",
-      "start": "2026-03-07T07:29:09.745Z",
+      "id": "2026-03-07T072903Z_waning_gibbous_scorpio_saturn",
+      "start": "2026-03-07T07:29:03.199Z",
       "end": "2026-03-08T00:00:00.000Z",
       "phase": "waning_gibbous",
       "zodiac": "scorpio",
       "planet": "saturn",
       "content": {
         "planet": {
-          "meaning": "On Saturday, Saturn triggers the area of discipline and responsibility. Obligations and duties come to the fore in a more prominent way.",
-          "advice": "Finish that hard work you've been putting off."
+          "meaning": "Cumartesi günü Satürn, sorumluluklarını ve disiplini ön plana çıkarıyor. Zaman yönetimi ve verimlilik konularında seni sınırlarını zorlamaya itiyor. Sıkı çalışma ve kararlılık, başarıya giden yolun anahtarı oluyor.",
+          "advice": "Günlük planını yeniden düzenle ve önceliklerini belirle."
         },
         "zodiac": {
-          "meaning": "The Moon in Scorpio cuts emotional depths. Hidden feelings surface, inner conflicts become apparent.",
-          "firsat": "Meditate deeply.",
-          "his": "intense restlessness"
+          "meaning": "Ay Akrep burcunda derin duygusal dalgalanmalar yaratıyor. İçsel tutkular ve gizli arzular yüzeye çıkıyor. İlişkilerde daha yoğun bir bağ ve anlayış ihtiyacı belirginleşiyor.",
+          "firsat": "Gizli kalan bir yeteneğini ortaya çıkar ve üzerinde çalış.",
+          "his": "yoğun derinlik, tutkulu odak"
         },
         "phase": {
-          "sentence": "Stop it now!",
-          "general": "The waning Full Moon is dissolving unnecessary burdens. Past burdens are slowly dissolving.",
-          "ayna": "Realize the old grudges you hold."
+          "general": "Azalan Dolunay, tamamlanmamış işleri bitirmen için fırsat sunuyor. Enerjini daha verimli kullanarak gereksiz yüklerden kurtulman gerekiyor. Eski alışkanlıklar ve gereksiz eşyalar geride kalıyor.",
+          "ayna": "Sürekli ertelediğin bir projeye odaklanman ve sonlandırman gerektiğini gösteriyor."
         }
       }
     },
     {
       "id": "2026-03-08T000000Z_waning_gibbous_scorpio_sun",
       "start": "2026-03-08T00:00:00.000Z",
-      "end": "2026-03-08T08:27:13.495Z",
+      "end": "2026-03-09T00:00:00.000Z",
       "phase": "waning_gibbous",
       "zodiac": "scorpio",
       "planet": "sun",
       "content": {
         "planet": {
-          "meaning": "On Sunday the Sun illuminates your inner energy. A new awareness of yourself awakens.",
-          "advice": "Start that creative project you've had in mind for a while."
+          "meaning": "Pazar günü Güneş, içsel enerjini ve benliğini aydınlatıyor. Öz farkındalığını artırarak sana kim olduğunu hatırlatıyor. Özgüvenin ve liderlik yönün ön plana çıkıyor.",
+          "advice": "Yeni bir proje için plan yap."
         },
         "zodiac": {
-          "meaning": "The Moon in Scorpio triggers deep emotional transformations. Hidden feelings come to the surface.",
-          "firsat": "A chance to confront an old friend.",
-          "his": "intense inner questioning"
+          "meaning": "Ay Akrep burcunda duygularını derinleştiriyor. Gizli kalmış hislerin yüzeye çıkıyor. İlişkilerde tutkulu bir yoğunluk yaşanıyor.",
+          "firsat": "Duygusal bir konuşma başlat.",
+          "his": "yoğun merak"
         },
         "phase": {
-          "sentence": "Release the past.",
-          "general": "The waning Full Moon dissolves old burdens. It makes it easier to say goodbye to the past.",
-          "ayna": "Don't wait any longer for postponed confrontations. Open that door today."
+          "general": "Azalan Dolunay, bitişlere ve tamamlanmalara kapı aralıyor. Eski alışkanlıklar ve gereksiz yükler azalıyor. Ruhsal olarak hafifleme ve yenilenme süreci başlıyor.",
+          "ayna": "Eskimiş bir ilişkideki kopuklukları gör."
+        }
+      }
+    },
+    {
+      "id": "2026-03-09T000000Z_waning_gibbous_scorpio_moon",
+      "start": "2026-03-09T00:00:00.000Z",
+      "end": "2026-03-09T03:46:55.699Z",
+      "phase": "waning_gibbous",
+      "zodiac": "scorpio",
+      "planet": "moon",
+      "content": {
+        "planet": {
+          "meaning": "Pazartesi günü Ay, duygusal derinliklerini açıyor. İç dünyanda sakladığın hisler yüzeye çıkıyor. Duygusal bağlantılarını daha güçlü hissediyorsun.",
+          "advice": "Bugün en yakın arkadaşını ara ve ona bir teşekkür et."
+        },
+        "zodiac": {
+          "meaning": "Ay Akrep burcunda duygusal yoğunluğu tetikliyor. Derinlerde sakladığın duygular su yüzüne çıkıyor. Hislerin sertleşiyor ve ilişkilerde tutkulu bir enerji yaratıyor.",
+          "firsat": "Bugün derin bir meditasyon yaparak içsel huzuru keşfet.",
+          "his": "yoğun tutku"
+        },
+        "phase": {
+          "general": "Azalan Dolunay enerjileri yavaşlatıyor. Bitmemiş işleri tamamlamak için fırsat yaratıyor. Eski duygusal yükleri eritiyor ve hafifletiyor.",
+          "ayna": "Bu evre, ertelediğin kişisel gelişim çalışmalarını gösteriyor."
+        }
+      }
+    },
+    {
+      "id": "2026-03-09T034655Z_last_quarter_scorpio_moon",
+      "start": "2026-03-09T03:46:55.699Z",
+      "end": "2026-03-09T16:01:55.699Z",
+      "phase": "last_quarter",
+      "zodiac": "scorpio",
+      "planet": "moon",
+      "content": {
+        "planet": {
+          "meaning": "Pazartesi günü Ay, duygusal derinliklerini açıyor. İç dünyanda saklı kalan hisler yüzeye çıkıyor. Bu süreç, içsel huzurunu bulmana yardımcı oluyor.",
+          "advice": "Günlüğüne en son ne zaman yazdığını kontrol et, bugün bir sayfa yaz."
+        },
+        "zodiac": {
+          "meaning": "Ay Akrep burcunda derin duygusal yoğunluk yaratıyor. Gizli kalmış duygular ortaya çıkıyor ve seni içsel bir sorgulamaya itiyor. İlişkilerde daha derin bir bağ kurma ihtiyacı hissediliyor.",
+          "firsat": "Bir arkadaşınla uzun zamandır konuşmadığın bir konuyu aç, derinleş.",
+          "his": "yoğun merak, gizli gerginlik"
+        },
+        "phase": {
+          "general": "Son Dördün, bitişlerin ve tamamlanmaların ağırlığını hissettiriyor. Yapılması gereken işler belirginleşiyor ve zihninde netleşiyor. Eski alışkanlıklar ağırlaşıyor ve bırakmaya zorluyor.",
+          "ayna": "Önünden kaçtığın bir sorumluluk, bugün daha belirgin hale geliyor. Belki de uzun zamandır ertelediğin bir kararı vermenin zamanı geldi."
+        }
+      }
+    },
+    {
+      "id": "2026-03-09T160155Z_last_quarter_sagittarius_moon",
+      "start": "2026-03-09T16:01:55.699Z",
+      "end": "2026-03-09T21:37:29.449Z",
+      "phase": "last_quarter",
+      "zodiac": "sagittarius",
+      "planet": "moon",
+      "content": {
+        "planet": {
+          "meaning": "Pazartesi günü Ay, duygusal derinlikleri harekete geçiriyor. İçsel dünyanı daha fazla keşfetmek istiyorsun. Dışa vuramadığın hisler yüzeye çıkıyor.",
+          "advice": "Günlüğüne içten bir mektup yaz."
+        },
+        "zodiac": {
+          "meaning": "Ay Yay burcunda özgürlük arayışını tetikliyor. Yeni ufuklar keşfetme isteği artıyor, rutinler sıkıcı hale geliyor. Duygusal olarak daha açık ve dürüst hissediyorsun.",
+          "firsat": "Yeni bir dil kursuna kaydol.",
+          "his": "canlı merak"
+        },
+        "phase": {
+          "general": "Son Dördün, bitirilmeyen işleri tamamlaman için sana baskı yapıyor. Yarım kalan projeler dikkatini çekiyor. Enerji seviyen dalgalanıyor, odaklanmakta zorlanıyorsun.",
+          "ayna": "Göz ardı ettiğin sorumlulukları netleştir."
         }
       }
     }
   ],
-  "generatedUntil": "2026-03-08T08:27:13.495Z"
+  "generatedUntil": "2026-03-09T21:37:29.449Z"
 }
