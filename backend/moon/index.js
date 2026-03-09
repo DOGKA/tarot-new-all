@@ -176,22 +176,44 @@ async function ensureSlots(lang = "tr") {
       genProgress.phase = "chatgpt";
       genProgress.done = 0;
 
+      // Build content lookup from existing slots
       const contentByCombo = {};
+      const existingById = {};
       for (const s of trCache.slots) {
+        existingById[s.id] = s;
         if (s.content?.zodiac?.firsat && s.content?.phase?.ayna) {
           contentByCombo[`${s.phase}_${s.zodiac}_${s.planet}`] = s.content;
         }
       }
 
-      const transitions = getTransitions(now, 72);
-      const freshSlots = buildSlots(transitions, now, horizon);
+      // Keep past slots that haven't expired too long ago (last 24h)
+      const pastCutoff = now.getTime() - 24 * 3600000;
+      const pastSlots = trCache.slots.filter(s => {
+        const endMs = new Date(s.end).getTime();
+        return endMs <= now.getTime() && endMs >= pastCutoff && s.content;
+      });
 
-      for (const slot of freshSlots) {
-        const key = `${slot.phase}_${slot.zodiac}_${slot.planet}`;
-        if (contentByCombo[key]) slot.content = contentByCombo[key];
+      // Generate future slots from now → horizon
+      const transitions = getTransitions(now, 72);
+      const futureSlots = buildSlots(transitions, now, horizon);
+
+      for (const slot of futureSlots) {
+        if (existingById[slot.id]) {
+          slot.content = existingById[slot.id].content;
+        } else {
+          const key = `${slot.phase}_${slot.zodiac}_${slot.planet}`;
+          if (contentByCombo[key]) slot.content = contentByCombo[key];
+        }
       }
 
-      const needGen = freshSlots.filter(s => !s.content);
+      // Merge: past + future, deduplicated by id
+      const seenIds = new Set();
+      const allSlots = [];
+      for (const s of [...pastSlots, ...futureSlots]) {
+        if (!seenIds.has(s.id)) { seenIds.add(s.id); allSlots.push(s); }
+      }
+
+      const needGen = allSlots.filter(s => !s.content);
       genProgress.total = needGen.length + 3;
       genProgress.done = 0;
 
@@ -202,16 +224,23 @@ async function ensureSlots(lang = "tr") {
       }
 
       const genUntil = horizon.toISOString();
-      saveCache({ slots: freshSlots, generatedUntil: genUntil }, "tr");
-      console.log(`[Moon] TR: ${freshSlots.length} slots saved`);
+      saveCache({ slots: allSlots, generatedUntil: genUntil }, "tr");
+      console.log(`[Moon] TR: ${allSlots.length} slots saved (${pastSlots.length} past + ${futureSlots.length} future)`);
 
       if (translator) {
         genProgress.phase = "deepl";
         for (const tl of ["en", "de", "es"]) {
           console.log(`[Moon] DeepL → ${tl}...`);
+          const existingLangCache = loadCache(tl);
+          const existingLangById = {};
+          existingLangCache.slots.forEach(s => { existingLangById[s.id] = s; });
           const translated = [];
-          for (const slot of freshSlots) {
-            translated.push({ ...slot, content: await translateContent(slot.content, tl) });
+          for (const slot of allSlots) {
+            if (existingLangById[slot.id]?.content) {
+              translated.push(existingLangById[slot.id]);
+            } else {
+              translated.push({ ...slot, content: await translateContent(slot.content, tl) });
+            }
           }
           saveCache({ slots: translated, generatedUntil: genUntil }, tl);
           console.log(`[Moon] ${tl.toUpperCase()}: done`);
