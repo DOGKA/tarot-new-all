@@ -81,7 +81,7 @@ export default function SpreadCard({
             </View>
           </View>
           <View style={styles.lockedBadge}>
-            <Text style={styles.lockedBadgeText}>Premium{"\n"}ile Aç</Text>
+            <Text style={styles.lockedBadgeText}>Premium</Text>
           </View>
         </View>
       </View>

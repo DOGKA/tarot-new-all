@@ -630,5 +630,32 @@
       "answerMayChange": true,
       "conditionMessage": "Koşullara göre netleşir"
     }
+  },
+  {
+    "timestamp": "2026-03-09T06:53:08.621Z",
+    "type": "yes_no_free_v2",
+    "language": "tr",
+    "focusArea": "general",
+    "card": {
+      "name": "Kılıç Yedilisi",
+      "image": "56_seven_swords",
+      "orientation": "upright"
+    },
+    "tendency": "hayır",
+    "response": {
+      "title": "Kılıç Yedilisi — Evet / Hayır",
+      "focusArea": "general",
+      "answer": "no",
+      "confidence": 68,
+      "clarityLabel": "Şartlı",
+      "explanation": "Hayır; gizli niyetler ya da açık olmayan hamleler güveni zedeliyor.",
+      "keywords": [
+        "hile",
+        "kaçış"
+      ],
+      "baseTendency": "hayır",
+      "answerMayChange": false,
+      "conditionMessage": null
+    }
   }
 ]

@@ -1,445 +1,5 @@
 {
   "dates": {
-    "2026-03-05": {
-      "horoscopes": [
-        {
-          "date": "2026-03-05",
-          "sign": "aries",
-          "headline": "Hinterfrage die Autorität, baue dein eigenes Reich auf",
-          "body": "Hinterfrage heute deine Beziehung zu Autoritäten: die Regeln, die du akzeptierst, ohne sie zu hinterfragen, und die, die dir von Autoritäten auferlegt werden. Setze deine eigenen Grenzen und verliere dich nicht in dem Rahmen, den dir jemand anderes vorgibt.",
-          "do": [
-            "Erstelle deine eigenen Regeln",
-            "Frage Behörde",
-            "Zeichne deine Grenzen neu"
-          ],
-          "dont": [
-            "Einreichung",
-            "Niederlage akzeptieren",
-            "Jemand anderen als Anführer wählen"
-          ],
-          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-06T14:26:03.517Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "taurus",
-          "headline": "Überwinde die Angst vor dem Überfluss und erkläre deine Freiheit!",
-          "body": "Sieh dir genauer an, was du heute hast, und entdecke die Kraft des Teilens statt der Gier. Entscheide dich dafür, den Überfluss als Chance und nicht als Bedrohung zu sehen, sonst wirst du in einem engen Käfig der Angst gefangen sein.",
-          "do": [
-            "Großzügig teilen",
-            "Chancen ergreifen",
-            "Hindernisse überwinden"
-          ],
-          "dont": [
-            "Keine Mentalität der Knappheit entwickeln",
-            "Selbstbeschränkung",
-            "Vermeiden von Teilen"
-          ],
-          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-06T14:26:08.264Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "gemini",
-          "headline": "Es gibt Klarheit jenseits des Knotens",
-          "body": "Zeichne heute deine inneren Spannungen auf und gib dir selbst eine Richtung; das Chaos hat keine Macht, entweder du übernimmst die Kontrolle oder die Ungewissheit wird dich auffressen.",
-          "do": [
-            "Triff eine klare Entscheidung",
-            "Akzeptiere den Konflikt",
-            "Schärfe deine Richtung"
-          ],
-          "dont": [
-            "Unentschieden bleiben",
-            "Gib dich nicht mit Widersprüchen ab",
-            "Dem Chaos entfliehen"
-          ],
-          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-06T14:26:12.100Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "cancer",
-          "headline": "Bringe deine Gefühle mit Farben zum Ausdruck!",
-          "body": "Du solltest heute nicht schweigen, sondern deinen inneren Stürmen freien Lauf lassen. Zeichne ein Bild von deinen Gefühlen oder fasse sie in Worte; denke daran, dass dich unausgesprochene Gefühle auffressen werden.",
-          "do": [
-            "Färbe dich selbst",
-            "Verschiedene Ausdrucksmöglichkeiten erforschen",
-            "Drücke deine Seele aus"
-          ],
-          "dont": [
-            "Schweigend bleiben",
-            "Verstecke deine Gefühle nicht",
-            "Wiederholung des Vertrauten"
-          ],
-          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-06T14:26:16.587Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "leo",
-          "headline": "Spüre die Macht, hinterfrage die Verantwortung!",
-          "body": "Heute übernimmst du die Rolle der Mutter oder des Vaters, aber pass auf, dass du nicht versuchst, das Leben von allen zu kontrollieren. Auch wenn du eine mächtige Figur bist, musst du nicht alles lösen.",
-          "do": [
-            "Tief einatmen",
-            "Überprüfe deine Verantwortlichkeiten",
-            "Nimm eine starke Position ein"
-          ],
-          "dont": [
-            "Versuche nicht, jeden zu kontrollieren",
-            "Vergiss deine eigenen Bedürfnisse nicht",
-            "Verliere dich nicht zu sehr in deinen Rollen"
-          ],
-          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-06T14:26:20.495Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "virgo",
-          "headline": "Verallgemeinerungen sind das schwächste Glied in der Kette.",
-          "body": "Jedes Urteil ist eine Begrenzung und schränkt deine Grenzen ein. Versuche heute, deine Annahmen zu durchschauen. Deine Überzeugungen halten dich gefangen. Schmelze nicht alles in einem Topf.",
-          "do": [
-            "Wähle einen anderen Weg",
-            "Die Ergebnisse anfechten",
-            "Frei denken"
-          ],
-          "dont": [
-            "Schnelles Urteil",
-            "Wiederholung des Vertrauten",
-            "Sag nicht \"generisch\"."
-          ],
-          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-06T14:26:30.708Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "libra",
-          "headline": "Setze deine Prioritäten, schaffe Sinn!",
-          "body": "Sammle heute deine abgelenkte Aufmerksamkeit und hinterfrage, was wirklich wichtig ist. Anstatt den Sinn in der Anerkennung anderer zu suchen, begib dich auf eine innere Reise. Vertraue auf die Waage in dir selbst; sie wird dich nicht enttäuschen.",
-          "do": [
-            "Neue Prioritäten setzen",
-            "Betrachte dich von innen",
-            "Bedeutung entdecken"
-          ],
-          "dont": [
-            "Andere erfreuen",
-            "Halte dich nicht mit Oberflächlichkeit auf",
-            "Unentschieden bleiben"
-          ],
-          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-06T14:26:35.132Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "scorpio",
-          "headline": "Vergebt, aber vergesst nicht!",
-          "body": "Heute ist der perfekte Tag, um dich in Vergebung zu erproben. Zerbrich die Ketten der Vergangenheit, aber lass sie nicht in Vergessenheit geraten. Rechne mit deiner inneren Stärke und schlage ein neues Blatt auf.",
-          "do": [
-            "Ein neues Kapitel aufschlagen",
-            "Sieh dich selbst an",
-            "Fordere die Abrechnung heraus"
-          ],
-          "dont": [
-            "Schnelles Urteil",
-            "Wiederholung des Vertrauten",
-            "Tritt nicht zurück"
-          ],
-          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-06T14:26:39.457Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "sagittarius",
-          "headline": "Vertrauen ohne Glauben ist wie ein Segel ohne Wind.",
-          "body": "Hinterfrage heute die Quelle deines Vertrauens und bleibe ihr treu. Lass dich nicht von oberflächlichen Unsicherheiten täuschen; dein Glaube wird dich prägen. Entdecke, was tief in dir steckt und fordere dich heraus.",
-          "do": [
-            "Bleib dir selbst treu",
-            "Unsicherheit bewältigen",
-            "Höre auf die innere Stimme"
-          ],
-          "dont": [
-            "Untergrabe das Vertrauen nicht",
-            "Festgefahren auf der Oberfläche",
-            "Ausreden machen"
-          ],
-          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-06T14:26:43.862Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "capricorn",
-          "headline": "Die Loyalitätsprüfung kommt, bist du bereit?",
-          "body": "Hinterfrage heute deine Loyalität zu deinen Freunden, aber ohne deine eigenen Prinzipien zu gefährden. Wahre Freundschaft kennt sowohl Grenzen als auch Opfer. Öffne deine Augen und vertraue niemandem blind.",
-          "do": [
-            "Stelle deinen Freunden aufrichtige Fragen",
-            "Setze deine Grenzen"
-          ],
-          "dont": [
-            "Vertraue nicht blindlings",
-            "Gehe keine Kompromisse bei deinen eigenen Werten ein"
-          ],
-          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-06T14:26:48.450Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "aquarius",
-          "headline": "Sag Nein, brich die Ketten!",
-          "body": "Setze heute deine Grenzen und zeige, wer du bist. Erinnere dich daran, dass du dich jedes Mal, wenn du \"Ja\" sagst, von dir selbst trennst. Nimm die unbequeme Freiheit an und hole dir die Macht zurück, die du verloren hast.",
-          "do": [
-            "Ziehe klare Grenzen",
-            "Beweise deinen Willen",
-            "Bleib dir selbst treu"
-          ],
-          "dont": [
-            "Harmonisierung",
-            "Selbstironie",
-            "Schweigend bleiben"
-          ],
-          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-06T14:26:52.974Z"
-        },
-        {
-          "date": "2026-03-05",
-          "sign": "pisces",
-          "headline": "Wenn du dich von Projektionen leiten lässt",
-          "body": "Hinterfrage heute, wie real die Träume sind, die du in die Köpfe anderer Menschen projizierst. Sei nicht Gefangener deiner eigenen Projektionen, die deine Wahrnehmung der Realität manipulieren.",
-          "do": [
-            "Trenne die Wahrheit",
-            "Ängsten trotzen",
-            "Wähle deinen eigenen Weg"
-          ],
-          "dont": [
-            "Mach dir keine Illusionen",
-            "Gib nicht anderen die Schuld",
-            "Erinnere dich an deine Essenz"
-          ],
-          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-06T14:26:56.789Z"
-        }
-      ],
-      "createdAt": "2026-03-06T14:26:57.290Z"
-    },
-    "2026-03-06": {
-      "horoscopes": [
-        {
-          "date": "2026-03-06",
-          "sign": "aries",
-          "headline": "Öffne die Tore des Überflusses mit Gewalt!",
-          "body": "Spüre heute die Kraft einer Denkweise des Überflusses; konzentriere dich auf Chancen, nicht auf Mängel. Erkenne die einschränkenden Gedanken, die dich zurückhalten, und lass sie großzügig los. Erkenne, dass die Fülle mit dir ist.",
-          "do": [
-            "Steigere deinen eigenen Wert",
-            "Ergreife deine Chance",
-            "Tritt mutig auf"
-          ],
-          "dont": [
-            "Fokussierung auf Unzulänglichkeiten",
-            "Denk nicht klein",
-            "Selbstbeschränkung"
-          ],
-          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-06T14:27:02.031Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "taurus",
-          "headline": "Gib der Spannung nicht nach, entdecke deine Stärke",
-          "body": "Konzentriere dich heute auf deine inneren Konflikte, denn innere Spannungen können dich zum Handeln antreiben. Habe den Mut, an deine Grenzen zu gehen und aus deiner Komfortzone herauszutreten.",
-          "do": [
-            "Nimm das Unbehagen an",
-            "Risiken eingehen",
-            "Sprich mit einer anderen Stimme"
-          ],
-          "dont": [
-            "Schnelles Urteil",
-            "Wiederholung des Vertrauten",
-            "Tritt nicht zurück"
-          ],
-          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-06T14:27:06.499Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "gemini",
-          "headline": "Die Sprache deiner Augen verrät dich",
-          "body": "Heute wird jede Emotion, die auf deinem Gesicht zu lesen ist, kein Geheimnis mehr bleiben, selbst die, die du verstecken willst, werden dich verraten. Der visuelle Ausdruck kann deine Schwachstelle sein. Benutze also mehr als Worte und sprich mit deinen Augen.",
-          "do": [
-            "Erzähle eine Geschichte mit deinen Augen",
-            "Herausforderung mit deinen Augen",
-            "Male deine Gefühle"
-          ],
-          "dont": [
-            "Lass deine Maske nicht fallen",
-            "Wirf keine ausweichenden Blicke",
-            "Wende deine Augen nicht ab"
-          ],
-          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-06T14:27:11.842Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "cancer",
-          "headline": "Zerbrich die Ketten der Kindheit, sei frei!",
-          "body": "Erkenne heute, dass du in deinen Kindheitsrollen feststeckst; entdecke dein wahres Ich unter der Maske der Elternschaft. Du musst nicht in deiner eigenen Beengtheit bleiben, um das Richtige zu tun.",
-          "do": [
-            "Erschaffe deine eigene Realität",
-            "Grenzen durchsetzen",
-            "Zeige den Unterschied"
-          ],
-          "dont": [
-            "Tritt nicht zurück",
-            "Einklemmen in Standard-Formen",
-            "Deine eigene Stimme stummschalten"
-          ],
-          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-06T14:27:16.472Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "leo",
-          "headline": "Sabotiere dich nicht mit Verallgemeinerungen!",
-          "body": "Bilde dir heute ein Urteil, ohne dich in Details zu verlieren und ohne dich von einfachen Schlussfolgerungen täuschen zu lassen. Alle in einen Topf zu werfen, kann dich deiner Originalität berauben. Schränke deine Ideen nicht ein.",
-          "do": [
-            "Details ansehen",
-            "Höre auf verschiedene Stimmen",
-            "Hinterfrage deine Grenzen"
-          ],
-          "dont": [
-            "Schnelles Urteil",
-            "Wiederholung des Vertrauten",
-            "Gib dich nicht mit Verallgemeinerungen zufrieden"
-          ],
-          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-06T14:27:21.898Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "virgo",
-          "headline": "Hinterfrage deine Prioritäten, finde einen Sinn",
-          "body": "Lass heute das Gewöhnliche beiseite und hinterfrage den Sinn, in den dein Leben abdriftet. Lass dich nicht von deiner Routine beherrschen, sondern suche nach einem unerwarteten Sinn. Anstatt die Leere in dir zu ignorieren, erkenne sie an.",
-          "do": [
-            "Die Form brechen",
-            "Die Bedeutung umschreiben",
-            "Löse das Rätsel"
-          ],
-          "dont": [
-            "Kapitulation vor der Routine",
-            "Vergiss deinen eigenen Wert nicht",
-            "Bleib nicht im Schatten"
-          ],
-          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-06T14:27:26.495Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "libra",
-          "headline": "Vergebung ist ein Akt der Rebellion.",
-          "body": "Bringe das Feuer der Rache heute zum Schweigen und fühle den Mut zu vergeben, denn Vergebung wird dich frei machen. Befreie dich von der Last der Vergangenheit und schlage eine neue Seite des Lebens auf.",
-          "do": [
-            "Entdecke die Kraft der Vergebung",
-            "Breite deine Flügel der Freiheit aus",
-            "Schließe Frieden mit deinen Wunden"
-          ],
-          "dont": [
-            "Zieh nicht an den Ketten der Vergangenheit",
-            "Groll hegen",
-            "Alte Konten eröffnen"
-          ],
-          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-06T14:27:30.922Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "scorpio",
-          "headline": "Dein Glaube formt dich!",
-          "body": "Sieh dir heute noch einmal an, wie tief dein Selbstvertrauen verwurzelt ist. Schau, wie deine Überzeugungen dich leiten und hinterfrage, ob du wirklich dorthin gehst, wo du hin willst. Unterschätze nicht die unerschütterliche Stärke, die tief in dir steckt.",
-          "do": [
-            "Fordere dich selbst heraus",
-            "Hab keine Angst, Fragen zu stellen",
-            "Zeichne deine Grenzen neu"
-          ],
-          "dont": [
-            "Unterdrücke deine Zweifel nicht",
-            "Akzeptiere nicht blindlings",
-            "Keine Abstriche machen"
-          ],
-          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-06T14:27:36.582Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "sagittarius",
-          "headline": "Freundschaft ist eine Revolution, Loyalität ist Leidenschaft.",
-          "body": "Hinterfrage heute die Loyalität, die an den Wurzeln von Freundschaften liegt, und schau, was du entdeckst. Habe den Mut, tiefer in Beziehungen einzutauchen, denn an der Oberfläche zu bleiben, sagt dir nichts.",
-          "do": [
-            "Enthülle die Wahrheit",
-            "Teste deine Loyalität",
-            "Fordere deine Beziehungen heraus"
-          ],
-          "dont": [
-            "Belag",
-            "Nicht ignorieren",
-            "Vermeiden Sie Befragungen"
-          ],
-          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-06T14:27:40.592Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "capricorn",
-          "headline": "Nein, mach sie zu deiner stärksten Waffe!",
-          "body": "Heute ist das Wort \"Nein\" dein Schlüssel, um dich von der Last der anderen zu befreien. Verteidige deine eigenen Grenzen und verteidige mutig deine Wahrheit, nicht die Erwartungen anderer. Willenskraft ist die Grundlage der Befreiung.",
-          "do": [
-            "Wähle deinen eigenen Weg",
-            "Ziehe klare Grenzen",
-            "Tapfer verteidigen"
-          ],
-          "dont": [
-            "Einreichung",
-            "Schnelle Lieferung",
-            "Selbstironie"
-          ],
-          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-06T14:27:45.338Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "aquarius",
-          "headline": "Bist du das in deinem Spiegel?",
-          "body": "Anstatt dich heute darauf zu konzentrieren, was andere über dich denken, hinterfrage deine eigenen Gedanken. Bist du sicher, dass sie deine wahren Gefühle und Absichten widerspiegeln? Schließe deine Augen und fühle, was du wirklich willst.",
-          "do": [
-            "Frage dich selbst",
-            "Schreib deine Gedanken",
-            "In Oze"
-          ],
-          "dont": [
-            "Sieh nicht auf andere",
-            "Selbstverteidigung",
-            "Lüge nicht"
-          ],
-          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-06T14:27:50.124Z"
-        },
-        {
-          "date": "2026-03-06",
-          "sign": "pisces",
-          "headline": "Stelle Autoritäten in Frage, stelle deine eigenen Regeln auf!",
-          "body": "Heute mögen Autoritätspersonen versuchen, dich auf die Probe zu stellen, aber die wahre Macht liegt darin, deine eigene Stimme zu finden. Ziehe deine eigenen Grenzen und verliere dich nicht in den Landkarten anderer Leute. Es erfordert Mut, deinen eigenen Weg zu gehen.",
-          "do": [
-            "Schreibe deine eigenen Regeln",
-            "Berufung",
-            "Erweitere deine Grenzen"
-          ],
-          "dont": [
-            "Geh nicht hinter jemand anderem her",
-            "Deine eigene Stimme unterdrücken",
-            "Unterwerfung unter die Autorität"
-          ],
-          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-06T14:27:54.987Z"
-        }
-      ],
-      "createdAt": "2026-03-06T14:27:55.489Z"
-    },
     "2026-03-07": {
       "horoscopes": [
         {
@@ -865,7 +425,662 @@
         }
       ],
       "createdAt": "2026-03-06T14:29:41.177Z"
+    },
+    "2026-03-09": {
+      "horoscopes": [
+        {
+          "date": "2026-03-09",
+          "sign": "aries",
+          "headline": "Überwinde die Grenzen in der Rolle als Mutter/Vater!",
+          "body": "Hinterfrage heute deine Autorität unter dem Deckmantel der Elternschaft. Tritt aus der Form heraus und entdecke die Kraft, ein Führer zu sein, ohne ein Sklave des Gehorsams zu sein. Stärke die Bindungen, aber verliere nicht dein eigenes Wesen.",
+          "do": [
+            "Sei neugierig",
+            "Authentisch bleiben",
+            "Die Form brechen"
+          ],
+          "dont": [
+            "Vergiss dich selbst nicht",
+            "Blinder Gehorsam",
+            "Verklemmung der Form"
+          ],
+          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
+          "createdAt": "2026-03-09T06:31:54.905Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "taurus",
+          "headline": "Lass dich nicht von Verallgemeinerungen einschränken, wähle die Freiheit!",
+          "body": "Verliere dich heute nicht hinter großen Worten, denn die Details enthalten tiefe Botschaften. Versuche nicht, in eine bestimmte Form zu passen, denn jeder Moment hat eine andere Geschichte. Hab keine Angst, dich selbst zu entdecken.",
+          "do": [
+            "Details ansehen",
+            "Neue Geschichten finden",
+            "Entdecke dich selbst"
+          ],
+          "dont": [
+            "Schnelles Urteil",
+            "Wiederholung des Vertrauten",
+            "Tritt nicht zurück"
+          ],
+          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
+          "createdAt": "2026-03-09T06:31:58.919Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "gemini",
+          "headline": "Frage nicht mit deinen Augen, sondern mit deinem Herzen!",
+          "body": "Heute bist du vor allem auf der Suche nach einem Sinn, aber nicht alle Antworten liegen auf der Oberfläche. Hinterfrage deine Prioritäten, vielleicht sind sie nicht so wichtig, wie du denkst. Beginne eine innere Herausforderung an dich selbst.",
+          "do": [
+            "Tiefer gehen",
+            "Hör auf dein Herz",
+            "Reihenfolge der Wichtigkeit ändern"
+          ],
+          "dont": [
+            "An der Oberfläche bleiben",
+            "Vermeiden, Fragen zu stellen",
+            "Alten Mustern folgen"
+          ],
+          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
+          "createdAt": "2026-03-09T06:32:02.762Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "cancer",
+          "headline": "Zerbrich deine emotionalen Ketten und sei frei!",
+          "body": "Finde auf deiner Reise der Vergebung heute den Mut, die Last der Vergangenheit loszulassen. Sei nicht in den Fesseln der Gefühle gefangen, heile die Wunden, die du in deinem Herzen aufgerissen hast, und beginne einen Neuanfang.",
+          "do": [
+            "Folge deinem Herzen",
+            "Befreie dich"
+          ],
+          "dont": [
+            "Kratzt nicht an alten Wunden",
+            "Gib dich nicht deinen Ängsten hin"
+          ],
+          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
+          "createdAt": "2026-03-09T06:32:06.710Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "leo",
+          "headline": "Es geht darum, Brücken des Vertrauens und des Glaubens zu bauen.",
+          "body": "Bist du es wert, dass andere dir genauso viel vertrauen wie du dir selbst? Stelle deine inneren Ängste in Frage und hinterfrage deine Momente des Unglaubens. Behalte deine Stärke nicht nur für dich, sondern teile sie, damit sie wächst.",
+          "do": [
+            "Schiebe deine eigenen Grenzen",
+            "Vertrauen in jemand anderen aufbauen",
+            "Stell dich deinen Ängsten"
+          ],
+          "dont": [
+            "Dein Vertrauen in Frage stellen",
+            "Selbstabwertung",
+            "Misstrauen schaffen"
+          ],
+          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
+          "createdAt": "2026-03-09T06:32:11.425Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "virgo",
+          "headline": "Hab keine Angst, deinen Kreis der Loyalität zu erweitern!",
+          "body": "Hinterfrage heute deine Grenzen in deinen Freundschaften; es ist an der Zeit, die Mauern der Loyalität zu durchbrechen. Ändere alte Gewohnheiten radikal und befreie dich von den Bindungen, die dich einschränken.",
+          "do": [
+            "Neue Freunde finden",
+            "Mische dich unter die Menge",
+            "Klares Vertrauen"
+          ],
+          "dont": [
+            "Rückzug in den alten Sicherheitsbereich",
+            "Bleib nicht an den Rändern hängen",
+            "Vorurteilsbehafteter Ansatz"
+          ],
+          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
+          "createdAt": "2026-03-09T06:32:15.396Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "libra",
+          "headline": "Nein, es ist dein stärkster Schild!",
+          "body": "Durchbrich heute die Mauern des \"Ja\" und entdecke die innere Freiheit, \"Nein\" zu sagen. Ziehe deine Grenze, setze deine Grenzen und genieße die Freiheit. Es ist an der Zeit, deine eigene Waage ins Gleichgewicht zu bringen.",
+          "do": [
+            "Sag nein",
+            "Ziehe deine Grenzen",
+            "Finde dein Gleichgewicht"
+          ],
+          "dont": [
+            "Mach es nicht jedem recht",
+            "Verletze nicht seine Grenzen",
+            "Unentschieden bleiben"
+          ],
+          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
+          "createdAt": "2026-03-09T06:32:18.742Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "scorpio",
+          "headline": "Die Wahrheit rettet dich aus den Schatten!",
+          "body": "Stell dich heute den Ängsten, die du auf deinen eigenen Schatten projizierst. Verstecke dich nicht, indem du die Fehler der anderen übertreibst. Es ist an der Zeit, ehrlich zu dir selbst zu sein.",
+          "do": [
+            "Akzeptiere deine Ängste",
+            "Siehe die Fakten",
+            "Fordere dich selbst heraus"
+          ],
+          "dont": [
+            "Gib nicht anderen die Schuld",
+            "Lauft nicht wirklich weg",
+            "Verstecke dein Wesen nicht"
+          ],
+          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
+          "createdAt": "2026-03-09T06:32:21.697Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "sagittarius",
+          "headline": "Stell dich gegen die Autorität, finde dich selbst.",
+          "body": "Hinterfrage heute jede Stimme, die dich leitet, und erhebe deine eigene Stimme. Widerstehe dem Druck von außen und entdecke den wahren Führer in dir. Autoritäten in Frage zu stellen ist der erste Schritt, um deine Freiheit zu erlangen.",
+          "do": [
+            "Grenzen durchsetzen",
+            "Erschaffe deine eigene Autorität",
+            "Sei ein Regelmacher"
+          ],
+          "dont": [
+            "Einreichung",
+            "Schweigend bleiben",
+            "Unterschätze deine eigene Stärke"
+          ],
+          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
+          "createdAt": "2026-03-09T06:32:24.818Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "capricorn",
+          "headline": "Reichtum entsteht nicht aus Angst, sondern aus Mut.",
+          "body": "Nimm dir heute vor, großzügig zu sein und deine Ressourcen im Überfluss zu teilen. Zerbrich die Ketten der Knappheitsmentalität und lass den Reichtum zu dir finden. Durchbrich die Mauern der Selbstbeschränkung und tauche mutig in den Fluss des Reichtums ein.",
+          "do": [
+            "Umarme den Reichtum",
+            "Großzügig teilen",
+            "Fordere deine Ängste heraus"
+          ],
+          "dont": [
+            "Knappheitsdenken",
+            "Ziehe deine eigenen Grenzen",
+            "Lass dich nicht von Zweifeln ablenken"
+          ],
+          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
+          "createdAt": "2026-03-09T06:32:28.640Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "aquarius",
+          "headline": "Die Spannung ist dein Kompass, orientiere dich!",
+          "body": "Heute stößt dich die Unruhe von innen an, finde die Quellen der Ablenkung und überwinde sie. Weiche nicht aus, du befindest dich inmitten des Chaos; vielleicht liegt deine Freiheit hinter dieser Herausforderung.",
+          "do": [
+            "Stell dich dem Chaos",
+            "Setze deine eigenen Grenzen",
+            "Konzentriere dich auf den Sturm"
+          ],
+          "dont": [
+            "Gib der Spannung nicht nach",
+            "Vermeidung von Unsicherheit",
+            "Risikoaversion"
+          ],
+          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
+          "createdAt": "2026-03-09T06:32:32.061Z"
+        },
+        {
+          "date": "2026-03-09",
+          "sign": "pisces",
+          "headline": "Beflügele deine Fantasie, sei nicht still",
+          "body": "Lass dich heute nicht von Mittelmäßigkeit überschatten, sondern lass Farben, Formen und Ausdrücke deine Geschichte erzählen. Zeige mutig deine innere Welt und durchbreche die Stille. Überwinde deine Grenzen mit visuellem Ausdruck.",
+          "do": [
+            "Erzähle eine visuelle Geschichte",
+            "Wähle Farben mutig",
+            "Kreiere deinen eigenen Stil"
+          ],
+          "dont": [
+            "Gewöhnlich bleiben",
+            "Selbstbeherrschung",
+            "Stille"
+          ],
+          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
+          "createdAt": "2026-03-09T06:32:35.269Z"
+        }
+      ],
+      "createdAt": "2026-03-09T06:32:35.770Z"
+    },
+    "2026-03-10": {
+      "horoscopes": [
+        {
+          "date": "2026-03-10",
+          "sign": "aries",
+          "headline": "Beschränke dich nicht mit Verallgemeinerungen, sondern erforsche!",
+          "body": "Heute neigst du dazu, alles in eine Schublade zu stecken. Du magst die Welt mit deinen Gedanken in einer Farbe sehen, aber es erwartet dich ein breiteres Spektrum. Brich aus der Form aus und nimm verschiedene Perspektiven ein!",
+          "do": [
+            "Erweitere deinen Blick",
+            "Suche nach neuen Perspektiven",
+            "Farben entdecken"
+          ],
+          "dont": [
+            "Verklemmung in Formen",
+            "Validierung von Stereotypen",
+            "Gib dich nicht mit Verallgemeinerungen zufrieden"
+          ],
+          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
+          "createdAt": "2026-03-09T06:32:39.087Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "taurus",
+          "headline": "Sei der Herr über deine Prioritäten!",
+          "body": "Stelle alles in Frage, was dich heute ablenkt und hinterfrage, was wirklich wichtig ist. Wenn du dich nicht von sinnlosen Lasten befreist, machst du dir das Leben viel schwerer.",
+          "do": [
+            "Setze deine Prioritäten",
+            "Frage dich selbst",
+            "Umgang mit dem Unnötigen"
+          ],
+          "dont": [
+            "Verweile nicht vergeblich",
+            "Zuflucht nehmen in der Prokrastination",
+            "Bedeutungslose Fracht transportieren"
+          ],
+          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
+          "createdAt": "2026-03-09T06:32:42.502Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "gemini",
+          "headline": "Vergebung ist die wahre Mutprobe.",
+          "body": "Anstatt vor alten Wunden davonzulaufen, solltest du dich ihnen heute stellen und Schritte unternehmen, um ihnen zu vergeben. Deine Fähigkeit, zu vergeben, kann deine geheime Kraft sein, die dich frei machen wird. Schau mit Mut statt mit Angst und lass die Vergangenheit los.",
+          "do": [
+            "Befreie dich",
+            "Zerbreche die alten Ketten",
+            "Mit der Vergangenheit umgehen"
+          ],
+          "dont": [
+            "Lauft nicht weg",
+            "Lagerung innen",
+            "Verpasse nicht die Gelegenheit, zu vergeben"
+          ],
+          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
+          "createdAt": "2026-03-09T06:32:45.632Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "cancer",
+          "headline": "Hinterfrage die Mauer des Vertrauens, durchbreche sie mit Glauben",
+          "body": "Hinterfrage heute deinen eigenen Wunsch nach Sicherheit und fordere die Ängste heraus, die unter dem Panzer lauern, den du mit deinem Glauben gebaut hast. Es kann notwendig sein, starre Formen zu durchbrechen, um das Feld der Sicherheit zu erweitern.",
+          "do": [
+            "Teste deine Grenzen",
+            "Enthülle deine Ängste",
+            "Externe Unterstützung herausfordern"
+          ],
+          "dont": [
+            "Zieh dich in dein Schneckenhaus zurück",
+            "Anheben des Schutzschildes",
+            "Verdacht"
+          ],
+          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
+          "createdAt": "2026-03-09T06:32:48.666Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "leo",
+          "headline": "Entlarve die Loyalität!",
+          "body": "Heute ist der Tag, um die Tiefe von Freundschaften zu hinterfragen. Dein wahrer Freund kommt zum Vorschein, wenn du deine Maske ablegst. Verschließ nicht die Augen; es ist an der Zeit, das Falsche vom Echten zu trennen.",
+          "do": [
+            "Sieh den Tatsachen ins Auge",
+            "Fragen ohne Angst",
+            "Nutze deine Beobachtungsgabe"
+          ],
+          "dont": [
+            "An der Oberfläche bleiben",
+            "Lass dich nicht weiter täuschen",
+            "Mach dir nichts vor"
+          ],
+          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
+          "createdAt": "2026-03-09T06:32:53.208Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "virgo",
+          "headline": "Nein zu sagen ist ein neuer Anfang.",
+          "body": "Sei heute mutig und entdecke und schütze deine eigenen Grenzen. Bevor du dich in den Forderungen anderer verlierst, frage dich, wie loyal du deinen eigenen Wünschen gegenüber sein kannst. Denke daran, dass ein Nein manchmal der größte Gefallen ist.",
+          "do": [
+            "Setze deine eigenen Grenzen",
+            "Verteidige deine Prioritäten",
+            "Mach einen entscheidenden Schritt zurück"
+          ],
+          "dont": [
+            "Selbstabwertung",
+            "Gib Forderungen nicht nach",
+            "Schweigend bleiben"
+          ],
+          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
+          "createdAt": "2026-03-09T06:32:56.908Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "libra",
+          "headline": "Wirf ein Licht auf deinen eigenen Schatten!",
+          "body": "Sieh heute die Schwächen der anderen als ein Spiegelbild deiner selbst. Sich der Realität zu stellen, ist der erste Schritt zur Selbsterkenntnis; es ist kein Weglaufen, sondern ein Blick nach innen. Verliere dich nicht, sondern erkenne deine Projektionen.",
+          "do": [
+            "Entdecke deine eigenen Schwächen",
+            "Schau tief in den Spiegel",
+            "Stell dich deinem Schatten"
+          ],
+          "dont": [
+            "Gib nicht anderen die Schuld",
+            "Mach dir nichts vor",
+            "Suche nach einem Fluchtweg"
+          ],
+          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
+          "createdAt": "2026-03-09T06:33:02.410Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "scorpio",
+          "headline": "Du bist ein Tänzer in einem Machtkampf!",
+          "body": "Heute könnte dich dein Kampf gegen Autoritäten und dein Wunsch, die Kontrolle zu haben, herausfordern. Verdränge die Mächtigen nicht mit Gewalt, sondern konzentriere dich auf die stille Macht in dir. Ergreife die Gelegenheit, deine eigenen Regeln zu schaffen.",
+          "do": [
+            "Setze deine eigenen Grenzen",
+            "Frage Machtspiele",
+            "Fordere deine Souveränität heraus"
+          ],
+          "dont": [
+            "Machtdemonstration",
+            "Die Regeln der anderen befolgen",
+            "Schweigend bleiben"
+          ],
+          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
+          "createdAt": "2026-03-09T06:33:06.581Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "sagittarius",
+          "headline": "Du ziehst die Fäden der Lust!",
+          "body": "Erkenne heute, dass die Fülle in deinem Kopf sprießt. Schau dir deine inneren Widerstände auf dem Weg zum Reichtum an. Gestalte die Welt mit deiner Gegenwart, aber vergiss nicht, zuerst auf dich selbst zu schauen.",
+          "do": [
+            "Chancen ergreifen",
+            "Höre den geheimen Wunsch",
+            "Investiere in dich selbst"
+          ],
+          "dont": [
+            "Mit deinen Ängsten zurechtkommen",
+            "Beuge dich nicht den Grenzen",
+            "Begrenzte Vorstellungskraft"
+          ],
+          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
+          "createdAt": "2026-03-09T06:33:11.188Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "capricorn",
+          "headline": "Spüre die Kraft in der Spannung, nutze sie!",
+          "body": "Heute ist es an der Zeit, an deine Grenzen zu gehen, aus deiner Komfortzone herauszukommen und deine Anspannung abzubilden. Erkenne deine Ängste, sie geben dir Kraft. Lerne, mit Spannungen umzugehen, anstatt in Panik zu geraten.",
+          "do": [
+            "Die Spannung herausfordern",
+            "Ängste erkennen",
+            "Kontrolle übernehmen"
+          ],
+          "dont": [
+            "Auf der Flucht vor der Angst",
+            "Immobilisierung",
+            "Verstecken"
+          ],
+          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
+          "createdAt": "2026-03-09T06:33:14.509Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "aquarius",
+          "headline": "Es braucht Mut, sichtbar zu sein",
+          "body": "Wage es heute, dich auszudrücken; gehe über das Offensichtliche hinaus und bringe deine innere Kreativität zum Ausdruck. Erkenne, dass die Flucht vor dem Bekannten ein Fenster zur Ungewissheit ist.",
+          "do": [
+            "Zeige deine inneren Farben"
+          ],
+          "dont": [
+            "Unsichtbar bleiben"
+          ],
+          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
+          "createdAt": "2026-03-09T06:33:17.669Z"
+        },
+        {
+          "date": "2026-03-10",
+          "sign": "pisces",
+          "headline": "Es ist Zeit, mit den Flügeln zu schlagen!",
+          "body": "Denke darüber nach, was es heute bedeutet, Mutter oder Vater zu sein; bleibe nicht zwischen deinen Erwartungen, Enttäuschungen und Resignationen durch die Augen eines anderen stecken. Tritt aus dem Drehbuch eines anderen heraus und schreibe deine eigene Geschichte.",
+          "do": [
+            "Mach deinen eigenen Weg",
+            "Eine andere Perspektive schaffen",
+            "Höre auf deine innere Stimme"
+          ],
+          "dont": [
+            "Die Last der anderen tragen",
+            "Erinnere dich an deine eigenen Grenzen",
+            "Bleib nicht in der Vergangenheit stecken"
+          ],
+          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
+          "createdAt": "2026-03-09T06:33:21.669Z"
+        }
+      ],
+      "createdAt": "2026-03-09T06:33:22.171Z"
+    },
+    "2026-03-11": {
+      "horoscopes": [
+        {
+          "date": "2026-03-11",
+          "sign": "aries",
+          "headline": "Deine Prioritäten formen dich!",
+          "body": "Hinterfrage heute den Sinn deines Lebens und überdenke deine Prioritäten. Lass das Leben nicht in Routine verfallen. Entdecke, was dich wirklich motiviert und gehe auf diesem Weg weiter.",
+          "do": [
+            "Frage dich selbst",
+            "Setze deine Prioritäten",
+            "Suche nach dem Sinn"
+          ],
+          "dont": [
+            "In eine Routine verfallen",
+            "Nicht loslassen",
+            "Trivialisierung"
+          ],
+          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
+          "createdAt": "2026-03-09T06:33:24.485Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "taurus",
+          "headline": "Vergebe, aber hinterlasse keine Spuren!",
+          "body": "Heute ist Vergebung deine stärkste Waffe, um dich zu befreien. Aber Vergebung ist kein Vergessen; jede Wunde hinterlässt eine Narbe. Sei ehrlich zu dir und anderen, aber lass dich von deinen Narben leiten.",
+          "do": [
+            "Schließe die alten Bücher",
+            "Reinige dein Herz",
+            "Ein neues Kapitel aufschlagen"
+          ],
+          "dont": [
+            "Wiederhole nicht die Vergangenheit",
+            "Überanstrenge dich nicht",
+            "Anhäufung von Unzufriedenheit"
+          ],
+          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
+          "createdAt": "2026-03-09T06:33:28.467Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "gemini",
+          "headline": "Vertrauen nimmt die Angst gefangen.",
+          "body": "Hinterfrage heute die Grenzen des Vertrauens; der Glaube ist kein Schild, sondern eine Tür, die dich für andere öffnet. Ein offener Geist ist wertvoller als geschlossene Türen.",
+          "do": [
+            "Öffne die Türen weit",
+            "Mit Zuversicht vorwärts gehen"
+          ],
+          "dont": [
+            "Sich dem Verdacht hingeben",
+            "Vergrößere die Angst nicht"
+          ],
+          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
+          "createdAt": "2026-03-09T06:33:31.436Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "cancer",
+          "headline": "Ein Test der Loyalität: Wer ist ein wahrer Freund?",
+          "body": "Sei darauf gefasst, dass die Masken der Freundschaft heute fallen; Loyalität wird in Frage gestellt. Stell dich deinem Selbsterhaltungstrieb, denn Wahrnehmungen können trügerisch sein. Deine Aufrichtigkeit wird auf die Probe gestellt; folge deinem Herzen, aber halte deine Augen offen.",
+          "do": [
+            "Die Fakten klären",
+            "Bestimme deinen eigenen Wert",
+            "Sei mutig bei deinen Entscheidungen"
+          ],
+          "dont": [
+            "Nicht ignorieren",
+            "Sei nicht in Eile zu akzeptieren",
+            "Lass dich nicht in die Irre führen"
+          ],
+          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
+          "createdAt": "2026-03-09T06:33:35.412Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "leo",
+          "headline": "Nein zu sagen, befreit dich",
+          "body": "Heute ist eine Gelegenheit, deine Grenzen neu zu ziehen. Die Komfortzonen, an die du gewöhnt bist, können in Wirklichkeit Käfige sein, die dich einschränken. Entdecke die Kraft des Neinsagens und erkenne, wer du bist.",
+          "do": [
+            "Setze deine Grenzen",
+            "Verteidige deine Freiheit",
+            "Brich das Schweigen"
+          ],
+          "dont": [
+            "Opfer bringen",
+            "Erinnere dich an deine Grenzen",
+            "Deine eigene Stimme verschlucken"
+          ],
+          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
+          "createdAt": "2026-03-09T06:33:38.578Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "virgo",
+          "headline": "Schau dir deinen eigenen Schatten genau an.",
+          "body": "Schau heute nicht in einen Spiegel, sondern in eine Projektion; vielleicht hast du die Gelegenheit, deine eigenen Unzulänglichkeiten durch die Fehler anderer zu sehen. Die Wahrheit versteckt sich an einem unerwarteten Ort.",
+          "do": [
+            "Hinterfrage die Wahrheit",
+            "Bewusstsein schärfen",
+            "Kontext ändern"
+          ],
+          "dont": [
+            "Reflexion",
+            "Keine Abstriche machen",
+            "Mach dir nichts vor"
+          ],
+          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
+          "createdAt": "2026-03-09T06:33:42.096Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "libra",
+          "headline": "Hast du dich unter Kontrolle, oder bist du unter Kontrolle?",
+          "body": "Heute könnte dein Tanz mit Autoritätspersonen dich neu definieren. Anstatt dich still und leise den Regeln anderer zu unterwerfen, solltest du deinen eigenen Kurs bestimmen. Hinterfrage, wo deine wahre Macht liegt.",
+          "do": [
+            "Hinterfrage die Regeln",
+            "Ziehe deine eigenen Grenzen",
+            "Prüfbehörde"
+          ],
+          "dont": [
+            "Einreichung",
+            "Schweigend bleiben",
+            "Lauft nicht wirklich weg"
+          ],
+          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
+          "createdAt": "2026-03-09T06:33:46.178Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "scorpio",
+          "headline": "Fülle ist mutige Risikobereitschaft.",
+          "body": "Beim Wohlstand geht es für dich heute nicht darum, das zu sichern, was du hast, sondern darum, mutige Schritte zu machen und neue Möglichkeiten zu erkunden. Kremple die Ärmel deiner Ängste hoch. Je sicherer du dich fühlst, desto mehr bleibst du stehen.",
+          "do": [
+            "Risiken eingehen",
+            "Versuche etwas Neues",
+            "Setzt eure Grenzen durch"
+          ],
+          "dont": [
+            "Zuflucht in Beruhigung",
+            "Vermeide es nicht, dich deinen Ängsten zu stellen",
+            "Rotation im gleichen Kreis"
+          ],
+          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
+          "createdAt": "2026-03-09T06:33:50.857Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "sagittarius",
+          "headline": "Nimm die Spannung an, laufe nicht weg",
+          "body": "Schau dir heute deine Konflikte an und lass deine Spannungen eine neue Landkarte zeichnen, anstatt dich in eine Ecke zu drängen. Geh all die Dinge durch, denen du aus dem Weg gehst, erkenne sie und verwandle sie.",
+          "do": [
+            "Sieh den Tatsachen ins Auge",
+            "Fordere dich selbst heraus",
+            "Risiken eingehen"
+          ],
+          "dont": [
+            "Selbstbetrug",
+            "Suche nach einem Fluchtweg",
+            "Wiederhole nicht die alte Geschichte"
+          ],
+          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
+          "createdAt": "2026-03-09T06:33:54.426Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "capricorn",
+          "headline": "Sehen, zeigen, regieren.",
+          "body": "Setze heute deine visuelle Kraft hinter den Mauern frei. Geh über die langweilige Struktur hinaus; erweitere deinen Einflussbereich, indem du mit Bildern sprichst. Hinterlasse ein Zeichen, das diejenigen erschüttert, die stillstehen.",
+          "do": [
+            "Wähle einen anderen Weg",
+            "Erzähle es mit Bildern",
+            "Drück dich aus"
+          ],
+          "dont": [
+            "Gib dich nicht mit der Routine zufrieden",
+            "Schweigend bleiben",
+            "Nicht ignorieren"
+          ],
+          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
+          "createdAt": "2026-03-09T06:33:58.626Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "aquarius",
+          "headline": "Brich die Formen auf, hinterfrage deine Rollen!",
+          "body": "Betrachte deine elterliche Rolle heute mit neuen Augen; vielleicht beginnt deine Suche nach Freiheit damit, dass du diese Traditionen in Frage stellst. Finde den Mut, Grenzen zu überschreiten, und lass dich nicht von den Formen gefangen halten.",
+          "do": [
+            "Grenzen durchsetzen",
+            "Verschiedene Perspektiven ausprobieren",
+            "Neue Fragen stellen"
+          ],
+          "dont": [
+            "Klammere dich nicht an alte Formen",
+            "Gib den Ängsten nicht nach",
+            "Gefährde nicht deine Freiheit"
+          ],
+          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
+          "createdAt": "2026-03-09T06:34:02.564Z"
+        },
+        {
+          "date": "2026-03-11",
+          "sign": "pisces",
+          "headline": "Verallgemeinerungen sind eine Falle!",
+          "body": "Vermeide heute die Falle, alle Menschen und Situationen in einen Topf zu werfen. Wenn du die Unterschiede ignorierst, verpasst du die Wahrheit. Achte auf die tieferen Details und vermeide Verallgemeinerungen.",
+          "do": [
+            "Konzentriere dich auf die Details",
+            "Entwickle eine andere Perspektive",
+            "Entdecke jede einzelne"
+          ],
+          "dont": [
+            "Schnelles Fazit",
+            "Glaube nicht, dass sie alle gleich sind",
+            "Ideen eingrenzen"
+          ],
+          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
+          "createdAt": "2026-03-09T06:34:06.197Z"
+        }
+      ],
+      "createdAt": "2026-03-09T06:34:06.698Z"
     }
   },
-  "lastUpdated": "2026-03-06T14:29:41.177Z"
+  "lastUpdated": "2026-03-09T06:34:06.698Z"
 }

@@ -120,6 +120,9 @@ async function generateSlotContent(slot) {
 // Concurrency lock
 let generationLock = null;
 
+// Generation progress tracking
+const genProgress = { total: 0, done: 0, phase: null };
+
 // In-memory cron activity log
 const moonCronLog = {
   lastRun: null,          // ISO string of last check
@@ -144,7 +147,8 @@ async function ensureSlots(lang = "tr") {
   const lastSlotEnd = trCache.slots.length > 0
     ? new Date(trCache.slots[trCache.slots.length - 1].end).getTime()
     : 0;
-  const trIsValid = trCache.slots.length > 0 && now.getTime() < lastSlotEnd;
+  const genUntilMs = new Date(trCache.generatedUntil || "2000-01-01").getTime();
+  const trIsValid = trCache.slots.length > 0 && now.getTime() < lastSlotEnd && genUntilMs > now.getTime();
 
   // If TR is valid, just return the requested lang cache
   if (trIsValid) {
@@ -169,6 +173,8 @@ async function ensureSlots(lang = "tr") {
   generationLock = (async () => {
     try {
       console.log("[Moon] Generating TR slots...");
+      genProgress.phase = "chatgpt";
+      genProgress.done = 0;
 
       const contentByCombo = {};
       for (const s of trCache.slots) {
@@ -185,11 +191,14 @@ async function ensureSlots(lang = "tr") {
         if (contentByCombo[key]) slot.content = contentByCombo[key];
       }
 
-      for (const slot of freshSlots) {
-        if (!slot.content) {
-          console.log(`[Moon] ChatGPT → ${slot.phase} + ${slot.zodiac} + ${slot.planet}`);
-          slot.content = await generateSlotContent(slot);
-        }
+      const needGen = freshSlots.filter(s => !s.content);
+      genProgress.total = needGen.length + 3;
+      genProgress.done = 0;
+
+      for (const slot of needGen) {
+        console.log(`[Moon] ChatGPT → ${slot.phase} + ${slot.zodiac} + ${slot.planet}`);
+        slot.content = await generateSlotContent(slot);
+        genProgress.done++;
       }
 
       const genUntil = horizon.toISOString();
@@ -197,6 +206,7 @@ async function ensureSlots(lang = "tr") {
       console.log(`[Moon] TR: ${freshSlots.length} slots saved`);
 
       if (translator) {
+        genProgress.phase = "deepl";
         for (const tl of ["en", "de", "es"]) {
           console.log(`[Moon] DeepL → ${tl}...`);
           const translated = [];
@@ -205,8 +215,11 @@ async function ensureSlots(lang = "tr") {
           }
           saveCache({ slots: translated, generatedUntil: genUntil }, tl);
           console.log(`[Moon] ${tl.toUpperCase()}: done`);
+          genProgress.done++;
         }
       }
+
+      genProgress.phase = "done";
     } finally {
       generationLock = null;
     }
@@ -390,6 +403,8 @@ router.get("/status", (req, res) => {
       cronTotalRuns: moonCronLog.totalRuns,
       // Slot detail
       slotList,
+      // Generation progress
+      genProgress: generationLock ? { total: genProgress.total, done: genProgress.done, phase: genProgress.phase } : null,
     });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });

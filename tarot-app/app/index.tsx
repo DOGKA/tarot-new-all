@@ -91,6 +91,7 @@ interface MoonStatus {
     hasContent: boolean;
     isCurrent: boolean;
   }>;
+  genProgress: { total: number; done: number; phase: string } | null;
 }
 
 interface HoroscopeStatus {
@@ -133,9 +134,6 @@ export default function WelcomeScreen() {
   const [activeSlotIndex, setActiveSlotIndex] = useState(0);
   const flatListRef = useRef<FlatList>(null);
   const tabScrollRef = useRef<ScrollView>(null);
-
-  // Tarot entry gate
-  const [tarotExpanded, setTarotExpanded] = useState(false);
 
   // Tarot Masası
   type TarotCardData = {
@@ -647,53 +645,40 @@ export default function WelcomeScreen() {
 
         {/* ═══ Cards ═══ */}
         <View style={styles.cardsContainer}>
-          {/* Tarot Card — inline entry gate */}
-          <TouchableOpacity
-            style={styles.card}
-            activeOpacity={0.85}
-            onPress={() => setTarotExpanded(v => !v)}
-          >
+          {/* Tarot Card */}
+          <View style={styles.card}>
             <LinearGradient
               colors={["rgba(168, 85, 247, 0.3)", "rgba(99, 102, 241, 0.2)", "rgba(30, 20, 60, 0.8)"]}
               style={styles.cardGradient}
               start={{ x: 0, y: 0 }}
               end={{ x: 0, y: 1 }}
             >
-              <Text style={styles.cardIcon}>✨</Text>
-              <Text style={styles.cardTitle}>Tarot</Text>
+              <Text style={styles.cardTitle}>TAROT</Text>
               <Text style={styles.cardDescription}>{t("tarotWelcomeDesc")}</Text>
-              {!tarotExpanded && (
-                <View style={styles.cardBadge}>
-                  <Text style={styles.cardBadgeText}>{t("tarotBadge")}</Text>
-                </View>
-              )}
+              <View style={styles.tarotGateRow}>
+                <TouchableOpacity
+                  style={styles.tarotGateCard}
+                  activeOpacity={0.8}
+                  onPress={() => router.push("/tarot?mode=free")}
+                >
+                  <Text style={{ fontSize: 22, marginBottom: 4 }}>🃏</Text>
+                  <Text style={styles.tarotGateBtnTitle}>{t("tarotFreeTitle")}</Text>
+                  <Text style={styles.tarotGateBtnSub}>{t("tarotFreeSubtitle")}</Text>
+                  <Text style={styles.tarotGateBtnCount}>{t("tarotFreeCount")}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={[styles.tarotGateCard, styles.tarotGateCardPremium]}
+                  activeOpacity={0.8}
+                  onPress={() => router.push("/tarot?mode=premium")}
+                >
+                  <Text style={{ fontSize: 22, marginBottom: 4 }}>🔮</Text>
+                  <Text style={[styles.tarotGateBtnTitle, { color: "#c084fc" }]}>{t("tarotPremiumTitle")}</Text>
+                  <Text style={[styles.tarotGateBtnSub, { color: "rgba(192,132,252,0.6)" }]}>{t("tarotPremiumSubtitle")}</Text>
+                  <Text style={[styles.tarotGateBtnCount, { color: "rgba(192,132,252,0.5)" }]}>{t("tarotPremiumCount")}</Text>
+                </TouchableOpacity>
+              </View>
             </LinearGradient>
-          </TouchableOpacity>
-
-          {/* Inline Tarot Mode Selection */}
-          {tarotExpanded && (
-            <View style={styles.tarotGateRow}>
-              <TouchableOpacity
-                style={styles.tarotGateBtn}
-                activeOpacity={0.8}
-                onPress={() => { setTarotExpanded(false); router.push("/tarot?mode=free"); }}
-              >
-                <Text style={styles.tarotGateBtnTitle}>{t("tarotFreeTitle") || "Ücretsiz"}</Text>
-                <Text style={styles.tarotGateBtnSub}>{t("tarotFreeSubtitle") || "Anında okuma"}</Text>
-                <Text style={styles.tarotGateBtnCount}>8 açılım</Text>
-              </TouchableOpacity>
-              <View style={styles.tarotGateDivider} />
-              <TouchableOpacity
-                style={[styles.tarotGateBtn, styles.tarotGateBtnPremium]}
-                activeOpacity={0.8}
-                onPress={() => { setTarotExpanded(false); router.push("/tarot?mode=premium"); }}
-              >
-                <Text style={[styles.tarotGateBtnTitle, { color: "#c084fc" }]}>{t("tarotPremiumTitle") || "Sana Özel"}</Text>
-                <Text style={[styles.tarotGateBtnSub, { color: "rgba(192,132,252,0.7)" }]}>{t("tarotPremiumSubtitle") || "Sana özel yorum"}</Text>
-                <Text style={[styles.tarotGateBtnCount, { color: "rgba(192,132,252,0.6)" }]}>16 açılım</Text>
-              </TouchableOpacity>
-            </View>
-          )}
+          </View>
 
           {/* Dream Coder Card */}
           <TouchableOpacity style={styles.card} activeOpacity={0.85} onPress={() => router.push("/dream")}>
@@ -726,18 +711,18 @@ export default function WelcomeScreen() {
             <View>
               <FlatList
                 ref={flatListRef}
-                data={moonData.allSlots}
+                data={moonData.allSlots.slice(0, 12)}
                 horizontal
                 showsHorizontalScrollIndicator={false}
                 snapToInterval={CARD_WIDTH}
                 snapToAlignment="start"
                 decelerationRate="fast"
-                initialScrollIndex={moonData.currentIndex || 0}
+                 initialScrollIndex={Math.min(moonData.currentIndex || 0, 11)}
                 getItemLayout={(_, index) => ({ length: CARD_WIDTH, offset: CARD_WIDTH * index, index })}
                 keyExtractor={(item) => item.id}
                 onScroll={(e) => {
                   const idx = Math.round(e.nativeEvent.contentOffset.x / CARD_WIDTH);
-                  if (idx !== activeSlotIndex && idx >= 0 && idx < (moonData?.allSlots?.length || 0)) {
+                  if (idx !== activeSlotIndex && idx >= 0 && idx < Math.min(moonData?.allSlots?.length || 0, 12)) {
                     setActiveSlotIndex(idx);
                   }
                 }}
@@ -786,7 +771,7 @@ export default function WelcomeScreen() {
                 }}
               />
               <ScrollView ref={tabScrollRef} horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.slotTabs}>
-                {moonData.allSlots.map((s, i) => (
+                {moonData.allSlots.slice(0, 12).map((s, i) => (
                   <TouchableOpacity
                     key={s.id}
                     style={[styles.slotTab, i === activeSlotIndex && styles.slotTabActive]}
@@ -1468,42 +1453,33 @@ export default function WelcomeScreen() {
 
                     <View style={[ms.actionRow, { marginTop: 12 }]}>
                       <TouchableOpacity
-                        style={ms.actionBtn}
-                        onPress={() => adminAction("moon_refresh")}
-                        disabled={actionLoading === "moon_refresh" || moonStatus?.isGenerating}
-                        activeOpacity={0.7}
-                      >
-                        {actionLoading === "moon_refresh" ? (
-                          <ActivityIndicator color="#a855f7" size="small" />
-                        ) : (
-                          <Text style={ms.actionBtnText}>🔄 Çek</Text>
-                        )}
-                      </TouchableOpacity>
-                      <TouchableOpacity
                         style={[ms.actionBtn, ms.actionBtnWide, { backgroundColor: "rgba(139,92,246,0.12)", borderColor: "rgba(139,92,246,0.3)" }]}
                         onPress={() => adminAction("moon_force_generate")}
                         disabled={actionLoading === "moon_force_generate" || moonStatus?.isGenerating}
                         activeOpacity={0.7}
                       >
-                        {actionLoading === "moon_force_generate" ? (
+                        {actionLoading === "moon_force_generate" || moonStatus?.isGenerating ? (
                           <ActivityIndicator color="#a78bfa" size="small" />
                         ) : (
                           <Text style={[ms.actionBtnText, { color: "#a78bfa" }]}>⚡ Force Üret</Text>
                         )}
                       </TouchableOpacity>
-                      <TouchableOpacity
-                        style={[ms.actionBtn, ms.actionBtnDanger]}
-                        onPress={() => adminAction("moon_delete")}
-                        disabled={actionLoading === "moon_delete"}
-                        activeOpacity={0.7}
-                      >
-                        {actionLoading === "moon_delete" ? (
-                          <ActivityIndicator color="#ef4444" size="small" />
-                        ) : (
-                          <Text style={[ms.actionBtnText, ms.actionBtnDangerText]}>🗑 Sil</Text>
-                        )}
-                      </TouchableOpacity>
                     </View>
+                    {moonStatus?.genProgress && (
+                      <View style={{ marginTop: 8 }}>
+                        <View style={{ flexDirection: "row", justifyContent: "space-between", marginBottom: 4 }}>
+                          <Text style={{ fontSize: 11, color: "rgba(255,255,255,0.5)" }}>
+                            {moonStatus.genProgress.phase === "chatgpt" ? "ChatGPT" : moonStatus.genProgress.phase === "deepl" ? "DeepL çeviri" : "Tamamlandı"}
+                          </Text>
+                          <Text style={{ fontSize: 11, color: "rgba(167,139,250,0.7)" }}>
+                            {moonStatus.genProgress.done}/{moonStatus.genProgress.total}
+                          </Text>
+                        </View>
+                        <View style={{ height: 6, borderRadius: 3, backgroundColor: "rgba(255,255,255,0.06)", overflow: "hidden" }}>
+                          <View style={{ height: 6, borderRadius: 3, backgroundColor: "#a78bfa", width: `${moonStatus.genProgress.total > 0 ? Math.round((moonStatus.genProgress.done / moonStatus.genProgress.total) * 100) : 0}%` }} />
+                        </View>
+                      </View>
+                    )}
                   </View>
 
                   {/* ─── Horoscope Section ─── */}
@@ -1974,28 +1950,23 @@ const styles = StyleSheet.create({
   },
   tarotGateRow: {
     flexDirection: "row",
-    marginHorizontal: 0,
-    marginTop: 8,
-    marginBottom: 4,
-    borderRadius: 16,
-    overflow: "hidden",
-    borderWidth: 1,
-    borderColor: "rgba(168,85,247,0.25)",
-    backgroundColor: "rgba(15,10,35,0.85)",
+    gap: 10,
+    width: "100%",
+    marginTop: 4,
   },
-  tarotGateBtn: {
+  tarotGateCard: {
     flex: 1,
-    paddingVertical: 18,
-    paddingHorizontal: 12,
+    borderRadius: 14,
+    paddingVertical: 14,
+    paddingHorizontal: 10,
     alignItems: "center",
-    justifyContent: "center",
+    backgroundColor: "rgba(255,255,255,0.06)",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.08)",
   },
-  tarotGateBtnPremium: {
-    backgroundColor: "rgba(139,92,246,0.10)",
-  },
-  tarotGateDivider: {
-    width: 1,
-    backgroundColor: "rgba(168,85,247,0.25)",
+  tarotGateCardPremium: {
+    backgroundColor: "rgba(139,92,246,0.08)",
+    borderColor: "rgba(139,92,246,0.15)",
   },
   tarotGateBtnTitle: {
     color: "rgba(255,255,255,0.90)",
