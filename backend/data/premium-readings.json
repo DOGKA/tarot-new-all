@@ -657,5 +657,32 @@
       "answerMayChange": false,
       "conditionMessage": null
     }
+  },
+  {
+    "timestamp": "2026-03-10T06:25:28.764Z",
+    "type": "yes_no_free_v2",
+    "language": "tr",
+    "focusArea": "love",
+    "card": {
+      "name": "Kılıç Beşlisi",
+      "image": "54_five_swords",
+      "orientation": "reversed"
+    },
+    "tendency": "hayır",
+    "response": {
+      "title": "Kılıç Beşlisi — Evet / Hayır",
+      "focusArea": "love",
+      "answer": "no",
+      "confidence": 49,
+      "clarityLabel": "Belirsiz",
+      "explanation": "Hayır; gerilim azalıyor ama güven henüz onarılmadı.",
+      "keywords": [
+        "tartışma",
+        "ego"
+      ],
+      "baseTendency": "hayır",
+      "answerMayChange": false,
+      "conditionMessage": null
+    }
   }
 ]

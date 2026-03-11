@@ -120,13 +120,13 @@ const LOADING_KEYS = [
 ];
 
 const PLANET_IMAGES_MAP: Record<string, ImageSourcePropType> = {
-  sun: require("../../assets/planets/sun.jpg"),
-  moon: require("../../assets/planets/moon.jpg"),
-  mars: require("../../assets/planets/mars.jpg"),
-  mercury: require("../../assets/planets/mercury.jpg"),
-  jupiter: require("../../assets/planets/jupiter.jpg"),
-  venus: require("../../assets/planets/venus.jpg"),
-  saturn: require("../../assets/planets/saturn.jpg"),
+  sun: require("../../assets/planets/sun.png"),
+  moon: require("../../assets/planets/moon.png"),
+  mars: require("../../assets/planets/mars.png"),
+  mercury: require("../../assets/planets/mercury.png"),
+  jupiter: require("../../assets/planets/jupiter.png"),
+  venus: require("../../assets/planets/venus.png"),
+  saturn: require("../../assets/planets/saturn.png"),
   north_node: require("../../assets/north-node.png"),
   south_node: require("../../assets/south-node.png"),
   asc: require("../../assets/asc-desing.png"),

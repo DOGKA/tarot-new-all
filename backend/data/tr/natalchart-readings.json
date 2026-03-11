@@ -1,17 +1,17 @@
 {
   "readings": {
     "dev_1772623594408_gro4e2o2": {
-      "createdAt": "2026-03-06T14:32:22.058Z",
+      "createdAt": "2026-03-10T06:38:13.023Z",
       "lang": "tr",
       "interpretation": {
-        "title": "Duygusal Labirent",
+        "title": "Duygusal Denge Arayışı",
         "coreSelf": {
-          "headline": "Dengede Duygusal Derinlik",
-          "body": "Dışarıdan bakıldığında, sıcak ve davetkâr bir insan gibi görünüyorsun. İnsanlar seni sosyal ve anlaşılır biri olarak algılıyorlar, fakat içsel dünyanda sürekli bir denge arayışı içerisindesin. Evde zaman geçirmeyi ve sevdiklerine odaklanmayı önemsiyorsun. Yaratıcılığın ve iletişim becerilerinle dikkat çekiyorsun, fakat bazen kendi duygusal labirentinde kaybolabiliyorsun. Karar alırken, başkalarını da hesaba katan bir yapın var."
+          "headline": "Duygusal İç Çelişki",
+          "body": "Dışarıdan dengeli ve huzurlu görünsen de içsel dünyanda sürekli bir denge arayışı içindesin. Güçlü bir şekilde duygusal güvenlik ihtiyacı hissediyorsun ve bu seni evde vakit geçirmeye, sevdiklerinle yakın ilişkiler kurmaya yönlendirebilir. Ancak bazen, dışarıdan gelen taleplerle içsel huzurun arasında kalabilirsin. Bu çelişki, bazen karar almakta zorlanmana neden olabilir. Örneğin, sevdiklerin için bir şeyler yaparken, kendi isteklerini göz ardı edebilirsin."
         },
         "ascendant": {
-          "headline": "Duygusal ve Koruyucu",
-          "body": "Dışarıdan ilk bakışta şefkatli ve koruyucu bir izlenim veriyorsun. Fiziksel enerjin, başkalarını rahatlatan bir sıcaklık yayıyor. Yabancılar seni nazik ve güven verici biri olarak algılıyor."
+          "headline": "Yumuşak ve Duyarlı",
+          "body": "İlk karşılaşmada insanlar seni nazik ve duyarlı biri olarak algılar. Fiziksel enerjin, çevrendeki insanlara içten ve sıcak bir etki bırakır. Yabancılar, seninle vakit geçirdikçe duygusal derinliğinin farkına varır."
         },
         "planets": [
           {
@@ -19,79 +19,79 @@
             "symbol": "☿",
             "sign": "Akrep",
             "house": 5,
-            "headline": "Keskin Gözlemci",
-            "body": "Zihinsel olarak çok derinlere dalabilirsin ve sohbetlerinde sıkça alttan alta derin mesajlar verirsin. Eğlenceli ortamlarda bile detayları kaçırmaz, insanları çözümlemeye çalışırsın. Yaratıcılık gerektiren konularda gizemli bir yaklaşımla özgün çözümler getirirsin."
+            "headline": "Derin İletişim Ustası",
+            "body": "Konuşmalarında derinliğe ve anlam arayışına önem verirsin. Yaratıcı projelerinde, fikirlerini güçlü ve etkileyici bir şekilde ifade edebilirsin. Zorlayıcı konulara çözüm bulmak için detayları didik didik eder, sonuca ulaşana dek peşini bırakmazsın."
           },
           {
             "planet": "venus",
             "symbol": "♀",
             "sign": "Terazi",
             "house": 4,
-            "headline": "Uyum Arayıcısı",
-            "body": "Aile yaşamında huzur ve denge senin için vazgeçilmez. Evin içinde estetik ve uyum yaratmak için çabalarsın, bu da sevdiklerinle ilişkilerini sağlamlaştırır. Zaman zaman sevdiklerinle aranda oluşabilecek gerilimleri tatlı dilinle çözersin."
+            "headline": "Ailede Güzellik Arayışı",
+            "body": "Ailenle uyumlu ve güzel ilişkiler kurmak senin için çok önemli. Evde estetik ve uyum yaratma konusunda yeteneklisin. Aile içi sorunlarda dengeyi sağlamak için çok çaba harcarsın, bazen bu nedenle kendi ihtiyaçlarını geri plana atabilirsin."
           },
           {
             "planet": "mars",
             "symbol": "♂",
             "sign": "Akrep",
             "house": 5,
-            "headline": "Tutkulu İfade",
-            "body": "Kendini ifade ederken büyük bir tutku gösterirsin. Yaratıcılığın ve enerjinle dikkat çekersin, sahnede veya bir proje içinde kendini gösterdiğinde çevrendekileri büyüleyebilirsin. Kimi zaman rekabetçi bir ruhla hareket edebilir, bu da seni daha ileriye taşır."
+            "headline": "Tutkulu Eylemlerin",
+            "body": "Yaratıcı projelere ve hobilerine tutkuyla yaklaşır, enerjini bu alanlara yönlendirirsin. Başladığın işi bitirme konusunda çok kararlısın ve bu seni başkalarına karşı rekabetçi kılabilir. Her zaman en derin seviyede motive olur, kolayca pes etmezsin."
           },
           {
             "planet": "jupiter",
             "symbol": "♃",
             "sign": "Yengeç",
             "house": 1,
-            "headline": "Koruyucu Şans",
-            "body": "İnsanlar seni doğal bir lider olarak görürler ve senin etrafında toplanmak isterler. Şansın genellikle ailevi ve ev konularında yanında olur. Kendini koruma altında hissettiğin anlarda diğerlerine de aynı güveni aşılayabilirsin."
+            "headline": "Koruyucu Doğa",
+            "body": "Çevrendeki insanlara karşı çok koruyucu bir yapın var. Geniş bir vizyon ve iyimserlikle olayları değerlendirme eğilimindesin. Özgüvenin, başkalarına da güven aşılayarak liderlik etmene olanak sağlar."
           },
           {
             "planet": "saturn",
             "symbol": "♄",
             "sign": "Balık",
             "house": 10,
-            "headline": "Kariyer Yolunda İçsel Sorgulama",
-            "body": "Kariyer hayatında zaman zaman içsel bir sorgulama yaşarsın. Toplum önünde kendini nasıl daha iyi ifade edebileceğin üzerine düşünür, içindeki yaratıcı potansiyeli hayata geçirmeye çalışırsın. Ancak, bu süreç bazen yavaş ilerleyebilir."
+            "headline": "Kariyer İçin Sabır Testi",
+            "body": "Kariyerinde hedeflerine ulaşmak için ekstra sabır göstermen gerekebilir. Sık sık ideallerini sorgular ve yeniden değerlendirirsin. Bu süreç, seni daha güçlü ve kararlı kılar, ancak bazen gecikmeler moralini bozabilir."
           }
         ],
         "retrogrades": {
-          "headline": "İçsel Gerçeklikler",
-          "body": "Satürn retrosu, kariyerinde ve toplumsal algılarında içsel bir değerlendirme süreci geçirmen gerektiğini işaret eder. Uranüs retrosu, arkadaş çevren ve sosyal gruplar içerisindeki yenilikçi fikirlerini uygulamadan önce yeniden değerlendirme ihtiyacını gösterir. Neptün retrosu ise kariyerinde hayallerinle gerçekler arasında bir denge kurma çabanı yansıtır."
+          "headline": "İçsel Sorgulamalar",
+          "body": "Satürn'ün geri hareketi, kariyerinde ve sosyal statünde zaman zaman gecikmelere ve yeniden değerlendirmelere neden olabilir. Uranüs'ün retrogradı, arkadaş çevreni ve sosyal gruplarını sorgulamana yol açabilir, bu süreçte kimlerle gerçekten bağ kurmak istediğini düşünebilirsin. Neptün geri hareketi, hayallerin ve ideallerin üzerinde derinlemesine düşünmene sebep olabilir; bu, seni daha gerçekçi hedefler belirlemeye yönlendirebilir."
         },
         "aspects": [
           {
             "pair": "☽moon-♀venus",
             "type": "conjunction",
-            "headline": "Duygusal Harmoni",
-            "body": "Duygularınla estetik anlayışın arasında güçlü bir uyum var. Bu yüzden sanatla veya güzelliklerle ilgili konularda derin bir anlayış geliştirebilirsin. Sevdiklerine karşı oldukça şefkatli ve sevecen davranışlar sergilersin."
+            "headline": "Duygusal ve Estetik Uyumu",
+            "body": "Duygusal dünyan ve estetik anlayışın birbirine sıkı sıkıya bağlı. İnsanlarla ilişkilerinde duygusal uyum ve güzellik ararsın. Bu, seni sevdiklerinle derin ve dengeli ilişkiler kurman için destekler."
           },
           {
             "pair": "☿mercury-♂mars",
             "type": "conjunction",
-            "headline": "Tutkulu İletişim",
-            "body": "Konuşmalarında kararlı ve net bir tutum sergilersin. Bu, seni bazen iddialı bir tartışmacı haline getirebilir. Fikirlerini savunurken oldukça cesur ve etkili olursun."
+            "headline": "Kararlı İletişimci",
+            "body": "Düşüncelerini ifade ederken kararlılık ve tutku ön planda. Konuşmalarda cesur ve direkt bir tavır sergiliyorsun. Bu enerji, seni ikna kabiliyeti yüksek ve etkileyici bir konuşmacı yapar."
           },
           {
-            "pair": "♀venus-square-ASCasc",
+            "pair": "♀venus-ASCasc",
             "type": "square",
-            "headline": "Güzellik ve Algı Çatışması",
-            "body": "Kendini ifade ederken nasıl göründüğün üzerine güçlü bir hassasiyetin var. Dışarıdan gelen tepkilere karşı duyarlı olabilirsin ve bu, zaman zaman çekingen davranmana sebep olabilir."
+            "headline": "İlişkilerde Zorluklar",
+            "body": "İlk izlenimlerde güzellik ve uyum arayışın, kendi kimliğini ifade ederken zorluklar yaratabilir. İnsanlarla ilişkilerinde dengeyi sağlamak bazen güç olabilir, bu da seni zaman zaman içsel bir çatışmaya sürükleyebilir."
           },
           {
-            "pair": "☿mercury-trine-☊north_node",
+            "pair": "☿mercury-☊north_node",
             "type": "trine",
-            "headline": "Kaderle Uyumlu İletişim",
-            "body": "İletişim becerilerin, hayat amacına ulaşmanda önemli bir rol oynar. Zihinsel esnekliğin sayesinde doğru insanlarla bağlantı kurarak geleceğine yön verebilirsin."
+            "headline": "Ruhsal İletişim",
+            "body": "Fikirlerin ve ruhsal yolculuğun arasında güçlü bir uyum var. İletişim yeteneğin, ruhsal gelişimini destekler ve seni gelecekte daha anlamlı bir yola yönlendirir."
           }
         ],
         "houseEmphasis": {
-          "headline": "Yaratıcılık ve Aile Hayatı",
-          "body": "Beşinci evindeki yoğunluk, yaratıcı projelere ve kendini ifade etmeye odaklanmanı sağlıyor. Aile hayatında huzur ve dengenin önemli olduğunu gösteren dördüncü evdeki yoğunluk ise, içsel dünyanda huzur bulmanı sağlıyor."
+          "headline": "Yaratıcılık ve Aile Odaklı Yaşam",
+          "body": "Beşinci ve dördüncü evlerinde gezegen yoğunluğu, yaratıcı projelere ve aile ilişkilerine odaklanmanı sağlar. Günlük hayatta, enerjini ve zamanını bu alanlara harcar, burada başarı ve tatmin ararsın."
         },
         "nodeAxis": {
-          "headline": "Aileden Topluma",
-          "body": "Geçmişte aile odaklı bir yaşam sürmüş olabilirsin, ama şimdi toplumsal alanda kendi yerini bulma vakti. Kariyer ve toplumsal algı üzerinde daha fazla odaklanarak, kişisel gelişimini tamamlayabilirsin. Aileden kazandığın değerleri, topluma katkı sağlamak için kullanabilirsin."
+          "headline": "Detaylardan Ruhsallığa",
+          "body": "Geçmişte detaylara odaklanarak, mükemmeliyetçiliğe eğilim göstermiş olabilirsin. Ancak ruhsal yolculuğunda, daha geniş bir vizyonla hareket etmeyi ve sezgilerine güvenmeyi öğreniyorsun. Bu süreç, seni daha anlamlı ve tatmin edici bir hayata yönlendirebilir. Örneğin, işlerinde detayları kontrol etme alışkanlığını bırakarak, daha büyük resme odaklanabilirsin."
         },
         "elements": {
           "dominant": "water",
@@ -99,24 +99,24 @@
           "earth": 1,
           "air": 8,
           "water": 11,
-          "summary": "Su elementi baskın olduğundan, duygusal derinliğin ve empati yeteneğin oldukça gelişmiştir. Bu, seni başkalarını anlamada ve onlara destek olmada eşsiz kılar."
+          "summary": "Duygusal doğan, seni başkalarına karşı derin bir empati ve anlayış beslemeye yönlendirir. Su elementinin yoğunluğu, sezgisel ve içe dönük bir yapıya sahip olmanı sağlar."
         },
-        "lifeMission": "Duygusal zekanı ve yaratıcı yeteneklerini kullanarak topluma katkı sağlamak senin için önemli. İç dünyanı dengeleyerek kariyerinde ve sosyal çevrende kalıcı izler bırakabilirsin.",
+        "lifeMission": "Hayatının ana teması, duygusal derinliklerini keşfederek, içsel huzuru bulmak ve bu huzuru sevdiklerinle paylaşmak üzerine kurulu. Yaratıcılığını ve empati gücünü, hem kendin hem de çevrendekiler için olumlu bir değişim yaratmak için kullanabilirsin.",
         "strengths": [
-          "Duygusal derinlik ve empati yeteneği.",
-          "Güçlü iletişim becerileri ve ikna kabiliyeti.",
-          "Yaratıcı projelerdeki başarın.",
-          "Ailevi değerleri koruma ve yaşatma isteği.",
-          "Başkalarına ilham verebilme özelliği."
+          "Etkili ve derin iletişim yeteneğinle zorlu durumları aşabilirsin.",
+          "Duygusal derinliğin, sevdiklerinle güçlü bağlar kurmanı sağlar.",
+          "Yaratıcı projelerde gösterdiğin tutku seni başarıya götürür.",
+          "Aile ilişkilerinde denge ve uyum yaratma kabiliyetine sahipsin.",
+          "Koruyucu doğan, çevrendekilere güven ve huzur verir."
         ],
         "challenges": [
-          "Kendi duygusal ihtiyaçlarını ihmal etme eğilimi.",
-          "Dışarıdan gelen eleştirilere karşı hassasiyet.",
-          "Kariyer hedeflerinde belirsizlik hissi.",
-          "Yaratıcı blokajlar yaşama riski.",
-          "Çok fazla düşünmekten dolayı karar alma zorluğu."
+          "Duygusal çelişkiler içsel huzurunu bozabilir.",
+          "İlk izlenimlerde güzellik arayışın, kendi kimliğini ifade etmeni zorlaştırabilir.",
+          "Kariyerinde sabır testlerinden geçebilirsin.",
+          "İlişkilerde denge kurma çabası zaman zaman içsel çatışmalara neden olabilir.",
+          "Detaylara fazla odaklanmak, büyük resmi görmeni engelleyebilir."
         ],
-        "advice": "Duygularını ve sezgilerini dinleyerek hareket et. Toplumsal rolünü belirlerken içsel dengeni korumaya özen göster. Bu süreçte kendini keşfederken sabırlı ol ve her anın tadını çıkar."
+        "advice": "Duygusal derinliğini ve sezgilerini keşfetmek için kendine zaman tanı. İlişkilerinde daha açık ve dürüst olmayı dene, bu sana iç huzurunu bulmada yardımcı olabilir. Yaratıcılığını ve empati gücünü, hem kendin hem de başkaları için iyilik yaratmak amacıyla kullan."
       }
     }
   }

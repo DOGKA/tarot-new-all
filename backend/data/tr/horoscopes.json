@@ -1,1086 +1,1321 @@
 {
   "dates": {
-    "2026-03-07": {
-      "horoscopes": [
-        {
-          "date": "2026-03-07",
-          "sign": "aries",
-          "headline": "Gerginlik seni güçlendirir, saklama!",
-          "body": "Bugün içindeki huzursuzluk bir rehber, seni nereye ittiğine bak. Gerilimi bastırmak yerine onun seni nereye yönlendirdiğini keşfet; buradan yeni bir enerji doğabilir.",
-          "do": [
-            "Gerilimi hisset",
-            "Yeni bir hedef seç"
-          ],
-          "dont": [
-            "Baskıdan kaçma",
-            "Sessiz kalma"
-          ],
-          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-06T14:27:59.612Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "taurus",
-          "headline": "Hayal gücü sınırlarını zorla!",
-          "body": "Bugün görsel ifade gücünü keşfetme zamanı. Düşündüğünden daha fazlasına sahipsin, bunu kanıtla. Kendini göster, pasif kalma, yaratıcı enerjini serbest bırak.",
-          "do": [
-            "Cesurca renkleri karıştır",
-            "Sanatını açıkla"
-          ],
-          "dont": [
-            "Görselliği küçümseme",
-            "Gölgeye saklanma"
-          ],
-          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-06T14:28:03.165Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "gemini",
-          "headline": "Rol değil, gerçek yüzünü göster!",
-          "body": "Bugün kendini ebeveyn rolünde bulduğunda, başkalarının beklentileriyle kendini sınırlayan kalıpları sorgula. Sadece başkasının ebeveyni olmaya değil, kendinin de rehberi olmaya odaklan.",
-          "do": [
-            "Kendi kurallarını koy",
-            "Özgünlüğünü kucakla"
-          ],
-          "dont": [
-            "Maskenin ardına saklanma",
-            "Rollere sıkışma"
-          ],
-          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-06T14:28:06.789Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "cancer",
-          "headline": "Herkesi kutuya hapsetme!",
-          "body": "Bugün kendi sınırlarının ötesine bak ve insanları kalıplara sığdırmaya çalışma. Belki de farklı hikayeler, farklı sonuçlar doğurur. Farklı bakış açıları düşüncelerine meydan okuyabilir.",
-          "do": [
-            "Çeşitliliği kucakla",
-            "Önyargılarını sorgula",
-            "Fikirleri keşfet"
-          ],
-          "dont": [
-            "Genellemelerle yetinme",
-            "Basit yargılara varma",
-            "Kalıplara hapsolma"
-          ],
-          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-06T14:28:11.613Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "leo",
-          "headline": "Önceliklerin seni tanımlar!",
-          "body": "Bugün neyin gerçekten önemli olduğunu sorgula. Başkalarının beklentileri yerine kendi içsel sesine kulak ver. Anlamı ararken, kendi yolunu bulmanın zamanı geldi.",
-          "do": [
-            "Kendi sesini dinle",
-            "Gerçek önceliklerini seç",
-            "İçsel huzura odaklan"
-          ],
-          "dont": [
-            "Başkalarının sesine aldırma",
-            "Anlamsız şeylere kapılma",
-            "Sahte önceliklere yönelme"
-          ],
-          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-06T14:28:16.105Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "virgo",
-          "headline": "Affet ve zincirlerinden kurtul!",
-          "body": "Bugün derinlerde sakladığın öfkelerle yüzleş. Affetmek, özgürlüğün kapılarını açacak; kendine yeni bir alan yaratmak için eski yükleri bırak. Geçmişin gölgesinde yaşamaktan vazgeç.",
-          "do": [
-            "Zihnini özgür bırak",
-            "Yeni sorular sor",
-            "Kendine alan aç"
-          ],
-          "dont": [
-            "Kin tutma",
-            "Geçmişe saplanma",
-            "Öfkeden beslenme"
-          ],
-          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-06T14:28:21.490Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "libra",
-          "headline": "Güvenini sorgula, inancını tazele!",
-          "body": "Bugün güven ve inanç çatışıyor. İç sesine ne kadar güvendiğini sorgula, belirsizliklerin üzerine git. İhtiyacın olan cesaret, içindeki huzursuzlukta saklı.",
-          "do": [
-            "Şüphelerini kucakla",
-            "Kararlarını sorgula",
-            "Kendine meydan oku"
-          ],
-          "dont": [
-            "Eski kalıplara yapışma",
-            "Bilinmeyenden kaçma",
-            "Zayıflıklarını saklama"
-          ],
-          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-06T14:28:25.429Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "scorpio",
-          "headline": "Sadakatin derin sularında yüzleş!",
-          "body": "Bugün arkadaşlıkların derinliğine bakacak cesareti bul. Sadakatin köklerini sorgula ve sahte bağlardan arın. Doğrulara gözlerini kapama ve maskeleri düşür.",
-          "do": [
-            "Gerçekleri sorgula",
-            "Duygularını açıkça ifade et",
-            "Bağlarını güçlendir"
-          ],
-          "dont": [
-            "Yüzeyde kalma",
-            "Görmezden gelme",
-            "İkiyüzlülüğe tahammül etme"
-          ],
-          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-06T14:28:29.644Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "sagittarius",
-          "headline": "Hayır demek, özgürlük manifestosu!",
-          "body": "Bugün, başkalarının kontrolünde yaşamı sorgula. Hayır demek, kendini bulma yolunda en güçlü adım. Kendi sınırlarını belirle ve arzuladığın hayatı inşa et.",
-          "do": [
-            "Kararlı duruş sergile",
-            "Sınırlarını netleştir",
-            "Kendini öncelik yap"
-          ],
-          "dont": [
-            "Uysal tavır alma",
-            "Başkalarının oyununa gelme",
-            "Kendini küçümseme"
-          ],
-          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-06T14:28:34.661Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "capricorn",
-          "headline": "Gerçeğin aynası çatlamış olabilir.",
-          "body": "Bugün sana yansıyanı sorgula. Başkalarının seninle ilgili algıları, senin kendine dair gerçeklerinden mi yoksa projeksiyonlarından mı ibaret? Kendi özünü yansıtmaya çalışırken, başkalarının gölgesinde kalma.",
-          "do": [
-            "Kendi yolunu çiz",
-            "Kendi gerçeğine sadık kal"
-          ],
-          "dont": [
-            "Başkalarının gölgesinde durma",
-            "Yanılsamalara kapılma"
-          ],
-          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-06T14:28:39.909Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "aquarius",
-          "headline": "Gücü sorgula, zincirlerini kır!",
-          "body": "Bugün otoriteye boyun eğmek yerine, kontrol mekanizmalarını sorgula. Kendi sınırlarını belirle ve başkalarının çizgilerini aşma cesaretini göster. Korkunun seni esir almasına izin verme.",
-          "do": [
-            "Başkaldırışını başlat",
-            "Sınırlarını yeniden çiz",
-            "Kendini ifade et"
-          ],
-          "dont": [
-            "Sessiz kalma",
-            "Kabul etme",
-            "Geri çekilme"
-          ],
-          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-06T14:28:44.048Z"
-        },
-        {
-          "date": "2026-03-07",
-          "sign": "pisces",
-          "headline": "Bolluğun sınırlarını zorlama cesareti!",
-          "body": "Bugün, sahip olduklarına farklı bir açıdan bak ve fazlasını aramak için ayağa kalk. Kendi değerini sorgulama, içindeki potansiyelin sınırlarını keşfetmek için korkusuz ol.",
-          "do": [
-            "Fırsatları kucakla",
-            "Özgürlüğüne sahip çık",
-            "Yeteneklerini sergile"
-          ],
-          "dont": [
-            "Kendini küçümseme",
-            "Geri çekilme",
-            "Riske girmekten kaçınma"
-          ],
-          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-06T14:28:48.779Z"
-        }
-      ],
-      "createdAt": "2026-03-06T14:28:49.279Z"
-    },
-    "2026-03-08": {
-      "horoscopes": [
-        {
-          "date": "2026-03-08",
-          "sign": "aries",
-          "headline": "Düşüncelerini duvara yansıt!",
-          "body": "Bugün kendini ifade etmenin yollarını sorgula; gözlerin göremediği, kulakların duyamadığı ama kalbinin hissettiği o içsel resimleri dışa vur. Korkularını sanatla erit, egonu tuvale dök!",
-          "do": [
-            "Kendi duvarını boya",
-            "Fikirlerini çığlıkla haykır",
-            "Gölgeni ışığa taşı"
-          ],
-          "dont": [
-            "Renklerden kaçma",
-            "Duygularını bastırma",
-            "Sessiz kalma"
-          ],
-          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-06T14:28:53.698Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "taurus",
-          "headline": "Sorumluluğun ağırlığına meydan oku!",
-          "body": "Bugün anne veya baba rolünün getirdiği sınırları sorgula; sorumlulukların seni baskı altına almasına izin verme. Kendi kurallarını koy ve geleneksel kalıpları kır. İçindeki rehber, seni özgür kılacak.",
-          "do": [
-            "Kendi yolunu çiz",
-            "Kalıpları değiştir",
-            "Özgürlüğünü haykır"
-          ],
-          "dont": [
-            "Alışılmışı tekrarlama",
-            "Başkalarını suçlama",
-            "Korkulara teslim olma"
-          ],
-          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-06T14:28:58.184Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "gemini",
-          "headline": "Genelleme tuzağına düşme, kendi yolunu bul!",
-          "body": "Bugün bütün kuşların aynı tüyden olmadığını hatırla; etrafındaki her şeyin tek bir kalıba uymadığını fark et. Algılarını genişlet, detaylardan korkma.",
-          "do": [
-            "Görüş açılarını sorgula",
-            "Farklı bir yol seç"
-          ],
-          "dont": [
-            "Hızlı hüküm verme",
-            "Alışılmışı tekrarlama"
-          ],
-          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-06T14:29:01.655Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "cancer",
-          "headline": "Önceliklerini sorgula, anlamı keşfet!",
-          "body": "Bugün başkalarının beklentileri yerine kendi kalbinin taleplerine odaklan. Hayatına anlam katan yönleri belirle ve onlara sıkı sıkıya sarıl. Kendini yüzeysel düşüncelerle kandırma.",
-          "do": [
-            "Kendi sesini dinle",
-            "Anlamı kucakla",
-            "Yolunu aydınlat"
-          ],
-          "dont": [
-            "Başkalarına uyma",
-            "Önceliklerini unutma",
-            "Gerçeği göz ardı etme"
-          ],
-          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-06T14:29:07.255Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "leo",
-          "headline": "Affetmek, seni özgür bırakacak.",
-          "body": "Bugün geçmişin gölgeleri altında boğulma; affetmek, kontrolü elinde tutmanın en radikal yoludur. Başka birine sunduğun hoşgörü, kendi zincirlerini kırar.",
-          "do": [
-            "Bağışla ve ileri bak",
-            "Kendi değerini yeniden tanımla"
-          ],
-          "dont": [
-            "Eski yaralara saplanma",
-            "Kin tutma"
-          ],
-          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-06T14:29:10.647Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "virgo",
-          "headline": "Güvenin sınırlarını zorla!",
-          "body": "Bugün, inancının sarsılmaz olduğunu sandığın yerden başlayarak kendini sorgula. Korku ile yüzleşmekten kaçındığın sürece yalnızca kendini küçültürsün. Büyük riskler, büyük kazançlar getirir.",
-          "do": [
-            "Korkularına meydan oku",
-            "İnandığın şeyleri sorgula"
-          ],
-          "dont": [
-            "Kendini küçümseme",
-            "İç sesini susturma"
-          ],
-          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-06T14:29:15.602Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "libra",
-          "headline": "Sadakat mı, alışkanlık mı?",
-          "body": "Bugün dostluğu sorgula, sadakat nedir keşfet. Teslimiyetle alışkanlık arasında ince bir çizgi var, hangisini seçtiğini düşün. Bu seni özgürleştirebilir ya da köleleştirebilir.",
-          "do": [
-            "Dostlarını gözden geçir",
-            "Sadakat sınırlarını zorla"
-          ],
-          "dont": [
-            "Yanlış güvenme",
-            "Kör sadakat gösterme"
-          ],
-          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-06T14:29:19.037Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "scorpio",
-          "headline": "Hayır, en güçlü silahın",
-          "body": "Bugün hayır demenin cesaretiyle yüzleş ve sınırlarını koru. Onaylanma arzusuna kapılmadan, öz değerini savunmanın gücüne inan.",
-          "do": [
-            "Kararlılıkla hayır de",
-            "Öz değerini savun",
-            "Sınırlarını belirle"
-          ],
-          "dont": [
-            "Onay arama",
-            "Taviz verme",
-            "Uysal olma"
-          ],
-          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-06T14:29:22.564Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "sagittarius",
-          "headline": "Hayali düşmanınla yüzleş!",
-          "body": "Bugün projeksiyonların, başkalarına yüklediğin korkularının farkına varma zamanı. Kendini apaçık görmekten kaçınıyorsun, ama aynadaki yansımaya daha yakından bak. Kendi gölgenden kaçmak yerine onunla dans et.",
-          "do": [
-            "Kendine dürüst ol",
-            "Gölgene adım at",
-            "Korkularını sorgula"
-          ],
-          "dont": [
-            "Suçlama",
-            "Kendini kandırma",
-            "Gerçeklerden kaçma"
-          ],
-          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-06T14:29:26.540Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "capricorn",
-          "headline": "Otoritenin Sınırlarını Zorla!",
-          "body": "Bugün otoriteyle olan ilişkini gözden geçir; sadece boyun eğmek yerine sorgula, otoritenin hak ettiğinden fazlasını verme. Kendi gücünü hissetmek için meydan oku, ilahi bir devrim yarat.",
-          "do": [
-            "Kendi kurallarını belirle",
-            "Sınırlarını test et",
-            "Güçlü bir adım at"
-          ],
-          "dont": [
-            "Körüne boyun eğme",
-            "Kendi sesini bastırma",
-            "Yargıları sorgusuz kabul etme"
-          ],
-          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-06T14:29:31.731Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "aquarius",
-          "headline": "Bolluğun Kafeslerini Kır!",
-          "body": "Bugün sahip olduklarına odaklanarak zihnini sınırsız bir evrene aç. Bolluk, fiziksel varlıkların ötesinde düşüncede başlar. Sınırları sorgula ve kendi potansiyeline meydan oku.",
-          "do": [
-            "Farklı bir yol seç",
-            "Sınırları sorgula",
-            "Potansiyeline meydan oku"
-          ],
-          "dont": [
-            "Eksikliğe odaklanma",
-            "Kafese kapanma",
-            "Alışılmışı tekrarlama"
-          ],
-          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-06T14:29:36.283Z"
-        },
-        {
-          "date": "2026-03-08",
-          "sign": "pisces",
-          "headline": "Gerginliği sanat eserine çevir!",
-          "body": "Bugün kaçınmak yerine hisset, çünkü kendi gerilimlerinde gizli bir harita var; sana sadece çözmen için değil, dönüştürmen için ilham verebilir.",
-          "do": [
-            "Duygularını cesurca ifade et",
-            "Karşıtlıkları kucakla",
-            "İçindeki fırtınayı dinle"
-          ],
-          "dont": [
-            "Sessiz kalma",
-            "Aynı yolda yürüme",
-            "Gerginlikten sıyrılma"
-          ],
-          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-06T14:29:40.676Z"
-        }
-      ],
-      "createdAt": "2026-03-06T14:29:41.177Z"
-    },
     "2026-03-09": {
       "horoscopes": [
         {
           "date": "2026-03-09",
           "sign": "aries",
-          "headline": "Anne/Baba Rolünde Sınırları Zorla!",
-          "body": "Bugün ebeveynlik kisvesi altında otoriteni sorgula. Kalıpların dışına çıkıp, itaatin kölesi olmadan rehber olmanın gücünü keşfet. Bağları kuvvetlendir, ama kendi özünü kaybetme.",
+          "headline": "Anne/Baba Rolünü Sorgula, Gücü Bul!",
+          "body": "Bugün ebeveyn rollerinle yüzleş; toplumun sana biçtiği rolü değil, içindeki gerçek sesi dinle. Güçlü olmak, kendine dair gerçeği kabullenmekten geçer.",
           "do": [
-            "Sorgulayıcı ol",
-            "Özgün kal",
-            "Kalıpları kır"
+            "Kendi gerçekliğini keşfet",
+            "Hedeflerin için ayağa kalk"
           ],
           "dont": [
-            "Kendini unutma",
-            "Kör itaat etme",
-            "Kalıba sıkışma"
+            "Görünüşe aldanma",
+            "Toplumun kalıplarına sıkışma"
           ],
           "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-09T06:31:54.905Z"
+          "createdAt": "2026-03-10T07:05:39.424Z"
         },
         {
           "date": "2026-03-09",
           "sign": "taurus",
-          "headline": "Genellemeyle sınırlı kalma, özgürlüğü seç!",
-          "body": "Bugün büyük lafların arkasında kaybolma, detaylar derin mesajlar içeriyor. Tek bir kalıba sığmaya çalışma, her anın farklı bir hikâyesi var. Kendini keşfetmekten korkma.",
+          "headline": "Genel yargılar, dar kalıplar yaratır!",
+          "body": "Bugün genellemelerin kölesi olma, her durumun kendi öyküsü vardır. Her şey göründüğü gibi değildir; detaylara in, yüzeyin altına bak. Gerçekler seni şaşırtabilir.",
           "do": [
-            "Detayları incele",
-            "Yeni hikayeler bul",
-            "Kendini keşfet"
+            "Derinlere in",
+            "Detayları keşfet",
+            "Öyküleri sorgula"
           ],
           "dont": [
-            "Hızlı hüküm verme",
-            "Alışılmışı tekrarlama",
-            "Geri adım atma"
+            "Yargılama",
+            "Üstünkörü bakma",
+            "Varsayımlara kapılma"
           ],
           "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-09T06:31:58.919Z"
+          "createdAt": "2026-03-10T07:05:43.803Z"
         },
         {
           "date": "2026-03-09",
           "sign": "gemini",
-          "headline": "Gözlerinle değil, kalbinle sorgula!",
-          "body": "Bugün, her şeyin üzerinde bir anlam arayışı içindesin ama bütün cevaplar yüzeyde değil. Önceliklerini sorgula, belki de sandığın kadar önemli değiller. İçten bir meydan okuyuş başlat, kendine karşı.",
+          "headline": "Arzuların labirentinde yolunu seç!",
+          "body": "Bugün hangi alanda gerçek anlamı bulduğunu sorgula; yüzeydeki parıltılara kapılmak yerine derinlerdeki sesi duy. Önceliklerini belirle ve anlamı orada ara.",
           "do": [
-            "Derine in",
-            "Kalbini dinle",
-            "Önem sırasını değiştir"
+            "Derinlemesine düşün",
+            "Zihnini özgür bırak",
+            "Gizli anlamları keşfet"
           ],
           "dont": [
-            "Yüzeyde kalma",
-            "Soru sormaktan kaçınma",
-            "Eski kalıpları izleme"
+            "Yüzeyde oyalanma",
+            "Anlık heveslere kapılma",
+            "Kolaya kaçma"
           ],
           "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-09T06:32:02.762Z"
+          "createdAt": "2026-03-10T07:05:48.342Z"
         },
         {
           "date": "2026-03-09",
           "sign": "cancer",
-          "headline": "Duygusal zincirlerini kır ve özgürleş!",
-          "body": "Bugün affetme yolculuğunda, geçmişin ağırlığını bırakacak cesareti bul. Duyguların prangalarında hapsolma, kalbinde açtığın yaraları sar ve yeni başlangıçlara adım at.",
+          "headline": "Geçmişin zincirlerini kır!",
+          "body": "Bugün eski yaraları sorgula ve kalbinin derinliklerinde saklı kalan affetme gücünü keşfet. Kendine yük ettiğin her şeyi bırakma cesaretini göster. Geçmişi sırtında taşımak sadece geleceğini yaralar.",
           "do": [
-            "Kalbinin sesini dinle",
-            "Kendini özgür bırak"
+            "Kalbini özgür bırak",
+            "Geçmişe meydan oku",
+            "Kendine şans ver"
           ],
           "dont": [
-            "Eski yaraları kaşıma",
-            "Korkularına teslim olma"
+            "Kin tutma",
+            "Öfkeyi büyütme",
+            "Yaraları deşme"
           ],
           "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-09T06:32:06.710Z"
+          "createdAt": "2026-03-10T07:05:52.891Z"
         },
         {
           "date": "2026-03-09",
           "sign": "leo",
-          "headline": "Güvenin, inancın köprüleri kurmaktır.",
-          "body": "Bugün kendine güvenmek kadar başkalarının güvenine de layık mısın? İçindeki korkulara meydan oku ve inançsız kaldığın anları sorgula. Gücünü sadece kendine saklama; paylaş ki büyüsün.",
+          "headline": "Güven duvarını aş, inançla yürü!",
+          "body": "Bugün içsel güvenini sorgula, onunla yüzleş. İnanç, korkularının zayıf halkalarını kırmanın anahtarıdır. Cesaretin, seni durduran her neyse onun üzerinden atlamanı bekliyor.",
           "do": [
-            "Kendi sınırlarını zorl",
-            "Başkasına güven inşa et",
-            "Korkularınla yüzleş"
+            "Kendi sınırlarını zorla",
+            "Korkularınla yüzleş",
+            "İnançlarını test et"
           ],
           "dont": [
-            "Güvenini sorgulama",
             "Kendini küçümseme",
-            "Güvensizlik yaratma"
+            "Şüpheye teslim olma",
+            "Kaçamak cevaplar verme"
           ],
           "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-09T06:32:11.425Z"
+          "createdAt": "2026-03-10T07:05:56.991Z"
         },
         {
           "date": "2026-03-09",
           "sign": "virgo",
-          "headline": "Sadakat çemberini genişletmekten korkma!",
-          "body": "Bugün arkadaşlıklarında sınırlarını sorgula; sadakat duvarlarını aşmanın zamanı geldi. Eski alışkanlıkları kökten değiştir ve seni kısıtlayan bağlardan özgürleş.",
+          "headline": "Sadakatin sınırlarını zorla ve izle",
+          "body": "Bugün arkadaşlıklarının ne kadar derin olduğunu sorgulamak için bir fırsat. İçsel eleştirinin kılıcını kuşan, çünkü gerçek sadakat sadece zorlu sınavlarda parlar.",
           "do": [
-            "Yeni dostluklar kur",
-            "Kalabalığa karış",
-            "Açıkça güven"
+            "Kılıçları keskinleştir",
+            "Sınırları teste tut",
+            "Gerçeği açığa çıkar"
           ],
           "dont": [
-            "Eski güvenlik alanına çekilme",
-            "Sınırlara saplanma",
-            "Önyargılı yaklaşma"
+            "Kör inançlara güvenme",
+            "Kolayca kabullenme",
+            "Yüzeyde kalma"
           ],
           "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-09T06:32:15.396Z"
+          "createdAt": "2026-03-10T07:06:01.539Z"
         },
         {
           "date": "2026-03-09",
           "sign": "libra",
-          "headline": "Hayır, en güçlü kalkanındır!",
-          "body": "Bugün, 'evet'lerle örülü duvarlarını kırıp, 'hayır' demenin içsel özgürlüğünü keşfet. Çizgini çek, sınırlarını belirle, özgürlüğün tadını çıkar. Kendi terazini dengede tutmanın vakti geldi.",
+          "headline": "Hayır kelimesi, özgürlüğünün anahtarıdır.",
+          "body": "Bugün başkalarının beklentileri ve senin sınırların arasında bir savaş var; bu savaşı kazanmanın yolu hayır diyebilmekten geçiyor. Hayır dediğinde, kendi dünyanı yaratıyorsun.",
           "do": [
-            "Hayır de",
-            "Sınırlarını çiz",
-            "Dengeni kur"
+            "Kendine sadık kal",
+            "Yanılsamalara meydan oku",
+            "Net sınırlar çiz"
           ],
           "dont": [
-            "Herkesi memnun etme",
-            "Sınırlarını ihlal etme",
-            "Kararsız kalma"
+            "Uyum sağlama",
+            "Kaçış yolu arama",
+            "Kendinden ödün verme"
           ],
           "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-09T06:32:18.742Z"
+          "createdAt": "2026-03-10T07:06:05.543Z"
         },
         {
           "date": "2026-03-09",
           "sign": "scorpio",
-          "headline": "Gerçek seni gölgelerden kurtar!",
-          "body": "Bugün kendi gölgene yansıttığın korkularla yüzleş. Başkalarının hatalarını abartarak kendini saklama. Kendine dürüst olmanın zamanı geldi.",
+          "headline": "Gölgeni tanı, projeksiyonun efendisi ol",
+          "body": "Bugün başkalarında gördüğün kusurlar, kendi korkularının yansıması olabilir. Aynadaki yansımanın ötesine bak ve gerçeği keşfet. Kendi karanlığınla yüzleşmeden aydınlanamazsın.",
           "do": [
-            "Korkularını kabul et",
-            "Gerçekleri gör",
-            "Kendine meydan oku"
+            "Kendi yansımanı incele",
+            "Gerçekle yüzleş",
+            "Kendi karanlığını sorgula"
           ],
           "dont": [
-            "Başkasını suçlama",
-            "Gerçekten kaçma",
-            "Özünü gizleme"
+            "Başkalarını suçlama",
+            "Yüzeyde kalma",
+            "Gerçeği kaçırma"
           ],
           "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-09T06:32:21.697Z"
+          "createdAt": "2026-03-10T07:06:10.717Z"
         },
         {
           "date": "2026-03-09",
           "sign": "sagittarius",
-          "headline": "Otoritenin karşısında dur, kendini bul.",
-          "body": "Bugün, seni yönlendiren her sesi sorgula ve kendi sesini yükselt. Dışardan gelen baskıya direnirken, içindeki gerçek lideri keşfet. Otoriteyi sorgulamak, özgürlüğünü kazanmanın ilk adımıdır.",
+          "headline": "Sınırları Tanımak Değil, Yeniden Çizmek!",
+          "body": "Bugün kendi otoritenle yüzleş; başkalarının koyduğu kurallara körü körüne inanma. Kendine ait bir yol çiz ve kendi sesini dinle. Sorgulamadan kabullenmek seni sadece oyuncu yapar, oyunu kuran değil.",
           "do": [
-            "Sınırları zorla",
-            "Kendi otoriteni yarat",
-            "Kural koyucu ol"
+            "Kendi sesini yükselt",
+            "Sınırları yeniden çiz",
+            "Kuralları sorgula"
           ],
           "dont": [
-            "Boyun eğme",
-            "Sessiz kalma",
-            "Kendi gücünü küçümseme"
+            "Körü körüne inanma",
+            "Eski yollarda kaybolma",
+            "Sessiz kalma"
           ],
           "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-09T06:32:24.818Z"
+          "createdAt": "2026-03-10T07:06:15.833Z"
         },
         {
           "date": "2026-03-09",
           "sign": "capricorn",
-          "headline": "Bolluk korkudan değil, cesaretten doğar.",
-          "body": "Bugün cömertliğe niyet et ve kaynaklarını bolca paylaş. Kıtlık zihniyetinin zincirlerini kır ve bolluğun seni bulmasına izin ver. Kendini sınırlama duvarlarını aş, zenginlik akışına cesurca dal.",
+          "headline": "Bolluk korkudur, yüzleşmeye cesaret et!",
+          "body": "Bugün korkularının arkasına saklanma; bolluğun getirdiği özgürlüğe karşı duruşunu sorgula. Kaybetme kaygısı seni zorluyorsa, belki de gerçek zenginlik başka bir yerde saklıdır.",
           "do": [
-            "Bolluğu kucakla",
-            "Cömertçe paylaş",
-            "Korkularına meydan oku"
+            "Kendi sınırlarını zorl",
+            "Risk al",
+            "Bilinmeyene kucak aç"
           ],
           "dont": [
-            "Kıtlık düşünme",
-            "Kendi sınırlarını çizme",
-            "Şüphelerle oyalanma"
+            "Güvende hissettiğin yerde kalma",
+            "Eski alışkanlıklara tutunma",
+            "Korkulara teslim olma"
           ],
           "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-09T06:32:28.640Z"
+          "createdAt": "2026-03-10T07:06:20.641Z"
         },
         {
           "date": "2026-03-09",
           "sign": "aquarius",
-          "headline": "Gerginlik pusulan, yönünü bul!",
-          "body": "Bugün huzursuzluk seni içten içe dürtüyor, dikkatini dağıtan kaynakları bul ve onları alt et. Kaçamak yapma, karmaşanın tam içindesin; belki de özgürlüğün bu zorluğun arkasında saklıdır.",
+          "headline": "Sınırlarınla Dans Et, Korkusuzca!",
+          "body": "Bugün gerginlik haritasında belirsizlik ve cesaret arasında dans etme zamanı. Sınırlarını test et ve rutine meydan oku. Kendini keşfetmenin yolu çatlaklarda gizli.",
           "do": [
-            "Kaosla yüzleş",
-            "Kendi sınırlarını belirle",
-            "Fırtınaya odaklan"
+            "Belirsizlikle yüzleş",
+            "Sınırlarını zorla",
+            "Kendini keşfet"
           ],
           "dont": [
-            "Gerginliğe teslim olma",
-            "Belirsizlikten sakınma",
-            "Riskten kaçma"
+            "Korkularına teslim olma",
+            "Rutine hapsolma",
+            "Konfor alanında saklanma"
           ],
           "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-09T06:32:32.061Z"
+          "createdAt": "2026-03-10T07:06:24.099Z"
         },
         {
           "date": "2026-03-09",
           "sign": "pisces",
-          "headline": "Hayal gücünü kanatlandır, sessizliğe bürünme",
-          "body": "Bugün, sıradanlığın gölgesinde kalma; renklerin, şekillerin ve ifadelerin senin hikayeni anlatmasına izin ver. Kendi iç dünyanı cesurca dışarı yansıt ve sessizliği kır. Görsel ifadeyle sınırlarını zorla.",
+          "headline": "Görsel Düşüncelerinle Dünyayı Şekillendir!",
+          "body": "Bugün hayal gücünü estetik bir meydan okumaya dönüştür; gözlerinle konuş, renklerle fısılda. Kendine ve çevrene yeni bir perspektif sunma cesaretini göster. Duygularını kelimelere hapsetmeye çalışma.",
           "do": [
-            "Görsel bir hikaye anlat",
-            "Renkleri cesurca seç",
-            "Kendi tarzını yarat"
+            "Renklerle oyna",
+            "Hayal gücünü serbest bırak",
+            "Kendini ifade et"
           ],
           "dont": [
-            "Sıradan kalma",
-            "Kendini kısıtlama",
-            "Sessizliğe gömülme"
+            "Görselliği küçümseme",
+            "İçine kapanma",
+            "Duygularını bastırma"
           ],
           "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-09T06:32:35.269Z"
+          "createdAt": "2026-03-10T07:06:29.869Z"
         }
       ],
-      "createdAt": "2026-03-09T06:32:35.770Z"
+      "createdAt": "2026-03-10T07:06:30.369Z"
     },
     "2026-03-10": {
       "horoscopes": [
         {
           "date": "2026-03-10",
           "sign": "aries",
-          "headline": "Genellemelerle Kendini Kısıtlama, Keşfet!",
-          "body": "Bugün her şeyi bir kalıba sokma eğilimin var. Düşüncelerinle dünyayı tek renk görebilirsin ama daha geniş bir spektrum seni bekliyor. Kalıpları kır ve farklı bakış açılarına kucak aç!",
+          "headline": "Genellemeler Seni Esir Almaz!",
+          "body": "Bugün, tek bir bakış açısının seni körleştirmesine izin verme. Herkesin ve her şeyin farklı olduğunu kabul et, aksi takdirde kendini kısıtlayabilirsin. Düşüncelerini esnet, sabit bir zeminde çakılı kalma.",
           "do": [
-            "Görüşünü genişlet",
-            "Yeni perspektifler ara",
-            "Renkleri keşfet"
+            "Farklı bir yol seç",
+            "Önyargıları sorgula"
           ],
           "dont": [
-            "Kalıplara sıkışma",
-            "Stereotipleri onaylama",
-            "Genellemelerle yetinme"
+            "Hızlı hüküm verme",
+            "Alışılmışı tekrarlama"
           ],
           "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-09T06:32:39.087Z"
+          "createdAt": "2026-03-10T07:06:33.292Z"
         },
         {
           "date": "2026-03-10",
           "sign": "taurus",
-          "headline": "Önceliklerinin efendisi ol!",
-          "body": "Bugün dikkatini dağıtan her şeye meydan oku ve neyin gerçekten önemli olduğunu sorgula. Anlamsız yüklerden kurtulmazsan, hayatını çok daha zorlaştıracaksın.",
+          "headline": "Anlamın peşinde yalpalama!",
+          "body": "Bugün değerlerin ve önceliklerin sorgulanmayı bekliyor. İnatla koruduğun konfor alanında neyi kaybettiğine bak. Yüzleşmekten kaçınma, gerçeklerle dans et.",
           "do": [
-            "Önceliklerini belirle",
-            "Kendini sorgula",
-            "Gereksizi ele"
+            "Anlamın peşine düş",
+            "Değerlerini sorgula"
           ],
           "dont": [
-            "Boş yere oyalanma",
-            "Ertelemeye sığınma",
-            "Anlamsız yük taşıma"
+            "Rutinine saplanma",
+            "Yanıtları erteleme"
           ],
           "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-09T06:32:42.502Z"
+          "createdAt": "2026-03-10T07:06:37.229Z"
         },
         {
           "date": "2026-03-10",
           "sign": "gemini",
-          "headline": "Affetmek cesaretin asıl sınavıdır.",
-          "body": "Bugün eski yaralardan kaçmak yerine, onlarla yüzleş ve onları affetmek için adım at. Affetme yeteneğin, seni özgürleştirecek olan gizli gücün olabilir. Korkuların yerine cesaretle bak ve geçmişi serbest bırak.",
+          "headline": "Affetmek, Zincirlerinden Kurtulmaktır",
+          "body": "Bugün eski yaralara bak ve onları salıver. Affetmek zayıflık değil, aksine seni özgürleştirir. Geçmişin yüklerinden kurtulmak için cesur bir adım at.",
           "do": [
-            "Kendini özgür bırak",
-            "Eski zincirleri kır",
-            "Geçmişle hesaplaş"
+            "Eski hikayeleri bırak",
+            "Kalbini hafiflet",
+            "Özgürlüğü seç"
           ],
           "dont": [
-            "Kaçma",
-            "İçinde saklama",
-            "Bağışlama fırsatını kaçırma"
+            "Kin tutma",
+            "Geçmişte takılı kalma",
+            "İçini kemirme"
           ],
           "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-09T06:32:45.632Z"
+          "createdAt": "2026-03-10T07:06:40.936Z"
         },
         {
           "date": "2026-03-10",
           "sign": "cancer",
-          "headline": "Güven duvarını sorgula, inançla kır",
-          "body": "Bugün, kendi içindeki güven arzusunu sorgula ve inançla inşa ettiğin zırhların altında gizlenen korkulara meydan oku. Güvenlik alanını genişletmek için katı kalıpları yıkmak gerekebilir.",
+          "headline": "Güveninle sınırları zorla!",
+          "body": "Bugün, kendine olan inancını sorgula ve onu yeniden tanımla; çünkü asıl güç, içinde doğmamış korkuların keşfiyle başlar. Sessiz kalma, güveninle konuş!",
           "do": [
-            "Sınırlarını test et",
-            "Korkularını açığa çıkar",
-            "Harici desteğe meydan oku"
+            "Kendini aş",
+            "Risk al",
+            "Korkularını kucakla"
           ],
           "dont": [
-            "Kabuğuna çekilme",
-            "Koruma kalkanını yükseltme",
-            "Şüpheye düşme"
+            "Kendini küçümseme",
+            "Şüpheye kapılma",
+            "Geri adım atma"
           ],
           "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-09T06:32:48.666Z"
+          "createdAt": "2026-03-10T07:06:45.386Z"
         },
         {
           "date": "2026-03-10",
           "sign": "leo",
-          "headline": "Sadakat maskesini düşür!",
-          "body": "Bugün arkadaşlıkların derinliğini sorgulama günü. Gerçek dostun kim, maskesini çıkarttığında belli olacak. Gözlerini kapama; sahte ile gerçeği ayırmanın zamanı geldi.",
+          "headline": "Sadakat, sınırları zorlamak demektir.",
+          "body": "Bugün arkadaşlık dediğin şey, aslında seni ne kadar sarsabileceğine bakar. Kime ne kadar güven veriyorsun? Belki de güvenin zayıf halkası sen olabilirsin. Dön ve bununla yüzleş!",
           "do": [
-            "Gerçeklerle yüzleş",
-            "Korkusuzca sorgula",
-            "Gözlem yeteneğini kullan"
+            "Güvensizliği test et",
+            "Sorgulayıcı ol",
+            "Gözlemle ve öğren"
           ],
           "dont": [
-            "Yüzeyde kalma",
-            "Aldanmaya devam etme",
-            "Kendini kandırma"
+            "Sorgulamaktan kaçma",
+            "Her şeye inanma",
+            "Kolaya kaçma"
           ],
           "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-09T06:32:53.208Z"
+          "createdAt": "2026-03-10T07:06:50.479Z"
         },
         {
           "date": "2026-03-10",
           "sign": "virgo",
-          "headline": "Hayır demek yeni bir başlangıçtır.",
-          "body": "Bugün kendi sınırlarını keşfetmek ve korumak için cesur ol. Başkalarının talepleri arasında kaybolmadan önce, kendi isteklerine ne kadar sadık kalabildiğini sorgula. Unutma, hayır demek bazen en büyük iyiliktir.",
+          "headline": "Hayır, senin gerçek kurtuluşun.",
+          "body": "Bugün, kendine koyduğun sınırların seni nasıl koruduğunu keşfet. Hayır demek seni zayıf değil, güçlü yapar. Başkalarının beklentileri altında ezilmeden, kendi yolunu çiz.",
           "do": [
-            "Kendi sınırını belirle",
-            "Önceliklerini savun",
-            "Kararlılıkla geri adım at"
+            "Hayır de",
+            "Sınırlarını savun",
+            "Kontrolü ele al"
           ],
           "dont": [
-            "Kendini küçümseme",
-            "Taleplere boyun eğme",
+            "Pişman olma",
+            "Taviz verme",
             "Sessiz kalma"
           ],
           "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-09T06:32:56.908Z"
+          "createdAt": "2026-03-10T07:06:54.849Z"
         },
         {
           "date": "2026-03-10",
           "sign": "libra",
-          "headline": "Kendi gölgene ışık tut!",
-          "body": "Bugün, başkalarının zayıflıklarını senin yansıman olarak gör. Gerçekle yüzleşmek, kendini tanımanın ilk adımıdır; kaçmak değil, içine bakmaktır. Kendini kaybetme, projeksiyonlarını fark et.",
+          "headline": "Gerçek seni bulmadan, sen onu bul!",
+          "body": "Bugün, başkalarında gördüğün kusurların seni rahatsız etmesine izin verme; çünkü bunlar senin yansıman olabilir. Kendini başkalarının gözüyle görmeyi dene. Belki de gördüğün her şey o kadar da kötü değildir.",
           "do": [
-            "Kendi kusurlarını keşfet",
-            "Aynaya derin bak",
-            "Gölgenle yüzleş"
+            "Aynaya cesurca bak",
+            "Gerçeği sahiplen",
+            "Kendi yansımana meydan oku"
           ],
           "dont": [
-            "Başkalarını suçlama",
-            "Kendini kandırma",
-            "Kaçış yolu arama"
+            "Kendini gizleme",
+            "Suçlamalara kapılma",
+            "Yansımalardan kaçma"
           ],
           "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-09T06:33:02.410Z"
+          "createdAt": "2026-03-10T07:07:00.014Z"
         },
         {
           "date": "2026-03-10",
           "sign": "scorpio",
-          "headline": "Güç savaşlarının içindeki dansçısın!",
-          "body": "Bugün, kontrolü elinde tutma arzusuyla otoriteye karşı verdiğin mücadele seni zorlayabilir. Güçlü olanı zorla yerinden etme, içindeki sessiz güce odaklan. Kendi kurallarını yaratmak için fırsatı kaçırma.",
+          "headline": "Kendi otoritenin efendisi ol!",
+          "body": "Bugün içindeki otoriteye meydan oku, başkalarının senin üstünde kurduğunu düşündüğün gücü sorgula. Kontrolü başkasına bırakmak yerine, kendi düzenini yarat. Harekete geç ve iradeni körükle!",
           "do": [
-            "Kendi sınırlarını belirle",
-            "Güç oyunlarını sorgula",
-            "Egemenliğine meydan oku"
+            "Güç dengelerini boz",
+            "Kendine meydan oku",
+            "Kendi kurallarını koy"
           ],
           "dont": [
-            "Güç gösterisi yapma",
-            "Başkalarının kurallarına uyma",
-            "Sessiz kalma"
+            "Başkasının ipini tutma",
+            "Boyun eğme",
+            "Kontrolü verme"
           ],
           "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-09T06:33:06.581Z"
+          "createdAt": "2026-03-10T07:07:04.124Z"
         },
         {
           "date": "2026-03-10",
           "sign": "sagittarius",
-          "headline": "Arzunun iplerini sen çek!",
-          "body": "Bugün, bolluğun senin zihninde filizlendiğini fark et. Bolluğa ulaşma yolunda içsel dirençlerine göz at. Varlığınla dünyayı şekillendir, ama önce kendine dönüp bakmayı ihmal etme.",
+          "headline": "Sınırsızlığın Tadı Bugün Damakta",
+          "body": "Bugün gözlerini aç ve bolluğu sadece maddi değil, zihinsel düzeyde de aramaya başla. Hayatın cömertliğini sorgula, belki de sınırlara ihtiyaç duymazsın.",
           "do": [
-            "Fırsatları kucakla",
-            "Gizli arzuya kulak ver",
-            "Kendine yatırım yap"
+            "Ufkun ötesine bak",
+            "Yeni fırsatları keşfet",
+            "Kural koyucuları sorgula"
           ],
           "dont": [
-            "Korkularınla hesaplaşma",
-            "Sınırlara boyun eğme",
-            "Hayal gücünü kısıtlama"
+            "Eksiklik düşünme",
+            "Kısıtlamalara teslim olma",
+            "Yalnızca görüneni alma"
           ],
           "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-09T06:33:11.188Z"
+          "createdAt": "2026-03-10T07:07:08.550Z"
         },
         {
           "date": "2026-03-10",
           "sign": "capricorn",
-          "headline": "Gerilimdeki gücü hisset, kullan!",
-          "body": "Bugün sınırlarını zorlama zamanı; rahat hissettiğin yerden çık ve gerginliğin haritasını çiz. Korkularını tanı, onlar sana güç verir. Paniğe kapılmak yerine gerilimi yönetmeyi öğren.",
+          "headline": "Düşleri yırt, gerçeğe bak!",
+          "body": "Bugün gerginliklerin seni nasıl şekillendirdiğine dikkat et. İçsel çatışmaların sana rehberlik edebilir, fakat onları sadece birer engel olarak görmekten vazgeç. Seni tetikleyen her şey, keşfetmediğin bir yanını sana gösteriyor.",
           "do": [
-            "Gerilime meydan oku",
-            "Korkuları tanı",
-            "Kontrolü ele al"
+            "Gerginliğe meydan oku",
+            "Kendini sorgula",
+            "Derinlere in"
           ],
           "dont": [
-            "Korkudan kaçma",
-            "Hareketsiz kalma",
-            "Saklanma"
+            "Kaçınma",
+            "Üstünü örtme",
+            "Yüzeyde kalma"
           ],
           "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-09T06:33:14.509Z"
+          "createdAt": "2026-03-10T07:07:13.166Z"
         },
         {
           "date": "2026-03-10",
           "sign": "aquarius",
-          "headline": "Görünür Olmak Cesaret İster",
-          "body": "Bugün ifade bulmaya cesaret et; görünürde olanın ötesine geç ve içsel yaratıcılığını dışa vur. Bilinenden kaçışın, belirsizliğin içine açılan bir pencere olduğunu fark et.",
+          "headline": "Görsel diliyle gerçekliği sars!",
+          "body": "Bugün baktığın her şeyde bir anlam arama ama bu anlamı sadece gözlerinle değil, ruhunla ifade et. Yaratıcılığın sınırlarını görsel bir patlamayla zorla. Algılarını zorla, çünkü sıradanlık seni beklemiyor.",
           "do": [
-            "İçindeki renkleri sergile"
+            "Renkleri özgür bırak",
+            "Zihin duvarlarını yık",
+            "Yeni perspektifler tasarla"
           ],
           "dont": [
-            "Görünmez kalma"
+            "Detaylarda kaybolma",
+            "Görmezden gelme",
+            "Kalıplara sıkışma"
           ],
           "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-09T06:33:17.669Z"
+          "createdAt": "2026-03-10T07:07:17.561Z"
         },
         {
           "date": "2026-03-10",
           "sign": "pisces",
-          "headline": "Kendi kanatlarını çırpmanın vakti geldi!",
-          "body": "Bugün anne ya da baba olmanın ne demek olduğunu düşün; başkasının gözünden beklentilerin, hayal kırıklıkların ve vazgeçişlerin arasında sıkışma. Kendi hikayeni yazmak için başkalarının senaryosundan çık.",
+          "headline": "Anne/baba rolünü sorgula ve dönüştür",
+          "body": "Bugün ebeveynliğin seni nasıl şekillendirdiğini düşün ve bu role gerçekten nasıl bir anlam kattığını sorgula. Kendini yeni bir ebeveynlik tanımına aç, eski kalıplarını kır.",
           "do": [
-            "Kendi yolunu çiz",
-            "Farklı bir perspektif yarat",
-            "İçindeki sesi dinle"
+            "Kalıpları parçala",
+            "Özgün bir yol aç",
+            "Kendini keşfet"
           ],
           "dont": [
-            "Başkalarının yükünü taşıma",
-            "Kendi sınırlarını unutma",
-            "Eskiye takılıp kalma"
+            "Rolünü ezbere yaşama",
+            "Korkulara esir olma",
+            "Sınırlarını unutma"
           ],
           "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-09T06:33:21.669Z"
+          "createdAt": "2026-03-10T07:07:22.139Z"
         }
       ],
-      "createdAt": "2026-03-09T06:33:22.171Z"
+      "createdAt": "2026-03-10T07:07:22.640Z"
     },
     "2026-03-11": {
       "horoscopes": [
         {
           "date": "2026-03-11",
           "sign": "aries",
-          "headline": "Önceliklerin seni şekillendirir!",
-          "body": "Bugün hayatının anlamını sorgula ve önceliklerini yeniden gözden geçir. Yaşamın rutine düşmesine izin verme. Seni neyin gerçekten motive ettiğini keşfet ve bu yolda ilerle.",
+          "headline": "Önceliklerinle Dans Et, Anlamı Yakala",
+          "body": "Bugün yüzeydeki boş koşuşturmaları bırakıp, neyin gerçekten anlamlı olduğunu keşfetmek için derine bak. İçsel dürtülerine karşı nasıl pozisyon alıyorsun? Önceliklerini yeniden belirlemek seni başka bir yola sokabilir.",
           "do": [
-            "Kendini sorgula",
-            "Önceliklerini belirle",
-            "Anlamı ara"
+            "Derine in",
+            "Önceliklerini sorgula",
+            "Anlamı seç"
           ],
           "dont": [
-            "Rutine düşme",
-            "Boşverme",
-            "Önemsizleştirme"
+            "Yüzeyde kalma",
+            "Boş koşuşturma yapma",
+            "Eski yolda saplanma"
           ],
           "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-09T06:33:24.485Z"
+          "createdAt": "2026-03-10T07:07:26.598Z"
         },
         {
           "date": "2026-03-11",
           "sign": "taurus",
-          "headline": "Affet, ama iz bırakma!",
-          "body": "Bugün affetmek, seni özgürleştirecek en güçlü silahın. Ancak affetmek, unutmak değildir; her yara bir iz bırakır. Kendine ve başkalarına karşı dürüst ol, ama izlerin sana yol gösterici olsun.",
+          "headline": "Affetme, zincirleri kıran cesarettir.",
+          "body": "Bugün, geçmişin yükünü sırtında taşımaya devam mı edeceksin yoksa affetmenin özgürleştirici gücünü mü keşfedeceksin? Affetmek, kendine yeni bir başlangıç hediye etmek demektir.",
           "do": [
-            "Eski defterleri kapat",
-            "Kalbini arındır",
-            "Yeni bir sayfa aç"
+            "Affetmeyi seç",
+            "Geçmişi serbest bırak",
+            "Yeniliklere kapı aç"
           ],
           "dont": [
-            "Geçmişi tekrar etme",
-            "Kendini yıpratma",
-            "Hoşnutsuzluk biriktirme"
+            "İntikam planlama",
+            "Geçmişte oyalanma",
+            "Öfkeye teslim olma"
           ],
           "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-09T06:33:28.467Z"
+          "createdAt": "2026-03-10T07:07:31.277Z"
         },
         {
           "date": "2026-03-11",
           "sign": "gemini",
-          "headline": "Güven, korkuyu esir alır.",
-          "body": "Bugün güvenin sınırlarını sorgula; inanç bir kalkan değil, seni başkalarına açan bir kapıdır. Açık bir zihin, kapalı kapılardan daha değerlidir.",
+          "headline": "İnançsızlık Korkudan Doğar, Unutma!",
+          "body": "Bugün, içindeki şüpheyi bir kenara bırak ve güvenin sınırlarını zorla. Kendi gücüne inanmadıkça, başkalarının inancı da boş kalır. Kendine biraz daha güven, risk almanın tam zamanı.",
           "do": [
-            "Kapıları ardına kadar aç",
+            "Kendine meydan oku",
+            "Sınırlarını genişlet",
             "Güvenle ilerle"
           ],
           "dont": [
-            "Şüpheye teslim olma",
-            "Korkuyu büyütme"
+            "Şüpheye kapılma",
+            "Cesareti erteleme",
+            "Korkuya yenilme"
           ],
           "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-09T06:33:31.436Z"
+          "createdAt": "2026-03-10T07:07:35.807Z"
         },
         {
           "date": "2026-03-11",
           "sign": "cancer",
-          "headline": "Sadakat sınavı: Gerçek dost kim?",
-          "body": "Bugün arkadaşlık maskelerinin düşmesine hazırlıklı ol; sadakat sorgulanıyor. Kendini koruma içgüdünle yüzleş, zira algılar aldatıcı olabilir. Samimiyetin test ediliyor; kalbinin sesini dinle ama gözlerini de açık tut.",
+          "headline": "Sadakat mi, zincir mi?",
+          "body": "Bugün, sadakat adı altında kendine ördüğün duvarları sorgula. Arkadaşlık zannedip içinde hapsolduğun kalıplar, seni nereye sürüklüyor? Kendini esir mi alıyorsun, yoksa gerçekten özgür müsün?",
           "do": [
-            "Gerçekleri netleştir",
-            "Kendi değerini belirle",
-            "Seçimlerinde cesur ol"
+            "Sınırlarını test et",
+            "Gerçeği açıkça söyle"
           ],
           "dont": [
-            "Görmezden gelme",
-            "Kabul etmekte acele etme",
-            "Yanılgılara kapılma"
+            "Kendini geri plana atma",
+            "Eski alışkanlıklara sarılma"
           ],
           "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-09T06:33:35.412Z"
+          "createdAt": "2026-03-10T07:07:40.546Z"
         },
         {
           "date": "2026-03-11",
           "sign": "leo",
-          "headline": "Hayır demek seni özgürleştirir",
-          "body": "Bugün sınırlarını yeniden çizmek için bir fırsat. Alıştığın konfor alanları aslında seni kısıtlayan kafesler olabilir. Hayır demenin gücünü keşfet ve kim olduğunu gör.",
+          "headline": "Hayır, bir özgürlük manifestosudur.",
+          "body": "Bugün sınırlarını yeniden tanımlamak için bir fırsat. Her evet, kontrolünü kaybetme riski taşır. İstemediğinde 'hayır' demek, kendi dünyanı savunmaktır. Egonu değil, özgürlüğünü seç.",
           "do": [
-            "Sınırlarını belirle",
-            "Özgürlüğünü savun",
-            "Sessizliği boz"
+            "Kendi alanını belirle",
+            "Düşüncelerini yüksek sesle ifade et",
+            "Rehavetle savaş"
           ],
           "dont": [
-            "Fedakarlık yapma",
-            "Sınırlarını unutma",
-            "Kendi sesini yutma"
+            "Baskılara boyun eğme",
+            "Kendine ihanet etme",
+            "Özgürlüğünden ödün verme"
           ],
           "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-09T06:33:38.578Z"
+          "createdAt": "2026-03-10T07:07:44.222Z"
         },
         {
           "date": "2026-03-11",
           "sign": "virgo",
-          "headline": "Kendi gölgene dikkatle bak.",
-          "body": "Bugün bir aynaya değil, projeksiyona bak; başkalarının hataları üzerinden kendi eksiklerini görme fırsatı bulabilirsin. Gerçek, beklenmedik bir yerde saklanıyor.",
+          "headline": "Yansımalarınla yüzleş, kendini keşfet.",
+          "body": "Bugün başkalarının senin aynan olduğunu fark et. En rahatsız eden tavırda bile kendini bulabilirsin. Gerçek değişim, bu projeksiyonları çözümlemekte saklı.",
           "do": [
-            "Gerçeği sorgula",
-            "Farkındalık yarat",
-            "Konteksti değiştir"
+            "Kendine ayna tut",
+            "Gizli mesajı bul",
+            "Yüzleşmeye cesaret et"
           ],
           "dont": [
-            "Yansıtma yapma",
-            "Kolaya kaçma",
-            "Kendini kandırma"
+            "Yargılama",
+            "Gölgeyi görmezden gelme",
+            "İçsel sesi susturma"
           ],
           "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-09T06:33:42.096Z"
+          "createdAt": "2026-03-10T07:07:49.956Z"
         },
         {
           "date": "2026-03-11",
           "sign": "libra",
-          "headline": "Kontrolün altında mısın, yoksa altında mısın?",
-          "body": "Bugün otorite figürleriyle olan dansın seni yeniden tanımlayabilir. Başkalarının kuralları altında sessizce yürümek yerine, kendi çizgini belirle. Gerçek gücün nerede yattığını sorgula.",
+          "headline": "Otoriteye boyun eğme, sınırları sars!",
+          "body": "Bugün güçlü görünen otorite figürlerinin üstündeki maskeleri indir ve kendi sesinin ne kadar gür çıktığını duy. Sorgulamadan kabul ettiğin kuralları tekrar değerlendir ve kendi adalet terazini oluştur.",
           "do": [
-            "Kuralları sorgula",
-            "Kendi sınırlarını çiz",
-            "Otoriteyi test et"
+            "Kendine meydan oku",
+            "Sınırları yeniden çiz",
+            "Gerçeği sorgula"
           ],
           "dont": [
-            "Boyun eğme",
-            "Sessiz kalma",
-            "Gerçekten kaçma"
+            "Otoriteye itaat etme",
+            "Kolaya kaçma",
+            "Sessiz kalma"
           ],
           "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-09T06:33:46.178Z"
+          "createdAt": "2026-03-10T07:07:53.764Z"
         },
         {
           "date": "2026-03-11",
           "sign": "scorpio",
-          "headline": "Bolluk, cesurca risk almaktır.",
-          "body": "Bugün senin için bolluk, sahip olduklarını güvenceye almak değil, cesur adımlar atarak yeni olasılıkları keşfetmek demek. Korkularının kollarını sıvazla, güvende hissettikçe hareketsiz kalırsın.",
+          "headline": "Bolluk, yoklukla dansa kalkmaktır.",
+          "body": "Bugün sahip olduklarına değil, sahip olabileceklerine odaklan; eksikliklerin, fırsatların maskesidir. Korkularını, arzuların için yakıt yap ve her kuruntuyu bir basamak olarak kullan.",
           "do": [
-            "Risk al",
-            "Yeni bir şey dene",
-            "Sınırlarını zorla"
+            "Görünmeyeni fark et",
+            "Fırsatları genişlet",
+            "Korkularınla yüzleş"
           ],
           "dont": [
-            "Güvenceye sığınma",
-            "Korkularınla yüzleşmekten kaçma",
-            "Aynı dairede dönme"
+            "Eksiklere takılma",
+            "Küçük düşünme",
+            "Şüpheye yer verme"
           ],
           "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-09T06:33:50.857Z"
+          "createdAt": "2026-03-10T07:07:59.216Z"
         },
         {
           "date": "2026-03-11",
           "sign": "sagittarius",
-          "headline": "Gerginliği kucakla, kaçma",
-          "body": "Bugün içindeki çatışmalara bak, gerginliklerin seni köşeye sıkıştırmak yerine yeni bir harita çizsin. Kaçındığın her şeyin üzerine git, onları tanı ve dönüştür.",
+          "headline": "Gerginlik seni özgür bırakır.",
+          "body": "Bugün gerginliğin sınırlarını keşfetmekten korkma; bu, seni yeni boyutlara taşır. Sürekli hareket edişin, içinde bastırdığın huzursuzluğu açığa çıkarır. Gerginliğe direnç göster, bu seni büyütecek.",
           "do": [
-            "Gerçeklerle yüzleş",
             "Kendine meydan oku",
-            "Risk al"
+            "Gerginliği kucakla",
+            "Sınırları zorla"
           ],
           "dont": [
-            "Kendi kendini kandırma",
-            "Kaçış yolu arama",
-            "Eski hikayeyi tekrar etme"
+            "Geri çekilme",
+            "Belirsizlikten kaçma",
+            "Kolaya kaçma"
           ],
           "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-09T06:33:54.426Z"
+          "createdAt": "2026-03-10T07:08:02.901Z"
         },
         {
           "date": "2026-03-11",
           "sign": "capricorn",
-          "headline": "Gör, göster, hükmedersin.",
-          "body": "Bugün duvarların ardındaki görsel gücünü salıver. Sıkıcı yapının dışına çık; imgelerle konuşarak etki alanını genişlet. Hareketsiz duranları sarsacak bir iz bırak.",
+          "headline": "Yüzeye çık, içindekini göster!",
+          "body": "Bugün duygu ve düşüncelerini saklamak yerine, onları dışa vurmanın zamanı geldi. Kendi içindeki sanatı ortaya çıkar; bilmeceler çözülür, duvarlar yıkılır. İçindeki sesi susturma, ona kulak ver.",
           "do": [
-            "Farklı bir yol seç",
-            "Görüntülerle anlat",
-            "Kendini ifade et"
+            "Sanatını dünyaya sun",
+            "Kendini ifade et",
+            "İç sesini dinle"
           ],
           "dont": [
-            "Rutinle yetinme",
             "Sessiz kalma",
-            "Görmezden gelme"
+            "Geri çekilme",
+            "İçine kapanma"
           ],
           "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-09T06:33:58.626Z"
+          "createdAt": "2026-03-10T07:08:07.799Z"
         },
         {
           "date": "2026-03-11",
           "sign": "aquarius",
-          "headline": "Kalıpları Yık, Rollerini Sorgula!",
-          "body": "Bugün ebeveyn rollerine yeni gözlerle bak; belki de özgürlük arayışın bu gelenekleri sorgularak başlar. Sınırları zorlamak için cesaret bul, kalıpların seni esir etmesine izin verme.",
+          "headline": "Köprüleri yak, yenilerini inşa et!",
+          "body": "Bugün ebeveyn rollerinizle yüzleşin, geçmişin ağırlığına boyun eğmeyin, kendi kurallarınızı yazın. Kalıpları sorgulayarak, gelenekten sıyrılmanın ve bağımsızlığın tadını çıkarın.",
           "do": [
+            "Yeniden tanımla",
             "Sınırları zorla",
-            "Farklı perspektifler dene",
-            "Yeni sorular sor"
+            "Dürüstçe yüzleş"
           ],
           "dont": [
-            "Eski kalıplara sarılma",
-            "Korkulara teslim olma",
-            "Özgürlüğünden ödün verme"
+            "Geri çekilme",
+            "Gölgeyi takip etme",
+            "Köhneye tutunma"
           ],
           "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-09T06:34:02.564Z"
+          "createdAt": "2026-03-10T07:08:12.976Z"
         },
         {
           "date": "2026-03-11",
           "sign": "pisces",
-          "headline": "Genellemeler Seni Tuzağa Çeker!",
-          "body": "Bugün, her insanı ve durumu aynı kefeye koyma tuzağından uzak dur. Farkı görmezden gelmek, gerçekleri kaçırmana neden olur. Derinlerdeki ayrıntıları yakala ve genellemelerden sıyrıl.",
+          "headline": "Gerçekler Ayrıntılarda Saklıdır!",
+          "body": "Bugün genellemenin sıcak kollarında kaybolma; her ayrıntı bir gerçeği fısıldar. Büyük resme körü körüne inanmak yerine, detayların farklı hikayelerini dinle.",
           "do": [
-            "Ayrıntılara odaklan",
-            "Farklı bakış açısı geliştir",
-            "Her bireyi keşfet"
+            "Detaylarda kal",
+            "Görünmeyeni keşfet",
+            "Küçük şeyleri önemse"
           ],
           "dont": [
-            "Çabuk sonuç çıkarma",
-            "Hepsini aynı sanma",
-            "Fikirleri daraltma"
+            "Felaket senaryoları yazma",
+            "Yüzeyde kalma",
+            "Gerçekleri yok sayma"
           ],
           "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-09T06:34:06.197Z"
+          "createdAt": "2026-03-10T07:08:17.011Z"
         }
       ],
-      "createdAt": "2026-03-09T06:34:06.698Z"
+      "createdAt": "2026-03-10T07:08:17.512Z"
+    },
+    "2026-03-12": {
+      "horoscopes": [
+        {
+          "date": "2026-03-12",
+          "sign": "aries",
+          "headline": "Affet, ama unutma: Güç sende!",
+          "body": "Geçmiş yüklerini taşıyor musun? Bugün affetmenin gücünü keşfet. Ancak affetmek, unutmak demek değildir. Derinlerdeki çatışmaları bırakmadan önce, nedenlerini fark et.",
+          "do": [
+            "Dürüstçe yüzleş",
+            "Kendi yolunu çiz",
+            "Güçlü kal"
+          ],
+          "dont": [
+            "Kin tutma",
+            "Kaçış yolu arama",
+            "Zayıf hissetme"
+          ],
+          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
+          "createdAt": "2026-03-10T07:08:58.479Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "taurus",
+          "headline": "Güvensizlik, cesaretin sahte maskesidir!",
+          "body": "Bugün inanç ve şüphe arasındaki ince çizgiyi hisset. İçinde yükselen korkulara meydan oku, seni neyin geride tuttuğunu sorgula. Güveni test et, onunla yüzleşmekten çekinme.",
+          "do": [
+            "Sınırlarını sorgula",
+            "Risk al",
+            "Doğruluğunu savun"
+          ],
+          "dont": [
+            "Küçük hesaplar yapma",
+            "Endişeyle bekleme",
+            "Güvensizliğe teslim olma"
+          ],
+          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
+          "createdAt": "2026-03-10T07:09:03.528Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "gemini",
+          "headline": "Sadakat yabancı değil, korkutucu olabilir.",
+          "body": "Bugün kimin gerçekten yanında olduğunu sorgula; yüzeysel arkadaşlıkların ardındaki boşluğu keşfet. Gerçek bağlılık korkutucu ama kaçınılmazdır. Kaçak savaşçı olma, samimiyetin gücünü kucakla.",
+          "do": [
+            "Gerçek bağları ara",
+            "Maskeleri indir",
+            "Güvene meydan oku"
+          ],
+          "dont": [
+            "Yüzeyde oyalanma",
+            "Soru sormaktan çekinme",
+            "Sahte dostlukları besleme"
+          ],
+          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
+          "createdAt": "2026-03-10T07:09:10.190Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "cancer",
+          "headline": "Hayır, bir kalkan gibi kuşan!",
+          "body": "Bugün kendini korumanın en güçlü yolu, gereksiz yükleri reddetmekten geçiyor. Hayır demek bir zayıflık değil, kendi sınırlarının farkına varmaktır.",
+          "do": [
+            "Sınırlarını savun",
+            "Hayır demeyi kucakla",
+            "Kendi sesini duy"
+          ],
+          "dont": [
+            "Kendini suçlama",
+            "Fazla ödün verme",
+            "Baskıya boyun eğme"
+          ],
+          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
+          "createdAt": "2026-03-10T07:09:13.974Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "leo",
+          "headline": "Yansıttığını geri çağır!",
+          "body": "Bugün başkalarına yansıttığın imgeleri fark et; onlar senin en derin korkuların. Başkalarında gördüğün eleştiriyi, kendine yöneltilmiş bir ayna gibi düşün. En çok rahatsız eden şey aslında içindeki savaşı gösterir.",
+          "do": [
+            "Gerçeklerle yüzleş",
+            "İçsel savaşını kabul et",
+            "Kendine karşı dürüst ol"
+          ],
+          "dont": [
+            "Başkalarını suçlama",
+            "Korkularını bastırma",
+            "Gözlerini kapama"
+          ],
+          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
+          "createdAt": "2026-03-10T07:09:18.903Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "virgo",
+          "headline": "Kendi otoriteni sorgula, özgürlüğünü yeniden tanımla!",
+          "body": "Bugün gücün dışarıda değil, kendi içsel otoritenle yüzleş. Dış baskılara boyun eğmek yerine, kendi kurallarını koymanın zamanıdır. Güvende hissetmek için başkalarının onayına ihtiyacın yok.",
+          "do": [
+            "Kendi rotanı çiz",
+            "Sınırları genişlet",
+            "Özgürlüğünü savun"
+          ],
+          "dont": [
+            "Yetkiyi devretme",
+            "Başkalarının izinden gitme",
+            "Kendi sesini bastırma"
+          ],
+          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
+          "createdAt": "2026-03-10T07:09:25.479Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "libra",
+          "headline": "Bolluk, cesur kalplerin ödülüdür!",
+          "body": "Bugün zihnini genişlet, dar kalıplardan sıyrıl. Kendi değerini sorgulamayı bırak, bolluğun senin doğanın parçası olduğunu fark et. Korkularının yüzüne gül, çünkü onlar senin geçmişin bagajı.",
+          "do": [
+            "Sınırları zorla",
+            "Soruları cevapla",
+            "Görünmeyeni davet et"
+          ],
+          "dont": [
+            "Kendini küçümseme",
+            "Eski kalıplara sığma",
+            "Kaygıya teslim olma"
+          ],
+          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
+          "createdAt": "2026-03-10T07:09:29.557Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "scorpio",
+          "headline": "Kendi gölgene meydan oku!",
+          "body": "Bugün, içindeki çatışmaları bir harita gibi incele ve gerginliklerin seni nereye sürüklediğini gör. Sessiz kalmanın sonuçlarını düşün ve bu defa farklı bir yön seçmekten çekinme.",
+          "do": [
+            "Gözlerini aç",
+            "Gerçeği kabul et",
+            "Yeni bir yol keşfet"
+          ],
+          "dont": [
+            "Kaçma",
+            "Gizleme",
+            "Eski kalıplara sığınma"
+          ],
+          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
+          "createdAt": "2026-03-10T07:09:32.828Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "sagittarius",
+          "headline": "Hayal gücüne zincir vurma!",
+          "body": "Bugün kelimeler yerine gözlerinle konuş; düşüncelerini renklerle boyayarak ifade et. Kendini yansıtmak için kullandığın dar kalıpları kır. Görünmez olanı görünür kılmak senin yeteneğin.",
+          "do": [
+            "Renkleri duygularınla anlat",
+            "Düşüncelerini resimle paylaş",
+            "Hayal gücünü serbest bırak"
+          ],
+          "dont": [
+            "Sınırların içine hapsolma",
+            "Rutinlerine sadık kalma",
+            "Kendi sesini susturma"
+          ],
+          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
+          "createdAt": "2026-03-10T07:09:36.757Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "capricorn",
+          "headline": "Kendi otoritenle yüzleş!",
+          "body": "Bugün kendi içindeki ebeveyn figürüyle hesaplaş; disiplin ve kontrol takıntın seni kısıtlıyor olabilir. Beklentilerin ağırlığını sorgula, iç sesinle savaşmaya hazır ol.",
+          "do": [
+            "Kuralını sorgula",
+            "Kendi duvarlarını aş",
+            "Cesur bir adım at"
+          ],
+          "dont": [
+            "Kendini durdurma",
+            "Aşırı kontrol etme",
+            "Sessiz kalma"
+          ],
+          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
+          "createdAt": "2026-03-10T07:09:40.858Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "aquarius",
+          "headline": "Genellemeler Zihinleri Hapiste Tutar!",
+          "body": "Bugün, kalıplarla sarılı gerçekliklerini sorgula; genellemelerin seni kısıtladığını fark et. Herkesin aynı olmadığını bil, tek bir bakış açısına sıkışma. Anlamadığın şeylere yaklaş, keşfetmeye cesaret et.",
+          "do": [
+            "Tüm renkleri gör",
+            "Sınırları aş",
+            "Algını genişlet"
+          ],
+          "dont": [
+            "Tek tipe sıkışma",
+            "Hızlıca etiketleme",
+            "Önyargıya teslim olma"
+          ],
+          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
+          "createdAt": "2026-03-10T07:09:44.910Z"
+        },
+        {
+          "date": "2026-03-12",
+          "sign": "pisces",
+          "headline": "Önceliklerini sorgula, anlamı keşfet",
+          "body": "Bugün, karmaşanın ortasında kaybolma ve gerçekten değerli olanı aramaya başla. Gözünün önündeki sis perdesini kaldır, yüzeyde kalanları değil, derinlerdeki cevheri ara.",
+          "do": [
+            "Önceliklerini yeniden değerlendir",
+            "Gerçek anlamı keşfet",
+            "Yüzeyin altına bak"
+          ],
+          "dont": [
+            "Karmaşa içinde kaybolma",
+            "Yüzeysel olana takılma",
+            "Belirsizliği kucaklama"
+          ],
+          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
+          "createdAt": "2026-03-10T07:09:49.459Z"
+        }
+      ],
+      "createdAt": "2026-03-10T07:09:49.960Z"
+    },
+    "2026-03-13": {
+      "horoscopes": [
+        {
+          "date": "2026-03-13",
+          "sign": "aries",
+          "headline": "Güven eksikse, kalabalık seni yutar!",
+          "body": "Bugün, inanç kırıntılarına tutunmak yerine derinlere in ve içindeki güveni sorgula. Saklandığın kabuğun ardında neyi gizlediğini fark et ve kendine meydan oku. Sessiz kaldıkça sesini unutursun!",
+          "do": [
+            "Sesini yükselt",
+            "Korkulara gülümse",
+            "Kendini ortaya koy"
+          ],
+          "dont": [
+            "Kabuğuna çekilme",
+            "Cesaretini gizleme",
+            "Kendine ihanet etme"
+          ],
+          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
+          "createdAt": "2026-03-10T07:09:54.682Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "taurus",
+          "headline": "Sadakatin sınırlarını zorla, gerçek dostluk burada.",
+          "body": "Bugün, sadakat ve arkadaşlığın kalıplarını sorgulamaya cesaret et. İlişkilerinin ne kadarına körü körüne inanıyorsun? Gerçek dostluk, en zayıf anlarda sınavdan geçer.",
+          "do": [
+            "Gerçekleri sorgula",
+            "Güven testine gir",
+            "Kendini aç"
+          ],
+          "dont": [
+            "Görmezden gelme",
+            "Koşulsuz inanma",
+            "Küçümseme"
+          ],
+          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
+          "createdAt": "2026-03-10T07:09:59.411Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "gemini",
+          "headline": "Hayır De, Özgürlüğü Hisset",
+          "body": "Bugün, hayır demenin gücünü keşfet ve zincirlerini kır. Kendi sınırlarını çizmek, başkalarının haritalarına uymaktan daha fazla cesaret ister. Özgürlüğün, kendi kararlarında saklı.",
+          "do": [
+            "Sınırlarını belirle",
+            "Yeni bir rota çiz",
+            "Kendi sesini dinle"
+          ],
+          "dont": [
+            "Başkasını memnun etme",
+            "Kendine ihanet etme",
+            "Sessiz kalma"
+          ],
+          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
+          "createdAt": "2026-03-10T07:10:04.176Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "cancer",
+          "headline": "Maskelerin Ardına Saklanma, Gerçeği Gör",
+          "body": "Bugün projeksiyonlarının ardındaki gerçekle yüzleşmek için bir fırsat. Dışarıdaki sesler, içindeki yankıların bir yansıması. Kendi korkularını başkalarında aramak yerine, onlara içten bakmaya cesaret et.",
+          "do": [
+            "Kendine ayna tut",
+            "Gerçeği kucakla",
+            "Korkularla yüzleş"
+          ],
+          "dont": [
+            "Kaçış yolu arama",
+            "Başkasını suçlama",
+            "Özünü gizleme"
+          ],
+          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
+          "createdAt": "2026-03-10T07:10:09.513Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "leo",
+          "headline": "Otoritenin maskesi senin sahnen değil!",
+          "body": "Bugün otoriteye karşı içindeki aslanı serbest bırak ve kendi liderliğini sorgula. Başkalarının kurallarını takip etmenin ötesine geç. Gücünü tanı, ama kontrol etmeye de çalış.",
+          "do": [
+            "Kendi kurallarını koy",
+            "Sorgulayıcı ol",
+            "Bağımsızlık ilan et"
+          ],
+          "dont": [
+            "Pasif kalma",
+            "Boyun eğme",
+            "Kendini küçümseme"
+          ],
+          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
+          "createdAt": "2026-03-10T07:10:14.030Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "virgo",
+          "headline": "Bolluğun kapısını korkusuzca aç",
+          "body": "Bugün kıtlık zihniyetini ortadan kaldırmak için fırsatın var. Kendini sınırsız düşüncelere bırak ve sahip olmanın değil, paylaşmanın gücünü keşfet. Rahatını sorgula ve konfor alanını genişlet.",
+          "do": [
+            "Cömertçe paylaş",
+            "Yeni fırsatlar yarat",
+            "Kendine inan"
+          ],
+          "dont": [
+            "Korkularına teslim olma",
+            "Sınırlarını zorlamaktan çekinme",
+            "Kendini küçümseme"
+          ],
+          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
+          "createdAt": "2026-03-10T07:10:20.134Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "libra",
+          "headline": "Kırıl, ama eğilme.",
+          "body": "Bugün her köşeden çekiştiriliyorsun, gerginliğin haritası çiziliyor. Kendini nereye koyduğun, tüm oyunu değiştirebilir. Çatışmayı dansa dönüştür, kendi dengenin ustası ol.",
+          "do": [
+            "Kendi sınırlarını keşfet",
+            "Gözlerinle konuş",
+            "Zıtlıklardan ilham al"
+          ],
+          "dont": [
+            "Yüzeyde kalma",
+            "Anında teslim olma",
+            "Sesini kısmayın"
+          ],
+          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
+          "createdAt": "2026-03-10T07:10:24.035Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "scorpio",
+          "headline": "Görünmeyeni göze sok!",
+          "body": "Bugün yaratıcılığın gizli derinliklerinde dans et. Görsel ifade seni korkutmasın, gölgelerde saklı gücü açığa çıkar. Rutine saplanıp kalma; duvarların ötesine bak ve orada ne bulacağını keşfet.",
+          "do": [
+            "Farklı bir yol seç",
+            "Sanatla konuş",
+            "Gölgelerde oynat"
+          ],
+          "dont": [
+            "Alışılmışı tekrarlama",
+            "Kalıplara sıkışma",
+            "Kendi sınırını çizme"
+          ],
+          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
+          "createdAt": "2026-03-10T07:10:28.558Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "sagittarius",
+          "headline": "Anne/Baba Rolünle Yüzleş; Kaçış Yok!",
+          "body": "Bugün otoritenin ve sorumluluğun sınırlarını hisset. Çocuk gibi kaçmak yerine, lider gibi kal. Yanlışlarınla büyü; korkularını bastırma, onları itiraf et.",
+          "do": [
+            "Gerçekleri kucakla",
+            "Gözlerinin içine bak",
+            "Sınırlarını zorla"
+          ],
+          "dont": [
+            "Küçük hesapların peşine düşme",
+            "Sorumluluktan kaçma",
+            "Kendini kandırma"
+          ],
+          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
+          "createdAt": "2026-03-10T07:10:33.597Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "capricorn",
+          "headline": "Büyük resimde kaybolma!",
+          "body": "Bugün aşırı genellemeler dünyasında kaybolma tehlikesiyle karşı karşıyasın. Herkesin aynı olmadığını, farklı hikayeler barındırdığını unutma. Herkesi aynı kalıba sokarak sınırlarını daraltma.",
+          "do": [
+            "Detayları keşfet",
+            "Önyargıları aş",
+            "Merakla dinle"
+          ],
+          "dont": [
+            "Genellemeler yapma",
+            "Özgünlüğü göz ardı etme",
+            "Hızlı karar verme"
+          ],
+          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
+          "createdAt": "2026-03-10T07:10:38.333Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "aquarius",
+          "headline": "Anlam kovalamadan bulamazsın.",
+          "body": "Bugün, değerli olanı neyin oluşturduğunu sorgula. Önceliklerini belirlemeden anlamlı bir hayat aramak, boş bir çabanın peşinden koşmak gibidir. Nerede durduğunu ve neyi geride bırakman gerektiğini fark et.",
+          "do": [
+            "Değerlerini masaya yatır",
+            "Önceliklerini netleştir",
+            "Anlamı kendi ellerinle yarat"
+          ],
+          "dont": [
+            "Boş hayallerin peşinden koşma",
+            "Kararlarını erteleme",
+            "Kaçış yolları arama"
+          ],
+          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
+          "createdAt": "2026-03-10T07:10:43.147Z"
+        },
+        {
+          "date": "2026-03-13",
+          "sign": "pisces",
+          "headline": "Geçmişin yükünü bırak, ileri bak!",
+          "body": "Bugün, affetmenin gücünü keşfetmek için cesaretini topla ve kendine yeni bir alan aç. Geçmişin hayaletleriyle hesaplaş, ama onlara yer açma. Affetmek, unutmak demek değil; yoluna devam etmek demek.",
+          "do": [
+            "Eski defterleri kapat",
+            "Önüne bak",
+            "Yarına odaklan"
+          ],
+          "dont": [
+            "Geçmişe takılma",
+            "İkinci şans verme",
+            "Vicdan azabı çekme"
+          ],
+          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
+          "createdAt": "2026-03-10T07:10:47.752Z"
+        }
+      ],
+      "createdAt": "2026-03-10T07:10:48.253Z"
+    },
+    "2026-03-14": {
+      "horoscopes": [
+        {
+          "date": "2026-03-14",
+          "sign": "aries",
+          "headline": "Mesafe, gerçeklerin maskesidir!",
+          "body": "Uzaktaki dostlar gerçeği ne kadar saklayabilir? Mesafeden ötürü kuruntulara kapılma, çünkü bazen mesafe sadece bir mazeret. Bugün, samimiyeti sorgula ve ilişkilerindeki gerçekliği test et.",
+          "do": [
+            "Mesafeyi sorgula",
+            "Gerçeği test et",
+            "Samimiyeti ara"
+          ],
+          "dont": [
+            "Kuruntulara kapılma",
+            "Sakladığını farzetme",
+            "Boş vermemezlik etme"
+          ],
+          "theme": "Faz 2: İlişkiler - \"Eski dostlar ve mesafe\"",
+          "createdAt": "2026-03-10T07:10:51.850Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "taurus",
+          "headline": "Risklerinle dans et, kaybedecek ne var?",
+          "body": "Bugün konforunun sınırlarını zorlama günü. Evet dediğinde neyi kaybedeceksin, yoksa kazanacak mısın? Korkunu açığa çıkar, kontrolü kaybetmekten korkma.",
+          "do": [
+            "Kendini aş",
+            "Yeni bir kapı aç",
+            "Cesur bir adım at"
+          ],
+          "dont": [
+            "Eski korkulara teslim olma",
+            "Kararsız kalma",
+            "Garanticiliğe sığınma"
+          ],
+          "theme": "Faz 3: Kişisel Gelişim - \"Evet demenin riski\"",
+          "createdAt": "2026-03-10T07:10:55.224Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "gemini",
+          "headline": "Kendi yansımanda başkalarını bul.",
+          "body": "Bugün başkasında gördüğün, aslında senin içindeki yankıdır. Bu yansımayı görebilmek cesaret ister; çünkü her yansıma, geri dönüşü olmayan bir aydınlanma yaratabilir.",
+          "do": [
+            "Gözlerini aç",
+            "Gerçeği kabul et",
+            "Kendi kopyanı gör"
+          ],
+          "dont": [
+            "Kendini kandırma",
+            "İnkar etme",
+            "Gölgelerden kaçma"
+          ],
+          "theme": "Faz 4: Shadow Work - \"Başkasında gördüğün\"",
+          "createdAt": "2026-03-10T07:10:59.643Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "cancer",
+          "headline": "Patron değil, kendi hikayenin yazarısın!",
+          "body": "Bugün otorite figürlerinin gölgesiyle yüzleş, ama sakın onları senin sınırlarını belirleyen kalem sanma. Kendi hikayeni yazmak için cesaretin var mı? Kontrolü devral ve seni tanımlamalarına izin verme.",
+          "do": [
+            "Kendi kurallarını koy",
+            "Sınırları aş",
+            "Düşünceni açıkça ifade et"
+          ],
+          "dont": [
+            "Korkularının esiri olma",
+            "Başkalarının onayını arama",
+            "Sessiz kalma"
+          ],
+          "theme": "Faz 5: İş & Kariyer - \"Patron dinamikleri\"",
+          "createdAt": "2026-03-10T07:11:04.875Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "leo",
+          "headline": "Kendine sağladığın tahtı sorgula!",
+          "body": "Bugün kendine gerçekten neyi hak gördüğünü sorgula; arzuladıklarınla hak ettiklerin aynı mı? Egonun seni yanıltmasına izin verme, farkındalığınla kendine yeni bir krallık kur.",
+          "do": [
+            "Kendi değerini yeniden tanımla",
+            "Sınırlarını zorlama cesareti göster",
+            "Düşüncelerini yüksek sesle dile getir"
+          ],
+          "dont": [
+            "Kendini küçümseme",
+            "Başarılarını abartma",
+            "Başkasının onayına muhtaç olma"
+          ],
+          "theme": "Faz 6: Para & Kaynaklar - \"Hak etme inancı\"",
+          "createdAt": "2026-03-10T07:11:09.910Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "virgo",
+          "headline": "Farkındalığın sınırlarını zorla",
+          "body": "Bugün nefesinle farkındalık arasındaki uçuruma bak. Detaylarda kaybolan zihninle yüzleş ve beynindeki karmaşayı dağıt. İçindeki sessizliği bulmak için zamanın geldi.",
+          "do": [
+            "Kendinle yüzleş",
+            "Sessizliği kucakla",
+            "Zihnini temizle"
+          ],
+          "dont": [
+            "Detaylarda kaybolma",
+            "Karmaşayı besleme",
+            "İçsel sessizliğini yadsıma"
+          ],
+          "theme": "Faz 7: Sağlık & Beden - \"Nefes ve farkındalık\"",
+          "createdAt": "2026-03-10T07:11:14.201Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "libra",
+          "headline": "Duygularını Nota Nota Keşfet!",
+          "body": "Bugün içindeki melodilere kulak ver; bastırılmış duyguların armonisini duyabilir misin? Kendine sorduğun soruların cevaplarını kalbinin ritminde bulabilirsin. Müzik, duyguların en saf tercümanı olabilir.",
+          "do": [
+            "Sesleri farklı dinle",
+            "Ruhunu müzikle besle",
+            "Duygularına alan aç"
+          ],
+          "dont": [
+            "Sesini kısma",
+            "Hissedilenleri yok sayma",
+            "Kendini müziksiz bırakma"
+          ],
+          "theme": "Faz 8: Yaratıcılık - \"Müzik ve duygu\"",
+          "createdAt": "2026-03-10T07:11:18.937Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "scorpio",
+          "headline": "Kontrolü kaybetmekten korkma.",
+          "body": "Bugün partner rolüne dair kaygılarınla yüzleş; ipleri elinde tutma çabası, seni kendi gölgene hapseder. Gerçek bağlantı, kontrol edemediğin anlarda doğar.",
+          "do": [
+            "Dizginleri gevşet",
+            "Gölgenle yüzleş"
+          ],
+          "dont": [
+            "Güvensizlik yaratma",
+            "Kendini hapsetme"
+          ],
+          "theme": "Faz 9: Sosyal İmaj - \"Partner rolü\"",
+          "createdAt": "2026-03-10T07:11:22.388Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "sagittarius",
+          "headline": "Zihnini oku, gerçekleri sorgula.",
+          "body": "Bugün düşüncelerin gerçeği yansıtıyor mu, bir bak. Farklı bakış açılarıyla bir çatışmanın ortasında bulabilirsin kendini. Duygusal tepkilerle değil, mantıkla hareket et.",
+          "do": [
+            "Gerçekleri sorgula",
+            "Kafandaki senaryoları yaz",
+            "Yanlış anlamaları düzelt"
+          ],
+          "dont": [
+            "Hızlı hüküm verme",
+            "Kafandan senaryolar yazma",
+            "Varsayımlara kapılma"
+          ],
+          "theme": "Faz 10: Zihin & Düşünce - \"Zihin okuma yanılgısı\"",
+          "createdAt": "2026-03-10T07:11:25.741Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "capricorn",
+          "headline": "Amacın pusulası, kaybolmayı reddet!",
+          "body": "Bugün, net bir yol haritası olmadan ilerlemek kaçınılmazsa, belirsizliğin içindeki fırsatları görmeyi dene. Öğrenilmiş çaresizlikle yüzleş ve ayağa kalk. İlerlemek için kimseye ihtiyaç duymadığını hatırla.",
+          "do": [
+            "Rotanı belirle",
+            "Kendi kararını ver",
+            "Cesurca ilerle"
+          ],
+          "dont": [
+            "Kendi gücünü küçümseme",
+            "Bahanelere sığınma",
+            "Yönetimi başkalarına bırakma"
+          ],
+          "theme": "Faz 11: Anlam & Amaç - \"Amaç ve yön\"",
+          "createdAt": "2026-03-10T07:11:28.963Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "aquarius",
+          "headline": "Affet, ama unutma kim olduğunu!",
+          "body": "Bugün kendini affetmek, kamburunu kabullenmekle başlar ve zaferle sonuçlanır. Eski yaraların seni yönlendirmesine izin verme; kontrol senin ellerinde. Kendine aç gözlerinle bak ve öz değerini yeniden keşfet!",
+          "do": [
+            "Kendine ayna tut",
+            "Özünü kucakla",
+            "Gücünü geri al"
+          ],
+          "dont": [
+            "Kendi eleştirinle boğulma",
+            "Geçmişi silme",
+            "Hatalarda kaybolma"
+          ],
+          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Kendini affetmek\"",
+          "createdAt": "2026-03-10T07:11:33.585Z"
+        },
+        {
+          "date": "2026-03-14",
+          "sign": "pisces",
+          "headline": "Bırakamadığın kontrol, seni kontrol eder.",
+          "body": "Bugün elindekileri sıkı sıkıya kavradığını fark et. Kontrol etmek istediğin her şeyi bir anlığına bırak ve neler olacağını izle. Belki de kaosun içinde huzuru bulacaksın.",
+          "do": [
+            "Serbest bırak",
+            "Akışa teslim ol",
+            "Sürüklenmeyi dene"
+          ],
+          "dont": [
+            "Tutunma",
+            "Zorlamaya çalışma",
+            "Direnç gösterme"
+          ],
+          "theme": "Faz 1: Temel Psikoloji - \"Kontrol ve bırakma\"",
+          "createdAt": "2026-03-10T07:11:37.098Z"
+        }
+      ],
+      "createdAt": "2026-03-10T07:11:37.599Z"
     }
   },
-  "lastUpdated": "2026-03-09T06:34:06.698Z"
+  "lastUpdated": "2026-03-10T07:11:37.599Z"
 }

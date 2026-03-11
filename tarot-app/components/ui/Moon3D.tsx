@@ -14,7 +14,7 @@ export default function Moon3D({ illumination, size = 150 }: Moon3DProps) {
   return (
     <View style={[styles.container, { width: size, height: size }]}>
       <Image
-        source={require("../../assets/planets/moon.jpg")}
+        source={require("../../assets/planets/moon.png")}
         style={[styles.image, { width: size, height: size, borderRadius: size / 2 }]}
         resizeMode="cover"
       />

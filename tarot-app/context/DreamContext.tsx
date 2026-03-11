@@ -11,7 +11,8 @@ import type {
 
 // API URL
 const host = Constants.expoConfig?.hostUri?.split(":")[0] || "localhost";
-const API_URL = `http://${host}:3001/api/dream`;
+const DREAM_API_URL = `http://${host}:3001/api/dream`;
+const CORE_API_URL = `http://${host}:3001/api`;
 
 interface DreamContextType {
   // State
@@ -64,7 +65,7 @@ export function DreamProvider({ children }: { children: ReactNode }) {
   const fetchUserInfo = async () => {
     if (!deviceId) return;
     try {
-      const res = await fetch(`${API_URL}/user/${deviceId}`);
+      const res = await fetch(`${CORE_API_URL}/user/${deviceId}`);
       if (res.ok) {
         const data = await res.json();
         setGemstoneBalance(data.gemstoneBalance ?? 0);
@@ -77,7 +78,7 @@ export function DreamProvider({ children }: { children: ReactNode }) {
 
   const fetchPrices = async () => {
     try {
-      const res = await fetch(`${API_URL}/prices`);
+      const res = await fetch(`${DREAM_API_URL}/prices`);
       if (res.ok) {
         const data = await res.json();
         setPrices(data);

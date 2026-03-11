@@ -1,6 +1,6 @@
-# Astrolic — Tarot · Dream Coder · Moon Astro · Daily Horoscope · Natal Chart
+# Astrolic — Tarot · Dream Coder · Moon Astro · Daily Horoscope · Natal Chart · Transit Takvimi
 
-5 modüllü psikolojik farkındalık platformu. Tarot okumaları, rüya çözümlemesi, gerçek zamanlı ay astrolojisi, günlük burç yorumları ve natal harita yorumlaması. 4 dil desteği (TR/EN/DE/ES), ortak gemstone ekonomisi, premium abonelik. GPT-4o destekli davranış analizi + sembol çözümlemesi. DeepL ile çoklu dil çevirisi.
+6 modüllü psikolojik farkındalık platformu. Tarot okumaları, rüya çözümlemesi, gerçek zamanlı ay astrolojisi, günlük burç yorumları, natal harita yorumlaması ve transit astroloji takvimi. 4 dil desteği (TR/EN/DE/ES), ortak gemstone ekonomisi, premium abonelik. GPT-4o destekli davranış analizi + sembol çözümlemesi. DeepL ile çoklu dil çevirisi.
 
 ---
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 5 Modül Özeti
+## 6 Modül Özeti
 
 | Modül | Açıklama | Gelir Modeli |
 |-------|----------|--------------|
@@ -30,6 +30,7 @@
 | **Moon Astro** | Gerçek zamanlı ay evresi, burç, gezegen | FREE: aktif slot, PREMIUM: tüm slotlar |
 | **Daily Horoscope** | 372-tema çapraz rotasyon günlük burç yorumu | FREE: headline+body+do/dont, PREMIUM: Dive Deeper (3gs) |
 | **Natal Chart** | Kişisel doğum haritası AI yorumlaması | 50 gemstone (tek seferlik) |
+| **Transit Takvimi** | 1/3/6/12 aylık transit astroloji takvimi + yıllık rapor | Gemstone (15-75gs) + Premium (3+ ay) |
 
 ---
 
@@ -105,6 +106,10 @@ Kehanet YOK, guru tonu YOK, uydurma detay YOK. Hepsi "sende neyi tetikliyor" sor
 | Horoscope FREE | ✓ headline+body+do/dont | — | — |
 | Horoscope Dive Deeper | — | 3gs | 1 ücretsiz/gün + 3gs |
 | Natal Chart Yorumu | — | 50gs | 50gs |
+| Transit 1 Ay | — | 15gs | 15gs |
+| Transit 3 Ay | — | — | 30gs (Premium) |
+| Transit 6 Ay | — | — | 50gs (Premium) |
+| Transit 12 Ay (Yillik Rapor) | — | — | 75gs (Premium) |
 
 ---
 
@@ -345,82 +350,92 @@ Ayarlar ekranından tüm sistemlerin anlık durumu izlenebilir:
 ```
 TAROT-NEW-ALL/
 ├── backend/
-│   ├── index.js                    # Express API + Tarot Engine + gemstone
-│   ├── .env                        # OPENAI_API_KEY + DEEPL_API_KEY
-│   ├── prompts/                    # Merkezi prompt hub (4 kategori × 4 dil)
-│   │   ├── index.js                # Prompt router
-│   │   ├── tarot-{tr,en,de,es}.js
-│   │   ├── dreamcoder-{tr,en,de,es}.js
-│   │   ├── horoscope-{tr,en,de,es}.js
-│   │   └── general-tr.js           # Moon Astro + Horoscope FREE
+│   ├── index.js                        # Express API + Tarot Engine + gemstone
+│   ├── .env                            # OPENAI_API_KEY + DEEPL_API_KEY
+│   ├── prompts/                        # Merkezi prompt hub
+│   │   ├── index.js                    # Hub — tum getter'lari export eder
+│   │   ├── tarot/{tr,en,de,es}.js      # Tarot spread promptlari
+│   │   ├── horoscope/{tr,en,de,es}.js  # Dive Deeper promptlari
+│   │   ├── natal/{tr,en,de,es}.js      # Natal chart yorum promptlari
+│   │   └── general/tr.js              # Moon Astro + Horoscope FREE (cron)
 │   ├── data/
 │   │   ├── premium-readings.json
-│   │   ├── dive-deeper-cache.json  # Horoscope Dive Deeper cache (device+sign+date)
 │   │   └── {tr,en,de,es}/
 │   │       ├── tarot-template.json
 │   │       ├── tendency.map.json
-│   │       ├── moon-slots.json        # Moon Astro slot cache
-│   │       ├── horoscopes.json        # Horoscope günlük cache (rolling window)
+│   │       ├── moon-slots.json
+│   │       ├── horoscopes.json
+│   │       ├── transit-readings.json
 │   │       └── natalchart-readings.json
 │   ├── dream-coder/
-│   │   ├── index.js
+│   │   ├── index.js                    # Router + decode/upsell/journal
+│   │   ├── prompts/{tr,en,de,es}.js    # Dream Coder promptlari (co-located)
 │   │   └── data/
-│   │       ├── prices.json
-│   │       ├── users.json          # Ortak kullanıcı DB (deviceId bazlı)
-│   │       └── {tr,en,de,es}/readings.json
-│   ├── moon/
-│   │   └── index.js                # Moon Astro API + cron (6h) + slot cache
+│   │       ├── prices.json             # Tum urun fiyatlari
+│   │       └── users.json              # Ortak kullanici DB
+│   ├── natal-transit/
+│   │   ├── index.js                    # Router + pipeline orchestration
+│   │   ├── prompts/
+│   │   │   ├── standard-tr.js          # 1/3/6 ay tema-bazli prompt
+│   │   │   └── yearly-tr.js            # 12 ay narrative prompt
+│   │   ├── shared/
+│   │   │   ├── ephemeris.js            # Swiss Ephemeris wrapper
+│   │   │   ├── scoring.js              # Event importance skoru
+│   │   │   ├── clustering.js           # Tema kumeleme + tier split
+│   │   │   ├── formatters.js           # Baslik, tarih, etiket
+│   │   │   └── transits.js             # Ham transit hesaplama
+│   │   ├── standard/
+│   │   │   ├── pipeline.js             # 1/3/6 ay pipeline
+│   │   │   └── templates.js            # Theme+variant sablonlar
+│   │   └── yearly/
+│   │       ├── pipeline.js             # 12 ay yearly narrative
+│   │       └── phases.js               # Faz segmentasyonu
+│   ├── natal-chart/
+│   │   └── index.js                    # Natal chart yorum + element dengesi
 │   ├── horoscope/
-│   │   └── index.js                # Horoscope API + cron (rolling buffer) + DeepL
+│   │   └── index.js                    # Horoscope API + cron + DeepL
+│   ├── moon/
+│   │   └── index.js                    # Moon Astro API + cron + slot cache
 │   └── utils/
-│       └── moon.js                 # Astronomi hesaplayıcı
+│       └── moon.js                     # Astronomi hesaplayici
 │
 ├── tarot-app/
 │   ├── app/
 │   │   ├── _layout.tsx
-│   │   ├── index.tsx               # Welcome + Moon Astro kartları + Admin Panel
+│   │   ├── index.tsx                   # Welcome + Moon Astro + Admin Panel
 │   │   ├── tarot.tsx
 │   │   ├── market.tsx
 │   │   ├── pick/[spread].tsx
 │   │   ├── result.tsx
 │   │   ├── premium-result.tsx
 │   │   ├── yesno-result.tsx
+│   │   ├── transits.tsx                # Transit satin alma + progress
 │   │   ├── dream/
-│   │   │   ├── index.tsx
-│   │   │   ├── input.tsx
-│   │   │   └── result.tsx
+│   │   │   ├── index.tsx, input.tsx, result.tsx
 │   │   ├── horoscope/
-│   │   │   ├── index.tsx
-│   │   │   └── detail.tsx
+│   │   │   ├── index.tsx, detail.tsx
 │   │   ├── natal/
-│   │   │   └── detail.tsx          # Natal chart yorumu + element dengesi UI
+│   │   │   └── detail.tsx
+│   │   ├── transit/
+│   │   │   └── detail.tsx              # Transit detay (standard + yearly UI)
 │   │   └── astro/
-│   │       ├── phase.tsx
-│   │       ├── zodiac.tsx
-│   │       └── planet.tsx
+│   │       ├── phase.tsx, zodiac.tsx, planet.tsx
 │   ├── components/ui/
-│   │   ├── Moon3D.tsx
-│   │   ├── Planet3D.tsx
-│   │   ├── Zodiac3D.tsx
-│   │   ├── SpreadCard.tsx
-│   │   ├── GradientBackground.tsx
-│   │   └── StarField.tsx
+│   │   ├── Moon3D.tsx, Planet3D.tsx, Zodiac3D.tsx
+│   │   ├── SpreadCard.tsx, GradientBackground.tsx, StarField.tsx
+│   │   └── PremiumPreview.tsx
 │   ├── context/
-│   │   ├── AppContext.tsx           # Global state (dil, premium, gemstone, deviceId, userSign)
+│   │   ├── AppContext.tsx              # Global state
 │   │   └── DreamContext.tsx
 │   ├── utils/
-│   │   ├── deviceId.ts
-│   │   ├── deck.ts
-│   │   ├── moon.ts
-│   │   └── rng.ts
-│   ├── i18n/translations.ts        # 4 dil, 1500+ satır
+│   │   ├── deviceId.ts, deck.ts, moon.ts, rng.ts
+│   ├── i18n/translations.ts           # 4 dil, 1500+ satir
 │   └── assets/
-│       ├── cards/                  # 78 tarot kart görseli
-│       ├── zodiac/                 # 12 burç PNG illüstrasyonu
-│       └── planets/                # Gezegen görselleri
+│       ├── cards/                      # 78 tarot kart gorseli
+│       ├── zodiac/                     # 12 burc PNG
+│       └── planets/                    # Gezegen gorselleri
 │
-├── README.md
-└── MOON-ASTRO-README.md
+└── README.md
 ```
 
 ---
@@ -474,19 +489,32 @@ TAROT-NEW-ALL/
 | POST | `/api/natal/interpret` | AI yorumu üret (50gs, kalıcı cache) |
 | DELETE | `/api/natal/interpret/:deviceId` | Yorum cache'ini temizle (admin) |
 
+### Transit Takvimi
+
+| Method | Endpoint | Açıklama |
+|--------|----------|----------|
+| POST | `/api/natal/transits` | Transit analizi üret (1/3/6/12 ay) |
+| GET | `/api/natal/transits/:deviceId/latest` | Son transit okuması |
+| GET | `/api/natal/transits/:deviceId/status` | Transit durumu |
+| DELETE | `/api/natal/transits/:deviceId` | Transit cache temizle |
+
 ---
 
 ## Prompt Mimarisi
 
-4 kategori × 4 dil, merkezi `prompts/index.js` hub'ından yönetilir:
+Merkezi `prompts/index.js` hub'i + co-located prompt'lar:
 
-| Kategori | Dosyalar | Tetikleyen | Açıklama |
-|----------|----------|------------|----------|
-| **Tarot** | `tarot-{tr,en,de,es}.js` | Kullanıcı isteği | 16 spread için GPT promptları |
-| **Dream Coder** | `dreamcoder-{tr,en,de,es}.js` | Kullanıcı isteği | A/B/C mod + upsell + JournalPlus |
-| **Horoscope** | `horoscope-{tr,en,de,es}.js` | Kullanıcı isteği | Dive Deeper premium içerik |
-| **General** | `general-tr.js` | Cron/Job | Moon Astro + Horoscope FREE (TR, DeepL çevirir) |
-| **Natal** | `index.js` içi | Kullanıcı isteği | Kullanıcı dilinde direkt üretim |
+| Kategori | Konum | Tetikleyen | Aciklama |
+|----------|-------|------------|----------|
+| **Tarot** | `prompts/tarot/{lang}.js` | Kullanici istegi | 16 spread GPT promptlari |
+| **Dream Coder** | `dream-coder/prompts/{lang}.js` | Kullanici istegi | A/B/C mod + upsell + JournalPlus |
+| **Horoscope** | `prompts/horoscope/{lang}.js` | Kullanici istegi | Dive Deeper premium icerik |
+| **Natal Chart** | `prompts/natal/{lang}.js` | Kullanici istegi | Natal chart AI yorumu |
+| **Transit Standard** | `natal-transit/prompts/standard-tr.js` | Kullanici istegi | 1/3/6 ay tema-bazli yorum |
+| **Transit Yearly** | `natal-transit/prompts/yearly-tr.js` | Kullanici istegi | 12 ay narrative rapor |
+| **General** | `prompts/general/tr.js` | Cron/Job | Moon Astro + Horoscope FREE |
+
+Dream Coder ve Transit prompt'lari kendi modulleri icinde tutulur (co-location prensibi). Hub bunlari da import edip disariya ayni API'den sunar.
 
 ---
 
@@ -506,6 +534,9 @@ TAROT-NEW-ALL/
 | Horoscope Dive Deeper | 1 | ~$0.003 | 3gs | 4,000% - 8,000% |
 | Moon Astro | 1/slot | ~$0.002/slot | 0 | Kullanıcı çekim |
 | Natal Chart | 1 | ~$0.015 | 50gs | 13,000%+ |
+| Transit 1 Ay | 1 | ~$0.008 | 15gs | 7,500%+ |
+| Transit 3 Ay | 1 | ~$0.010 | 30gs | 12,000%+ |
+| Transit 12 Ay (Yillik) | 1 | ~$0.012 | 75gs | 25,000%+ |
 
 *Ortalama ROI: %6,500 - %20,000+ (maliyetin 65-200 katı)*
 
@@ -595,7 +626,9 @@ cd tarot-app && npm install && npx expo start
 - **Moon cron**: 00:00/06:00/12:00/18:00 UTC, kalan < 24h ise 72h yeniden üretim
 - **Natal chart cache**: device bazlı kalıcı, yorumlar saklanır
 - **Drift Checker**: Backend başlarken veri tutarlılığı kontrol edilir
-- **Prompt Hub**: `prompts/index.js` 4 kategori merkezi yönetim
+- **Prompt Hub**: `prompts/index.js` merkezi yonetim + co-located prompt'lar (dream-coder, natal-transit)
+- **Transit Pipeline**: 1/3/6 ay standard mod (tema+tier), 12 ay yearly narrative mod (faz+rapor)
+- **Her modul kendi README'sine sahip**: `backend/{modul}/README.md`
 - **DeepL çeviri stratejisi**: Moon + Horoscope FREE → TR'de üret, DeepL ile çevir. Horoscope Dive Deeper + Natal → doğrudan hedef dilde üret
 - **Idempotency**: `requestId` ile duplicate önlenir
 - **Market**: Bilgi amaçlı, satın alma entegrasyonu henüz yok

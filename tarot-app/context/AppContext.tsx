@@ -4,7 +4,7 @@ import { getDeviceId } from "../utils/deviceId";
 import type { Language, SpreadType, SelectedCard, FocusArea } from "../types/tarot";
 
 const host = Constants.expoConfig?.hostUri?.split(":")[0] || "localhost";
-const API_URL = `http://${host}:3001/api/dream`;
+const API_URL = `http://${host}:3001/api`;
 
 interface AppContextType {
   language: Language;
@@ -12,7 +12,7 @@ interface AppContextType {
   // Gemstone + Premium
   gemstoneBalance: number;
   isPremium: boolean;
-  togglePremium: () => void;
+  togglePremium: () => Promise<void>;
   deviceId: string;
   fetchUserInfo: () => Promise<void>;
   // User zodiac sign (for Dive Deeper / Compatibility)
@@ -42,7 +42,28 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [deviceId, setDeviceId] = useState("");
   const [userSign, setUserSign] = useState("aries");
 
-  const togglePremium = () => setIsPremium((p) => !p);
+  const togglePremium = async () => {
+    if (!deviceId) {
+      setIsPremium((p) => !p);
+      return;
+    }
+    try {
+      const res = await fetch(`${API_URL}/user/${deviceId}/premium`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ isPremium: !isPremium }),
+      });
+      if (!res.ok) {
+        setIsPremium((p) => !p);
+        return;
+      }
+      const data = await res.json();
+      setIsPremium(Boolean(data?.isPremiumSubscriber));
+      await fetchUserInfo();
+    } catch {
+      setIsPremium((p) => !p);
+    }
+  };
 
   useEffect(() => {
     getDeviceId().then(setDeviceId);

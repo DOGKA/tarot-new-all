@@ -119,6 +119,40 @@ interface HoroscopeStatus {
   dateDetails: Record<string, { count: number; createdAt: string | null; role: string }>;
 }
 
+interface TransitStatus {
+  hasCache: boolean;
+  periods: Array<{
+    months: number;
+    createdAt: string;
+    events: number;
+    period: { start: string; end: string } | null;
+  }>;
+  methodSummary?: {
+    title: string;
+    steps: string[];
+  };
+  mockupSnapshot?: {
+    generatedAt: string;
+    natalPlanetCount: number;
+    locationsUsed: Array<{
+      city: string;
+      latitude: number;
+      longitude: number;
+      utcOffset: number;
+      timezone: string | null;
+      startDate: string | null;
+      endDate: string | null;
+    }>;
+    currentTransitPositions: Array<{
+      planet: string;
+      sign: string;
+      degree: number;
+      minute: number;
+      retrograde: boolean;
+    }>;
+  };
+}
+
 export default function WelcomeScreen() {
   const router = useRouter();
   const { t, i18n } = useTranslation();
@@ -259,6 +293,7 @@ export default function WelcomeScreen() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [moonStatus, setMoonStatus] = useState<MoonStatus | null>(null);
   const [horoscopeStatus, setHoroscopeStatus] = useState<HoroscopeStatus | null>(null);
+  const [transitStatus, setTransitStatus] = useState<TransitStatus | null>(null);
   const [statusLoading, setStatusLoading] = useState(false);
   const [actionLoading, setActionLoading] = useState<string | null>(null);
   const [actionResult, setActionResult] = useState<string | null>(null);
@@ -405,9 +440,10 @@ export default function WelcomeScreen() {
   const fetchStatuses = async (silent = false) => {
     if (!silent) setStatusLoading(true);
     try {
-      const [moonRes, horoscopeRes] = await Promise.all([
+      const [moonRes, horoscopeRes, transitRes] = await Promise.all([
         fetch(`${API_BASE}/moon/status`),
         fetch(`${API_BASE}/horoscope/status`),
+        deviceId ? fetch(`${API_BASE}/natal/transits/${deviceId}/status`) : Promise.resolve(null as any),
       ]);
       if (moonRes.ok) setMoonStatus(await moonRes.json());
       if (horoscopeRes.ok) {
@@ -419,6 +455,7 @@ export default function WelcomeScreen() {
           autoRefreshRef.current = null;
         }
       }
+      if (transitRes?.ok) setTransitStatus(await transitRes.json());
     } catch (err) {
       console.warn("Status fetch error:", err);
     } finally {
@@ -528,6 +565,9 @@ export default function WelcomeScreen() {
           break;
         case "natal_delete":
           res = await fetch(`${API_BASE}/natal/interpret/${deviceId}`, { method: "DELETE" });
+          break;
+        case "transit_delete":
+          res = await fetch(`${API_BASE}/natal/transits/${deviceId}`, { method: "DELETE" });
           break;
         default:
           return;
@@ -693,6 +733,23 @@ export default function WelcomeScreen() {
               <Text style={styles.cardDescription}>{t("dreamWelcomeDesc")}</Text>
               <View style={[styles.cardBadge, styles.dreamBadge]}>
                 <Text style={[styles.cardBadgeText, styles.dreamBadgeText]}>{t("dreamBadge")}</Text>
+              </View>
+            </LinearGradient>
+          </TouchableOpacity>
+
+          {/* Transit Timeline Card */}
+          <TouchableOpacity style={styles.card} activeOpacity={0.85} onPress={() => router.push("/transits")}>
+            <LinearGradient
+              colors={["rgba(251, 146, 60, 0.28)", "rgba(168, 85, 247, 0.16)", "rgba(30, 20, 60, 0.82)"]}
+              style={styles.cardGradient}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 0, y: 1 }}
+            >
+              <Text style={styles.cardIcon}>🪐</Text>
+              <Text style={styles.cardTitle}>{t("transitTitle")}</Text>
+              <Text style={styles.cardDescription}>{t("transitSubtitle")}</Text>
+              <View style={[styles.cardBadge, { backgroundColor: "rgba(251,146,60,0.25)", borderColor: "rgba(251,146,60,0.45)" }]}>
+                <Text style={[styles.cardBadgeText, { color: "#fdba74" }]}>{t("transitBadge")}</Text>
               </View>
             </LinearGradient>
           </TouchableOpacity>
@@ -1287,6 +1344,116 @@ export default function WelcomeScreen() {
                           <ActivityIndicator color="#ef4444" size="small" />
                         ) : (
                           <Text style={[ms.actionBtnText, ms.actionBtnDangerText]}>🗑 Natal Yorumu Sil</Text>
+                        )}
+                      </TouchableOpacity>
+                    </View>
+                  </View>
+
+                  {/* ─── Transit Takibi Section ─── */}
+                  <View style={ms.section}>
+                    <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
+                      <Text style={ms.sectionTitle}>🪐 Transit Takibi (TR)</Text>
+                      {transitStatus && (
+                        <View style={[ms.bufferBadge, {
+                          backgroundColor: transitStatus.hasCache ? "rgba(34,197,94,0.15)" : "rgba(251,191,36,0.15)",
+                          borderColor: transitStatus.hasCache ? "rgba(34,197,94,0.5)" : "rgba(251,191,36,0.5)",
+                        }]}>
+                          <Text style={[ms.bufferBadgeText, { color: transitStatus.hasCache ? "#4ade80" : "#fbbf24" }]}>
+                            {transitStatus.hasCache ? "✓ Takip Var" : "⚠ Takip Yok"}
+                          </Text>
+                        </View>
+                      )}
+                    </View>
+
+                    {transitStatus && (
+                      <>
+                        {transitStatus?.methodSummary?.title && (
+                        <View style={ms.infoBox}>
+                          <View style={ms.infoRow}>
+                            <Text style={[ms.infoLabel, { color: "#fbbf24", fontWeight: "800" }]}>
+                              {transitStatus.methodSummary.title}
+                            </Text>
+                          </View>
+                          {(transitStatus.methodSummary.steps || []).map((step: string, i: number) => (
+                            <View key={i} style={[ms.infoRow, { alignItems: "flex-start", paddingVertical: 2 }]}>
+                              <Text style={[ms.infoValue, { fontSize: 10, lineHeight: 15 }]}>{`${i + 1}) ${step}`}</Text>
+                            </View>
+                          ))}
+                        </View>
+                        )}
+
+                        {transitStatus.mockupSnapshot && (
+                        <View style={[ms.infoBox, { marginTop: 8 }]}>
+                          <View style={ms.infoRow}>
+                            <Text style={[ms.infoLabel, { color: "#a78bfa", fontSize: 10 }]}>Mockup Snapshot (şu anki gökyüzü)</Text>
+                            <Text style={[ms.infoValue, { fontSize: 10 }]}>
+                              {new Date(transitStatus.mockupSnapshot.generatedAt).toLocaleString("tr-TR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}
+                            </Text>
+                          </View>
+                          <View style={ms.infoRow}>
+                            <Text style={ms.infoLabel}>Natal gezegen sayısı</Text>
+                            <Text style={ms.infoValue}>{transitStatus.mockupSnapshot.natalPlanetCount}</Text>
+                          </View>
+                          <View style={{ marginTop: 6, borderTopWidth: 1, borderTopColor: "rgba(255,255,255,0.06)", paddingTop: 6 }}>
+                            <View style={ms.infoRow}>
+                              <Text style={[ms.infoLabel, { color: "#a78bfa", fontSize: 10 }]}>Kullanılan Konum Planı</Text>
+                              <Text style={[ms.infoValue, { fontSize: 10 }]}>{transitStatus.mockupSnapshot.locationsUsed?.length || 0} konum</Text>
+                            </View>
+                            {(transitStatus.mockupSnapshot.locationsUsed || []).map((loc, i) => (
+                              <View key={i} style={[ms.infoRow, { paddingVertical: 2 }]}>
+                                <Text style={[ms.infoLabel, { fontSize: 10 }]}>{loc.city}</Text>
+                                <Text style={[ms.infoValue, { fontSize: 10 }]}>
+                                  {loc.latitude.toFixed(2)}, {loc.longitude.toFixed(2)} | UTC{loc.utcOffset >= 0 ? "+" : ""}{loc.utcOffset}
+                                  {loc.startDate || loc.endDate ? ` | ${loc.startDate || "?"}→${loc.endDate || "?"}` : ""}
+                                </Text>
+                              </View>
+                            ))}
+                          </View>
+                          {(transitStatus.mockupSnapshot.currentTransitPositions || []).slice(0, 6).map((p, i) => (
+                            <View key={i} style={[ms.infoRow, { paddingVertical: 2 }]}>
+                              <Text style={[ms.infoLabel, { fontSize: 10 }]}>{p.planet}</Text>
+                              <Text style={[ms.infoValue, { fontSize: 10 }]}>
+                                {p.degree}°{String(p.minute).padStart(2, "0")} {p.sign}{p.retrograde ? " (R)" : ""}
+                              </Text>
+                            </View>
+                          ))}
+                        </View>
+                        )}
+
+                        <View style={[ms.infoBox, { marginTop: 8 }]}>
+                          <View style={ms.infoRow}>
+                            <Text style={ms.infoLabel}>Kaydedilmiş dönemler</Text>
+                            <Text style={ms.infoValue}>{transitStatus.periods.length}</Text>
+                          </View>
+                          {transitStatus.periods.length === 0 ? (
+                            <View style={ms.infoRow}>
+                              <Text style={[ms.infoValue, { color: "rgba(255,255,255,0.4)", fontSize: 11 }]}>Henüz transit satın alımı yok.</Text>
+                            </View>
+                          ) : (
+                            transitStatus.periods.map((r, i) => (
+                              <View key={i} style={[ms.infoRow, { paddingVertical: 2 }]}>
+                                <Text style={[ms.infoLabel, { fontSize: 10 }]}>{r.months} ay</Text>
+                                <Text style={[ms.infoValue, { fontSize: 10 }]}>
+                                  {r.events} olay · {r.period?.start || "?"}→{r.period?.end || "?"}
+                                </Text>
+                              </View>
+                            ))
+                          )}
+                        </View>
+                      </>
+                    )}
+
+                    <View style={ms.actionRow}>
+                      <TouchableOpacity
+                        style={[ms.actionBtn, ms.actionBtnDanger]}
+                        onPress={() => adminAction("transit_delete")}
+                        disabled={actionLoading === "transit_delete"}
+                        activeOpacity={0.7}
+                      >
+                        {actionLoading === "transit_delete" ? (
+                          <ActivityIndicator color="#ef4444" size="small" />
+                        ) : (
+                          <Text style={[ms.actionBtnText, ms.actionBtnDangerText]}>🗑 Transit Takibini Sil</Text>
                         )}
                       </TouchableOpacity>
                     </View>

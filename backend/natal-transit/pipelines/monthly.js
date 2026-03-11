@@ -1,0 +1,158 @@
+/**
+ * Monthly pipeline orchestrator (1 month) — v4
+ * 1 AI call only. Template-only retro. Event-focused.
+ *
+ * Call A: themes (event-focused, specific dates)
+ * Overview extracted from top theme.
+ */
+
+const { getProfile } = require("../shared/periodProfiles");
+const { buildBaseTransitModel, selectTopThemes, assembleOutput } = require("../shared/engine");
+const { buildRetroWindows } = require("../shared/retrogrades");
+const { buildTitle, buildRangeText } = require("../shared/formatters");
+
+const AI_TIMEOUT_MS = 120000;
+
+function createMonthlyPipeline({ openai }) {
+  const profile = getProfile(1);
+  const standardPrompts = require("../prompts/standard-tr");
+
+  async function callAI(messages, label) {
+    const completion = await Promise.race([
+      openai.chat.completions.create({
+        model: "gpt-4o",
+        messages,
+        temperature: 0.75,
+        max_tokens: 16000,
+      }),
+      new Promise((_, reject) =>
+        setTimeout(() => reject(new Error(`${label} zaman asimi (${AI_TIMEOUT_MS}ms)`)), AI_TIMEOUT_MS)
+      ),
+    ]);
+    const raw = completion.choices[0]?.message?.content || "{}";
+    const jsonMatch = raw.match(/\{[\s\S]*\}/);
+    return jsonMatch ? JSON.parse(jsonMatch[0]) : {};
+  }
+
+  async function runCallA(baseModel, periodText) {
+    const topThemes = selectTopThemes([...baseModel.merged], profile.maxThemes);
+
+    const aiPayload = topThemes.map((cluster) => ({
+      id: cluster.theme,
+      label: cluster.label,
+      tier: cluster.themeScore >= 65 ? "critical" : "supportive",
+      window: `${cluster.windowStart} – ${cluster.windowEnd}`,
+      maxScore: cluster.themeScore,
+      drivers: cluster.events.slice(0, 8).map((e) => ({
+        title: e.title || buildTitle(e),
+        aspect: e.aspect,
+        transitPlanet: e.transitPlanet,
+        natalPlanet: e.natalPlanet,
+        startDate: e.startDate,
+        endDate: e.endDate,
+        exactDate: e.exactDate,
+        score: e.score,
+        type: e.type,
+      })),
+    }));
+
+    const prompt = standardPrompts.buildThemePrompt({
+      themes: aiPayload,
+      period: periodText,
+      periodMonths: 1,
+    });
+
+    try {
+      return await callAI([
+        { role: "system", content: standardPrompts.systemMessage },
+        { role: "user", content: prompt },
+      ], "Monthly Call A");
+    } catch (e) {
+      console.warn(`[Monthly] Call A failed, retrying...`, e.message);
+      try {
+        return await callAI([
+          { role: "system", content: standardPrompts.systemMessage },
+          { role: "user", content: prompt },
+        ], "Monthly Call A retry");
+      } catch (e2) {
+        console.error(`[Monthly] Call A retry also failed:`, e2.message);
+        return {};
+      }
+    }
+  }
+
+  async function generate(timelinePayload, period, periodText, natalPlanets) {
+    const startedAt = Date.now();
+
+    console.log(`[Monthly] Building base model...`);
+    const baseModel = buildBaseTransitModel(timelinePayload.events, 1, profile);
+    console.log(`[Monthly] ${baseModel.filtered.length}/${timelinePayload.events.length} events, ${baseModel.merged.length} themes`);
+
+    const retroWindows = buildRetroWindows(timelinePayload.retrogrades, natalPlanets);
+
+    console.log(`[Monthly] Running Call A...`);
+    const aiResultA = await runCallA(baseModel, periodText);
+
+    const aiThemes = {};
+    (aiResultA?.themes || []).forEach((t) => { aiThemes[t.id] = t; });
+
+    const topThemes = selectTopThemes([...baseModel.merged], profile.maxThemes);
+    const outputThemes = topThemes.map((cluster) => {
+      const ai = aiThemes[cluster.theme] || {};
+      return {
+        id: cluster.theme,
+        theme: cluster.theme,
+        label: cluster.label,
+        tier: cluster.themeScore >= 65 ? "critical" : "supportive",
+        maxScore: cluster.themeScore,
+        window: `${cluster.windowStart} – ${cluster.windowEnd}`,
+        title: ai.title || cluster.label,
+        summary: ai.summary || "",
+        interpretation: ai.interpretation || "",
+        intensity: ai.intensity || (cluster.themeScore >= 80 ? "high" : cluster.themeScore >= 50 ? "medium" : "low"),
+        events: cluster.events.slice(0, 10).map((e) => ({
+          id: e.id,
+          type: e.type,
+          color: e.color,
+          transitPlanet: e.transitPlanet,
+          natalPlanet: e.natalPlanet,
+          aspect: e.aspect,
+          startDate: e.startDate,
+          endDate: e.endDate,
+          exactDate: e.exactDate,
+          score: e.score,
+          title: e.title || buildTitle(e),
+          rangeText: e.rangeText || buildRangeText(e),
+        })),
+      };
+    });
+
+    const ms = Date.now() - startedAt;
+    console.log(`[Monthly] Pipeline total: ${ms}ms`);
+
+    const response = assembleOutput(profile, period, baseModel, null, null, retroWindows);
+    response.themes = outputThemes;
+
+    if (outputThemes.length > 0) {
+      const top = outputThemes[0];
+      response.overview = {
+        title: top.title || "Bu Ayın Gökyüzü Hikayesi",
+        summary: top.summary || "",
+      };
+    }
+
+    response.stats.rawEventCount = timelinePayload.events.length;
+    response.stats.filteredEventCount = baseModel.filtered.length;
+    response.stats.clusterCount = baseModel.merged.length;
+    response.stats.retrogradeCount = retroWindows.length;
+    response.stats.aiCallCount = 1;
+    response.stats.aiCallBFailed = false;
+    response.stats.pipelineMs = ms;
+
+    return response;
+  }
+
+  return { generate };
+}
+
+module.exports = { createMonthlyPipeline };

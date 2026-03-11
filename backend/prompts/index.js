@@ -2,52 +2,60 @@
  * Prompt Hub — Central export for all prompt categories
  *
  * Categories:
- *   tarot-{lang}       User-triggered tarot card readings
- *   dreamcoder-{lang}  User-triggered dream decode
- *   horoscope-{lang}   User-triggered Dive Deeper (premium)
- *   general-{lang}     Cron/job: Moon Astro + Horoscope FREE batch
+ *   tarot/{lang}        User-triggered tarot card readings
+ *   horoscope/{lang}    User-triggered Dive Deeper (premium)
+ *   natal/{lang}        One-time natal chart interpretation
+ *   general/{lang}      Cron/job: Moon Astro + Horoscope FREE batch
+ *   dream-coder/prompts Dreamcoder prompts (co-located with module)
+ *   natal-transit/prompts Transit prompts (co-located with module)
  */
 
 // ============================================
 // TAROT
 // ============================================
-const tarotTr = require("./tarot-tr");
-const tarotEn = require("./tarot-en");
-const tarotDe = require("./tarot-de");
-const tarotEs = require("./tarot-es");
+const tarotTr = require("./tarot/tr");
+const tarotEn = require("./tarot/en");
+const tarotDe = require("./tarot/de");
+const tarotEs = require("./tarot/es");
 const tarotPrompts = { tr: tarotTr, en: tarotEn, de: tarotDe, es: tarotEs };
 
 // ============================================
-// DREAM CODER
+// DREAM CODER (co-located in dream-coder/prompts/)
 // ============================================
-const dreamcoderTr = require("./dreamcoder-tr");
-const dreamcoderEn = require("./dreamcoder-en");
-const dreamcoderDe = require("./dreamcoder-de");
-const dreamcoderEs = require("./dreamcoder-es");
+const dreamcoderTr = require("../dream-coder/prompts/tr");
+const dreamcoderEn = require("../dream-coder/prompts/en");
+const dreamcoderDe = require("../dream-coder/prompts/de");
+const dreamcoderEs = require("../dream-coder/prompts/es");
 const dreamcoderPrompts = { tr: dreamcoderTr, en: dreamcoderEn, de: dreamcoderDe, es: dreamcoderEs };
 
 // ============================================
 // HOROSCOPE (Dive Deeper — user-triggered)
 // ============================================
-const horoscopeTr = require("./horoscope-tr");
-const horoscopeEn = require("./horoscope-en");
-const horoscopeDe = require("./horoscope-de");
-const horoscopeEs = require("./horoscope-es");
+const horoscopeTr = require("./horoscope/tr");
+const horoscopeEn = require("./horoscope/en");
+const horoscopeDe = require("./horoscope/de");
+const horoscopeEs = require("./horoscope/es");
 const horoscopePrompts = { tr: horoscopeTr, en: horoscopeEn, de: horoscopeDe, es: horoscopeEs };
 
 // ============================================
-// NATAL CHART (One-time natal interpretation — user-triggered)
+// NATAL CHART
 // ============================================
-const natalTr = require("./natal-tr");
-const natalEn = require("./natal-en");
-const natalDe = require("./natal-de");
-const natalEs = require("./natal-es");
+const natalTr = require("./natal/tr");
+const natalEn = require("./natal/en");
+const natalDe = require("./natal/de");
+const natalEs = require("./natal/es");
 const natalPrompts = { tr: natalTr, en: natalEn, de: natalDe, es: natalEs };
 
 // ============================================
-// GENERAL (Moon Astro + Horoscope FREE — cron/job, TR only, DeepL translates)
+// TRANSIT (co-located in natal-transit/prompts/)
 // ============================================
-const generalTr = require("./general-tr");
+const transitStandardTr = require("../natal-transit/prompts/standard-tr");
+const transitPrompts = { tr: transitStandardTr };
+
+// ============================================
+// GENERAL (Moon Astro + Horoscope FREE — cron/job)
+// ============================================
+const generalTr = require("./general/tr");
 const generalPrompts = { tr: generalTr };
 
 // ============================================
@@ -59,6 +67,7 @@ const getDreamCoderPrompts = (lang) => dreamcoderPrompts[lang] || dreamcoderProm
 const getHoroscopePrompts = (lang) => horoscopePrompts[lang] || horoscopePrompts.en;
 const getNatalPrompts = (lang) => natalPrompts[lang] || natalPrompts.en;
 const getGeneralPrompts = () => generalPrompts.tr;
+const getTransitPrompts = () => transitPrompts.tr;
 
 // ============================================
 // BACKWARD COMPAT — Tarot (used by backend/index.js)
@@ -88,13 +97,12 @@ const buildNewBusinessPrompt = (lang, params) => getTarotPrompts(lang).buildNewB
 const buildWealthFlowPrompt = (lang, params) => getTarotPrompts(lang).buildWealthFlowPrompt(params).trim();
 
 module.exports = {
-  // Category getters
   getTarotPrompts,
   getDreamCoderPrompts,
   getHoroscopePrompts,
   getNatalPrompts,
   getGeneralPrompts,
-  // Backward compat (tarot)
+  getTransitPrompts,
   getPrompts,
   getSystemMessage,
   buildSinglePrompt,

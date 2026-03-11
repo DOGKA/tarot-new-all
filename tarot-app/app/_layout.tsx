@@ -17,6 +17,8 @@ export default function RootLayout() {
               <Stack.Screen name="index" options={{ headerShown: false }} />
               {/* Tarot screens */}
               <Stack.Screen name="tarot" options={{ headerShown: false }} />
+              <Stack.Screen name="transits" options={{ headerShown: false }} />
+              <Stack.Screen name="transit/detail" options={{ headerShown: false }} />
               <Stack.Screen name="pick/[spread]" options={{ headerShown: false }} />
               <Stack.Screen name="result" options={{ headerShown: false }} />
               <Stack.Screen name="premium-result" options={{ headerShown: false }} />

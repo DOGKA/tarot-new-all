@@ -305,10 +305,10 @@
       "createdAt": "2026-03-04T11:26:34.441Z"
     },
     "dev_1772623594408_gro4e2o2": {
-      "gemstoneBalance": 873,
-      "isPremiumSubscriber": false,
-      "premiumPlan": null,
-      "premiumExpiresAt": null,
+      "gemstoneBalance": 29212,
+      "isPremiumSubscriber": true,
+      "premiumPlan": "manual_debug",
+      "premiumExpiresAt": "2027-03-11T06:44:04.566Z",
       "createdAt": "2026-03-04T11:26:34.450Z",
       "birthDate": "1992-12-07",
       "birthTime": "14:30",
@@ -326,7 +326,8 @@
           "water": 0,
           "dominant": "fire"
         }
-      }
+      },
+      "horoscopeFreeDate": "2026-03-10"
     },
     "mock": {
       "gemstoneBalance": 1000,
@@ -334,6 +335,30 @@
       "premiumPlan": null,
       "premiumExpiresAt": null,
       "createdAt": "2026-03-06T07:08:45.625Z",
+      "birthDate": "1992-12-07",
+      "birthTime": "14:30",
+      "birthCity": "Ankara",
+      "birthLatitude": 39.93,
+      "birthLongitude": 32.86,
+      "natalChart": {
+        "sunSign": "sagittarius",
+        "moonSign": "taurus",
+        "risingSign": "gemini",
+        "elements": {
+          "fire": 3,
+          "earth": 2,
+          "air": 1,
+          "water": 0,
+          "dominant": "fire"
+        }
+      }
+    },
+    "debug-device": {
+      "gemstoneBalance": 1000,
+      "isPremiumSubscriber": false,
+      "premiumPlan": null,
+      "premiumExpiresAt": null,
+      "createdAt": "2026-03-09T09:22:19.978Z",
       "birthDate": "1992-12-07",
       "birthTime": "14:30",
       "birthCity": "Ankara",

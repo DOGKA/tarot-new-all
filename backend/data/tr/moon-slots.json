@@ -47,8 +47,8 @@
       }
     },
     {
-      "id": "2026-03-10T000000Z_last_quarter_sagittarius_mars",
-      "start": "2026-03-10T00:00:00.000Z",
+      "id": "2026-03-10T070038Z_last_quarter_sagittarius_mars",
+      "start": "2026-03-10T07:00:38.534Z",
       "end": "2026-03-11T00:00:00.000Z",
       "phase": "last_quarter",
       "zodiac": "sagittarius",
@@ -95,7 +95,7 @@
     {
       "id": "2026-03-12T000000Z_last_quarter_sagittarius_jupiter",
       "start": "2026-03-12T00:00:00.000Z",
-      "end": "2026-03-12T05:29:51.681Z",
+      "end": "2026-03-12T05:29:42.284Z",
       "phase": "last_quarter",
       "zodiac": "sagittarius",
       "planet": "jupiter",
@@ -116,9 +116,9 @@
       }
     },
     {
-      "id": "2026-03-12T052951Z_last_quarter_capricorn_jupiter",
-      "start": "2026-03-12T05:29:51.681Z",
-      "end": "2026-03-12T07:08:14.181Z",
+      "id": "2026-03-12T052942Z_last_quarter_capricorn_jupiter",
+      "start": "2026-03-12T05:29:42.284Z",
+      "end": "2026-03-12T20:22:12.284Z",
       "phase": "last_quarter",
       "zodiac": "capricorn",
       "planet": "jupiter",
@@ -137,7 +137,53 @@
           "ayna": "Yarım kalan görevler ve yerine getirilmeyen sözler gün yüzüne çıkıyor."
         }
       }
+    },
+    {
+      "id": "2026-03-12T202212Z_waning_crescent_capricorn_jupiter",
+      "start": "2026-03-12T20:22:12.284Z",
+      "end": "2026-03-13T00:00:00.000Z",
+      "phase": "waning_crescent",
+      "zodiac": "capricorn",
+      "planet": "jupiter",
+      "content": {
+        "planet": {
+          "meaning": "Perşembe günü, Jüpiter genişleme ve keşif duygularını tetikliyor. Ufkun genişliyor, yeni bilgiler edinme isteği artıyor. Fırsatlar kapını çalıyor, farklı bakış açıları kazanıyorsun.",
+          "advice": "Yeni bir kitap al ve okumaya başla."
+        },
+        "zodiac": {
+          "meaning": "Ay Oğlak burcunda ilerlerken, disiplin ve sorumluluk duyguların keskinleşiyor. Duygularını kontrol etmek kolaylaşıyor, daha gerçekçi ve ayakları yere basan bir ruh hali içindesin. İş ve kariyer konularına odaklanmak için ideal bir zaman.",
+          "firsat": "Uzun zamandır ertelediğin bir projeyi tamamla.",
+          "his": "soğuk kararlılık"
+        },
+        "phase": {
+          "general": "Azalan Hilal, eski alışkanlıkları eritiyor ve gereksiz yükleri bırakıyor. İçsel bir temizlik yapıyor, seni daha hafif ve özgür hissettiriyor. Geçmişin yüklerinden kurtulmak daha kolay hale geliyor.",
+          "ayna": "Yarım kalan işleri tamamlamak için mükemmel bir zaman."
+        }
+      }
+    },
+    {
+      "id": "2026-03-13T000000Z_waning_crescent_capricorn_venus",
+      "start": "2026-03-13T00:00:00.000Z",
+      "end": "2026-03-13T07:00:38.534Z",
+      "phase": "waning_crescent",
+      "zodiac": "capricorn",
+      "planet": "venus",
+      "content": {
+        "planet": {
+          "meaning": "Cuma günü Venüs, estetik ve ilişkilerdeki derin bağları harekete geçiriyor. Güzellik ve uyum arayışı, seni çevrendeki insanlarla daha yakın temas kurmaya itiyor. Değer verdiğin şeyler üzerine düşünürken, sevdiklerinle olan bağları güçlendirme isteği doğuyor.",
+          "advice": "Sevdiğin bir kişiye küçük bir sürpriz hazırla."
+        },
+        "zodiac": {
+          "meaning": "Ay Oğlak burcunda, duygularını disiplin altına alıyor. Sorumlulukların ön plana çıkarken, duygusal ihtiyaçlarını göz ardı etme eğilimi oluşuyor. Soğukkanlı duruşun, seni kararlarında daha kararlı yapıyor.",
+          "firsat": "İş planlarını gözden geçir ve somut adımlar at.",
+          "his": "kontrollü ciddiyet"
+        },
+        "phase": {
+          "general": "Azalan Hilal, bitişleri ve kapanışları hızlandırıyor. Geçmişte başlamış işlerin sonlandırılması için uygun bir zemin hazırlıyor. Gereksiz yüklerden kurtulma zamanı geliyor, gereksiz olan her şey yavaş yavaş eriyor.",
+          "ayna": "Yarım kalan projeleri tamamlaman gerektiğini gösteriyor."
+        }
+      }
     }
   ],
-  "generatedUntil": "2026-03-12T07:08:14.181Z"
+  "generatedUntil": "2026-03-13T07:00:38.534Z"
 }
