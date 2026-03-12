@@ -1,2149 +1,7 @@
 {
   "readings": {
-    "dev_1772623594408_gro4e2o2:12:tr:v4:85b6bbc962": {
-      "createdAt": "2026-03-12T10:47:39.577Z",
-      "months": 12,
-      "lang": "tr",
-      "locationsHash": "85b6bbc962",
-      "locations": [
-        {
-          "city": "Istanbul",
-          "latitude": 41.0082,
-          "longitude": 28.9784,
-          "utcOffset": 3,
-          "timezone": "Europe/Istanbul",
-          "startDate": "2026-03-12",
-          "endDate": "2027-03-12"
-        }
-      ],
-      "gemCost": 100,
-      "data": {
-        "formatVersion": 4,
-        "periodMode": "yearlyNarrative",
-        "period": {
-          "start": "2026-03-12",
-          "end": "2027-03-12"
-        },
-        "months": 12,
-        "overview": {
-          "title": "Yeniden Yapılanma Yılı",
-          "summary": "Bu yıl, ilişkilerden kariyere kadar her alanda yeniden yapılanma ve değişim fırsatları sunuyor. Mart ve Nisan aylarında yapısal baskılar kendini hissettirecek, ancak Haziran'da büyüme fırsatları kapını çalacak. Sonbahar, ilişkilerde değerlerin sınanacağı bir dönem olacak. Kış aylarında ise içsel dönüşüm ve maneviyat ön plana çıkacak."
-        },
-        "phases": [
-          {
-            "id": "phase_1",
-            "title": "Yapısal Baskılar ve İlk Adımlar",
-            "window": "Mart – Haziran",
-            "windowStart": "2026-03-12",
-            "windowEnd": "2026-06-12",
-            "dominantThemes": [
-              "relationship_values",
-              "general_transit",
-              "money_resources"
-            ],
-            "interpretation": "Mart ayının başında kariyerinde kendini ifade etme zorlukları yaşayabilirsin. Saturn’un Yükselenle kare açısı 24 Mart'ta başlıyor ve 13 Nisan'da zirve yapıyor. Bu süreçte iş yerinde sorumlulukların artabilir ve üstlerle çatışmalar yaşanabilir. Aynı dönemde, 25 Mart'tan itibaren Saturn'un Ay'a karşıt açısı, duygusal baskılar hissetmene neden olabilir. Bu dönemde evde ve aile ilişkilerinde gerginlikler yaşanabilir. \n\nNisan ortasından itibaren, 22 Mart'tan 11 Mayıs'a kadar sürecek olan Saturn'un Venüs'e karşıt açısı, ilişkilerinde değerlerin sorgulanmasına neden olabilir. Belki de bir partnerle finansal konularda anlaşmazlıklar yaşayabilirsin. Ancak bu dönemde, finansal kaynaklarını düzenlemek için iyi bir fırsat olabilir. 2 Haziran'da Jüpiter'in Güneşle kare açısı, kişisel ve profesyonel hedeflerinde bir değişiklik yapmanı tetikleyebilir; bu değişiklikler başlangıçta risk taşısa da uzun vadede kazançlı olabilir.\n\nMart sonuna doğru, Jüpiter ve MC arasındaki üçgen açı 28 Mart'ta zirveye ulaşıyor. Bu, kariyerinde yeni bir fırsatın kapını çalabileceğine işaret ediyor. İşleri büyütmek veya yeni projeler başlatmak için uygun bir zaman. \n\nBu dönemde yapısal baskılar oldukça yoğun. Ancak Nisan'dan itibaren, özellikle Mart sonu ve Nisan başında, fırsat transitleri devreye girmeye başlayacak, bu da kariyer ve finansal meselelerde yeni kapılar açabilir.",
-            "clusterCount": 11,
-            "eventCount": 107
-          },
-          {
-            "id": "phase_2",
-            "title": "Büyüme Fırsatları ve Yenilik Arayışı",
-            "window": "Haziran – Eylül",
-            "windowStart": "2026-06-12",
-            "windowEnd": "2026-09-12",
-            "dominantThemes": [
-              "relationship_values",
-              "general_transit",
-              "money_resources"
-            ],
-            "interpretation": "Haziran ayının başında, Jüpiter'in Güneşle kare açısı 14 Haziran'da zirveye ulaşıyor ve bu, kişisel hedeflerinde bir değişiklik yapma isteği uyandırabilir. Bu dönemde yeni eğitim veya seyahat fırsatları gündeme gelebilir. Ayrıca, Uranüs'ün Uranüs ile kavuşumu, rutini bozarak yeni deneyimlere kapı aralayabilir. \n\nAğustos ortasında, Mars'ın Yükselenle kavuşumu 22 Ağustos'ta zirve yapacak. Bu, enerjini ve kararlılığını artıracak, ancak aynı zamanda çevrenle olan ilişkilerde ani çatışmalara neden olabilir. İş veya kişisel projelerde liderlik rollerini üstlenmek isteyebilirsin. \n\nEylül'e doğru, Jüpiter'in Merkür ile kare açısı 25 Eylül'de zirveye ulaşacak. İletişim ve zihinsel süreçlerinde zorluklar yaşayabilirsin, bu nedenle önemli kararlar alırken dikkatli olmalısın. Bu süreçte, eski arkadaşlıklar ya da iş ilişkileri yeniden gündeme gelebilir.\n\nBu dönemde hem zorluklar hem de büyüme fırsatları mevcut. Haziran ayının ortalarında zorluklar yoğunlaşabilirken, Ağustos'tan itibaren değişim ve fırsat transitleri devreye giriyor, bu da yeni başlangıçlar için mükemmel bir zaman.",
-            "clusterCount": 9,
-            "eventCount": 101
-          },
-          {
-            "id": "phase_3",
-            "title": "İlişkilerde Derinleşme ve Testler",
-            "window": "Eylül – Aralık",
-            "windowStart": "2026-09-12",
-            "windowEnd": "2026-12-13",
-            "dominantThemes": [
-              "relationship_values",
-              "general_transit",
-              "money_resources"
-            ],
-            "interpretation": "Eylül'den itibaren ilişkilerde ve duygusal hayatında zorluklar baş gösterebilir. 14 Ekim'de Saturn'un Ay'a karşıt açısı başlayarak 9 Aralık'ta zirveye ulaşacak. Bu, ilişkilerde duygusal mesafe yaratabilir. Bu dönemde sabırlı olmak önemli. \n\nKariyerinde de zorluklar yaşanabilir, çünkü 28 Ekim'de Satürn'ün Yükselenle kare açısı 9 Aralık'ta zirve yapacak. Bu, iş yerinde daha fazla sorumluluk üstlenmeni gerektirebilir. Belki de yeni bir pozisyon için teklif alabilirsin, ancak bununla birlikte gelen yükleri dikkatlice değerlendirmelisin.\n\nVenüs'ün Satürn ile karşıt açısı 17 Ekim'de başlayarak 9 Aralık'ta zirve yapacak. Bu süre zarfında para yönetiminde dikkatli olman gerekecek. Lüks harcamalardan kaçınmak faydalı olabilir. Ayrıca, ilişkinde maddi konular gündeme gelebilir. \n\nBu dönemde zorluklar oldukça yoğun. Ancak, Ekim sonu ve Aralık başına doğru, özellikle ilişkilerde ve kariyerde yapısal baskılar ve zorluklar kendini hissettirecek. Bu, kişisel gücünü ve dayanıklılığını test etme zamanı olacak.",
-            "clusterCount": 9,
-            "eventCount": 73
-          },
-          {
-            "id": "phase_4",
-            "title": "İçsel Dönüşüm ve Manevi Derinleşme",
-            "window": "Aralık – Mart",
-            "windowStart": "2026-12-13",
-            "windowEnd": "2027-03-12",
-            "dominantThemes": [
-              "relationship_values",
-              "general_transit",
-              "money_resources"
-            ],
-            "interpretation": "Aralık ayıyla birlikte, ilişkilerde ve duygusal dünyanda derinleşme ve sınavlar devam ediyor. 14 Ekim'de başlayan Saturn'un Ay'a karşıt açısı, 4 Şubat 2027'ye kadar sürecek. Bu, duygusal açıdan zorlayıcı olabilir, ancak içsel dönüşüm ve gelişim için bir fırsat sunuyor. \n\nSatürn'ün Yükselenle kare açısı 28 Ekim'den 22 Ocak 2027'ye kadar devam edecek. Bu dönemde kariyerinde yapısal değişiklikler yaşanabilir. Özellikle yıl sonuna doğru, yeni sorumluluklar veya pozisyon değişiklikleri gündeme gelebilir. \n\nPluton'un Ay ile üçgen açısı 25 Ocak'tan itibaren zirveye ulaşacak ve Mart 2027'ye kadar sürecek. Bu, duygusal yenilenme ve derin dönüşüm için mükemmel bir dönem. İçsel olarak güçlenecek ve daha belirgin bir yaşam misyonu hissedeceksin.\n\nBu dönemde zorluklar ve dönüşüm süreçleri iç içe geçmiş durumda. Şubat ayı boyunca ilişkilerde ve kariyerde zorluklar devam etse de, özellikle Ocak sonundan itibaren dönüşüm ve fırsat transitleri devreye giriyor, bu da manevi ve duygusal derinleşme için önemli bir zaman.",
-            "clusterCount": 9,
-            "eventCount": 82
-          }
-        ],
-        "themes": [],
-        "retrogradeWindows": [
-          {
-            "planet": "mercury",
-            "planetLabel": "Merkür",
-            "startDate": "2026-06-30",
-            "endDate": "2026-07-24",
-            "baseInterpretation": "Unutulmuş bir arkadaşınla yollarınız yeniden kesişebilir; bu, eski anlaşmazlıkları çözmek için bir fırsat olabilir. Kısa seyahat planlarının iptali veya ertelenmesi söz konusu olabilir, alternatif planlar hazırla. Bilgisayarında önemli dosyaları yedeklemeyi ihmal etme. Bu dönemde eski projeleri tamamlayarak yeni başlangıçlar için zemin hazırlayabilirsin.",
-            "personalNote": "Unutulmuş bir arkadaşınla yollarınız yeniden kesişebilir; bu, eski anlaşmazlıkları çözmek için bir fırsat olabilir. Kısa seyahat planlarının iptali veya ertelenmesi söz konusu olabilir, alternatif planlar hazırla. Bilgisayarında önemli dosyaları yedeklemeyi ihmal etme. Bu dönemde eski projeleri tamamlayarak yeni başlangıçlar için zemin hazırlayabilirsin.",
-            "affectedThemes": [
-              "iletişim",
-              "yakın çevre",
-              "kısa yolculuklar"
-            ],
-            "priority": "medium"
-          },
-          {
-            "planet": "mercury",
-            "planetLabel": "Merkür",
-            "startDate": "2026-10-24",
-            "endDate": "2026-11-14",
-            "baseInterpretation": "Eski bir iş teklifinin yeniden gündeme gelmesi muhtemel; detayları dikkatle gözden geçir. Yakın çevrenle iletişimde yanlış anlamalar olabilir, net ve açık ifadeler kullan. Teknolojik aletlerinin bakımını yap, sorun çıkarmalarını önle. Bu süreci, yarım bıraktığın bir eğitimi tamamlamak için değerlendirebilirsin.",
-            "personalNote": "Eski bir iş teklifinin yeniden gündeme gelmesi muhtemel; detayları dikkatle gözden geçir. Yakın çevrenle iletişimde yanlış anlamalar olabilir, net ve açık ifadeler kullan. Teknolojik aletlerinin bakımını yap, sorun çıkarmalarını önle. Bu süreci, yarım bıraktığın bir eğitimi tamamlamak için değerlendirebilirsin.",
-            "affectedThemes": [
-              "iletişim",
-              "yakın çevre",
-              "kısa yolculuklar"
-            ],
-            "priority": "medium"
-          },
-          {
-            "planet": "mercury",
-            "planetLabel": "Merkür",
-            "startDate": "2027-02-10",
-            "endDate": "2027-03-04",
-            "baseInterpretation": "Eski bir ilişki kapını çalabilir, geçmişi sorgulayıp duygusal olarak özgürleşme şansı yakala. İş yerinde ertelenen bir proje aniden hız kazanabilir, hazırlıklı ol. Kısa vadeli iş ziyaretlerinde gecikmeler yaşanabilir, planlarını esnek tut. Bu dönemde, içsel huzuru sağlamak için meditasyon ve kendini geliştirme çalışmaları yapabilirsin.",
-            "personalNote": "Eski bir ilişki kapını çalabilir, geçmişi sorgulayıp duygusal olarak özgürleşme şansı yakala. İş yerinde ertelenen bir proje aniden hız kazanabilir, hazırlıklı ol. Kısa vadeli iş ziyaretlerinde gecikmeler yaşanabilir, planlarını esnek tut. Bu dönemde, içsel huzuru sağlamak için meditasyon ve kendini geliştirme çalışmaları yapabilirsin.",
-            "affectedThemes": [
-              "iletişim",
-              "yakın çevre",
-              "kısa yolculuklar"
-            ],
-            "priority": "medium"
-          },
-          {
-            "planet": "venus",
-            "planetLabel": "Venüs",
-            "startDate": "2026-10-03",
-            "endDate": "2026-11-14",
-            "baseInterpretation": "Partnerinle veya yakın ilişkilerinde iletişim kopuklukları yaşanabilir, duygularını açıkça ifade etmeye çalış. Önemli finansal kararları bu dönemde almaktan kaçın, harcamalarını kontrol altında tut. Eski bir dostla karşılaşabilir, geçmişteki güzel anıları yeniden canlandırabilirsin. İlişkilerinde dengeyi sağlamak adına yeni stratejiler geliştirme fırsatı bulabilirsin.",
-            "personalNote": "Partnerinle veya yakın ilişkilerinde iletişim kopuklukları yaşanabilir, duygularını açıkça ifade etmeye çalış. Önemli finansal kararları bu dönemde almaktan kaçın, harcamalarını kontrol altında tut. Eski bir dostla karşılaşabilir, geçmişteki güzel anıları yeniden canlandırabilirsin. İlişkilerinde dengeyi sağlamak adına yeni stratejiler geliştirme fırsatı bulabilirsin.",
-            "affectedThemes": [
-              "ilişkiler",
-              "değerler",
-              "finanslar"
-            ],
-            "priority": "medium"
-          },
-          {
-            "planet": "mars",
-            "planetLabel": "Mars",
-            "startDate": "2027-01-11",
-            "endDate": "2027-03-12",
-            "baseInterpretation": "Tamamlanmayan projelerin üzerinde yoğunlaşarak onları bitirme fırsatı yakalayabilirsin. Enerjini kontrol etmekte zorlanabilirsin, fiziksel aktivitelerle bu enerjiyi yönlendir. Süregelen bir işte tıkanıklıklar oluşabilir, sabırlı ol ve alternatif çözümler üret. Bu dönemde, stratejik planlamalar yaparak gelecekteki hedeflerini daha sağlam bir temele oturtabilirsin.",
-            "personalNote": "Tamamlanmayan projelerin üzerinde yoğunlaşarak onları bitirme fırsatı yakalayabilirsin. Enerjini kontrol etmekte zorlanabilirsin, fiziksel aktivitelerle bu enerjiyi yönlendir. Süregelen bir işte tıkanıklıklar oluşabilir, sabırlı ol ve alternatif çözümler üret. Bu dönemde, stratejik planlamalar yaparak gelecekteki hedeflerini daha sağlam bir temele oturtabilirsin.",
-            "affectedThemes": [
-              "enerji",
-              "motivasyon",
-              "girişimcilik"
-            ],
-            "priority": "medium"
-          },
-          {
-            "planet": "jupiter",
-            "planetLabel": "Jüpiter",
-            "startDate": "2026-12-13",
-            "endDate": "2027-03-12",
-            "baseInterpretation": "Eğitim veya kariyer alanında beklenmedik fırsatlar karşına çıkabilir, değerlendirmekte temkinli ol. Aşırı iyimserlikten kaçınarak gerçekçi hedefler koy. Eski bir öğretmen ya da mentorla yeniden bağlantı kurmak, sana yeni perspektifler kazandırabilir. Bu dönemde, inanç sistemini gözden geçirip kendini geliştirme fırsatı bulabilirsin.",
-            "personalNote": "Eğitim veya kariyer alanında beklenmedik fırsatlar karşına çıkabilir, değerlendirmekte temkinli ol. Aşırı iyimserlikten kaçınarak gerçekçi hedefler koy. Eski bir öğretmen ya da mentorla yeniden bağlantı kurmak, sana yeni perspektifler kazandırabilir. Bu dönemde, inanç sistemini gözden geçirip kendini geliştirme fırsatı bulabilirsin.",
-            "affectedThemes": [
-              "büyüme",
-              "inanç",
-              "eğitim"
-            ],
-            "priority": "high"
-          },
-          {
-            "planet": "saturn",
-            "planetLabel": "Satürn",
-            "startDate": "2026-07-27",
-            "endDate": "2026-12-11",
-            "baseInterpretation": "Kariyerinde beklediğin terfi veya ödül gecikebilir, sabırlı ol ve çalışmalarına devam et. Sorumlulukların artabilir, iş yükünü organize ederek verimliliği artır. Eski bir iş projesi yeniden gündeme gelebilir, bu kez daha disiplinli bir yaklaşımla başarıya ulaşabilirsin. Uzun vadeli hedefler için stratejik planlar yapma fırsatını değerlendirebilirsin.",
-            "personalNote": "Kariyerinde beklediğin terfi veya ödül gecikebilir, sabırlı ol ve çalışmalarına devam et. Sorumlulukların artabilir, iş yükünü organize ederek verimliliği artır. Eski bir iş projesi yeniden gündeme gelebilir, bu kez daha disiplinli bir yaklaşımla başarıya ulaşabilirsin. Uzun vadeli hedefler için stratejik planlar yapma fırsatını değerlendirebilirsin.",
-            "affectedThemes": [
-              "sorumluluk",
-              "yapı",
-              "disiplin"
-            ],
-            "priority": "high"
-          },
-          {
-            "planet": "uranus",
-            "planetLabel": "Uranüs",
-            "startDate": "2026-09-11",
-            "endDate": "2027-02-09",
-            "baseInterpretation": "Hayatında radikal değişiklikler yapmak isterken durup bir kez daha düşünme ihtiyacı hissedebilirsin. Özgürlüğünü kısıtlayan durumları fark edip bu konuda harekete geç. Yaratıcı projelerde içgörü ve yenilikçi fikirler geliştirebilirsin. Bu dönemde, içsel dönüşüm yaşayarak kendini daha iyi tanıma fırsatı bulabilirsin.",
-            "personalNote": "Hayatında radikal değişiklikler yapmak isterken durup bir kez daha düşünme ihtiyacı hissedebilirsin. Özgürlüğünü kısıtlayan durumları fark edip bu konuda harekete geç. Yaratıcı projelerde içgörü ve yenilikçi fikirler geliştirebilirsin. Bu dönemde, içsel dönüşüm yaşayarak kendini daha iyi tanıma fırsatı bulabilirsin.",
-            "affectedThemes": [
-              "değişim",
-              "özgürlük",
-              "yenilikçilik"
-            ],
-            "priority": "high"
-          },
-          {
-            "planet": "neptune",
-            "planetLabel": "Neptün",
-            "startDate": "2026-07-08",
-            "endDate": "2026-12-13",
-            "baseInterpretation": "Manevi arayışların ve sezgisel becerilerin artabilir, bu süreci meditasyonla destekle. Hayallerin ve gerçekler arasında bir denge kurarak yanılsamalardan kaçın. Eski bir rüya veya hedefin peşinden yeniden gitmeye karar verebilirsin. Bu, derin bir içsel keşif ve ruhsal gelişim için harika bir zaman olabilir.",
-            "personalNote": "Manevi arayışların ve sezgisel becerilerin artabilir, bu süreci meditasyonla destekle. Hayallerin ve gerçekler arasında bir denge kurarak yanılsamalardan kaçın. Eski bir rüya veya hedefin peşinden yeniden gitmeye karar verebilirsin. Bu, derin bir içsel keşif ve ruhsal gelişim için harika bir zaman olabilir.",
-            "affectedThemes": [
-              "sezgi",
-              "maneviyat",
-              "rüyalar"
-            ],
-            "priority": "high"
-          },
-          {
-            "planet": "pluto",
-            "planetLabel": "Plüton",
-            "startDate": "2026-05-07",
-            "endDate": "2026-10-16",
-            "baseInterpretation": "Bastırdığın duygular yüzeye çıkabilir, onlarla yüzleşerek kendini özgürleştir. Güç mücadeleleri ve kontrol sorunları gün yüzüne çıkabilir, esnek olmayı öğren. Eski bir ilişki veya bağlantı, yeni bir dönüşüm süreci başlatabilir. Bu dönemi, kişisel gücünü yeniden yapılandırmak için kullanabilirsin.",
-            "personalNote": "Bastırdığın duygular yüzeye çıkabilir, onlarla yüzleşerek kendini özgürleştir. Güç mücadeleleri ve kontrol sorunları gün yüzüne çıkabilir, esnek olmayı öğren. Eski bir ilişki veya bağlantı, yeni bir dönüşüm süreci başlatabilir. Bu dönemi, kişisel gücünü yeniden yapılandırmak için kullanabilirsin.",
-            "affectedThemes": [
-              "dönüşüm",
-              "güç",
-              "kontrol"
-            ],
-            "priority": "high"
-          }
-        ],
-        "milestones": [
-          {
-            "title": "Kariyerde Yön Değişikliği",
-            "window": "2 Haziran – 25 Haziran 2026",
-            "description": "Jüpiter'in Güneş'le kare açısı, kariyer hedeflerinde bir değişiklik yapma isteği uyandırabilir. Yöneticilerle veya iş arkadaşlarınla iş görüşmeleri bu süreçte daha yoğun geçebilir. Bu dönemde esnek olmak önemli; çünkü beklenmedik bir iş teklifi veya terfi gündeme gelebilir."
-          },
-          {
-            "title": "Duygusal Sınavlar",
-            "window": "14 Ekim – 9 Aralık 2026",
-            "description": "Saturn'un Ay'a karşıt açısı duygusal olarak zorlu bir dönem yaratacak. İlişkilerde mesafeler veya soğukluklar hissetmen mümkün. Ancak bu süreç, duygusal dayanıklılığını artırmak için bir fırsat sunuyor. Duygusal sınavlar, kişisel gelişiminde önemli bir rol oynayacak."
-          },
-          {
-            "title": "İçsel Yenilenme",
-            "window": "25 Ocak – 12 Mart 2027",
-            "description": "Pluton'un Ay ile üçgen açısı, içsel dönüşüm ve yenilenme için mükemmel bir zaman. Bu süreçte kendini keşfetmek ve duygusal yüklerinden kurtulmak için meditasyon veya terapi gibi uygulamaları deneyebilirsin. Bu, ruhsal olarak güçlenmen için önemli bir dönem olacak."
-          },
-          {
-            "title": "Finansal Düzenlemeler",
-            "window": "22 Mart – 11 Mayıs 2026",
-            "description": "Saturn'un Venüs'e karşıt açısı, mali konularda bazı zorluklar getirebilir. Harcamalarını dikkatlice planlamak ve bütçeni yeniden gözden geçirmek faydalı olacak. Bu dönemde mali disiplin geliştirmek, uzun vadede finansal güvenliğini artırabilir."
-          },
-          {
-            "title": "İlişkilerde Değerlerin Sınanması",
-            "window": "17 Ekim 2026 – 9 Aralık 2026",
-            "description": "Saturn'un Venüs'e karşıt açısı, ilişkilerde değerlerin sınanacağı bir dönem yaratacak. Özellikle maddi konular, partnerinle aranda gerginliklere neden olabilir. Ancak sorunları iletişim yoluyla çözmek, ilişkinizi daha güçlü bir temele oturtabilir."
-          }
-        ],
-        "recurringThemes": [
-          {
-            "theme": "relationship_values",
-            "label": "Iliskiler ve Degerler",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3",
-              "phase_4"
-            ],
-            "count": 4,
-            "description": ""
-          },
-          {
-            "theme": "general_transit",
-            "label": "Genel Etkiler",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3",
-              "phase_4"
-            ],
-            "count": 4,
-            "description": ""
-          },
-          {
-            "theme": "money_resources",
-            "label": "Para ve Kaynaklar",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3",
-              "phase_4"
-            ],
-            "count": 4,
-            "description": ""
-          },
-          {
-            "theme": "career_direction",
-            "label": "Kariyer ve Yon",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3",
-              "phase_4"
-            ],
-            "count": 4,
-            "description": ""
-          },
-          {
-            "theme": "growth_opportunity",
-            "label": "Buyume Firsati",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3",
-              "phase_4"
-            ],
-            "count": 4,
-            "description": ""
-          }
-        ],
-        "focusAreas": {
-          "career": "Bu yıl kariyerinle ilgili önemli değişiklikler kapıda. Mart ayından itibaren Satürn'ün Yükselenle olan kare açısı, iş yerinde daha fazla sorumluluk üstlenmeni gerektirebilir. Yeni bir pozisyon veya projeye liderlik etme teklifi alabilirsin. Ancak, bu süreçte yapısal baskılar da artacak ve iş yükün fazlalaşabilir.\n\nJüpiter'in MC ile üçgen açısı Mart sonunda zirveye ulaşıyor ve kariyerinde büyüme fırsatları sunuyor. Bu süreçte çevrendeki insanlardan destek alarak bir terfi veya iş değişikliği yapabilirsin. Haziran ayında Jüpiter'in Güneş'le kare açısı, kariyer hedeflerinde bir değişiklik yapmanı teşvik edebilir, bu yüzden esnek olmalısın.",
-          "relationships": "İlişkilerde bu yıl değerlerin sınanacak. Mart ayında Satürn'ün Venüs'e karşıt açısı, partnerinle finansal konularda anlaşmazlıklar yaşamanı tetikleyebilir. Bu süreçte ilişkilerde dengeyi bulmak zor olabilir, ancak bu deneyimler ilişkilerini daha da güçlendirecek.\n\nEkim ayında başlayan Satürn'ün Ay'a karşıt açısı, duygusal mesafe yaratabilir. Bu durum, ilişkilerde daha derin bir anlayış ve empati geliştirmene yardımcı olabilir. Aralık ayından itibaren Pluton'un Ay ile üçgen açısı, duygusal bağlarını yeniden yapılandırmak ve derinleştirmek için mükemmel bir fırsat sunuyor.",
-          "innerLife": "İçsel dünyanda bu yıl önemli dönüşümler yaşayacaksın. Mart ayının başında başlayan Jüpiter ve MC üçgeni, yaşam misyonun üzerinde derinlemesine düşünmene yol açabilir. Kendi içsel değerlerini ve hedeflerini yeniden değerlendirme şansı bulacaksın.\n\nOcak ayından itibaren Pluton'un Ay ile üçgen açısı, içsel dönüşüm ve manevi derinleşme için mükemmel bir zaman. Bu süreçte meditatif uygulamalar veya ruhsal çalışmalarla kendini daha iyi tanıyabilir ve yaşam amacını daha net bir şekilde görebilirsin.",
-          "growth": "Bu yıl kişisel büyüme ve gelişim için birçok fırsat sunuyor. Haziran ayının ortalarında Jüpiter'in Güneş'le kare açısı, kişisel projelerde risk almanı teşvik edecek. Yeni eğitim fırsatları veya seyahat planları gündeme gelebilir.\n\nAğustos ayında Mars'ın Yükselenle kavuşumu, enerjini ve kararlılığını artıracak. Bu dönemde liderlik rollerine soyunabilir ve kişisel hedeflerini daha etkili bir şekilde takip edebilirsin. Aralık ayından itibaren Pluton'un Ay ile üçgen açısı, içsel gücünü ve dayanıklılığını artırman için harika bir fırsat sunuyor.",
-          "health": "Sağlıkla ilgili konular bu yıl biraz daha ön planda olacak. Mart ayından itibaren Saturn'un Yükselenle kare açısı, fiziksel sağlığına daha fazla dikkat etmeni gerektirebilir. Bu dönemde düzenli egzersiz ve sağlıklı beslenme alışkanlıkları önem kazanabilir.\n\nOcak ayından itibaren Pluton'un Ay ile üçgen açısı, bedenine ve ruhuna daha iyi bakman için seni motive edecek. Yoga veya meditasyon gibi uygulamalarla zihin ve beden dengesini sağlamaya çalışabilirsin. Bu süreçte sağlığınla ilgili konulara daha fazla öncelik vermek, genel yaşam kaliteni artırabilir."
-        },
-        "detailedDrivers": [
-          {
-            "id": "tr_saturn_asc_square_2026-03-24",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "asc",
-            "aspect": "square",
-            "startDate": "2026-03-24",
-            "endDate": "2026-05-04",
-            "exactDate": "2026-04-13",
-            "score": 84,
-            "title": "Saturn Kare Yukselen",
-            "rangeText": "2026-03-24 - 2026-05-04 arasi (doruk: 2026-04-13)"
-          },
-          {
-            "id": "tr_saturn_moon_opposition_2026-03-25",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "moon",
-            "aspect": "opposition",
-            "startDate": "2026-03-25",
-            "endDate": "2026-05-14",
-            "exactDate": "2026-04-17",
-            "score": 84,
-            "title": "Saturn Karsit Ay",
-            "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
-          },
-          {
-            "id": "tr_saturn_venus_opposition_2026-03-22",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "venus",
-            "aspect": "opposition",
-            "startDate": "2026-03-22",
-            "endDate": "2026-05-11",
-            "exactDate": "2026-04-15",
-            "score": 79,
-            "title": "Saturn Karsit Venus",
-            "rangeText": "2026-03-22 - 2026-05-11 arasi (doruk: 2026-04-15)"
-          },
-          {
-            "id": "tr_jupiter_sun_square_2026-06-02",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "sun",
-            "aspect": "square",
-            "startDate": "2026-06-02",
-            "endDate": "2026-06-25",
-            "exactDate": "2026-06-14",
-            "score": 76,
-            "title": "Jupiter Kare Gunes",
-            "rangeText": "2026-06-02 - 2026-06-25 arasi (doruk: 2026-06-14)"
-          },
-          {
-            "id": "tr_jupiter_mc_trine_2026-03-12",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "mc",
-            "aspect": "trine",
-            "startDate": "2026-03-12",
-            "endDate": "2026-04-24",
-            "exactDate": "2026-03-28",
-            "score": 74,
-            "title": "Jupiter Ucgen MC",
-            "rangeText": "2026-03-12 - 2026-04-24 arasi (doruk: 2026-03-28)"
-          },
-          {
-            "id": "tr_retro_pluto_2026-05-07",
-            "phaseId": "phase_1",
-            "type": "retrograde",
-            "color": "retro",
-            "transitPlanet": "pluto",
-            "natalPlanet": null,
-            "aspect": null,
-            "startDate": "2026-05-07",
-            "endDate": "2026-10-16",
-            "exactDate": "2026-05-07",
-            "score": 73,
-            "title": "Pluton Retrosu",
-            "rangeText": "2026-05-07 - 2026-10-16 arasi (doruk: 2026-05-07)"
-          },
-          {
-            "id": "tr_mars_mc_conjunction_2026-03-19",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "mars",
-            "natalPlanet": "mc",
-            "aspect": "conjunction",
-            "startDate": "2026-03-19",
-            "endDate": "2026-03-25",
-            "exactDate": "2026-03-22",
-            "score": 73,
-            "title": "Mars Kavusum MC",
-            "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
-          },
-          {
-            "id": "tr_jupiter_sun_square_2026-06-02",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "sun",
-            "aspect": "square",
-            "startDate": "2026-06-02",
-            "endDate": "2026-06-25",
-            "exactDate": "2026-06-14",
-            "score": 76,
-            "title": "Jupiter Kare Gunes",
-            "rangeText": "2026-06-02 - 2026-06-25 arasi (doruk: 2026-06-14)"
-          },
-          {
-            "id": "tr_mars_asc_conjunction_2026-08-18",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "mars",
-            "natalPlanet": "asc",
-            "aspect": "conjunction",
-            "startDate": "2026-08-18",
-            "endDate": "2026-08-26",
-            "exactDate": "2026-08-22",
-            "score": 76,
-            "title": "Mars Kavusum Yukselen",
-            "rangeText": "2026-08-18 - 2026-08-26 arasi (doruk: 2026-08-22)"
-          },
-          {
-            "id": "tr_retro_pluto_2026-05-07",
-            "phaseId": "phase_2",
-            "type": "retrograde",
-            "color": "retro",
-            "transitPlanet": "pluto",
-            "natalPlanet": null,
-            "aspect": null,
-            "startDate": "2026-05-07",
-            "endDate": "2026-10-16",
-            "exactDate": "2026-05-07",
-            "score": 73,
-            "title": "Pluton Retrosu",
-            "rangeText": "2026-05-07 - 2026-10-16 arasi (doruk: 2026-05-07)"
-          },
-          {
-            "id": "tr_uranus_uranus_conjunction_2026-03-12",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "uranus",
-            "natalPlanet": "uranus",
-            "aspect": "conjunction",
-            "startDate": "2026-03-12",
-            "endDate": "2026-06-30",
-            "exactDate": "2026-05-08",
-            "score": 71,
-            "title": "Uranus Kavusum Uranus",
-            "rangeText": "2026-03-12 - 2026-06-30 arasi (doruk: 2026-05-08)"
-          },
-          {
-            "id": "tr_jupiter_mercury_square_2026-09-12",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "mercury",
-            "aspect": "square",
-            "startDate": "2026-09-12",
-            "endDate": "2026-10-09",
-            "exactDate": "2026-09-25",
-            "score": 71,
-            "title": "Jupiter Kare Merkur",
-            "rangeText": "2026-09-12 - 2026-10-09 arasi (doruk: 2026-09-25)"
-          },
-          {
-            "id": "tr_pluto_moon_trine_2026-03-26",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "pluto",
-            "natalPlanet": "moon",
-            "aspect": "trine",
-            "startDate": "2026-03-26",
-            "endDate": "2026-06-18",
-            "exactDate": "2026-05-02",
-            "score": 69,
-            "title": "Pluton Ucgen Ay",
-            "rangeText": "2026-03-26 - 2026-06-18 arasi (doruk: 2026-05-02)"
-          },
-          {
-            "id": "tr_pluto_pluto_conjunction_2026-07-24",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "pluto",
-            "natalPlanet": "pluto",
-            "aspect": "conjunction",
-            "startDate": "2026-07-24",
-            "endDate": "2027-01-01",
-            "exactDate": "2026-10-11",
-            "score": 69,
-            "title": "Pluton Kavusum Pluton",
-            "rangeText": "2026-07-24 - 2027-01-01 arasi (doruk: 2026-10-11)"
-          },
-          {
-            "id": "tr_saturn_moon_opposition_2026-10-14",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "moon",
-            "aspect": "opposition",
-            "startDate": "2026-10-14",
-            "endDate": "2027-02-04",
-            "exactDate": "2026-12-09",
-            "score": 84,
-            "title": "Saturn Karsit Ay",
-            "rangeText": "2026-10-14 - 2027-02-04 arasi (doruk: 2026-12-09)"
-          },
-          {
-            "id": "tr_saturn_asc_square_2026-10-28",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "asc",
-            "aspect": "square",
-            "startDate": "2026-10-28",
-            "endDate": "2027-01-22",
-            "exactDate": "2026-12-09",
-            "score": 80,
-            "title": "Saturn Kare Yukselen",
-            "rangeText": "2026-10-28 - 2027-01-22 arasi (doruk: 2026-12-09)"
-          },
-          {
-            "id": "tr_saturn_venus_opposition_2026-10-17",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "venus",
-            "aspect": "opposition",
-            "startDate": "2026-10-17",
-            "endDate": "2027-02-01",
-            "exactDate": "2026-12-09",
-            "score": 75,
-            "title": "Saturn Karsit Venus",
-            "rangeText": "2026-10-17 - 2027-02-01 arasi (doruk: 2026-12-09)"
-          },
-          {
-            "id": "tr_retro_pluto_2026-05-07",
-            "phaseId": "phase_3",
-            "type": "retrograde",
-            "color": "retro",
-            "transitPlanet": "pluto",
-            "natalPlanet": null,
-            "aspect": null,
-            "startDate": "2026-05-07",
-            "endDate": "2026-10-16",
-            "exactDate": "2026-05-07",
-            "score": 73,
-            "title": "Pluton Retrosu",
-            "rangeText": "2026-05-07 - 2026-10-16 arasi (doruk: 2026-05-07)"
-          },
-          {
-            "id": "tr_jupiter_mercury_square_2026-09-12",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "mercury",
-            "aspect": "square",
-            "startDate": "2026-09-12",
-            "endDate": "2026-10-09",
-            "exactDate": "2026-09-25",
-            "score": 71,
-            "title": "Jupiter Kare Merkur",
-            "rangeText": "2026-09-12 - 2026-10-09 arasi (doruk: 2026-09-25)"
-          },
-          {
-            "id": "tr_jupiter_mars_square_2026-09-14",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "mars",
-            "aspect": "square",
-            "startDate": "2026-09-14",
-            "endDate": "2026-10-10",
-            "exactDate": "2026-09-26",
-            "score": 71,
-            "title": "Jupiter Kare Mars",
-            "rangeText": "2026-09-14 - 2026-10-10 arasi (doruk: 2026-09-26)"
-          },
-          {
-            "id": "tr_pluto_pluto_conjunction_2026-07-24",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "pluto",
-            "natalPlanet": "pluto",
-            "aspect": "conjunction",
-            "startDate": "2026-07-24",
-            "endDate": "2027-01-01",
-            "exactDate": "2026-10-11",
-            "score": 69,
-            "title": "Pluton Kavusum Pluton",
-            "rangeText": "2026-07-24 - 2027-01-01 arasi (doruk: 2026-10-11)"
-          },
-          {
-            "id": "tr_saturn_moon_opposition_2026-10-14",
-            "phaseId": "phase_4",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "moon",
-            "aspect": "opposition",
-            "startDate": "2026-10-14",
-            "endDate": "2027-02-04",
-            "exactDate": "2026-12-09",
-            "score": 84,
-            "title": "Saturn Karsit Ay",
-            "rangeText": "2026-10-14 - 2027-02-04 arasi (doruk: 2026-12-09)"
-          },
-          {
-            "id": "tr_saturn_asc_square_2026-10-28",
-            "phaseId": "phase_4",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "asc",
-            "aspect": "square",
-            "startDate": "2026-10-28",
-            "endDate": "2027-01-22",
-            "exactDate": "2026-12-09",
-            "score": 80,
-            "title": "Saturn Kare Yukselen",
-            "rangeText": "2026-10-28 - 2027-01-22 arasi (doruk: 2026-12-09)"
-          },
-          {
-            "id": "tr_saturn_venus_opposition_2026-10-17",
-            "phaseId": "phase_4",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "venus",
-            "aspect": "opposition",
-            "startDate": "2026-10-17",
-            "endDate": "2027-02-01",
-            "exactDate": "2026-12-09",
-            "score": 75,
-            "title": "Saturn Karsit Venus",
-            "rangeText": "2026-10-17 - 2027-02-01 arasi (doruk: 2026-12-09)"
-          },
-          {
-            "id": "tr_pluto_moon_trine_2027-01-25",
-            "phaseId": "phase_4",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "pluto",
-            "natalPlanet": "moon",
-            "aspect": "trine",
-            "startDate": "2027-01-25",
-            "endDate": "2027-03-12",
-            "exactDate": "2027-03-12",
-            "score": 72,
-            "title": "Pluton Ucgen Ay",
-            "rangeText": "2027-01-25 - 2027-03-12 arasi (doruk: 2027-03-12)"
-          }
-        ],
-        "background": [],
-        "stats": {
-          "rawEventCount": 317,
-          "filteredEventCount": 317,
-          "clusterCount": 11,
-          "phaseCount": 4,
-          "retrogradeCount": 10,
-          "aiCallCount": 2,
-          "aiCallBFailed": false,
-          "pipelineMs": 46330
-        },
-        "locationsUsed": [
-          {
-            "city": "Istanbul",
-            "latitude": 41.0082,
-            "longitude": 28.9784,
-            "utcOffset": 3,
-            "timezone": "Europe/Istanbul",
-            "startDate": "2026-03-12",
-            "endDate": "2027-03-12"
-          }
-        ]
-      }
-    },
-    "dev_1772623594408_gro4e2o2:6:tr:v4:5b6f93a3f8": {
-      "createdAt": "2026-03-12T10:53:27.343Z",
-      "months": 6,
-      "lang": "tr",
-      "locationsHash": "5b6f93a3f8",
-      "locations": [
-        {
-          "city": "Istanbul",
-          "latitude": 41.0082,
-          "longitude": 28.9784,
-          "utcOffset": 3,
-          "timezone": "Europe/Istanbul",
-          "startDate": "2026-03-12",
-          "endDate": "2026-09-12"
-        }
-      ],
-      "gemCost": 75,
-      "data": {
-        "formatVersion": 4,
-        "periodMode": "hybrid",
-        "period": {
-          "start": "2026-03-12",
-          "end": "2026-09-12"
-        },
-        "months": 6,
-        "overview": {
-          "title": "Değişimin Kapıları Aralanıyor",
-          "summary": "Önümüzdeki altı ay boyunca kariyerinde ve ilişkilerinde ciddi değişim rüzgarları esiyor. Mart ve Nisan aylarında yapısal baskılar artarken, özellikle Mayıs'tan itibaren yeni fırsatlar kapını çalabilir. Yaz aylarında, içsel bir dönüşüm ve büyüme süreciyle karşılaşacaksın."
-        },
-        "phases": [
-          {
-            "id": "phase_1",
-            "title": "Yapısal Baskılar ve Beklenmedik Fırsatlar",
-            "window": "Mart – Mayıs",
-            "windowStart": "2026-03-12",
-            "windowEnd": "2026-05-13",
-            "dominantThemes": [
-              "general_transit",
-              "career_direction",
-              "relationship_values"
-            ],
-            "interpretation": "Mart ayının ortalarından başlayarak, kariyerinle ilgili önemli bir baskı altında hissedebilirsin. 24 Mart itibarıyla Satürn'ün Yükselen ile karesi, iş hayatında sorumluluklarını arttırabilir. Bu dönemde fazla mesai yapman veya beklenmedik görevlerle karşılaşman olası. 22 Mart civarında Mars ve MC'nin kavuşumu, iş yerinde ani bir değişiklik getirebilir, belki de yeni bir projeye liderlik etmen gerekebilir. \n\nİlişkilerde de benzer bir baskı söz konusu. 17 Nisan'a kadar olan süreçte, Satürn'ün Ay ve Venüs ile karşıt durumu, duygusal bağlarında zorlayıcı bir etki yaratabilir. Eski bir ilişki ya da çözülmemiş bir mesele tekrar gündeme gelebilir. Bu dönemde tartışmalardan kaçınmak zor olabilir, ancak bu süreç, ilişkilerinin temellerini güçlendirmek için fırsatlar sunabilir.\n\nBu dönemin sonunda, özellikle Nisan sonuna doğru, Jüpiter'in MC ile üçgeni kariyerinde yeni fırsat kapılarını aralayabilir. Ancak genel olarak bu dönemde yapısal baskıların yoğun olduğunu göreceksin; bu da dikkatli olmanı ve adımlarını planlı atmanı önerir. Ay sonuna doğru ise yeni fırsatlar ortaya çıkacak.",
-            "clusterCount": 10,
-            "eventCount": 68
-          },
-          {
-            "id": "phase_2",
-            "title": "Duygusal Dalgalanmalar ve Kariyer Basamakları",
-            "window": "Mayıs – Temmuz",
-            "windowStart": "2026-05-13",
-            "windowEnd": "2026-07-14",
-            "dominantThemes": [
-              "general_transit",
-              "career_direction",
-              "relationship_values"
-            ],
-            "interpretation": "Mayıs ortalarına kadar Satürn'ün etkisi devam ederken, duygusal olarak biraz sıkışmış hissedebilirsin. Ancak bu dönemin ardından, özellikle Haziran ayında, Jüpiter'in Güneş ile karesi kariyer planlarında bazı engeller çıkarabilir. Beklenmedik bir iş teklifi veya projede değişiklikler gündeme gelebilir. Burada esnek olmak ve hızlı adapte olmak önem kazanıyor.\n\nİlişkilerinde, Mayıs başlarında Plüton'un Ay ile üçgeni, derin bir duygusal yenilenme fırsatı sunabilir. Geçmişle hesaplaşmalar veya duygusal bağların güçlenmesi bu dönemde mümkün. Duygusal olarak daha açık ve içten olman, ilişkilerini daha sağlam temellere oturtabilir.\n\nBu dönemde özellikle Mayıs ayının ortalarından itibaren, Mars'ın Güneş ile karşıtlığı, karşına çıkan zorluklarla mücadele etmen için gereken enerjiyi verecek. Ancak bu süreçte dikkatli olmalısın, zira ani çıkışlar ve yanlış anlamalar huzursuzluğa neden olabilir. Haziran ortasında, bazı büyüme fırsatları karşına çıkacak, bu da sorunları çözerken yeni yollar denemene olanak tanıyacak.",
-            "clusterCount": 9,
-            "eventCount": 80
-          },
-          {
-            "id": "phase_3",
-            "title": "Kişisel Dönüşüm ve Yeniden Doğuş",
-            "window": "Temmuz – Eylül",
-            "windowStart": "2026-07-14",
-            "windowEnd": "2026-09-12",
-            "dominantThemes": [
-              "general_transit",
-              "career_direction",
-              "relationship_values"
-            ],
-            "interpretation": "Temmuz'dan itibaren, kişisel dönüşüm ve içsel yenilenme vurgusu artıyor. Mars'ın Yükselen ile kavuşumu, ağustos ortalarında yaşamında güçlü bir enerjiyi harekete geçirebilir. Bu dönemde yeni başlangıçlar yapma isteği duyabilirsin; belki de eski alışkanlıklarını geride bırakıp daha sağlıklı bir yaşam tarzına adım atmak isteyeceksin.\n\nKariyerinle ilgili olarak, Temmuz sonlarında Mars'ın MC'ye karesi, iş yerinde bazı güçlükler ve rekabetle karşılaşabileceğini gösteriyor. Ancak bu dönemde sabırlı kalabilir ve stratejik adımlar atabilirsen, bu zorlukları fırsata çevirebilirsin.\n\nAğustos ayının sonlarına doğru ise, Mars'ın Ay ile karesi, duygusal hayatta bazı çatışmalara neden olabilir. Bu dönemde dikkatli olmalı ve duygusal tepkilerini kontrol altında tutmalısın. Ancak bu zorlukların ardından, Eylül başlarında Plüton'un kendi konumuyla kavuşumu, yaşamında derin bir dönüşüm ve yenilenme süreci başlatacak. Bu dönemde özellikle içsel dönüşümün doruk noktasına ulaşacak ve yeni bir sayfa açabileceksin.",
-            "clusterCount": 8,
-            "eventCount": 65
-          }
-        ],
-        "themes": [],
-        "retrogradeWindows": [
-          {
-            "planet": "mercury",
-            "planetLabel": "Merkür",
-            "startDate": "2026-06-30",
-            "endDate": "2026-07-24",
-            "baseInterpretation": "Eski bir arkadaşından beklenmedik bir telefon alabilirsin, bu konuşma seni geçmişe götürebilir. Telefonunu ve e-postalarını yedekle, teknik aksaklıklar yaşayabilirsin. Eğer kısa bir seyahat planın varsa tarihini tekrar gözden geçir, ertelemek daha iyi olabilir. Bu dönemde eski projelerini tamamlamak için fırsat yakalayabilirsin, derin düşünme yeteneğinle olaylara farklı bir bakış açısı getirebilirsin.",
-            "personalNote": "Eski bir arkadaşından beklenmedik bir telefon alabilirsin, bu konuşma seni geçmişe götürebilir. Telefonunu ve e-postalarını yedekle, teknik aksaklıklar yaşayabilirsin. Eğer kısa bir seyahat planın varsa tarihini tekrar gözden geçir, ertelemek daha iyi olabilir. Bu dönemde eski projelerini tamamlamak için fırsat yakalayabilirsin, derin düşünme yeteneğinle olaylara farklı bir bakış açısı getirebilirsin.",
-            "affectedThemes": [
-              "iletişim",
-              "yakın çevre",
-              "kısa yolculuklar"
-            ],
-            "priority": "medium"
-          },
-          {
-            "planet": "saturn",
-            "planetLabel": "Satürn",
-            "startDate": "2026-07-27",
-            "endDate": "2026-09-12",
-            "baseInterpretation": "İş yerinde uzun zamandır bekleyen bir proje aniden gündeme gelebilir, sorumlulukların artabilir. Disiplinli bir program yaparak önceliklerini belirle, zamansızlıktan kaynaklanan stresin önüne geç. Bu süreçte, sabrının ve çalışkanlığının karşılığını alabileceğin bir yapılanma fırsatı bulabilirsin. Kariyerinde yeni bir yön belirlemek için geçmiş deneyimlerinden ders çıkarabileceğin bir dönemdesin.",
-            "personalNote": "İş yerinde uzun zamandır bekleyen bir proje aniden gündeme gelebilir, sorumlulukların artabilir. Disiplinli bir program yaparak önceliklerini belirle, zamansızlıktan kaynaklanan stresin önüne geç. Bu süreçte, sabrının ve çalışkanlığının karşılığını alabileceğin bir yapılanma fırsatı bulabilirsin. Kariyerinde yeni bir yön belirlemek için geçmiş deneyimlerinden ders çıkarabileceğin bir dönemdesin.",
-            "affectedThemes": [
-              "sorumluluk",
-              "yapı",
-              "disiplin"
-            ],
-            "priority": "high"
-          },
-          {
-            "planet": "uranus",
-            "planetLabel": "Uranüs",
-            "startDate": "2026-09-11",
-            "endDate": "2026-09-12",
-            "baseInterpretation": "Özgürlüğünü kısıtlayan bir durumla yüzleşebilir, ani bir kararla yön değiştirmek isteyebilirsin. Bu kısa sürede büyük değişikliklerden kaçın, planlarını daha sonra uygulamak için sakla. Yenilikçi fikirlerini not al, bunlar ileride sana ilham olabilir. İçsel devriminle farklı bir perspektif kazanabilir, yaratıcı potansiyelini keşfedebilirsin.",
-            "personalNote": "Özgürlüğünü kısıtlayan bir durumla yüzleşebilir, ani bir kararla yön değiştirmek isteyebilirsin. Bu kısa sürede büyük değişikliklerden kaçın, planlarını daha sonra uygulamak için sakla. Yenilikçi fikirlerini not al, bunlar ileride sana ilham olabilir. İçsel devriminle farklı bir perspektif kazanabilir, yaratıcı potansiyelini keşfedebilirsin.",
-            "affectedThemes": [
-              "değişim",
-              "özgürlük",
-              "yenilikçilik"
-            ],
-            "priority": "high"
-          },
-          {
-            "planet": "neptune",
-            "planetLabel": "Neptün",
-            "startDate": "2026-07-08",
-            "endDate": "2026-09-12",
-            "baseInterpretation": "Hayatında belirsizliğe yol açan bir hayal kırıklığı yaşayabilirsin. Sezgilerine güven ama aksiyon almadan önce gerçekliği kontrol et. Rüyalarını not al, içsel mesajlar barındırabilir. Bu dönemde manevi bir yolculuğa çıkabilir, kendini daha iyi tanıma fırsatı bulabilirsin.",
-            "personalNote": "Hayatında belirsizliğe yol açan bir hayal kırıklığı yaşayabilirsin. Sezgilerine güven ama aksiyon almadan önce gerçekliği kontrol et. Rüyalarını not al, içsel mesajlar barındırabilir. Bu dönemde manevi bir yolculuğa çıkabilir, kendini daha iyi tanıma fırsatı bulabilirsin.",
-            "affectedThemes": [
-              "sezgi",
-              "maneviyat",
-              "rüyalar"
-            ],
-            "priority": "high"
-          },
-          {
-            "planet": "pluto",
-            "planetLabel": "Plüton",
-            "startDate": "2026-05-07",
-            "endDate": "2026-09-12",
-            "baseInterpretation": "Eski bir ilişki veya dostluk yeniden gündeme gelebilir, bu durum seni duygusal olarak zorlayabilir. Geçmişten gelen duygusal yükleri bırakmak için bu ilişkileri sağlıklı bir şekilde tamamla. İçsel dönüşümünü fark et, gücünü bilinçli bir şekilde kullanmayı öğren. Bu süreçte, bastırdığın duyguların farkına vararak kendine olan güvenini artırabilirsin.",
-            "personalNote": "Eski bir ilişki veya dostluk yeniden gündeme gelebilir, bu durum seni duygusal olarak zorlayabilir. Geçmişten gelen duygusal yükleri bırakmak için bu ilişkileri sağlıklı bir şekilde tamamla. İçsel dönüşümünü fark et, gücünü bilinçli bir şekilde kullanmayı öğren. Bu süreçte, bastırdığın duyguların farkına vararak kendine olan güvenini artırabilirsin.",
-            "affectedThemes": [
-              "dönüşüm",
-              "güç",
-              "kontrol"
-            ],
-            "priority": "high"
-          }
-        ],
-        "milestones": [
-          {
-            "title": "Kariyerde Beklenmedik Değişiklikler",
-            "window": "19 Mart – 25 Mart 2026",
-            "description": "Mars'ın MC ile kavuşumu, kariyerinle ilgili beklenmedik bir değişim getirebilir. Bu dönemde yeni bir pozisyon teklifi alabilir veya projelerde önemli bir rol üstlenebilirsin. Kariyerinde yeni kapılar aralayabilecek bu fırsatları iyi değerlendirmelisin."
-          },
-          {
-            "title": "Duygusal Yenilenme",
-            "window": "26 Mart – 18 Haziran 2026",
-            "description": "Plüton'un Ay ile yaptığı üçgen açı, duygusal ilişkilerde derin bir yenilenme fırsatı sunuyor. Bu süreçte geçmişle yüzleşebilir, duygusal bağlarını güçlendirebilirsin. Özellikle eski ilişkilerde çözüme ulaşmak mümkün."
-          },
-          {
-            "title": "Kişisel Dönüşüm Dönemi",
-            "window": "24 Temmuz – 12 Eylül 2026",
-            "description": "Plüton'un kendi konumuyla kavuşumu, yaşamında derin ve kalıcı bir dönüşüm süreci başlatacak. Bu dönem, eski alışkanlıklardan sıyrılarak yeni bir sayfa açmak için ideal bir zaman dilimi olacak."
-          },
-          {
-            "title": "İş Hayatında Rekabet ve Zorluklar",
-            "window": "18 Temmuz – 24 Temmuz 2026",
-            "description": "Mars'ın MC'ye karesi, iş yerinde rekabeti ve bazı zorlukları beraberinde getirebilir. Bu süreçte dikkatli adımlar atmalı ve stratejik olmalısın. Zorlukların ardından, kariyerinde daha sağlam bir zemin kazanabilirsin."
-          }
-        ],
-        "recurringThemes": [
-          {
-            "theme": "general_transit",
-            "label": "Genel Etkiler",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3"
-            ],
-            "count": 3,
-            "description": ""
-          },
-          {
-            "theme": "career_direction",
-            "label": "Kariyer ve Yon",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3"
-            ],
-            "count": 3,
-            "description": ""
-          },
-          {
-            "theme": "relationship_values",
-            "label": "Iliskiler ve Degerler",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3"
-            ],
-            "count": 3,
-            "description": ""
-          },
-          {
-            "theme": "growth_opportunity",
-            "label": "Buyume Firsati",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3"
-            ],
-            "count": 3,
-            "description": ""
-          },
-          {
-            "theme": "energy_action",
-            "label": "Enerji ve Aksiyon",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3"
-            ],
-            "count": 3,
-            "description": ""
-          },
-          {
-            "theme": "communication_mental",
-            "label": "Iletisim ve Zihinsel Surec",
-            "phases": [
-              "phase_1",
-              "phase_2",
-              "phase_3"
-            ],
-            "count": 3,
-            "description": ""
-          },
-          {
-            "theme": "structural_pressure",
-            "label": "Yapisal Baski",
-            "phases": [
-              "phase_1",
-              "phase_2"
-            ],
-            "count": 2,
-            "description": ""
-          },
-          {
-            "theme": "money_resources",
-            "label": "Para ve Kaynaklar",
-            "phases": [
-              "phase_1",
-              "phase_2"
-            ],
-            "count": 2,
-            "description": ""
-          },
-          {
-            "theme": "health_body",
-            "label": "Saglik ve Beden",
-            "phases": [
-              "phase_1",
-              "phase_3"
-            ],
-            "count": 2,
-            "description": ""
-          },
-          {
-            "theme": "emotional_reset",
-            "label": "Duygusal Yenilenme",
-            "phases": [
-              "phase_2",
-              "phase_3"
-            ],
-            "count": 2,
-            "description": ""
-          }
-        ],
-        "focusAreas": {
-          "career": "Önümüzdeki altı ay boyunca kariyerinle ilgili önemli değişiklikler söz konusu. Mart ayında beklenmedik iş teklifleri veya projeler gündeme gelebilir. Yılın ortalarında ise iş yerinde bazı rekabetçi durumlarla karşılaşabilirsin. Bu süreçte dikkatli ve stratejik davranmak önem kazanıyor.",
-          "relationships": "İlişkilerinde duygusal derinlik ve yenilenme ön planda. Mart sonlarından Haziran ortalarına kadar, eski meseleleri çözmek veya ilişkilerini güçlendirmek için fırsatlar çıkacak. Ancak bu dönemde ani tepkilerden kaçınmalı ve sabırlı olmalısın.",
-          "innerLife": "İçsel dönüşümün yoğun olduğu bir dönemdesin. Özellikle yaz aylarında, Plüton'un etkisiyle, kendini yeniden keşfetme ve derin bir dönüşüm süreci yaşayabilirsin. Bu dönemi, eski alışkanlıklarını bırakıp, yeni hedefler belirlemek için kullanabilirsin.",
-          "growth": "Kişisel büyüme fırsatları özellikle Mayıs ortalarından itibaren kendini gösterecek. Yeni öğrenim fırsatları veya kişisel gelişim kursları bu dönemde karşına çıkabilir. Bu süreci, kendini geliştirmek ve yeni beceriler kazanmak için değerlendirebilirsin.",
-          "health": "Sağlığın açısından, özellikle yaz başlarında yeni bir yaşam tarzı benimsemek isteyebilirsin. Enerji seviyelerindeki artış, fiziksel aktivitelerde daha aktif olmanı sağlayabilir. Ancak ani hareketlerden kaçınarak dengeli bir yaklaşım sergilemek önemli."
-        },
-        "detailedDrivers": [
-          {
-            "id": "tr_saturn_asc_square_2026-03-24",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "asc",
-            "aspect": "square",
-            "startDate": "2026-03-24",
-            "endDate": "2026-05-04",
-            "exactDate": "2026-04-13",
-            "score": 84,
-            "title": "Saturn Kare Yukselen",
-            "rangeText": "2026-03-24 - 2026-05-04 arasi (doruk: 2026-04-13)"
-          },
-          {
-            "id": "tr_saturn_moon_opposition_2026-03-25",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "moon",
-            "aspect": "opposition",
-            "startDate": "2026-03-25",
-            "endDate": "2026-05-14",
-            "exactDate": "2026-04-17",
-            "score": 84,
-            "title": "Saturn Karsit Ay",
-            "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
-          },
-          {
-            "id": "tr_saturn_venus_opposition_2026-03-22",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "venus",
-            "aspect": "opposition",
-            "startDate": "2026-03-22",
-            "endDate": "2026-05-11",
-            "exactDate": "2026-04-15",
-            "score": 79,
-            "title": "Saturn Karsit Venus",
-            "rangeText": "2026-03-22 - 2026-05-11 arasi (doruk: 2026-04-15)"
-          },
-          {
-            "id": "tr_jupiter_mc_trine_2026-03-12",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "mc",
-            "aspect": "trine",
-            "startDate": "2026-03-12",
-            "endDate": "2026-04-24",
-            "exactDate": "2026-03-28",
-            "score": 74,
-            "title": "Jupiter Ucgen MC",
-            "rangeText": "2026-03-12 - 2026-04-24 arasi (doruk: 2026-03-28)"
-          },
-          {
-            "id": "tr_retro_pluto_2026-05-07",
-            "phaseId": "phase_1",
-            "type": "retrograde",
-            "color": "retro",
-            "transitPlanet": "pluto",
-            "natalPlanet": null,
-            "aspect": null,
-            "startDate": "2026-05-07",
-            "endDate": "2026-09-12",
-            "exactDate": "2026-05-07",
-            "score": 73,
-            "title": "Pluton Retrosu",
-            "rangeText": "2026-05-07 - 2026-09-12 arasi (doruk: 2026-05-07)"
-          },
-          {
-            "id": "tr_mars_mc_conjunction_2026-03-19",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "mars",
-            "natalPlanet": "mc",
-            "aspect": "conjunction",
-            "startDate": "2026-03-19",
-            "endDate": "2026-03-25",
-            "exactDate": "2026-03-22",
-            "score": 73,
-            "title": "Mars Kavusum MC",
-            "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
-          },
-          {
-            "id": "tr_uranus_uranus_conjunction_2026-03-12",
-            "phaseId": "phase_1",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "uranus",
-            "natalPlanet": "uranus",
-            "aspect": "conjunction",
-            "startDate": "2026-03-12",
-            "endDate": "2026-06-30",
-            "exactDate": "2026-05-08",
-            "score": 71,
-            "title": "Uranus Kavusum Uranus",
-            "rangeText": "2026-03-12 - 2026-06-30 arasi (doruk: 2026-05-08)"
-          },
-          {
-            "id": "tr_saturn_moon_opposition_2026-03-25",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "saturn",
-            "natalPlanet": "moon",
-            "aspect": "opposition",
-            "startDate": "2026-03-25",
-            "endDate": "2026-05-14",
-            "exactDate": "2026-04-17",
-            "score": 84,
-            "title": "Saturn Karsit Ay",
-            "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
-          },
-          {
-            "id": "tr_jupiter_sun_square_2026-06-02",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "sun",
-            "aspect": "square",
-            "startDate": "2026-06-02",
-            "endDate": "2026-06-25",
-            "exactDate": "2026-06-14",
-            "score": 76,
-            "title": "Jupiter Kare Gunes",
-            "rangeText": "2026-06-02 - 2026-06-25 arasi (doruk: 2026-06-14)"
-          },
-          {
-            "id": "tr_retro_pluto_2026-05-07",
-            "phaseId": "phase_2",
-            "type": "retrograde",
-            "color": "retro",
-            "transitPlanet": "pluto",
-            "natalPlanet": null,
-            "aspect": null,
-            "startDate": "2026-05-07",
-            "endDate": "2026-09-12",
-            "exactDate": "2026-05-07",
-            "score": 73,
-            "title": "Pluton Retrosu",
-            "rangeText": "2026-05-07 - 2026-09-12 arasi (doruk: 2026-05-07)"
-          },
-          {
-            "id": "tr_uranus_uranus_conjunction_2026-03-12",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "uranus",
-            "natalPlanet": "uranus",
-            "aspect": "conjunction",
-            "startDate": "2026-03-12",
-            "endDate": "2026-06-30",
-            "exactDate": "2026-05-08",
-            "score": 71,
-            "title": "Uranus Kavusum Uranus",
-            "rangeText": "2026-03-12 - 2026-06-30 arasi (doruk: 2026-05-08)"
-          },
-          {
-            "id": "tr_mars_sun_opposition_2026-05-11",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "mars",
-            "natalPlanet": "sun",
-            "aspect": "opposition",
-            "startDate": "2026-05-11",
-            "endDate": "2026-05-18",
-            "exactDate": "2026-05-14",
-            "score": 71,
-            "title": "Mars Karsit Gunes",
-            "rangeText": "2026-05-11 - 2026-05-18 arasi (doruk: 2026-05-14)"
-          },
-          {
-            "id": "tr_pluto_moon_trine_2026-03-26",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "pluto",
-            "natalPlanet": "moon",
-            "aspect": "trine",
-            "startDate": "2026-03-26",
-            "endDate": "2026-06-18",
-            "exactDate": "2026-05-02",
-            "score": 69,
-            "title": "Pluton Ucgen Ay",
-            "rangeText": "2026-03-26 - 2026-06-18 arasi (doruk: 2026-05-02)"
-          },
-          {
-            "id": "tr_jupiter_jupiter_conjunction_2026-05-17",
-            "phaseId": "phase_2",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "jupiter",
-            "natalPlanet": "jupiter",
-            "aspect": "conjunction",
-            "startDate": "2026-05-17",
-            "endDate": "2026-06-17",
-            "exactDate": "2026-06-02",
-            "score": 69,
-            "title": "Jupiter Kavusum Jupiter",
-            "rangeText": "2026-05-17 - 2026-06-17 arasi (doruk: 2026-06-02)"
-          },
-          {
-            "id": "tr_mars_asc_conjunction_2026-08-18",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "mars",
-            "natalPlanet": "asc",
-            "aspect": "conjunction",
-            "startDate": "2026-08-18",
-            "endDate": "2026-08-26",
-            "exactDate": "2026-08-22",
-            "score": 76,
-            "title": "Mars Kavusum Yukselen",
-            "rangeText": "2026-08-18 - 2026-08-26 arasi (doruk: 2026-08-22)"
-          },
-          {
-            "id": "tr_retro_pluto_2026-05-07",
-            "phaseId": "phase_3",
-            "type": "retrograde",
-            "color": "retro",
-            "transitPlanet": "pluto",
-            "natalPlanet": null,
-            "aspect": null,
-            "startDate": "2026-05-07",
-            "endDate": "2026-09-12",
-            "exactDate": "2026-05-07",
-            "score": 73,
-            "title": "Pluton Retrosu",
-            "rangeText": "2026-05-07 - 2026-09-12 arasi (doruk: 2026-05-07)"
-          },
-          {
-            "id": "tr_pluto_pluto_conjunction_2026-07-24",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "pluto",
-            "natalPlanet": "pluto",
-            "aspect": "conjunction",
-            "startDate": "2026-07-24",
-            "endDate": "2026-09-12",
-            "exactDate": "2026-09-12",
-            "score": 69,
-            "title": "Pluton Kavusum Pluton",
-            "rangeText": "2026-07-24 - 2026-09-12 arasi (doruk: 2026-09-12)"
-          },
-          {
-            "id": "tr_mars_mc_square_2026-07-18",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "mars",
-            "natalPlanet": "mc",
-            "aspect": "square",
-            "startDate": "2026-07-18",
-            "endDate": "2026-07-24",
-            "exactDate": "2026-07-21",
-            "score": 68,
-            "title": "Mars Kare MC",
-            "rangeText": "2026-07-18 - 2026-07-24 arasi (doruk: 2026-07-21)"
-          },
-          {
-            "id": "tr_mars_moon_square_2026-08-19",
-            "phaseId": "phase_3",
-            "type": "aspect",
-            "color": "danger",
-            "transitPlanet": "mars",
-            "natalPlanet": "moon",
-            "aspect": "square",
-            "startDate": "2026-08-19",
-            "endDate": "2026-08-26",
-            "exactDate": "2026-08-23",
-            "score": 68,
-            "title": "Mars Kare Ay",
-            "rangeText": "2026-08-19 - 2026-08-26 arasi (doruk: 2026-08-23)"
-          },
-          {
-            "id": "tr_retro_saturn_2026-07-27",
-            "phaseId": "phase_3",
-            "type": "retrograde",
-            "color": "retro",
-            "transitPlanet": "saturn",
-            "natalPlanet": null,
-            "aspect": null,
-            "startDate": "2026-07-27",
-            "endDate": "2026-09-12",
-            "exactDate": "2026-07-27",
-            "score": 67,
-            "title": "Saturn Retrosu",
-            "rangeText": "2026-07-27 - 2026-09-12 arasi (doruk: 2026-07-27)"
-          }
-        ],
-        "background": [],
-        "stats": {
-          "rawEventCount": 192,
-          "filteredEventCount": 192,
-          "clusterCount": 11,
-          "phaseCount": 3,
-          "retrogradeCount": 5,
-          "aiCallCount": 2,
-          "aiCallBFailed": false,
-          "pipelineMs": 23788
-        },
-        "locationsUsed": [
-          {
-            "city": "Istanbul",
-            "latitude": 41.0082,
-            "longitude": 28.9784,
-            "utcOffset": 3,
-            "timezone": "Europe/Istanbul",
-            "startDate": "2026-03-12",
-            "endDate": "2026-09-12"
-          }
-        ]
-      }
-    },
-    "dev_1772623594408_gro4e2o2:3:tr:v4:e091e63801": {
-      "createdAt": "2026-03-12T11:02:05.489Z",
-      "months": 3,
-      "lang": "tr",
-      "locationsHash": "e091e63801",
-      "locations": [
-        {
-          "city": "Istanbul",
-          "latitude": 41.0082,
-          "longitude": 28.9784,
-          "utcOffset": 3,
-          "timezone": "Europe/Istanbul",
-          "startDate": "2026-03-12",
-          "endDate": "2026-06-12"
-        }
-      ],
-      "gemCost": 50,
-      "data": {
-        "formatVersion": 4,
-        "periodMode": "quarterly",
-        "period": {
-          "start": "2026-03-12",
-          "end": "2026-06-12"
-        },
-        "months": 3,
-        "overview": {
-          "title": "Gelecek Ufuklarda Dönüşüm",
-          "summary": "Bu üç aylık süreç, hayatında önemli dönüşüm ve yön değişiklikleri ile dolu olacak. Kariyerinde ilerleme ve önemli kararlar alman gerektiğini göreceksin. İlişkilerde ve kişisel değerlerinde de belirgin bir değişim ve büyüme fırsatları seni bekliyor."
-        },
-        "phases": [],
-        "themes": [
-          {
-            "id": "general_transit",
-            "theme": "general_transit",
-            "label": "Genel Etkiler",
-            "tier": "critical",
-            "maxScore": 100,
-            "window": "2026-03-12 – 2026-06-12",
-            "title": "Dönüşümün Şafağı",
-            "summary": "Genel etkiler, yaşamında köklü değişikliklerin habercisi olabilir.",
-            "interpretation": "Saturn'un Pluton ile yaptığı sekstil, güç ve yapı arasında bir denge kurmana yardımcı olabilir. Bu süreçte eski kalıpları ve alışkanlıkları yıkmak ve yerine daha sağlam temeller atmak için bir fırsat doğuyor. Yeni bir projeye başlamak veya mevcut olanı yeniden yapılandırmak için harika bir zaman olabilir. Aynı zamanda, Venus'ün kendi pozisyonuna olan karşıt açısı, kendi içsel değerlerinle dış dünyada gördüğün yansımalar arasında bir denge kurmanı zorlaştırabilir. Bu dönemde, ilişkilerinde ve maddi konularda dengeyi sağlamak adına bazı fedakarlıklar yapman gerekebilir. Mars'ın Yükselen burcuna yaptığı üçgen açı, seni harekete geçmeye ve cesur kararlar almaya teşvik edecek. Enerjin ve motivasyonun artarken, hedeflerine odaklanmak ve önüne çıkan engelleri aşmak için güçlü bir destek alacaksın. Ancak bu enerji patlamasını dikkatli kullanmalısın, çünkü aşırıya kaçmak yerine planlı ve stratejik hareket etmek daha faydalı olacaktır.",
-            "intensity": "high",
-            "events": [
-              {
-                "id": "tr_saturn_pluto_sextile_2026-03-12",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "saturn",
-                "natalPlanet": "pluto",
-                "aspect": "sextile",
-                "startDate": "2026-03-12",
-                "endDate": "2026-03-14",
-                "exactDate": "2026-03-12",
-                "score": 46,
-                "title": "Saturn Sekstil Pluton",
-                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_venus_venus_opposition_2026-03-12",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "venus",
-                "aspect": "opposition",
-                "startDate": "2026-03-12",
-                "endDate": "2026-03-14",
-                "exactDate": "2026-03-12",
-                "score": 55,
-                "title": "Venus Karsit Venus",
-                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_mars_asc_trine_2026-03-12",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "mars",
-                "natalPlanet": "asc",
-                "aspect": "trine",
-                "startDate": "2026-03-12",
-                "endDate": "2026-03-14",
-                "exactDate": "2026-03-12",
-                "score": 59,
-                "title": "Mars Ucgen Yukselen",
-                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_uranus_saturn_sextile_2026-03-12",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "uranus",
-                "natalPlanet": "saturn",
-                "aspect": "sextile",
-                "startDate": "2026-03-12",
-                "endDate": "2026-03-24",
-                "exactDate": "2026-03-12",
-                "score": 46,
-                "title": "Uranus Sekstil Saturn",
-                "rangeText": "2026-03-12 - 2026-03-24 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_neptune_uranus_sextile_2026-03-12",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "neptune",
-                "natalPlanet": "uranus",
-                "aspect": "sextile",
-                "startDate": "2026-03-12",
-                "endDate": "2026-04-14",
-                "exactDate": "2026-03-12",
-                "score": 52,
-                "title": "Neptun Sekstil Uranus",
-                "rangeText": "2026-03-12 - 2026-04-14 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_neptune_neptune_conjunction_2026-03-12",
-                "type": "aspect",
-                "color": "change",
-                "transitPlanet": "neptune",
-                "natalPlanet": "neptune",
-                "aspect": "conjunction",
-                "startDate": "2026-03-12",
-                "endDate": "2026-04-24",
-                "exactDate": "2026-03-12",
-                "score": 64,
-                "title": "Neptun Kavusum Neptun",
-                "rangeText": "2026-03-12 - 2026-04-24 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_neptune_pluto_sextile_2026-03-12",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "neptune",
-                "natalPlanet": "pluto",
-                "aspect": "sextile",
-                "startDate": "2026-03-12",
-                "endDate": "2026-05-04",
-                "exactDate": "2026-03-12",
-                "score": 56,
-                "title": "Neptun Sekstil Pluton",
-                "rangeText": "2026-03-12 - 2026-05-04 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_uranus_uranus_conjunction_2026-03-12",
-                "type": "aspect",
-                "color": "change",
-                "transitPlanet": "uranus",
-                "natalPlanet": "uranus",
-                "aspect": "conjunction",
-                "startDate": "2026-03-12",
-                "endDate": "2026-06-12",
-                "exactDate": "2026-05-08",
-                "score": 71,
-                "title": "Uranus Kavusum Uranus",
-                "rangeText": "2026-03-12 - 2026-06-12 arasi (doruk: 2026-05-08)"
-              }
-            ]
-          },
-          {
-            "id": "career_direction",
-            "theme": "career_direction",
-            "label": "Kariyer ve Yon",
-            "tier": "critical",
-            "maxScore": 100,
-            "window": "2026-03-19 – 2026-06-12",
-            "title": "Kariyer Yükselişi",
-            "summary": "Kariyer alanında önemli değişiklikler ve fırsatlar seni bekliyor.",
-            "interpretation": "Mars'ın orta noktana yaptığı kavuşum, kariyerinde yeni bir başlangıç yapman için yoğun bir enerji getirecek. Bu süreçte, iş yaşamında daha aktif ve iddialı olmaktan çekinmemelisin. Çalışmalarını hızlandırabilir, projelerini öne çıkarabilir ve beklenmedik iş teklifleri alabilirsin. Ardından, Merkür'ün aynı noktaya kavuşumu, iletişim becerilerini ön plana çıkaracak. İş görüşmeleri, sunumlar veya yazılı projelerde dikkat çekici bir başarı yakalayabilirsin. Bu dönemde, bilgi akışını iyi yönetmek ve doğru bağlantılar kurmak sana profesyonel anlamda büyük avantaj sağlayabilir. Nisan ayının ortasında Venus'ün orta noktayla yaptığı sekstil, iş ilişkilerinde ve projelerde destekleyici etkiler sunacak. Bu dönemde, iş arkadaşlarınla uyumlu bir çalışma ortamı oluşabilir, iş birliği yaparak daha verimli sonuçlar elde edebilirsin. Ancak Mayıs başında Venus'ün kare açısı, kariyer konularında bazı zorluklar veya çatışmalar yaşamanı tetikleyebilir. Bu süreçte, diplomatik ve esnek olman gerekebilir.",
-            "intensity": "high",
-            "events": [
-              {
-                "id": "tr_mars_mc_conjunction_2026-03-19",
-                "type": "aspect",
-                "color": "change",
-                "transitPlanet": "mars",
-                "natalPlanet": "mc",
-                "aspect": "conjunction",
-                "startDate": "2026-03-19",
-                "endDate": "2026-03-25",
-                "exactDate": "2026-03-22",
-                "score": 73,
-                "title": "Mars Kavusum MC",
-                "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
-              },
-              {
-                "id": "tr_mercury_mc_conjunction_2026-03-31",
-                "type": "aspect",
-                "color": "change",
-                "transitPlanet": "mercury",
-                "natalPlanet": "mc",
-                "aspect": "conjunction",
-                "startDate": "2026-03-31",
-                "endDate": "2026-04-05",
-                "exactDate": "2026-04-03",
-                "score": 63,
-                "title": "Merkur Kavusum MC",
-                "rangeText": "2026-03-31 - 2026-04-05 arasi (doruk: 2026-04-03)"
-              },
-              {
-                "id": "tr_venus_mc_sextile_2026-04-11",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "venus",
-                "natalPlanet": "mc",
-                "aspect": "sextile",
-                "startDate": "2026-04-11",
-                "endDate": "2026-04-13",
-                "exactDate": "2026-04-12",
-                "score": 50,
-                "title": "Venus Sekstil MC",
-                "rangeText": "2026-04-11 - 2026-04-13 arasi (doruk: 2026-04-12)"
-              },
-              {
-                "id": "tr_venus_mc_square_2026-05-05",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "mc",
-                "aspect": "square",
-                "startDate": "2026-05-05",
-                "endDate": "2026-05-08",
-                "exactDate": "2026-05-07",
-                "score": 60,
-                "title": "Venus Kare MC",
-                "rangeText": "2026-05-05 - 2026-05-08 arasi (doruk: 2026-05-07)"
-              },
-              {
-                "id": "tr_mercury_mc_sextile_2026-05-10",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "mercury",
-                "natalPlanet": "mc",
-                "aspect": "sextile",
-                "startDate": "2026-05-10",
-                "endDate": "2026-05-11",
-                "exactDate": "2026-05-10",
-                "score": 44,
-                "title": "Merkur Sekstil MC",
-                "rangeText": "2026-05-10 - 2026-05-11 arasi (doruk: 2026-05-10)"
-              },
-              {
-                "id": "tr_mercury_mc_square_2026-05-24",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "mercury",
-                "natalPlanet": "mc",
-                "aspect": "square",
-                "startDate": "2026-05-24",
-                "endDate": "2026-05-25",
-                "exactDate": "2026-05-24",
-                "score": 54,
-                "title": "Merkur Kare MC",
-                "rangeText": "2026-05-24 - 2026-05-25 arasi (doruk: 2026-05-24)"
-              },
-              {
-                "id": "tr_venus_mc_trine_2026-05-30",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "venus",
-                "natalPlanet": "mc",
-                "aspect": "trine",
-                "startDate": "2026-05-30",
-                "endDate": "2026-06-02",
-                "exactDate": "2026-06-01",
-                "score": 55,
-                "title": "Venus Ucgen MC",
-                "rangeText": "2026-05-30 - 2026-06-02 arasi (doruk: 2026-06-01)"
-              },
-              {
-                "id": "tr_jupiter_sun_square_2026-06-02",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "jupiter",
-                "natalPlanet": "sun",
-                "aspect": "square",
-                "startDate": "2026-06-02",
-                "endDate": "2026-06-12",
-                "exactDate": "2026-06-12",
-                "score": 73,
-                "title": "Jupiter Kare Gunes",
-                "rangeText": "2026-06-02 - 2026-06-12 arasi (doruk: 2026-06-12)"
-              }
-            ]
-          },
-          {
-            "id": "structural_pressure",
-            "theme": "structural_pressure",
-            "label": "Yapisal Baski",
-            "tier": "critical",
-            "maxScore": 95,
-            "window": "2026-03-24 – 2026-05-14",
-            "title": "Yapısal Zorluklar",
-            "summary": "Yapısal düzeyde sınavlar ve zorluklar ortaya çıkabilir.",
-            "interpretation": "Saturn'un Yükselen'e oluşturduğu kare açı, kişisel sınırlarını zorlayabilir ve seni daha disiplinli bir yaklaşıma itebilir. Kendi yeteneklerine ve sınırlarına dair farkındalığın artarken, bu süreçte karşılaşabileceğin engeller seni daha güçlü ve dirençli bir hale getirebilir. Bu dönemde, sabırlı ve kararlı olmak büyük önem taşıyor. Aynı şekilde, Saturn'un Ay'a karşıt açı yapması, duygusal dünyanda bazı çatışmalara ve içsel baskılara neden olabilir. Bu, geçmişten gelen duygusal yükleri bırakmak ve daha olgun bir duygusal zemin oluşturmak için bir fırsat sunabilir. Duygusal açıdan daha güçlü hissetmek adına, duygularını mantığınla dengelemen önemli olacak. Bu dönemi, duygusal dayanıklılığını artırmak ve kendine olan güvenini inşa etmek için kullanabilirsin.",
-            "intensity": "high",
-            "events": [
-              {
-                "id": "tr_saturn_asc_square_2026-03-24",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "saturn",
-                "natalPlanet": "asc",
-                "aspect": "square",
-                "startDate": "2026-03-24",
-                "endDate": "2026-05-04",
-                "exactDate": "2026-04-13",
-                "score": 84,
-                "title": "Saturn Kare Yukselen",
-                "rangeText": "2026-03-24 - 2026-05-04 arasi (doruk: 2026-04-13)"
-              },
-              {
-                "id": "tr_saturn_moon_opposition_2026-03-25",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "saturn",
-                "natalPlanet": "moon",
-                "aspect": "opposition",
-                "startDate": "2026-03-25",
-                "endDate": "2026-05-14",
-                "exactDate": "2026-04-17",
-                "score": 84,
-                "title": "Saturn Karsit Ay",
-                "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
-              }
-            ]
-          },
-          {
-            "id": "money_resources",
-            "theme": "money_resources",
-            "label": "Para ve Kaynaklar",
-            "tier": "critical",
-            "maxScore": 94,
-            "window": "2026-03-13 – 2026-06-12",
-            "title": "Finansal Yeniden Doğuş",
-            "summary": "Kaynaklar ve finansla ilgili konularda dikkatli adımlar gerekli.",
-            "interpretation": "Pluton'un Venus ile yaptığı üçgen açı, finansal durumunu dönüştürme fırsatları sunabilir. Bu süreçte, yatırımlarını yeniden düzenlemek veya beklenmedik bir gelir kaynağı bulmak mümkün. Maddi konularda daha derine inip, köklü bir değişim yapabilirsin. Aynı zamanda, Saturn'un Venus'e karşıt açısı ise harcamalarında daha dikkatli olmanı gerektirebilir. Bu dönemde, lüks ve gereksiz harcamalardan kaçınmak ve bütçeni sağlam bir şekilde yönetmek önemli olacak. Finansal konularda sorumluluk ve disiplin, uzun vadede seni daha güvenli bir noktaya taşıyacaktır.",
-            "intensity": "high",
-            "events": [
-              {
-                "id": "tr_pluto_venus_trine_2026-03-13",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "pluto",
-                "natalPlanet": "venus",
-                "aspect": "trine",
-                "startDate": "2026-03-13",
-                "endDate": "2026-06-12",
-                "exactDate": "2026-05-02",
-                "score": 67,
-                "title": "Pluton Ucgen Venus",
-                "rangeText": "2026-03-13 - 2026-06-12 arasi (doruk: 2026-05-02)"
-              },
-              {
-                "id": "tr_saturn_venus_opposition_2026-03-22",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "saturn",
-                "natalPlanet": "venus",
-                "aspect": "opposition",
-                "startDate": "2026-03-22",
-                "endDate": "2026-05-11",
-                "exactDate": "2026-04-15",
-                "score": 79,
-                "title": "Saturn Karsit Venus",
-                "rangeText": "2026-03-22 - 2026-05-11 arasi (doruk: 2026-04-15)"
-              }
-            ]
-          },
-          {
-            "id": "relationship_values",
-            "theme": "relationship_values",
-            "label": "Iliskiler ve Degerler",
-            "tier": "critical",
-            "maxScore": 93,
-            "window": "2026-03-12 – 2026-06-12",
-            "title": "İlişkilerde Dönüşüm Rüzgarları",
-            "summary": "İlişkilerde ve kişisel değerlerde önemli dönüşümler kapıda.",
-            "interpretation": "Venus'ün Yükselen'e yaptığı kare açı, kendini ifade etme biçimin üzerinde baskı yaratabilir. İlişkilerinde net ve açık olmak önem kazanacak. Aynı zamanda, duygusal gereksinimlerini ve beklentilerini doğru ifade etmek, yanlış anlamaları önleyebilir. Bu dönemde, içsel değerlerinle dış dünyaya yansıttıkların arasında bir uyum yakalamak, kişisel gelişimin için büyük önem taşıyacak. Venus'ün Ay'a olan karşıt açısı, duygusal ilişkilerinde bazı zorluklar yaşamanı sağlayabilir. Bu süreçte, duygusal ihtiyaçlarını ve karşı tarafın beklentilerini anlamak ve dengeyi bulmak için çaba göstermen gerekebilir. Duygusal olarak büyüme ve olgunlaşma fırsatlarıyla karşılaşabilirsin. Pluton'un Ay ile yaptığı üçgen açı ise, duygusal dönüşüm ve derinleşme getirecek. Güçlü bağlar kurmak ve mevcut ilişkilerini daha sağlam bir temele oturtmak için bu dönemi değerlendirebilirsin.",
-            "intensity": "high",
-            "events": [
-              {
-                "id": "tr_venus_asc_square_2026-03-12",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "asc",
-                "aspect": "square",
-                "startDate": "2026-03-12",
-                "endDate": "2026-03-13",
-                "exactDate": "2026-03-12",
-                "score": 60,
-                "title": "Venus Kare Yukselen",
-                "rangeText": "2026-03-12 - 2026-03-13 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_venus_moon_opposition_2026-03-12",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "moon",
-                "aspect": "opposition",
-                "startDate": "2026-03-12",
-                "endDate": "2026-03-14",
-                "exactDate": "2026-03-12",
-                "score": 60,
-                "title": "Venus Karsit Ay",
-                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
-              },
-              {
-                "id": "tr_venus_jupiter_square_2026-03-24",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "jupiter",
-                "aspect": "square",
-                "startDate": "2026-03-24",
-                "endDate": "2026-03-27",
-                "exactDate": "2026-03-26",
-                "score": 45,
-                "title": "Venus Kare Jupiter",
-                "rangeText": "2026-03-24 - 2026-03-27 arasi (doruk: 2026-03-26)"
-              },
-              {
-                "id": "tr_venus_sun_opposition_2026-03-26",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "sun",
-                "aspect": "opposition",
-                "startDate": "2026-03-26",
-                "endDate": "2026-03-30",
-                "exactDate": "2026-03-28",
-                "score": 56,
-                "title": "Venus Karsit Gunes",
-                "rangeText": "2026-03-26 - 2026-03-30 arasi (doruk: 2026-03-28)"
-              },
-              {
-                "id": "tr_pluto_moon_trine_2026-03-26",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "pluto",
-                "natalPlanet": "moon",
-                "aspect": "trine",
-                "startDate": "2026-03-26",
-                "endDate": "2026-06-12",
-                "exactDate": "2026-05-02",
-                "score": 69,
-                "title": "Pluton Ucgen Ay",
-                "rangeText": "2026-03-26 - 2026-06-12 arasi (doruk: 2026-05-02)"
-              },
-              {
-                "id": "tr_venus_pluto_square_2026-03-30",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "pluto",
-                "aspect": "square",
-                "startDate": "2026-03-30",
-                "endDate": "2026-04-02",
-                "exactDate": "2026-03-31",
-                "score": 45,
-                "title": "Venus Kare Pluton",
-                "rangeText": "2026-03-30 - 2026-04-02 arasi (doruk: 2026-03-31)"
-              },
-              {
-                "id": "tr_venus_mercury_opposition_2026-04-12",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "mercury",
-                "aspect": "opposition",
-                "startDate": "2026-04-12",
-                "endDate": "2026-04-16",
-                "exactDate": "2026-04-14",
-                "score": 55,
-                "title": "Venus Karsit Merkur",
-                "rangeText": "2026-04-12 - 2026-04-16 arasi (doruk: 2026-04-14)"
-              },
-              {
-                "id": "tr_venus_mars_opposition_2026-04-13",
-                "type": "aspect",
-                "color": "danger",
-                "transitPlanet": "venus",
-                "natalPlanet": "mars",
-                "aspect": "opposition",
-                "startDate": "2026-04-13",
-                "endDate": "2026-04-17",
-                "exactDate": "2026-04-15",
-                "score": 55,
-                "title": "Venus Karsit Mars",
-                "rangeText": "2026-04-13 - 2026-04-17 arasi (doruk: 2026-04-15)"
-              }
-            ]
-          },
-          {
-            "id": "growth_opportunity",
-            "theme": "growth_opportunity",
-            "label": "Buyume Firsati",
-            "tier": "critical",
-            "maxScore": 93,
-            "window": "2026-04-04 – 2026-06-12",
-            "title": "Büyümenin Kapıları",
-            "summary": "Kişisel ve profesyonel büyüme fırsatları seni bekliyor.",
-            "interpretation": "Jupiter'in Merkür ve Mars ile yaptığı üçgen açılar, kişisel gelişim ve büyüme için büyük fırsatlar sunuyor. Bu dönemde, eğitim, seyahat veya yeni bir dil öğrenme gibi konular gündeme gelebilir. Yeni bilgiler edinmek ve bunları hayatına entegre etmek, ufkunu genişletebilir. Aynı zamanda, iletişim ve ifade gücün de artacak. Bu süreçte, fikirlerini ve projelerini paylaşmak, çevreni etkilemek adına büyük avantaj sağlayabilir. Venus'ün kendi pozisyonuna ve Ay'a yaptığı üçgen açılar, duygusal ve kişisel ilişkilerinde uyum ve mutluluğu artıracak. Bu dönemde, sevgi ve şefkat ilişkilerini derinleştirebilir, yeni dostluklar edinebilirsin. İçsel mutluluk ve tatmin duygusunu bulmak, kişisel gelişim yolculuğunda önemli bir adım olacak.",
-            "intensity": "high",
-            "events": [
-              {
-                "id": "tr_venus_asc_sextile_2026-04-04",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "venus",
-                "natalPlanet": "asc",
-                "aspect": "sextile",
-                "startDate": "2026-04-04",
-                "endDate": "2026-04-06",
-                "exactDate": "2026-04-05",
-                "score": 50,
-                "title": "Venus Sekstil Yukselen",
-                "rangeText": "2026-04-04 - 2026-04-06 arasi (doruk: 2026-04-05)"
-              },
-              {
-                "id": "tr_jupiter_mercury_trine_2026-04-05",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "jupiter",
-                "natalPlanet": "mercury",
-                "aspect": "trine",
-                "startDate": "2026-04-05",
-                "endDate": "2026-05-14",
-                "exactDate": "2026-04-28",
-                "score": 66,
-                "title": "Jupiter Ucgen Merkur",
-                "rangeText": "2026-04-05 - 2026-05-14 arasi (doruk: 2026-04-28)"
-              },
-              {
-                "id": "tr_jupiter_mars_trine_2026-04-09",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "jupiter",
-                "natalPlanet": "mars",
-                "aspect": "trine",
-                "startDate": "2026-04-09",
-                "endDate": "2026-05-16",
-                "exactDate": "2026-04-30",
-                "score": 66,
-                "title": "Jupiter Ucgen Mars",
-                "rangeText": "2026-04-09 - 2026-05-16 arasi (doruk: 2026-04-30)"
-              },
-              {
-                "id": "tr_venus_venus_trine_2026-04-28",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "venus",
-                "natalPlanet": "venus",
-                "aspect": "trine",
-                "startDate": "2026-04-28",
-                "endDate": "2026-05-01",
-                "exactDate": "2026-04-30",
-                "score": 48,
-                "title": "Venus Ucgen Venus",
-                "rangeText": "2026-04-28 - 2026-05-01 arasi (doruk: 2026-04-30)"
-              },
-              {
-                "id": "tr_venus_moon_trine_2026-04-28",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "venus",
-                "natalPlanet": "moon",
-                "aspect": "trine",
-                "startDate": "2026-04-28",
-                "endDate": "2026-05-02",
-                "exactDate": "2026-04-30",
-                "score": 53,
-                "title": "Venus Ucgen Ay",
-                "rangeText": "2026-04-28 - 2026-05-02 arasi (doruk: 2026-04-30)"
-              },
-              {
-                "id": "tr_venus_sun_trine_2026-05-14",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "venus",
-                "natalPlanet": "sun",
-                "aspect": "trine",
-                "startDate": "2026-05-14",
-                "endDate": "2026-05-17",
-                "exactDate": "2026-05-16",
-                "score": 53,
-                "title": "Venus Ucgen Gunes",
-                "rangeText": "2026-05-14 - 2026-05-17 arasi (doruk: 2026-05-16)"
-              },
-              {
-                "id": "tr_jupiter_jupiter_conjunction_2026-05-17",
-                "type": "aspect",
-                "color": "change",
-                "transitPlanet": "jupiter",
-                "natalPlanet": "jupiter",
-                "aspect": "conjunction",
-                "startDate": "2026-05-17",
-                "endDate": "2026-06-12",
-                "exactDate": "2026-06-02",
-                "score": 69,
-                "title": "Jupiter Kavusum Jupiter",
-                "rangeText": "2026-05-17 - 2026-06-12 arasi (doruk: 2026-06-02)"
-              },
-              {
-                "id": "tr_jupiter_saturn_trine_2026-06-01",
-                "type": "aspect",
-                "color": "opportunity",
-                "transitPlanet": "jupiter",
-                "natalPlanet": "saturn",
-                "aspect": "trine",
-                "startDate": "2026-06-01",
-                "endDate": "2026-06-12",
-                "exactDate": "2026-06-12",
-                "score": 56,
-                "title": "Jupiter Ucgen Saturn",
-                "rangeText": "2026-06-01 - 2026-06-12 arasi (doruk: 2026-06-12)"
-              }
-            ]
-          }
-        ],
-        "retrogradeWindows": [
-          {
-            "planet": "pluto",
-            "planetLabel": "Plüton",
-            "startDate": "2026-05-07",
-            "endDate": "2026-06-12",
-            "baseInterpretation": "Bırakman gereken eski kalıplar, bastırdığın duygular ve tamamlanmamış dönüşümler yüzeye çıkıyor. Natal Plüton'ün Kova burcunda — dönüşüm ve güç dinamiklerin özellikle etkileniyor.",
-            "personalNote": "",
-            "affectedThemes": [
-              "dönüşüm",
-              "güç",
-              "kontrol"
-            ],
-            "priority": "high"
-          }
-        ],
-        "milestones": [
-          {
-            "title": "Genel Etkiler",
-            "window": "2026-05-07 – 2026-06-12",
-            "description": "Bu dönemde, genel etkiler hayatında belirgin bir dönüşüm getirebilir. Özellikle ilişkiler ve kişisel gelişim konularında önemli adımlar atabilirsin."
-          },
-          {
-            "title": "Kariyer ve Yon",
-            "window": "2026-03-19 – 2026-03-25",
-            "description": "Kariyerinle ilgili önemli bir değişim ve fırsat anı yaşayabilirsin. Yeni projeler ve iş teklifleri gündemde olabilir."
-          },
-          {
-            "title": "Iliskiler ve Degerler",
-            "window": "2026-03-26 – 2026-06-12",
-            "description": "İlişkilerinde ve kişisel değerlerinde belirgin bir dönüşüm süreci başlıyor. Duygusal bağlarını güçlendirmek için fırsatlar seni bekliyor."
-          }
-        ],
-        "recurringThemes": [],
-        "focusAreas": {
-          "career": "",
-          "relationships": "",
-          "innerLife": "",
-          "growth": "",
-          "health": ""
-        },
-        "detailedDrivers": [],
-        "background": [
-          {
-            "id": "tr_mercury_asc_trine_2026-03-16",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "mercury",
-            "natalPlanet": "asc",
-            "aspect": "trine",
-            "startDate": "2026-03-16",
-            "endDate": "2026-03-25",
-            "exactDate": "2026-03-20",
-            "score": 49,
-            "title": "Merkur Ucgen Yukselen",
-            "rangeText": "2026-03-16 - 2026-03-25 arasi (doruk: 2026-03-20)"
-          },
-          {
-            "id": "tr_mars_jupiter_trine_2026-03-30",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "mars",
-            "natalPlanet": "jupiter",
-            "aspect": "trine",
-            "startDate": "2026-03-30",
-            "endDate": "2026-04-05",
-            "exactDate": "2026-04-02",
-            "score": 48,
-            "title": "Mars Ucgen Jupiter",
-            "rangeText": "2026-03-30 - 2026-04-05 arasi (doruk: 2026-04-02)"
-          },
-          {
-            "id": "tr_venus_venus_trine_2026-04-28",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "venus",
-            "natalPlanet": "venus",
-            "aspect": "trine",
-            "startDate": "2026-04-28",
-            "endDate": "2026-05-01",
-            "exactDate": "2026-04-30",
-            "score": 48,
-            "title": "Venus Ucgen Venus",
-            "rangeText": "2026-04-28 - 2026-05-01 arasi (doruk: 2026-04-30)"
-          },
-          {
-            "id": "tr_venus_mercury_trine_2026-06-02",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "venus",
-            "natalPlanet": "mercury",
-            "aspect": "trine",
-            "startDate": "2026-06-02",
-            "endDate": "2026-06-05",
-            "exactDate": "2026-06-03",
-            "score": 48,
-            "title": "Venus Ucgen Merkur",
-            "rangeText": "2026-06-02 - 2026-06-05 arasi (doruk: 2026-06-03)"
-          },
-          {
-            "id": "tr_mercury_saturn_conjunction_2026-04-10",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "mercury",
-            "natalPlanet": "saturn",
-            "aspect": "conjunction",
-            "startDate": "2026-04-10",
-            "endDate": "2026-04-14",
-            "exactDate": "2026-04-12",
-            "score": 48,
-            "title": "Merkur Kavusum Saturn",
-            "rangeText": "2026-04-10 - 2026-04-14 arasi (doruk: 2026-04-12)"
-          },
-          {
-            "id": "tr_mercury_neptune_conjunction_2026-04-13",
-            "type": "aspect",
-            "color": "change",
-            "transitPlanet": "mercury",
-            "natalPlanet": "neptune",
-            "aspect": "conjunction",
-            "startDate": "2026-04-13",
-            "endDate": "2026-04-16",
-            "exactDate": "2026-04-15",
-            "score": 48,
-            "title": "Merkur Kavusum Neptun",
-            "rangeText": "2026-04-13 - 2026-04-16 arasi (doruk: 2026-04-15)"
-          },
-          {
-            "id": "tr_saturn_pluto_sextile_2026-03-12",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "saturn",
-            "natalPlanet": "pluto",
-            "aspect": "sextile",
-            "startDate": "2026-03-12",
-            "endDate": "2026-03-14",
-            "exactDate": "2026-03-12",
-            "score": 46,
-            "title": "Saturn Sekstil Pluton",
-            "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
-          },
-          {
-            "id": "tr_uranus_saturn_sextile_2026-03-12",
-            "type": "aspect",
-            "color": "opportunity",
-            "transitPlanet": "uranus",
-            "natalPlanet": "saturn",
-            "aspect": "sextile",
-            "startDate": "2026-03-12",
-            "endDate": "2026-03-24",
-            "exactDate": "2026-03-12",
-            "score": 46,
-            "title": "Uranus Sekstil Saturn",
-            "rangeText": "2026-03-12 - 2026-03-24 arasi (doruk: 2026-03-12)"
-          }
-        ],
-        "stats": {
-          "rawEventCount": 107,
-          "filteredEventCount": 107,
-          "clusterCount": 11,
-          "phaseCount": 0,
-          "retrogradeCount": 1,
-          "aiCallCount": 1,
-          "aiCallBFailed": false,
-          "pipelineMs": 32114
-        },
-        "locationsUsed": [
-          {
-            "city": "Istanbul",
-            "latitude": 41.0082,
-            "longitude": 28.9784,
-            "utcOffset": 3,
-            "timezone": "Europe/Istanbul",
-            "startDate": "2026-03-12",
-            "endDate": "2026-06-12"
-          }
-        ]
-      }
-    },
     "dev_1772623594408_gro4e2o2:1:tr:v4:edd0c48ef2": {
-      "createdAt": "2026-03-12T11:30:05.300Z",
+      "createdAt": "2026-03-12T12:44:31.215Z",
       "months": 1,
       "lang": "tr",
       "locationsHash": "edd0c48ef2",
@@ -2158,7 +16,7 @@
           "endDate": "2026-04-12"
         }
       ],
-      "gemCost": 30,
+      "gemCost": 50,
       "data": {
         "formatVersion": 4,
         "periodMode": "monthly",
@@ -2168,8 +26,8 @@
         },
         "months": 1,
         "overview": {
-          "title": "Finansal Dönem: Güçlenme ve Zorluklar",
-          "summary": "Bu dönemde finansal kaynaklarını daha derinden değerlendirebilirsin. Hem maddi güçlenme hem de bazı zorluklarla karşılaşma potansiyelin var."
+          "title": "Maddi Konular ve Kaynaklar",
+          "summary": "Bu dönemde finansal açıdan önemli hareketler olacak. Harcamalar ve kazançlar arasında denge kurman gerekecek."
         },
         "phases": [],
         "themes": [
@@ -2180,9 +38,9 @@
             "tier": "critical",
             "maxScore": 94,
             "window": "2026-03-13 – 2026-04-12",
-            "title": "Finansal Dönem: Güçlenme ve Zorluklar",
-            "summary": "Bu dönemde finansal kaynaklarını daha derinden değerlendirebilirsin. Hem maddi güçlenme hem de bazı zorluklarla karşılaşma potansiyelin var.",
-            "interpretation": "13 Mart'tan itibaren Plüton'un Venüs ile yaptığı olumlu açı, finansal anlamda daha derin ve etkili bir bakış açısı kazandırabilir. Bu süreçte, özellikle yatırım fırsatları ya da yeni gelir kaynakları üzerine düşünmen yararlı olabilir. Özellikle ay ortasına doğru, beklenmedik bir gelir artışı ya da değerli bir eşyanın satışı gündeme gelebilir. \n\nAncak 22 Mart'tan sonra Satürn'ün Venüs'e karşıt açısı, finansal disiplin ve harcamalar üzerinde ciddi bir baskı oluşturabilir. Beklenmedik harcamalar veya ödemelerle karşılaşabilirsin, bu nedenle bütçeni dikkatlice yönetmen önemli olacak. Ay sonuna doğru, harcamalarını kontrol altında tutmak ve tasarruf önlemleri almak faydalı olabilir.\n\n12 Nisan'da Plüton'un Venüs ile yaptığı mükemmel açı, finansal konularda bir dönüm noktası olabilir. Bu tarih civarında, geçmişte yaptığın yatırımların meyvesini toplayabilir veya önemli bir finansal karar alabilirsin. Maddi ilişkilerini uzun vadeli düşünerek hareket etmek, bu dönemi daha verimli geçirmeni sağlayabilir.",
+            "title": "Maddi Konular ve Kaynaklar",
+            "summary": "Bu dönemde finansal açıdan önemli hareketler olacak. Harcamalar ve kazançlar arasında denge kurman gerekecek.",
+            "interpretation": "Mart ayının ortalarından itibaren Plüton ve Venüs arasındaki olumlu etkileşim, maddi kaynaklarını yönetme konusunda sana güç verecek. Bu süreçte, yatırım yapma veya gelirini artırma fırsatları doğabilir. Eski bir yatırımın beklenmedik şekilde değer kazanması da mümkün. Ancak bu dönemde her adımı dikkatlice düşünmekte fayda var. Ayın sonlarına doğru Satürn'ün Venüs ile zıtlaşması, finansal kararlar alırken daha dikkatli olmanı gerektirecek. Özellikle ayın bitimine doğru beklenmedik masraflarla karşılaşabilirsin. Bu dönemde tutumlu olmalı ve harcamalarını kontrol altında tutmalısın. Borç verme veya alma konularında temkinli davranman, ileride pişman olmaman için önemli olacak. Nisan ayının başlarında, maddi konularla ilgili yeniden değerlendirme yapmalı ve bütçeni gözden geçirmelisin. Finansal danışmanlık almak veya güvendiğin birinden fikir almak bu süreçte sana yardımcı olabilir.",
             "intensity": "high",
             "events": [
               {
@@ -2222,9 +80,9 @@
             "tier": "critical",
             "maxScore": 93,
             "window": "2026-03-12 – 2026-04-12",
-            "title": "İlişkilerde Denge ve Değerlendirme Zamanı",
-            "summary": "Mart ortası ile Nisan başı arasında ilişkilerinde bazı gerilimler ve değerlendirmeler yaşayabilirsin. Duygusal bağlarında dengeyi bulmak önemli olabilir.",
-            "interpretation": "12 Mart'ta Venüs'ün Yükselen ile kare açısı, ilişkilerinde bazı yüzleşmeler veya tartışmaların habercisi olabilir. Bu günlerde, bir arkadaşın veya partnerinle olan iletişimde yanlış anlaşılmalar yaşanabilir, bu yüzden sabırlı ve açık olmaya çalışmalısın. Ayın ilk haftasında, duygusal ihtiyaçlarını ve değerlerini sorgulaman gerekebilir.\n\n24 Mart'ta Venüs'ün Jüpiter ile kare açısı, ilişkilerde aşırıya kaçan beklentiler veya istekler getirebilir. Belki de bir ilişkinin sınırlarını yeniden değerlendirme zamanı gelmiştir. İlişkilerinde daha gerçekçi beklentiler geliştirmek, hayal kırıklıklarını önleyecektir. \n\n28 Mart'ta Venüs Güneş karşıtlığıyla, kendini ve isteklerini partnerine ifade etme ihtiyacı hissedebilirsin. Bu süreçte kendine ve başkalarına karşı dürüst olman önemli. 31 Mart'ta Venüs'ün Plüton'a kare açısı, ilişkilerinde gizli kalan duyguların yüzeye çıkmasına neden olabilir, bu da samimi ve derin konuşmalarla çözüm bulabilir.",
+            "title": "İlişkilerde Derinleşme ve Yeniden Değerlendirme",
+            "summary": "İlişkilerde bazı gerilimler yaşanabilir, ancak bu durum duygusal anlamda derinleşme fırsatları da getirecek. Değerlerini sorgulama zamanı.",
+            "interpretation": "Mart ayının başında Venüs'ün yükseleninle olan kare açısı, ilişkilerde bazı gerilimlere yol açabilir. Bu dönemde, partnerinle veya yakın arkadaşlarınla anlaşmazlıklar yaşaman mümkün. Ancak bu anlaşmazlıklar, ilişkilerde daha derin bir anlayış geliştirme fırsatını da beraberinde getirebilir. Ayın sonuna doğru Venüs ve Jüpiter arasındaki gergin enerji, aşırılıklara ve duygusal patlamalara neden olabilir. Bu süreçte, empati yeteneğini geliştirmek ve karşı tarafı anlamaya çalışmak önemli olacak. Mart sonu ve Nisan başında, Plüton'un Ay ile olan üçgeni, duygusal olarak daha derin ve anlamlı bağlar kurmana yardımcı olabilir. Bu süreçte, duygusal ihtiyaçlarını ve beklentilerini yeniden gözden geçirebilir, kendinle ve sevdiklerinle daha samimi ilişkiler kurabilirsin. İlişkilerdeki bu dönüşüm, sana uzun vadede daha sağlam ve güvenilir bağlantılar sunacak.",
             "intensity": "high",
             "events": [
               {
@@ -2334,9 +192,9 @@
             "tier": "critical",
             "maxScore": 93,
             "window": "2026-03-19 – 2026-04-12",
-            "title": "Kariyer Yolunda Atılım ve İletişim",
-            "summary": "Mart ortasından Nisan başına kadar olan süreçte kariyerinde atılım yapma fırsatın var. İletişim becerilerini kullanarak önemli adımlar atabilirsin.",
-            "interpretation": "19 Mart'ta Mars'ın tepe noktasına kavuşumu, kariyer hayatında enerji ve motivasyonun yükseleceği bir dönemi işaret ediyor. Bu tarihlerde, iş görüşmeleri veya projelerde inisiyatif almak için cesaretin artabilir. Özellikle 22 Mart civarında, yeni bir iş teklifi veya terfi ile karşılaşabilirsin.\n\n31 Mart'tan itibaren Merkür'ün tepe noktasına kavuşumu, iletişim becerilerini ön plana çıkaracak. İş yerinde sunumlar yapmak, fikirlerini ifade etmek veya yeni bağlantılar kurmak için harika bir zaman. 3 Nisan civarında, önemli bir toplantıda söz alabilir veya yeni bir projeye öncülük edebilirsin.\n\n11 Nisan'da Venüs'ün tepe noktasına yaptığı olumlu açı, kariyerinde daha iyi ilişkiler geliştirme fırsatı sunabilir. İş arkadaşlarınla veya üstlerinle daha uyumlu çalışmak, projelerinde başarıyı artıracaktır. Bu dönemde sosyal etkinliklere katılmak, iş yaşamında yeni kapılar açabilir.",
+            "title": "Kariyer Hedeflerinde Atılım Zamanı",
+            "summary": "Bu ay kariyerinde önemli adımlar atabilirsin. Enerjik ve dinamik bir dönem seni bekliyor.",
+            "interpretation": "Mart ayının üçüncü haftasında, Mars'ın MC ile kavuşumu, kariyer hayatında daha cesur ve atılgan olmanı sağlayacak. Bu dönemde üstlendiğin projelerde liderlik rolü üstlenebilir veya yeni bir iş teklifi alabilirsin. Özellikle ay sonuna doğru Merkür'ün MC ile birleşmesi, iletişim becerilerini ön plana çıkaracak. İş görüşmeleri, sunumlar veya önemli toplantılar için uygun bir zaman dilimi. Nisan ayının başlarında, Venüs'ün MC ile olumlu açısı, kariyer hayatında olumlu gelişmelerin habercisi olabilir. Üstlerinle veya iş arkadaşlarınla daha iyi iletişim kurabilir, projelerinde destek bulabilirsin. Bu dönemde, kariyer hedeflerini netleştirmek ve geleceğe yönelik planlar yapmak için zaman ayırmalısın. Güçlü ilişkiler kurmak ve profesyonel bağlantılarını genişletmek için fırsatları değerlendirmelisin.",
             "intensity": "high",
             "events": [
               {
@@ -2390,9 +248,9 @@
             "tier": "critical",
             "maxScore": 93,
             "window": "2026-03-24 – 2026-04-12",
-            "title": "Yapısal Zorluklar ve Kişisel Dönüşüm",
-            "summary": "Mart sonu ile Nisan ortası arasında bazı yapısal zorluklarla karşılaşabilirsin. Özellikle kişisel sınırlarını yeniden tanımlaman gerekebilir.",
-            "interpretation": "24 Mart'ta Satürn'ün Yükselen ile yaptığı kare açı, kişisel sınırlarını ve sorumluluklarını yeniden gözden geçirmeni gerektirebilir. Bu süreçte, üzerindeki baskılar artabilir, bu nedenle zaman yönetimine ve disipline önem vermen gerekebilir. Özellikle ailevi veya iş bağlantılı sorumluluklar, bu dönemde daha ön planda olabilir.\n\n25 Mart'ta başlayan Satürn'ün Ay'a karşıt açısı, duygusal olarak kendini kısıtlanmış hissedebileceğin bir dönemi işaret ediyor. Bu tarihlerde, geçmişten gelen duygusal yüklerle yüzleşmen gerekebilir. Kendine karşı nazik olmak ve duygularını anlayarak hareket etmek önemli.\n\nNisan başına doğru, özellikle 12 Nisan'da, bu yapısal baskıların ve zorlukların, kişisel olarak daha güçlü ve dirençli hale gelmeni sağladığını fark edebilirsin. Kendine olan güvenin artabilir ve bu süreçte öğrendiklerin, gelecekteki hedeflerin için sağlam bir temel oluşturabilir.",
+            "title": "Yapısal Zorluklar ve Kısıtlamalar",
+            "summary": "Bu dönemde zorlayıcı etkilerle karşılaşabilirsin. Sabır ve dayanıklılık test edilecek.",
+            "interpretation": "Mart ayının son haftasından itibaren Satürn'ün yükselenle kare açısı, hayatında bazı yapısal değişiklikler ve kısıtlamalar getirebilir. Bu dönemde sorumlulukların artabilir ve üzerindeki baskı yoğunlaşabilir. Özellikle bu süreçte, kendine zaman ayırmayı ve stresle başa çıkmayı öğrenmelisin. Ay sonuna doğru Satürn'ün Ay ile karşıt açısı, duygusal anlamda bazı iniş çıkışlar yaşamanı sağlayabilir. Bu, içsel huzurunu bulmak için iç dünyana yönelmen gereken bir dönem olacak. Meditasyon veya doğa yürüyüşleri gibi aktiviteler, bu süreçte sana iyi gelebilir. Nisan başlarında, yaşamında daha yapıcı bir düzen kurmak için sabırlı olmalısın. Bu dönemde, uzun vadeli hedeflerine odaklanmak ve aceleci kararlar almamak senin için faydalı olacak. Sorunlara karşı esnek olmalı ve değişime açık kalmalısın.",
             "intensity": "high",
             "events": [
               {
@@ -2432,10 +290,10 @@
             "tier": "critical",
             "maxScore": 92,
             "window": "2026-03-12 – 2026-04-12",
-            "title": "Genel Etkiler: Yenilik ve Huzur Arayışı",
-            "summary": "Mart ortasından itibaren farklı gezegen etkileri yaşamında değişiklik ve huzur arayışını tetikleyebilir. Bu dönemde cesur adımlar atabilirsin.",
-            "interpretation": "12 Mart'ta Satürn ve Plüton'un olumlu açısı, hayatında derin bir dönüşüm ve yeniden yapılandırma ihtiyacı getirebilir. Bu tarihlerde, eski alışkanlıklarını bırakmak ve yeni, daha sağlam temeller kurmak için fırsatlar doğabilir. Özellikle iş ve kişisel yaşam dengeni yeniden kurmak için bu dönemi değerlendirebilirsin.\n\nUranüs ve Satürn'ün 12 Mart'ta yaptığı olumlu açı, yenilikçi fikirler ve özgürlük arayışını tetikleyebilir. Bu süreçte, beklenmedik fırsatlarla karşılaşabileceğin gibi, kendi kurallarını koyarak yaşam tarzında önemli değişiklikler yapabilirsin. Özellikle 24 Mart'a kadar olan süreçte, kendini yenilemek için cesur adımlar atabilirsin.\n\nNeptün'ün Uranüs ve Plüton ile olan olumlu açıları, hayallerini gerçekleştirmek için ilham verici bir etki sağlayabilir. Ay sonuna kadar, iç huzurunu yakalamak için meditasyon, yoga gibi pratiklerle ruhsal denge ve rahatlama arayışında olabilirsin. Bu süreçte sezgilerini dinlemek ve içsel rehberliğine güvenmek, sana huzur getirecektir.",
-            "intensity": "medium",
+            "title": "Genel Gökyüzü Etkileri",
+            "summary": "Mart ve Nisan ayları boyunca gökyüzü, hem fırsatlar hem de zorluklarla dolu. Dengeyi bulmak önem kazanacak.",
+            "interpretation": "Mart ayının ilk günlerinde, Satürn ile Plüton'un uyumlu etkileşimi, yapısal değişikliklere adapte olmanı kolaylaştırabilir. Bu dönemde, sağlam temeller kurmak adına adımlar atmak için uygun bir zaman. Aynı zamanda, Uranüs ve Satürn arasındaki olumlu enerji, yenilikçi fikirlerin desteklenmesini sağlayabilir. Bu süreçte yaratıcılığını kullanarak yeni projelere başlayabilirsin. Mart ayının ortalarına doğru, Mars ve Yükselen arasındaki olumlu etkileşim, enerjini artıracak. Bu dönemde, kişisel projelere veya fiziksel aktivitelerle meşgul olmak için mükemmel bir zaman. Ayın sonuna doğru, Neptün ve Uranüs'ün etkileşimi, hayal gücünün ve sezgilerinin güçlenmesine katkı sağlayabilir. Bu dönemde, sanatsal veya manevi konulara daha fazla ilgi gösterebilirsin. Meditasyon veya yaratıcı çalışmalarla içsel huzur bulabilirsin.",
+            "intensity": "high",
             "events": [
               {
                 "id": "tr_saturn_pluto_sextile_2026-03-12",
@@ -2586,9 +444,9 @@
             "tier": "critical",
             "maxScore": 82,
             "window": "2026-03-12 – 2026-04-12",
-            "title": "Yaşam Amacının Keşfi: Genişleme ve Büyüme",
-            "summary": "Bu dönemde yaşam amacınla ilgili derin düşünceler ve keşifler yapabilirsin. Jüpiter'in etkisiyle fırsatlar ön plana çıkıyor.",
-            "interpretation": "12 Mart'tan itibaren Jüpiter'in tepe noktasına yaptığı olumlu açı, yaşam amacını daha geniş bir perspektiften değerlendirme fırsatı sunuyor. Bu süreçte, kariyerinle ilgili yeni hedefler belirleyebilirsin. 28 Mart civarında, bir mentor veya lider figürünün rehberliğinde hayatına yön verecek önemli kararlar alabilirsin.\n\nBu süreçte, eğitim veya yurt dışı ile bağlantılı bir fırsat karşına çıkabilir. Belki de uzun zamandır düşündüğün bir kursa katılmak veya yeni bir dil öğrenmek için harekete geçmelisin. Jüpiter'in genişletici etkisi, bu dönemde seni cesaretlendirecek ve yeni ufuklara açılmana yardımcı olacaktır.\n\nNisan ayının ilk haftasında, yaşam amacının daha belirgin hale geldiğini hissedebilirsin. Bu dönemde, içsel huzur ve tatmin arayışında derinlemesine düşünceler içerisinde olabilirsin. Hem kişisel hem de profesyonel yaşamında daha geniş bir vizyon geliştirmek, bu dönemin en büyük getirilerinden biri olabilir.",
+            "title": "Yaşam Amacında Aydınlanma",
+            "summary": "Bu ay, yaşam amacını sorgulaman ve hedeflerini yeniden değerlendirmene olanak tanıyacak. Geleceğe yönelik yeni adımlar atabilirsin.",
+            "interpretation": "Mart ayının ortalarından itibaren Jüpiter'in MC ile uyumlu açısı, yaşam amacını ve kariyer hedeflerini daha net görmeni sağlayacak. Bu süreçte, daha büyük hayaller kurabilir ve bu hayalleri gerçekleştirmek için somut adımlar atabilirsin. Özellikle ay ortasında, kendine yeni bir yol çizmek için cesaret bulabilirsin. Ayın sonlarına doğru, kendini daha güçlü ve kararlı hissedeceksin. Bu dönemde, eğitim veya kişisel gelişimle ilgili fırsatları değerlendirebilirsin. Kendi potansiyelini keşfetmek ve yeteneklerini geliştirmek için bu zamanı iyi değerlendirmelisin. Nisan ayında, yaşamındaki öncelikleri yeniden sıralamak ve amaçlarına yönelik stratejik planlar yapmak için uygun bir dönem. İçsel motivasyonunu artırarak, geleceğe yönelik umutlarını ve hedeflerini gerçekleştirebilirsin.",
             "intensity": "high",
             "events": [
               {
@@ -2641,9 +499,9 @@
           "clusterCount": 9,
           "phaseCount": 0,
           "retrogradeCount": 0,
-          "aiCallCount": 1,
+          "aiCallCount": 2,
           "aiCallBFailed": false,
-          "pipelineMs": 32088
+          "pipelineMs": 23599
         },
         "locationsUsed": [
           {
@@ -2654,6 +512,805 @@
             "timezone": "Europe/Istanbul",
             "startDate": "2026-03-12",
             "endDate": "2026-04-12"
+          }
+        ]
+      }
+    },
+    "dev_1772623594408_gro4e2o2:3:tr:v4:e091e63801": {
+      "createdAt": "2026-03-12T12:44:58.957Z",
+      "months": 3,
+      "lang": "tr",
+      "locationsHash": "e091e63801",
+      "locations": [
+        {
+          "city": "Istanbul",
+          "latitude": 41.0082,
+          "longitude": 28.9784,
+          "utcOffset": 3,
+          "timezone": "Europe/Istanbul",
+          "startDate": "2026-03-12",
+          "endDate": "2026-06-12"
+        }
+      ],
+      "gemCost": 75,
+      "data": {
+        "formatVersion": 4,
+        "periodMode": "quarterly",
+        "period": {
+          "start": "2026-03-12",
+          "end": "2026-06-12"
+        },
+        "months": 3,
+        "overview": {
+          "title": "2026'nın İlkbaharında Derin Dönüşümler",
+          "summary": "Bu üç aylık dönem, yaşamında yapısal değişiklikler ve kişisel gelişim fırsatları sunuyor. Kariyerinle ilgili yeni hedefler belirleyebilir, ilişkilerinde değerlerini yeniden değerlendirme şansını bulabilirsin. Önemli karar anları, özellikle Mart sonu ve Nisan ortasında, senin için belirleyici olabilir."
+        },
+        "phases": [],
+        "themes": [
+          {
+            "id": "general_transit",
+            "theme": "general_transit",
+            "label": "Genel Etkiler",
+            "tier": "critical",
+            "maxScore": 100,
+            "window": "2026-03-12 – 2026-06-12",
+            "title": "Derin Dönüşümler ve Yeniden Yapılanma",
+            "summary": "Saturn ve Pluton'un etkisiyle yapısal değişimler ve yeniden yapılanmalar gündemde.",
+            "interpretation": "Mart ortasında, Saturn ve Pluton arasındaki sekstil, seni derin dönüşümler için cesaretlendiriyor. Bu kısa süreli etki, güçlü bir temel oluşturma isteği uyandırabilir. Aynı dönemde, Venus'ün karşıt açısı ilişkilerinde bazı gerginliklere yol açabilir. İlişkilerdeki bu dinamik, değerlerini sorgulamak ve neyin gerçekten önemli olduğunu anlamak için bir fırsat sunuyor. Ayrıca, Mart'ın başında Mars'ın yükselenine yaptığı üçgen, sana enerji ve cesaret vererek, harekete geçmek için uygun bir zaman dilimi sunuyor. Bu enerjiyi, kişisel projelerini ilerletmek veya yeni bir girişime başlamak için kullanabilirsin. Uranus'un Saturn'a yaptığı sekstil ile yapısal değişiklikler yaparken yenilikçi fikirler geliştirebilir, eski kalıpları kırarak daha özgür bir yapı oluşturabilirsin.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_saturn_pluto_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "saturn",
+                "natalPlanet": "pluto",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 46,
+                "title": "Saturn Sekstil Pluton",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_venus_opposition_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "venus",
+                "aspect": "opposition",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 55,
+                "title": "Venus Karsit Venus",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_mars_asc_trine_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "mars",
+                "natalPlanet": "asc",
+                "aspect": "trine",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 59,
+                "title": "Mars Ucgen Yukselen",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_saturn_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "uranus",
+                "natalPlanet": "saturn",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-24",
+                "exactDate": "2026-03-12",
+                "score": 46,
+                "title": "Uranus Sekstil Saturn",
+                "rangeText": "2026-03-12 - 2026-03-24 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_uranus_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "neptune",
+                "natalPlanet": "uranus",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-14",
+                "exactDate": "2026-03-12",
+                "score": 52,
+                "title": "Neptun Sekstil Uranus",
+                "rangeText": "2026-03-12 - 2026-04-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_neptune_conjunction_2026-03-12",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "neptune",
+                "natalPlanet": "neptune",
+                "aspect": "conjunction",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-24",
+                "exactDate": "2026-03-12",
+                "score": 64,
+                "title": "Neptun Kavusum Neptun",
+                "rangeText": "2026-03-12 - 2026-04-24 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_pluto_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "neptune",
+                "natalPlanet": "pluto",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-05-04",
+                "exactDate": "2026-03-12",
+                "score": 56,
+                "title": "Neptun Sekstil Pluton",
+                "rangeText": "2026-03-12 - 2026-05-04 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_uranus_conjunction_2026-03-12",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "uranus",
+                "natalPlanet": "uranus",
+                "aspect": "conjunction",
+                "startDate": "2026-03-12",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-05-08",
+                "score": 71,
+                "title": "Uranus Kavusum Uranus",
+                "rangeText": "2026-03-12 - 2026-06-12 arasi (doruk: 2026-05-08)"
+              }
+            ]
+          },
+          {
+            "id": "career_direction",
+            "theme": "career_direction",
+            "label": "Kariyer ve Yon",
+            "tier": "critical",
+            "maxScore": 100,
+            "window": "2026-03-19 – 2026-06-12",
+            "title": "Kariyerde Yeni Yönler ve Fırsatlar",
+            "summary": "Mars ve Merkür'ün MC'ye olan etkileri ile kariyerinde yön değişiklikleri yaşanabilir.",
+            "interpretation": "Mart sonlarında, Mars'ın MC'ye kavuşumu kariyerinle ilgili yeni bir başlangıç yapma ihtiyacı doğurabilir. Bu, iş değiştirmek ya da mevcut işinde daha yüksek bir pozisyona geçmek için harika bir zaman. Ardından, Nisan başında Merkür'ün MC'ye kavuşumu ise iletişim becerilerini ön plana çıkaracak. Bu dönemde toplantılar, sunumlar veya iş görüşmeleri açısından oldukça verimli bir süreç yaşanabilir. Bu enerji, iş yerindeki konumunu güçlendirmek için kullanabileceğin bir fırsat. Nisan ortasında Venus'ün MC'ye yaptığı sekstil ise iş yerindeki sosyal ilişkilerini ve iş ortamındaki huzuru artırabilir. Ancak Mayıs ayındaki kare açılar, iş yerindeki dengeleri zorlayabilir ve uyum sağlamak için esnek olmanı gerektirebilir.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_mars_mc_conjunction_2026-03-19",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "mars",
+                "natalPlanet": "mc",
+                "aspect": "conjunction",
+                "startDate": "2026-03-19",
+                "endDate": "2026-03-25",
+                "exactDate": "2026-03-22",
+                "score": 73,
+                "title": "Mars Kavusum MC",
+                "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
+              },
+              {
+                "id": "tr_mercury_mc_conjunction_2026-03-31",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "mercury",
+                "natalPlanet": "mc",
+                "aspect": "conjunction",
+                "startDate": "2026-03-31",
+                "endDate": "2026-04-05",
+                "exactDate": "2026-04-03",
+                "score": 63,
+                "title": "Merkur Kavusum MC",
+                "rangeText": "2026-03-31 - 2026-04-05 arasi (doruk: 2026-04-03)"
+              },
+              {
+                "id": "tr_venus_mc_sextile_2026-04-11",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "mc",
+                "aspect": "sextile",
+                "startDate": "2026-04-11",
+                "endDate": "2026-04-13",
+                "exactDate": "2026-04-12",
+                "score": 50,
+                "title": "Venus Sekstil MC",
+                "rangeText": "2026-04-11 - 2026-04-13 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_venus_mc_square_2026-05-05",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "mc",
+                "aspect": "square",
+                "startDate": "2026-05-05",
+                "endDate": "2026-05-08",
+                "exactDate": "2026-05-07",
+                "score": 60,
+                "title": "Venus Kare MC",
+                "rangeText": "2026-05-05 - 2026-05-08 arasi (doruk: 2026-05-07)"
+              },
+              {
+                "id": "tr_mercury_mc_sextile_2026-05-10",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "mercury",
+                "natalPlanet": "mc",
+                "aspect": "sextile",
+                "startDate": "2026-05-10",
+                "endDate": "2026-05-11",
+                "exactDate": "2026-05-10",
+                "score": 44,
+                "title": "Merkur Sekstil MC",
+                "rangeText": "2026-05-10 - 2026-05-11 arasi (doruk: 2026-05-10)"
+              },
+              {
+                "id": "tr_mercury_mc_square_2026-05-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "mercury",
+                "natalPlanet": "mc",
+                "aspect": "square",
+                "startDate": "2026-05-24",
+                "endDate": "2026-05-25",
+                "exactDate": "2026-05-24",
+                "score": 54,
+                "title": "Merkur Kare MC",
+                "rangeText": "2026-05-24 - 2026-05-25 arasi (doruk: 2026-05-24)"
+              },
+              {
+                "id": "tr_venus_mc_trine_2026-05-30",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "mc",
+                "aspect": "trine",
+                "startDate": "2026-05-30",
+                "endDate": "2026-06-02",
+                "exactDate": "2026-06-01",
+                "score": 55,
+                "title": "Venus Ucgen MC",
+                "rangeText": "2026-05-30 - 2026-06-02 arasi (doruk: 2026-06-01)"
+              },
+              {
+                "id": "tr_jupiter_sun_square_2026-06-02",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "sun",
+                "aspect": "square",
+                "startDate": "2026-06-02",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-06-12",
+                "score": 73,
+                "title": "Jupiter Kare Gunes",
+                "rangeText": "2026-06-02 - 2026-06-12 arasi (doruk: 2026-06-12)"
+              }
+            ]
+          },
+          {
+            "id": "structural_pressure",
+            "theme": "structural_pressure",
+            "label": "Yapisal Baski",
+            "tier": "critical",
+            "maxScore": 95,
+            "window": "2026-03-24 – 2026-05-14",
+            "title": "Yapısal Zorluklar ve İçsel Büyüme",
+            "summary": "Saturn'un zorlayıcı açıları yapısal baskılar yaratıyor.",
+            "interpretation": "Mart sonu ve Mayıs başı arasında, Saturn'un yükselene yaptığı kare, seni kişisel sınırlarını zorlamak ve daha güçlü bir yapı oluşturmak için mecbur bırakabilir. Bu süreç, kendini yeniden tanımlamak ve uzun vadede sağlam bir temel oluşturmak için önemli bir fırsat. Aynı zaman diliminde, Saturn'un Ay'a karşıt açısı ise duygusal olarak zorlayıcı olabilir. Bu dönemde, içsel huzuru korumak için duygusal ihtiyaçlarına dikkat etmen gerekecek. Duygusal baskılar artabilir, bu yüzden kendine karşı nazik olmayı unutma. Bu etkiler altında, sorumlulukların ve duygusal yükümlülüklerin arasında bir denge kurmak gerekebilir.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_saturn_asc_square_2026-03-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "asc",
+                "aspect": "square",
+                "startDate": "2026-03-24",
+                "endDate": "2026-05-04",
+                "exactDate": "2026-04-13",
+                "score": 84,
+                "title": "Saturn Kare Yukselen",
+                "rangeText": "2026-03-24 - 2026-05-04 arasi (doruk: 2026-04-13)"
+              },
+              {
+                "id": "tr_saturn_moon_opposition_2026-03-25",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "moon",
+                "aspect": "opposition",
+                "startDate": "2026-03-25",
+                "endDate": "2026-05-14",
+                "exactDate": "2026-04-17",
+                "score": 84,
+                "title": "Saturn Karsit Ay",
+                "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
+              }
+            ]
+          },
+          {
+            "id": "money_resources",
+            "theme": "money_resources",
+            "label": "Para ve Kaynaklar",
+            "tier": "critical",
+            "maxScore": 94,
+            "window": "2026-03-13 – 2026-06-12",
+            "title": "Maddi Dünyada Stratejik Fırsatlar",
+            "summary": "Pluton ve Saturn'un etkisiyle finansal stratejiler geliştirme zamanı.",
+            "interpretation": "Mart ortasından itibaren, Pluton'un Venus ile yaptığı üçgen, finansal konularda derinleşme ve dönüşüm fırsatları getiriyor. Bu süreçte, yatırım yapmayı veya kaynaklarını daha verimli kullanmayı düşünebilirsin. Aynı zamanda, Saturn'un Venus'a karşıt açısı, harcamalarını dikkatle gözden geçirmen gerektiğini hatırlatıyor. Bu dönemde, beklenmedik bir fatura veya finansal bir yükümlülükle karşılaşabilirsin. Bu nedenle, harcamalarını kontrol altında tutmak ve gereksiz masraflardan kaçınmak önem taşıyacak. Mayıs ayının ilk yarısı, finansal stratejilerini gözden geçirmek ve uzun vadeli planlarını yapılandırmak için ideal bir zaman olabilir.",
+            "intensity": "medium",
+            "events": [
+              {
+                "id": "tr_pluto_venus_trine_2026-03-13",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "pluto",
+                "natalPlanet": "venus",
+                "aspect": "trine",
+                "startDate": "2026-03-13",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-05-02",
+                "score": 67,
+                "title": "Pluton Ucgen Venus",
+                "rangeText": "2026-03-13 - 2026-06-12 arasi (doruk: 2026-05-02)"
+              },
+              {
+                "id": "tr_saturn_venus_opposition_2026-03-22",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "venus",
+                "aspect": "opposition",
+                "startDate": "2026-03-22",
+                "endDate": "2026-05-11",
+                "exactDate": "2026-04-15",
+                "score": 79,
+                "title": "Saturn Karsit Venus",
+                "rangeText": "2026-03-22 - 2026-05-11 arasi (doruk: 2026-04-15)"
+              }
+            ]
+          },
+          {
+            "id": "relationship_values",
+            "theme": "relationship_values",
+            "label": "Iliskiler ve Degerler",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-03-12 – 2026-06-12",
+            "title": "İlişkilerde Derinleşme ve Değerlerin Yeniden Tanımlanması",
+            "summary": "Venus ve Pluton'un etkileriyle ilişkilerde dönüşüm ve değerlerin sorgulanması.",
+            "interpretation": "Mart ayının sonlarında, Venus'ün Ay ve Güneş ile yaptığı karşıt açılar, ilişkilerinde gerginlik ve çatışmalar yaratabilir. Bu dönem, partnerinle veya yakın çevrendeki kişilerle olan ilişkilerini gözden geçirmek ve değerlerini yeniden değerlendirmek için bir fırsat sunuyor. Nisan ayındaki Venus-Pluton karesi ise ilişkilerde derin dönüşümlere ve yüzleşmelere neden olabilir. Kendi isteklerin ile başkalarının beklentileri arasında denge kurmak zorunda kalabilirsin. Mayıs ayında Pluton'un Ay'a yaptığı üçgen ise ilişkilerde daha derin bir bağ kurma ve duygusal olarak güçlenme fırsatı sunabilir. Bu süreçte, ilişkilerini daha sağlam temeller üzerine oturtmak için gerekli adımları atabilirsin.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_venus_asc_square_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "asc",
+                "aspect": "square",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-13",
+                "exactDate": "2026-03-12",
+                "score": 60,
+                "title": "Venus Kare Yukselen",
+                "rangeText": "2026-03-12 - 2026-03-13 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_moon_opposition_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "moon",
+                "aspect": "opposition",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 60,
+                "title": "Venus Karsit Ay",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_jupiter_square_2026-03-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "jupiter",
+                "aspect": "square",
+                "startDate": "2026-03-24",
+                "endDate": "2026-03-27",
+                "exactDate": "2026-03-26",
+                "score": 45,
+                "title": "Venus Kare Jupiter",
+                "rangeText": "2026-03-24 - 2026-03-27 arasi (doruk: 2026-03-26)"
+              },
+              {
+                "id": "tr_venus_sun_opposition_2026-03-26",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "sun",
+                "aspect": "opposition",
+                "startDate": "2026-03-26",
+                "endDate": "2026-03-30",
+                "exactDate": "2026-03-28",
+                "score": 56,
+                "title": "Venus Karsit Gunes",
+                "rangeText": "2026-03-26 - 2026-03-30 arasi (doruk: 2026-03-28)"
+              },
+              {
+                "id": "tr_pluto_moon_trine_2026-03-26",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "pluto",
+                "natalPlanet": "moon",
+                "aspect": "trine",
+                "startDate": "2026-03-26",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-05-02",
+                "score": 69,
+                "title": "Pluton Ucgen Ay",
+                "rangeText": "2026-03-26 - 2026-06-12 arasi (doruk: 2026-05-02)"
+              },
+              {
+                "id": "tr_venus_pluto_square_2026-03-30",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "pluto",
+                "aspect": "square",
+                "startDate": "2026-03-30",
+                "endDate": "2026-04-02",
+                "exactDate": "2026-03-31",
+                "score": 45,
+                "title": "Venus Kare Pluton",
+                "rangeText": "2026-03-30 - 2026-04-02 arasi (doruk: 2026-03-31)"
+              },
+              {
+                "id": "tr_venus_mercury_opposition_2026-04-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "mercury",
+                "aspect": "opposition",
+                "startDate": "2026-04-12",
+                "endDate": "2026-04-16",
+                "exactDate": "2026-04-14",
+                "score": 55,
+                "title": "Venus Karsit Merkur",
+                "rangeText": "2026-04-12 - 2026-04-16 arasi (doruk: 2026-04-14)"
+              },
+              {
+                "id": "tr_venus_mars_opposition_2026-04-13",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "mars",
+                "aspect": "opposition",
+                "startDate": "2026-04-13",
+                "endDate": "2026-04-17",
+                "exactDate": "2026-04-15",
+                "score": 55,
+                "title": "Venus Karsit Mars",
+                "rangeText": "2026-04-13 - 2026-04-17 arasi (doruk: 2026-04-15)"
+              }
+            ]
+          },
+          {
+            "id": "growth_opportunity",
+            "theme": "growth_opportunity",
+            "label": "Buyume Firsati",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-04-04 – 2026-06-12",
+            "title": "Kişisel ve Ruhsal Büyüme Fırsatları",
+            "summary": "Jupiter ve Venus'ün etkisiyle büyüme ve genişleme olanakları.",
+            "interpretation": "Nisan ayının başlarında, Venus'ün yükselene yaptığı sekstil, kişisel cazibeni artırabilir ve sosyal çevrende yeni fırsatlar doğurabilir. Bu dönem, hem kişisel hem de profesyonel ilişkilere odaklanmak için uygun. Jupiter'in Merkür ve Mars ile yaptığı üçgen açılar ise zihinsel ve fiziksel enerji seviyelerini yükseltebilir. Bu etkiler altında, yeni şeyler öğrenmek, eğitim fırsatları değerlendirmek veya seyahat etmek isteyebilirsin. Mayıs ayında Venus'ün kendi doğum haritasındaki Ay ve Güneş'e yaptığı üçgenler, duygusal dengeyi güçlendirir ve içsel mutluluğu artırabilir. Bu dönem, kişisel gelişim ve ruhsal farkındalık kazanmak için mükemmel bir zaman dilimi olabilir.",
+            "intensity": "medium",
+            "events": [
+              {
+                "id": "tr_venus_asc_sextile_2026-04-04",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "asc",
+                "aspect": "sextile",
+                "startDate": "2026-04-04",
+                "endDate": "2026-04-06",
+                "exactDate": "2026-04-05",
+                "score": 50,
+                "title": "Venus Sekstil Yukselen",
+                "rangeText": "2026-04-04 - 2026-04-06 arasi (doruk: 2026-04-05)"
+              },
+              {
+                "id": "tr_jupiter_mercury_trine_2026-04-05",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "mercury",
+                "aspect": "trine",
+                "startDate": "2026-04-05",
+                "endDate": "2026-05-14",
+                "exactDate": "2026-04-28",
+                "score": 66,
+                "title": "Jupiter Ucgen Merkur",
+                "rangeText": "2026-04-05 - 2026-05-14 arasi (doruk: 2026-04-28)"
+              },
+              {
+                "id": "tr_jupiter_mars_trine_2026-04-09",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "mars",
+                "aspect": "trine",
+                "startDate": "2026-04-09",
+                "endDate": "2026-05-16",
+                "exactDate": "2026-04-30",
+                "score": 66,
+                "title": "Jupiter Ucgen Mars",
+                "rangeText": "2026-04-09 - 2026-05-16 arasi (doruk: 2026-04-30)"
+              },
+              {
+                "id": "tr_venus_venus_trine_2026-04-28",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "venus",
+                "aspect": "trine",
+                "startDate": "2026-04-28",
+                "endDate": "2026-05-01",
+                "exactDate": "2026-04-30",
+                "score": 48,
+                "title": "Venus Ucgen Venus",
+                "rangeText": "2026-04-28 - 2026-05-01 arasi (doruk: 2026-04-30)"
+              },
+              {
+                "id": "tr_venus_moon_trine_2026-04-28",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "moon",
+                "aspect": "trine",
+                "startDate": "2026-04-28",
+                "endDate": "2026-05-02",
+                "exactDate": "2026-04-30",
+                "score": 53,
+                "title": "Venus Ucgen Ay",
+                "rangeText": "2026-04-28 - 2026-05-02 arasi (doruk: 2026-04-30)"
+              },
+              {
+                "id": "tr_venus_sun_trine_2026-05-14",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "sun",
+                "aspect": "trine",
+                "startDate": "2026-05-14",
+                "endDate": "2026-05-17",
+                "exactDate": "2026-05-16",
+                "score": 53,
+                "title": "Venus Ucgen Gunes",
+                "rangeText": "2026-05-14 - 2026-05-17 arasi (doruk: 2026-05-16)"
+              },
+              {
+                "id": "tr_jupiter_jupiter_conjunction_2026-05-17",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "jupiter",
+                "aspect": "conjunction",
+                "startDate": "2026-05-17",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-06-02",
+                "score": 69,
+                "title": "Jupiter Kavusum Jupiter",
+                "rangeText": "2026-05-17 - 2026-06-12 arasi (doruk: 2026-06-02)"
+              },
+              {
+                "id": "tr_jupiter_saturn_trine_2026-06-01",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "saturn",
+                "aspect": "trine",
+                "startDate": "2026-06-01",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-06-12",
+                "score": 56,
+                "title": "Jupiter Ucgen Saturn",
+                "rangeText": "2026-06-01 - 2026-06-12 arasi (doruk: 2026-06-12)"
+              }
+            ]
+          }
+        ],
+        "retrogradeWindows": [
+          {
+            "planet": "pluto",
+            "planetLabel": "Plüton",
+            "startDate": "2026-05-07",
+            "endDate": "2026-06-12",
+            "baseInterpretation": "Eski bir dostunla arandaki gerginlik tekrar gündeme gelebilir, bu sefer konuyu derinlemesine ele almayı düşün. İş yerindeki kontrol mekanizmalarını gözden geçir, çünkü beklenmedik bir şekilde yetki alanında değişim yaşanabilir. Bu dönemde meditasyon yapmak ve içsel yolculuklar planlamak, duygusal yüklerinden kurtulmanı sağlayabilir. Kova burcundaki yenilikçi doğan sayesinde, eski düşünce kalıplarını yıkarak kişisel dönüşümünü hızlandırabilirsin.",
+            "personalNote": "Eski bir dostunla arandaki gerginlik tekrar gündeme gelebilir, bu sefer konuyu derinlemesine ele almayı düşün. İş yerindeki kontrol mekanizmalarını gözden geçir, çünkü beklenmedik bir şekilde yetki alanında değişim yaşanabilir. Bu dönemde meditasyon yapmak ve içsel yolculuklar planlamak, duygusal yüklerinden kurtulmanı sağlayabilir. Kova burcundaki yenilikçi doğan sayesinde, eski düşünce kalıplarını yıkarak kişisel dönüşümünü hızlandırabilirsin.",
+            "affectedThemes": [
+              "dönüşüm",
+              "güç",
+              "kontrol"
+            ],
+            "priority": "high"
+          }
+        ],
+        "milestones": [
+          {
+            "title": "Genel Etkiler",
+            "window": "2026-05-07 – 2026-06-12",
+            "description": "Bu dönem, yaşamındaki genel yapıları yeniden değerlendirmek ve dönüştürmek için önemli bir fırsat sunuyor."
+          },
+          {
+            "title": "Kariyer ve Yon",
+            "window": "2026-03-19 – 2026-03-25",
+            "description": "Kariyerinle ilgili önemli kararlar alma ve yeni yönler belirleme zamanı."
+          },
+          {
+            "title": "İlişkiler ve Değerler",
+            "window": "2026-03-26 – 2026-06-12",
+            "description": "İlişkilerinde derinleşmek ve değerlerini yeniden değerlendirmek için önemli fırsatlar doğabilir."
+          }
+        ],
+        "recurringThemes": [],
+        "focusAreas": {
+          "career": "",
+          "relationships": "",
+          "innerLife": "",
+          "growth": "",
+          "health": ""
+        },
+        "detailedDrivers": [],
+        "background": [
+          {
+            "id": "tr_mercury_asc_trine_2026-03-16",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "mercury",
+            "natalPlanet": "asc",
+            "aspect": "trine",
+            "startDate": "2026-03-16",
+            "endDate": "2026-03-25",
+            "exactDate": "2026-03-20",
+            "score": 49,
+            "title": "Merkur Ucgen Yukselen",
+            "rangeText": "2026-03-16 - 2026-03-25 arasi (doruk: 2026-03-20)"
+          },
+          {
+            "id": "tr_mars_jupiter_trine_2026-03-30",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "mars",
+            "natalPlanet": "jupiter",
+            "aspect": "trine",
+            "startDate": "2026-03-30",
+            "endDate": "2026-04-05",
+            "exactDate": "2026-04-02",
+            "score": 48,
+            "title": "Mars Ucgen Jupiter",
+            "rangeText": "2026-03-30 - 2026-04-05 arasi (doruk: 2026-04-02)"
+          },
+          {
+            "id": "tr_venus_venus_trine_2026-04-28",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "venus",
+            "natalPlanet": "venus",
+            "aspect": "trine",
+            "startDate": "2026-04-28",
+            "endDate": "2026-05-01",
+            "exactDate": "2026-04-30",
+            "score": 48,
+            "title": "Venus Ucgen Venus",
+            "rangeText": "2026-04-28 - 2026-05-01 arasi (doruk: 2026-04-30)"
+          },
+          {
+            "id": "tr_venus_mercury_trine_2026-06-02",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "venus",
+            "natalPlanet": "mercury",
+            "aspect": "trine",
+            "startDate": "2026-06-02",
+            "endDate": "2026-06-05",
+            "exactDate": "2026-06-03",
+            "score": 48,
+            "title": "Venus Ucgen Merkur",
+            "rangeText": "2026-06-02 - 2026-06-05 arasi (doruk: 2026-06-03)"
+          },
+          {
+            "id": "tr_mercury_saturn_conjunction_2026-04-10",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "mercury",
+            "natalPlanet": "saturn",
+            "aspect": "conjunction",
+            "startDate": "2026-04-10",
+            "endDate": "2026-04-14",
+            "exactDate": "2026-04-12",
+            "score": 48,
+            "title": "Merkur Kavusum Saturn",
+            "rangeText": "2026-04-10 - 2026-04-14 arasi (doruk: 2026-04-12)"
+          },
+          {
+            "id": "tr_mercury_neptune_conjunction_2026-04-13",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "mercury",
+            "natalPlanet": "neptune",
+            "aspect": "conjunction",
+            "startDate": "2026-04-13",
+            "endDate": "2026-04-16",
+            "exactDate": "2026-04-15",
+            "score": 48,
+            "title": "Merkur Kavusum Neptun",
+            "rangeText": "2026-04-13 - 2026-04-16 arasi (doruk: 2026-04-15)"
+          },
+          {
+            "id": "tr_saturn_pluto_sextile_2026-03-12",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "saturn",
+            "natalPlanet": "pluto",
+            "aspect": "sextile",
+            "startDate": "2026-03-12",
+            "endDate": "2026-03-14",
+            "exactDate": "2026-03-12",
+            "score": 46,
+            "title": "Saturn Sekstil Pluton",
+            "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+          },
+          {
+            "id": "tr_uranus_saturn_sextile_2026-03-12",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "uranus",
+            "natalPlanet": "saturn",
+            "aspect": "sextile",
+            "startDate": "2026-03-12",
+            "endDate": "2026-03-24",
+            "exactDate": "2026-03-12",
+            "score": 46,
+            "title": "Uranus Sekstil Saturn",
+            "rangeText": "2026-03-12 - 2026-03-24 arasi (doruk: 2026-03-12)"
+          }
+        ],
+        "stats": {
+          "rawEventCount": 107,
+          "filteredEventCount": 107,
+          "clusterCount": 11,
+          "phaseCount": 0,
+          "retrogradeCount": 1,
+          "aiCallCount": 2,
+          "aiCallBFailed": false,
+          "pipelineMs": 21041
+        },
+        "locationsUsed": [
+          {
+            "city": "Istanbul",
+            "latitude": 41.0082,
+            "longitude": 28.9784,
+            "utcOffset": 3,
+            "timezone": "Europe/Istanbul",
+            "startDate": "2026-03-12",
+            "endDate": "2026-06-12"
           }
         ]
       }

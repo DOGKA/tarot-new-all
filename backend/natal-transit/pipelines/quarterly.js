@@ -1,13 +1,14 @@
 /**
  * Quarterly pipeline orchestrator (3 months) — v4
- * 1 AI call only. Template retro (no Call B).
+ * 2 AI calls: Call A (themes) + Call B (retro polish, parallel).
  *
  * Call A: overview + themes (direction-focused) + milestones
+ * Call B: retro AI polish (parallel, graceful degrade)
  */
 
 const { getProfile } = require("../shared/periodProfiles");
 const { buildBaseTransitModel, selectMilestones, selectTopThemes, assembleOutput } = require("../shared/engine");
-const { buildRetroWindows } = require("../shared/retrogrades");
+const { buildRetroWindows, buildRetroAIPayload, mergeRetroAIResults } = require("../shared/retrogrades");
 const { buildTitle, buildRangeText } = require("../shared/formatters");
 const { splitTiers } = require("../shared/clustering");
 
@@ -16,6 +17,7 @@ const AI_TIMEOUT_MS = 120000;
 function createQuarterlyPipeline({ openai, lang = "tr" }) {
   const profile = getProfile(3);
   const standardPrompts = require(`../prompts/standard-${lang}`);
+  const retroPrompts = require(`../prompts/retro-${lang}`);
 
   async function callAI(messages, label) {
     const completion = await Promise.race([
@@ -32,6 +34,23 @@ function createQuarterlyPipeline({ openai, lang = "tr" }) {
     const raw = completion.choices[0]?.message?.content || "{}";
     const jsonMatch = raw.match(/\{[\s\S]*\}/);
     return jsonMatch ? JSON.parse(jsonMatch[0]) : {};
+  }
+
+  async function runCallB(retroWindows, natalPlanets, periodText) {
+    if (retroWindows.length === 0) return { retrogrades: [] };
+
+    const retroPayload = buildRetroAIPayload(retroWindows, natalPlanets);
+    const prompt = retroPrompts.buildRetroPollishPrompt(retroPayload, periodText);
+
+    try {
+      return await callAI([
+        { role: "system", content: retroPrompts.systemMessage },
+        { role: "user", content: prompt },
+      ], "Quarterly Call B (retro)");
+    } catch (e) {
+      console.warn(`[Quarterly] Call B (retro) failed:`, e.message);
+      return null;
+    }
   }
 
   async function runCallA(baseModel, periodText) {
@@ -91,8 +110,16 @@ function createQuarterlyPipeline({ openai, lang = "tr" }) {
 
     const retroWindows = buildRetroWindows(timelinePayload.retrogrades, natalPlanets);
 
-    console.log(`[Quarterly] Running Call A...`);
-    const aiResultA = await runCallA(baseModel, periodText);
+    console.log(`[Quarterly] Running Call A + Call B in parallel...`);
+    const [aiResultA, aiResultB] = await Promise.all([
+      runCallA(baseModel, periodText),
+      runCallB(retroWindows, natalPlanets, periodText),
+    ]);
+
+    const aiCallBFailed = aiResultB === null;
+    const finalRetro = aiCallBFailed
+      ? retroWindows
+      : mergeRetroAIResults(retroWindows, aiResultB?.retrogrades || []);
 
     const aiThemes = {};
     (aiResultA?.themes || []).forEach((t) => { aiThemes[t.id] = t; });
@@ -131,7 +158,7 @@ function createQuarterlyPipeline({ openai, lang = "tr" }) {
     const ms = Date.now() - startedAt;
     console.log(`[Quarterly] Pipeline total: ${ms}ms`);
 
-    const response = assembleOutput(profile, period, baseModel, null, null, retroWindows);
+    const response = assembleOutput(profile, period, baseModel, null, null, finalRetro);
     response.themes = outputThemes;
 
     if (aiResultA?.overview) {
@@ -153,8 +180,8 @@ function createQuarterlyPipeline({ openai, lang = "tr" }) {
     response.stats.filteredEventCount = baseModel.filtered.length;
     response.stats.clusterCount = baseModel.merged.length;
     response.stats.retrogradeCount = retroWindows.length;
-    response.stats.aiCallCount = 1;
-    response.stats.aiCallBFailed = false;
+    response.stats.aiCallCount = aiCallBFailed ? 1 : 2;
+    response.stats.aiCallBFailed = aiCallBFailed;
     response.stats.pipelineMs = ms;
 
     return response;
