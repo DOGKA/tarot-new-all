@@ -440,7 +440,7 @@ export default function NatalDetailScreen() {
           <View style={styles.interpretSection}>
             {insufficientGems ? (
               <View style={styles.gemWarning}>
-                <GemstoneIcon size={40} />
+                <GemstoneIcon size={48} />
                 <Text style={styles.gemWarningTitle}>{t("natalInsufficientGems")}</Text>
                 <Text style={styles.gemWarningDesc}>
                   {t("natalInsufficientGemsDesc", { cost: NATAL_COST, balance: gemstoneBalance })}
@@ -454,7 +454,7 @@ export default function NatalDetailScreen() {
                 <View style={styles.interpretBtnContent}>
                   <Text style={styles.interpretBtnText}>{t("natalInterpret")}</Text>
                   <View style={styles.costBadge}>
-                    <GemstoneIcon size={22} />
+                    <GemstoneIcon size={30} />
                     <Text style={styles.costText}>{NATAL_COST}</Text>
                   </View>
                 </View>

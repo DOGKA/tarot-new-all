@@ -239,7 +239,7 @@ export default function HoroscopeDetailScreen() {
                   {!isPremium && (
                     <>
                       <Text style={styles.diveBtnTextPremium}> (</Text>
-                      <GemstoneIcon size={26} />
+                      <GemstoneIcon size={34} />
                       <Text style={styles.diveBtnTextPremium}>{DIVE_DEEPER_COST})</Text>
                     </>
                   )}
@@ -301,7 +301,7 @@ export default function HoroscopeDetailScreen() {
                   <View style={styles.blurContainer}>
                     <BlurView intensity={30} tint="dark" style={styles.blurOverlay}>
                       <View style={styles.lockBox}>
-                        <GemstoneIcon size={44} />
+                        <GemstoneIcon size={52} />
                         <Text style={styles.lockTitle}>{t("horoscopePremiumRequired")}</Text>
                         <Text style={styles.lockDesc}>{t("horoscopePremiumDesc")}</Text>
                         <TouchableOpacity

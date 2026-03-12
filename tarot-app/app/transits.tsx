@@ -102,6 +102,20 @@ function wait(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+type HistoryItem = {
+  createdAt: string;
+  months: number;
+  gemCost: number;
+  periodStart: string;
+  periodEnd: string;
+  periodMode: string;
+  themeCount: number;
+  phaseCount: number;
+  retroCount: number;
+  transitCount: number;
+  overviewTitle: string;
+};
+
 export default function TransitScreen() {
   const router = useRouter();
   const { t } = useTranslation();
@@ -112,10 +126,19 @@ export default function TransitScreen() {
   const [loadingPhase, setLoadingPhase] = useState<"calculating" | "interpreting">("calculating");
   const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<TransitPayload | null>(null);
+  const [history, setHistory] = useState<HistoryItem[]>([]);
   const [locations, setLocations] = useState<TransitLocation[]>([
     { city: "Istanbul", latitude: "41.0082", longitude: "28.9784", utcOffset: "3", timezone: "Europe/Istanbul", startDate: "", endDate: "" },
   ]);
   const isLocked = loadingMonths !== null;
+
+  useEffect(() => {
+    if (!deviceId) return;
+    fetch(`${API_BASE}/natal/transits/${deviceId}/history?lang=${language || "tr"}`)
+      .then((r) => r.json())
+      .then((json) => { if (json.success) setHistory(json.readings || []); })
+      .catch(() => {});
+  }, [deviceId, language, data]);
 
   useEffect(() => {
     if (!loadingMonths) {
@@ -170,7 +193,7 @@ export default function TransitScreen() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         signal: controller.signal,
-        body: JSON.stringify({ deviceId, months, lang: language, locations: normalized }),
+        body: JSON.stringify({ deviceId, months, lang: language, locations: normalized, force: true }),
       });
       const json = await res.json();
       if (!res.ok || !json.success) {
@@ -211,7 +234,7 @@ export default function TransitScreen() {
           </TouchableOpacity>
           <Text style={styles.title}>{t("transitTitle")}</Text>
           <View style={styles.balance}>
-            <GemstoneIcon size={22} />
+            <GemstoneIcon size={30} />
             <Text style={styles.balanceText}>{gemstoneBalance}</Text>
           </View>
         </View>
@@ -323,7 +346,7 @@ export default function TransitScreen() {
                     <Text style={styles.periodTitle}>{p.months} {t("transitMonthShort")}</Text>
                     <Text style={styles.periodSub}>{p.premium ? t("transitPremiumPlusGem") : t("transitGemOnly")}</Text>
                     <View style={styles.periodCost}>
-                      <GemstoneIcon size={22} />
+                      <GemstoneIcon size={30} />
                       <Text style={styles.periodCostText}>{p.gems}</Text>
                     </View>
                     {lockedByPremium && <Text style={styles.lockText}>Premium</Text>}
@@ -384,6 +407,47 @@ export default function TransitScreen() {
             >
               <Text style={styles.viewBtnText}>{t("transitViewReading")}</Text>
             </TouchableOpacity>
+          </View>
+        )}
+
+        {!isLocked && history.length > 0 && (
+          <View style={styles.historySection}>
+            <Text style={styles.historyTitle}>{t("transitPastReadings")}</Text>
+            {history.map((item, idx) => (
+              <TouchableOpacity
+                key={`${item.createdAt}_${idx}`}
+                style={styles.historyCard}
+                activeOpacity={0.7}
+                onPress={() =>
+                  router.push({
+                    pathname: "/transit/detail",
+                    params: { months: String(item.months), createdAt: item.createdAt, t: String(Date.now()) },
+                  })
+                }
+              >
+                <View style={styles.historyTop}>
+                  <View style={styles.historyBadge}>
+                    <Text style={styles.historyBadgeText}>{item.months} {t("transitMonthShort")}</Text>
+                  </View>
+                  <Text style={styles.historyDate}>
+                    {new Date(item.createdAt).toLocaleDateString(language === "tr" ? "tr-TR" : language === "de" ? "de-DE" : language === "es" ? "es-ES" : "en-US", {
+                      day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit",
+                    })}
+                  </Text>
+                </View>
+                {item.overviewTitle !== "" && (
+                  <Text style={styles.historyOverview} numberOfLines={1}>{item.overviewTitle}</Text>
+                )}
+                <View style={styles.historyMeta}>
+                  <Text style={styles.historyMetaText}>
+                    {item.periodStart} → {item.periodEnd}
+                  </Text>
+                  <Text style={styles.historyMetaText}>
+                    {item.transitCount} transit
+                  </Text>
+                </View>
+              </TouchableOpacity>
+            ))}
           </View>
         )}
       </ScrollView>
@@ -473,4 +537,23 @@ const styles = StyleSheet.create({
     borderWidth: 1, borderColor: "rgba(167,139,250,0.3)",
   },
   viewBtnText: { color: "#c4b5fd", fontWeight: "700", fontSize: 13 },
+  historySection: { marginTop: 20, gap: 10 },
+  historyTitle: {
+    color: "rgba(255,255,255,0.5)", fontSize: 11, fontWeight: "800",
+    textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 4,
+  },
+  historyCard: {
+    borderRadius: 14, borderWidth: 1, borderColor: "rgba(255,255,255,0.06)",
+    backgroundColor: "rgba(255,255,255,0.03)", padding: 12, gap: 6,
+  },
+  historyTop: { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
+  historyBadge: {
+    backgroundColor: "rgba(167,139,250,0.15)", borderRadius: 8,
+    paddingHorizontal: 8, paddingVertical: 3,
+  },
+  historyBadgeText: { color: "#c4b5fd", fontSize: 11, fontWeight: "800" },
+  historyDate: { color: "rgba(255,255,255,0.35)", fontSize: 10 },
+  historyOverview: { color: "rgba(255,255,255,0.7)", fontSize: 13, fontWeight: "700" },
+  historyMeta: { flexDirection: "row", justifyContent: "space-between" },
+  historyMetaText: { color: "rgba(255,255,255,0.3)", fontSize: 10 },
 });

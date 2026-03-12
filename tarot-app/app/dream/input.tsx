@@ -152,7 +152,7 @@ export default function DreamInputScreen() {
             </TouchableOpacity>
             <Text style={styles.title}>{modeLabels[dreamMode]}</Text>
             <View style={[styles.costContainer, { flexDirection: "row", alignItems: "center", gap: 4 }]}>
-              <GemstoneIcon size={30} />
+              <GemstoneIcon size={38} />
               <Text style={styles.costText}>{cost}</Text>
             </View>
           </View>

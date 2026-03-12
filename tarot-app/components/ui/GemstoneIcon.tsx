@@ -6,7 +6,7 @@ interface GemstoneIconProps {
   size?: number;
 }
 
-export default function GemstoneIcon({ size = 16 }: GemstoneIconProps) {
+export default function GemstoneIcon({ size = 24 }: GemstoneIconProps) {
   return (
     <View style={{ width: size, height: size }}>
       <LottieView

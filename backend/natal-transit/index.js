@@ -132,16 +132,20 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
         });
       }
 
+      const force = req.body.force === true;
       const locationsHash = hashTransitLocations(normalizedLocations);
-      const cacheKey = `${deviceId}:${periodMonths}:${validLang}:v4:${locationsHash}`;
       const readingsCache = loadTransitReadings(validLang);
-      if (readingsCache.readings[cacheKey]) {
-        return res.json({
-          success: true,
-          source: "cache",
-          gemCost: 0,
-          data: readingsCache.readings[cacheKey].data,
-        });
+
+      if (!force) {
+        const cacheKey = `${deviceId}:${periodMonths}:${validLang}:v4:${locationsHash}`;
+        if (readingsCache.readings[cacheKey]) {
+          return res.json({
+            success: true,
+            source: "cache",
+            gemCost: 0,
+            data: readingsCache.readings[cacheKey].data,
+          });
+        }
       }
 
       const chartPlanets = user?.natalChart?.planets || getFallbackNatalPlanets();
@@ -177,8 +181,10 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
       };
 
       updateUser(deviceId, { gemstoneBalance: (user?.gemstoneBalance || 0) - gemCost });
+      const nowISO = new Date().toISOString();
+      const cacheKey = `${deviceId}:${periodMonths}:${validLang}:v4:${locationsHash}:${Date.now()}`;
       readingsCache.readings[cacheKey] = {
-        createdAt: new Date().toISOString(),
+        createdAt: nowISO,
         months: periodMonths,
         lang: validLang,
         locationsHash,
@@ -245,10 +251,45 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
     }
   });
 
+  router.get("/:deviceId/history", (req, res) => {
+    try {
+      const { deviceId } = req.params;
+      const lang = ["tr", "en", "de", "es"].includes(req.query.lang) ? req.query.lang : "tr";
+      const readings = loadTransitReadings(lang);
+      const keys = Object.keys(readings.readings).filter((k) => k.startsWith(`${deviceId}:`));
+
+      const items = keys
+        .map((k) => {
+          const r = readings.readings[k];
+          if (!r) return null;
+          return {
+            createdAt: r.createdAt,
+            months: r.months,
+            gemCost: r.gemCost || 0,
+            periodStart: r.data?.period?.start || "",
+            periodEnd: r.data?.period?.end || "",
+            periodMode: r.data?.periodMode || "standard",
+            themeCount: r.data?.themes?.length || 0,
+            phaseCount: r.data?.phases?.length || 0,
+            retroCount: r.data?.retrogradeWindows?.length || 0,
+            transitCount: r.data?.stats?.rawEventCount || 0,
+            overviewTitle: r.data?.overview?.title || "",
+          };
+        })
+        .filter(Boolean)
+        .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+
+      return res.json({ success: true, readings: items });
+    } catch (err) {
+      return res.status(500).json({ success: false, error: err.message });
+    }
+  });
+
   router.get("/:deviceId/latest", (req, res) => {
     try {
       const { deviceId } = req.params;
       const monthsFilter = Number(req.query.months || 0);
+      const createdAtFilter = req.query.createdAt || "";
       const lang = ["tr", "en", "de", "es"].includes(req.query.lang) ? req.query.lang : "tr";
       const readings = loadTransitReadings(lang);
       const keys = Object.keys(readings.readings).filter((k) => k.startsWith(`${deviceId}:`));
@@ -257,6 +298,7 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
         .map((k) => readings.readings[k])
         .filter(Boolean)
         .filter((r) => (monthsFilter ? Number(r.months) === monthsFilter : true))
+        .filter((r) => (createdAtFilter ? r.createdAt === createdAtFilter : true))
         .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
 
       const latest = sortedReadings[0];

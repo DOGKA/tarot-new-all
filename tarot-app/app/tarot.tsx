@@ -49,7 +49,7 @@ export default function TarotScreen() {
           </View>
           {!isFreeMode && (
             <View style={styles.balanceBadge}>
-              <GemstoneIcon size={26} />
+              <GemstoneIcon size={34} />
               <Text style={styles.balanceText}> {gemstoneBalance}</Text>
             </View>
           )}

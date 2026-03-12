@@ -72,7 +72,7 @@ export default function DreamHomeScreen() {
           </TouchableOpacity>
           <Text style={styles.title}>Dream Coder</Text>
           <View style={[styles.balanceBadge, { flexDirection: "row", alignItems: "center" }]}>
-            <GemstoneIcon size={26} />
+            <GemstoneIcon size={34} />
             <Text style={styles.balanceText}> {gemstoneBalance}</Text>
           </View>
         </View>
@@ -120,7 +120,7 @@ export default function DreamHomeScreen() {
                         <Text style={[styles.gemText, styles.gemTextLocked]}>🔒</Text>
                       ) : (
                         <>
-                          <GemstoneIcon size={30} />
+                          <GemstoneIcon size={38} />
                           <Text style={styles.gemText}>{prices[cfg.mode]}</Text>
                         </>
                       )}

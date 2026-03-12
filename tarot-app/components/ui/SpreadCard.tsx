@@ -101,7 +101,7 @@ export default function SpreadCard({
           </View>
           {gemCost !== undefined && (
             <View style={[styles.gemBadge, { flexDirection: "row", alignItems: "center", gap: 3 }]}>
-              <GemstoneIcon size={26} />
+              <GemstoneIcon size={34} />
               <Text style={styles.gemText}>{gemCost}</Text>
             </View>
           )}

@@ -43,7 +43,7 @@ export default function TransitDetailScreen() {
   const router = useRouter();
   const { t } = useTranslation();
   const { deviceId, gemstoneBalance, language } = useApp();
-  const params = useLocalSearchParams<{ months?: string; t?: string }>();
+  const params = useLocalSearchParams<{ months?: string; createdAt?: string; t?: string }>();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<V4Payload | null>(null);
@@ -57,6 +57,7 @@ export default function TransitDetailScreen() {
       try {
         const qParams = new URLSearchParams();
         if (months) qParams.set("months", String(months));
+        if (params.createdAt) qParams.set("createdAt", params.createdAt);
         qParams.set("lang", language || "tr");
         const res = await fetch(`${API_BASE}/natal/transits/${deviceId}/latest?${qParams}`);
         const json = await res.json();
@@ -72,7 +73,7 @@ export default function TransitDetailScreen() {
       }
     };
     run();
-  }, [deviceId, months, params.t]);
+  }, [deviceId, months, params.createdAt, params.t]);
 
   const [selectedPhase, setSelectedPhase] = useState<{ phase: Phase; index: number } | null>(null);
   const localizedData = useMemo(
@@ -127,7 +128,7 @@ export default function TransitDetailScreen() {
             <Text style={s.backBtn}>← {t("back")}</Text>
           </TouchableOpacity>
           <View style={s.gemChip}>
-            <GemstoneIcon size={16} />
+            <GemstoneIcon size={24} />
             <Text style={s.gemText}>{gemstoneBalance}</Text>
           </View>
         </View>

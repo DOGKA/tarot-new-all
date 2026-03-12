@@ -83,7 +83,7 @@ export default function MarketScreen() {
           </TouchableOpacity>
           <Text style={styles.headerTitle}>Market</Text>
           <View style={styles.balancePill}>
-            <GemstoneIcon size={26} />
+            <GemstoneIcon size={42} />
             <Text style={styles.balanceText}> {gemstoneBalance}</Text>
           </View>
         </View>
@@ -194,7 +194,7 @@ export default function MarketScreen() {
                 )}
                 <View style={styles.gemRow}>
                   <View style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
-                    <GemstoneIcon size={34} />
+                    <GemstoneIcon size={42} />
                     <Text style={styles.gemTotal}>{pkg.total}</Text>
                     {pkg.bonus > 0 && <Text style={styles.gemBonusLarge}>+{pkg.bonus} bonus</Text>}
                   </View>
@@ -227,7 +227,7 @@ export default function MarketScreen() {
                 )}
                 <View style={styles.gemRow}>
                   <View style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
-                    <GemstoneIcon size={34} />
+                    <GemstoneIcon size={42} />
                     <Text style={styles.gemTotal}>{pkg.total}</Text>
                     {pkg.bonus > 0 && <Text style={styles.gemBonusLarge}>+{pkg.bonus} bonus</Text>}
                   </View>
@@ -279,7 +279,7 @@ function TableRow({ label, cost, last }: { label: string; cost: number; last?: b
     <View style={[styles.tableRow, !last && styles.tableRowBorder]}>
       <Text style={styles.tableLabel}>{label}</Text>
       <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
-        <GemstoneIcon size={30} />
+        <GemstoneIcon size={38} />
         <Text style={styles.tableCost}>{cost}</Text>
       </View>
     </View>

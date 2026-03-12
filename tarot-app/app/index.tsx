@@ -664,7 +664,7 @@ export default function WelcomeScreen() {
 
             {/* Gemstone */}
             <View style={[styles.barCell, { gap: 4 }]}>
-              <GemstoneIcon size={30} />
+              <GemstoneIcon size={38} />
               <Text style={styles.barTextGem}>{gemstoneBalance}</Text>
             </View>
 

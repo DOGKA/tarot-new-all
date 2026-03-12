@@ -255,7 +255,7 @@ export default function DreamResultScreen() {
                 ) : (
                   <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
                     <Text style={styles.jpButtonText}>{t("journalPlusSend") || "Gönder"} (</Text>
-                    <GemstoneIcon size={26} />
+                    <GemstoneIcon size={34} />
                     <Text style={styles.jpButtonText}>{prices.JOURNAL_PLUS || 5})</Text>
                   </View>
                 )}
@@ -292,7 +292,7 @@ export default function DreamResultScreen() {
                     <ActivityIndicator color="#38bdf8" size="small" />
                   ) : (
                     <View style={{ flexDirection: "row", alignItems: "center", gap: 3 }}>
-                      <GemstoneIcon size={26} />
+                      <GemstoneIcon size={34} />
                       <Text style={styles.upsellOfferPrice}>{prices.UPSELL_SYMBOL}</Text>
                     </View>
                   )}
@@ -307,7 +307,7 @@ export default function DreamResultScreen() {
           <GlassCard style={[styles.section, styles.candidateSection]}>
             <View style={{ flexDirection: "row", alignItems: "center", gap: 4, marginBottom: 4 }}>
               <Text style={styles.candidateTitle}>Bir sembol seç (</Text>
-              <GemstoneIcon size={26} />
+              <GemstoneIcon size={34} />
               <Text style={styles.candidateTitle}>{prices.UPSELL_SYMBOL})</Text>
             </View>
             {candidates.map((c: any, i: number) => (
@@ -345,7 +345,7 @@ export default function DreamResultScreen() {
               >
                 <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
                   <Text style={styles.ctaText}>+1 Sembol Aç (</Text>
-                  <GemstoneIcon size={26} />
+                  <GemstoneIcon size={34} />
                   <Text style={styles.ctaText}>{prices.UPSELL_SYMBOL})</Text>
                 </View>
               </LinearGradient>
@@ -366,7 +366,7 @@ export default function DreamResultScreen() {
               >
                 <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
                   <Text style={styles.ctaText}>{t("journalPlusCTA") || "Kendime Sordum"} (</Text>
-                  <GemstoneIcon size={26} />
+                  <GemstoneIcon size={34} />
                   <Text style={styles.ctaText}>{prices.JOURNAL_PLUS || 5})</Text>
                 </View>
               </LinearGradient>
@@ -385,7 +385,7 @@ export default function DreamResultScreen() {
                 >
                   <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
                     <Text style={styles.ctaText}>🔮 Deep Decode (</Text>
-                    <GemstoneIcon size={26} />
+                    <GemstoneIcon size={34} />
                     <Text style={styles.ctaText}>{prices.B})</Text>
                   </View>
                 </LinearGradient>
@@ -400,7 +400,7 @@ export default function DreamResultScreen() {
                 >
                   <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
                     <Text style={styles.ctaText}>🗺️ Rewrite Plan (</Text>
-                    <GemstoneIcon size={26} />
+                    <GemstoneIcon size={34} />
                     <Text style={styles.ctaText}>{prices.C})</Text>
                   </View>
                 </LinearGradient>
