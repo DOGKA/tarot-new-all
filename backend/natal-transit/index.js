@@ -173,6 +173,18 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
       const pipeline = getPipeline(periodMonths, validLang);
       const result = await pipeline.generate(timelinePayload, period, periodText, chartPlanets);
 
+      const hasContent = !!(result.overview?.title || result.overview?.summary
+        || (result.phases || []).some((p) => p.interpretation)
+        || (result.themes || []).some((t) => t.interpretation));
+
+      if (!hasContent) {
+        return res.status(502).json({
+          success: false,
+          error: "AI_GENERATION_FAILED",
+          message: "Transit reading generation failed (AI returned empty). No gemstones were charged.",
+        });
+      }
+
       const data = {
         ...result,
         period,
