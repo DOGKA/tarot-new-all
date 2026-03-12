@@ -2,6 +2,7 @@ import React from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { BlurView } from "expo-blur";
+import { useTranslation } from "react-i18next";
 import Planet3D from "../ui/Planet3D";
 import type { V4Payload } from "./types";
 
@@ -17,15 +18,16 @@ const DURATION_CONFIG: Record<string, {
 };
 
 export default function OverviewHero({ data }: { data: V4Payload }) {
+  const { t } = useTranslation();
   const mode = data.periodMode || "monthly";
   const cfg = DURATION_CONFIG[mode] || DURATION_CONFIG.monthly;
-  const dateText = formatHeroDateRange(data.period?.start, data.period?.end);
+  const dateText = formatHeroDateRange(data.period?.start, data.period?.end, t);
 
   const metrics: { value: string; label: string }[] = [];
-  if ((data.phases?.length ?? 0) > 0) metrics.push({ value: String(data.phases.length), label: "faz" });
-  if ((data.themes?.length ?? 0) > 0) metrics.push({ value: String(data.themes.length), label: "tema" });
-  metrics.push({ value: String(data.stats?.rawEventCount || 0), label: "transit" });
-  metrics.push({ value: String(data.months || 0), label: "ay" });
+  if ((data.phases?.length ?? 0) > 0) metrics.push({ value: String(data.phases.length), label: t("transitMetricPhase") });
+  if ((data.themes?.length ?? 0) > 0) metrics.push({ value: String(data.themes.length), label: t("transitMetricTheme") });
+  metrics.push({ value: String(data.stats?.rawEventCount || 0), label: t("transitMetricTransit") });
+  metrics.push({ value: String(data.months || 0), label: t("transitMetricMonth") });
 
   return (
     <View style={s.heroWrapper}>
@@ -46,7 +48,7 @@ export default function OverviewHero({ data }: { data: V4Payload }) {
           <View style={s.topContent}>
             {/* Title */}
             <Text style={s.title} numberOfLines={3}>
-              {data.overview?.title || "Gökyüzü Hikayen"}
+              {data.overview?.title || t("transitHeroFallback")}
             </Text>
 
             {!!dateText && (
@@ -81,33 +83,25 @@ export default function OverviewHero({ data }: { data: V4Payload }) {
   );
 }
 
-function formatHeroDateRange(start?: string, end?: string) {
+const MONTH_FULL_KEYS = [
+  "transitMonthFullJan", "transitMonthFullFeb", "transitMonthFullMar", "transitMonthFullApr", "transitMonthFullMay", "transitMonthFullJun",
+  "transitMonthFullJul", "transitMonthFullAug", "transitMonthFullSep", "transitMonthFullOct", "transitMonthFullNov", "transitMonthFullDec",
+];
+
+function formatHeroDateRange(start?: string, end?: string, t?: (key: string) => string) {
   if (!start || !end) return "";
 
   const [startYear, startMonth, startDay] = start.split("-").map(Number);
   const [endYear, endMonth, endDay] = end.split("-").map(Number);
   if (!startYear || !startMonth || !startDay || !endYear || !endMonth || !endDay) return "";
 
-  const months = [
-    "OCAK",
-    "ŞUBAT",
-    "MART",
-    "NİSAN",
-    "MAYIS",
-    "HAZİRAN",
-    "TEMMUZ",
-    "AĞUSTOS",
-    "EYLÜL",
-    "EKİM",
-    "KASIM",
-    "ARALIK",
-  ];
+  const getMonth = (idx: number) => t ? t(MONTH_FULL_KEYS[idx]).toUpperCase() : MONTH_FULL_KEYS[idx];
 
   if (startYear === endYear) {
-    return `${startDay} ${months[startMonth - 1]} - ${endDay} ${months[endMonth - 1]} ${startYear}`;
+    return `${startDay} ${getMonth(startMonth - 1)} - ${endDay} ${getMonth(endMonth - 1)} ${startYear}`;
   }
 
-  return `${startDay} ${months[startMonth - 1]} ${startYear} - ${endDay} ${months[endMonth - 1]} ${endYear}`;
+  return `${startDay} ${getMonth(startMonth - 1)} ${startYear} - ${endDay} ${getMonth(endMonth - 1)} ${endYear}`;
 }
 
 const s = StyleSheet.create({

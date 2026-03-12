@@ -8,7 +8,8 @@ import Svg, {
   Stop,
   Text as SvgText,
 } from "react-native-svg";
-import { THEME_ICONS } from "./constants";
+import { useTranslation } from "react-i18next";
+import { THEME_ICON_KEYS, THEME_I18N_KEYS } from "./constants";
 import type { TransitTheme } from "./types";
 import ThemeDetailSheet from "./ThemeDetailSheet";
 
@@ -133,6 +134,7 @@ export default function ThemeConstellation({
 }: {
   themes: TransitTheme[];
 }) {
+  const { t } = useTranslation();
   const [selectedTheme, setSelectedTheme] = useState<TransitTheme | null>(null);
 
   const sorted = useMemo(
@@ -218,7 +220,7 @@ export default function ThemeConstellation({
               fill="rgba(255,255,255,0.88)"
               letterSpacing={0.5}
             >
-              {THEME_ICONS[n.theme.theme] || n.theme.label}
+              {THEME_I18N_KEYS[n.theme.theme] ? t(THEME_I18N_KEYS[n.theme.theme]) : n.theme.label}
             </SvgText>
           </React.Fragment>
         ))}

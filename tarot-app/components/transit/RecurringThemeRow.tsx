@@ -1,12 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { THEME_ICONS, PHASE_DOT_COLORS } from "./constants";
+import { useTranslation } from "react-i18next";
+import { THEME_ICON_KEYS, PHASE_DOT_COLORS } from "./constants";
 import type { RecurringTheme } from "./types";
 
 export default function RecurringThemeRow({ rt }: { rt: RecurringTheme }) {
+  const { t } = useTranslation();
   return (
     <View style={s.row}>
-      <View style={s.icon}><Text style={s.iconText}>{THEME_ICONS[rt.theme] || rt.theme}</Text></View>
+      <View style={s.icon}><Text style={s.iconText}>{THEME_ICON_KEYS[rt.theme] ? t(THEME_ICON_KEYS[rt.theme]) : rt.theme}</Text></View>
       <View style={{ flex: 1 }}>
         <Text style={s.label}>{rt.label}</Text>
         <View style={s.dotsRow}>
@@ -16,7 +18,7 @@ export default function RecurringThemeRow({ rt }: { rt: RecurringTheme }) {
             return <View key={p} style={[s.phaseDot, { backgroundColor: dotColor }]} />;
           })}
           <Text style={s.phaseText}>
-            Faz {(rt.phases || []).map((p: string) => p.replace("phase_", "")).join(", ")}
+            {t("transitPhaseLabel")} {(rt.phases || []).map((p: string) => p.replace("phase_", "")).join(", ")}
           </Text>
         </View>
         {(rt.description ?? "") !== "" && <Text style={s.description}>{rt.description}</Text>}

@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { PHASE_GRADIENTS, THEME_ICONS } from "./constants";
+import { PHASE_GRADIENTS, THEME_ICON_KEYS } from "./constants";
 import type { Phase } from "./types";
 
 export default function PhaseCard({

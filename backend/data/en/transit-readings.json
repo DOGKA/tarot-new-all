@@ -1,1 +1,2662 @@
-{"readings":{}}
+{
+  "readings": {
+    "dev_1772623594408_gro4e2o2:3:en:v4:e091e63801": {
+      "createdAt": "2026-03-12T11:31:16.075Z",
+      "months": 3,
+      "lang": "en",
+      "locationsHash": "e091e63801",
+      "locations": [
+        {
+          "city": "Istanbul",
+          "latitude": 41.0082,
+          "longitude": 28.9784,
+          "utcOffset": 3,
+          "timezone": "Europe/Istanbul",
+          "startDate": "2026-03-12",
+          "endDate": "2026-06-12"
+        }
+      ],
+      "gemCost": 75,
+      "data": {
+        "formatVersion": 4,
+        "periodMode": "quarterly",
+        "period": {
+          "start": "2026-03-12",
+          "end": "2026-06-12"
+        },
+        "months": 3,
+        "overview": {
+          "title": "Balancing Act: Navigating Transformative Tides",
+          "summary": "The next three months demand a keen sense of balance as both opportunities and challenges arise. You'll find yourself at the intersection of growth and introspection, with significant focus on your career path and personal relationships. Key decisions around mid-April could set the tone for the rest of the year, while financial insights might inspire new strategies. Overall, this period encourages a blend of ambition and reflection."
+        },
+        "phases": [],
+        "themes": [
+          {
+            "id": "general_transit",
+            "theme": "general_transit",
+            "label": "Genel Etkiler",
+            "tier": "critical",
+            "maxScore": 100,
+            "window": "2026-03-12 – 2026-06-12",
+            "title": "Winds of Change",
+            "summary": "Complex energies are at play, driving you to rethink foundations and embrace transformation.",
+            "interpretation": "As Saturn forms a sextile with Pluto, you're urged to delve deeply into personal and structural transformations. This aspect suggests a subtle yet profound shift in how you view authority and control. You might find yourself revisiting past decisions, considering new strategies that build upon your existing foundations. This is an excellent time to let go of outdated beliefs and make room for more empowering ones.\n\nMeanwhile, Venus in opposition to your natal Venus early in this period may lead to a reevaluation of your values and desires. Relationships are highlighted, perhaps prompting you to reconsider what you truly need from others. Whether it's a heart-to-heart talk with a partner or a decision to pursue a new passion, this is your chance to create harmony between your inner and outer worlds.\n\nLastly, the dynamic Mars trine to your Ascendant brings a burst of energy and confidence. It’s a phase where taking initiative can lead to rewarding outcomes. Whether you’re starting a new project or simply asserting yourself more in daily life, this aspect supports dynamic and enthusiastic action. Trust your instincts, and don’t shy away from taking the lead.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_saturn_pluto_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "saturn",
+                "natalPlanet": "pluto",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 46,
+                "title": "Saturn Sekstil Pluton",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_venus_opposition_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "venus",
+                "aspect": "opposition",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 55,
+                "title": "Venus Karsit Venus",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_mars_asc_trine_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "mars",
+                "natalPlanet": "asc",
+                "aspect": "trine",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 59,
+                "title": "Mars Ucgen Yukselen",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_saturn_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "uranus",
+                "natalPlanet": "saturn",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-24",
+                "exactDate": "2026-03-12",
+                "score": 46,
+                "title": "Uranus Sekstil Saturn",
+                "rangeText": "2026-03-12 - 2026-03-24 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_uranus_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "neptune",
+                "natalPlanet": "uranus",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-14",
+                "exactDate": "2026-03-12",
+                "score": 52,
+                "title": "Neptun Sekstil Uranus",
+                "rangeText": "2026-03-12 - 2026-04-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_neptune_conjunction_2026-03-12",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "neptune",
+                "natalPlanet": "neptune",
+                "aspect": "conjunction",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-24",
+                "exactDate": "2026-03-12",
+                "score": 64,
+                "title": "Neptun Kavusum Neptun",
+                "rangeText": "2026-03-12 - 2026-04-24 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_pluto_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "neptune",
+                "natalPlanet": "pluto",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-05-04",
+                "exactDate": "2026-03-12",
+                "score": 56,
+                "title": "Neptun Sekstil Pluton",
+                "rangeText": "2026-03-12 - 2026-05-04 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_uranus_conjunction_2026-03-12",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "uranus",
+                "natalPlanet": "uranus",
+                "aspect": "conjunction",
+                "startDate": "2026-03-12",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-05-08",
+                "score": 71,
+                "title": "Uranus Kavusum Uranus",
+                "rangeText": "2026-03-12 - 2026-06-12 arasi (doruk: 2026-05-08)"
+              }
+            ]
+          },
+          {
+            "id": "career_direction",
+            "theme": "career_direction",
+            "label": "Kariyer ve Yon",
+            "tier": "critical",
+            "maxScore": 100,
+            "window": "2026-03-19 – 2026-06-12",
+            "title": "Defining Your Path",
+            "summary": "Career matters take the spotlight, with increased motivation and strategic communication paving the way.",
+            "interpretation": "As Mars aligns with your Midheaven, there’s a powerful urge to push forward in your career. This conjunction gives you the drive to initiate new projects or even seek a leadership role. If you've been thinking about asking for a raise or considering a job change, the energy around March 22 is particularly supportive. Your assertiveness will be well-received, and your ambitions may finally find the right outlet.\n\nWith Mercury joining the scene later in the month, communication becomes key. It’s a time to articulate your goals clearly and negotiate terms that align with your ambitions. Perhaps a meeting with your supervisor will reveal new opportunities, or a chance to present your ideas to a wider audience could come up. Use this period to network and cement your professional relationships.\n\nVenus adds a touch of harmony as it forms a sextile to your Midheaven in April, smoothing over any rough edges in your career dealings. This is a good period to focus on projects that require creativity or diplomacy. However, be mindful of the square Venus makes in May, which might bring some tension or challenges. Approach conflicts with grace, and you may find that even obstacles can be turned to your advantage.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_mars_mc_conjunction_2026-03-19",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "mars",
+                "natalPlanet": "mc",
+                "aspect": "conjunction",
+                "startDate": "2026-03-19",
+                "endDate": "2026-03-25",
+                "exactDate": "2026-03-22",
+                "score": 73,
+                "title": "Mars Kavusum MC",
+                "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
+              },
+              {
+                "id": "tr_mercury_mc_conjunction_2026-03-31",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "mercury",
+                "natalPlanet": "mc",
+                "aspect": "conjunction",
+                "startDate": "2026-03-31",
+                "endDate": "2026-04-05",
+                "exactDate": "2026-04-03",
+                "score": 63,
+                "title": "Merkur Kavusum MC",
+                "rangeText": "2026-03-31 - 2026-04-05 arasi (doruk: 2026-04-03)"
+              },
+              {
+                "id": "tr_venus_mc_sextile_2026-04-11",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "mc",
+                "aspect": "sextile",
+                "startDate": "2026-04-11",
+                "endDate": "2026-04-13",
+                "exactDate": "2026-04-12",
+                "score": 50,
+                "title": "Venus Sekstil MC",
+                "rangeText": "2026-04-11 - 2026-04-13 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_venus_mc_square_2026-05-05",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "mc",
+                "aspect": "square",
+                "startDate": "2026-05-05",
+                "endDate": "2026-05-08",
+                "exactDate": "2026-05-07",
+                "score": 60,
+                "title": "Venus Kare MC",
+                "rangeText": "2026-05-05 - 2026-05-08 arasi (doruk: 2026-05-07)"
+              },
+              {
+                "id": "tr_mercury_mc_sextile_2026-05-10",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "mercury",
+                "natalPlanet": "mc",
+                "aspect": "sextile",
+                "startDate": "2026-05-10",
+                "endDate": "2026-05-11",
+                "exactDate": "2026-05-10",
+                "score": 44,
+                "title": "Merkur Sekstil MC",
+                "rangeText": "2026-05-10 - 2026-05-11 arasi (doruk: 2026-05-10)"
+              },
+              {
+                "id": "tr_mercury_mc_square_2026-05-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "mercury",
+                "natalPlanet": "mc",
+                "aspect": "square",
+                "startDate": "2026-05-24",
+                "endDate": "2026-05-25",
+                "exactDate": "2026-05-24",
+                "score": 54,
+                "title": "Merkur Kare MC",
+                "rangeText": "2026-05-24 - 2026-05-25 arasi (doruk: 2026-05-24)"
+              },
+              {
+                "id": "tr_venus_mc_trine_2026-05-30",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "mc",
+                "aspect": "trine",
+                "startDate": "2026-05-30",
+                "endDate": "2026-06-02",
+                "exactDate": "2026-06-01",
+                "score": 55,
+                "title": "Venus Ucgen MC",
+                "rangeText": "2026-05-30 - 2026-06-02 arasi (doruk: 2026-06-01)"
+              },
+              {
+                "id": "tr_jupiter_sun_square_2026-06-02",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "sun",
+                "aspect": "square",
+                "startDate": "2026-06-02",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-06-12",
+                "score": 73,
+                "title": "Jupiter Kare Gunes",
+                "rangeText": "2026-06-02 - 2026-06-12 arasi (doruk: 2026-06-12)"
+              }
+            ]
+          },
+          {
+            "id": "structural_pressure",
+            "theme": "structural_pressure",
+            "label": "Yapisal Baski",
+            "tier": "critical",
+            "maxScore": 95,
+            "window": "2026-03-24 – 2026-05-14",
+            "title": "Testing Boundaries",
+            "summary": "Saturn's influence asks you to confront limitations, bringing valuable lessons.",
+            "interpretation": "This period marks a time of significant structural pressure as Saturn squares your Ascendant. You might encounter situations that test your patience and resilience, especially in personal identity and self-expression. Expect challenges that require you to redefine your boundaries, but remember, these are opportunities for growth even if they feel cumbersome at the moment.\n\nFurther intensifying this theme, Saturn’s opposition to your Moon may bring emotional realities to the forefront. You might feel a push-pull between personal needs and external demands, particularly from family or close relationships. This could be a time of deep introspection, where understanding your emotional motivations becomes crucial. Addressing these inner dialogues can lead to more authentic connections with those around you.\n\nThe overarching lesson here is about balance and endurance. It might be helpful to establish a daily routine that keeps you grounded. Consider journaling or talking with a mentor to navigate these internal struggles. Even if the journey feels uphill, the discipline you cultivate now will serve you well in the future.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_saturn_asc_square_2026-03-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "asc",
+                "aspect": "square",
+                "startDate": "2026-03-24",
+                "endDate": "2026-05-04",
+                "exactDate": "2026-04-13",
+                "score": 84,
+                "title": "Saturn Kare Yukselen",
+                "rangeText": "2026-03-24 - 2026-05-04 arasi (doruk: 2026-04-13)"
+              },
+              {
+                "id": "tr_saturn_moon_opposition_2026-03-25",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "moon",
+                "aspect": "opposition",
+                "startDate": "2026-03-25",
+                "endDate": "2026-05-14",
+                "exactDate": "2026-04-17",
+                "score": 84,
+                "title": "Saturn Karsit Ay",
+                "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
+              }
+            ]
+          },
+          {
+            "id": "money_resources",
+            "theme": "money_resources",
+            "label": "Para ve Kaynaklar",
+            "tier": "critical",
+            "maxScore": 94,
+            "window": "2026-03-13 – 2026-06-12",
+            "title": "Wealth and Worth",
+            "summary": "Financial adjustments and resource management are in focus, inviting strategic decisions.",
+            "interpretation": "With Pluto trine Venus, you have the chance to make profound changes in how you handle money and resources. This aspect supports strategic investments and could bring unexpected gains through inheritance or wise financial planning. Take time to review your budget and consider long-term strategies that align with your values.\n\nHowever, the opposition of Saturn to Venus warns of potential financial constraints or reassessment of your spending habits. It's crucial to distinguish between needs and wants during this time. An unexpected bill might prompt you to re-evaluate how you allocate your resources. Use this as an opportunity to streamline your expenses and focus on what truly matters.\n\nWhile this period might bring financial challenges, it also offers a chance to foster stability. Consider consulting with a financial advisor or taking a course to enhance your understanding of wealth management. The insights you gain can lay the foundation for lasting prosperity.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_pluto_venus_trine_2026-03-13",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "pluto",
+                "natalPlanet": "venus",
+                "aspect": "trine",
+                "startDate": "2026-03-13",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-05-02",
+                "score": 67,
+                "title": "Pluton Ucgen Venus",
+                "rangeText": "2026-03-13 - 2026-06-12 arasi (doruk: 2026-05-02)"
+              },
+              {
+                "id": "tr_saturn_venus_opposition_2026-03-22",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "venus",
+                "aspect": "opposition",
+                "startDate": "2026-03-22",
+                "endDate": "2026-05-11",
+                "exactDate": "2026-04-15",
+                "score": 79,
+                "title": "Saturn Karsit Venus",
+                "rangeText": "2026-03-22 - 2026-05-11 arasi (doruk: 2026-04-15)"
+              }
+            ]
+          },
+          {
+            "id": "relationship_values",
+            "theme": "relationship_values",
+            "label": "Iliskiler ve Degerler",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-03-12 – 2026-06-12",
+            "title": "Heartfelt Dynamics",
+            "summary": "Relationships undergo a transformation, urging deeper understanding and connection.",
+            "interpretation": "Venus's square to your Ascendant at the start of this period might bring some tension in relationships, perhaps highlighting differences that have been simmering beneath the surface. This is a time to address any imbalances and find common ground. Open dialogue and empathy are your allies right now.\n\nThe opposition of Venus to your Moon soon after suggests that emotions will run high. You may find yourself more sensitive to others' needs, which can either deepen your bonds or lead to misunderstandings if not communicated effectively. Reflecting on what you and those around you value most can help clarify any confusion.\n\nPluto's trine to your Moon later in the period marks a significant transformation in how you perceive your emotional world. Relationships that have been challenging may undergo a healing process, allowing for deeper connections. Use this energy to strengthen bonds, focus on mutual growth, and embrace the changes that enhance your sense of community and belonging.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_venus_asc_square_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "asc",
+                "aspect": "square",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-13",
+                "exactDate": "2026-03-12",
+                "score": 60,
+                "title": "Venus Kare Yukselen",
+                "rangeText": "2026-03-12 - 2026-03-13 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_moon_opposition_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "moon",
+                "aspect": "opposition",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 60,
+                "title": "Venus Karsit Ay",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_jupiter_square_2026-03-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "jupiter",
+                "aspect": "square",
+                "startDate": "2026-03-24",
+                "endDate": "2026-03-27",
+                "exactDate": "2026-03-26",
+                "score": 45,
+                "title": "Venus Kare Jupiter",
+                "rangeText": "2026-03-24 - 2026-03-27 arasi (doruk: 2026-03-26)"
+              },
+              {
+                "id": "tr_venus_sun_opposition_2026-03-26",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "sun",
+                "aspect": "opposition",
+                "startDate": "2026-03-26",
+                "endDate": "2026-03-30",
+                "exactDate": "2026-03-28",
+                "score": 56,
+                "title": "Venus Karsit Gunes",
+                "rangeText": "2026-03-26 - 2026-03-30 arasi (doruk: 2026-03-28)"
+              },
+              {
+                "id": "tr_pluto_moon_trine_2026-03-26",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "pluto",
+                "natalPlanet": "moon",
+                "aspect": "trine",
+                "startDate": "2026-03-26",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-05-02",
+                "score": 69,
+                "title": "Pluton Ucgen Ay",
+                "rangeText": "2026-03-26 - 2026-06-12 arasi (doruk: 2026-05-02)"
+              },
+              {
+                "id": "tr_venus_pluto_square_2026-03-30",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "pluto",
+                "aspect": "square",
+                "startDate": "2026-03-30",
+                "endDate": "2026-04-02",
+                "exactDate": "2026-03-31",
+                "score": 45,
+                "title": "Venus Kare Pluton",
+                "rangeText": "2026-03-30 - 2026-04-02 arasi (doruk: 2026-03-31)"
+              },
+              {
+                "id": "tr_venus_mercury_opposition_2026-04-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "mercury",
+                "aspect": "opposition",
+                "startDate": "2026-04-12",
+                "endDate": "2026-04-16",
+                "exactDate": "2026-04-14",
+                "score": 55,
+                "title": "Venus Karsit Merkur",
+                "rangeText": "2026-04-12 - 2026-04-16 arasi (doruk: 2026-04-14)"
+              },
+              {
+                "id": "tr_venus_mars_opposition_2026-04-13",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "mars",
+                "aspect": "opposition",
+                "startDate": "2026-04-13",
+                "endDate": "2026-04-17",
+                "exactDate": "2026-04-15",
+                "score": 55,
+                "title": "Venus Karsit Mars",
+                "rangeText": "2026-04-13 - 2026-04-17 arasi (doruk: 2026-04-15)"
+              }
+            ]
+          },
+          {
+            "id": "growth_opportunity",
+            "theme": "growth_opportunity",
+            "label": "Buyume Firsati",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-04-04 – 2026-06-12",
+            "title": "Expanding Horizons",
+            "summary": "Opportunities for personal and intellectual growth abound, urging you to embrace new experiences.",
+            "interpretation": "With Venus sextile your Ascendant, early April presents a delightful chance to expand your social circle and embrace new experiences. Whether it's through a creative project or a new hobby, this period encourages you to step out of your comfort zone and explore what brings you joy.\n\nJupiter's trine to Mercury later on suggests a time of mental expansion and learning. If you've been considering taking a course or embarking on a new study, this is a highly favorable period. Ideas flow easily, and you may find yourself inspired by new philosophies or perspectives. Engage in conversations that challenge your thinking and broaden your horizons.\n\nAs Jupiter trines Mars, your confidence and enthusiasm are supercharged. This aspect supports taking action on long-held dreams, particularly those requiring courage and initiative. Whether it's traveling to a new destination or starting a business venture, the cosmos encourages you to reach for the stars. Trust in your ability to grow and adapt to whatever comes your way.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_venus_asc_sextile_2026-04-04",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "asc",
+                "aspect": "sextile",
+                "startDate": "2026-04-04",
+                "endDate": "2026-04-06",
+                "exactDate": "2026-04-05",
+                "score": 50,
+                "title": "Venus Sekstil Yukselen",
+                "rangeText": "2026-04-04 - 2026-04-06 arasi (doruk: 2026-04-05)"
+              },
+              {
+                "id": "tr_jupiter_mercury_trine_2026-04-05",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "mercury",
+                "aspect": "trine",
+                "startDate": "2026-04-05",
+                "endDate": "2026-05-14",
+                "exactDate": "2026-04-28",
+                "score": 66,
+                "title": "Jupiter Ucgen Merkur",
+                "rangeText": "2026-04-05 - 2026-05-14 arasi (doruk: 2026-04-28)"
+              },
+              {
+                "id": "tr_jupiter_mars_trine_2026-04-09",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "mars",
+                "aspect": "trine",
+                "startDate": "2026-04-09",
+                "endDate": "2026-05-16",
+                "exactDate": "2026-04-30",
+                "score": 66,
+                "title": "Jupiter Ucgen Mars",
+                "rangeText": "2026-04-09 - 2026-05-16 arasi (doruk: 2026-04-30)"
+              },
+              {
+                "id": "tr_venus_venus_trine_2026-04-28",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "venus",
+                "aspect": "trine",
+                "startDate": "2026-04-28",
+                "endDate": "2026-05-01",
+                "exactDate": "2026-04-30",
+                "score": 48,
+                "title": "Venus Ucgen Venus",
+                "rangeText": "2026-04-28 - 2026-05-01 arasi (doruk: 2026-04-30)"
+              },
+              {
+                "id": "tr_venus_moon_trine_2026-04-28",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "moon",
+                "aspect": "trine",
+                "startDate": "2026-04-28",
+                "endDate": "2026-05-02",
+                "exactDate": "2026-04-30",
+                "score": 53,
+                "title": "Venus Ucgen Ay",
+                "rangeText": "2026-04-28 - 2026-05-02 arasi (doruk: 2026-04-30)"
+              },
+              {
+                "id": "tr_venus_sun_trine_2026-05-14",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "sun",
+                "aspect": "trine",
+                "startDate": "2026-05-14",
+                "endDate": "2026-05-17",
+                "exactDate": "2026-05-16",
+                "score": 53,
+                "title": "Venus Ucgen Gunes",
+                "rangeText": "2026-05-14 - 2026-05-17 arasi (doruk: 2026-05-16)"
+              },
+              {
+                "id": "tr_jupiter_jupiter_conjunction_2026-05-17",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "jupiter",
+                "aspect": "conjunction",
+                "startDate": "2026-05-17",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-06-02",
+                "score": 69,
+                "title": "Jupiter Kavusum Jupiter",
+                "rangeText": "2026-05-17 - 2026-06-12 arasi (doruk: 2026-06-02)"
+              },
+              {
+                "id": "tr_jupiter_saturn_trine_2026-06-01",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "saturn",
+                "aspect": "trine",
+                "startDate": "2026-06-01",
+                "endDate": "2026-06-12",
+                "exactDate": "2026-06-12",
+                "score": 56,
+                "title": "Jupiter Ucgen Saturn",
+                "rangeText": "2026-06-01 - 2026-06-12 arasi (doruk: 2026-06-12)"
+              }
+            ]
+          }
+        ],
+        "retrogradeWindows": [
+          {
+            "planet": "pluto",
+            "planetLabel": "Plüton",
+            "startDate": "2026-05-07",
+            "endDate": "2026-06-12",
+            "baseInterpretation": "Bırakman gereken eski kalıplar, bastırdığın duygular ve tamamlanmamış dönüşümler yüzeye çıkıyor. Natal Plüton'ün Kova burcunda — dönüşüm ve güç dinamiklerin özellikle etkileniyor.",
+            "personalNote": "",
+            "affectedThemes": [
+              "dönüşüm",
+              "güç",
+              "kontrol"
+            ],
+            "priority": "high"
+          }
+        ],
+        "milestones": [
+          {
+            "title": "Career Catalyst",
+            "window": "2026-03-19 – 2026-03-25",
+            "description": "A defining moment for professional growth and leadership opportunities."
+          },
+          {
+            "title": "Emotional Evolution",
+            "window": "2026-03-26 – 2026-06-12",
+            "description": "Relationships and personal values take center stage, prompting deeper connections."
+          },
+          {
+            "title": "Transformative Insights",
+            "window": "2026-05-07 – 2026-06-12",
+            "description": "A period of profound reflection leading to meaningful change in life direction."
+          }
+        ],
+        "recurringThemes": [],
+        "focusAreas": {
+          "career": "",
+          "relationships": "",
+          "innerLife": "",
+          "growth": "",
+          "health": ""
+        },
+        "detailedDrivers": [],
+        "background": [
+          {
+            "id": "tr_mercury_asc_trine_2026-03-16",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "mercury",
+            "natalPlanet": "asc",
+            "aspect": "trine",
+            "startDate": "2026-03-16",
+            "endDate": "2026-03-25",
+            "exactDate": "2026-03-20",
+            "score": 49,
+            "title": "Merkur Ucgen Yukselen",
+            "rangeText": "2026-03-16 - 2026-03-25 arasi (doruk: 2026-03-20)"
+          },
+          {
+            "id": "tr_mars_jupiter_trine_2026-03-30",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "mars",
+            "natalPlanet": "jupiter",
+            "aspect": "trine",
+            "startDate": "2026-03-30",
+            "endDate": "2026-04-05",
+            "exactDate": "2026-04-02",
+            "score": 48,
+            "title": "Mars Ucgen Jupiter",
+            "rangeText": "2026-03-30 - 2026-04-05 arasi (doruk: 2026-04-02)"
+          },
+          {
+            "id": "tr_venus_venus_trine_2026-04-28",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "venus",
+            "natalPlanet": "venus",
+            "aspect": "trine",
+            "startDate": "2026-04-28",
+            "endDate": "2026-05-01",
+            "exactDate": "2026-04-30",
+            "score": 48,
+            "title": "Venus Ucgen Venus",
+            "rangeText": "2026-04-28 - 2026-05-01 arasi (doruk: 2026-04-30)"
+          },
+          {
+            "id": "tr_venus_mercury_trine_2026-06-02",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "venus",
+            "natalPlanet": "mercury",
+            "aspect": "trine",
+            "startDate": "2026-06-02",
+            "endDate": "2026-06-05",
+            "exactDate": "2026-06-03",
+            "score": 48,
+            "title": "Venus Ucgen Merkur",
+            "rangeText": "2026-06-02 - 2026-06-05 arasi (doruk: 2026-06-03)"
+          },
+          {
+            "id": "tr_mercury_saturn_conjunction_2026-04-10",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "mercury",
+            "natalPlanet": "saturn",
+            "aspect": "conjunction",
+            "startDate": "2026-04-10",
+            "endDate": "2026-04-14",
+            "exactDate": "2026-04-12",
+            "score": 48,
+            "title": "Merkur Kavusum Saturn",
+            "rangeText": "2026-04-10 - 2026-04-14 arasi (doruk: 2026-04-12)"
+          },
+          {
+            "id": "tr_mercury_neptune_conjunction_2026-04-13",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "mercury",
+            "natalPlanet": "neptune",
+            "aspect": "conjunction",
+            "startDate": "2026-04-13",
+            "endDate": "2026-04-16",
+            "exactDate": "2026-04-15",
+            "score": 48,
+            "title": "Merkur Kavusum Neptun",
+            "rangeText": "2026-04-13 - 2026-04-16 arasi (doruk: 2026-04-15)"
+          },
+          {
+            "id": "tr_saturn_pluto_sextile_2026-03-12",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "saturn",
+            "natalPlanet": "pluto",
+            "aspect": "sextile",
+            "startDate": "2026-03-12",
+            "endDate": "2026-03-14",
+            "exactDate": "2026-03-12",
+            "score": 46,
+            "title": "Saturn Sekstil Pluton",
+            "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+          },
+          {
+            "id": "tr_uranus_saturn_sextile_2026-03-12",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "uranus",
+            "natalPlanet": "saturn",
+            "aspect": "sextile",
+            "startDate": "2026-03-12",
+            "endDate": "2026-03-24",
+            "exactDate": "2026-03-12",
+            "score": 46,
+            "title": "Uranus Sekstil Saturn",
+            "rangeText": "2026-03-12 - 2026-03-24 arasi (doruk: 2026-03-12)"
+          }
+        ],
+        "stats": {
+          "rawEventCount": 107,
+          "filteredEventCount": 107,
+          "clusterCount": 11,
+          "phaseCount": 0,
+          "retrogradeCount": 1,
+          "aiCallCount": 1,
+          "aiCallBFailed": false,
+          "pipelineMs": 23993
+        },
+        "locationsUsed": [
+          {
+            "city": "Istanbul",
+            "latitude": 41.0082,
+            "longitude": 28.9784,
+            "utcOffset": 3,
+            "timezone": "Europe/Istanbul",
+            "startDate": "2026-03-12",
+            "endDate": "2026-06-12"
+          }
+        ]
+      }
+    },
+    "dev_1772623594408_gro4e2o2:1:en:v4:edd0c48ef2": {
+      "createdAt": "2026-03-12T11:38:51.568Z",
+      "months": 1,
+      "lang": "en",
+      "locationsHash": "edd0c48ef2",
+      "locations": [
+        {
+          "city": "Istanbul",
+          "latitude": 41.0082,
+          "longitude": 28.9784,
+          "utcOffset": 3,
+          "timezone": "Europe/Istanbul",
+          "startDate": "2026-03-12",
+          "endDate": "2026-04-12"
+        }
+      ],
+      "gemCost": 50,
+      "data": {
+        "formatVersion": 4,
+        "periodMode": "monthly",
+        "period": {
+          "start": "2026-03-12",
+          "end": "2026-04-12"
+        },
+        "months": 1,
+        "overview": {
+          "title": "A Dance of Wealth and Responsibility",
+          "summary": "Your financial landscape is being reshaped as power and restraint come into play. The month brings opportunities for growth but demands careful management."
+        },
+        "phases": [],
+        "themes": [
+          {
+            "id": "money_resources",
+            "theme": "money_resources",
+            "label": "Para ve Kaynaklar",
+            "tier": "critical",
+            "maxScore": 94,
+            "window": "2026-03-13 – 2026-04-12",
+            "title": "A Dance of Wealth and Responsibility",
+            "summary": "Your financial landscape is being reshaped as power and restraint come into play. The month brings opportunities for growth but demands careful management.",
+            "interpretation": "Starting on March 13, Pluto's trine to Venus suggests a transformative period for your financial resources. This is a time to consider investments or perhaps a side hustle that aligns with your passions. As you move through these weeks, you might find yourself drawn to art, beauty, or even a luxury purchase that seems to call your name. Yet, with Saturn opposing Venus from March 22 onward, it's important to stay grounded. There could be a temptation to overextend financially. Perhaps an unexpected bill or financial responsibility reminds you of the importance of balance.\n\nAround the start of April, the tension between indulgence and responsibility peaks. If you're considering a significant purchase, like a new car or a major renovation project, weigh your options carefully. This isn't to say you shouldn't proceed, but be sure you've got a plan that accommodates both immediate desires and long-term goals. A conversation with a financial advisor or a trusted friend could provide clarity and reassurance.\n\nBy the exact date of April 12, when these energies culminate, reflecting on the balance between what you want and what you need will be crucial. You might feel the pressure of a financial commitment, perhaps a loan or investment maturing, but remember that prudent choices now can enhance stability in the future. It's a dance of ambition and caution, and you're learning the steps.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_pluto_venus_trine_2026-03-13",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "pluto",
+                "natalPlanet": "venus",
+                "aspect": "trine",
+                "startDate": "2026-03-13",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 67,
+                "title": "Pluton Ucgen Venus",
+                "rangeText": "2026-03-13 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_saturn_venus_opposition_2026-03-22",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "venus",
+                "aspect": "opposition",
+                "startDate": "2026-03-22",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 79,
+                "title": "Saturn Karsit Venus",
+                "rangeText": "2026-03-22 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              }
+            ]
+          },
+          {
+            "id": "relationship_values",
+            "theme": "relationship_values",
+            "label": "Iliskiler ve Degerler",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-03-12 – 2026-04-12",
+            "title": "Navigating the Heart's Crossroads",
+            "summary": "Relationships may feel like a rollercoaster, stirring emotions and testing values. Connections undergo shifts, and clarity emerges from introspection.",
+            "interpretation": "As soon as March 12 arrives, Venus squares your Ascendant and opposes your Moon, stirring emotions and potentially creating friction in your closest relationships. This might manifest as a disagreement with a partner or a friend, where both parties need to express their needs. A misunderstanding could arise from a simple text or email, highlighting the importance of clear communication.\n\nMid-March to late March brings further challenges as Venus squares Jupiter and opposes the Sun. This period can amplify desires and expectations, leading to potential clashes over differing values or priorities. You might find yourself questioning a relationship's direction or the compatibility of your goals with a loved one. A weekend getaway or a deep conversation over dinner could help realign these differences and bring mutual understanding.\n\nBy the end of the period, with Pluto trine the Moon, there's a powerful opportunity for emotional transformation. If you've been holding back feelings or avoiding difficult conversations, now is the time to address them. This transit supports letting go of past grievances and embracing a deeper emotional bond. You'll find that honesty and vulnerability can transform relationships into something more meaningful and resilient.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_venus_asc_square_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "asc",
+                "aspect": "square",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-13",
+                "exactDate": "2026-03-12",
+                "score": 60,
+                "title": "Venus Kare Yukselen",
+                "rangeText": "2026-03-12 - 2026-03-13 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_moon_opposition_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "moon",
+                "aspect": "opposition",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 60,
+                "title": "Venus Karsit Ay",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_jupiter_square_2026-03-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "jupiter",
+                "aspect": "square",
+                "startDate": "2026-03-24",
+                "endDate": "2026-03-27",
+                "exactDate": "2026-03-26",
+                "score": 45,
+                "title": "Venus Kare Jupiter",
+                "rangeText": "2026-03-24 - 2026-03-27 arasi (doruk: 2026-03-26)"
+              },
+              {
+                "id": "tr_venus_sun_opposition_2026-03-26",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "sun",
+                "aspect": "opposition",
+                "startDate": "2026-03-26",
+                "endDate": "2026-03-30",
+                "exactDate": "2026-03-28",
+                "score": 56,
+                "title": "Venus Karsit Gunes",
+                "rangeText": "2026-03-26 - 2026-03-30 arasi (doruk: 2026-03-28)"
+              },
+              {
+                "id": "tr_pluto_moon_trine_2026-03-26",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "pluto",
+                "natalPlanet": "moon",
+                "aspect": "trine",
+                "startDate": "2026-03-26",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 69,
+                "title": "Pluton Ucgen Ay",
+                "rangeText": "2026-03-26 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_venus_pluto_square_2026-03-30",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "pluto",
+                "aspect": "square",
+                "startDate": "2026-03-30",
+                "endDate": "2026-04-02",
+                "exactDate": "2026-03-31",
+                "score": 45,
+                "title": "Venus Kare Pluton",
+                "rangeText": "2026-03-30 - 2026-04-02 arasi (doruk: 2026-03-31)"
+              },
+              {
+                "id": "tr_venus_mercury_opposition_2026-04-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "mercury",
+                "aspect": "opposition",
+                "startDate": "2026-04-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 45,
+                "title": "Venus Karsit Merkur",
+                "rangeText": "2026-04-12 (doruk: 2026-04-12)"
+              }
+            ]
+          },
+          {
+            "id": "career_direction",
+            "theme": "career_direction",
+            "label": "Kariyer ve Yon",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-03-19 – 2026-04-12",
+            "title": "Forging Your Professional Path",
+            "summary": "Career dynamics are in the spotlight, with opportunities to assert yourself and communicate effectively. This is a chance to solidify your ambitions.",
+            "interpretation": "Kicking off on March 19, Mars conjunct the Midheaven injects a burst of energy into your career sector. If you've been eyeing a promotion or considering a career change, now’s the time to act. Expect to be more assertive and driven in professional settings. You might find yourself volunteering for a challenging project or taking the lead in team meetings, showcasing your leadership abilities.\n\nAs you transition into early April, Mercury's conjunction with the Midheaven enhances your communication skills. This is an excellent time to articulate your ideas, perhaps through a presentation or by drafting a proposal that has been on your mind. Networking events or workshops could connect you with influential individuals who can open doors. Be sure to follow up on any introductions or leads you receive.\n\nToward the end of the month, Venus’ sextile to the Midheaven makes you more charming and diplomatic at work. Relationships with colleagues and superiors improve, and the office atmosphere feels more cooperative. Consider organizing a team lunch or an after-work gathering to strengthen these bonds. By April 12, your career path might feel clearer, and the efforts you’ve put in will begin to show tangible results.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_mars_mc_conjunction_2026-03-19",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "mars",
+                "natalPlanet": "mc",
+                "aspect": "conjunction",
+                "startDate": "2026-03-19",
+                "endDate": "2026-03-25",
+                "exactDate": "2026-03-22",
+                "score": 73,
+                "title": "Mars Kavusum MC",
+                "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
+              },
+              {
+                "id": "tr_mercury_mc_conjunction_2026-03-31",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "mercury",
+                "natalPlanet": "mc",
+                "aspect": "conjunction",
+                "startDate": "2026-03-31",
+                "endDate": "2026-04-05",
+                "exactDate": "2026-04-03",
+                "score": 63,
+                "title": "Merkur Kavusum MC",
+                "rangeText": "2026-03-31 - 2026-04-05 arasi (doruk: 2026-04-03)"
+              },
+              {
+                "id": "tr_venus_mc_sextile_2026-04-11",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "mc",
+                "aspect": "sextile",
+                "startDate": "2026-04-11",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 50,
+                "title": "Venus Sekstil MC",
+                "rangeText": "2026-04-11 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              }
+            ]
+          },
+          {
+            "id": "structural_pressure",
+            "theme": "structural_pressure",
+            "label": "Yapisal Baski",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-03-24 – 2026-04-12",
+            "title": "Facing the Pressure of Foundations",
+            "summary": "A heavy atmosphere surrounds your personal structures, urging revisions and strengthening your foundations. Challenges prompt growth and resilience.",
+            "interpretation": "From March 24, Saturn’s square to your Ascendant introduces a period of significant introspection regarding your personal identity and how you present yourself to the world. You might feel weighed down by responsibilities or find that others are challenging your sense of self. It could be a family member or a boss questioning your decisions, requiring you to defend your choices and stand firm in your beliefs.\n\nAs the month progresses, Saturn opposes the Moon, intensifying emotional experiences. There may be feelings of isolation or a sense of being misunderstood. It's a time when emotional support might seem scarce, but it's crucial to reach out to trusted friends or mentors. Journaling or meditation could provide a safe space to process these feelings and gain clarity.\n\nApproaching mid-April, embracing the lessons Saturn offers will be key. Though these pressures are uncomfortable, they are meant to build resilience. You might find yourself reorganizing significant aspects of your life, like moving homes or restructuring your daily routine to better align with your long-term goals. By the end of this phase, you'll likely have a stronger foundation and a clearer sense of where you’re headed.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_saturn_asc_square_2026-03-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "asc",
+                "aspect": "square",
+                "startDate": "2026-03-24",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 84,
+                "title": "Saturn Kare Yukselen",
+                "rangeText": "2026-03-24 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_saturn_moon_opposition_2026-03-25",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "moon",
+                "aspect": "opposition",
+                "startDate": "2026-03-25",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 80,
+                "title": "Saturn Karsit Ay",
+                "rangeText": "2026-03-25 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              }
+            ]
+          },
+          {
+            "id": "general_transit",
+            "theme": "general_transit",
+            "label": "Genel Etkiler",
+            "tier": "critical",
+            "maxScore": 92,
+            "window": "2026-03-12 – 2026-04-12",
+            "title": "Embracing Change and Innovation",
+            "summary": "This month brings a mix of stability and unexpected change. Embrace new ideas while maintaining a steady foundation.",
+            "interpretation": "Beginning on March 12, Saturn's sextile to Pluto offers a subtle but potent opportunity to consolidate power and influence. You might find ways to exercise subtle control over situations, perhaps in long-term planning or strategic decisions. This is an ideal time to set goals that are both ambitious and realistic, integrating dreams with practical steps.\n\nEarly in the month, Venus opposes Venus, which could bring a heightened awareness of personal desires versus what is realistically attainable. Relationships may reflect this internal conflict, and you could be asked to compromise or find creative solutions to meet mutual needs. During this time, an old friend might reach out, offering a chance to rekindle a past connection in a meaningful way.\n\nAs the month progresses, the influence of Uranus and Neptune suggests embracing innovative ideas and creativity. You might be drawn to new technologies or creative projects that challenge your usual methods. This is a time to experiment and take calculated risks, whether it’s in a hobby or a professional venture. By the end of this transit, you’ll notice a shift in your approach to problem-solving, with greater openness to unconventional paths that could lead to exciting opportunities.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_saturn_pluto_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "saturn",
+                "natalPlanet": "pluto",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 46,
+                "title": "Saturn Sekstil Pluton",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_venus_opposition_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "venus",
+                "aspect": "opposition",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 55,
+                "title": "Venus Karsit Venus",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_mars_asc_trine_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "mars",
+                "natalPlanet": "asc",
+                "aspect": "trine",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 59,
+                "title": "Mars Ucgen Yukselen",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_saturn_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "uranus",
+                "natalPlanet": "saturn",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-24",
+                "exactDate": "2026-03-12",
+                "score": 46,
+                "title": "Uranus Sekstil Saturn",
+                "rangeText": "2026-03-12 - 2026-03-24 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_uranus_conjunction_2026-03-12",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "uranus",
+                "natalPlanet": "uranus",
+                "aspect": "conjunction",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 64,
+                "title": "Uranus Kavusum Uranus",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_neptune_uranus_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "neptune",
+                "natalPlanet": "uranus",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-03-12",
+                "score": 52,
+                "title": "Neptun Sekstil Uranus",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_neptune_conjunction_2026-03-12",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "neptune",
+                "natalPlanet": "neptune",
+                "aspect": "conjunction",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-03-12",
+                "score": 64,
+                "title": "Neptun Kavusum Neptun",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_pluto_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "neptune",
+                "natalPlanet": "pluto",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-03-12",
+                "score": 56,
+                "title": "Neptun Sekstil Pluton",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_neptune_sextile_2026-03-13",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "uranus",
+                "natalPlanet": "neptune",
+                "aspect": "sextile",
+                "startDate": "2026-03-13",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 52,
+                "title": "Uranus Sekstil Neptun",
+                "rangeText": "2026-03-13 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_mars_mercury_trine_2026-03-23",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "mars",
+                "natalPlanet": "mercury",
+                "aspect": "trine",
+                "startDate": "2026-03-23",
+                "endDate": "2026-03-28",
+                "exactDate": "2026-03-26",
+                "score": 55,
+                "title": "Mars Ucgen Merkur",
+                "rangeText": "2026-03-23 - 2026-03-28 arasi (doruk: 2026-03-26)"
+              }
+            ]
+          },
+          {
+            "id": "life_purpose",
+            "theme": "life_purpose",
+            "label": "Yasam Misyonu",
+            "tier": "critical",
+            "maxScore": 82,
+            "window": "2026-03-12 – 2026-04-12",
+            "title": "Expanding Horizons and Mission",
+            "summary": "Jupiter’s influence brings growth and a redefined sense of purpose. Opportunities arise to align personal goals with broader ambitions.",
+            "interpretation": "Throughout this period, Jupiter’s trine to your Midheaven offers a significant boost to your life’s mission and purpose. This is an auspicious time for exploring new horizons, perhaps through travel, education, or broadening your professional scope. Consider signing up for a course or attending a seminar that piques your interest.\n\nAround March 28, you might experience a moment of clarity regarding your long-term goals. This could come from a conversation with a mentor or through a personal revelation that feels like a light bulb moment. Be open to unexpected guidance from those you admire, as their insights might unlock new avenues for you to explore.\n\nAs the month concludes, you'll likely find opportunities to expand your influence. Whether it’s through public speaking, community involvement, or stepping into a leadership role, these experiences will contribute to a deeper understanding of your life's mission. Reflect on how your actions align with your broader values, ensuring that your journey reflects both personal and professional growth.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_jupiter_mc_trine_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "mc",
+                "aspect": "trine",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-03-28",
+                "score": 74,
+                "title": "Jupiter Ucgen MC",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-03-28)"
+              }
+            ]
+          }
+        ],
+        "retrogradeWindows": [],
+        "milestones": [],
+        "recurringThemes": [],
+        "focusAreas": {
+          "career": "",
+          "relationships": "",
+          "innerLife": "",
+          "growth": "",
+          "health": ""
+        },
+        "detailedDrivers": [],
+        "background": [
+          {
+            "id": "tr_mercury_jupiter_trine_2026-04-09",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "mercury",
+            "natalPlanet": "jupiter",
+            "aspect": "trine",
+            "startDate": "2026-04-09",
+            "endDate": "2026-04-12",
+            "exactDate": "2026-04-11",
+            "score": 34,
+            "title": "Merkur Ucgen Jupiter",
+            "rangeText": "2026-04-09 - 2026-04-12 arasi (doruk: 2026-04-11)"
+          }
+        ],
+        "stats": {
+          "rawEventCount": 40,
+          "filteredEventCount": 40,
+          "clusterCount": 9,
+          "phaseCount": 0,
+          "retrogradeCount": 0,
+          "aiCallCount": 1,
+          "aiCallBFailed": false,
+          "pipelineMs": 22746
+        },
+        "locationsUsed": [
+          {
+            "city": "Istanbul",
+            "latitude": 41.0082,
+            "longitude": 28.9784,
+            "utcOffset": 3,
+            "timezone": "Europe/Istanbul",
+            "startDate": "2026-03-12",
+            "endDate": "2026-04-12"
+          }
+        ]
+      }
+    },
+    "dev_1772623594408_gro4e2o2:6:en:v4:5b6f93a3f8": {
+      "createdAt": "2026-03-12T11:43:05.965Z",
+      "months": 6,
+      "lang": "en",
+      "locationsHash": "5b6f93a3f8",
+      "locations": [
+        {
+          "city": "Istanbul",
+          "latitude": 41.0082,
+          "longitude": 28.9784,
+          "utcOffset": 3,
+          "timezone": "Europe/Istanbul",
+          "startDate": "2026-03-12",
+          "endDate": "2026-09-12"
+        }
+      ],
+      "gemCost": 100,
+      "data": {
+        "formatVersion": 4,
+        "periodMode": "hybrid",
+        "period": {
+          "start": "2026-03-12",
+          "end": "2026-09-12"
+        },
+        "months": 6,
+        "overview": {
+          "title": "Navigating Transformative Currents",
+          "summary": "The coming months are marked by significant shifts and choices, particularly in your career and relationships. Expect a balance of challenges and opportunities, with Saturn's rigorous tests and Jupiter's benevolent boosts guiding your path. As Pluto retrogrades, introspection becomes key, allowing you to redefine your personal values and professional goals."
+        },
+        "phases": [
+          {
+            "id": "phase_1",
+            "title": "Spring's Testing Ground",
+            "window": "Mart – Mayıs",
+            "windowStart": "2026-03-12",
+            "windowEnd": "2026-05-13",
+            "dominantThemes": [
+              "general_transit",
+              "career_direction",
+              "relationship_values"
+            ],
+            "interpretation": "From March to May, your life feels like a crucible where career and relationships are intensely scrutinized. Saturn's square to your Ascendant from March 24 to May 4, peaking on April 13, pushes you to reassess your professional direction with a critical eye. This may manifest as a demanding project or a shift in workplace dynamics that requires you to step up as a leader. Meanwhile, Saturn opposes Venus from March 22 to May 11, reaching its peak on April 15, challenging your romantic life to stand the test of time. You might confront issues related to commitment and value alignment with your partner. Amid these tests, Jupiter's trine to your Midheaven from March 12 to April 24, peaking on March 28, offers a refreshing opportunity to expand your career path. Consider pursuing further education or a mentorship that enhances your skills and broadens your horizons. The period between April 13 and April 17 marks heightened challenge with both Saturn squares peaking, emphasizing personal and relational boundaries, while the days around March 28 bring potential career growth and expansion opportunities.",
+            "clusterCount": 10,
+            "eventCount": 68
+          },
+          {
+            "id": "phase_2",
+            "title": "Summer's Evolutionary Bend",
+            "window": "Mayıs – Temmuz",
+            "windowStart": "2026-05-13",
+            "windowEnd": "2026-07-14",
+            "dominantThemes": [
+              "general_transit",
+              "career_direction",
+              "relationship_values"
+            ],
+            "interpretation": "May through July continues the narrative of transformation with Pluto's retrograde starting May 7, urging you to look inward and reflect on your deeper motivations. This period invites you to let go of outdated beliefs, especially around self-worth and professional identity. Jupiter's square to the Sun from June 2 to June 25, peaking on June 14, might tempt you to overextend yourself. It's a time to balance optimism with realism, particularly in career choices—avoid taking on more than you can handle. As Uranus conjuncts Uranus from March 12 to June 30, peaking on May 8, expect the unexpected. This transit could provoke sudden changes in your personal life or a radical shift in perspective, potentially leading to innovative solutions to longstanding issues. Early May sees opportunities for emotional renewal as Pluto trines the Moon on May 2, facilitating healing conversations and new emotional understandings. Pay attention to May 11 to May 18 when Mars opposes the Sun, peaking on May 14, suggesting a need to manage your energy to prevent burnout.",
+            "clusterCount": 9,
+            "eventCount": 80
+          },
+          {
+            "id": "phase_3",
+            "title": "Harvesting Inner Strength",
+            "window": "Temmuz – Eylül",
+            "windowStart": "2026-07-14",
+            "windowEnd": "2026-09-12",
+            "dominantThemes": [
+              "general_transit",
+              "career_direction",
+              "relationship_values"
+            ],
+            "interpretation": "As July shifts into September, Mars joins the scene in a powerful conjunction with your Ascendant from August 18 to August 26, peaking on August 22. This transit energizes you to take bold action, especially in personal projects or physical endeavors. However, this period is not without its tests. Mars squares your Midheaven from July 18 to July 24, peaking on July 21, highlighting potential conflicts at work. It's essential to navigate these with diplomacy and clarity to avoid unnecessary confrontations. Meanwhile, Pluto conjuncts Pluto from July 24 to September 12, peaking on September 12, signaling a profound transformation phase. You are called to redefine your core identity and life mission, benefiting from Saturn's retrograde which starts on July 27, encouraging reflection and restructuring in life strategies. The intense days around August 22 with Mars energizing your Ascendant bring potential for dynamic personal changes, while the retrograde periods of Pluto and Saturn from late July suggest a slower, more introspective pace.",
+            "clusterCount": 8,
+            "eventCount": 65
+          }
+        ],
+        "themes": [],
+        "retrogradeWindows": [
+          {
+            "planet": "mercury",
+            "planetLabel": "Merkür",
+            "startDate": "2026-06-30",
+            "endDate": "2026-07-24",
+            "baseInterpretation": "An old colleague might send an unexpected message rekindling a past project. Avoid signing contracts until the end of July and backup your devices to prevent data loss. This is a great time to revisit and refine past ideas with depth and intensity. By doing so, you may uncover hidden insights that could fuel a future venture.",
+            "personalNote": "An old colleague might send an unexpected message rekindling a past project. Avoid signing contracts until the end of July and backup your devices to prevent data loss. This is a great time to revisit and refine past ideas with depth and intensity. By doing so, you may uncover hidden insights that could fuel a future venture.",
+            "affectedThemes": [
+              "iletişim",
+              "yakın çevre",
+              "kısa yolculuklar"
+            ],
+            "priority": "medium"
+          },
+          {
+            "planet": "saturn",
+            "planetLabel": "Satürn",
+            "startDate": "2026-07-27",
+            "endDate": "2026-09-12",
+            "baseInterpretation": "You may encounter delays in receiving a long-awaited promotion or recognition at work. Use this period to tighten your strategies and demonstrate diligence in your responsibilities. This time allows you to solidify your career foundations, ensuring future success. Patience now will lead to tangible rewards later.",
+            "personalNote": "You may encounter delays in receiving a long-awaited promotion or recognition at work. Use this period to tighten your strategies and demonstrate diligence in your responsibilities. This time allows you to solidify your career foundations, ensuring future success. Patience now will lead to tangible rewards later.",
+            "affectedThemes": [
+              "sorumluluk",
+              "yapı",
+              "disiplin"
+            ],
+            "priority": "high"
+          },
+          {
+            "planet": "uranus",
+            "planetLabel": "Uranüs",
+            "startDate": "2026-09-11",
+            "endDate": "2026-09-12",
+            "baseInterpretation": "Expect a sudden pause in a project that promised radical innovation, just before it takes off. Reflect on your approach and seek feedback to refine your ideas. This pause can spark unique insights, leading to breakthroughs that align with your quest for freedom and newness. Embrace the brief stillness to plan your next move.",
+            "personalNote": "Expect a sudden pause in a project that promised radical innovation, just before it takes off. Reflect on your approach and seek feedback to refine your ideas. This pause can spark unique insights, leading to breakthroughs that align with your quest for freedom and newness. Embrace the brief stillness to plan your next move.",
+            "affectedThemes": [
+              "değişim",
+              "özgürlük",
+              "yenilikçilik"
+            ],
+            "priority": "high"
+          },
+          {
+            "planet": "neptune",
+            "planetLabel": "Neptün",
+            "startDate": "2026-07-08",
+            "endDate": "2026-09-12",
+            "baseInterpretation": "Dreams may feel more vivid, presenting both clarity and confusion about your path. Ground yourself by journaling these visions and seek feedback from trusted mentors. This period can deepen your understanding of your spiritual journey, offering a more authentic connection to your inner self. Trust your intuition to guide you.",
+            "personalNote": "Dreams may feel more vivid, presenting both clarity and confusion about your path. Ground yourself by journaling these visions and seek feedback from trusted mentors. This period can deepen your understanding of your spiritual journey, offering a more authentic connection to your inner self. Trust your intuition to guide you.",
+            "affectedThemes": [
+              "sezgi",
+              "maneviyat",
+              "rüyalar"
+            ],
+            "priority": "high"
+          },
+          {
+            "planet": "pluto",
+            "planetLabel": "Plüton",
+            "startDate": "2026-05-07",
+            "endDate": "2026-09-12",
+            "baseInterpretation": "Old emotional patterns and power struggles may resurface, demanding your attention. Use this time to confront what you've avoided and initiate transformative changes. Embracing these challenges can empower you, leading to personal growth and reclaimed control of your life's direction. The end result will be a stronger, more authentic you.",
+            "personalNote": "Old emotional patterns and power struggles may resurface, demanding your attention. Use this time to confront what you've avoided and initiate transformative changes. Embracing these challenges can empower you, leading to personal growth and reclaimed control of your life's direction. The end result will be a stronger, more authentic you.",
+            "affectedThemes": [
+              "dönüşüm",
+              "güç",
+              "kontrol"
+            ],
+            "priority": "high"
+          }
+        ],
+        "milestones": [
+          {
+            "title": "Pluto's Reflective Retrograde",
+            "window": "May 7 – September 12, 2026",
+            "description": "As Pluto retrogrades, it invites you to delve deeper into your subconscious, uncovering hidden motivations and transforming personal narratives. This period is ideal for introspective practices like journaling or therapy, which help in realigning your life's mission and releasing past traumas. It may also bring about a reassessment of power dynamics in relationships and work."
+          },
+          {
+            "title": "Jupiter's Career Expansion",
+            "window": "March 12 – April 24, 2026",
+            "description": "Jupiter's trine to your Midheaven offers a window of opportunity to expand your professional horizons. Whether through a new job, a promotion, or a side project that aligns with your passions, this period encourages growth and learning. Embrace the chance to network and seek new knowledge that can propel your career forward."
+          },
+          {
+            "title": "Saturn's Relationship Trials",
+            "window": "March 22 – May 11, 2026",
+            "description": "During this time, Saturn's opposition to Venus tests the durability of your relationships. You might face situations that require honesty and commitment, leading to either deeper bonds or necessary endings. This transit encourages you to clarify your values and ensure that your partnerships align with them."
+          },
+          {
+            "title": "Uranus' Unexpected Shifts",
+            "window": "March 12 – June 30, 2026",
+            "description": "Uranus conjuncting Uranus signals unexpected shifts and awakenings. Be prepared for sudden changes in your personal or professional life that prompt a reevaluation of your path. This is a time for embracing innovation and adaptability, allowing fresh perspectives to guide you through the turbulence."
+          }
+        ],
+        "recurringThemes": [
+          {
+            "theme": "general_transit",
+            "label": "Genel Etkiler",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3"
+            ],
+            "count": 3,
+            "description": ""
+          },
+          {
+            "theme": "career_direction",
+            "label": "Kariyer ve Yon",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3"
+            ],
+            "count": 3,
+            "description": ""
+          },
+          {
+            "theme": "relationship_values",
+            "label": "Iliskiler ve Degerler",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3"
+            ],
+            "count": 3,
+            "description": ""
+          },
+          {
+            "theme": "growth_opportunity",
+            "label": "Buyume Firsati",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3"
+            ],
+            "count": 3,
+            "description": ""
+          },
+          {
+            "theme": "energy_action",
+            "label": "Enerji ve Aksiyon",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3"
+            ],
+            "count": 3,
+            "description": ""
+          },
+          {
+            "theme": "communication_mental",
+            "label": "Iletisim ve Zihinsel Surec",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3"
+            ],
+            "count": 3,
+            "description": ""
+          },
+          {
+            "theme": "structural_pressure",
+            "label": "Yapisal Baski",
+            "phases": [
+              "phase_1",
+              "phase_2"
+            ],
+            "count": 2,
+            "description": ""
+          },
+          {
+            "theme": "money_resources",
+            "label": "Para ve Kaynaklar",
+            "phases": [
+              "phase_1",
+              "phase_2"
+            ],
+            "count": 2,
+            "description": ""
+          },
+          {
+            "theme": "health_body",
+            "label": "Saglik ve Beden",
+            "phases": [
+              "phase_1",
+              "phase_3"
+            ],
+            "count": 2,
+            "description": ""
+          },
+          {
+            "theme": "emotional_reset",
+            "label": "Duygusal Yenilenme",
+            "phases": [
+              "phase_2",
+              "phase_3"
+            ],
+            "count": 2,
+            "description": ""
+          }
+        ],
+        "focusAreas": {
+          "career": "This period is ripe for reevaluating your career direction under the structured influence of Saturn and the expansive opportunities presented by Jupiter. You may find yourself at a crossroads, weighing the stability of your current path against the potential of new ventures. Financially, this is a time to be cautious with investments, ensuring that they align with your long-term goals.",
+          "relationships": "Relationships will be tested and transformed. Saturn's influence encourages you to reassess your commitments and ensure that your partnerships are genuine and mutually beneficial. It's a period for deepening emotional connections or letting go of those that no longer serve a purpose.",
+          "innerLife": "Pluto's retrograde suggests a significant period for inner transformation. You'll benefit from introspection, seeking to understand your deeper desires and life mission. This is an excellent time to engage in self-discovery activities that help you connect with your authentic self.",
+          "growth": "Throughout these months, personal growth is highlighted with opportunities to learn and expand your horizons. Embrace educational pursuits or travel experiences that broaden your perspective and contribute to your personal development.",
+          "health": "Health is a crucial focus, with Mars energizing your physical vitality in late summer. This is a great time to engage in activities that boost your fitness and well-being. However, be mindful of overexertion, especially during periods of high stress and challenge."
+        },
+        "detailedDrivers": [
+          {
+            "id": "tr_saturn_asc_square_2026-03-24",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "asc",
+            "aspect": "square",
+            "startDate": "2026-03-24",
+            "endDate": "2026-05-04",
+            "exactDate": "2026-04-13",
+            "score": 84,
+            "title": "Saturn Kare Yukselen",
+            "rangeText": "2026-03-24 - 2026-05-04 arasi (doruk: 2026-04-13)"
+          },
+          {
+            "id": "tr_saturn_moon_opposition_2026-03-25",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "moon",
+            "aspect": "opposition",
+            "startDate": "2026-03-25",
+            "endDate": "2026-05-14",
+            "exactDate": "2026-04-17",
+            "score": 84,
+            "title": "Saturn Karsit Ay",
+            "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
+          },
+          {
+            "id": "tr_saturn_venus_opposition_2026-03-22",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "venus",
+            "aspect": "opposition",
+            "startDate": "2026-03-22",
+            "endDate": "2026-05-11",
+            "exactDate": "2026-04-15",
+            "score": 79,
+            "title": "Saturn Karsit Venus",
+            "rangeText": "2026-03-22 - 2026-05-11 arasi (doruk: 2026-04-15)"
+          },
+          {
+            "id": "tr_jupiter_mc_trine_2026-03-12",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "mc",
+            "aspect": "trine",
+            "startDate": "2026-03-12",
+            "endDate": "2026-04-24",
+            "exactDate": "2026-03-28",
+            "score": 74,
+            "title": "Jupiter Ucgen MC",
+            "rangeText": "2026-03-12 - 2026-04-24 arasi (doruk: 2026-03-28)"
+          },
+          {
+            "id": "tr_retro_pluto_2026-05-07",
+            "phaseId": "phase_1",
+            "type": "retrograde",
+            "color": "retro",
+            "transitPlanet": "pluto",
+            "natalPlanet": null,
+            "aspect": null,
+            "startDate": "2026-05-07",
+            "endDate": "2026-09-12",
+            "exactDate": "2026-05-07",
+            "score": 73,
+            "title": "Pluton Retrosu",
+            "rangeText": "2026-05-07 - 2026-09-12 arasi (doruk: 2026-05-07)"
+          },
+          {
+            "id": "tr_mars_mc_conjunction_2026-03-19",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "mars",
+            "natalPlanet": "mc",
+            "aspect": "conjunction",
+            "startDate": "2026-03-19",
+            "endDate": "2026-03-25",
+            "exactDate": "2026-03-22",
+            "score": 73,
+            "title": "Mars Kavusum MC",
+            "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
+          },
+          {
+            "id": "tr_uranus_uranus_conjunction_2026-03-12",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "uranus",
+            "natalPlanet": "uranus",
+            "aspect": "conjunction",
+            "startDate": "2026-03-12",
+            "endDate": "2026-06-30",
+            "exactDate": "2026-05-08",
+            "score": 71,
+            "title": "Uranus Kavusum Uranus",
+            "rangeText": "2026-03-12 - 2026-06-30 arasi (doruk: 2026-05-08)"
+          },
+          {
+            "id": "tr_saturn_moon_opposition_2026-03-25",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "moon",
+            "aspect": "opposition",
+            "startDate": "2026-03-25",
+            "endDate": "2026-05-14",
+            "exactDate": "2026-04-17",
+            "score": 84,
+            "title": "Saturn Karsit Ay",
+            "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
+          },
+          {
+            "id": "tr_jupiter_sun_square_2026-06-02",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "sun",
+            "aspect": "square",
+            "startDate": "2026-06-02",
+            "endDate": "2026-06-25",
+            "exactDate": "2026-06-14",
+            "score": 76,
+            "title": "Jupiter Kare Gunes",
+            "rangeText": "2026-06-02 - 2026-06-25 arasi (doruk: 2026-06-14)"
+          },
+          {
+            "id": "tr_retro_pluto_2026-05-07",
+            "phaseId": "phase_2",
+            "type": "retrograde",
+            "color": "retro",
+            "transitPlanet": "pluto",
+            "natalPlanet": null,
+            "aspect": null,
+            "startDate": "2026-05-07",
+            "endDate": "2026-09-12",
+            "exactDate": "2026-05-07",
+            "score": 73,
+            "title": "Pluton Retrosu",
+            "rangeText": "2026-05-07 - 2026-09-12 arasi (doruk: 2026-05-07)"
+          },
+          {
+            "id": "tr_uranus_uranus_conjunction_2026-03-12",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "uranus",
+            "natalPlanet": "uranus",
+            "aspect": "conjunction",
+            "startDate": "2026-03-12",
+            "endDate": "2026-06-30",
+            "exactDate": "2026-05-08",
+            "score": 71,
+            "title": "Uranus Kavusum Uranus",
+            "rangeText": "2026-03-12 - 2026-06-30 arasi (doruk: 2026-05-08)"
+          },
+          {
+            "id": "tr_mars_sun_opposition_2026-05-11",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "mars",
+            "natalPlanet": "sun",
+            "aspect": "opposition",
+            "startDate": "2026-05-11",
+            "endDate": "2026-05-18",
+            "exactDate": "2026-05-14",
+            "score": 71,
+            "title": "Mars Karsit Gunes",
+            "rangeText": "2026-05-11 - 2026-05-18 arasi (doruk: 2026-05-14)"
+          },
+          {
+            "id": "tr_pluto_moon_trine_2026-03-26",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "pluto",
+            "natalPlanet": "moon",
+            "aspect": "trine",
+            "startDate": "2026-03-26",
+            "endDate": "2026-06-18",
+            "exactDate": "2026-05-02",
+            "score": 69,
+            "title": "Pluton Ucgen Ay",
+            "rangeText": "2026-03-26 - 2026-06-18 arasi (doruk: 2026-05-02)"
+          },
+          {
+            "id": "tr_jupiter_jupiter_conjunction_2026-05-17",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "jupiter",
+            "aspect": "conjunction",
+            "startDate": "2026-05-17",
+            "endDate": "2026-06-17",
+            "exactDate": "2026-06-02",
+            "score": 69,
+            "title": "Jupiter Kavusum Jupiter",
+            "rangeText": "2026-05-17 - 2026-06-17 arasi (doruk: 2026-06-02)"
+          },
+          {
+            "id": "tr_mars_asc_conjunction_2026-08-18",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "mars",
+            "natalPlanet": "asc",
+            "aspect": "conjunction",
+            "startDate": "2026-08-18",
+            "endDate": "2026-08-26",
+            "exactDate": "2026-08-22",
+            "score": 76,
+            "title": "Mars Kavusum Yukselen",
+            "rangeText": "2026-08-18 - 2026-08-26 arasi (doruk: 2026-08-22)"
+          },
+          {
+            "id": "tr_retro_pluto_2026-05-07",
+            "phaseId": "phase_3",
+            "type": "retrograde",
+            "color": "retro",
+            "transitPlanet": "pluto",
+            "natalPlanet": null,
+            "aspect": null,
+            "startDate": "2026-05-07",
+            "endDate": "2026-09-12",
+            "exactDate": "2026-05-07",
+            "score": 73,
+            "title": "Pluton Retrosu",
+            "rangeText": "2026-05-07 - 2026-09-12 arasi (doruk: 2026-05-07)"
+          },
+          {
+            "id": "tr_pluto_pluto_conjunction_2026-07-24",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "pluto",
+            "natalPlanet": "pluto",
+            "aspect": "conjunction",
+            "startDate": "2026-07-24",
+            "endDate": "2026-09-12",
+            "exactDate": "2026-09-12",
+            "score": 69,
+            "title": "Pluton Kavusum Pluton",
+            "rangeText": "2026-07-24 - 2026-09-12 arasi (doruk: 2026-09-12)"
+          },
+          {
+            "id": "tr_mars_mc_square_2026-07-18",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "mars",
+            "natalPlanet": "mc",
+            "aspect": "square",
+            "startDate": "2026-07-18",
+            "endDate": "2026-07-24",
+            "exactDate": "2026-07-21",
+            "score": 68,
+            "title": "Mars Kare MC",
+            "rangeText": "2026-07-18 - 2026-07-24 arasi (doruk: 2026-07-21)"
+          },
+          {
+            "id": "tr_mars_moon_square_2026-08-19",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "mars",
+            "natalPlanet": "moon",
+            "aspect": "square",
+            "startDate": "2026-08-19",
+            "endDate": "2026-08-26",
+            "exactDate": "2026-08-23",
+            "score": 68,
+            "title": "Mars Kare Ay",
+            "rangeText": "2026-08-19 - 2026-08-26 arasi (doruk: 2026-08-23)"
+          },
+          {
+            "id": "tr_retro_saturn_2026-07-27",
+            "phaseId": "phase_3",
+            "type": "retrograde",
+            "color": "retro",
+            "transitPlanet": "saturn",
+            "natalPlanet": null,
+            "aspect": null,
+            "startDate": "2026-07-27",
+            "endDate": "2026-09-12",
+            "exactDate": "2026-07-27",
+            "score": 67,
+            "title": "Saturn Retrosu",
+            "rangeText": "2026-07-27 - 2026-09-12 arasi (doruk: 2026-07-27)"
+          }
+        ],
+        "background": [],
+        "stats": {
+          "rawEventCount": 192,
+          "filteredEventCount": 192,
+          "clusterCount": 11,
+          "phaseCount": 3,
+          "retrogradeCount": 5,
+          "aiCallCount": 2,
+          "aiCallBFailed": false,
+          "pipelineMs": 21520
+        },
+        "locationsUsed": [
+          {
+            "city": "Istanbul",
+            "latitude": 41.0082,
+            "longitude": 28.9784,
+            "utcOffset": 3,
+            "timezone": "Europe/Istanbul",
+            "startDate": "2026-03-12",
+            "endDate": "2026-09-12"
+          }
+        ]
+      }
+    },
+    "dev_1772623594408_gro4e2o2:12:en:v4:85b6bbc962": {
+      "createdAt": "2026-03-12T11:49:38.815Z",
+      "months": 12,
+      "lang": "en",
+      "locationsHash": "85b6bbc962",
+      "locations": [
+        {
+          "city": "Istanbul",
+          "latitude": 41.0082,
+          "longitude": 28.9784,
+          "utcOffset": 3,
+          "timezone": "Europe/Istanbul",
+          "startDate": "2026-03-12",
+          "endDate": "2027-03-12"
+        }
+      ],
+      "gemCost": 150,
+      "data": {
+        "formatVersion": 4,
+        "periodMode": "yearlyNarrative",
+        "period": {
+          "start": "2026-03-12",
+          "end": "2027-03-12"
+        },
+        "months": 12,
+        "overview": {
+          "title": "Year of Transformation and Opportunity",
+          "summary": "This year marks significant shifts in your personal and professional arenas, demanding your resilience and adaptability. Relationships take center stage, urging introspection and reevaluation of values. Financial landscapes may present fluctuations, prompting strategic management. Growth and self-discovery are intertwined with moments of challenge and triumph. As you navigate these changes, remember that each step is a building block towards a more fulfilling path."
+        },
+        "phases": [
+          {
+            "id": "phase_1",
+            "title": "Foundation Shifts",
+            "window": "Mart – Haziran",
+            "windowStart": "2026-03-12",
+            "windowEnd": "2026-06-12",
+            "dominantThemes": [
+              "relationship_values",
+              "general_transit",
+              "money_resources"
+            ],
+            "interpretation": "As spring unfolds from March to June, the focus is on recalibrating foundational aspects of your life. The Saturn square your Ascendant from March 24 to May 4, peaking on April 13, suggests a period of questioning your life's direction and responsibilities, which could feel restrictive yet necessary. Similarly, Saturn opposing your Moon from March 25 to May 14 underscores emotional pressures that may highlight neglected aspects of your personal life. An unexpected financial re-evaluation could arise as Saturn opposes Venus from March 22 to May 11, making April 15 pivotal for reassessing investments or expenditures. Amidst these challenges, Jupiter trine your Midheaven from March 12 to April 24, peaking on March 28, brings professional opportunities, possibly a new role or project, offering a green light to expand your horizons. This period is a blend of red days marked by Saturn's challenges, and a green day where Jupiter's influence supports your career ambitions.",
+            "clusterCount": 11,
+            "eventCount": 107
+          },
+          {
+            "id": "phase_2",
+            "title": "Balancing Acts",
+            "window": "Haziran – Eylül",
+            "windowStart": "2026-06-12",
+            "windowEnd": "2026-09-12",
+            "dominantThemes": [
+              "relationship_values",
+              "general_transit",
+              "money_resources"
+            ],
+            "interpretation": "The summer window from June to September is all about balance and recalibration, particularly as Jupiter squares your Sun from June 2 to June 25, peaking mid-June, potentially foreshadowing clashes between personal desires and professional commitments. The Mars conjunction with your Ascendant from August 18 to August 26, especially around August 22, infuses you with a burst of energy, urging action but cautioning against impulsive decisions. A reflection on past choices might emerge with Pluto's ongoing retrograde, asking you to reconsider long-term goals. As you navigate these waters, watch for potential miscommunications during Jupiter's square to Mercury from September 12 to October 9. The period offers blue days with Mars encouraging decisive action, though maintaining calm amidst Mercury's red days is essential.",
+            "clusterCount": 9,
+            "eventCount": 101
+          },
+          {
+            "id": "phase_3",
+            "title": "Turning Points",
+            "window": "Eylül – Aralık",
+            "windowStart": "2026-09-12",
+            "windowEnd": "2026-12-13",
+            "dominantThemes": [
+              "relationship_values",
+              "general_transit",
+              "money_resources"
+            ],
+            "interpretation": "As autumn settles from September to December, the interplay of Saturn's opposition to your Moon from October 14 to February 4, peaking on December 9, suggests emotional and relational tests, compelling you to reassess commitments. Concurrently, Saturn's square to your Ascendant from October 28 to January 22 demands reassessment of personal goals, intensifying around December 9. These transits may bring a sense of duty or constraint, pushing you toward maturity and resilience. Acknowledging these challenges can transform restrictions into stepping stones for personal growth. The period's intensity peaks with red days when Saturn's influence is strongest, yet offers glimpses of new beginnings as the year draws to a close.",
+            "clusterCount": 9,
+            "eventCount": 73
+          },
+          {
+            "id": "phase_4",
+            "title": "Emerging Horizons",
+            "window": "Aralık – Mart",
+            "windowStart": "2026-12-13",
+            "windowEnd": "2027-03-12",
+            "dominantThemes": [
+              "relationship_values",
+              "general_transit",
+              "money_resources"
+            ],
+            "interpretation": "In the final stretch from December to March, the tone shifts towards renewal and forward movement. Saturn’s ongoing opposition to Venus until February 1 calls for careful consideration in relationships, especially around December 9. As Pluto trines your Moon from January 25 to March 12, culminating on March 12, a sense of emotional rebirth offers the chance to embrace inner strengths and let go of past burdens. However, Jupiter's square to Mars from February 16 to March 12 suggests the need to temper enthusiasm with practicality, especially as mid-March approaches. This period is colored with a mix of red days from Saturn’s challenges and green days where Pluto’s opportunity for transformation takes root.",
+            "clusterCount": 9,
+            "eventCount": 82
+          }
+        ],
+        "themes": [],
+        "retrogradeWindows": [
+          {
+            "planet": "mercury",
+            "planetLabel": "Merkür",
+            "startDate": "2026-06-30",
+            "endDate": "2026-07-24",
+            "baseInterpretation": "An unexpected message from an old friend may pop up, stirring deep thoughts. Pause and reflect before responding impulsively. Delay signing any contracts until after July 24. This time gives you a chance to revisit and mend past misunderstandings with those close to you.",
+            "personalNote": "An unexpected message from an old friend may pop up, stirring deep thoughts. Pause and reflect before responding impulsively. Delay signing any contracts until after July 24. This time gives you a chance to revisit and mend past misunderstandings with those close to you.",
+            "affectedThemes": [
+              "iletişim",
+              "yakın çevre",
+              "kısa yolculuklar"
+            ],
+            "priority": "medium"
+          },
+          {
+            "planet": "mercury",
+            "planetLabel": "Merkür",
+            "startDate": "2026-10-24",
+            "endDate": "2026-11-14",
+            "baseInterpretation": "A short trip planned with siblings might face rescheduling due to sudden changes. Double-check your travel documents and ensure your vehicle is serviced. Use this period to reconnect with your roots and strengthen family bonds, uncovering hidden truths about your past.",
+            "personalNote": "A short trip planned with siblings might face rescheduling due to sudden changes. Double-check your travel documents and ensure your vehicle is serviced. Use this period to reconnect with your roots and strengthen family bonds, uncovering hidden truths about your past.",
+            "affectedThemes": [
+              "iletişim",
+              "yakın çevre",
+              "kısa yolculuklar"
+            ],
+            "priority": "medium"
+          },
+          {
+            "planet": "mercury",
+            "planetLabel": "Merkür",
+            "startDate": "2027-02-10",
+            "endDate": "2027-03-04",
+            "baseInterpretation": "Your phone or laptop might experience glitches, causing temporary frustration. Backup all your data and postpone any major tech purchases until March 4. This is an opportunity to improve your digital organization and streamline communication methods.",
+            "personalNote": "Your phone or laptop might experience glitches, causing temporary frustration. Backup all your data and postpone any major tech purchases until March 4. This is an opportunity to improve your digital organization and streamline communication methods.",
+            "affectedThemes": [
+              "iletişim",
+              "yakın çevre",
+              "kısa yolculuklar"
+            ],
+            "priority": "medium"
+          },
+          {
+            "planet": "venus",
+            "planetLabel": "Venüs",
+            "startDate": "2026-10-03",
+            "endDate": "2026-11-14",
+            "baseInterpretation": "A past lover might resurface, sparking unresolved emotions. Avoid rushing into any financial commitments with them. Use this time to reassess what you truly value in relationships and redefine your personal boundaries.",
+            "personalNote": "A past lover might resurface, sparking unresolved emotions. Avoid rushing into any financial commitments with them. Use this time to reassess what you truly value in relationships and redefine your personal boundaries.",
+            "affectedThemes": [
+              "ilişkiler",
+              "değerler",
+              "finanslar"
+            ],
+            "priority": "medium"
+          },
+          {
+            "planet": "mars",
+            "planetLabel": "Mars",
+            "startDate": "2027-01-11",
+            "endDate": "2027-03-12",
+            "baseInterpretation": "You may feel frustrated with stalled projects at work, leading to tension with colleagues. Practice patience and set realistic goals to maintain your motivation. Channel this energy into personal projects, discovering new ways to assert your skills and leadership.",
+            "personalNote": "You may feel frustrated with stalled projects at work, leading to tension with colleagues. Practice patience and set realistic goals to maintain your motivation. Channel this energy into personal projects, discovering new ways to assert your skills and leadership.",
+            "affectedThemes": [
+              "enerji",
+              "motivasyon",
+              "girişimcilik"
+            ],
+            "priority": "medium"
+          },
+          {
+            "planet": "jupiter",
+            "planetLabel": "Jüpiter",
+            "startDate": "2026-12-13",
+            "endDate": "2027-03-12",
+            "baseInterpretation": "Enthusiasm for a new educational venture might dwindle as challenges arise. Re-evaluate your learning path and stay grounded in your expectations. This is your chance to solidify a realistic growth plan that aligns with your long-term goals.",
+            "personalNote": "Enthusiasm for a new educational venture might dwindle as challenges arise. Re-evaluate your learning path and stay grounded in your expectations. This is your chance to solidify a realistic growth plan that aligns with your long-term goals.",
+            "affectedThemes": [
+              "büyüme",
+              "inanç",
+              "eğitim"
+            ],
+            "priority": "high"
+          },
+          {
+            "planet": "saturn",
+            "planetLabel": "Satürn",
+            "startDate": "2026-07-27",
+            "endDate": "2026-12-11",
+            "baseInterpretation": "You may face delays in receiving recognition at work, testing your dedication. Maintain your routine and focus on honing your skills. This period allows you to strengthen your professional discipline and prepare for future successes.",
+            "personalNote": "You may face delays in receiving recognition at work, testing your dedication. Maintain your routine and focus on honing your skills. This period allows you to strengthen your professional discipline and prepare for future successes.",
+            "affectedThemes": [
+              "sorumluluk",
+              "yapı",
+              "disiplin"
+            ],
+            "priority": "high"
+          },
+          {
+            "planet": "uranus",
+            "planetLabel": "Uranüs",
+            "startDate": "2026-09-11",
+            "endDate": "2027-02-09",
+            "baseInterpretation": "You might feel trapped by your current circumstances, prompting introspection about personal freedom. Reassess your daily habits and try introducing small changes. This time encourages you to innovate and embrace new ideas that align with your true self.",
+            "personalNote": "You might feel trapped by your current circumstances, prompting introspection about personal freedom. Reassess your daily habits and try introducing small changes. This time encourages you to innovate and embrace new ideas that align with your true self.",
+            "affectedThemes": [
+              "değişim",
+              "özgürlük",
+              "yenilikçilik"
+            ],
+            "priority": "high"
+          },
+          {
+            "planet": "neptune",
+            "planetLabel": "Neptün",
+            "startDate": "2026-07-08",
+            "endDate": "2026-12-13",
+            "baseInterpretation": "Daydreams about a creative project may seem more vivid but lack practical grounding. Trust your instincts but keep one foot firmly in reality. Use this period to refine your artistic vision, distinguishing between what is feasible and what is fantasy.",
+            "personalNote": "Daydreams about a creative project may seem more vivid but lack practical grounding. Trust your instincts but keep one foot firmly in reality. Use this period to refine your artistic vision, distinguishing between what is feasible and what is fantasy.",
+            "affectedThemes": [
+              "sezgi",
+              "maneviyat",
+              "rüyalar"
+            ],
+            "priority": "high"
+          },
+          {
+            "planet": "pluto",
+            "planetLabel": "Plüton",
+            "startDate": "2026-05-07",
+            "endDate": "2026-10-16",
+            "baseInterpretation": "Deep-seated emotions may surface, urging you to confront power dynamics in friendships. Engage in honest discussions and be open to change. This is a transformative time, allowing for personal growth and the release of past burdens.",
+            "personalNote": "Deep-seated emotions may surface, urging you to confront power dynamics in friendships. Engage in honest discussions and be open to change. This is a transformative time, allowing for personal growth and the release of past burdens.",
+            "affectedThemes": [
+              "dönüşüm",
+              "güç",
+              "kontrol"
+            ],
+            "priority": "high"
+          }
+        ],
+        "milestones": [
+          {
+            "title": "Reevaluating Core Beliefs",
+            "window": "May 7 – October 16, 2026",
+            "description": "During this period, Pluto's retrograde encourages deep introspection about your core beliefs and values. This is a time to question what you hold true and consider what needs transformation. You might find yourself drawn to philosophical or spiritual discussions that challenge your current worldview, prompting significant personal growth."
+          },
+          {
+            "title": "Career Crossroads",
+            "window": "June 2 – June 25, 2026",
+            "description": "Jupiter's square to your Sun during this window can present pivotal career decisions. It's a time to weigh the pros and cons of your current trajectory and consider new possibilities that align more closely with your life goals. This crossroads may involve strategic career shifts or embracing leadership roles."
+          },
+          {
+            "title": "Emotional Resurgence",
+            "window": "June 21 – July 24, 2026",
+            "description": "Emotional renewal takes center stage as you navigate complex feelings and relationships. This period may bring a reconnection with past emotions or individuals, providing an opportunity to heal old wounds and strengthen your emotional foundation. Embrace these moments as they can lead to profound personal clarity."
+          },
+          {
+            "title": "Financial Review",
+            "window": "March 22 – May 11, 2026",
+            "description": "Saturn opposing Venus signals a time for critical financial reassessment. It's vital to scrutinize expenditures and investments, ensuring they are aligned with your long-term objectives. This review can reveal areas where adjustments need to be made, providing the groundwork for future financial stability."
+          },
+          {
+            "title": "Action-Oriented Decisions",
+            "window": "August 18 – August 26, 2026",
+            "description": "Mars conjunct your Ascendant brings a surge of energy, motivating decisive actions. This is the time to initiate projects or make bold moves, but be aware of the potential for impulsiveness. Channel this energy into constructive activities that advance your personal and professional goals."
+          }
+        ],
+        "recurringThemes": [
+          {
+            "theme": "relationship_values",
+            "label": "Iliskiler ve Degerler",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3",
+              "phase_4"
+            ],
+            "count": 4,
+            "description": ""
+          },
+          {
+            "theme": "general_transit",
+            "label": "Genel Etkiler",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3",
+              "phase_4"
+            ],
+            "count": 4,
+            "description": ""
+          },
+          {
+            "theme": "money_resources",
+            "label": "Para ve Kaynaklar",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3",
+              "phase_4"
+            ],
+            "count": 4,
+            "description": ""
+          },
+          {
+            "theme": "career_direction",
+            "label": "Kariyer ve Yon",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3",
+              "phase_4"
+            ],
+            "count": 4,
+            "description": ""
+          },
+          {
+            "theme": "growth_opportunity",
+            "label": "Buyume Firsati",
+            "phases": [
+              "phase_1",
+              "phase_2",
+              "phase_3",
+              "phase_4"
+            ],
+            "count": 4,
+            "description": ""
+          }
+        ],
+        "focusAreas": {
+          "career": "The year invites you to redefine your professional path, especially as financial resources fluctuate. With themes of structural pressure, it's essential to reassess your strategies and adapt to changing circumstances. Consider opportunities for growth when Jupiter aligns favorably with your career. This may manifest as a chance to lead a new project or pivot into a role that aligns more closely with your core values. Expect periods of intense focus and possible restructuring, especially under Saturn's influence, which might push you to confront and overcome longstanding challenges. Be prepared for strategic thinking and long-term planning to maximize your potential.",
+          "relationships": "Relationships this year demand a closer look at your values and emotional needs. With dominant themes of relationship values, you're called to explore deep connections and possibly rekindle past relationships that offer unfinished lessons. Emotional renewal is a recurring theme, especially during Saturn's transits, urging you to establish boundaries and communicate openly. This phase may bring significant conversations about commitment and shared goals. Whether it's a romantic relationship or a deep friendship, facing these challenges head-on will provide clarity and strengthen bonds, making room for more genuine connections.",
+          "innerLife": "Inner life exploration takes a profound turn this year as you delve into your life's mission. Pluto's retrograde and other significant transits prompt a reevaluation of your spiritual beliefs and what truly matters to you. You may feel drawn to practices that foster introspection, such as meditation or journaling, to navigate these waters. This is a time to connect deeply with your inner truth, shedding old patterns and embracing a more authentic self. This journey may not always be easy, but it's in these moments of solitude and reflection that meaningful transformation occurs, setting the stage for personal evolution.",
+          "growth": "Personal growth is at the forefront, with opportunities to expand your knowledge and exercise your communication skills. The theme of growth opportunity suggests a period ripe for learning and self-development. You might be inspired to enroll in a course or workshop that challenges your mind and broadens your perspective. With Mercury's influence, there may be moments of intense learning or speaking engagements that showcase your talents. Embrace these blue days where your energy and actions align, allowing you to forge new paths and strengthen your mental agility, equipping you for future challenges.",
+          "health": "Health remains a cornerstone of the year, with an emphasis on maintaining physical balance and well-being. With transits highlighting health and body, it's a perfect time to adopt a new fitness regimen or dietary plan that supports your dynamic lifestyle. Pay attention to the signals your body sends, especially during periods of high stress or change. Establishing a routine that includes mindfulness practices can be beneficial in maintaining equilibrium. This focus on health is not only about physical strength but also about nurturing your mental and emotional resilience, ensuring you remain robust throughout the year's challenges."
+        },
+        "detailedDrivers": [
+          {
+            "id": "tr_saturn_asc_square_2026-03-24",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "asc",
+            "aspect": "square",
+            "startDate": "2026-03-24",
+            "endDate": "2026-05-04",
+            "exactDate": "2026-04-13",
+            "score": 84,
+            "title": "Saturn Kare Yukselen",
+            "rangeText": "2026-03-24 - 2026-05-04 arasi (doruk: 2026-04-13)"
+          },
+          {
+            "id": "tr_saturn_moon_opposition_2026-03-25",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "moon",
+            "aspect": "opposition",
+            "startDate": "2026-03-25",
+            "endDate": "2026-05-14",
+            "exactDate": "2026-04-17",
+            "score": 84,
+            "title": "Saturn Karsit Ay",
+            "rangeText": "2026-03-25 - 2026-05-14 arasi (doruk: 2026-04-17)"
+          },
+          {
+            "id": "tr_saturn_venus_opposition_2026-03-22",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "venus",
+            "aspect": "opposition",
+            "startDate": "2026-03-22",
+            "endDate": "2026-05-11",
+            "exactDate": "2026-04-15",
+            "score": 79,
+            "title": "Saturn Karsit Venus",
+            "rangeText": "2026-03-22 - 2026-05-11 arasi (doruk: 2026-04-15)"
+          },
+          {
+            "id": "tr_jupiter_sun_square_2026-06-02",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "sun",
+            "aspect": "square",
+            "startDate": "2026-06-02",
+            "endDate": "2026-06-25",
+            "exactDate": "2026-06-14",
+            "score": 76,
+            "title": "Jupiter Kare Gunes",
+            "rangeText": "2026-06-02 - 2026-06-25 arasi (doruk: 2026-06-14)"
+          },
+          {
+            "id": "tr_jupiter_mc_trine_2026-03-12",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "mc",
+            "aspect": "trine",
+            "startDate": "2026-03-12",
+            "endDate": "2026-04-24",
+            "exactDate": "2026-03-28",
+            "score": 74,
+            "title": "Jupiter Ucgen MC",
+            "rangeText": "2026-03-12 - 2026-04-24 arasi (doruk: 2026-03-28)"
+          },
+          {
+            "id": "tr_retro_pluto_2026-05-07",
+            "phaseId": "phase_1",
+            "type": "retrograde",
+            "color": "retro",
+            "transitPlanet": "pluto",
+            "natalPlanet": null,
+            "aspect": null,
+            "startDate": "2026-05-07",
+            "endDate": "2026-10-16",
+            "exactDate": "2026-05-07",
+            "score": 73,
+            "title": "Pluton Retrosu",
+            "rangeText": "2026-05-07 - 2026-10-16 arasi (doruk: 2026-05-07)"
+          },
+          {
+            "id": "tr_mars_mc_conjunction_2026-03-19",
+            "phaseId": "phase_1",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "mars",
+            "natalPlanet": "mc",
+            "aspect": "conjunction",
+            "startDate": "2026-03-19",
+            "endDate": "2026-03-25",
+            "exactDate": "2026-03-22",
+            "score": 73,
+            "title": "Mars Kavusum MC",
+            "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
+          },
+          {
+            "id": "tr_jupiter_sun_square_2026-06-02",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "sun",
+            "aspect": "square",
+            "startDate": "2026-06-02",
+            "endDate": "2026-06-25",
+            "exactDate": "2026-06-14",
+            "score": 76,
+            "title": "Jupiter Kare Gunes",
+            "rangeText": "2026-06-02 - 2026-06-25 arasi (doruk: 2026-06-14)"
+          },
+          {
+            "id": "tr_mars_asc_conjunction_2026-08-18",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "mars",
+            "natalPlanet": "asc",
+            "aspect": "conjunction",
+            "startDate": "2026-08-18",
+            "endDate": "2026-08-26",
+            "exactDate": "2026-08-22",
+            "score": 76,
+            "title": "Mars Kavusum Yukselen",
+            "rangeText": "2026-08-18 - 2026-08-26 arasi (doruk: 2026-08-22)"
+          },
+          {
+            "id": "tr_retro_pluto_2026-05-07",
+            "phaseId": "phase_2",
+            "type": "retrograde",
+            "color": "retro",
+            "transitPlanet": "pluto",
+            "natalPlanet": null,
+            "aspect": null,
+            "startDate": "2026-05-07",
+            "endDate": "2026-10-16",
+            "exactDate": "2026-05-07",
+            "score": 73,
+            "title": "Pluton Retrosu",
+            "rangeText": "2026-05-07 - 2026-10-16 arasi (doruk: 2026-05-07)"
+          },
+          {
+            "id": "tr_uranus_uranus_conjunction_2026-03-12",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "uranus",
+            "natalPlanet": "uranus",
+            "aspect": "conjunction",
+            "startDate": "2026-03-12",
+            "endDate": "2026-06-30",
+            "exactDate": "2026-05-08",
+            "score": 71,
+            "title": "Uranus Kavusum Uranus",
+            "rangeText": "2026-03-12 - 2026-06-30 arasi (doruk: 2026-05-08)"
+          },
+          {
+            "id": "tr_jupiter_mercury_square_2026-09-12",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "mercury",
+            "aspect": "square",
+            "startDate": "2026-09-12",
+            "endDate": "2026-10-09",
+            "exactDate": "2026-09-25",
+            "score": 71,
+            "title": "Jupiter Kare Merkur",
+            "rangeText": "2026-09-12 - 2026-10-09 arasi (doruk: 2026-09-25)"
+          },
+          {
+            "id": "tr_pluto_moon_trine_2026-03-26",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "pluto",
+            "natalPlanet": "moon",
+            "aspect": "trine",
+            "startDate": "2026-03-26",
+            "endDate": "2026-06-18",
+            "exactDate": "2026-05-02",
+            "score": 69,
+            "title": "Pluton Ucgen Ay",
+            "rangeText": "2026-03-26 - 2026-06-18 arasi (doruk: 2026-05-02)"
+          },
+          {
+            "id": "tr_pluto_pluto_conjunction_2026-07-24",
+            "phaseId": "phase_2",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "pluto",
+            "natalPlanet": "pluto",
+            "aspect": "conjunction",
+            "startDate": "2026-07-24",
+            "endDate": "2027-01-01",
+            "exactDate": "2026-10-11",
+            "score": 69,
+            "title": "Pluton Kavusum Pluton",
+            "rangeText": "2026-07-24 - 2027-01-01 arasi (doruk: 2026-10-11)"
+          },
+          {
+            "id": "tr_saturn_moon_opposition_2026-10-14",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "moon",
+            "aspect": "opposition",
+            "startDate": "2026-10-14",
+            "endDate": "2027-02-04",
+            "exactDate": "2026-12-09",
+            "score": 84,
+            "title": "Saturn Karsit Ay",
+            "rangeText": "2026-10-14 - 2027-02-04 arasi (doruk: 2026-12-09)"
+          },
+          {
+            "id": "tr_saturn_asc_square_2026-10-28",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "asc",
+            "aspect": "square",
+            "startDate": "2026-10-28",
+            "endDate": "2027-01-22",
+            "exactDate": "2026-12-09",
+            "score": 80,
+            "title": "Saturn Kare Yukselen",
+            "rangeText": "2026-10-28 - 2027-01-22 arasi (doruk: 2026-12-09)"
+          },
+          {
+            "id": "tr_saturn_venus_opposition_2026-10-17",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "venus",
+            "aspect": "opposition",
+            "startDate": "2026-10-17",
+            "endDate": "2027-02-01",
+            "exactDate": "2026-12-09",
+            "score": 75,
+            "title": "Saturn Karsit Venus",
+            "rangeText": "2026-10-17 - 2027-02-01 arasi (doruk: 2026-12-09)"
+          },
+          {
+            "id": "tr_retro_pluto_2026-05-07",
+            "phaseId": "phase_3",
+            "type": "retrograde",
+            "color": "retro",
+            "transitPlanet": "pluto",
+            "natalPlanet": null,
+            "aspect": null,
+            "startDate": "2026-05-07",
+            "endDate": "2026-10-16",
+            "exactDate": "2026-05-07",
+            "score": 73,
+            "title": "Pluton Retrosu",
+            "rangeText": "2026-05-07 - 2026-10-16 arasi (doruk: 2026-05-07)"
+          },
+          {
+            "id": "tr_jupiter_mercury_square_2026-09-12",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "mercury",
+            "aspect": "square",
+            "startDate": "2026-09-12",
+            "endDate": "2026-10-09",
+            "exactDate": "2026-09-25",
+            "score": 71,
+            "title": "Jupiter Kare Merkur",
+            "rangeText": "2026-09-12 - 2026-10-09 arasi (doruk: 2026-09-25)"
+          },
+          {
+            "id": "tr_jupiter_mars_square_2026-09-14",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "jupiter",
+            "natalPlanet": "mars",
+            "aspect": "square",
+            "startDate": "2026-09-14",
+            "endDate": "2026-10-10",
+            "exactDate": "2026-09-26",
+            "score": 71,
+            "title": "Jupiter Kare Mars",
+            "rangeText": "2026-09-14 - 2026-10-10 arasi (doruk: 2026-09-26)"
+          },
+          {
+            "id": "tr_pluto_pluto_conjunction_2026-07-24",
+            "phaseId": "phase_3",
+            "type": "aspect",
+            "color": "change",
+            "transitPlanet": "pluto",
+            "natalPlanet": "pluto",
+            "aspect": "conjunction",
+            "startDate": "2026-07-24",
+            "endDate": "2027-01-01",
+            "exactDate": "2026-10-11",
+            "score": 69,
+            "title": "Pluton Kavusum Pluton",
+            "rangeText": "2026-07-24 - 2027-01-01 arasi (doruk: 2026-10-11)"
+          },
+          {
+            "id": "tr_saturn_moon_opposition_2026-10-14",
+            "phaseId": "phase_4",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "moon",
+            "aspect": "opposition",
+            "startDate": "2026-10-14",
+            "endDate": "2027-02-04",
+            "exactDate": "2026-12-09",
+            "score": 84,
+            "title": "Saturn Karsit Ay",
+            "rangeText": "2026-10-14 - 2027-02-04 arasi (doruk: 2026-12-09)"
+          },
+          {
+            "id": "tr_saturn_asc_square_2026-10-28",
+            "phaseId": "phase_4",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "asc",
+            "aspect": "square",
+            "startDate": "2026-10-28",
+            "endDate": "2027-01-22",
+            "exactDate": "2026-12-09",
+            "score": 80,
+            "title": "Saturn Kare Yukselen",
+            "rangeText": "2026-10-28 - 2027-01-22 arasi (doruk: 2026-12-09)"
+          },
+          {
+            "id": "tr_saturn_venus_opposition_2026-10-17",
+            "phaseId": "phase_4",
+            "type": "aspect",
+            "color": "danger",
+            "transitPlanet": "saturn",
+            "natalPlanet": "venus",
+            "aspect": "opposition",
+            "startDate": "2026-10-17",
+            "endDate": "2027-02-01",
+            "exactDate": "2026-12-09",
+            "score": 75,
+            "title": "Saturn Karsit Venus",
+            "rangeText": "2026-10-17 - 2027-02-01 arasi (doruk: 2026-12-09)"
+          },
+          {
+            "id": "tr_pluto_moon_trine_2027-01-25",
+            "phaseId": "phase_4",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "pluto",
+            "natalPlanet": "moon",
+            "aspect": "trine",
+            "startDate": "2027-01-25",
+            "endDate": "2027-03-12",
+            "exactDate": "2027-03-12",
+            "score": 72,
+            "title": "Pluton Ucgen Ay",
+            "rangeText": "2027-01-25 - 2027-03-12 arasi (doruk: 2027-03-12)"
+          }
+        ],
+        "background": [],
+        "stats": {
+          "rawEventCount": 317,
+          "filteredEventCount": 317,
+          "clusterCount": 11,
+          "phaseCount": 4,
+          "retrogradeCount": 10,
+          "aiCallCount": 2,
+          "aiCallBFailed": false,
+          "pipelineMs": 41733
+        },
+        "locationsUsed": [
+          {
+            "city": "Istanbul",
+            "latitude": 41.0082,
+            "longitude": 28.9784,
+            "utcOffset": 3,
+            "timezone": "Europe/Istanbul",
+            "startDate": "2026-03-12",
+            "endDate": "2027-03-12"
+          }
+        ]
+      }
+    }
+  }
+}

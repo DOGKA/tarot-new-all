@@ -672,7 +672,7 @@ export default function WelcomeScreen() {
 
             {/* Market */}
             <TouchableOpacity style={styles.barCell} onPress={() => router.push("/market")} activeOpacity={0.7}>
-              <Text style={styles.barTextMarket}>Market</Text>
+              <MaterialCommunityIcons name="cart-outline" size={18} color="#fbbf24" />
             </TouchableOpacity>
           </View>
         </View>

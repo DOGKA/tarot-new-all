@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { useTranslation } from "react-i18next";
 import { FOCUS_AREA_CONFIG } from "./constants";
 
 const { width: SCREEN_W } = Dimensions.get("window");
@@ -45,6 +46,7 @@ export default function FocusAreasSection({ areas }: { areas: FocusAreas }) {
     (k) => areas[k] !== ""
   );
 
+  const { t } = useTranslation();
   const [selectedKey, setSelectedKey] = useState<string | null>(
     keys[Math.floor(keys.length / 2)] || null
   );
@@ -52,7 +54,7 @@ export default function FocusAreasSection({ areas }: { areas: FocusAreas }) {
   if (keys.length === 0) return null;
 
   const selectedConfig = selectedKey
-    ? FOCUS_AREA_CONFIG[selectedKey] || { label: selectedKey, color: "#a78bfa" }
+    ? FOCUS_AREA_CONFIG[selectedKey] || { label: selectedKey, i18nKey: "", color: "#a78bfa" }
     : null;
 
   return (
@@ -89,7 +91,7 @@ export default function FocusAreasSection({ areas }: { areas: FocusAreas }) {
                   color={config.color}
                 />
                 <Text style={[s.label, { color: config.color }]} numberOfLines={3}>
-                  {config.label}
+                  {config.i18nKey ? t(config.i18nKey) : config.label}
                 </Text>
               </LinearGradient>
             </TouchableOpacity>
@@ -101,7 +103,7 @@ export default function FocusAreasSection({ areas }: { areas: FocusAreas }) {
       {selectedKey && selectedConfig && (
         <View style={[s.descBox, { borderColor: selectedConfig.color + "20" }]}>
           <Text style={[s.descTitle, { color: selectedConfig.color }]}>
-            {selectedConfig.label}
+            {selectedConfig.i18nKey ? t(selectedConfig.i18nKey) : selectedConfig.label}
           </Text>
           <Text style={s.descText}>{areas[selectedKey as keyof FocusAreas]}</Text>
         </View>

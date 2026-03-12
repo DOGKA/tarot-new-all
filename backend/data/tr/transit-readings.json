@@ -2141,6 +2141,522 @@
           }
         ]
       }
+    },
+    "dev_1772623594408_gro4e2o2:1:tr:v4:edd0c48ef2": {
+      "createdAt": "2026-03-12T11:30:05.300Z",
+      "months": 1,
+      "lang": "tr",
+      "locationsHash": "edd0c48ef2",
+      "locations": [
+        {
+          "city": "Istanbul",
+          "latitude": 41.0082,
+          "longitude": 28.9784,
+          "utcOffset": 3,
+          "timezone": "Europe/Istanbul",
+          "startDate": "2026-03-12",
+          "endDate": "2026-04-12"
+        }
+      ],
+      "gemCost": 30,
+      "data": {
+        "formatVersion": 4,
+        "periodMode": "monthly",
+        "period": {
+          "start": "2026-03-12",
+          "end": "2026-04-12"
+        },
+        "months": 1,
+        "overview": {
+          "title": "Finansal Dönem: Güçlenme ve Zorluklar",
+          "summary": "Bu dönemde finansal kaynaklarını daha derinden değerlendirebilirsin. Hem maddi güçlenme hem de bazı zorluklarla karşılaşma potansiyelin var."
+        },
+        "phases": [],
+        "themes": [
+          {
+            "id": "money_resources",
+            "theme": "money_resources",
+            "label": "Para ve Kaynaklar",
+            "tier": "critical",
+            "maxScore": 94,
+            "window": "2026-03-13 – 2026-04-12",
+            "title": "Finansal Dönem: Güçlenme ve Zorluklar",
+            "summary": "Bu dönemde finansal kaynaklarını daha derinden değerlendirebilirsin. Hem maddi güçlenme hem de bazı zorluklarla karşılaşma potansiyelin var.",
+            "interpretation": "13 Mart'tan itibaren Plüton'un Venüs ile yaptığı olumlu açı, finansal anlamda daha derin ve etkili bir bakış açısı kazandırabilir. Bu süreçte, özellikle yatırım fırsatları ya da yeni gelir kaynakları üzerine düşünmen yararlı olabilir. Özellikle ay ortasına doğru, beklenmedik bir gelir artışı ya da değerli bir eşyanın satışı gündeme gelebilir. \n\nAncak 22 Mart'tan sonra Satürn'ün Venüs'e karşıt açısı, finansal disiplin ve harcamalar üzerinde ciddi bir baskı oluşturabilir. Beklenmedik harcamalar veya ödemelerle karşılaşabilirsin, bu nedenle bütçeni dikkatlice yönetmen önemli olacak. Ay sonuna doğru, harcamalarını kontrol altında tutmak ve tasarruf önlemleri almak faydalı olabilir.\n\n12 Nisan'da Plüton'un Venüs ile yaptığı mükemmel açı, finansal konularda bir dönüm noktası olabilir. Bu tarih civarında, geçmişte yaptığın yatırımların meyvesini toplayabilir veya önemli bir finansal karar alabilirsin. Maddi ilişkilerini uzun vadeli düşünerek hareket etmek, bu dönemi daha verimli geçirmeni sağlayabilir.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_pluto_venus_trine_2026-03-13",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "pluto",
+                "natalPlanet": "venus",
+                "aspect": "trine",
+                "startDate": "2026-03-13",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 67,
+                "title": "Pluton Ucgen Venus",
+                "rangeText": "2026-03-13 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_saturn_venus_opposition_2026-03-22",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "venus",
+                "aspect": "opposition",
+                "startDate": "2026-03-22",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 79,
+                "title": "Saturn Karsit Venus",
+                "rangeText": "2026-03-22 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              }
+            ]
+          },
+          {
+            "id": "relationship_values",
+            "theme": "relationship_values",
+            "label": "Iliskiler ve Degerler",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-03-12 – 2026-04-12",
+            "title": "İlişkilerde Denge ve Değerlendirme Zamanı",
+            "summary": "Mart ortası ile Nisan başı arasında ilişkilerinde bazı gerilimler ve değerlendirmeler yaşayabilirsin. Duygusal bağlarında dengeyi bulmak önemli olabilir.",
+            "interpretation": "12 Mart'ta Venüs'ün Yükselen ile kare açısı, ilişkilerinde bazı yüzleşmeler veya tartışmaların habercisi olabilir. Bu günlerde, bir arkadaşın veya partnerinle olan iletişimde yanlış anlaşılmalar yaşanabilir, bu yüzden sabırlı ve açık olmaya çalışmalısın. Ayın ilk haftasında, duygusal ihtiyaçlarını ve değerlerini sorgulaman gerekebilir.\n\n24 Mart'ta Venüs'ün Jüpiter ile kare açısı, ilişkilerde aşırıya kaçan beklentiler veya istekler getirebilir. Belki de bir ilişkinin sınırlarını yeniden değerlendirme zamanı gelmiştir. İlişkilerinde daha gerçekçi beklentiler geliştirmek, hayal kırıklıklarını önleyecektir. \n\n28 Mart'ta Venüs Güneş karşıtlığıyla, kendini ve isteklerini partnerine ifade etme ihtiyacı hissedebilirsin. Bu süreçte kendine ve başkalarına karşı dürüst olman önemli. 31 Mart'ta Venüs'ün Plüton'a kare açısı, ilişkilerinde gizli kalan duyguların yüzeye çıkmasına neden olabilir, bu da samimi ve derin konuşmalarla çözüm bulabilir.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_venus_asc_square_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "asc",
+                "aspect": "square",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-13",
+                "exactDate": "2026-03-12",
+                "score": 60,
+                "title": "Venus Kare Yukselen",
+                "rangeText": "2026-03-12 - 2026-03-13 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_moon_opposition_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "moon",
+                "aspect": "opposition",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 60,
+                "title": "Venus Karsit Ay",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_jupiter_square_2026-03-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "jupiter",
+                "aspect": "square",
+                "startDate": "2026-03-24",
+                "endDate": "2026-03-27",
+                "exactDate": "2026-03-26",
+                "score": 45,
+                "title": "Venus Kare Jupiter",
+                "rangeText": "2026-03-24 - 2026-03-27 arasi (doruk: 2026-03-26)"
+              },
+              {
+                "id": "tr_venus_sun_opposition_2026-03-26",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "sun",
+                "aspect": "opposition",
+                "startDate": "2026-03-26",
+                "endDate": "2026-03-30",
+                "exactDate": "2026-03-28",
+                "score": 56,
+                "title": "Venus Karsit Gunes",
+                "rangeText": "2026-03-26 - 2026-03-30 arasi (doruk: 2026-03-28)"
+              },
+              {
+                "id": "tr_pluto_moon_trine_2026-03-26",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "pluto",
+                "natalPlanet": "moon",
+                "aspect": "trine",
+                "startDate": "2026-03-26",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 69,
+                "title": "Pluton Ucgen Ay",
+                "rangeText": "2026-03-26 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_venus_pluto_square_2026-03-30",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "pluto",
+                "aspect": "square",
+                "startDate": "2026-03-30",
+                "endDate": "2026-04-02",
+                "exactDate": "2026-03-31",
+                "score": 45,
+                "title": "Venus Kare Pluton",
+                "rangeText": "2026-03-30 - 2026-04-02 arasi (doruk: 2026-03-31)"
+              },
+              {
+                "id": "tr_venus_mercury_opposition_2026-04-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "mercury",
+                "aspect": "opposition",
+                "startDate": "2026-04-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 45,
+                "title": "Venus Karsit Merkur",
+                "rangeText": "2026-04-12 (doruk: 2026-04-12)"
+              }
+            ]
+          },
+          {
+            "id": "career_direction",
+            "theme": "career_direction",
+            "label": "Kariyer ve Yon",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-03-19 – 2026-04-12",
+            "title": "Kariyer Yolunda Atılım ve İletişim",
+            "summary": "Mart ortasından Nisan başına kadar olan süreçte kariyerinde atılım yapma fırsatın var. İletişim becerilerini kullanarak önemli adımlar atabilirsin.",
+            "interpretation": "19 Mart'ta Mars'ın tepe noktasına kavuşumu, kariyer hayatında enerji ve motivasyonun yükseleceği bir dönemi işaret ediyor. Bu tarihlerde, iş görüşmeleri veya projelerde inisiyatif almak için cesaretin artabilir. Özellikle 22 Mart civarında, yeni bir iş teklifi veya terfi ile karşılaşabilirsin.\n\n31 Mart'tan itibaren Merkür'ün tepe noktasına kavuşumu, iletişim becerilerini ön plana çıkaracak. İş yerinde sunumlar yapmak, fikirlerini ifade etmek veya yeni bağlantılar kurmak için harika bir zaman. 3 Nisan civarında, önemli bir toplantıda söz alabilir veya yeni bir projeye öncülük edebilirsin.\n\n11 Nisan'da Venüs'ün tepe noktasına yaptığı olumlu açı, kariyerinde daha iyi ilişkiler geliştirme fırsatı sunabilir. İş arkadaşlarınla veya üstlerinle daha uyumlu çalışmak, projelerinde başarıyı artıracaktır. Bu dönemde sosyal etkinliklere katılmak, iş yaşamında yeni kapılar açabilir.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_mars_mc_conjunction_2026-03-19",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "mars",
+                "natalPlanet": "mc",
+                "aspect": "conjunction",
+                "startDate": "2026-03-19",
+                "endDate": "2026-03-25",
+                "exactDate": "2026-03-22",
+                "score": 73,
+                "title": "Mars Kavusum MC",
+                "rangeText": "2026-03-19 - 2026-03-25 arasi (doruk: 2026-03-22)"
+              },
+              {
+                "id": "tr_mercury_mc_conjunction_2026-03-31",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "mercury",
+                "natalPlanet": "mc",
+                "aspect": "conjunction",
+                "startDate": "2026-03-31",
+                "endDate": "2026-04-05",
+                "exactDate": "2026-04-03",
+                "score": 63,
+                "title": "Merkur Kavusum MC",
+                "rangeText": "2026-03-31 - 2026-04-05 arasi (doruk: 2026-04-03)"
+              },
+              {
+                "id": "tr_venus_mc_sextile_2026-04-11",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "venus",
+                "natalPlanet": "mc",
+                "aspect": "sextile",
+                "startDate": "2026-04-11",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 50,
+                "title": "Venus Sekstil MC",
+                "rangeText": "2026-04-11 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              }
+            ]
+          },
+          {
+            "id": "structural_pressure",
+            "theme": "structural_pressure",
+            "label": "Yapisal Baski",
+            "tier": "critical",
+            "maxScore": 93,
+            "window": "2026-03-24 – 2026-04-12",
+            "title": "Yapısal Zorluklar ve Kişisel Dönüşüm",
+            "summary": "Mart sonu ile Nisan ortası arasında bazı yapısal zorluklarla karşılaşabilirsin. Özellikle kişisel sınırlarını yeniden tanımlaman gerekebilir.",
+            "interpretation": "24 Mart'ta Satürn'ün Yükselen ile yaptığı kare açı, kişisel sınırlarını ve sorumluluklarını yeniden gözden geçirmeni gerektirebilir. Bu süreçte, üzerindeki baskılar artabilir, bu nedenle zaman yönetimine ve disipline önem vermen gerekebilir. Özellikle ailevi veya iş bağlantılı sorumluluklar, bu dönemde daha ön planda olabilir.\n\n25 Mart'ta başlayan Satürn'ün Ay'a karşıt açısı, duygusal olarak kendini kısıtlanmış hissedebileceğin bir dönemi işaret ediyor. Bu tarihlerde, geçmişten gelen duygusal yüklerle yüzleşmen gerekebilir. Kendine karşı nazik olmak ve duygularını anlayarak hareket etmek önemli.\n\nNisan başına doğru, özellikle 12 Nisan'da, bu yapısal baskıların ve zorlukların, kişisel olarak daha güçlü ve dirençli hale gelmeni sağladığını fark edebilirsin. Kendine olan güvenin artabilir ve bu süreçte öğrendiklerin, gelecekteki hedeflerin için sağlam bir temel oluşturabilir.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_saturn_asc_square_2026-03-24",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "asc",
+                "aspect": "square",
+                "startDate": "2026-03-24",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 84,
+                "title": "Saturn Kare Yukselen",
+                "rangeText": "2026-03-24 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_saturn_moon_opposition_2026-03-25",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "saturn",
+                "natalPlanet": "moon",
+                "aspect": "opposition",
+                "startDate": "2026-03-25",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 80,
+                "title": "Saturn Karsit Ay",
+                "rangeText": "2026-03-25 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              }
+            ]
+          },
+          {
+            "id": "general_transit",
+            "theme": "general_transit",
+            "label": "Genel Etkiler",
+            "tier": "critical",
+            "maxScore": 92,
+            "window": "2026-03-12 – 2026-04-12",
+            "title": "Genel Etkiler: Yenilik ve Huzur Arayışı",
+            "summary": "Mart ortasından itibaren farklı gezegen etkileri yaşamında değişiklik ve huzur arayışını tetikleyebilir. Bu dönemde cesur adımlar atabilirsin.",
+            "interpretation": "12 Mart'ta Satürn ve Plüton'un olumlu açısı, hayatında derin bir dönüşüm ve yeniden yapılandırma ihtiyacı getirebilir. Bu tarihlerde, eski alışkanlıklarını bırakmak ve yeni, daha sağlam temeller kurmak için fırsatlar doğabilir. Özellikle iş ve kişisel yaşam dengeni yeniden kurmak için bu dönemi değerlendirebilirsin.\n\nUranüs ve Satürn'ün 12 Mart'ta yaptığı olumlu açı, yenilikçi fikirler ve özgürlük arayışını tetikleyebilir. Bu süreçte, beklenmedik fırsatlarla karşılaşabileceğin gibi, kendi kurallarını koyarak yaşam tarzında önemli değişiklikler yapabilirsin. Özellikle 24 Mart'a kadar olan süreçte, kendini yenilemek için cesur adımlar atabilirsin.\n\nNeptün'ün Uranüs ve Plüton ile olan olumlu açıları, hayallerini gerçekleştirmek için ilham verici bir etki sağlayabilir. Ay sonuna kadar, iç huzurunu yakalamak için meditasyon, yoga gibi pratiklerle ruhsal denge ve rahatlama arayışında olabilirsin. Bu süreçte sezgilerini dinlemek ve içsel rehberliğine güvenmek, sana huzur getirecektir.",
+            "intensity": "medium",
+            "events": [
+              {
+                "id": "tr_saturn_pluto_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "saturn",
+                "natalPlanet": "pluto",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 46,
+                "title": "Saturn Sekstil Pluton",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_venus_venus_opposition_2026-03-12",
+                "type": "aspect",
+                "color": "danger",
+                "transitPlanet": "venus",
+                "natalPlanet": "venus",
+                "aspect": "opposition",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 55,
+                "title": "Venus Karsit Venus",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_mars_asc_trine_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "mars",
+                "natalPlanet": "asc",
+                "aspect": "trine",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-14",
+                "exactDate": "2026-03-12",
+                "score": 59,
+                "title": "Mars Ucgen Yukselen",
+                "rangeText": "2026-03-12 - 2026-03-14 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_saturn_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "uranus",
+                "natalPlanet": "saturn",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-03-24",
+                "exactDate": "2026-03-12",
+                "score": 46,
+                "title": "Uranus Sekstil Saturn",
+                "rangeText": "2026-03-12 - 2026-03-24 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_uranus_conjunction_2026-03-12",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "uranus",
+                "natalPlanet": "uranus",
+                "aspect": "conjunction",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 64,
+                "title": "Uranus Kavusum Uranus",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_neptune_uranus_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "neptune",
+                "natalPlanet": "uranus",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-03-12",
+                "score": 52,
+                "title": "Neptun Sekstil Uranus",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_neptune_conjunction_2026-03-12",
+                "type": "aspect",
+                "color": "change",
+                "transitPlanet": "neptune",
+                "natalPlanet": "neptune",
+                "aspect": "conjunction",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-03-12",
+                "score": 64,
+                "title": "Neptun Kavusum Neptun",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_neptune_pluto_sextile_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "neptune",
+                "natalPlanet": "pluto",
+                "aspect": "sextile",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-03-12",
+                "score": 56,
+                "title": "Neptun Sekstil Pluton",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-03-12)"
+              },
+              {
+                "id": "tr_uranus_neptune_sextile_2026-03-13",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "uranus",
+                "natalPlanet": "neptune",
+                "aspect": "sextile",
+                "startDate": "2026-03-13",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-04-12",
+                "score": 52,
+                "title": "Uranus Sekstil Neptun",
+                "rangeText": "2026-03-13 - 2026-04-12 arasi (doruk: 2026-04-12)"
+              },
+              {
+                "id": "tr_mars_mercury_trine_2026-03-23",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "mars",
+                "natalPlanet": "mercury",
+                "aspect": "trine",
+                "startDate": "2026-03-23",
+                "endDate": "2026-03-28",
+                "exactDate": "2026-03-26",
+                "score": 55,
+                "title": "Mars Ucgen Merkur",
+                "rangeText": "2026-03-23 - 2026-03-28 arasi (doruk: 2026-03-26)"
+              }
+            ]
+          },
+          {
+            "id": "life_purpose",
+            "theme": "life_purpose",
+            "label": "Yasam Misyonu",
+            "tier": "critical",
+            "maxScore": 82,
+            "window": "2026-03-12 – 2026-04-12",
+            "title": "Yaşam Amacının Keşfi: Genişleme ve Büyüme",
+            "summary": "Bu dönemde yaşam amacınla ilgili derin düşünceler ve keşifler yapabilirsin. Jüpiter'in etkisiyle fırsatlar ön plana çıkıyor.",
+            "interpretation": "12 Mart'tan itibaren Jüpiter'in tepe noktasına yaptığı olumlu açı, yaşam amacını daha geniş bir perspektiften değerlendirme fırsatı sunuyor. Bu süreçte, kariyerinle ilgili yeni hedefler belirleyebilirsin. 28 Mart civarında, bir mentor veya lider figürünün rehberliğinde hayatına yön verecek önemli kararlar alabilirsin.\n\nBu süreçte, eğitim veya yurt dışı ile bağlantılı bir fırsat karşına çıkabilir. Belki de uzun zamandır düşündüğün bir kursa katılmak veya yeni bir dil öğrenmek için harekete geçmelisin. Jüpiter'in genişletici etkisi, bu dönemde seni cesaretlendirecek ve yeni ufuklara açılmana yardımcı olacaktır.\n\nNisan ayının ilk haftasında, yaşam amacının daha belirgin hale geldiğini hissedebilirsin. Bu dönemde, içsel huzur ve tatmin arayışında derinlemesine düşünceler içerisinde olabilirsin. Hem kişisel hem de profesyonel yaşamında daha geniş bir vizyon geliştirmek, bu dönemin en büyük getirilerinden biri olabilir.",
+            "intensity": "high",
+            "events": [
+              {
+                "id": "tr_jupiter_mc_trine_2026-03-12",
+                "type": "aspect",
+                "color": "opportunity",
+                "transitPlanet": "jupiter",
+                "natalPlanet": "mc",
+                "aspect": "trine",
+                "startDate": "2026-03-12",
+                "endDate": "2026-04-12",
+                "exactDate": "2026-03-28",
+                "score": 74,
+                "title": "Jupiter Ucgen MC",
+                "rangeText": "2026-03-12 - 2026-04-12 arasi (doruk: 2026-03-28)"
+              }
+            ]
+          }
+        ],
+        "retrogradeWindows": [],
+        "milestones": [],
+        "recurringThemes": [],
+        "focusAreas": {
+          "career": "",
+          "relationships": "",
+          "innerLife": "",
+          "growth": "",
+          "health": ""
+        },
+        "detailedDrivers": [],
+        "background": [
+          {
+            "id": "tr_mercury_jupiter_trine_2026-04-09",
+            "type": "aspect",
+            "color": "opportunity",
+            "transitPlanet": "mercury",
+            "natalPlanet": "jupiter",
+            "aspect": "trine",
+            "startDate": "2026-04-09",
+            "endDate": "2026-04-12",
+            "exactDate": "2026-04-11",
+            "score": 34,
+            "title": "Merkur Ucgen Jupiter",
+            "rangeText": "2026-04-09 - 2026-04-12 arasi (doruk: 2026-04-11)"
+          }
+        ],
+        "stats": {
+          "rawEventCount": 40,
+          "filteredEventCount": 40,
+          "clusterCount": 9,
+          "phaseCount": 0,
+          "retrogradeCount": 0,
+          "aiCallCount": 1,
+          "aiCallBFailed": false,
+          "pipelineMs": 32088
+        },
+        "locationsUsed": [
+          {
+            "city": "Istanbul",
+            "latitude": 41.0082,
+            "longitude": 28.9784,
+            "utcOffset": 3,
+            "timezone": "Europe/Istanbul",
+            "startDate": "2026-03-12",
+            "endDate": "2026-04-12"
+          }
+        ]
+      }
     }
   }
 }

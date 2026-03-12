@@ -45,10 +45,10 @@ type TransitLocation = {
 };
 
 const PERIODS = [
-  { months: 1, gems: 30, premium: false },
-  { months: 3, gems: 50, premium: true },
-  { months: 6, gems: 75, premium: true },
-  { months: 12, gems: 100, premium: true },
+  { months: 1, gems: 50, premium: false },
+  { months: 3, gems: 75, premium: true },
+  { months: 6, gems: 100, premium: true },
+  { months: 12, gems: 150, premium: true },
 ];
 
 const LOCATION_MOCKUPS: TransitLocation[] = [
@@ -159,7 +159,7 @@ export default function TransitScreen() {
       }))
       .filter((l) => l.city && Number.isFinite(l.latitude) && Number.isFinite(l.longitude) && Number.isFinite(l.utcOffset));
     if (normalized.length === 0) {
-      setError("En az 1 geçerli konum gir (şehir, lat, lon, UTC).");
+      setError(t("transitMinLocation"));
       return;
     }
     setLoadingMonths(months);
@@ -179,7 +179,7 @@ export default function TransitScreen() {
         } else if (json.error === "INSUFFICIENT_GEMSTONES") {
           setError(t("transitNeedGems", { required: json.required || 0, balance: gemstoneBalance }));
         } else if (json.error === "LOCATIONS_REQUIRED") {
-          setError("Konum bilgisi gerekli. En az 1 konum ekle.");
+          setError(t("transitLocationRequired"));
         } else {
           setError(json.error || t("transitLoadError"));
         }
@@ -192,7 +192,7 @@ export default function TransitScreen() {
       router.push({ pathname: "/transit/detail", params: { months: String(months), t: String(Date.now()) } });
     } catch (e: any) {
       if (e?.name === "AbortError") {
-        setError("Transit istegi zaman asimina ugradi. Backend baglantisini kontrol edip tekrar dene.");
+        setError(t("transitTimeout"));
       } else {
       setError(e.message || t("transitLoadError"));
       }
@@ -221,14 +221,14 @@ export default function TransitScreen() {
         {!isLocked && (
           <>
             <View style={styles.locWrap}>
-              <Text style={styles.locTitle}>Konum Planı (lat/lon/UTC)</Text>
+              <Text style={styles.locTitle}>{t("transitLocationTitle")}</Text>
               {locations.map((loc, idx) => (
                 <View key={idx} style={styles.locCard}>
                   <View style={styles.locRow}>
                     <TextInput
                       value={loc.city}
                       onChangeText={(v) => setLocations((arr) => arr.map((x, i) => (i === idx ? { ...x, city: v } : x)))}
-                      placeholder="Şehir"
+                      placeholder={t("transitCityPlaceholder")}
                       placeholderTextColor="rgba(255,255,255,0.35)"
                       style={[styles.input, { flex: 1 }]}
                     />
@@ -260,14 +260,14 @@ export default function TransitScreen() {
                     <TextInput
                       value={loc.startDate}
                       onChangeText={(v) => setLocations((arr) => arr.map((x, i) => (i === idx ? { ...x, startDate: v } : x)))}
-                      placeholder="Başlangıç (YYYY-MM-DD)"
+                      placeholder={t("transitStartDate")}
                       placeholderTextColor="rgba(255,255,255,0.35)"
                       style={[styles.input, { flex: 1 }]}
                     />
                     <TextInput
                       value={loc.endDate}
                       onChangeText={(v) => setLocations((arr) => arr.map((x, i) => (i === idx ? { ...x, endDate: v } : x)))}
-                      placeholder="Bitiş (YYYY-MM-DD)"
+                      placeholder={t("transitEndDate")}
                       placeholderTextColor="rgba(255,255,255,0.35)"
                       style={[styles.input, { flex: 1 }]}
                     />
@@ -281,7 +281,7 @@ export default function TransitScreen() {
                   />
                   {locations.length > 1 && (
                     <TouchableOpacity onPress={() => setLocations((arr) => arr.filter((_, i) => i !== idx))}>
-                      <Text style={styles.removeLoc}>Konumu Sil</Text>
+                      <Text style={styles.removeLoc}>{t("transitRemoveLocation")}</Text>
                     </TouchableOpacity>
                   )}
                 </View>
@@ -295,7 +295,7 @@ export default function TransitScreen() {
                   })
                 }
               >
-                <Text style={styles.addLocText}>+ Konum Ekle</Text>
+                <Text style={styles.addLocText}>{t("transitAddLocation")}</Text>
               </TouchableOpacity>
             </View>
 
@@ -340,8 +340,8 @@ export default function TransitScreen() {
             <View style={styles.progressWrap}>
               <Text style={styles.progressText}>
                 {loadingPhase === "calculating"
-                  ? "Transitler hesaplaniyor..."
-                  : "Yorumlar hazirlaniyor..."}
+                  ? t("transitCalculating")
+                  : t("transitInterpreting")}
               </Text>
               <Text style={styles.progressPercent}>%{Math.max(1, Math.round(loadingProgress))}</Text>
               <View style={styles.progressTrack}>
@@ -351,18 +351,18 @@ export default function TransitScreen() {
                 <View style={styles.phaseRow}>
                   <View style={[styles.phaseDot, loadingPhase === "calculating" ? styles.phaseDotActive : loadingProgress > 45 ? styles.phaseDotDone : null]} />
                   <Text style={[styles.phaseLabel, loadingPhase === "calculating" && styles.phaseLabelActive]}>
-                    1/2 Hesaplama
+                    {t("transitPhaseCalc")}
                   </Text>
                 </View>
                 <View style={styles.phaseRow}>
                   <View style={[styles.phaseDot, loadingPhase === "interpreting" ? styles.phaseDotActive : null]} />
                   <Text style={[styles.phaseLabel, loadingPhase === "interpreting" && styles.phaseLabelActive]}>
-                    2/2 Yorumlama
+                    {t("transitPhaseInterp")}
                   </Text>
                 </View>
               </View>
               {loadingProgress >= 99 && (
-                <Text style={styles.progressWait}>Lutfen bekleyiniz...</Text>
+                <Text style={styles.progressWait}>{t("transitPleaseWait")}</Text>
               )}
             </View>
           </View>
@@ -373,7 +373,7 @@ export default function TransitScreen() {
         {data && !isLocked && (
           <View style={styles.successBox}>
             <Text style={styles.successText}>
-              {t("transitTimelineTitle", { months: data.months })} hazir
+              {t("transitTimelineTitle", { months: data.months })} {t("transitReady")}
             </Text>
             <Text style={styles.successSub}>
               {data.period.start} → {data.period.end} • {data.periodMode || "standard"} • {data.stats?.rawEventCount || data.stats?.totalRaw || 0} transit
@@ -382,7 +382,7 @@ export default function TransitScreen() {
               style={styles.viewBtn}
               onPress={() => router.push({ pathname: "/transit/detail", params: { months: String(data.months), t: String(Date.now()) } })}
             >
-              <Text style={styles.viewBtnText}>Okumasi Goruntule →</Text>
+              <Text style={styles.viewBtnText}>{t("transitViewReading")}</Text>
             </TouchableOpacity>
           </View>
         )}

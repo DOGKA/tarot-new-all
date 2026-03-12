@@ -9,6 +9,7 @@ import {
   View,
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
+import { useTranslation } from "react-i18next";
 import { PHASE_GRADIENTS } from "./constants";
 import { ContributionGrid, formatRange, formatPeak } from "./ThemeDetailSheet";
 import type {
@@ -47,6 +48,7 @@ export default function PhaseDetailSheet({
   visible: boolean;
   onClose: () => void;
 }) {
+  const { t } = useTranslation();
   const scrollRef = useRef<ScrollView>(null);
   const calendarY = useRef(0);
   const [highlightEvent, setHighlightEvent] = useState<TransitEvent | null>(null);
@@ -95,7 +97,7 @@ export default function PhaseDetailSheet({
               {/* Stats */}
               <View style={s.statsRow}>
                 <Text style={s.stat}>
-                  <Text style={s.statNum}>{phaseDrivers.length}</Text> transit
+                  <Text style={s.statNum}>{phaseDrivers.length}</Text> {t("transitMetricTransit")}
                 </Text>
               </View>
 
@@ -122,7 +124,7 @@ export default function PhaseDetailSheet({
             </ScrollView>
 
             <TouchableOpacity style={s.closeBtn} onPress={onClose}>
-              <Text style={s.closeTxt}>Kapat</Text>
+              <Text style={s.closeTxt}>{t("transitClose")}</Text>
             </TouchableOpacity>
           </LinearGradient>
         </View>

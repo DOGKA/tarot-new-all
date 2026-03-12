@@ -12,20 +12,36 @@ export const TOKENS = {
   },
 };
 
-export const THEME_ICONS: Record<string, string> = {
-  identity_transformation: "Dönüşüm",
-  life_purpose: "Misyon",
-  career_direction: "Kariyer",
-  money_resources: "Para",
-  structural_pressure: "Yapılanma",
-  growth_opportunity: "Büyüme",
-  relationship_values: "İlişkiler",
-  health_body: "Sağlık",
-  spirituality_intuition: "Maneviyat",
-  communication_mental: "İletişim",
-  emotional_reset: "Duygusal",
-  energy_action: "Enerji",
-  general_transit: "Genel",
+export const THEME_I18N_KEYS: Record<string, string> = {
+  identity_transformation: "transitThemeTransformation",
+  life_purpose: "transitThemePurpose",
+  career_direction: "transitThemeCareer",
+  money_resources: "transitThemeMoney",
+  structural_pressure: "transitThemeStructure",
+  growth_opportunity: "transitThemeGrowth",
+  relationship_values: "transitThemeRelationships",
+  health_body: "transitThemeHealth",
+  spirituality_intuition: "transitThemeSpirituality",
+  communication_mental: "transitThemeCommunication",
+  emotional_reset: "transitThemeEmotional",
+  energy_action: "transitThemeEnergy",
+  general_transit: "transitThemeGeneral",
+};
+
+export const THEME_ICON_KEYS: Record<string, string> = {
+  identity_transformation: "transitThemeTransformation",
+  life_purpose: "transitThemePurpose",
+  career_direction: "transitThemeCareer",
+  money_resources: "transitThemeMoney",
+  structural_pressure: "transitThemeStructure",
+  growth_opportunity: "transitThemeGrowth",
+  relationship_values: "transitThemeRelationships",
+  health_body: "transitThemeHealth",
+  spirituality_intuition: "transitThemeSpirituality",
+  communication_mental: "transitThemeCommunication",
+  emotional_reset: "transitThemeEmotional",
+  energy_action: "transitThemeEnergy",
+  general_transit: "transitThemeGeneral",
 };
 
 export const COLOR_MAP: Record<string, string> = {
@@ -36,10 +52,10 @@ export const COLOR_MAP: Record<string, string> = {
   lunar: "#94a3b8",
 };
 
-export const INTENSITY_CONFIG: Record<string, { label: string; color: string; bg: string }> = {
-  high: { label: "Güçlü", color: "#fbbf24", bg: "rgba(251,191,36,0.15)" },
-  medium: { label: "Orta", color: "#a78bfa", bg: "rgba(167,139,250,0.12)" },
-  low: { label: "Hafif", color: "#6ee7b7", bg: "rgba(110,231,183,0.12)" },
+export const INTENSITY_CONFIG: Record<string, { labelKey: string; color: string; bg: string }> = {
+  high: { labelKey: "transitIntensityHigh", color: "#fbbf24", bg: "rgba(251,191,36,0.15)" },
+  medium: { labelKey: "transitIntensityMedium", color: "#a78bfa", bg: "rgba(167,139,250,0.12)" },
+  low: { labelKey: "transitIntensityLow", color: "#6ee7b7", bg: "rgba(110,231,183,0.12)" },
 };
 
 export const PLANET_COLORS: Record<string, string> = {
@@ -66,12 +82,12 @@ export const RETRO_CARD_COLORS: Record<string, { border: string; gradient: [stri
   pluto: { border: "rgba(192,132,252,0.35)", gradient: ["rgba(192,132,252,0.08)", "rgba(192,132,252,0.02)"] },
 };
 
-export const FOCUS_AREA_CONFIG: Record<string, { label: string; color: string }> = {
-  career: { label: "Kariyer ve Para", color: "#60a5fa" },
-  relationships: { label: "İlişkiler ve Değerler", color: "#fb7185" },
-  innerLife: { label: "İçsel Dönüşüm", color: "#c084fc" },
-  growth: { label: "Kişisel Büyüme", color: "#4ade80" },
-  health: { label: "Sağlık ve Beden", color: "#fbbf24" },
+export const FOCUS_AREA_CONFIG: Record<string, { label: string; i18nKey: string; color: string }> = {
+  career: { label: "Kariyer ve Para", i18nKey: "transitFocusCareer", color: "#60a5fa" },
+  relationships: { label: "İlişkiler ve Değerler", i18nKey: "transitFocusRelationships", color: "#fb7185" },
+  innerLife: { label: "İçsel Dönüşüm", i18nKey: "transitFocusInnerLife", color: "#c084fc" },
+  growth: { label: "Kişisel Büyüme", i18nKey: "transitFocusGrowth", color: "#4ade80" },
+  health: { label: "Sağlık ve Beden", i18nKey: "transitFocusHealth", color: "#fbbf24" },
 };
 
 export const PHASE_GRADIENTS: [string, string, string][] = [

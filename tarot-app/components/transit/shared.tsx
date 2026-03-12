@@ -1,12 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
 import { INTENSITY_CONFIG, PLANET_COLORS, PLANET_GLYPHS, getScoreColor } from "./constants";
 
 export function IntensityBadge({ intensity }: { intensity: string }) {
+  const { t } = useTranslation();
   const cfg = INTENSITY_CONFIG[intensity] || INTENSITY_CONFIG.medium;
   return (
     <View style={[st.intensityBadge, { backgroundColor: cfg.bg }]}>
-      <Text style={[st.intensityText, { color: cfg.color }]}>{cfg.label}</Text>
+      <Text style={[st.intensityText, { color: cfg.color }]}>{t(cfg.labelKey)}</Text>
     </View>
   );
 }

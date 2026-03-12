@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
+import { useTranslation } from "react-i18next";
 import Planet3D from "../ui/Planet3D";
 import { RETRO_CARD_COLORS, PLANET_COLORS } from "./constants";
 import { formatRange } from "./ThemeDetailSheet";
 import type { RetrogradeWindow } from "./types";
 
 export default function RetrogradeWindowCard({ retro }: { retro: RetrogradeWindow }) {
+  const { t } = useTranslation();
   const [expanded, setExpanded] = useState(false);
   const colors = RETRO_CARD_COLORS[retro.planet] || RETRO_CARD_COLORS.pluto;
   const planetColor = PLANET_COLORS[retro.planet] || "#c084fc";
@@ -26,8 +28,8 @@ export default function RetrogradeWindowCard({ retro }: { retro: RetrogradeWindo
         <View style={s.header}>
           <View style={[s.dot, { backgroundColor: planetColor }]} />
           <View style={{ flex: 1 }}>
-            <Text style={[s.planetName, { color: planetColor }]}>{retro.planetLabel} Retrosu</Text>
-            <Text style={s.dates}>{formatRange(retro.startDate, retro.endDate)}</Text>
+            <Text style={[s.planetName, { color: planetColor }]}>{retro.planetLabel} {t("transitRetroSuffix")}</Text>
+            <Text style={s.dates}>{formatRange(retro.startDate, retro.endDate, t)}</Text>
           </View>
           <Text style={s.chevron}>{expanded ? "▲" : "▼"}</Text>
         </View>

@@ -11,22 +11,27 @@ import {
 } from "react-native";
 import Svg, { Circle, Rect, Text as SvgText } from "react-native-svg";
 import { LinearGradient } from "expo-linear-gradient";
-import { THEME_ICONS, COLOR_MAP, INTENSITY_CONFIG } from "./constants";
+import { useTranslation } from "react-i18next";
+import { THEME_ICON_KEYS, THEME_I18N_KEYS, COLOR_MAP, INTENSITY_CONFIG } from "./constants";
 import type { TransitTheme, TransitEvent } from "./types";
 
 const { width: SCREEN_W } = Dimensions.get("window");
 
-const MONTHS_TR = [
-  "Oca", "Şub", "Mar", "Nis", "May", "Haz",
-  "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara",
+type TFunc = (key: string) => string;
+
+const MONTH_SHORT_KEYS = [
+  "transitMonthJan", "transitMonthFeb", "transitMonthMar", "transitMonthApr", "transitMonthMay", "transitMonthJun",
+  "transitMonthJul", "transitMonthAug", "transitMonthSep", "transitMonthOct", "transitMonthNov", "transitMonthDec",
 ];
 
-const MONTHS_TR_FULL = [
-  "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
-  "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık",
+const MONTH_FULL_KEYS = [
+  "transitMonthFullJan", "transitMonthFullFeb", "transitMonthFullMar", "transitMonthFullApr", "transitMonthFullMay", "transitMonthFullJun",
+  "transitMonthFullJul", "transitMonthFullAug", "transitMonthFullSep", "transitMonthFullOct", "transitMonthFullNov", "transitMonthFullDec",
 ];
 
-const DAY_LABELS = ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"];
+const DAY_KEYS = [
+  "transitDayMon", "transitDayTue", "transitDayWed", "transitDayThu", "transitDayFri", "transitDaySat", "transitDaySun",
+];
 
 const CELL = 18;
 const CELL_GAP = 3;
@@ -55,14 +60,14 @@ function addDays(d: Date, n: number) {
   return r;
 }
 
-export function formatRange(startDate: string, endDate: string): string {
+export function formatRange(startDate: string, endDate: string, t: TFunc): string {
   const s = parseDate(startDate);
   const e = parseDate(endDate);
   if (!s || !e) return `${startDate} – ${endDate}`;
   const sD = s.getDate();
   const eD = e.getDate();
-  const sM = MONTHS_TR_FULL[s.getMonth()];
-  const eM = MONTHS_TR_FULL[e.getMonth()];
+  const sM = t(MONTH_FULL_KEYS[s.getMonth()]);
+  const eM = t(MONTH_FULL_KEYS[e.getMonth()]);
   const sY = s.getFullYear();
   const eY = e.getFullYear();
   if (sY !== eY) return `${sD} ${sM} ${sY} – ${eD} ${eM} ${eY}`;
@@ -71,22 +76,22 @@ export function formatRange(startDate: string, endDate: string): string {
   return `${sD} ${sM} – ${eD} ${eM} ${sY}`;
 }
 
-export function formatPeak(exactDate: string): string {
+export function formatPeak(exactDate: string, t: TFunc): string {
   const d = parseDate(exactDate);
   if (!d) return exactDate;
-  return `${d.getDate()} ${MONTHS_TR_FULL[d.getMonth()].toUpperCase()}`;
+  return `${d.getDate()} ${t(MONTH_FULL_KEYS[d.getMonth()]).toUpperCase()}`;
 }
 
 /* ------------------------------------------------------------------ */
 /*  Contribution Grid Calendar                                         */
 /* ------------------------------------------------------------------ */
 
-const COLOR_LABELS: Record<string, string> = {
-  danger: "Zorluk",
-  opportunity: "Fırsat",
-  change: "Değişim",
-  retro: "Retro",
-  lunar: "Ay",
+const COLOR_I18N_KEYS: Record<string, string> = {
+  danger: "transitColorDanger",
+  opportunity: "transitColorOpportunity",
+  change: "transitColorChange",
+  retro: "transitColorRetro",
+  lunar: "transitColorLunar",
 };
 
 type CellData = {
@@ -123,6 +128,7 @@ function SingleColorGrid({
   onFlashDone?: () => void;
   onPressEvent?: (ev: TransitEvent) => void;
 }) {
+  const { t } = useTranslation();
   const [flashOn, setFlashOn] = useState(false);
 
   const flashDateSet = useMemo(() => {
@@ -147,6 +153,9 @@ function SingleColorGrid({
     const t3 = setTimeout(() => { setFlashOn(false); onFlashDone?.(); }, 900);
     return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); };
   }, [flashDateSet]);
+
+  const dayLabels = useMemo(() => DAY_KEYS.map((k) => t(k)), [t]);
+  const monthShort = useMemo(() => MONTH_SHORT_KEYS.map((k) => t(k)), [t]);
 
   const { cells, monthLabels, numWeeks, valid } = useMemo(() => {
     let minD: Date | null = null;
@@ -208,13 +217,13 @@ function SingleColorGrid({
     for (let w = 0; w < weeks; w++) {
       const firstDay = addDays(gridStart, w * 7);
       if (firstDay.getMonth() !== prevMonth) {
-        labels.push({ week: w, label: MONTHS_TR[firstDay.getMonth()] });
+        labels.push({ week: w, label: monthShort[firstDay.getMonth()] });
         prevMonth = firstDay.getMonth();
       }
     }
 
     return { cells: cellList, monthLabels: labels, numWeeks: weeks, valid: true };
-  }, [group.events]);
+  }, [group.events, monthShort]);
 
   if (!valid) return null;
 
@@ -229,7 +238,7 @@ function SingleColorGrid({
       </View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         <Svg width={gridW} height={gridH}>
-          {DAY_LABELS.map((label, row) => (
+          {dayLabels.map((label, row) => (
             <SvgText
               key={`dl${row}`}
               x={2}
@@ -323,11 +332,11 @@ function SingleColorGrid({
         >
           <View style={cal.eventLeft}>
             <Text style={cal.eventName}>{ev.title}</Text>
-            <Text style={cal.eventRange}>{formatRange(ev.startDate, ev.endDate)}</Text>
+            <Text style={cal.eventRange}>{formatRange(ev.startDate, ev.endDate, t)}</Text>
           </View>
           <View style={cal.peakBadge}>
-            <Text style={cal.peakBadgeText}>{formatPeak(ev.exactDate)}</Text>
-            <Text style={cal.peakLabel}>DORUK</Text>
+            <Text style={cal.peakBadgeText}>{formatPeak(ev.exactDate, t)}</Text>
+            <Text style={cal.peakLabel}>{t("transitPeak")}</Text>
           </View>
         </TouchableOpacity>
       ))}
@@ -348,6 +357,7 @@ export function ContributionGrid({
   onFlashDone?: () => void;
   onPressEvent?: (ev: TransitEvent) => void;
 }) {
+  const { t } = useTranslation();
   const groups = useMemo<ColorGroup[]>(() => {
     const map = new Map<string, TransitEvent[]>();
     for (const ev of events) {
@@ -359,17 +369,17 @@ export function ContributionGrid({
       .map(([colorKey, evs]) => ({
         colorKey,
         colorHex: COLOR_MAP[colorKey] || accentColor,
-        label: COLOR_LABELS[colorKey] || colorKey,
+        label: COLOR_I18N_KEYS[colorKey] ? t(COLOR_I18N_KEYS[colorKey]) : colorKey,
         events: evs,
       }))
       .sort((a, b) => b.events.length - a.events.length);
-  }, [events, accentColor]);
+  }, [events, accentColor, t]);
 
   if (groups.length === 0) return null;
 
   return (
     <View style={cal.container}>
-      <Text style={cal.title}>UZAY TAKVİMİ</Text>
+      <Text style={cal.title}>{t("transitSpaceCalendar")}</Text>
       {groups.map((g) => (
         <SingleColorGrid
           key={g.colorKey}
@@ -386,7 +396,7 @@ export function ContributionGrid({
       <View style={cal.legendRow}>
         <View style={cal.legendItem}>
           <View style={cal.legendPeakDot} />
-          <Text style={cal.legendText}>Doruk</Text>
+          <Text style={cal.legendText}>{t("transitPeakLabel")}</Text>
         </View>
       </View>
     </View>
@@ -500,6 +510,7 @@ export default function ThemeDetailSheet({
   visible: boolean;
   onClose: () => void;
 }) {
+  const { t } = useTranslation();
   const scrollRef = useRef<ScrollView>(null);
   const calendarY = useRef(0);
   const [highlightEvent, setHighlightEvent] = useState<TransitEvent | null>(null);
@@ -529,7 +540,7 @@ export default function ThemeDetailSheet({
               {/* Header row */}
               <View style={s.headerRow}>
                 <View style={[s.pill, { backgroundColor: `${ic.color}18` }]}>
-                  <Text style={[s.pillText, { color: ic.color }]}>{ic.label}</Text>
+                  <Text style={[s.pillText, { color: ic.color }]}>{t(ic.labelKey)}</Text>
                 </View>
                 <Text style={s.window}>{theme.window}</Text>
               </View>
@@ -541,7 +552,7 @@ export default function ThemeDetailSheet({
               <View style={s.catRow}>
                 <View style={[s.catDot, { backgroundColor: ic.color }]} />
                 <Text style={[s.catLabel, { color: ic.color }]}>
-                  {THEME_ICONS[theme.theme] || theme.label}
+                  {THEME_I18N_KEYS[theme.theme] ? t(THEME_I18N_KEYS[theme.theme]) : theme.label}
                 </Text>
               </View>
 
@@ -577,7 +588,7 @@ export default function ThemeDetailSheet({
 
             {/* Close button */}
             <TouchableOpacity style={s.closeBtn} onPress={onClose}>
-              <Text style={s.closeTxt}>Kapat</Text>
+              <Text style={s.closeTxt}>{t("transitClose")}</Text>
             </TouchableOpacity>
           </LinearGradient>
         </View>

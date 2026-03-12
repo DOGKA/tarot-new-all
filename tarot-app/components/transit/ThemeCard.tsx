@@ -1,16 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import { Animated, Easing, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { THEME_ICONS, COLOR_MAP } from "./constants";
+import { useTranslation } from "react-i18next";
+import { THEME_ICON_KEYS, COLOR_MAP, INTENSITY_CONFIG } from "./constants";
 import type { TransitTheme } from "./types";
 
-const INTENSITY_COLORS: Record<string, { color: string; bg: string; label: string }> = {
-  high: { color: "#fbbf24", bg: "rgba(251,191,36,0.12)", label: "Güçlü" },
-  medium: { color: "#a78bfa", bg: "rgba(167,139,250,0.1)", label: "Orta" },
-  low: { color: "#6ee7b7", bg: "rgba(110,231,183,0.1)", label: "Hafif" },
-};
-
 export default function ThemeCard({ theme, expanded, onToggle }: { theme: TransitTheme; expanded: boolean; onToggle: () => void }) {
-  const ic = INTENSITY_COLORS[theme.intensity] || INTENSITY_COLORS.medium;
+  const { t } = useTranslation();
+  const ic = INTENSITY_CONFIG[theme.intensity] || INTENSITY_CONFIG.medium;
   const chevronAnim = useRef(new Animated.Value(expanded ? 1 : 0)).current;
 
   useEffect(() => {
@@ -25,11 +21,11 @@ export default function ThemeCard({ theme, expanded, onToggle }: { theme: Transi
         {/* Top row */}
         <View style={s.topRow}>
           <View style={s.categoryPill}>
-            <Text style={s.categoryText}>{THEME_ICONS[theme.theme] || "Tema"}</Text>
+            <Text style={s.categoryText}>{THEME_ICON_KEYS[theme.theme] ? t(THEME_ICON_KEYS[theme.theme]) : theme.theme}</Text>
           </View>
           <View style={{ flexDirection: "row", alignItems: "center", gap: 8 }}>
             <View style={[s.intensityPill, { backgroundColor: ic.bg }]}>
-              <Text style={[s.intensityText, { color: ic.color }]}>{ic.label}</Text>
+              <Text style={[s.intensityText, { color: ic.color }]}>{t(ic.labelKey)}</Text>
             </View>
             <Animated.Text style={[s.chevron, { transform: [{ rotate: chevronRotation }] }]}>▼</Animated.Text>
           </View>
@@ -54,7 +50,7 @@ export default function ThemeCard({ theme, expanded, onToggle }: { theme: Transi
           )}
           {(theme.events?.length ?? 0) > 0 && (
             <View style={s.eventsList}>
-              <Text style={s.eventsLabel}>Bu temayi olusturan transitler</Text>
+              <Text style={s.eventsLabel}>{t("transitThemeDrivers")}</Text>
               {(theme.events || []).map((ev) => (
                 <View key={ev.id} style={s.eventRow}>
                   <View style={[s.eventDot, { backgroundColor: COLOR_MAP[ev.color] || "#a78bfa" }]} />

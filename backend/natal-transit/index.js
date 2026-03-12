@@ -199,8 +199,9 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
   router.get("/:deviceId/status", (req, res) => {
     try {
       const { deviceId } = req.params;
-      const readings = loadTransitReadings();
-      const eventsCache = loadTransitEventsCache();
+      const lang = ["tr", "en", "de", "es"].includes(req.query.lang) ? req.query.lang : "tr";
+      const readings = loadTransitReadings(lang);
+      const eventsCache = loadTransitEventsCache(lang);
       const keys = Object.keys(readings.readings).filter((k) => k.startsWith(`${deviceId}:`));
 
       const sortedReadings = keys
@@ -248,7 +249,8 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
     try {
       const { deviceId } = req.params;
       const monthsFilter = Number(req.query.months || 0);
-      const readings = loadTransitReadings();
+      const lang = ["tr", "en", "de", "es"].includes(req.query.lang) ? req.query.lang : "tr";
+      const readings = loadTransitReadings(lang);
       const keys = Object.keys(readings.readings).filter((k) => k.startsWith(`${deviceId}:`));
 
       const sortedReadings = keys
@@ -277,8 +279,9 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
   router.delete("/:deviceId", (req, res) => {
     try {
       const { deviceId } = req.params;
-      const readings = loadTransitReadings();
-      const eventsCache = loadTransitEventsCache();
+      const lang = ["tr", "en", "de", "es"].includes(req.query.lang) ? req.query.lang : "tr";
+      const readings = loadTransitReadings(lang);
+      const eventsCache = loadTransitEventsCache(lang);
 
       let removedReadings = 0;
       Object.keys(readings.readings).forEach((k) => {
@@ -287,16 +290,16 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
           removedReadings++;
         }
       });
-      saveTransitReadings(readings);
+      saveTransitReadings(readings, lang);
 
       let removedEvents = 0;
-      Object.keys(eventsCache.items).forEach((k) => {
+      Object.keys(eventsCache).forEach((k) => {
         if (k.startsWith(`${deviceId}:`)) {
-          delete eventsCache.items[k];
+          delete eventsCache[k];
           removedEvents++;
         }
       });
-      saveTransitEventsCache(eventsCache);
+      saveTransitEventsCache(eventsCache, lang);
 
       return res.json({
         success: true,

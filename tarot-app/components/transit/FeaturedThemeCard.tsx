@@ -1,17 +1,13 @@
 import React from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { THEME_ICONS } from "./constants";
+import { useTranslation } from "react-i18next";
+import { THEME_ICON_KEYS, INTENSITY_CONFIG } from "./constants";
 import type { TransitTheme } from "./types";
 
-const INTENSITY_COLORS: Record<string, { color: string; bg: string; label: string }> = {
-  high: { color: "#fbbf24", bg: "rgba(251,191,36,0.12)", label: "Güçlü" },
-  medium: { color: "#a78bfa", bg: "rgba(167,139,250,0.1)", label: "Orta" },
-  low: { color: "#6ee7b7", bg: "rgba(110,231,183,0.1)", label: "Hafif" },
-};
-
 export default function FeaturedThemeCard({ theme }: { theme: TransitTheme }) {
-  const ic = INTENSITY_COLORS[theme.intensity] || INTENSITY_COLORS.medium;
+  const { t } = useTranslation();
+  const ic = INTENSITY_CONFIG[theme.intensity] || INTENSITY_CONFIG.medium;
 
   return (
     <LinearGradient
@@ -23,10 +19,10 @@ export default function FeaturedThemeCard({ theme }: { theme: TransitTheme }) {
       {/* Top row: category + intensity */}
       <View style={s.topRow}>
         <View style={s.categoryPill}>
-          <Text style={s.categoryText}>{THEME_ICONS[theme.theme] || "Tema"}</Text>
+          <Text style={s.categoryText}>{THEME_ICON_KEYS[theme.theme] ? t(THEME_ICON_KEYS[theme.theme]) : theme.theme}</Text>
         </View>
         <View style={[s.intensityPill, { backgroundColor: ic.bg }]}>
-          <Text style={[s.intensityText, { color: ic.color }]}>{ic.label}</Text>
+          <Text style={[s.intensityText, { color: ic.color }]}>{t(ic.labelKey)}</Text>
         </View>
       </View>
 
@@ -45,7 +41,7 @@ export default function FeaturedThemeCard({ theme }: { theme: TransitTheme }) {
       {(theme.events?.length ?? 0) > 0 && (
         <View style={s.supportRow}>
           <View style={s.supportDot} />
-          <Text style={s.supportText}>{theme.events!.length} transit destekliyor</Text>
+          <Text style={s.supportText}>{t("transitSupportingTransits", { count: theme.events!.length })}</Text>
         </View>
       )}
     </LinearGradient>
