@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
   ActivityIndicator,
   ScrollView,
@@ -8,6 +8,7 @@ import {
   View,
 } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
+import { useTranslation } from "react-i18next";
 import Constants from "expo-constants";
 import { LinearGradient } from "expo-linear-gradient";
 import { GemstoneIcon, StarField } from "../../components/ui";
@@ -22,6 +23,7 @@ import RetrogradeWindowCard from "../../components/transit/RetrogradeWindowCard"
 import MilestoneTimeline from "../../components/transit/MilestoneTimeline";
 import FocusAreasSection from "../../components/transit/FocusAreaBlock";
 import BackgroundSection from "../../components/transit/BackgroundSection";
+import { localizeTransitPayload } from "../../components/transit/localize";
 
 const host = Constants.expoConfig?.hostUri?.split(":")[0] || "localhost";
 const API_BASE = `http://${host}:3001/api`;
@@ -39,7 +41,8 @@ function SectionLead({ title }: { title: string }) {
 
 export default function TransitDetailScreen() {
   const router = useRouter();
-  const { deviceId, gemstoneBalance } = useApp();
+  const { t } = useTranslation();
+  const { deviceId, gemstoneBalance, language } = useApp();
   const params = useLocalSearchParams<{ months?: string; t?: string }>();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -52,16 +55,18 @@ export default function TransitDetailScreen() {
       setLoading(true);
       setError(null);
       try {
-        const q = months ? `?months=${months}` : "";
-        const res = await fetch(`${API_BASE}/natal/transits/${deviceId}/latest${q}`);
+        const qParams = new URLSearchParams();
+        if (months) qParams.set("months", String(months));
+        qParams.set("lang", language || "tr");
+        const res = await fetch(`${API_BASE}/natal/transits/${deviceId}/latest?${qParams}`);
         const json = await res.json();
         if (!res.ok || !json.success) {
-          setError("Transit okuma verisi bulunamadi.");
+          setError(t("transitDataNotFound"));
           return;
         }
         setData(json.data as V4Payload);
       } catch (e: any) {
-        setError(e.message || "Transit okuma yuklenemedi.");
+        setError(e.message || t("transitLoadError"));
       } finally {
         setLoading(false);
       }
@@ -70,13 +75,17 @@ export default function TransitDetailScreen() {
   }, [deviceId, months, params.t]);
 
   const [selectedPhase, setSelectedPhase] = useState<{ phase: Phase; index: number } | null>(null);
+  const localizedData = useMemo(
+    () => (data ? localizeTransitPayload(data, language) : null),
+    [data, language]
+  );
 
-  const showPhases = (data?.phases?.length ?? 0) > 0;
-  const showThemes = (data?.themes?.length ?? 0) > 0;
-  const showRetro = (data?.retrogradeWindows?.length ?? 0) > 0;
-  const showMilestones = (data?.milestones?.length ?? 0) > 0;
-  const showFocusAreas = data?.focusAreas ? Object.values(data.focusAreas).some((v) => v !== "") : false;
-  const showBackground = (data?.background?.length ?? 0) > 0;
+  const showPhases = (localizedData?.phases?.length ?? 0) > 0;
+  const showThemes = (localizedData?.themes?.length ?? 0) > 0;
+  const showRetro = (localizedData?.retrogradeWindows?.length ?? 0) > 0;
+  const showMilestones = (localizedData?.milestones?.length ?? 0) > 0;
+  const showFocusAreas = localizedData?.focusAreas ? Object.values(localizedData.focusAreas).some((v) => v !== "") : false;
+  const showBackground = (localizedData?.background?.length ?? 0) > 0;
 
 
   if (loading) {
@@ -85,20 +94,20 @@ export default function TransitDetailScreen() {
         <CosmicBackground />
         <View style={s.center}>
           <ActivityIndicator color="#a78bfa" size="large" />
-          <Text style={s.loadingText}>Transit okumasi yukleniyor...</Text>
+          <Text style={s.loadingText}>{t("transitLoadingReading")}</Text>
         </View>
       </View>
     );
   }
 
-  if (!data) {
+  if (!localizedData) {
     return (
       <View style={s.fullScreen}>
         <CosmicBackground />
         <View style={s.center}>
-          <Text style={s.errorText}>{error || "Veri bulunamadi."}</Text>
+          <Text style={s.errorText}>{error || t("transitNoData")}</Text>
           <TouchableOpacity onPress={() => router.back()}>
-            <Text style={s.backBtn}>← Geri</Text>
+            <Text style={s.backBtn}>← {t("back")}</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -115,7 +124,7 @@ export default function TransitDetailScreen() {
         {/* Floating Utility Header */}
         <View style={s.floatingHeader}>
           <TouchableOpacity onPress={() => router.back()} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
-            <Text style={s.backBtn}>← Geri</Text>
+            <Text style={s.backBtn}>← {t("back")}</Text>
           </TouchableOpacity>
           <View style={s.gemChip}>
             <GemstoneIcon size={16} />
@@ -126,13 +135,13 @@ export default function TransitDetailScreen() {
         {error && <Text style={s.errorText}>{error}</Text>}
 
         {/* 1. Master Hero Insight Card */}
-        <OverviewHero data={data} />
+        <OverviewHero data={localizedData} />
 
         {/* 2. Phases (6+12 ay) — tappable, opens PhaseDetailSheet */}
         {showPhases && (
           <>
-            <SectionLead title="Dönemin Fazlari" />
-            {data.phases.map((phase, i) => (
+            <SectionLead title={t("transitSectionPhases")} />
+            {localizedData.phases.map((phase, i) => (
               <PhaseCard
                 key={phase.id}
                 phase={phase}
@@ -146,16 +155,16 @@ export default function TransitDetailScreen() {
         {/* 3. Theme Constellation (1-3 ay only: "Ana Temalar") */}
         {showThemes && !isPhased && (
           <>
-            <SectionLead title="Ana Temalar" />
-            <ThemeConstellation themes={data.themes} />
+            <SectionLead title={t("transitSectionThemes")} />
+            <ThemeConstellation themes={localizedData.themes} />
           </>
         )}
 
         {/* 4. Retrograde Windows */}
         {showRetro && (
           <>
-            <SectionLead title="Retrograde Pencereleri" />
-            {data.retrogradeWindows.map((retro, i) => (
+            <SectionLead title={t("transitSectionRetro")} />
+            {localizedData.retrogradeWindows.map((retro, i) => (
               <RetrogradeWindowCard key={`${retro.planet}_${i}`} retro={retro} />
             ))}
           </>
@@ -164,21 +173,21 @@ export default function TransitDetailScreen() {
         {/* 5. Milestones */}
         {showMilestones && (
           <>
-            <SectionLead title="Dönüm Noktalari" />
-            <MilestoneTimeline milestones={data.milestones} />
+            <SectionLead title={t("transitSectionMilestones")} />
+            <MilestoneTimeline milestones={localizedData.milestones} />
           </>
         )}
 
         {/* 6. Focus Areas (6+12 ay) */}
-        {showFocusAreas && data.focusAreas && (
+        {showFocusAreas && localizedData.focusAreas && (
           <>
-            <SectionLead title="Odak Alanlari" />
-            <FocusAreasSection areas={data.focusAreas} />
+            <SectionLead title={t("transitSectionFocus")} />
+            <FocusAreasSection areas={localizedData.focusAreas} />
           </>
         )}
 
         {/* 7. Background (1+3 ay, collapsed) */}
-        {showBackground && <BackgroundSection events={data.background} />}
+        {showBackground && <BackgroundSection events={localizedData.background} />}
 
         <View style={{ height: 60 }} />
       </ScrollView>
@@ -187,7 +196,7 @@ export default function TransitDetailScreen() {
         <PhaseDetailSheet
           phase={selectedPhase?.phase ?? null}
           index={selectedPhase?.index ?? 0}
-          drivers={data.detailedDrivers || []}
+          drivers={localizedData.detailedDrivers || []}
           visible={selectedPhase !== null}
           onClose={() => setSelectedPhase(null)}
         />
