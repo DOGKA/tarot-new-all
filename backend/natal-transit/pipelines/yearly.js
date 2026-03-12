@@ -86,7 +86,7 @@ function createYearlyPipeline({ openai, lang = "tr" }) {
       const result = await callAI([
         { role: "system", content: yearlyPrompts.systemMessage },
         { role: "user", content: prompt },
-      ], "Yearly Call A", 32000);
+      ], "Yearly Call A", 16384);
       return result;
     } catch (e) {
       console.warn(`[Yearly] Call A failed, retrying...`, e.message);
@@ -94,7 +94,7 @@ function createYearlyPipeline({ openai, lang = "tr" }) {
         return await callAI([
           { role: "system", content: yearlyPrompts.systemMessage },
           { role: "user", content: prompt },
-        ], "Yearly Call A retry", 32000);
+        ], "Yearly Call A retry", 16384);
       } catch (e2) {
         console.error(`[Yearly] Call A retry also failed:`, e2.message);
         return {};

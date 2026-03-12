@@ -85,7 +85,7 @@ function createHybridPipeline({ openai, lang = "tr" }) {
       const result = await callAI([
         { role: "system", content: hybridPrompts.systemMessage },
         { role: "user", content: prompt },
-      ], "Hybrid Call A", 24000);
+      ], "Hybrid Call A", 16384);
       console.log(`[Hybrid] Call A keys:`, Object.keys(result));
       console.log(`[Hybrid] phases:`, result.phases?.length, '| milestones:', result.milestones?.length, '| focusAreas:', !!result.focusAreas);
       if (result.phases?.[0]) console.log(`[Hybrid] phase_1 interp length:`, result.phases[0].interpretation?.length || 0);
@@ -96,7 +96,7 @@ function createHybridPipeline({ openai, lang = "tr" }) {
         return await callAI([
           { role: "system", content: hybridPrompts.systemMessage },
           { role: "user", content: prompt },
-        ], "Hybrid Call A retry", 24000);
+        ], "Hybrid Call A retry", 16384);
       } catch (e2) {
         console.error(`[Hybrid] Call A retry also failed:`, e2.message);
         return {};
