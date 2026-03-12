@@ -14,10 +14,10 @@ const { buildTitle } = require("../shared/formatters");
 
 const AI_TIMEOUT_MS = 120000;
 
-function createYearlyPipeline({ openai }) {
+function createYearlyPipeline({ openai, lang = "tr" }) {
   const profile = getProfile(12);
-  const yearlyPrompts = require("../prompts/yearly-tr");
-  const retroPrompts = require("../prompts/retro-tr");
+  const yearlyPrompts = require(`../prompts/yearly-${lang}`);
+  const retroPrompts = require(`../prompts/retro-${lang}`);
 
   async function callAI(messages, label) {
     const completion = await Promise.race([
@@ -43,6 +43,10 @@ function createYearlyPipeline({ openai }) {
       window: p.window,
       dominantThemes: p.dominantThemes,
       clusterSummary: p.clusters.slice(0, 5).map((c) => `${c.label} (skor: ${c.themeScore})`),
+      topTransits: [...p.events]
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 6)
+        .map((e) => `${e.title || `${e.transitPlanet} ${e.aspect} ${e.natalPlanet}`} (${e.startDate} – ${e.endDate}, doruk: ${e.exactDate}, skor: ${e.score}, tur: ${e.color})`),
     }));
 
     const milestoneHints = selectMilestones(baseModel.merged, profile.maxMilestones, baseModel.merged)

@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
   ActivityIndicator,
-  Dimensions,
-  ImageBackground,
-  Platform,
   ScrollView,
   StyleSheet,
   Text,
@@ -13,23 +10,22 @@ import {
 import { useLocalSearchParams, useRouter } from "expo-router";
 import Constants from "expo-constants";
 import { LinearGradient } from "expo-linear-gradient";
-import { GemstoneIcon } from "../../components/ui";
+import { GemstoneIcon, StarField } from "../../components/ui";
 import { useApp } from "../../context/AppContext";
 
-import type { V4Payload } from "../../components/transit/types";
+import type { V4Payload, Phase } from "../../components/transit/types";
 import OverviewHero from "../../components/transit/OverviewHero";
 import PhaseCard from "../../components/transit/PhaseCard";
+import PhaseDetailSheet from "../../components/transit/PhaseDetailSheet";
 import ThemeConstellation from "../../components/transit/ThemeConstellation";
-import RecurringThemeRow from "../../components/transit/RecurringThemeRow";
 import RetrogradeWindowCard from "../../components/transit/RetrogradeWindowCard";
-import MilestoneRow from "../../components/transit/MilestoneRow";
-import FocusAreaBlock from "../../components/transit/FocusAreaBlock";
-import DetailedDriverSection from "../../components/transit/DetailedDriverSection";
+import MilestoneTimeline from "../../components/transit/MilestoneTimeline";
+import FocusAreasSection from "../../components/transit/FocusAreaBlock";
 import BackgroundSection from "../../components/transit/BackgroundSection";
 
 const host = Constants.expoConfig?.hostUri?.split(":")[0] || "localhost";
 const API_BASE = `http://${host}:3001/api`;
-const { width: SCREEN_W, height: SCREEN_H } = Dimensions.get("window");
+
 
 function SectionLead({ title }: { title: string }) {
   return (
@@ -73,14 +69,15 @@ export default function TransitDetailScreen() {
     run();
   }, [deviceId, months, params.t]);
 
+  const [selectedPhase, setSelectedPhase] = useState<{ phase: Phase; index: number } | null>(null);
+
   const showPhases = (data?.phases?.length ?? 0) > 0;
   const showThemes = (data?.themes?.length ?? 0) > 0;
   const showRetro = (data?.retrogradeWindows?.length ?? 0) > 0;
   const showMilestones = (data?.milestones?.length ?? 0) > 0;
-  const showRecurring = (data?.recurringThemes?.length ?? 0) > 0;
   const showFocusAreas = data?.focusAreas ? Object.values(data.focusAreas).some((v) => v !== "") : false;
-  const showDrivers = (data?.detailedDrivers?.length ?? 0) > 0;
   const showBackground = (data?.background?.length ?? 0) > 0;
+
 
   if (loading) {
     return (
@@ -131,35 +128,30 @@ export default function TransitDetailScreen() {
         {/* 1. Master Hero Insight Card */}
         <OverviewHero data={data} />
 
-        {/* 2. Phases (6+12 ay) */}
+        {/* 2. Phases (6+12 ay) — tappable, opens PhaseDetailSheet */}
         {showPhases && (
           <>
             <SectionLead title="Dönemin Fazlari" />
             {data.phases.map((phase, i) => (
-              <PhaseCard key={phase.id} phase={phase} index={i} />
+              <PhaseCard
+                key={phase.id}
+                phase={phase}
+                index={i}
+                onPress={() => setSelectedPhase({ phase, index: i })}
+              />
             ))}
           </>
         )}
 
-        {/* 3. Theme Constellation */}
-        {showThemes && (
+        {/* 3. Theme Constellation (1-3 ay only: "Ana Temalar") */}
+        {showThemes && !isPhased && (
           <>
-            <SectionLead title={isPhased ? "Öne Çikan Temalar" : "Ana Temalar"} />
+            <SectionLead title="Ana Temalar" />
             <ThemeConstellation themes={data.themes} />
           </>
         )}
 
-        {/* 4. Recurring Themes (6+12 ay) */}
-        {showRecurring && (
-          <>
-            <SectionLead title="Tekrar Eden Temalar" />
-            {data.recurringThemes.map((rt) => (
-              <RecurringThemeRow key={rt.theme} rt={rt} />
-            ))}
-          </>
-        )}
-
-        {/* 5. Retrograde Windows — DOKUNMA */}
+        {/* 4. Retrograde Windows */}
         {showRetro && (
           <>
             <SectionLead title="Retrograde Pencereleri" />
@@ -169,61 +161,63 @@ export default function TransitDetailScreen() {
           </>
         )}
 
-        {/* 6. Milestones (3+6+12 ay) */}
+        {/* 5. Milestones */}
         {showMilestones && (
           <>
             <SectionLead title="Dönüm Noktalari" />
-            {data.milestones.map((m, i) => (
-              <MilestoneRow key={i} milestone={m} />
-            ))}
+            <MilestoneTimeline milestones={data.milestones} />
           </>
         )}
 
-        {/* 7. Focus Areas (12 ay only) */}
+        {/* 6. Focus Areas (6+12 ay) */}
         {showFocusAreas && data.focusAreas && (
           <>
             <SectionLead title="Odak Alanlari" />
-            <FocusAreaBlock areaKey="career" text={data.focusAreas.career || ""} />
-            <FocusAreaBlock areaKey="relationships" text={data.focusAreas.relationships || ""} />
-            <FocusAreaBlock areaKey="innerLife" text={data.focusAreas.innerLife || ""} />
-            <FocusAreaBlock areaKey="growth" text={data.focusAreas.growth || ""} />
-            <FocusAreaBlock areaKey="health" text={data.focusAreas.health || ""} />
+            <FocusAreasSection areas={data.focusAreas} />
           </>
         )}
 
-        {/* 8. Detailed Drivers (6+12 ay, collapsed) */}
-        {showDrivers && <DetailedDriverSection drivers={data.detailedDrivers} />}
-
-        {/* 9. Background (1+3 ay, collapsed) */}
+        {/* 7. Background (1+3 ay, collapsed) */}
         {showBackground && <BackgroundSection events={data.background} />}
 
         <View style={{ height: 60 }} />
       </ScrollView>
+
+      {showPhases && (
+        <PhaseDetailSheet
+          phase={selectedPhase?.phase ?? null}
+          index={selectedPhase?.index ?? 0}
+          drivers={data.detailedDrivers || []}
+          visible={selectedPhase !== null}
+          onClose={() => setSelectedPhase(null)}
+        />
+      )}
     </View>
   );
 }
 
 function CosmicBackground() {
   return (
-    <View style={s.bgContainer}>
-      <ImageBackground
-        source={require("../../assets/backgrounds/dark-space.jpg")}
-        style={s.bgImage}
-        resizeMode="cover"
+    <>
+      <LinearGradient
+        colors={["#020210", "#0a0820", "#110d30", "#0a0820", "#020210"]}
+        style={StyleSheet.absoluteFill}
+        start={{ x: 0.5, y: 0 }}
+        end={{ x: 0.5, y: 1 }}
       />
       <LinearGradient
-        colors={["rgba(5,8,26,0.3)", "rgba(18,15,36,0.5)", "rgba(5,8,26,0.75)"]}
-        style={s.bgOverlay}
+        colors={["transparent", "rgba(88,40,180,0.08)", "rgba(30,60,160,0.06)", "transparent"]}
+        style={[StyleSheet.absoluteFill, { opacity: 0.7 }]}
+        start={{ x: 0, y: 0.3 }}
+        end={{ x: 1, y: 0.7 }}
       />
-    </View>
+      <StarField count={60} />
+    </>
   );
 }
 
 const s = StyleSheet.create({
-  fullScreen: { flex: 1, backgroundColor: "#05081A" },
-  bgContainer: { position: "absolute", top: 0, left: 0, right: 0, bottom: 0 },
-  bgImage: { width: SCREEN_W, height: SCREEN_H, position: "absolute", top: 0, left: 0 },
-  bgOverlay: { position: "absolute", top: 0, left: 0, right: 0, bottom: 0 },
+  fullScreen: { flex: 1, backgroundColor: "#020210" },
   container: { paddingTop: 56, paddingHorizontal: 16, paddingBottom: 40 },
   center: { flex: 1, alignItems: "center", justifyContent: "center", gap: 12 },
   loadingText: { color: "rgba(255,255,255,0.5)", fontSize: 13 },

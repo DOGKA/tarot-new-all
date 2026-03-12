@@ -1,75 +1,6 @@
 {
   "slots": [
     {
-      "id": "2026-03-09T070814Z_last_quarter_scorpio_moon",
-      "start": "2026-03-09T07:08:14.181Z",
-      "end": "2026-03-09T16:01:40.431Z",
-      "phase": "last_quarter",
-      "zodiac": "scorpio",
-      "planet": "moon",
-      "content": {
-        "planet": {
-          "meaning": "Pazartesi günü Ay, duygusal derinliklerini açıyor. İç dünyanda saklı kalan hisler yüzeye çıkıyor. Bu süreç, içsel huzurunu bulmana yardımcı oluyor.",
-          "advice": "Günlüğüne en son ne zaman yazdığını kontrol et, bugün bir sayfa yaz."
-        },
-        "zodiac": {
-          "meaning": "Ay Akrep burcunda derin duygusal yoğunluk yaratıyor. Gizli kalmış duygular ortaya çıkıyor ve seni içsel bir sorgulamaya itiyor. İlişkilerde daha derin bir bağ kurma ihtiyacı hissediliyor.",
-          "firsat": "Bir arkadaşınla uzun zamandır konuşmadığın bir konuyu aç, derinleş.",
-          "his": "yoğun merak, gizli gerginlik"
-        },
-        "phase": {
-          "general": "Son Dördün, bitişlerin ve tamamlanmaların ağırlığını hissettiriyor. Yapılması gereken işler belirginleşiyor ve zihninde netleşiyor. Eski alışkanlıklar ağırlaşıyor ve bırakmaya zorluyor.",
-          "ayna": "Önünden kaçtığın bir sorumluluk, bugün daha belirgin hale geliyor. Belki de uzun zamandır ertelediğin bir kararı vermenin zamanı geldi."
-        }
-      }
-    },
-    {
-      "id": "2026-03-09T160140Z_last_quarter_sagittarius_moon",
-      "start": "2026-03-09T16:01:40.431Z",
-      "end": "2026-03-10T00:00:00.000Z",
-      "phase": "last_quarter",
-      "zodiac": "sagittarius",
-      "planet": "moon",
-      "content": {
-        "planet": {
-          "meaning": "Pazartesi günü Ay, duygusal derinlikleri harekete geçiriyor. İçsel dünyanı daha fazla keşfetmek istiyorsun. Dışa vuramadığın hisler yüzeye çıkıyor.",
-          "advice": "Günlüğüne içten bir mektup yaz."
-        },
-        "zodiac": {
-          "meaning": "Ay Yay burcunda özgürlük arayışını tetikliyor. Yeni ufuklar keşfetme isteği artıyor, rutinler sıkıcı hale geliyor. Duygusal olarak daha açık ve dürüst hissediyorsun.",
-          "firsat": "Yeni bir dil kursuna kaydol.",
-          "his": "canlı merak"
-        },
-        "phase": {
-          "general": "Son Dördün, bitirilmeyen işleri tamamlaman için sana baskı yapıyor. Yarım kalan projeler dikkatini çekiyor. Enerji seviyen dalgalanıyor, odaklanmakta zorlanıyorsun.",
-          "ayna": "Göz ardı ettiğin sorumlulukları netleştir."
-        }
-      }
-    },
-    {
-      "id": "2026-03-10T070038Z_last_quarter_sagittarius_mars",
-      "start": "2026-03-10T07:00:38.534Z",
-      "end": "2026-03-11T00:00:00.000Z",
-      "phase": "last_quarter",
-      "zodiac": "sagittarius",
-      "planet": "mars",
-      "content": {
-        "planet": {
-          "meaning": "Salı günü Mars, içindeki mücadele ruhunu harekete geçiriyor. Enerjin yükseliyor, motivasyonun artıyor. Kararlı adımlar atmak için güçlü bir itki hissediyorsun.",
-          "advice": "Ertelediğin projeye başla ve ilk adımı at."
-        },
-        "zodiac": {
-          "meaning": "Ay Yay burcunda, keşfetme isteğini artırıyor. Özgürlük arayışın öne çıkıyor, yeni deneyimlere açıksın. Hayatın farklı yönlerini keşfetme arzusu seni sarsıyor.",
-          "firsat": "Yeni bir hobiye başla ve kendini geliştir.",
-          "his": "coşkulu merak"
-        },
-        "phase": {
-          "general": "Son Dördün, bitmemiş işleri tamamlaman için baskı yapıyor. Eski planlar ve yarım kalmış projeler ön plana çıkıyor. Duygusal yükler azalıyor, netlik kazanıyorsun.",
-          "ayna": "Bitirmekte zorlandığın işleri ve yüzleşmekten kaçındığın duyguları gösteriyor."
-        }
-      }
-    },
-    {
       "id": "2026-03-11T000000Z_last_quarter_sagittarius_mercury",
       "start": "2026-03-11T00:00:00.000Z",
       "end": "2026-03-12T00:00:00.000Z",
@@ -116,9 +47,9 @@
       }
     },
     {
-      "id": "2026-03-12T052942Z_last_quarter_capricorn_jupiter",
-      "start": "2026-03-12T05:29:42.284Z",
-      "end": "2026-03-12T20:22:12.284Z",
+      "id": "2026-03-12T083814Z_last_quarter_capricorn_jupiter",
+      "start": "2026-03-12T08:38:14.690Z",
+      "end": "2026-03-12T20:22:18.440Z",
       "phase": "last_quarter",
       "zodiac": "capricorn",
       "planet": "jupiter",
@@ -139,8 +70,8 @@
       }
     },
     {
-      "id": "2026-03-12T202212Z_waning_crescent_capricorn_jupiter",
-      "start": "2026-03-12T20:22:12.284Z",
+      "id": "2026-03-12T202218Z_waning_crescent_capricorn_jupiter",
+      "start": "2026-03-12T20:22:18.440Z",
       "end": "2026-03-13T00:00:00.000Z",
       "phase": "waning_crescent",
       "zodiac": "capricorn",
@@ -183,7 +114,76 @@
           "ayna": "Yarım kalan projeleri tamamlaman gerektiğini gösteriyor."
         }
       }
+    },
+    {
+      "id": "2026-03-14T000000Z_waning_crescent_capricorn_saturn",
+      "start": "2026-03-14T00:00:00.000Z",
+      "end": "2026-03-14T17:08:14.690Z",
+      "phase": "waning_crescent",
+      "zodiac": "capricorn",
+      "planet": "saturn",
+      "content": {
+        "planet": {
+          "meaning": "Cumartesi günü Satürn, disiplin ve sorumluluk alanını açıyor. Bugün, uzun vadeli hedeflerine odaklanmak için sağlam temeller atılıyor. Zaman yönetimi ve planlama becerileri netleşiyor, bu da seni daha verimli kılıyor.",
+          "advice": "Günlük planını detaylandır ve haftalık hedeflerini yazıya dök."
+        },
+        "zodiac": {
+          "meaning": "Ay Oğlak burcunda, duygularını daha ciddiyetle ele almanı sağlıyor. İçsel disiplinin ve kararlılığın sarsıyor, seni daha hedef odaklı hale getiriyor. Pratik düşünceler, duygusal dalgalanmaları bastırıyor, daha gerçekçi bir bakış açısı sunuyor.",
+          "firsat": "Yarım kalan projeni tamamla ve ilerlemeni gözden geçir.",
+          "his": "kararlı odak, ciddi yaklaşım"
+        },
+        "phase": {
+          "general": "Azalan Hilal, enerjiyi içe doğru çekiyor ve tamamlanması gereken işlere odaklanmayı kolaylaştırıyor. Dış dünyadan gelen dikkat dağınıklıkları daralıyor, içsel değerlendirmeler sertleşiyor. Gereksiz yüklerden kurtulmak için uygun zemin oluşuyor.",
+          "ayna": "Elinde tuttuğun ama artık işine yaramayan bir alışkanlığı bırakmanın zamanı."
+        }
+      }
+    },
+    {
+      "id": "2026-03-14T170814Z_waning_crescent_aquarius_saturn",
+      "start": "2026-03-14T17:08:14.690Z",
+      "end": "2026-03-15T00:00:00.000Z",
+      "phase": "waning_crescent",
+      "zodiac": "aquarius",
+      "planet": "saturn",
+      "content": {
+        "planet": {
+          "meaning": "Cumartesi günü Satürn, disiplin ve sorumluluk alanlarını harekete geçiriyor. Günlük rutininde belirsizlikler netleşiyor ve daha sağlam bir zemin oluşuyor. İşlerin ve görevlerin ciddiyeti artıyor, seni daha fazla odaklanmaya zorluyor.",
+          "advice": "Bugün tamamlanmamış bir projeyi bitir."
+        },
+        "zodiac": {
+          "meaning": "Ay Kova burcunda ilerlerken, özgün düşünceler ve yenilikçi yaklaşımlar tetikleniyor. Sosyal ilişkilerde farklı bakış açıları ve entelektüel sohbetler seni çekiyor. Duygusal mesafelenme, mantıklı kararlar almanı kolaylaştırıyor.",
+          "firsat": "Yeni bir topluluk etkinliğine katıl.",
+          "his": "yenilikçi merak"
+        },
+        "phase": {
+          "general": "Azalan Hilal, tamamlanma ve bırakma süreçlerini hızlandırıyor. Gereksiz yüklerden kurtulmak ve hayatını sadeleştirmek için ideal zaman. Tamamlanmamış işleri bitirip, yeni başlangıçlar için yer açıyor.",
+          "ayna": "Uzun zamandır ertelediğin duygusal yükleri bırakma zamanı."
+        }
+      }
+    },
+    {
+      "id": "2026-03-15T000000Z_waning_crescent_aquarius_sun",
+      "start": "2026-03-15T00:00:00.000Z",
+      "end": "2026-03-15T08:38:14.690Z",
+      "phase": "waning_crescent",
+      "zodiac": "aquarius",
+      "planet": "sun",
+      "content": {
+        "planet": {
+          "meaning": "Pazar günü Güneş içindeki enerjiyi ve canlılığı açıyor. Yaratıcılığın ve kendini ifade etme ihtiyacın ön plana çıkıyor. İlişkilerinde daha samimi ve sıcak bir iletişim kurma isteği tetikleniyor.",
+          "advice": "Bir arkadaşına içten bir teşekkür notu yaz."
+        },
+        "zodiac": {
+          "meaning": "Ay Kova burcunda olduğu için özgürlük ve yenilik arayışını ateşliyor. Alışılmışın dışına çıkma ve farklı perspektiflerden bakma cesareti veriyor. Toplumsal konulara olan hassasiyetin artıyor, bireysel ihtiyaçların yanında kolektif bilinci de tetikliyor.",
+          "firsat": "Gönüllü bir projeye katıl.",
+          "his": "elektriksel heyecan, yaratıcı gerilim"
+        },
+        "phase": {
+          "general": "Azalan Hilal içsel bir değerlendirme sürecini başlatıyor. Geçmişteki hataların ve başarıların daha net görülmesini sağlıyor. Kapanış ve tamamlama süreçleri hızlanıyor, gereksiz yükler eritiliyor.",
+          "ayna": "Bugün, yarım kalan işleri ve ertelenen duygusal meseleleri netleştiriyor."
+        }
+      }
     }
   ],
-  "generatedUntil": "2026-03-13T07:00:38.534Z"
+  "generatedUntil": "2026-03-15T08:38:14.690Z"
 }

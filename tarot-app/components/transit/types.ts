@@ -74,6 +74,7 @@ export type DetailedDriver = {
   aspect: string;
   startDate: string;
   endDate: string;
+  exactDate: string;
   score: number;
   title: string;
   rangeText: string;

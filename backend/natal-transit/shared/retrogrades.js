@@ -168,6 +168,10 @@ function buildRetroAIPayload(retroWindows, natalPlanets) {
     baseText: rw.baseInterpretation,
     affectedThemes: rw.affectedThemes,
     natalSign: natalPlanets?.find((p) => p.name === rw.planet)?.sign || null,
+    natalSignLabel: (() => {
+      const sign = natalPlanets?.find((p) => p.name === rw.planet)?.sign;
+      return sign ? (ZODIAC_LABELS_TR[sign] || sign) : null;
+    })(),
   }));
 }
 
@@ -175,13 +179,18 @@ function mergeRetroAIResults(retroWindows, aiResults) {
   if (!aiResults || !Array.isArray(aiResults)) return retroWindows;
 
   const aiMap = {};
-  aiResults.forEach((r) => { if (r.planet) aiMap[r.planet] = r; });
+  aiResults.forEach((r) => {
+    const key = r.planet && r.startDate ? `${r.planet}_${r.startDate}` : r.planet;
+    if (key) aiMap[key] = r;
+  });
 
   return retroWindows.map((rw) => {
-    const ai = aiMap[rw.planet];
+    const ai = aiMap[`${rw.planet}_${rw.startDate}`] || aiMap[rw.planet];
+    const personalNote = ai?.personalNote || ai?.interpretation || "";
     return {
       ...rw,
-      personalNote: ai?.personalNote || ai?.interpretation || "",
+      baseInterpretation: personalNote ? personalNote : rw.baseInterpretation,
+      personalNote,
     };
   });
 }

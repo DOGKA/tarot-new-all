@@ -55,7 +55,7 @@ function addDays(d: Date, n: number) {
   return r;
 }
 
-function formatRange(startDate: string, endDate: string): string {
+export function formatRange(startDate: string, endDate: string): string {
   const s = parseDate(startDate);
   const e = parseDate(endDate);
   if (!s || !e) return `${startDate} – ${endDate}`;
@@ -71,7 +71,7 @@ function formatRange(startDate: string, endDate: string): string {
   return `${sD} ${sM} – ${eD} ${eM} ${sY}`;
 }
 
-function formatPeak(exactDate: string): string {
+export function formatPeak(exactDate: string): string {
   const d = parseDate(exactDate);
   if (!d) return exactDate;
   return `${d.getDate()} ${MONTHS_TR_FULL[d.getMonth()].toUpperCase()}`;
@@ -335,7 +335,7 @@ function SingleColorGrid({
   );
 }
 
-function ContributionGrid({
+export function ContributionGrid({
   events,
   accentColor,
   highlightEvent,

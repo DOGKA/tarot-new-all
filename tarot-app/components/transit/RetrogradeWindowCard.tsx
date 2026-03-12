@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { LayoutAnimation, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import Planet3D from "../ui/Planet3D";
 import { RETRO_CARD_COLORS, PLANET_COLORS } from "./constants";
+import { formatRange } from "./ThemeDetailSheet";
 import type { RetrogradeWindow } from "./types";
 
 export default function RetrogradeWindowCard({ retro }: { retro: RetrogradeWindow }) {
@@ -20,13 +21,13 @@ export default function RetrogradeWindowCard({ retro }: { retro: RetrogradeWindo
     >
       <TouchableOpacity
         activeOpacity={0.8}
-        onPress={() => { LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); setExpanded(!expanded); }}
+        onPress={() => setExpanded(!expanded)}
       >
         <View style={s.header}>
           <View style={[s.dot, { backgroundColor: planetColor }]} />
           <View style={{ flex: 1 }}>
             <Text style={[s.planetName, { color: planetColor }]}>{retro.planetLabel} Retrosu</Text>
-            <Text style={s.dates}>{retro.startDate} → {retro.endDate}</Text>
+            <Text style={s.dates}>{formatRange(retro.startDate, retro.endDate)}</Text>
           </View>
           <Text style={s.chevron}>{expanded ? "▲" : "▼"}</Text>
         </View>
@@ -39,10 +40,7 @@ export default function RetrogradeWindowCard({ retro }: { retro: RetrogradeWindo
       {expanded && (
         <View style={s.body}>
           <View style={s.divider} />
-          <Text style={s.interpretation}>{retro.baseInterpretation}</Text>
-          {(retro.personalNote ?? "") !== "" && (
-            <Text style={s.personalNote}>{retro.personalNote}</Text>
-          )}
+          <Text style={s.interpretation}>{retro.personalNote}</Text>
           {(retro.affectedThemes?.length ?? 0) > 0 && (
             <View style={s.themeTags}>
               {(retro.affectedThemes || []).map((t, i) => (

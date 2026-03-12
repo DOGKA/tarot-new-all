@@ -13,9 +13,9 @@ const { buildTitle, buildRangeText } = require("../shared/formatters");
 
 const AI_TIMEOUT_MS = 120000;
 
-function createMonthlyPipeline({ openai }) {
+function createMonthlyPipeline({ openai, lang = "tr" }) {
   const profile = getProfile(1);
-  const standardPrompts = require("../prompts/standard-tr");
+  const standardPrompts = require(`../prompts/standard-${lang}`);
 
   async function callAI(messages, label) {
     const completion = await Promise.race([

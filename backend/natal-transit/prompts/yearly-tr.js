@@ -1,7 +1,7 @@
 /**
  * Transit Yearly Narrative prompts — Turkish (TR) — v4
- * 12-month mode: 4 phases (quarterly), recurring theme descriptions, milestone descriptions.
- * Call A: overview + phases + focusAreas + milestones + recurringDesc
+ * 12-month mode: 4 phases (quarterly), milestone descriptions.
+ * Call A: overview + phases + focusAreas + milestones
  */
 
 module.exports = {
@@ -30,7 +30,7 @@ ${JSON.stringify(phases, null, 2)}
 ODAK ALANLARI:
 ${JSON.stringify(focusAreas, null, 2)}
 
-TEKRAR EDEN TEMALAR (birden fazla fazda gorunen):
+TEKRAR EDEN TEMALAR (referans icin):
 ${JSON.stringify(recurringThemes, null, 2)}
 
 MILESTONE ADAYLARI:
@@ -46,22 +46,22 @@ JSON FORMAT (HARFIYEN UYULMALI):
     {
       "id": "phase_1 (birebir koru)",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 3 paragraf. Faz donemi icin detayli narrative yorum. BASLIK KULLANMA."
+      "interpretation": "EN AZ 4 paragraf. Faz donemi icin detayli narrative yorum. BASLIK KULLANMA. Son paragrafta bu donemde yogun olan transit turlerini (zorluk, firsat, degisim) referansla: 'Bu donemde ozellikle yapisal baskilar yogun. Ancak Nisan'dan itibaren firsat transitler de devreye giriyor' gibi."
     },
     {
       "id": "phase_2",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 3 paragraf."
+      "interpretation": "EN AZ 4 paragraf."
     },
     {
       "id": "phase_3",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 3 paragraf."
+      "interpretation": "EN AZ 4 paragraf."
     },
     {
       "id": "phase_4",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 3 paragraf."
+      "interpretation": "EN AZ 4 paragraf."
     }
   ],
   "focusAreas": {
@@ -74,26 +74,23 @@ JSON FORMAT (HARFIYEN UYULMALI):
   "milestones": [
     {
       "title": "Donum noktasi basligi (somut ve acik)",
-      "window": "tarih araligi (ornek: Mart – Mayis)",
-      "description": "2-3 cumle aciklama. Neden onemli, ne beklenebilir."
-    }
-  ],
-  "recurringThemes": [
-    {
-      "theme": "tema_id (birebir koru)",
-      "description": "1-2 cumle. Bu tema neden tekrar ediyor, ne anlama geliyor."
+      "window": "tam tarih araligi, GUN NUMARASI ZORUNLU (ornek: 15 Mart – 20 Mayis 2026)",
+      "description": "EN AZ 3 cumle. Ne olacak, neden onemli, nasil etkileyecek. SOMUT ol."
     }
   ]
 }
 
 KRITIK KURALLAR:
 1. Phase id'leri birebir koru. 4 faz icin 4 AYRI yorum uret.
-2. Her faz yorumu EN AZ 3 paragraf. 1-2 cumle KABUL EDILMEZ.
-3. Her odak alani EN AZ 2 paragraf. Bos birakma.
-4. focusAreas: kariyer, iliskiler, ic dunya, buyume, saglik — 5 alan HEPSI doldurulmali.
-5. milestones: en onemli 3-5 donum noktasi. Her birine description ekle.
-6. recurringThemes: verilen tema id'lerini koru, her birine 1-2 cumle aciklama ekle.
-7. overview.summary EN AZ 4 cumle.
-8. Sadece JSON dondur.`;
+2. Her faz yorumu EN AZ 4 paragraf. 1-2 cumle KABUL EDILMEZ.
+3. Faz yorumlarinda SOMUT TARIH referanslari ZORUNLU: "Mart ortasinda", "Nisan sonuna dogru", "Haziran baslarinda" gibi. Tarihsiz genel yorum YASAK.
+4. Faz yorumlarinda dominant temalari (kariyer, iliskiler, para vb.) isimleriyle hikaye icinde dogal sekilde an. Ayri baslik altinda DEGIL, paragraf akisi icinde gecis yap.
+5. Faz yorumlarinda topTransits listesindeki transit isimlerini ve tarihlerini KULLAN. Ornek: "22 Mart civarinda Mars'in MC ile kavusumu kariyerinde ani bir degisim getirebilir" gibi SOMUT transit referanslari yap. Transit turleri: zorluk/danger (kirmizi), firsat/opportunity (yesil), degisim/change (mavi).
+6. Faz yorumunun SON PARAGRAFINDA transit yogunlugunu referansla: hangi donemde zorluk transitler yogun (kirmizi gunler), ne zaman firsat transitler devreye giriyor (yesil gunler).
+7. Her odak alani EN AZ 2 paragraf. Bos birakma.
+8. focusAreas: kariyer, iliskiler, ic dunya, buyume, saglik — 5 alan HEPSI doldurulmali.
+9. milestones: EN AZ 6, EN FAZLA 10 donum noktasi. Her birine EN AZ 3 cumle description yaz. "Onemli bir donem" gibi bos cumleler YASAK. Tarih + ne olacak + nasil etkileyecek yaz. window'da GUN NUMARASI ver (ornek: "15 Mart – 20 Mayis 2026"), sadece ay ismi YETERLI DEGIL.
+10. overview.summary EN AZ 4 cumle.
+11. Sadece JSON dondur.`;
   },
 };

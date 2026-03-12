@@ -8,15 +8,15 @@
  */
 
 const { getProfile } = require("../shared/periodProfiles");
-const { buildBaseTransitModel, selectMilestones, selectTopThemes, assembleOutput } = require("../shared/engine");
+const { buildBaseTransitModel, selectMilestones, assembleOutput } = require("../shared/engine");
 const { buildRetroWindows, buildRetroAIPayload, mergeRetroAIResults } = require("../shared/retrogrades");
 
 const AI_TIMEOUT_MS = 120000;
 
-function createHybridPipeline({ openai }) {
+function createHybridPipeline({ openai, lang = "tr" }) {
   const profile = getProfile(6);
-  const hybridPrompts = require("../prompts/hybrid-tr");
-  const retroPrompts = require("../prompts/retro-tr");
+  const hybridPrompts = require(`../prompts/hybrid-${lang}`);
+  const retroPrompts = require(`../prompts/retro-${lang}`);
 
   async function callAI(messages, label) {
     const completion = await Promise.race([
@@ -41,33 +41,45 @@ function createHybridPipeline({ openai }) {
       title: p.title,
       window: p.window,
       dominantThemes: p.dominantThemes,
-      clusterSummary: p.clusters.slice(0, 4).map((c) => `${c.label} (skor: ${c.themeScore})`),
+      clusterSummary: p.clusters.slice(0, 5).map((c) => `${c.label} (skor: ${c.themeScore})`),
+      topTransits: [...p.events]
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 6)
+        .map((e) => `${e.title || `${e.transitPlanet} ${e.aspect} ${e.natalPlanet}`} (${e.startDate} – ${e.endDate}, doruk: ${e.exactDate}, skor: ${e.score}, tur: ${e.color})`),
     }));
-
-    const topThemes = selectTopThemes([...baseModel.merged], profile.maxThemes)
-      .map((c) => ({
-        id: c.theme,
-        label: c.label,
-        maxScore: c.themeScore,
-        window: `${c.windowStart} – ${c.windowEnd}`,
-        eventCount: c.events.length,
-      }));
 
     const milestoneHints = selectMilestones(baseModel.merged, profile.maxMilestones, baseModel.merged)
       .map((m) => ({ title: m.title, window: m.window, theme: m.theme }));
 
+    const recurringForPrompt = baseModel.recurringThemes
+      .slice(0, 5)
+      .map((rt) => ({ theme: rt.theme, label: rt.label, phases: rt.phases, count: rt.count }));
+
+    const focusForPrompt = {};
+    for (const [area, data] of Object.entries(baseModel.focusAreas)) {
+      focusForPrompt[area] = {
+        hasContent: data.hasContent,
+        themes: data.themes.map((t) => `${t.label} (${t.themeScore})`),
+      };
+    }
+
     const prompt = hybridPrompts.buildHybridCallAPrompt({
       phases: aiPayloadPhases,
-      topThemes,
+      focusAreas: focusForPrompt,
+      recurringThemes: recurringForPrompt,
       milestoneHints,
       period: periodText,
     });
 
     try {
-      return await callAI([
+      const result = await callAI([
         { role: "system", content: hybridPrompts.systemMessage },
         { role: "user", content: prompt },
       ], "Hybrid Call A");
+      console.log(`[Hybrid] Call A keys:`, Object.keys(result));
+      console.log(`[Hybrid] phases:`, result.phases?.length, '| milestones:', result.milestones?.length, '| focusAreas:', !!result.focusAreas);
+      if (result.phases?.[0]) console.log(`[Hybrid] phase_1 interp length:`, result.phases[0].interpretation?.length || 0);
+      return result;
     } catch (e) {
       console.warn(`[Hybrid] Call A failed, retrying...`, e.message);
       try {

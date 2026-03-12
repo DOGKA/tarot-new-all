@@ -13,9 +13,9 @@ const { splitTiers } = require("../shared/clustering");
 
 const AI_TIMEOUT_MS = 120000;
 
-function createQuarterlyPipeline({ openai }) {
+function createQuarterlyPipeline({ openai, lang = "tr" }) {
   const profile = getProfile(3);
-  const standardPrompts = require("../prompts/standard-tr");
+  const standardPrompts = require(`../prompts/standard-${lang}`);
 
   async function callAI(messages, label) {
     const completion = await Promise.race([

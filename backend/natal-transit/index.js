@@ -20,23 +20,25 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
   const pricesData = JSON.parse(fs.readFileSync(pricesPath, "utf8"));
   const TRANSIT_PRICES = pricesData.transit || { 1: 15, 3: 30, 6: 50, 12: 75 };
 
-  const yearlyPipeline = createYearlyPipeline({ openai });
-  const hybridPipeline = createHybridPipeline({ openai });
-  const quarterlyPipeline = createQuarterlyPipeline({ openai });
-  const monthlyPipeline = createMonthlyPipeline({ openai });
+  function getPipeline(periodMonths, lang) {
+    if (periodMonths === 12) return createYearlyPipeline({ openai, lang });
+    if (periodMonths === 6) return createHybridPipeline({ openai, lang });
+    if (periodMonths === 3) return createQuarterlyPipeline({ openai, lang });
+    return createMonthlyPipeline({ openai, lang });
+  }
 
   // --- Cache helpers ---
 
-  function getTransitReadingsPath() {
-    return path.join(backendDataPath, "tr", "transit-readings.json");
+  function getTransitReadingsPath(lang = "tr") {
+    return path.join(backendDataPath, lang, "transit-readings.json");
   }
 
-  function getTransitEventsCachePath() {
-    return path.join(backendDataPath, "tr", "transit-events-cache.json");
+  function getTransitEventsCachePath(lang = "tr") {
+    return path.join(backendDataPath, lang, "transit-events-cache.json");
   }
 
-  function loadTransitReadings() {
-    const p = getTransitReadingsPath();
+  function loadTransitReadings(lang = "tr") {
+    const p = getTransitReadingsPath(lang);
     try {
       if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, "utf8"));
     } catch (e) {
@@ -45,22 +47,22 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
     return { readings: {} };
   }
 
-  function saveTransitReadings(cache) {
-    fs.writeFileSync(getTransitReadingsPath(), JSON.stringify(cache, null, 2), "utf8");
+  function saveTransitReadings(cache, lang = "tr") {
+    fs.writeFileSync(getTransitReadingsPath(lang), JSON.stringify(cache, null, 2), "utf8");
   }
 
-  function loadTransitEventsCache() {
-    const p = getTransitEventsCachePath();
+  function loadTransitEventsCache(lang = "tr") {
+    const p = getTransitEventsCachePath(lang);
     try {
       if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, "utf8"));
     } catch (e) {
       console.warn("[Transit] events cache read error:", e.message);
     }
-    return { items: {} };
+    return {};
   }
 
-  function saveTransitEventsCache(cache) {
-    fs.writeFileSync(getTransitEventsCachePath(), JSON.stringify(cache, null, 2), "utf8");
+  function saveTransitEventsCache(cache, lang = "tr") {
+    fs.writeFileSync(getTransitEventsCachePath(lang), JSON.stringify(cache, null, 2), "utf8");
   }
 
   function getTransitCost(months) {
@@ -91,8 +93,9 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
 
   router.post("/", async (req, res) => {
     try {
-      const { deviceId, months = 1, locations = [] } = req.body;
-      console.log(`[Transit] Request start ${String(deviceId || "").slice(0, 12)}... months=${months}`);
+      const { deviceId, months = 1, locations = [], lang = "tr" } = req.body;
+      const validLang = ["tr", "en", "de", "es"].includes(lang) ? lang : "tr";
+      console.log(`[Transit] Request start ${String(deviceId || "").slice(0, 12)}... months=${months} lang=${validLang}`);
       if (!deviceId) return res.status(400).json({ success: false, error: "deviceId required" });
 
       const periodMonths = parseInt(months, 10);
@@ -130,8 +133,8 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
       }
 
       const locationsHash = hashTransitLocations(normalizedLocations);
-      const cacheKey = `${deviceId}:${periodMonths}:tr:v4:${locationsHash}`;
-      const readingsCache = loadTransitReadings();
+      const cacheKey = `${deviceId}:${periodMonths}:${validLang}:v4:${locationsHash}`;
+      const readingsCache = loadTransitReadings(validLang);
       if (readingsCache.readings[cacheKey]) {
         return res.json({
           success: true,
@@ -142,36 +145,29 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
       }
 
       const chartPlanets = user?.natalChart?.planets || getFallbackNatalPlanets();
-      const eventsCache = loadTransitEventsCache();
-      let timelinePayload = eventsCache.items[cacheKey]?.payload;
+      const eventsCache = loadTransitEventsCache(validLang);
+      const eventsCacheKey = `${deviceId}:${periodMonths}:v4:${locationsHash}`;
+      let timelinePayload = eventsCache[eventsCacheKey]?.payload;
       if (!timelinePayload) {
         timelinePayload = buildTransitTimeline({
           natalPlanets: chartPlanets,
           months: periodMonths,
           locations: normalizedLocations,
         });
-        eventsCache.items[cacheKey] = {
+        eventsCache[eventsCacheKey] = {
           createdAt: new Date().toISOString(),
           locations: normalizedLocations,
           payload: timelinePayload,
         };
-        saveTransitEventsCache(eventsCache);
+        saveTransitEventsCache(eventsCache, validLang);
       }
 
       const period = timelinePayload.period;
-      const periodText = `${period.start} – ${period.end} (${periodMonths} ay)`;
+      const periodText = `${period.start} – ${period.end} (${periodMonths} months)`;
       const profile = getProfile(periodMonths);
 
-      let result;
-      if (periodMonths === 12) {
-        result = await yearlyPipeline.generate(timelinePayload, period, periodText, chartPlanets);
-      } else if (periodMonths === 6) {
-        result = await hybridPipeline.generate(timelinePayload, period, periodText, chartPlanets);
-      } else if (periodMonths === 3) {
-        result = await quarterlyPipeline.generate(timelinePayload, period, periodText, chartPlanets);
-      } else {
-        result = await monthlyPipeline.generate(timelinePayload, period, periodText, chartPlanets);
-      }
+      const pipeline = getPipeline(periodMonths, validLang);
+      const result = await pipeline.generate(timelinePayload, period, periodText, chartPlanets);
 
       const data = {
         ...result,
@@ -184,13 +180,13 @@ function createTransitRouter({ openai, getUser, updateUser, isPremium, getFallba
       readingsCache.readings[cacheKey] = {
         createdAt: new Date().toISOString(),
         months: periodMonths,
-        lang: "tr",
+        lang: validLang,
         locationsHash,
         locations: normalizedLocations,
         gemCost,
         data,
       };
-      saveTransitReadings(readingsCache);
+      saveTransitReadings(readingsCache, validLang);
 
       console.log(`[Transit] ${deviceId.substring(0, 12)}... months=${periodMonths} mode=${profile.mode} -${gemCost}gs`);
       return res.json({ success: true, source: "generated", gemCost, data });

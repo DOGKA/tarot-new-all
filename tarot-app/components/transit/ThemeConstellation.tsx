@@ -51,55 +51,56 @@ type LayoutDef = {
  *   down-right : dx=+58  dy=+58  (through edges 2-3 ↔ 6-7)
  *   right      : dx=+82  dy=  0  (through edges 1-2 ↔ 5-6)
  */
+const TOP_PAD = 30;
 const LAYOUTS: Record<number, LayoutDef> = {
   1: {
-    nodes: [{ x: 170, y: 54 }],
-    h: 112,
+    nodes: [{ x: 170, y: 54 + TOP_PAD }],
+    h: 112 + TOP_PAD,
   },
   2: {
     nodes: [
-      { x: 170, y: 54 },
-      { x: 112, y: 112 },
+      { x: 170, y: 54 + TOP_PAD },
+      { x: 112, y: 112 + TOP_PAD },
     ],
-    h: 170,
+    h: 170 + TOP_PAD,
   },
   3: {
     nodes: [
-      { x: 170, y: 54 },
-      { x: 112, y: 112 },
-      { x: 170, y: 170 },
+      { x: 170, y: 54 + TOP_PAD },
+      { x: 112, y: 112 + TOP_PAD },
+      { x: 170, y: 170 + TOP_PAD },
     ],
-    h: 228,
+    h: 228 + TOP_PAD,
   },
   4: {
     nodes: [
-      { x: 170, y: 54 },
-      { x: 112, y: 112 },
-      { x: 170, y: 170 },
-      { x: 252, y: 170 },
+      { x: 170, y: 54 + TOP_PAD },
+      { x: 112, y: 112 + TOP_PAD },
+      { x: 170, y: 170 + TOP_PAD },
+      { x: 252, y: 170 + TOP_PAD },
     ],
-    h: 228,
+    h: 228 + TOP_PAD,
   },
   5: {
     nodes: [
-      { x: 170, y: 54 },
-      { x: 112, y: 112 },
-      { x: 170, y: 170 },
-      { x: 252, y: 170 },
-      { x: 112, y: 228 },
+      { x: 170, y: 54 + TOP_PAD },
+      { x: 112, y: 112 + TOP_PAD },
+      { x: 170, y: 170 + TOP_PAD },
+      { x: 252, y: 170 + TOP_PAD },
+      { x: 112, y: 228 + TOP_PAD },
     ],
-    h: 286,
+    h: 286 + TOP_PAD,
   },
   6: {
     nodes: [
-      { x: 170, y: 54 },
-      { x: 112, y: 112 },
-      { x: 170, y: 170 },
-      { x: 252, y: 170 },
-      { x: 112, y: 228 },
-      { x: 170, y: 286 },
+      { x: 170, y: 54 + TOP_PAD },
+      { x: 112, y: 112 + TOP_PAD },
+      { x: 170, y: 170 + TOP_PAD },
+      { x: 252, y: 170 + TOP_PAD },
+      { x: 112, y: 228 + TOP_PAD },
+      { x: 170, y: 286 + TOP_PAD },
     ],
-    h: 344,
+    h: 344 + TOP_PAD,
   },
 };
 

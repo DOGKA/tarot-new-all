@@ -1,75 +1,92 @@
 # natal-transit
 
-Transit astroloji modulu. Kullanicinin natal harita gezegenlerine gore 1/3/6/12 aylik transit olaylarini hesaplar, skorlar, tema kumelerine ayirir ve yorumlar.
+Transit astrology engine for the Tarot app. Generates personalized transit readings for 1, 3, 6, and 12-month periods.
 
-## Yapi
+## Architecture
 
 ```
 natal-transit/
-  index.js              Router + orchestration (ince katman)
-  prompts/
-    standard-tr.js      1/3/6 ay tema-bazli prompt
-    yearly-tr.js        12 ay narrative prompt
-  shared/
-    ephemeris.js        Swiss Ephemeris wrapper (gezegen pozisyonlari)
-    scoring.js          Event-level importance skoru (0-100)
-    clustering.js       Tema kumeleme, themeScore, merge, tier split
-    formatters.js       Baslik, tarih araligi, etiket uretimi
-    transits.js         Ham transit hesaplama (buildTransitTimeline)
-  standard/
-    pipeline.js         1/3/6 ay pipeline (score->cluster->tier->AI)
-    templates.js        Theme+variant sablon sistemi
-  yearly/
-    pipeline.js         12 ay pipeline (score->suppress->cluster->phase->AI)
-    phases.js           Faz segmentasyonu + faz dominansi analizi
+├── index.js              # Express router, cache management, API endpoints
+├── pipelines/
+│   ├── monthly.js        # 1-month pipeline (themes only)
+│   ├── quarterly.js      # 3-month pipeline (themes + milestones)
+│   ├── hybrid.js         # 6-month pipeline (phases + milestones + focusAreas)
+│   └── yearly.js         # 12-month pipeline (phases + milestones + focusAreas)
+├── prompts/
+│   ├── standard-{lang}.js  # 1+3 month prompts (tr, en, de, es)
+│   ├── hybrid-{lang}.js    # 6-month prompts (tr, en, de, es)
+│   ├── yearly-{lang}.js    # 12-month prompts (tr, en, de, es)
+│   └── retro-{lang}.js     # Retrograde polish prompts (tr, en, de, es)
+└── shared/
+    ├── engine.js           # Base model builder, milestone selector, output assembler
+    ├── transits.js          # Transit timeline builder (ephemeris-based)
+    ├── ephemeris.js          # Planet position calculator
+    ├── scoring.js           # Transit scoring algorithm
+    ├── clustering.js        # Theme clustering
+    ├── phases.js            # Phase segmentation + recurring theme detection
+    ├── retrogrades.js       # Retrograde window builder + AI merge
+    ├── formatters.js        # Title/range text builders
+    ├── periodProfiles.js    # Period configuration (caps, phase counts, AI strategy)
+    └── contract.js          # Output validation
 ```
 
-## Pipeline Akisi
+## Period Modes
 
-### Standard (1/3/6 ay)
+| Period | Mode | Phases | Themes | Drivers | FocusAreas | Retro | AI Calls |
+|--------|------|--------|--------|---------|------------|-------|----------|
+| 1 month | monthly | 0 | 6 | 0 | No | Template | 1 |
+| 3 months | quarterly | 0 | 6 | 0 | No | Template | 1 |
+| 6 months | hybrid | 3 | 0 | 20 | Yes | Template+AI | 2 |
+| 12 months | yearlyNarrative | 4 | 0 | 25 | Yes | Template+AI | 2 |
 
+## Supported Languages
+
+- Turkish (tr) — primary
+- English (en)
+- German (de)
+- Spanish (es)
+
+Language is passed via `lang` parameter in the API request. Each language has its own prompt files and data cache.
+
+## API Endpoints
+
+### POST /api/natal/transits
+Generate or retrieve a transit reading.
+
+```json
+{
+  "deviceId": "user_device_id",
+  "months": 6,
+  "lang": "tr",
+  "locations": [
+    {
+      "city": "Istanbul",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "utcOffset": 3,
+      "timezone": "Europe/Istanbul",
+      "startDate": "2026-03-11",
+      "endDate": "2026-09-11"
+    }
+  ]
+}
 ```
-buildTransitTimeline -> scoreEvent -> clusterEvents -> mergeOverlapping
-  -> splitTiers -> interpretThemes(AI, sadece critical) -> template(supportive) -> response
-```
 
-- **Critical temalar**: AI'ye gonder, tam yorum al
-- **Supportive temalar**: Theme+variant sablondan metin uret
-- **Background**: Sadece baslik + tarih
+### GET /api/natal/transits/:deviceId/latest?months=6
+Get the latest cached reading for a device.
 
-### Yearly (12 ay)
+### GET /api/natal/transits/:deviceId/status
+Get reading history and current transit positions.
 
-```
-buildTransitTimeline -> suppressFastPlanets -> scoreEvent -> clusterEvents
-  -> segmentPhases(3 faz) -> buildPhaseDominance -> interpretYearlyNarrative(AI) -> response
-```
+### DELETE /api/natal/transits/:deviceId
+Clear all cached readings for a device.
 
-Cikti: `yearOverview`, `phases[3]`, `focusAreas`, `milestones` — liste degil rapor.
+## Data Flow
 
-## Skorlama
-
-100 puanlik onem skoru:
-- Gezegen agirligi (Pluto=10 ... Moon=1)
-- Natal hedef agirligi (ASC/MC=10, Sun/Moon=9, ...)
-- Aci agirligi (conjunction=10, opposition=9, ...)
-- Orb bonusu, sure bonusu, hizli gezegen cezasi
-
-Tema skoru = maxEventScore + density + multiPlanetBonus + durationBonus
-
-Periyoda gore esikler: 1ay ai:65, 3ay ai:75, 6ay ai:80, 12ay ai:85
-
-## API
-
-| Method | Endpoint | Aciklama |
-|--------|----------|----------|
-| POST | `/api/natal/transits` | Transit analizi uret (1/3/6/12 ay) |
-| GET | `/api/natal/transits/:deviceId/latest` | Son transit okumasi |
-| GET | `/api/natal/transits/:deviceId/status` | Transit durumu |
-| DELETE | `/api/natal/transits/:deviceId` | Transit cache temizle |
-
-## Bagimliliklar
-
-- `swisseph` (Swiss Ephemeris Node.js binding)
-- `openai` (GPT-4o, index.js uzerinden inject edilir)
-- `../prompts` hub (getTransitPrompts)
-- `../dream-coder/data/prices.json` (fiyat tablosu)
+1. **Transit Timeline** — Ephemeris calculates planet positions, finds aspects to natal chart
+2. **Scoring** — Each transit scored by aspect type, planet weight, orb tightness
+3. **Clustering** — Transits grouped into themes (career, relationships, etc.)
+4. **Phases** — For 6+12 month: themes segmented into time-based phases
+5. **AI Call A** — GPT-4o generates interpretations, milestones, focus areas
+6. **AI Call B** — GPT-4o personalizes retrograde windows (6+12 month only)
+7. **Assembly** — Merge AI results with base model, build final output
