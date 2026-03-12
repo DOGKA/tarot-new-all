@@ -8,15 +8,15 @@
 
 | Katman | Teknoloji |
 |--------|-----------|
-| Frontend | React Native (Expo ~54.0), Expo Router ^6.0 |
-| Backend | Express.js ^5.2 (Node.js) |
-| AI | OpenAI GPT-4o (tek çağrı, retry yok) |
+| Frontend | React Native 0.81.5, Expo ~54.0.32, Expo Router ^6.0.22 |
+| Backend | Express.js ^5.2.1 (Node.js) |
+| AI | OpenAI SDK (`openai` ^6.16.0), GPT tabanlı üretim akışları |
 | Çeviri | DeepL API (DE/ES: formality "less" — sen dili) |
-| i18n | i18next + react-i18next (TR/EN/DE/ES) |
+| i18n | i18next ^25.8 + react-i18next ^16.5 (TR/EN/DE/ES) |
 | UI | Glassmorphism (expo-blur, expo-linear-gradient) |
-| 3D | Three.js + expo-gl + expo-three (Ay, gezegen, burç görselleri) |
+| 3D | Three.js ^0.183 + expo-gl + expo-three (Ay, gezegen, burç görselleri) |
 | Astronomi | lunarphase-js + suncalc (ay evresi, burç, gezegen hesabı) |
-| Storage | JSON dosyaları + AsyncStorage (kalıcı deviceId) |
+| Storage | JSON dosyaları + AsyncStorage 2.2 (kalıcı deviceId) |
 | Cron | node-cron (horoscope + moon otomatik üretim) |
 
 ---
@@ -25,8 +25,8 @@
 
 | Modül | Açıklama | Gelir Modeli |
 |-------|----------|--------------|
-| **Tarot** | Psikolojik tarot okumaları (1-3-5 kart, 16 açılım) | Gemstone (FREE: hardcoded, PREMIUM: GPT) |
-| **Dream Coder** | Rüya çözümlemesi (A/B/C modları + upsell sembol) | Gemstone (11-22gs) |
+| **Tarot** | Psikolojik tarot okumaları (1-3-5 kart, 16 açılım) | Gemstone (3-8gs) |
+| **Dream Coder** | Rüya çözümlemesi (A/B/C modları + upsell sembol) | Gemstone (1-8gs) |
 | **Moon Astro** | Gerçek zamanlı ay evresi, burç, gezegen | FREE: aktif slot, PREMIUM: tüm slotlar |
 | **Daily Horoscope** | 372-tema çapraz rotasyon günlük burç yorumu | FREE: headline+body+do/dont, PREMIUM: Dive Deeper (3gs) |
 | **Natal Chart** | Kişisel doğum haritası AI yorumlaması | 50 gemstone (tek seferlik) |
@@ -92,15 +92,15 @@ Kehanet YOK, guru tonu YOK, uydurma detay YOK. Hepsi "sende neyi tetikliyor" sor
 
 | İçerik | FREE | Gemstone | Premium Abo |
 |--------|------|----------|-------------|
-| Tekli Tarot (1 kart) | Hardcoded meaning | GPT yorum (6gs) | GPT yorum (6gs) |
-| Yes/No | Hardcoded shortReason | GPT yorum (6gs) | GPT yorum (6gs) |
-| 3'lü Tarot (PPF, SOA vs.) | KİLİTLİ | GPT yorum (14gs) | GPT yorum (14gs) |
-| 5'li Tarot (Love, Moon vs.) | KİLİTLİ | GPT yorum (22gs) | GPT yorum (22gs) |
-| Dream A (Hızlı Çözümleme) | KİLİTLİ | 11gs | 11gs |
-| Dream B (Derin Çözümleme) | KİLİTLİ | 22gs | 22gs |
-| Dream C (Dönüştürme Planı) | KİLİTLİ | KİLİTLİ | 12gs (sadece abone) |
-| Upsell Sembol | — | 3gs | 3gs |
-| JournalPlus (Tavsiye) | — | 5gs | 5gs |
+| Tekli Tarot (1 kart) | Hardcoded meaning | GPT yorum (3gs) | GPT yorum (3gs) |
+| Yes/No | Hardcoded shortReason | GPT yorum (3gs) | GPT yorum (3gs) |
+| 3'lü Tarot (PPF, SOA vs.) | KİLİTLİ | GPT yorum (5gs) | GPT yorum (5gs) |
+| 5'li Tarot (Love, Moon vs.) | KİLİTLİ | GPT yorum (8gs) | GPT yorum (8gs) |
+| Dream A (Hızlı Çözümleme) | KİLİTLİ | 4gs | 4gs |
+| Dream B (Derin Çözümleme) | KİLİTLİ | 8gs | 8gs |
+| Dream C (Dönüştürme Planı) | KİLİTLİ | KİLİTLİ | 5gs (sadece abone) |
+| Upsell Sembol | — | 1gs | 1gs |
+| JournalPlus (Tavsiye) | — | 2gs | 2gs |
 | Moon Astro (aktif slot) | ✓ Ücretsiz | — | — |
 | Moon Astro (tüm slotlar) | Bulanık (blur) | — | ✓ Açık |
 | Horoscope FREE | ✓ headline+body+do/dont | — | — |
@@ -117,17 +117,18 @@ Kehanet YOK, guru tonu YOK, uydurma detay YOK. Hepsi "sende neyi tetikliyor" sor
 
 | Plan | Fiyat | Bonus | Süre |
 |------|-------|-------|------|
-| Aylık | $4.99/ay | +50 gemstone (her ay) | 30 gün |
-| Yıllık | ~~$59.88~~ **$45.00/yıl** | +500 gemstone | 365 gün ($3.75/ay, %25 tasarruf) |
+| Aylık | $4.99/ay | +10 gemstone | 30 gün |
+| 6 Aylık | ~~$29.94~~ **$19.99 / 180 gün** | +80 gemstone | 180 gün |
+| Yıllık | ~~$59.88~~ **$34.99/yıl** | +150 gemstone | 365 gün |
 
 ## Gemstone Paketleri
 
-| Paket | Gerçek | Bonus | Toplam | Fiyat | $/gem |
-|-------|--------|-------|--------|-------|-------|
-| 50 | 50 | 0 | **50** | $3.99 | $0.0798 |
-| 100 | 75 | 25 | **100** | $5.99 | $0.0599 |
-| 250 | 150 | 100 | **250** | $11.99 | $0.0480 |
-| 500 | 250 | 250 | **500** | $19.99 | $0.0400 |
+| Paket | Gerçek | Bonus | Toplam | Standart | Premium |
+|-------|--------|-------|--------|----------|---------|
+| 20 | 20 | 0 | **20** | $3.99 | $2.99 |
+| 50 | 35 | 15 | **50** | $6.99 | $4.99 |
+| 100 | 75 | 25 | **100** | $14.99 | $10.99 |
+| 200 | 125 | 75 | **200** | $24.99 | $17.99 |
 
 ---
 
@@ -144,34 +145,34 @@ Kehanet YOK, guru tonu YOK, uydurma detay YOK. Hepsi "sende neyi tetikliyor" sor
 
 | Açılım | Kart | Gem | Kategori |
 |--------|------|-----|----------|
-| Past/Present/Future | 3 | 14 | Genel |
-| Situation/Obstacle/Advice | 3 | 14 | Genel |
-| Destiny's Embrace | 3 | 14 | Aşk |
-| Mind · Body · Spirit | 3 | 14 | Ruhsal |
-| Celestial Illumination | 3 | 14 | Ruhsal |
-| Career Clarity | 3 | 14 | Kariyer |
-| Career Path Guide | 3 | 14 | Kariyer |
-| Love Choice | 5 | 22 | Aşk |
-| Path to Love | 5 | 22 | Aşk |
-| New Moon Ritual | 5 | 22 | Ruhsal |
-| Full Moon Release | 5 | 22 | Ruhsal |
-| New Business Exploration | 5 | 22 | Kariyer |
-| Wealth Flow | 5 | 22 | Kariyer |
+| Past/Present/Future | 3 | 5 | Genel |
+| Situation/Obstacle/Advice | 3 | 5 | Genel |
+| Destiny's Embrace | 3 | 5 | Aşk |
+| Mind · Body · Spirit | 3 | 5 | Ruhsal |
+| Celestial Illumination | 3 | 5 | Ruhsal |
+| Career Clarity | 3 | 5 | Kariyer |
+| Career Path Guide | 3 | 5 | Kariyer |
+| Love Choice | 5 | 8 | Aşk |
+| Path to Love | 5 | 8 | Aşk |
+| New Moon Ritual | 5 | 8 | Ruhsal |
+| Full Moon Release | 5 | 8 | Ruhsal |
+| New Business Exploration | 5 | 8 | Kariyer |
+| Wealth Flow | 5 | 8 | Kariyer |
 
 ---
 
 ## Dream Coder Modları
 
-### A — Hızlı Çözümleme (11gs)
+### A — Hızlı Çözümleme (4gs)
 
 | Alan | Açıklama |
 |------|----------|
 | overall | 2-3 cümle, çekirdek tema |
 | beats | 2-3 öge, [somut rüya ögesi] + [dinamizm fiili] ile başlar |
 | keywords | 3 kelime |
-| Upsell | 1 aday otomatik, 3gs'e açılır |
+| Upsell | 1 aday otomatik, 1gs'e açılır |
 
-### B — Derin Çözümleme (22gs)
+### B — Derin Çözümleme (8gs)
 
 | Alan | Açıklama |
 |------|----------|
@@ -180,10 +181,10 @@ Kehanet YOK, guru tonu YOK, uydurma detay YOK. Hepsi "sende neyi tetikliyor" sor
 | pattern | TAM 3 cümle: tetikleyici→tepki→bedel |
 | keywords | 3 kelime |
 | journal | 1 içsel soru (Kendine Sor) |
-| JournalPlus | Kullanıcı cevap yazarsa somut tavsiye alır (5gs) |
-| Upsell | 3 aday, kullanıcı seçer, 3gs'e açılır |
+| JournalPlus | Kullanıcı cevap yazarsa somut tavsiye alır (2gs) |
+| Upsell | 3 aday, kullanıcı seçer, 1gs'e açılır |
 
-### C — Dönüştürme Planı (12gs, PREMIUM ONLY)
+### C — Dönüştürme Planı (5gs, PREMIUM ONLY)
 
 | Alan | Açıklama |
 |------|----------|
@@ -194,7 +195,7 @@ Kehanet YOK, guru tonu YOK, uydurma detay YOK. Hepsi "sende neyi tetikliyor" sor
 | plan[2] | Sınır: "Ben artık..." formatı |
 | keywords | 3 kelime |
 | journal | 1 içsel soru |
-| JournalPlus | 5gs tavsiye |
+| JournalPlus | 2gs tavsiye |
 
 ---
 
@@ -500,9 +501,9 @@ TAROT-NEW-ALL/
 | Method | Endpoint | Açıklama |
 |--------|----------|----------|
 | POST | `/api/natal/transits` | Transit analizi üret (1/3/6/12 ay) |
-| GET | `/api/natal/transits/:deviceId/latest` | Son transit okuması |
-| GET | `/api/natal/transits/:deviceId/status` | Transit durumu |
-| DELETE | `/api/natal/transits/:deviceId` | Transit cache temizle |
+| GET | `/api/natal/transits/:deviceId/latest?months=6&lang=en` | Son transit okuması (dil + periyot filtreli) |
+| GET | `/api/natal/transits/:deviceId/status?lang=tr` | Transit durumu |
+| DELETE | `/api/natal/transits/:deviceId?lang=tr` | Transit cache temizle |
 
 ---
 
@@ -526,28 +527,9 @@ Dream Coder ve Transit prompt'lari kendi modulleri icinde tutulur (co-location p
 
 ---
 
-## API Maliyet Analizi
+## Fiyat Kaynağı
 
-| Ürün | GPT Çağrısı | Maliyet/istek | Gemstone | ROI (min-max) |
-|------|-------------|---------------|----------|---------------|
-| Tekli Tarot | 1 | ~$0.0015 | 6gs | 16,000% - 32,000% |
-| 3'lü Tarot | 1 | ~$0.007 | 14gs | 8,000% - 16,000% |
-| 5'li Tarot | 1 | ~$0.0085 | 22gs | 10,300% - 20,700% |
-| Dream A | 2 (decode + upsell) | ~$0.0066 | 11gs | 6,600% - 13,300% |
-| Dream B | 2 (decode + upsell) | ~$0.0079 | 22gs | 11,100% - 22,200% |
-| Dream C | 1 (decode only) | ~$0.0073 | 12gs | 6,500% - 13,100% |
-| Upsell Sembol | 0 (önceden hazır) | $0 | 3gs | ∞ (saf kar) |
-| JournalPlus | 1 | ~$0.002 | 5gs | 10,000% - 20,000% |
-| Horoscope FREE | 1/burç (cron batch) | ~$0.001/burç | 0 | Kullanıcı çekim |
-| Horoscope Dive Deeper | 1 | ~$0.003 | 3gs | 4,000% - 8,000% |
-| Moon Astro | 1/slot | ~$0.002/slot | 0 | Kullanıcı çekim |
-| Natal Chart | 1 | ~$0.015 | 50gs | 13,000%+ |
-| Transit 1 Ay | 1 | ~$0.008 | 50gs | 25,000%+ |
-| Transit 3 Ay | 1 | ~$0.010 | 75gs | 30,000%+ |
-| Transit 6 Ay | 2 | ~$0.015 | 100gs | 26,000%+ |
-| Transit 12 Ay (Yillik) | 2 | ~$0.018 | 150gs | 33,000%+ |
-
-*Ortalama ROI: %6,500 - %20,000+ (maliyetin 65-200 katı)*
+Ürün ve abonelik fiyatlarının kaynak dosyası `backend/dream-coder/data/prices.json` dosyasıdır. README içindeki tablolar bu dosyaya göre özetlenmiştir; fiyat değişecekse önce bu JSON güncellenmelidir.
 
 ---
 
@@ -614,7 +596,9 @@ PORT=3001
 
 ```bash
 # Backend
-cd backend && cp .env.example .env && npm install && node index.js
+cd backend && npm install
+# backend/.env dosyasini manuel olustur
+node index.js
 
 # Frontend
 cd tarot-app && npm install && npx expo start
@@ -641,3 +625,4 @@ cd tarot-app && npm install && npx expo start
 - **DeepL çeviri stratejisi**: Moon + Horoscope FREE → TR'de üret, DeepL ile çevir. Horoscope Dive Deeper + Natal → doğrudan hedef dilde üret
 - **Idempotency**: `requestId` ile duplicate önlenir
 - **Market**: Bilgi amaçlı, satın alma entegrasyonu henüz yok
+- **README bakım notu**: Fiyat/erişim değişikliklerinde önce `backend/dream-coder/data/prices.json`, transit akış değişikliklerinde `backend/natal-transit/README.md` kontrol edilmelidir.
