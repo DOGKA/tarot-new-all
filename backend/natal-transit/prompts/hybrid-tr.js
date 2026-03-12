@@ -43,7 +43,7 @@ JSON FORMAT (HARFIYEN UYULMALI):
   },
   "phases": [
     {
-      "id": "phase_1 (birebir koru)",
+      "id": "phase_1",
       "title": "Yaratici faz basligi",
       "interpretation": "EN AZ 3 paragraf. Faz donemi icin detayli narrative yorum. BASLIK KULLANMA. Son paragrafta bu donemde yogun olan transit turlerini (zorluk, firsat, degisim) referansla: 'Bu donemde ozellikle yapisal baskilar yogun. Takvimde kirmizi gunler bunu dogruluyor. Ancak ay sonuna dogru firsat transitler devreye giriyor' gibi."
     },

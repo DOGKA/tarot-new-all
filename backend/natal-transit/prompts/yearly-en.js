@@ -42,7 +42,7 @@ JSON FORMAT (MUST BE FOLLOWED EXACTLY):
   },
   "phases": [
     {
-      "id": "phase_1 (keep exactly)",
+      "id": "phase_1",
       "title": "Creative phase title",
       "interpretation": "AT LEAST 4 paragraphs. NO headings. Reference topTransits by name and date. Last paragraph: reference transit intensity (challenge=red, opportunity=green, change=blue days)."
     },

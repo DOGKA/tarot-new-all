@@ -41,7 +41,7 @@ JSON FORMAT (MUST BE FOLLOWED EXACTLY):
   },
   "phases": [
     {
-      "id": "phase_1 (keep exactly)",
+      "id": "phase_1",
       "title": "Creative phase title",
       "interpretation": "AT LEAST 3 paragraphs. NO headings. Last paragraph must reference transit intensity: which periods have heavy challenge transits (red days), when opportunity transits kick in (green days), when change transits peak (blue days). Reference topTransits by name and date."
     },

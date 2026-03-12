@@ -40,7 +40,7 @@ JSON FORMAT (MUSS EXAKT EINGEHALTEN WERDEN):
   },
   "phases": [
     {
-      "id": "phase_1 (exakt beibehalten)",
+      "id": "phase_1",
       "title": "Kreativer Phasentitel",
       "interpretation": "MINDESTENS 3 Absätze. KEINE Überschriften. Letzter Absatz muss Transit-Intensität referenzieren: Herausforderungs-Transits (rote Tage), Chancen-Transits (grüne Tage), Veränderungs-Transits (blaue Tage). TopTransits mit Namen und Daten referenzieren."
     },

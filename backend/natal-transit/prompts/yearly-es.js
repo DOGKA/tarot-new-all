@@ -41,7 +41,7 @@ FORMATO JSON:
   },
   "phases": [
     {
-      "id": "phase_1 (mantener exactamente)",
+      "id": "phase_1",
       "title": "Título creativo de fase",
       "interpretation": "AL MENOS 4 párrafos. SIN encabezados. Referenciar topTransits por nombre y fecha. Último párrafo: intensidad de tránsitos."
     },

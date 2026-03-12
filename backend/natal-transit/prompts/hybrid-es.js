@@ -40,7 +40,7 @@ FORMATO JSON (DEBE SEGUIRSE EXACTAMENTE):
   },
   "phases": [
     {
-      "id": "phase_1 (mantener exactamente)",
+      "id": "phase_1",
       "title": "Título creativo de fase",
       "interpretation": "AL MENOS 3 párrafos. SIN encabezados. El último párrafo debe referenciar la intensidad de los tránsitos: tránsitos de desafío (días rojos), tránsitos de oportunidad (días verdes), tránsitos de cambio (días azules). Referencia topTransits por nombre y fecha."
     },

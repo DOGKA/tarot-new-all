@@ -41,7 +41,7 @@ JSON FORMAT:
   },
   "phases": [
     {
-      "id": "phase_1 (exakt beibehalten)",
+      "id": "phase_1",
       "title": "Kreativer Phasentitel",
       "interpretation": "MINDESTENS 4 Absätze. KEINE Überschriften. TopTransits mit Namen und Daten referenzieren. Letzter Absatz: Transit-Intensität."
     },

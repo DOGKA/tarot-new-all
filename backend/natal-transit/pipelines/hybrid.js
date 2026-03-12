@@ -18,21 +18,31 @@ function createHybridPipeline({ openai, lang = "tr" }) {
   const hybridPrompts = require(`../prompts/hybrid-${lang}`);
   const retroPrompts = require(`../prompts/retro-${lang}`);
 
-  async function callAI(messages, label) {
+  async function callAI(messages, label, tokens = 16000) {
     const completion = await Promise.race([
       openai.chat.completions.create({
         model: "gpt-4o",
         messages,
         temperature: 0.75,
-        max_tokens: 16000,
+        max_tokens: tokens,
       }),
       new Promise((_, reject) =>
         setTimeout(() => reject(new Error(`${label} zaman asimi (${AI_TIMEOUT_MS}ms)`)), AI_TIMEOUT_MS)
       ),
     ]);
     const raw = completion.choices[0]?.message?.content || "{}";
+    console.log(`[${label}] raw length: ${raw.length}, finish_reason: ${completion.choices[0]?.finish_reason}`);
     const jsonMatch = raw.match(/\{[\s\S]*\}/);
-    return jsonMatch ? JSON.parse(jsonMatch[0]) : {};
+    if (!jsonMatch) {
+      console.error(`[${label}] No JSON found in response`);
+      return {};
+    }
+    try {
+      return JSON.parse(jsonMatch[0]);
+    } catch (parseErr) {
+      console.error(`[${label}] JSON parse error:`, parseErr.message);
+      return {};
+    }
   }
 
   async function runCallA(baseModel, period, periodText) {
@@ -75,7 +85,7 @@ function createHybridPipeline({ openai, lang = "tr" }) {
       const result = await callAI([
         { role: "system", content: hybridPrompts.systemMessage },
         { role: "user", content: prompt },
-      ], "Hybrid Call A");
+      ], "Hybrid Call A", 24000);
       console.log(`[Hybrid] Call A keys:`, Object.keys(result));
       console.log(`[Hybrid] phases:`, result.phases?.length, '| milestones:', result.milestones?.length, '| focusAreas:', !!result.focusAreas);
       if (result.phases?.[0]) console.log(`[Hybrid] phase_1 interp length:`, result.phases[0].interpretation?.length || 0);
@@ -86,7 +96,7 @@ function createHybridPipeline({ openai, lang = "tr" }) {
         return await callAI([
           { role: "system", content: hybridPrompts.systemMessage },
           { role: "user", content: prompt },
-        ], "Hybrid Call A retry");
+        ], "Hybrid Call A retry", 24000);
       } catch (e2) {
         console.error(`[Hybrid] Call A retry also failed:`, e2.message);
         return {};
