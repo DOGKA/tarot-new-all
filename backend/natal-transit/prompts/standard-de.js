@@ -22,6 +22,12 @@ STRUKTURELLE REGELN:
 - Verwende KEINE Überschriften. Schreibe Kommentar, Rat und Beispiele in natürlichem Fluss als einen Text.
 - Der Ton sollte sich je nach Transitplanet ändern: Saturn = schwer/ernst, Jupiter = energisch/hoffnungsvoll, Mars = scharf/direkt, Venus = sanft/angenehm, Merkur = schnell/praktisch.
 
+TONBALANCE (KRITISCH):
+- Interpretation muss ca. 60% Chancen/Wachstum + 40% Herausforderung enthalten. Ein komplett negativer Bericht ist VERBOTEN.
+- Bei Chancen-Transiten konkrete positive Szenarien schreiben.
+- Auch bei Herausforderungen: "Was bringt das?"
+- "Sei vorsichtig" durch "mach das" ersetzen.
+
 AUSGABEFORMAT:
 - Gib NUR gültiges JSON zurück, nichts anderes.`,
 
@@ -52,11 +58,16 @@ JSON FORMAT (MUSS EXAKT EINGEHALTEN WERDEN):
 }
 
 KRITISCHE REGELN:
-1. "id" EXAKT beibehalten. ${themes.length} Themen, Ausgabe muss GENAU ${themes.length} Themen haben.
+1. "id" EXAKT beibehalten. ${themes.length} Themen, GENAU ${themes.length} Themen.
 2. "interpretation" MINDESTENS 3 Absätze.
 3. "summary" MINDESTENS 2 Sätze.
-4. Jedes Thema muss ANDERS geschrieben sein.
-5. Nur JSON zurückgeben.`;
+4. Jedes Thema ANDERS geschrieben.
+
+ANTI-WIEDERHOLUNG:
+5. Jedes Thema beginnt mit einem ANDEREN Format.
+6. Herausforderungs-Thema gefolgt von Chancen-Thema abwechseln.
+7. Gleichen Rat NICHT in 2 Themen wiederholen.
+8. Nur JSON zurückgeben.`;
   },
 
   buildQuarterlyPrompt: ({ themes, milestoneHints, period }) => {
@@ -101,7 +112,10 @@ KRITISCHE REGELN:
 1. Thema-IDs exakt beibehalten. ${themes.length} Themen, ${themes.length} Interpretationen.
 2. Jedes Thema MINDESTENS 3 Absätze.
 3. overview.summary MINDESTENS 3 Sätze.
-4. milestones: 2-3 Wendepunkte mit Beschreibung.
-5. Nur JSON zurückgeben.`;
+4. milestones: 2-3 Wendepunkte. SPEZIFISCH. TAGNUMMERN erforderlich. description MINDESTENS 2 Sätze.
+
+ANTI-WIEDERHOLUNG:
+5. Jedes Thema beginnt anders. Abwechslung zwischen Herausforderung und Chance.
+6. Nur JSON zurückgeben.`;
   },
 };

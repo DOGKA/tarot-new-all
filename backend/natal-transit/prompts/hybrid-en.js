@@ -14,6 +14,12 @@ WRITING STYLE:
 - Do NOT use headings. Write in natural flowing paragraphs.
 - For 6-month analysis: balance between macro trends and specific period clues.
 
+TONE BALANCE (CRITICAL):
+- Report must be roughly 60% opportunity/growth + 40% challenge/warning. A fully negative or fully positive report is FORBIDDEN.
+- For opportunity transits (trine, sextile, green days), write concrete positive scenarios: promotion, new connection, unexpected income, creative breakthrough, energy surge.
+- Even for challenge transits, answer "what does this build?" Every challenge paragraph must contain at least one opportunity sentence.
+- Replace passive warnings like "be careful" with active suggestions like "do this", "leverage that".
+
 OUTPUT FORMAT:
 - Return ONLY valid JSON, nothing else.`,
 
@@ -43,10 +49,18 @@ JSON FORMAT (MUST BE FOLLOWED EXACTLY):
     {
       "id": "phase_1",
       "title": "Creative phase title",
-      "interpretation": "AT LEAST 3 paragraphs. NO headings. Last paragraph must reference transit intensity: which periods have heavy challenge transits (red days), when opportunity transits kick in (green days), when change transits peak (blue days). Reference topTransits by name and date."
+      "interpretation": "AT LEAST 3 paragraphs. PERSPECTIVE: Introduce the main energy of this period. Make it intriguing. Start the first sentence with a QUESTION (e.g., 'What if an unexpected door opens in your career?'). Last paragraph: reference transit intensity (red/green/blue days)."
     },
-    { "id": "phase_2", "title": "Creative title", "interpretation": "AT LEAST 3 paragraphs." },
-    { "id": "phase_3", "title": "Creative title", "interpretation": "AT LEAST 3 paragraphs." }
+    {
+      "id": "phase_2",
+      "title": "Creative title",
+      "interpretation": "AT LEAST 3 paragraphs. PERSPECTIVE: Focus on turning points. If crisis, offer a solution. If opportunity, give concrete steps. Start with a SCENARIO (e.g., 'A phone call in early July changes everything.'). Use a DIFFERENT pattern than phase_1."
+    },
+    {
+      "id": "phase_3",
+      "title": "Creative title",
+      "interpretation": "AT LEAST 3 paragraphs. PERSPECTIVE: Write about harvest and closure. What has been gained, what has ended. Start with an OBSERVATION (e.g., 'By September, looking back...'). Use a DIFFERENT tone than previous phases."
+    }
   ],
   "milestones": [
     {
@@ -56,11 +70,11 @@ JSON FORMAT (MUST BE FOLLOWED EXACTLY):
     }
   ],
   "focusAreas": {
-    "career": "AT LEAST 1 paragraph, career and money interpretation.",
-    "relationships": "AT LEAST 1 paragraph, relationships and values.",
-    "innerLife": "AT LEAST 1 paragraph, inner transformation.",
-    "growth": "AT LEAST 1 paragraph, personal growth.",
-    "health": "AT LEAST 1 paragraph, health and body."
+    "career": "AT LEAST 2 paragraphs. First: current situation analysis. Second: concrete action plan and opportunity window.",
+    "relationships": "AT LEAST 2 paragraphs. First: main relational dynamic. Second: what to do and when the opening is.",
+    "innerLife": "AT LEAST 2 paragraphs. First: describe the inner process. Second: concrete steps to support it.",
+    "growth": "AT LEAST 2 paragraphs. First: which growth area is highlighted. Second: how to leverage it.",
+    "health": "AT LEAST 2 paragraphs. First: body/energy state. Second: practical health recommendation."
   }
 }
 
@@ -69,10 +83,15 @@ CRITICAL RULES:
 2. Each phase AT LEAST 3 paragraphs.
 3. SPECIFIC DATE references REQUIRED in phase interpretations.
 4. Reference topTransits list: use transit names and dates for specific predictions.
-5. Last paragraph of each phase must reference transit intensity (challenge/opportunity/change colors).
-6. milestones: AT LEAST 4, AT MOST 6. Each with AT LEAST 3 sentences. DAY NUMBERS required in window.
-7. focusAreas: ALL 5 areas must be filled.
+5. Last paragraph of each phase must reference transit intensity (red/green/blue days).
+6. milestones: AT LEAST 4, AT MOST 6. Each with AT LEAST 3 sentences. DAY NUMBERS required.
+7. focusAreas: ALL 5 areas must be filled with AT LEAST 2 PARAGRAPHS each.
 8. overview.summary AT LEAST 3 sentences.
-9. Return ONLY JSON.`;
+
+ANTI-REPETITION RULES:
+9. Do NOT reuse the same opening pattern across phases. Each phase must start DIFFERENTLY (question / scenario / observation).
+10. If referencing the same transit in 2 phases, use DIFFERENT angles: first phase "what begins", second phase "what shifts".
+11. Use "[Date] around this time effects intensify" pattern AT MOST ONCE. Instead write specific sentences like "On X date, planet Y's influence triggers Z concrete event".
+12. Return ONLY JSON.`;
   },
 };

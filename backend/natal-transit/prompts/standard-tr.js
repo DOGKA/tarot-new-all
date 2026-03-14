@@ -25,6 +25,12 @@ YAPISAL KURALLAR:
 - Transit gezegenin dogasina gore ton degismeli: Saturn = agir/ciddi, Jupiter = enerjik/umutlu, Mars = sert/dogrudan, Venus = yumusak/hos, Mercury = hizli/pratik.
 - Ayni tema altindaki farkli transitleri birlestirerek tek bir tutarli hikaye anlat.
 
+TON DENGESI (KRITIK):
+- Yorum %60 firsat/buyume + %40 zorluk/uyari dengesi tasimali. Tamamen olumsuz rapor YASAK.
+- Firsat transitlerde (trine, sextile) somut olumlu senaryolar yaz: terfi, yeni tanisma, beklenmedik gelir, yaratici cikis.
+- Zorluk transitlerde bile "ne kazandirir" sorusunu cevapla.
+- "Dikkatli ol" yerine "sunu yap" de.
+
 CIKTI FORMATI:
 - Sadece gecerli JSON dondur, baska hicbir sey yazma.`,
 
@@ -59,7 +65,12 @@ KRITIK KURALLAR:
 2. "interpretation" EN AZ 3 paragraf.
 3. "summary" EN AZ 2 cumle.
 4. Her tema birbirinden FARKLI yazilmali.
-5. Sadece JSON dondur.`;
+
+TEKRAR ONLEME:
+5. Her temanin ILK CUMLESI farkli bir formatta baslamali. Ayni kaliptan cumleler YASAK.
+6. Bir temada zorluk agirlikli yazdiysan, sonraki temada firsat agirlikli yaz. Tum temalar olumsuz OLAMAZ.
+7. Ayni tavsiyeyi 2 farkli temada TEKRAR verme.
+8. Sadece JSON dondur.`;
   },
 
   buildQuarterlyPrompt: ({ themes, milestoneHints, period }) => {
@@ -104,7 +115,11 @@ KRITIK KURALLAR:
 1. Tema id'leri birebir koru. ${themes.length} tema, ${themes.length} yorum.
 2. Her tema EN AZ 3 paragraf.
 3. overview.summary EN AZ 3 cumle.
-4. milestones: 2-3 donum noktasi, description ile.
-5. Sadece JSON dondur.`;
+4. milestones: 2-3 donum noktasi. Her milestone SPESIFIK bir donem ve olay icermeli. "Genel Etkiler" gibi belirsiz basliklar YASAK. window'da GUN NUMARASI ver (ornek: "15 Mart – 20 Nisan 2026"). description EN AZ 2 cumle.
+
+TEKRAR ONLEME:
+5. Her temanin ILK CUMLESI farkli formatta baslamali.
+6. Bir temada zorluk agirlikli yazdiysan, sonraki temada firsat agirlikli yaz.
+7. Sadece JSON dondur.`;
   },
 };

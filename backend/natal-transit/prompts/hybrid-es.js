@@ -13,6 +13,12 @@ ESTILO DE ESCRITURA:
 - Sé específico: da ejemplos de la vida real.
 - NO uses encabezados. Escribe en párrafos con flujo natural.
 
+BALANCE DE TONO (CRÍTICO):
+- El informe debe tener aproximadamente 60% oportunidad/crecimiento + 40% desafío/advertencia. Un informe totalmente negativo o positivo está PROHIBIDO.
+- En tránsitos de oportunidad (trígono, sextil, días verdes), escribe escenarios positivos concretos: ascenso, nueva conexión, ingreso inesperado, avance creativo.
+- Incluso en tránsitos de desafío, responde "¿qué construye esto?" Cada párrafo de desafío debe contener al menos una frase de oportunidad.
+- Reemplaza advertencias pasivas como "ten cuidado" por sugerencias activas: "haz esto", "aprovecha aquello".
+
 FORMATO DE SALIDA:
 - Devuelve SOLO JSON válido.`,
 
@@ -42,10 +48,18 @@ FORMATO JSON (DEBE SEGUIRSE EXACTAMENTE):
     {
       "id": "phase_1",
       "title": "Título creativo de fase",
-      "interpretation": "AL MENOS 3 párrafos. SIN encabezados. El último párrafo debe referenciar la intensidad de los tránsitos: tránsitos de desafío (días rojos), tránsitos de oportunidad (días verdes), tránsitos de cambio (días azules). Referencia topTransits por nombre y fecha."
+      "interpretation": "AL MENOS 3 párrafos. PERSPECTIVA: Presenta la energía principal. Comienza con una PREGUNTA. Último párrafo: intensidad de tránsitos (rojo/verde/azul)."
     },
-    { "id": "phase_2", "title": "Título creativo", "interpretation": "AL MENOS 3 párrafos." },
-    { "id": "phase_3", "title": "Título creativo", "interpretation": "AL MENOS 3 párrafos." }
+    {
+      "id": "phase_2",
+      "title": "Título creativo",
+      "interpretation": "AL MENOS 3 párrafos. PERSPECTIVA: Enfócate en puntos de inflexión. Si hay crisis, ofrece solución. Si hay oportunidad, da pasos concretos. Comienza con un ESCENARIO. Patrón DIFERENTE a fase 1."
+    },
+    {
+      "id": "phase_3",
+      "title": "Título creativo",
+      "interpretation": "AL MENOS 3 párrafos. PERSPECTIVA: Cosecha y cierre. Qué se ganó, qué terminó. Comienza con una OBSERVACIÓN. Tono DIFERENTE a fases anteriores."
+    }
   ],
   "milestones": [
     {
@@ -55,11 +69,11 @@ FORMATO JSON (DEBE SEGUIRSE EXACTAMENTE):
     }
   ],
   "focusAreas": {
-    "career": "AL MENOS 1 párrafo, carrera y dinero.",
-    "relationships": "AL MENOS 1 párrafo, relaciones y valores.",
-    "innerLife": "AL MENOS 1 párrafo, transformación interior.",
-    "growth": "AL MENOS 1 párrafo, crecimiento personal.",
-    "health": "AL MENOS 1 párrafo, salud y cuerpo."
+    "career": "AL MENOS 2 párrafos. Primero: análisis de situación. Segundo: plan de acción concreto.",
+    "relationships": "AL MENOS 2 párrafos. Primero: dinámica principal. Segundo: qué hacer y cuándo se abre.",
+    "innerLife": "AL MENOS 2 párrafos. Primero: proceso interior. Segundo: pasos concretos de apoyo.",
+    "growth": "AL MENOS 2 párrafos. Primero: qué área de crecimiento. Segundo: cómo aprovecharlo.",
+    "health": "AL MENOS 2 párrafos. Primero: estado corporal/energético. Segundo: recomendación práctica."
   }
 }
 
@@ -70,8 +84,13 @@ REGLAS CRÍTICAS:
 4. Referenciar lista topTransits: usar nombres y fechas para predicciones concretas.
 5. Último párrafo: referenciar intensidad de tránsitos.
 6. milestones: AL MENOS 4, MÁXIMO 6. Cada uno AL MENOS 3 frases. NÚMEROS DE DÍA obligatorios.
-7. focusAreas: LAS 5 áreas deben estar completas.
+7. focusAreas: LAS 5 áreas con AL MENOS 2 PÁRRAFOS cada una.
 8. overview.summary AL MENOS 3 frases.
-9. Devolver SOLO JSON.`;
+
+REGLAS ANTI-REPETICIÓN:
+9. NO reutilizar el mismo patrón de apertura entre fases (pregunta / escenario / observación).
+10. Mismo tránsito en 2 fases = perspectivas DIFERENTES.
+11. "[Fecha] los efectos se intensifican" MÁXIMO 1 VEZ.
+12. Devolver SOLO JSON.`;
   },
 };

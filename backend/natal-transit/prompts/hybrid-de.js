@@ -13,6 +13,12 @@ SCHREIBSTIL:
 - Sei konkret: gib Beispiele aus dem echten Leben.
 - KEINE Überschriften. Schreibe in natürlich fließenden Absätzen.
 
+TONBALANCE (KRITISCH):
+- Der Bericht muss ca. 60% Chancen/Wachstum + 40% Herausforderung/Warnung enthalten. Ein komplett negativer oder komplett positiver Bericht ist VERBOTEN.
+- Bei Chancen-Transiten (Trigon, Sextil, grüne Tage) konkrete positive Szenarien schreiben: Beförderung, neue Bekanntschaft, unerwartetes Einkommen, kreativer Durchbruch.
+- Auch bei Herausforderungs-Transiten die Frage "Was bringt das?" beantworten. Jeder Herausforderungs-Absatz muss mindestens einen Chancen-Satz enthalten.
+- Passive Warnungen wie "sei vorsichtig" durch aktive Vorschläge ersetzen: "mach das", "nutze jenes".
+
 AUSGABEFORMAT:
 - Gib NUR gültiges JSON zurück.`,
 
@@ -42,10 +48,18 @@ JSON FORMAT (MUSS EXAKT EINGEHALTEN WERDEN):
     {
       "id": "phase_1",
       "title": "Kreativer Phasentitel",
-      "interpretation": "MINDESTENS 3 Absätze. KEINE Überschriften. Letzter Absatz muss Transit-Intensität referenzieren: Herausforderungs-Transits (rote Tage), Chancen-Transits (grüne Tage), Veränderungs-Transits (blaue Tage). TopTransits mit Namen und Daten referenzieren."
+      "interpretation": "MINDESTENS 3 Absätze. PERSPEKTIVE: Stelle die Hauptenergie dieser Phase vor. Beginne mit einer FRAGE. Letzter Absatz: Transit-Intensität (rot/grün/blau)."
     },
-    { "id": "phase_2", "title": "Kreativer Titel", "interpretation": "MINDESTENS 3 Absätze." },
-    { "id": "phase_3", "title": "Kreativer Titel", "interpretation": "MINDESTENS 3 Absätze." }
+    {
+      "id": "phase_2",
+      "title": "Kreativer Titel",
+      "interpretation": "MINDESTENS 3 Absätze. PERSPEKTIVE: Fokus auf Wendepunkte. Bei Krise: Lösung anbieten. Bei Chance: konkrete Schritte. Beginne mit einem SZENARIO. ANDERES Muster als Phase 1."
+    },
+    {
+      "id": "phase_3",
+      "title": "Kreativer Titel",
+      "interpretation": "MINDESTENS 3 Absätze. PERSPEKTIVE: Ernte und Abschluss. Was wurde gewonnen, was beendet. Beginne mit einer BEOBACHTUNG. ANDERER Ton als vorherige Phasen."
+    }
   ],
   "milestones": [
     {
@@ -55,11 +69,11 @@ JSON FORMAT (MUSS EXAKT EINGEHALTEN WERDEN):
     }
   ],
   "focusAreas": {
-    "career": "MINDESTENS 1 Absatz, Karriere und Geld.",
-    "relationships": "MINDESTENS 1 Absatz, Beziehungen und Werte.",
-    "innerLife": "MINDESTENS 1 Absatz, innere Transformation.",
-    "growth": "MINDESTENS 1 Absatz, persönliches Wachstum.",
-    "health": "MINDESTENS 1 Absatz, Gesundheit und Körper."
+    "career": "MINDESTENS 2 Absätze. Erster: Situationsanalyse. Zweiter: konkreter Aktionsplan.",
+    "relationships": "MINDESTENS 2 Absätze. Erster: Hauptdynamik. Zweiter: was tun, wann die Öffnung kommt.",
+    "innerLife": "MINDESTENS 2 Absätze. Erster: innerer Prozess. Zweiter: konkrete Unterstützungsschritte.",
+    "growth": "MINDESTENS 2 Absätze. Erster: welcher Wachstumsbereich. Zweiter: wie nutzen.",
+    "health": "MINDESTENS 2 Absätze. Erster: Körper/Energiezustand. Zweiter: praktische Empfehlung."
   }
 }
 
@@ -70,8 +84,13 @@ KRITISCHE REGELN:
 4. TopTransits-Liste referenzieren: Transitnamen und -daten für konkrete Vorhersagen verwenden.
 5. Letzter Absatz: Transit-Intensität referenzieren.
 6. milestones: MINDESTENS 4, MAXIMAL 6. Jeweils MINDESTENS 3 Sätze. TAGNUMMERN im Fenster erforderlich.
-7. focusAreas: ALLE 5 Bereiche müssen ausgefüllt sein.
+7. focusAreas: ALLE 5 Bereiche mit MINDESTENS 2 ABSÄTZEN.
 8. overview.summary MINDESTENS 3 Sätze.
-9. Nur JSON zurückgeben.`;
+
+ANTI-WIEDERHOLUNG:
+9. NICHT dasselbe Einstiegsmuster über Phasen hinweg verwenden (Frage / Szenario / Beobachtung).
+10. Gleicher Transit in 2 Phasen = VERSCHIEDENE Perspektiven.
+11. "[Datum] Effekte intensivieren sich" MAXIMAL 1 MAL verwenden.
+12. Nur JSON zurückgeben.`;
   },
 };

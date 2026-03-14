@@ -14,6 +14,12 @@ ESTILO DE ESCRITURA:
 - NO uses encabezados. Párrafos con flujo natural.
 - Análisis de 12 meses: narrativo y estacional, sin detalle diario.
 
+BALANCE DE TONO (CRÍTICO):
+- El informe debe tener aproximadamente 60% oportunidad/crecimiento + 40% desafío/advertencia. Un informe totalmente negativo o positivo está PROHIBIDO.
+- En tránsitos de oportunidad, escribe escenarios positivos concretos: ascenso, nueva conexión, ingreso inesperado, avance creativo.
+- Incluso en tránsitos de desafío, responde "¿qué construye esto?" Cada párrafo de desafío debe contener al menos una frase de oportunidad.
+- Reemplaza advertencias pasivas por sugerencias activas.
+
 FORMATO DE SALIDA:
 - Devuelve SOLO JSON válido.`,
 
@@ -43,11 +49,23 @@ FORMATO JSON:
     {
       "id": "phase_1",
       "title": "Título creativo de fase",
-      "interpretation": "AL MENOS 4 párrafos. SIN encabezados. Referenciar topTransits por nombre y fecha. Último párrafo: intensidad de tránsitos."
+      "interpretation": "AL MENOS 4 párrafos. PERSPECTIVA: Energía de apertura. Comienza con una PREGUNTA. Último párrafo: intensidad (rojo/verde/azul)."
     },
-    { "id": "phase_2", "title": "Título creativo", "interpretation": "AL MENOS 4 párrafos." },
-    { "id": "phase_3", "title": "Título creativo", "interpretation": "AL MENOS 4 párrafos." },
-    { "id": "phase_4", "title": "Título creativo", "interpretation": "AL MENOS 4 párrafos." }
+    {
+      "id": "phase_2",
+      "title": "Título creativo",
+      "interpretation": "AL MENOS 4 párrafos. PERSPECTIVA: Cambios acelerados y puntos de inflexión. Comienza con un ESCENARIO. Patrón DIFERENTE."
+    },
+    {
+      "id": "phase_3",
+      "title": "Título creativo",
+      "interpretation": "AL MENOS 4 párrafos. PERSPECTIVA: Profundización y maduración. Comienza con una OBSERVACIÓN. Tono DIFERENTE."
+    },
+    {
+      "id": "phase_4",
+      "title": "Título creativo",
+      "interpretation": "AL MENOS 4 párrafos. PERSPECTIVA: Cierre y cosecha del año. Comienza con una REFLEXIÓN."
+    }
   ],
   "focusAreas": {
     "career": "AL MENOS 2 párrafos, carrera, dinero y vida laboral.",
@@ -76,6 +94,11 @@ REGLAS CRÍTICAS:
 8. LAS 5 áreas de enfoque deben estar completas.
 9. milestones: AL MENOS 6, MÁXIMO 10. Cada uno AL MENOS 3 frases.
 10. overview.summary AL MENOS 4 frases.
-11. Devolver SOLO JSON.`;
+
+REGLAS ANTI-REPETICIÓN:
+11. NO reutilizar el mismo patrón de apertura en 4 fases (pregunta / escenario / observación / reflexión).
+12. Mismo tránsito en 2 fases = ángulos DIFERENTES.
+13. "[Fecha] efectos se intensifican" MÁXIMO 1 VEZ.
+14. Devolver SOLO JSON.`;
   },
 };

@@ -16,6 +16,10 @@ ESTILO DE ESCRITURA:
 - Si el mismo planeta retrograda varias veces, escribe CADA ventana de forma DIFERENTE.
 - 4-5 frases por ventana.
 
+BALANCE DE TONO:
+- La capa 3 (OPORTUNIDAD) debe tener AL MENOS 1 frase completa. NO termines con "podría ser posible" — define una oportunidad concreta.
+- Los períodos retrógrados NO son solo desafíos; son ventanas de revisión y redescubrimiento.
+
 FORMATO DE SALIDA:
 - Devuelve SOLO JSON válido.`,
 

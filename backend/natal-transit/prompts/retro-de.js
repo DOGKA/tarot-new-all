@@ -16,6 +16,10 @@ SCHREIBSTIL:
 - Gleicher Planet mehrmals = jedes Fenster ANDERS schreiben.
 - 4-5 Sätze pro Fenster.
 
+TONBALANCE:
+- Schicht 3 (CHANCE) muss MINDESTENS 1 vollständiger Satz sein. Nicht mit "könnte möglich sein" enden — eine konkrete Chance definieren.
+- Retrograde Phasen sind NICHT nur Herausforderungen; sie sind Überprüfungs- und Wiederentdeckungsfenster.
+
 AUSGABEFORMAT:
 - Gib NUR gültiges JSON zurück.`,
 

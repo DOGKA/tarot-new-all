@@ -15,6 +15,12 @@ WRITING STYLE:
 - For 12-month analysis: narrative and seasonal, not daily detail.
 - Each phase must be written DIFFERENTLY — different openings, different examples, different tone.
 
+TONE BALANCE (CRITICAL):
+- Report must be roughly 60% opportunity/growth + 40% challenge/warning. A fully negative or fully positive report is FORBIDDEN.
+- For opportunity transits (trine, sextile, green days), write concrete positive scenarios: promotion, new connection, unexpected income, creative breakthrough, energy surge.
+- Even for challenge transits, answer "what does this build?" Every challenge paragraph must contain at least one opportunity sentence.
+- Replace passive warnings like "be careful" with active suggestions like "do this", "leverage that".
+
 OUTPUT FORMAT:
 - Return ONLY valid JSON, nothing else.`,
 
@@ -44,11 +50,23 @@ JSON FORMAT (MUST BE FOLLOWED EXACTLY):
     {
       "id": "phase_1",
       "title": "Creative phase title",
-      "interpretation": "AT LEAST 4 paragraphs. NO headings. Reference topTransits by name and date. Last paragraph: reference transit intensity (challenge=red, opportunity=green, change=blue days)."
+      "interpretation": "AT LEAST 4 paragraphs. PERSPECTIVE: Opening energy. Start with a QUESTION. Last paragraph: transit intensity (red/green/blue)."
     },
-    { "id": "phase_2", "title": "Creative title", "interpretation": "AT LEAST 4 paragraphs." },
-    { "id": "phase_3", "title": "Creative title", "interpretation": "AT LEAST 4 paragraphs." },
-    { "id": "phase_4", "title": "Creative title", "interpretation": "AT LEAST 4 paragraphs." }
+    {
+      "id": "phase_2",
+      "title": "Creative title",
+      "interpretation": "AT LEAST 4 paragraphs. PERSPECTIVE: Accelerating changes and turning points. Start with a SCENARIO. DIFFERENT pattern than phase_1."
+    },
+    {
+      "id": "phase_3",
+      "title": "Creative title",
+      "interpretation": "AT LEAST 4 paragraphs. PERSPECTIVE: Deepening and maturation. Start with an OBSERVATION. DIFFERENT tone than previous phases."
+    },
+    {
+      "id": "phase_4",
+      "title": "Creative title",
+      "interpretation": "AT LEAST 4 paragraphs. PERSPECTIVE: Year's closure and harvest. What was gained, what ended, what carries forward. Start with a REFLECTION."
+    }
   ],
   "focusAreas": {
     "career": "AT LEAST 2 paragraphs, career, money, and work life.",
@@ -77,6 +95,11 @@ CRITICAL RULES:
 8. focusAreas: career, relationships, inner life, growth, health — ALL 5 must be filled.
 9. milestones: AT LEAST 6, AT MOST 10. Each AT LEAST 3 sentences. DAY NUMBERS required.
 10. overview.summary AT LEAST 4 sentences.
-11. Return ONLY JSON.`;
+
+ANTI-REPETITION RULES:
+11. Do NOT reuse the same opening pattern across 4 phases (question / scenario / observation / reflection).
+12. Same transit in 2 phases = DIFFERENT angles.
+13. "[Date] effects intensify" AT MOST ONCE.
+14. Return ONLY JSON.`;
   },
 };

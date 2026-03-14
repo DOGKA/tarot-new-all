@@ -8,6 +8,8 @@ import {
 } from "react-native";
 import Svg, { Path } from "react-native-svg";
 import LottieView from "lottie-react-native";
+import { useTranslation } from "react-i18next";
+import { formatRange } from "./ThemeDetailSheet";
 import type { Milestone } from "./types";
 
 const { width: SCREEN_W } = Dimensions.get("window");
@@ -17,11 +19,18 @@ const BUBBLE_SIZE = 72;
 
 const AMBER = "#fbbf24";
 
+function parseMilestoneWindow(window: string, t: (key: string) => string): string {
+  const isoMatch = window.match(/(\d{4}-\d{2}-\d{2})\s*[–—-]\s*(\d{4}-\d{2}-\d{2})/);
+  if (isoMatch) return formatRange(isoMatch[1], isoMatch[2], t);
+  return window;
+}
+
 export default function MilestoneTimeline({
   milestones,
 }: {
   milestones: Milestone[];
 }) {
+  const { t } = useTranslation();
   const [expandedIdx, setExpandedIdx] = useState<number | null>(null);
 
   if (milestones.length === 0) return null;
@@ -113,7 +122,7 @@ export default function MilestoneTimeline({
                   {m.title}
                 </Text>
                 <Text style={[s.window, { textAlign: isRight ? "right" : "left" }]}>
-                  {m.window}
+                  {parseMilestoneWindow(m.window, t)}
                 </Text>
               </TouchableOpacity>
 

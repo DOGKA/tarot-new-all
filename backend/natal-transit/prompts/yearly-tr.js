@@ -17,6 +17,12 @@ YAZIM TARZI:
 - Her faz birbirinden FARKLI yazilmali. Farkli giris cumleleri, farkli ornekler, farkli ton.
 - Her odak alani birbirinden FARKLI yazilmali.
 
+TON DENGESI (KRITIK):
+- Rapor %60 firsat/buyume + %40 zorluk/uyari dengesi tasimali. Tamamen olumsuz veya tamamen olumlu rapor YASAK.
+- Firsat transitlerde (trine, sextile, yesil gunler) somut olumlu senaryolar yaz: terfi, yeni tanisma, beklenmedik gelir, yaratici cikis, enerji artisi.
+- Zorluk transitlerde bile "ne kazandirir" sorusunu cevapla. Her zorluk paragrafinin icinde bir firsat cumlesine yer ver.
+- "Dikkatli ol", "baskiya hazirlan" gibi edilgen uyarilar yerine "sunu yap", "burayi degerlendirt" gibi aktif oneriler ver.
+
 CIKTI FORMATI:
 - Sadece gecerli JSON dondur, baska hicbir sey yazma.`,
 
@@ -46,22 +52,22 @@ JSON FORMAT (HARFIYEN UYULMALI):
     {
       "id": "phase_1",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 4 paragraf. Faz donemi icin detayli narrative yorum. BASLIK KULLANMA. Son paragrafta bu donemde yogun olan transit turlerini (zorluk, firsat, degisim) referansla: 'Bu donemde ozellikle yapisal baskilar yogun. Ancak Nisan'dan itibaren firsat transitler de devreye giriyor' gibi."
+      "interpretation": "EN AZ 4 paragraf. PERSPEKTIF: Yilin acilis enerjisi. Merak uyandirici giris. Ilk cumle SORU ile baslasin. Son paragraf transit yogunlugu (kirmizi/yesil/mavi)."
     },
     {
       "id": "phase_2",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 4 paragraf."
+      "interpretation": "EN AZ 4 paragraf. PERSPEKTIF: Ivmelenen degisimler ve donum noktalari. Ilk cumle SENARYO ile baslasin. Phase 1'den FARKLI kalip."
     },
     {
       "id": "phase_3",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 4 paragraf."
+      "interpretation": "EN AZ 4 paragraf. PERSPEKTIF: Derinlesme ve olgunlasma donemi. Ilk cumle GOZLEM ile baslasin. Onceki fazlardan FARKLI ton."
     },
     {
       "id": "phase_4",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 4 paragraf."
+      "interpretation": "EN AZ 4 paragraf. PERSPEKTIF: Yilin kapanisi ve hasat. Neler kazanildi, neler kapandi, onumuzdeki yila ne tasinacak. Ilk cumle DEGERERLENDIRME ile baslasin."
     }
   ],
   "focusAreas": {
@@ -91,6 +97,11 @@ KRITIK KURALLAR:
 8. focusAreas: kariyer, iliskiler, ic dunya, buyume, saglik — 5 alan HEPSI doldurulmali.
 9. milestones: EN AZ 6, EN FAZLA 10 donum noktasi. Her birine EN AZ 3 cumle description yaz. "Onemli bir donem" gibi bos cumleler YASAK. Tarih + ne olacak + nasil etkileyecek yaz. window'da GUN NUMARASI ver (ornek: "15 Mart – 20 Mayis 2026"), sadece ay ismi YETERLI DEGIL.
 10. overview.summary EN AZ 4 cumle.
-11. Sadece JSON dondur.`;
+
+TEKRAR ONLEME KURALLARI:
+11. 4 faz boyunca AYNI giris kalibini TEKRAR KULLANMA (soru / senaryo / gozlem / degerlendirme).
+12. Ayni transit 2 fazda varsa FARKLI acidan yaz.
+13. "[Tarih] civarinda etkiler yogunlasabilir" kalibini EN FAZLA 1 KEZ kullan.
+14. Sadece JSON dondur.`;
   },
 };

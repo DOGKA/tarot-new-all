@@ -16,6 +16,12 @@ YAZIM TARZI:
 - 6 aylik analizde ne gunluk detay ne de cok genel kal. Makro yonelim + somut donem ipuclari ver.
 - Her faz ve tema birbirinden FARKLI yazilmali. Farkli giris cumleleri, farkli ornekler, farkli ton.
 
+TON DENGESI (KRITIK):
+- Rapor %60 firsat/buyume + %40 zorluk/uyari dengesi tasimali. Tamamen olumsuz veya tamamen olumlu rapor YASAK.
+- Firsat transitlerde (trine, sextile, yesil gunler) somut olumlu senaryolar yaz: terfi, yeni tanisma, beklenmedik gelir, yaratici cikis, enerji artisi.
+- Zorluk transitlerde bile "ne kazandirir" sorusunu cevapla. Her zorluk paragrafinin icinde bir firsat cumlesine yer ver.
+- "Dikkatli ol", "baskiya hazirlan" gibi edilgen uyarilar yerine "sunu yap", "burayi degerlendirt" gibi aktif oneriler ver.
+
 CIKTI FORMATI:
 - Sadece gecerli JSON dondur, baska hicbir sey yazma.`,
 
@@ -45,17 +51,17 @@ JSON FORMAT (HARFIYEN UYULMALI):
     {
       "id": "phase_1",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 3 paragraf. Faz donemi icin detayli narrative yorum. BASLIK KULLANMA. Son paragrafta bu donemde yogun olan transit turlerini (zorluk, firsat, degisim) referansla: 'Bu donemde ozellikle yapisal baskilar yogun. Takvimde kirmizi gunler bunu dogruluyor. Ancak ay sonuna dogru firsat transitler devreye giriyor' gibi."
+      "interpretation": "EN AZ 3 paragraf. PERSPEKTIF: Bu donemin ana enerjisini tanit. Merak uyandirici bir giris yap. Ilk cumle bir SORU ile baslasin (ornek: 'Ya kariyerinde beklenmedik bir kapi acilirsa?'). Son paragrafta transit yogunlugunu referansla (kirmizi/yesil/mavi gunler)."
     },
     {
       "id": "phase_2",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 3 paragraf."
+      "interpretation": "EN AZ 3 paragraf. PERSPEKTIF: Bu donemin donum noktalarina odaklan. Kriz varsa cozum oner, firsat varsa somut adim ver. Ilk cumle bir SENARYO ile baslasin (ornek: 'Temmuz basinda bir telefon calar ve her seyi degistirir.'). Phase 1'den FARKLI kalip kullan."
     },
     {
       "id": "phase_3",
       "title": "Yaratici faz basligi",
-      "interpretation": "EN AZ 3 paragraf."
+      "interpretation": "EN AZ 3 paragraf. PERSPEKTIF: Bu donemin sonuc ve hasat enerjisini yaz. Neler kazanilmis olabilir, neler kapanmis. Ilk cumle bir GOZLEM ile baslasin (ornek: 'Eylul'e geldiginde arkana baktiginda...'). Onceki fazlardan FARKLI bir ton kullan."
     }
   ],
   "milestones": [
@@ -66,11 +72,11 @@ JSON FORMAT (HARFIYEN UYULMALI):
     }
   ],
   "focusAreas": {
-    "career": "EN AZ 1 paragraf, kariyer ve para yorumu. Somut ornekler ver.",
-    "relationships": "EN AZ 1 paragraf, iliskiler ve degerler yorumu.",
-    "innerLife": "EN AZ 1 paragraf, icsel donusum yorumu.",
-    "growth": "EN AZ 1 paragraf, kisisel buyume yorumu.",
-    "health": "EN AZ 1 paragraf, saglik ve beden yorumu."
+    "career": "EN AZ 2 paragraf. Ilk paragraf: mevcut durum analizi ve ne degisiyor. Ikinci paragraf: somut aksiyon onerisi ve firsat penceresi.",
+    "relationships": "EN AZ 2 paragraf. Ilk paragraf: iliskilerdeki ana dinamik. Ikinci paragraf: ne yapilabilir, hangi donemde acilim var.",
+    "innerLife": "EN AZ 2 paragraf. Ilk paragraf: icsel surecin tanimlanmasi. Ikinci paragraf: bu sureci destekleyecek somut adimlar.",
+    "growth": "EN AZ 2 paragraf. Ilk paragraf: hangi buyume alani one cikiyor. Ikinci paragraf: bunu nasil degerlendirebilirsin.",
+    "health": "EN AZ 2 paragraf. Ilk paragraf: bedensel/enerji durumu. Ikinci paragraf: pratik saglik onerisi."
   }
 }
 
@@ -79,11 +85,16 @@ KRITIK KURALLAR:
 2. Her faz yorumu EN AZ 3 paragraf. 1-2 cumle KABUL EDILMEZ.
 3. Faz yorumlarinda SOMUT TARIH referanslari ZORUNLU: "Mart ortasinda", "Nisan sonuna dogru" gibi. Tarihsiz genel yorum YASAK.
 4. Faz yorumlarinda dominant temalari hikaye icinde dogal sekilde an. Ayri baslik altinda DEGIL.
-5. Faz yorumlarinda topTransits listesindeki transit isimlerini ve tarihlerini KULLAN. Ornek: "22 Mart civainda Mars'in MC ile kavusumu kariyerinde ani bir degisim getirebilir" gibi SOMUT transit referanslari yap.
-6. Faz yorumunun SON PARAGRAFINDA transit yogunlugunu referansla: hangi donemde zorluk transitler yogun (kirmizi gunler), ne zaman firsat transitler devreye giriyor (yesil gunler), degisim transitler ne zaman zirvede (mavi gunler).
-7. milestones: EN AZ 4, EN FAZLA 6 donum noktasi. Her birine EN AZ 3 cumle description. window'da GUN NUMARASI ver (ornek: "15 Mart – 20 Mayis 2026").
-8. focusAreas: kariyer, iliskiler, ic dunya, buyume, saglik — 5 alan HEPSI doldurulmali.
+5. Faz yorumlarinda topTransits listesindeki transit isimlerini ve tarihlerini KULLAN. Somut transit referanslari yap.
+6. Faz yorumunun SON PARAGRAFINDA transit yogunlugunu referansla (kirmizi/yesil/mavi gunler).
+7. milestones: EN AZ 4, EN FAZLA 6 donum noktasi. Her birine EN AZ 3 cumle description. window'da GUN NUMARASI ver.
+8. focusAreas: kariyer, iliskiler, ic dunya, buyume, saglik — 5 alan HEPSI EN AZ 2 PARAGRAF doldurulmali.
 9. overview.summary EN AZ 3 cumle.
-10. Sadece JSON dondur.`;
+
+TEKRAR ONLEME KURALLARI:
+10. 3 faz boyunca AYNI giris kalibini TEKRAR KULLANMA. Her fazin ilk cumlesi FARKLI bir formatta olmali (soru / senaryo / gozlem).
+11. Ayni transit ismini 2 fazda kullaniyorsan, FARKLI acidan yaz. Ilk fazda "ne basliyor", ikinci fazda "ne degisiyor" perspektifi ver.
+12. "[Tarih] civarinda bu etkiler yogunlasabilir" kalibini EN FAZLA 1 KEZ kullan. Bunun yerine "X tarihinde Y gezegenin etkisiyle Z somut olay gerceklesebilir" gibi spesifik cumleler yaz.
+13. Sadece JSON dondur.`;
   },
 };

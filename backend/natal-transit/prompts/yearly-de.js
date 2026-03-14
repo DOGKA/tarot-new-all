@@ -14,6 +14,12 @@ SCHREIBSTIL:
 - KEINE Überschriften. Natürlich fließende Absätze.
 - 12-Monats-Analyse: narrativ und saisonal, kein Tagesdetail.
 
+TONBALANCE (KRITISCH):
+- Der Bericht muss ca. 60% Chancen/Wachstum + 40% Herausforderung/Warnung enthalten. Ein komplett negativer oder komplett positiver Bericht ist VERBOTEN.
+- Bei Chancen-Transiten konkrete positive Szenarien schreiben: Beförderung, neue Bekanntschaft, unerwartetes Einkommen, kreativer Durchbruch.
+- Auch bei Herausforderungs-Transiten: "Was bringt das?" Jeder Herausforderungs-Absatz muss mindestens einen Chancen-Satz enthalten.
+- Passive Warnungen durch aktive Vorschläge ersetzen.
+
 AUSGABEFORMAT:
 - Gib NUR gültiges JSON zurück.`,
 
@@ -43,11 +49,23 @@ JSON FORMAT:
     {
       "id": "phase_1",
       "title": "Kreativer Phasentitel",
-      "interpretation": "MINDESTENS 4 Absätze. KEINE Überschriften. TopTransits mit Namen und Daten referenzieren. Letzter Absatz: Transit-Intensität."
+      "interpretation": "MINDESTENS 4 Absätze. PERSPEKTIVE: Eröffnungsenergie. Beginne mit einer FRAGE. Letzter Absatz: Transit-Intensität (rot/grün/blau)."
     },
-    { "id": "phase_2", "title": "Kreativer Titel", "interpretation": "MINDESTENS 4 Absätze." },
-    { "id": "phase_3", "title": "Kreativer Titel", "interpretation": "MINDESTENS 4 Absätze." },
-    { "id": "phase_4", "title": "Kreativer Titel", "interpretation": "MINDESTENS 4 Absätze." }
+    {
+      "id": "phase_2",
+      "title": "Kreativer Titel",
+      "interpretation": "MINDESTENS 4 Absätze. PERSPEKTIVE: Beschleunigende Veränderungen. Beginne mit einem SZENARIO. ANDERES Muster als Phase 1."
+    },
+    {
+      "id": "phase_3",
+      "title": "Kreativer Titel",
+      "interpretation": "MINDESTENS 4 Absätze. PERSPEKTIVE: Vertiefung und Reifung. Beginne mit einer BEOBACHTUNG. ANDERER Ton."
+    },
+    {
+      "id": "phase_4",
+      "title": "Kreativer Titel",
+      "interpretation": "MINDESTENS 4 Absätze. PERSPEKTIVE: Jahresabschluss und Ernte. Beginne mit einer REFLEXION."
+    }
   ],
   "focusAreas": {
     "career": "MINDESTENS 2 Absätze, Karriere, Geld und Arbeitsleben.",
@@ -76,6 +94,11 @@ KRITISCHE REGELN:
 8. ALLE 5 Fokusbereiche müssen ausgefüllt sein.
 9. milestones: MINDESTENS 6, MAXIMAL 10. Jeweils MINDESTENS 3 Sätze.
 10. overview.summary MINDESTENS 4 Sätze.
-11. Nur JSON zurückgeben.`;
+
+ANTI-WIEDERHOLUNG:
+11. NICHT dasselbe Einstiegsmuster über 4 Phasen verwenden (Frage / Szenario / Beobachtung / Reflexion).
+12. Gleicher Transit in 2 Phasen = VERSCHIEDENE Perspektiven.
+13. "[Datum] Effekte intensivieren sich" MAXIMAL 1 MAL.
+14. Nur JSON zurückgeben.`;
   },
 };

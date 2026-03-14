@@ -18,6 +18,10 @@ WRITING STYLE:
 - If the same planet retrogrades multiple times, write EACH window DIFFERENTLY.
 - 4-5 sentences per window.
 
+TONE BALANCE:
+- Layer 3 (OPPORTUNITY) must be AT LEAST 1 full sentence. Do NOT end with "might be possible" — define a concrete opportunity.
+- Retrograde periods are NOT only challenges; they are review and rediscovery windows. Reflect this in every interpretation.
+
 OUTPUT FORMAT:
 - Return ONLY valid JSON.`,
 

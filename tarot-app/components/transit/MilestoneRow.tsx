@@ -1,15 +1,24 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { useTranslation } from "react-i18next";
+import { formatRange } from "./ThemeDetailSheet";
 import type { Milestone } from "./types";
 
+function parseMilestoneWindow(window: string, t: (key: string) => string): string {
+  const isoMatch = window.match(/(\d{4}-\d{2}-\d{2})\s*[–—-]\s*(\d{4}-\d{2}-\d{2})/);
+  if (isoMatch) return formatRange(isoMatch[1], isoMatch[2], t);
+  return window;
+}
+
 export default function MilestoneRow({ milestone }: { milestone: Milestone }) {
+  const { t } = useTranslation();
   return (
     <View style={s.card}>
       <View style={s.headerRow}>
         <View style={s.dot} />
         <Text style={s.title}>{milestone.title}</Text>
       </View>
-      <Text style={s.window}>{milestone.window}</Text>
+      <Text style={s.window}>{parseMilestoneWindow(milestone.window, t)}</Text>
       {(milestone.description ?? "") !== "" && (
         <Text style={s.description}>{milestone.description}</Text>
       )}

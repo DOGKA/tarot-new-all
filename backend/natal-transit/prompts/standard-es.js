@@ -22,6 +22,12 @@ REGLAS ESTRUCTURALES:
 - NO uses encabezados. Escribe comentario, consejo y ejemplos en un flujo natural como un solo texto.
 - El tono debe variar según el planeta en tránsito: Saturno = pesado/serio, Júpiter = energético/esperanzador, Marte = agudo/directo, Venus = suave/agradable, Mercurio = rápido/práctico.
 
+BALANCE DE TONO (CRÍTICO):
+- La interpretación debe tener aproximadamente 60% oportunidad/crecimiento + 40% desafío. Un informe totalmente negativo está PROHIBIDO.
+- En tránsitos de oportunidad, escribe escenarios positivos concretos.
+- Incluso en desafíos, responde "¿qué construye esto?"
+- Reemplaza "ten cuidado" por "haz esto".
+
 FORMATO DE SALIDA:
 - Devuelve SOLO JSON válido, nada más.`,
 
@@ -52,11 +58,16 @@ FORMATO JSON (DEBE SEGUIRSE EXACTAMENTE):
 }
 
 REGLAS CRÍTICAS:
-1. "id" debe mantenerse EXACTAMENTE. Hay ${themes.length} temas, la salida debe tener EXACTAMENTE ${themes.length} temas.
+1. "id" EXACTAMENTE. ${themes.length} temas, ${themes.length} temas en salida.
 2. "interpretation" AL MENOS 3 párrafos.
 3. "summary" AL MENOS 2 frases.
-4. Cada tema debe escribirse de forma DIFERENTE.
-5. Devolver SOLO JSON.`;
+4. Cada tema escrito de forma DIFERENTE.
+
+ANTI-REPETICIÓN:
+5. Cada tema comienza con un formato DIFERENTE.
+6. Alternar temas de desafío y oportunidad.
+7. NO repetir el mismo consejo en 2 temas.
+8. Devolver SOLO JSON.`;
   },
 
   buildQuarterlyPrompt: ({ themes, milestoneHints, period }) => {
@@ -98,10 +109,13 @@ FORMATO JSON:
 }
 
 REGLAS CRÍTICAS:
-1. Mantener ids de temas exactamente. ${themes.length} temas, ${themes.length} interpretaciones.
+1. Mantener ids exactamente. ${themes.length} temas, ${themes.length} interpretaciones.
 2. Cada tema AL MENOS 3 párrafos.
 3. overview.summary AL MENOS 3 frases.
-4. milestones: 2-3 puntos de inflexión con descripción.
-5. Devolver SOLO JSON.`;
+4. milestones: 2-3 puntos de inflexión. ESPECÍFICOS. NÚMEROS DE DÍA obligatorios. description AL MENOS 2 frases.
+
+ANTI-REPETICIÓN:
+5. Cada tema comienza diferente. Alternar desafío y oportunidad.
+6. Devolver SOLO JSON.`;
   },
 };

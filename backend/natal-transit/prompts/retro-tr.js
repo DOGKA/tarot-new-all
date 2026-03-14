@@ -20,6 +20,10 @@ YAZIM TARZI:
 - AYNI gezegen birden fazla kez retro yapiyorsa, her pencereyi O DONEME OZEL yaz.
 - Her pencere icin 4-5 cumle.
 
+TON DENGESI:
+- Her retrograde yorumunda 3. katman (FIRSAT) EN AZ 1 tam cumle olmali. "Olabilir" ile bitmesin, kesin bir firsat tanimla.
+- Retro donemler SADECE zorluk degil, gozden gecirme ve yeniden kesfetme firsatidir. Bu perspektifi her yoruma yansit.
+
 CIKTI FORMATI:
 - Sadece gecerli JSON dondur.`,
 

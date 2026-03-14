@@ -24,6 +24,12 @@ STRUCTURAL RULES:
 - Tone should vary based on the transit planet: Saturn = heavy/serious, Jupiter = energetic/hopeful, Mars = sharp/direct, Venus = soft/pleasant, Mercury = fast/practical.
 - Combine different transits under the same theme into one coherent narrative.
 
+TONE BALANCE (CRITICAL):
+- Interpretation must be roughly 60% opportunity/growth + 40% challenge/warning. A fully negative report is FORBIDDEN.
+- For opportunity transits (trine, sextile), write concrete positive scenarios: promotion, new connection, unexpected income, creative breakthrough.
+- Even for challenge transits, answer "what does this build?"
+- Replace "be careful" with "do this".
+
 OUTPUT FORMAT:
 - Return ONLY valid JSON, nothing else.`,
 
@@ -58,7 +64,12 @@ CRITICAL RULES:
 2. "interpretation" AT LEAST 3 paragraphs.
 3. "summary" AT LEAST 2 sentences.
 4. Each theme must be written DIFFERENTLY from the others.
-5. Return ONLY JSON.`;
+
+ANTI-REPETITION:
+5. Each theme's FIRST SENTENCE must start with a different format. Same-pattern openings are FORBIDDEN.
+6. If one theme is challenge-heavy, the next must be opportunity-heavy. All themes negative is NOT acceptable.
+7. Do NOT repeat the same advice in 2 different themes.
+8. Return ONLY JSON.`;
   },
 
   buildQuarterlyPrompt: ({ themes, milestoneHints, period }) => {
@@ -103,7 +114,11 @@ CRITICAL RULES:
 1. Keep theme ids exactly. ${themes.length} themes, ${themes.length} interpretations.
 2. Each theme AT LEAST 3 paragraphs.
 3. overview.summary AT LEAST 3 sentences.
-4. milestones: 2-3 turning points with description.
-5. Return ONLY JSON.`;
+4. milestones: 2-3 turning points. Each must be SPECIFIC event + period. Vague titles like "General Effects" are FORBIDDEN. DAY NUMBERS required. description AT LEAST 2 sentences.
+
+ANTI-REPETITION:
+5. Each theme's first sentence must start differently.
+6. Alternate challenge-heavy and opportunity-heavy themes.
+7. Return ONLY JSON.`;
   },
 };
