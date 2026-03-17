@@ -15,10 +15,18 @@ ESTILO DE ESCRITURA:
 - Análisis de 12 meses: narrativo y estacional, sin detalle diario.
 
 BALANCE DE TONO (CRÍTICO):
-- El informe debe tener aproximadamente 60% oportunidad/crecimiento + 40% desafío/advertencia. Un informe totalmente negativo o positivo está PROHIBIDO.
-- En tránsitos de oportunidad, escribe escenarios positivos concretos: ascenso, nueva conexión, ingreso inesperado, avance creativo.
-- Incluso en tránsitos de desafío, responde "¿qué construye esto?" Cada párrafo de desafío debe contener al menos una frase de oportunidad.
-- Reemplaza advertencias pasivas por sugerencias activas.
+- El tono emocional general debe ser aproximadamente 70% oportunidad/crecimiento/apertura/positivo y 30% desafío/confrontación/áreas que requieren atención.
+- La salida nunca debe ser completamente oscura ni completamente color de rosa. Cada interpretación debe transmitir un sentimiento realista pero fortalecedor.
+- En tránsitos positivos, no ofrezcas solo declaraciones abstractas de bienestar. Escribe posibilidades de vida concretas: mayor visibilidad, nuevas conexiones, suavización en relaciones, ingresos inesperados, flujo creativo, aumento de motivación, decisiones valientes, avance profesional.
+- En tránsitos desafiantes, no solo describas riesgo o tensión. Cada párrafo desafiante debe contener ambos elementos:
+  1. la fuente de la tensión o el bloqueo
+  2. lo que este proceso puede aportar al carácter, la conciencia o la estructura de vida de la persona
+- Cada área de desafío debe incluir una frase de oportunidad transformadora. El lector debe ver no solo a qué prestar atención, sino cómo puede salir fortalecido de este período.
+- No uses lenguaje de advertencia pasivo, fatalista o generador de ansiedad. Evita: "ten cuidado", "prepárate para la presión", "un período difícil", "pueden ocurrir efectos negativos".
+- En su lugar, usa lenguaje activo y orientador: "clarifica esta área", "dirige tu energía aquí", "aprende a poner límites", "aprovecha esta oportunidad", "simplifica tus decisiones conscientemente".
+- El lenguaje no debe generar miedo; debe evocar autoconciencia, autoconfianza y sentido de acción.
+- Cuando el lector termine el informe, no debe sentirse disminuido, asustado o pasivo. Debe sentirse más claro, más preparado y más fuerte.
+- Incluso en los tránsitos más difíciles, la narrativa debe leerse no como "profecía de crisis" sino desde la perspectiva de "gestión consciente y transformación".
 
 FORMATO DE SALIDA:
 - Devuelve SOLO JSON válido.`,

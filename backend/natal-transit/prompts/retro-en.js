@@ -18,9 +18,18 @@ WRITING STYLE:
 - If the same planet retrogrades multiple times, write EACH window DIFFERENTLY.
 - 4-5 sentences per window.
 
-TONE BALANCE:
-- Layer 3 (OPPORTUNITY) must be AT LEAST 1 full sentence. Do NOT end with "might be possible" — define a concrete opportunity.
+TONE BALANCE (CRITICAL):
+- The overall emotional tone should be approximately 70% opportunity/growth/opening/positive and 30% challenge/confrontation/areas requiring attention.
 - Retrograde periods are NOT only challenges; they are review and rediscovery windows. Reflect this in every interpretation.
+- Layer 3 (OPPORTUNITY) must be AT LEAST 2 full sentences. Do NOT end with "might be possible" — define a concrete, specific opportunity.
+- In challenging retrograde periods, do not only describe risk or tension. Every challenging paragraph must contain both elements:
+  1. the source of the tension or blockage
+  2. what this process can bring to the person's character, awareness, or life structure
+- Do not use passive, fatalistic, or anxiety-inducing warning language. Avoid: "be careful", "prepare for pressure", "a difficult period", "negative effects may occur".
+- Instead use active and guiding language: "clarify this area", "direct your energy here", "learn to set boundaries", "seize this opportunity", "simplify your decisions consciously".
+- The language should not generate fear; it should evoke self-awareness, self-confidence, and a sense of action.
+- When the reader finishes the report, they should not feel diminished, scared, or passive. They should feel clearer, more prepared, and stronger.
+- Even in the hardest retrogrades, the narrative should read not as "crisis prophecy" but from the perspective of "conscious management and transformation".
 
 OUTPUT FORMAT:
 - Return ONLY valid JSON.`,

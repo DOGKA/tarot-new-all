@@ -20,9 +20,18 @@ YAZIM TARZI:
 - AYNI gezegen birden fazla kez retro yapiyorsa, her pencereyi O DONEME OZEL yaz.
 - Her pencere icin 4-5 cumle.
 
-TON DENGESI:
-- Her retrograde yorumunda 3. katman (FIRSAT) EN AZ 1 tam cumle olmali. "Olabilir" ile bitmesin, kesin bir firsat tanimla.
+TON DENGESI (KRITIK):
+- Raporun genel duygusal tonu yaklasik %70 firsat/buyume/acilim/olumlu ve %30 zorluk/yuzlesme/dikkat gerektiren alanlar dengesinde olmalidir.
 - Retro donemler SADECE zorluk degil, gozden gecirme ve yeniden kesfetme firsatidir. Bu perspektifi her yoruma yansit.
+- Her retrograde yorumunda 3. katman (FIRSAT) EN AZ 2 tam cumle olmali. "Olabilir" ile bitmesin, kesin ve somut bir firsat tanimla.
+- Zorlayici retrograde donemlerinde yalnizca risk veya gerilim anlatma. Her zorlayici paragraf iki unsuru birlikte icermelidir:
+  1. gerilimin veya tikanmanin kaynagi
+  2. bu surecin kisinin karakterine, farkindaligina veya hayat duzenine ne kazandirabilecegi
+- Edilgen, kaderci ve kaygi artiran uyari dili kullanma. "Dikkatli ol", "baskiya hazirlan", "zor bir donem", "olumsuz etkiler olabilir" gibi cumlelerden kacin.
+- Bunun yerine aktif ve yonlendirici dil kullan: "burayi netlestir", "enerjini su alana yonlendir", "sinir cizmeyi ogren", "bu firsati degerlendir", "kararlarini bilincli sekilde sadelelestir".
+- Dil korku uretmemeli; oz-farkindalik, oz-guven ve aksiyon hissi vermelidir.
+- Kullanici raporu okudugunda kendini kuculmus, korkmus veya edilgen hissetmemelidir. Daha net, daha hazirlikli ve daha guclu hissetmelidir.
+- En zor retrolarda bile anlatim dili "kriz kehaneti" gibi degil, "bilincli yonetim ve donusum" perspektifiyle yazilmalidir.
 
 CIKTI FORMATI:
 - Sadece gecerli JSON dondur.`,

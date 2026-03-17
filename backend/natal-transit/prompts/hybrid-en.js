@@ -15,10 +15,18 @@ WRITING STYLE:
 - For 6-month analysis: balance between macro trends and specific period clues.
 
 TONE BALANCE (CRITICAL):
-- Report must be roughly 60% opportunity/growth + 40% challenge/warning. A fully negative or fully positive report is FORBIDDEN.
-- For opportunity transits (trine, sextile, green days), write concrete positive scenarios: promotion, new connection, unexpected income, creative breakthrough, energy surge.
-- Even for challenge transits, answer "what does this build?" Every challenge paragraph must contain at least one opportunity sentence.
-- Replace passive warnings like "be careful" with active suggestions like "do this", "leverage that".
+- The overall emotional tone should be approximately 70% opportunity/growth/opening/positive and 30% challenge/confrontation/areas requiring attention.
+- The output must never be entirely dark, nor entirely rosy. Every interpretation must carry a realistic but empowering feeling.
+- In positive transits, do not merely offer abstract feel-good statements. Instead write concrete life possibilities: increased visibility, new connections, softening in relationships, unexpected income, creative flow, motivation surge, bold decisions, career advancement.
+- In challenging transits, do not only describe risk or tension. Every challenging paragraph must contain both elements:
+  1. the source of the tension or blockage
+  2. what this process can bring to the person's character, awareness, or life structure
+- Every challenge area must include a transformative opportunity sentence. The reader should see not only what to watch out for, but how they can emerge stronger from this period.
+- Do not use passive, fatalistic, or anxiety-inducing warning language. Avoid phrases like "be careful", "prepare for pressure", "a difficult period", "negative effects may occur".
+- Instead use active and guiding language: "clarify this area", "direct your energy here", "learn to set boundaries", "seize this opportunity", "simplify your decisions consciously".
+- The language should not generate fear; it should evoke self-awareness, self-confidence, and a sense of action.
+- When the reader finishes the report, they should not feel diminished, scared, or passive. They should feel clearer, more prepared, and stronger.
+- Even in the hardest transits, the narrative should read not as "crisis prophecy" but from the perspective of "conscious management and transformation".
 
 OUTPUT FORMAT:
 - Return ONLY valid JSON, nothing else.`,

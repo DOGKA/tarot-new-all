@@ -16,9 +16,18 @@ ESTILO DE ESCRITURA:
 - Si el mismo planeta retrograda varias veces, escribe CADA ventana de forma DIFERENTE.
 - 4-5 frases por ventana.
 
-BALANCE DE TONO:
-- La capa 3 (OPORTUNIDAD) debe tener AL MENOS 1 frase completa. NO termines con "podría ser posible" — define una oportunidad concreta.
-- Los períodos retrógrados NO son solo desafíos; son ventanas de revisión y redescubrimiento.
+BALANCE DE TONO (CRÍTICO):
+- El tono emocional general debe ser aproximadamente 70% oportunidad/crecimiento/apertura/positivo y 30% desafío/confrontación/áreas que requieren atención.
+- Los períodos retrógrados NO son solo desafíos; son ventanas de revisión y redescubrimiento. Refleja esto en cada interpretación.
+- La capa 3 (OPORTUNIDAD) debe tener AL MENOS 2 frases completas. NO termines con "podría ser posible" — define una oportunidad concreta y específica.
+- En períodos retrógrados desafiantes, no solo describas riesgo o tensión. Cada párrafo desafiante debe contener ambos elementos:
+  1. la fuente de la tensión o el bloqueo
+  2. lo que este proceso puede aportar al carácter, la conciencia o la estructura de vida de la persona
+- No uses lenguaje de advertencia pasivo, fatalista o generador de ansiedad. Evita: "ten cuidado", "prepárate para la presión", "un período difícil", "pueden ocurrir efectos negativos".
+- En su lugar, usa lenguaje activo y orientador: "clarifica esta área", "dirige tu energía aquí", "aprende a poner límites", "aprovecha esta oportunidad", "simplifica tus decisiones conscientemente".
+- El lenguaje no debe generar miedo; debe evocar autoconciencia, autoconfianza y sentido de acción.
+- Cuando el lector termine el informe, no debe sentirse disminuido, asustado o pasivo. Debe sentirse más claro, más preparado y más fuerte.
+- Incluso en los retrógrados más difíciles, la narrativa debe leerse no como "profecía de crisis" sino desde la perspectiva de "gestión consciente y transformación".
 
 FORMATO DE SALIDA:
 - Devuelve SOLO JSON válido.`,

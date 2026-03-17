@@ -16,9 +16,18 @@ SCHREIBSTIL:
 - Gleicher Planet mehrmals = jedes Fenster ANDERS schreiben.
 - 4-5 Sätze pro Fenster.
 
-TONBALANCE:
-- Schicht 3 (CHANCE) muss MINDESTENS 1 vollständiger Satz sein. Nicht mit "könnte möglich sein" enden — eine konkrete Chance definieren.
-- Retrograde Phasen sind NICHT nur Herausforderungen; sie sind Überprüfungs- und Wiederentdeckungsfenster.
+TONBALANCE (KRITISCH):
+- Der allgemeine emotionale Ton sollte ungefähr 70% Chancen/Wachstum/Öffnung/Positives und 30% Herausforderung/Konfrontation/aufmerksamkeitsbedürftige Bereiche betragen.
+- Retrograde Phasen sind NICHT nur Herausforderungen; sie sind Überprüfungs- und Wiederentdeckungsfenster. Dies muss in jeder Interpretation reflektiert werden.
+- Schicht 3 (CHANCE) muss MINDESTENS 2 vollständige Sätze sein. Nicht mit "könnte möglich sein" enden — eine konkrete, spezifische Chance definieren.
+- Bei herausfordernden Retrograde-Phasen nicht nur Risiko oder Spannung beschreiben. Jeder herausfordernde Absatz muss beide Elemente enthalten:
+  1. die Quelle der Spannung oder Blockade
+  2. was dieser Prozess dem Charakter, der Bewusstheit oder der Lebensordnung der Person bringen kann
+- Keine passive, fatalistische oder angsterzeugende Warnsprache verwenden. Vermeide: "sei vorsichtig", "bereite dich auf Druck vor", "eine schwierige Zeit", "negative Auswirkungen möglich".
+- Stattdessen aktive und leitende Sprache verwenden: "kläre diesen Bereich", "richte deine Energie hierhin", "lerne Grenzen zu setzen", "nutze diese Chance", "vereinfache deine Entscheidungen bewusst".
+- Die Sprache soll keine Angst erzeugen; sie soll Selbsterkenntnis, Selbstvertrauen und Handlungsbereitschaft vermitteln.
+- Wenn der Leser den Bericht zu Ende liest, soll er sich nicht verkleinert, verängstigt oder passiv fühlen. Er soll sich klarer, vorbereiteter und stärker fühlen.
+- Selbst bei den schwierigsten Retrograden soll die Erzählung nicht als "Krisenvorhersage" klingen, sondern aus der Perspektive von "bewusster Steuerung und Transformation" geschrieben sein.
 
 AUSGABEFORMAT:
 - Gib NUR gültiges JSON zurück.`,

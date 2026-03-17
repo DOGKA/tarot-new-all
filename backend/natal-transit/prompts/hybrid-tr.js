@@ -17,10 +17,18 @@ YAZIM TARZI:
 - Her faz ve tema birbirinden FARKLI yazilmali. Farkli giris cumleleri, farkli ornekler, farkli ton.
 
 TON DENGESI (KRITIK):
-- Rapor %60 firsat/buyume + %40 zorluk/uyari dengesi tasimali. Tamamen olumsuz veya tamamen olumlu rapor YASAK.
-- Firsat transitlerde (trine, sextile, yesil gunler) somut olumlu senaryolar yaz: terfi, yeni tanisma, beklenmedik gelir, yaratici cikis, enerji artisi.
-- Zorluk transitlerde bile "ne kazandirir" sorusunu cevapla. Her zorluk paragrafinin icinde bir firsat cumlesine yer ver.
-- "Dikkatli ol", "baskiya hazirlan" gibi edilgen uyarilar yerine "sunu yap", "burayi degerlendirt" gibi aktif oneriler ver.
+- Raporun genel duygusal tonu yaklasik %70 firsat/buyume/acilim/olumlu ve %30 zorluk/yuzlesme/dikkat gerektiren alanlar dengesinde olmalidir.
+- Cikti asla tamamen karanlik, asla tamamen toz pembe olmamalidir. Her yorum gercekci ama guclendirici bir hissiyat tasimalidir.
+- Olumlu transitlerde sadece soyut ve genel iyi his vurgulari yapma. Bunun yerine somut yasam ihtimalleri yaz: gorunurluk artisi, yeni tanismalar, iliskilerde yumusama, beklenmedik gelir, yaratici akis, motivasyon artisi, cesur kararlar, iste ilerleme.
+- Zorlayici transitlerde yalnizca risk veya gerilim anlatma. Her zorlayici paragraf iki unsuru birlikte icermelidir:
+  1. gerilimin veya tikanmanin kaynagi
+  2. bu surecin kisinin karakterine, farkindaligina veya hayat duzenine ne kazandirabilecegi
+- Her zorluk alaninin icinde mutlaka bir donusturucu firsat cumlesi bulunmalidir. Kullanici sadece neye dikkat etmesi gerektigini degil, bu donemden nasil guclenerek cikabilecegini de gormelidir.
+- Edilgen, kaderci ve kaygi artiran uyari dili kullanma. "Dikkatli ol", "baskiya hazirlan", "zor bir donem", "olumsuz etkiler olabilir" gibi cumlelerden kacin.
+- Bunun yerine aktif ve yonlendirici dil kullan: "burayi netlestir", "enerjini su alana yonlendir", "sinir cizmeyi ogren", "bu firsati degerlendir", "kararlarini bilincli sekilde sadelelestir".
+- Dil korku uretmemeli; oz-farkindalik, oz-guven ve aksiyon hissi vermelidir.
+- Kullanici raporu okudugunda kendini kuculmus, korkmus veya edilgen hissetmemelidir. Daha net, daha hazirlikli ve daha guclu hissetmelidir.
+- En zor transitlerde bile anlatim dili "kriz kehaneti" gibi degil, "bilincli yonetim ve donusum" perspektifiyle yazilmalidir.
 
 CIKTI FORMATI:
 - Sadece gecerli JSON dondur, baska hicbir sey yazma.`,

@@ -26,10 +26,18 @@ YAPISAL KURALLAR:
 - Ayni tema altindaki farkli transitleri birlestirerek tek bir tutarli hikaye anlat.
 
 TON DENGESI (KRITIK):
-- Yorum %60 firsat/buyume + %40 zorluk/uyari dengesi tasimali. Tamamen olumsuz rapor YASAK.
-- Firsat transitlerde (trine, sextile) somut olumlu senaryolar yaz: terfi, yeni tanisma, beklenmedik gelir, yaratici cikis.
-- Zorluk transitlerde bile "ne kazandirir" sorusunu cevapla.
-- "Dikkatli ol" yerine "sunu yap" de.
+- Raporun genel duygusal tonu yaklasik %70 firsat/buyume/acilim/olumlu ve %30 zorluk/yuzlesme/dikkat gerektiren alanlar dengesinde olmalidir.
+- Cikti asla tamamen karanlik, asla tamamen toz pembe olmamalidir. Her yorum gercekci ama guclendirici bir hissiyat tasimalidir.
+- Olumlu transitlerde sadece soyut ve genel iyi his vurgulari yapma. Bunun yerine somut yasam ihtimalleri yaz: gorunurluk artisi, yeni tanismalar, iliskilerde yumusama, beklenmedik gelir, yaratici akis, motivasyon artisi, cesur kararlar, iste ilerleme.
+- Zorlayici transitlerde yalnizca risk veya gerilim anlatma. Her zorlayici paragraf iki unsuru birlikte icermelidir:
+  1. gerilimin veya tikanmanin kaynagi
+  2. bu surecin kisinin karakterine, farkindaligina veya hayat duzenine ne kazandirabilecegi
+- Her zorluk alaninin icinde mutlaka bir donusturucu firsat cumlesi bulunmalidir. Kullanici sadece neye dikkat etmesi gerektigini degil, bu donemden nasil guclenerek cikabilecegini de gormelidir.
+- Edilgen, kaderci ve kaygi artiran uyari dili kullanma. "Dikkatli ol", "baskiya hazirlan", "zor bir donem", "olumsuz etkiler olabilir" gibi cumlelerden kacin.
+- Bunun yerine aktif ve yonlendirici dil kullan: "burayi netlestir", "enerjini su alana yonlendir", "sinir cizmeyi ogren", "bu firsati degerlendir", "kararlarini bilincli sekilde sadelelestir".
+- Dil korku uretmemeli; oz-farkindalik, oz-guven ve aksiyon hissi vermelidir.
+- Kullanici raporu okudugunda kendini kuculmus, korkmus veya edilgen hissetmemelidir. Daha net, daha hazirlikli ve daha guclu hissetmelidir.
+- En zor transitlerde bile anlatim dili "kriz kehaneti" gibi degil, "bilincli yonetim ve donusum" perspektifiyle yazilmalidir.
 
 CIKTI FORMATI:
 - Sadece gecerli JSON dondur, baska hicbir sey yazma.`,
