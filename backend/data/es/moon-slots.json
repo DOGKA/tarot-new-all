@@ -1,98 +1,6 @@
 {
   "slots": [
     {
-      "id": "2026-03-13T000000Z_waning_crescent_capricorn_venus",
-      "start": "2026-03-13T00:00:00.000Z",
-      "end": "2026-03-13T07:00:38.534Z",
-      "phase": "waning_crescent",
-      "zodiac": "capricorn",
-      "planet": "venus",
-      "content": {
-        "planet": {
-          "meaning": "Cuma günü Venüs, estetik ve ilişkilerdeki derin bağları harekete geçiriyor. Güzellik ve uyum arayışı, seni çevrendeki insanlarla daha yakın temas kurmaya itiyor. Değer verdiğin şeyler üzerine düşünürken, sevdiklerinle olan bağları güçlendirme isteği doğuyor.",
-          "advice": "Sevdiğin bir kişiye küçük bir sürpriz hazırla."
-        },
-        "zodiac": {
-          "meaning": "Ay Oğlak burcunda, duygularını disiplin altına alıyor. Sorumlulukların ön plana çıkarken, duygusal ihtiyaçlarını göz ardı etme eğilimi oluşuyor. Soğukkanlı duruşun, seni kararlarında daha kararlı yapıyor.",
-          "firsat": "İş planlarını gözden geçir ve somut adımlar at.",
-          "his": "kontrollü ciddiyet"
-        },
-        "phase": {
-          "general": "Azalan Hilal, bitişleri ve kapanışları hızlandırıyor. Geçmişte başlamış işlerin sonlandırılması için uygun bir zemin hazırlıyor. Gereksiz yüklerden kurtulma zamanı geliyor, gereksiz olan her şey yavaş yavaş eriyor.",
-          "ayna": "Yarım kalan projeleri tamamlaman gerektiğini gösteriyor."
-        }
-      }
-    },
-    {
-      "id": "2026-03-14T091019Z_waning_crescent_capricorn_saturn",
-      "start": "2026-03-14T09:10:19.707Z",
-      "end": "2026-03-14T17:08:27.207Z",
-      "phase": "waning_crescent",
-      "zodiac": "capricorn",
-      "planet": "saturn",
-      "content": {
-        "planet": {
-          "meaning": "Cumartesi günü Satürn, disiplin ve sorumluluk alanını açıyor. Bugün, uzun vadeli hedeflerine odaklanmak için sağlam temeller atılıyor. Zaman yönetimi ve planlama becerileri netleşiyor, bu da seni daha verimli kılıyor.",
-          "advice": "Günlük planını detaylandır ve haftalık hedeflerini yazıya dök."
-        },
-        "zodiac": {
-          "meaning": "Ay Oğlak burcunda, duygularını daha ciddiyetle ele almanı sağlıyor. İçsel disiplinin ve kararlılığın sarsıyor, seni daha hedef odaklı hale getiriyor. Pratik düşünceler, duygusal dalgalanmaları bastırıyor, daha gerçekçi bir bakış açısı sunuyor.",
-          "firsat": "Yarım kalan projeni tamamla ve ilerlemeni gözden geçir.",
-          "his": "kararlı odak, ciddi yaklaşım"
-        },
-        "phase": {
-          "general": "Azalan Hilal, enerjiyi içe doğru çekiyor ve tamamlanması gereken işlere odaklanmayı kolaylaştırıyor. Dış dünyadan gelen dikkat dağınıklıkları daralıyor, içsel değerlendirmeler sertleşiyor. Gereksiz yüklerden kurtulmak için uygun zemin oluşuyor.",
-          "ayna": "Elinde tuttuğun ama artık işine yaramayan bir alışkanlığı bırakmanın zamanı."
-        }
-      }
-    },
-    {
-      "id": "2026-03-14T170827Z_waning_crescent_aquarius_saturn",
-      "start": "2026-03-14T17:08:27.207Z",
-      "end": "2026-03-15T00:00:00.000Z",
-      "phase": "waning_crescent",
-      "zodiac": "aquarius",
-      "planet": "saturn",
-      "content": {
-        "planet": {
-          "meaning": "Cumartesi günü Satürn, disiplin ve sorumluluk alanlarını harekete geçiriyor. Günlük rutininde belirsizlikler netleşiyor ve daha sağlam bir zemin oluşuyor. İşlerin ve görevlerin ciddiyeti artıyor, seni daha fazla odaklanmaya zorluyor.",
-          "advice": "Bugün tamamlanmamış bir projeyi bitir."
-        },
-        "zodiac": {
-          "meaning": "Ay Kova burcunda ilerlerken, özgün düşünceler ve yenilikçi yaklaşımlar tetikleniyor. Sosyal ilişkilerde farklı bakış açıları ve entelektüel sohbetler seni çekiyor. Duygusal mesafelenme, mantıklı kararlar almanı kolaylaştırıyor.",
-          "firsat": "Yeni bir topluluk etkinliğine katıl.",
-          "his": "yenilikçi merak"
-        },
-        "phase": {
-          "general": "Azalan Hilal, tamamlanma ve bırakma süreçlerini hızlandırıyor. Gereksiz yüklerden kurtulmak ve hayatını sadeleştirmek için ideal zaman. Tamamlanmamış işleri bitirip, yeni başlangıçlar için yer açıyor.",
-          "ayna": "Uzun zamandır ertelediğin duygusal yükleri bırakma zamanı."
-        }
-      }
-    },
-    {
-      "id": "2026-03-15T000000Z_waning_crescent_aquarius_sun",
-      "start": "2026-03-15T00:00:00.000Z",
-      "end": "2026-03-15T08:38:14.690Z",
-      "phase": "waning_crescent",
-      "zodiac": "aquarius",
-      "planet": "sun",
-      "content": {
-        "planet": {
-          "meaning": "Pazar günü Güneş içindeki enerjiyi ve canlılığı açıyor. Yaratıcılığın ve kendini ifade etme ihtiyacın ön plana çıkıyor. İlişkilerinde daha samimi ve sıcak bir iletişim kurma isteği tetikleniyor.",
-          "advice": "Bir arkadaşına içten bir teşekkür notu yaz."
-        },
-        "zodiac": {
-          "meaning": "Ay Kova burcunda olduğu için özgürlük ve yenilik arayışını ateşliyor. Alışılmışın dışına çıkma ve farklı perspektiflerden bakma cesareti veriyor. Toplumsal konulara olan hassasiyetin artıyor, bireysel ihtiyaçların yanında kolektif bilinci de tetikliyor.",
-          "firsat": "Gönüllü bir projeye katıl.",
-          "his": "elektriksel heyecan, yaratıcı gerilim"
-        },
-        "phase": {
-          "general": "Azalan Hilal içsel bir değerlendirme sürecini başlatıyor. Geçmişteki hataların ve başarıların daha net görülmesini sağlıyor. Kapanış ve tamamlama süreçleri hızlanıyor, gereksiz yükler eritiliyor.",
-          "ayna": "Bugün, yarım kalan işleri ve ertelenen duygusal meseleleri netleştiriyor."
-        }
-      }
-    },
-    {
       "id": "2026-03-16T000000Z_waning_crescent_aquarius_moon",
       "start": "2026-03-16T00:00:00.000Z",
       "end": "2026-03-16T12:58:08.457Z",
@@ -162,14 +70,68 @@
       }
     },
     {
-      "id": "2026-03-17T013927Z_balsamic_moon_pisces_mars",
-      "start": "2026-03-17T01:39:27.207Z",
-      "end": "2026-03-17T09:10:19.707Z",
+      "id": "2026-03-17T070618Z_balsamic_moon_pisces_mars",
+      "start": "2026-03-17T07:06:18.071Z",
+      "end": "2026-03-18T00:00:00.000Z",
       "phase": "balsamic_moon",
       "zodiac": "pisces",
       "planet": "mars",
       "content": null
+    },
+    {
+      "id": "2026-03-18T000000Z_balsamic_moon_pisces_mercury",
+      "start": "2026-03-18T00:00:00.000Z",
+      "end": "2026-03-18T09:15:40.571Z",
+      "phase": "balsamic_moon",
+      "zodiac": "pisces",
+      "planet": "mercury",
+      "content": null
+    },
+    {
+      "id": "2026-03-18T091540Z_new_moon_pisces_mercury",
+      "start": "2026-03-18T09:15:40.571Z",
+      "end": "2026-03-19T00:00:00.000Z",
+      "phase": "new_moon",
+      "zodiac": "pisces",
+      "planet": "mercury",
+      "content": null
+    },
+    {
+      "id": "2026-03-19T000000Z_new_moon_pisces_jupiter",
+      "start": "2026-03-19T00:00:00.000Z",
+      "end": "2026-03-19T06:49:25.571Z",
+      "phase": "new_moon",
+      "zodiac": "pisces",
+      "planet": "jupiter",
+      "content": null
+    },
+    {
+      "id": "2026-03-19T064925Z_new_moon_aries_jupiter",
+      "start": "2026-03-19T06:49:25.571Z",
+      "end": "2026-03-20T00:00:00.000Z",
+      "phase": "new_moon",
+      "zodiac": "aries",
+      "planet": "jupiter",
+      "content": null
+    },
+    {
+      "id": "2026-03-20T000000Z_new_moon_aries_venus",
+      "start": "2026-03-20T00:00:00.000Z",
+      "end": "2026-03-20T05:33:33.071Z",
+      "phase": "new_moon",
+      "zodiac": "aries",
+      "planet": "venus",
+      "content": null
+    },
+    {
+      "id": "2026-03-20T053333Z_waxing_crescent_aries_venus",
+      "start": "2026-03-20T05:33:33.071Z",
+      "end": "2026-03-20T07:06:18.071Z",
+      "phase": "waxing_crescent",
+      "zodiac": "aries",
+      "planet": "venus",
+      "content": null
     }
   ],
-  "generatedUntil": "2026-03-17T09:10:19.707Z"
+  "generatedUntil": "2026-03-20T07:06:18.071Z"
 }

@@ -1,885 +1,5 @@
 {
   "dates": {
-    "2026-03-11": {
-      "horoscopes": [
-        {
-          "date": "2026-03-11",
-          "sign": "aries",
-          "headline": "Baila con tus Prioridades, Capta el Sentido",
-          "body": "Hoy, deja de lado el ajetreo superficial y mira más profundamente para descubrir lo que realmente tiene sentido. ¿Cómo respondes a tus impulsos internos? Volver a establecer prioridades puede marcarte un camino diferente.",
-          "do": [
-            "Profundiza",
-            "Cuestiona tus prioridades",
-            "Elige el significado"
-          ],
-          "dont": [
-            "Permanecer en la superficie",
-            "No armes jaleo",
-            "Atascado en el viejo camino"
-          ],
-          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-10T07:07:26.598Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "taurus",
-          "headline": "El perdón es el valor que rompe las cadenas.",
-          "body": "Hoy, ¿seguirás llevando la carga del pasado a tus espaldas o descubrirás el poder liberador del perdón? Perdonar significa darte el regalo de un nuevo comienzo.",
-          "do": [
-            "Elige perdonar",
-            "Libera el pasado",
-            "Abre la puerta a las innovaciones"
-          ],
-          "dont": [
-            "Planificación de la venganza",
-            "No te quedes en el pasado",
-            "No cedas a la ira"
-          ],
-          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-10T07:07:31.277Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "gemini",
-          "headline": "La incredulidad nace del miedo, ¡recuerda!",
-          "body": "Hoy, deja a un lado tus dudas y supera los límites de la confianza. A menos que creas en tu propia fuerza, la fe de los demás estará vacía. Confía un poco más en ti mismo, es hora de asumir riesgos.",
-          "do": [
-            "Desafíate a ti mismo",
-            "Amplía tus límites",
-            "Avanza con confianza"
-          ],
-          "dont": [
-            "No seas escéptico",
-            "No demores el valor",
-            "No sucumbas al miedo"
-          ],
-          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-10T07:07:35.807Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "cancer",
-          "headline": "¿Lealtad o cadenas?",
-          "body": "Hoy, cuestiona los muros que te has construido en nombre de la lealtad. ¿Adónde te arrastran los moldes en los que crees que está atrapada la amistad? ¿Te haces prisionero o eres realmente libre?",
-          "do": [
-            "Pon a prueba tus límites",
-            "Di claramente la verdad"
-          ],
-          "dont": [
-            "No te pongas en segundo plano",
-            "No te aferres a viejos hábitos"
-          ],
-          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-10T07:07:40.546Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "leo",
-          "headline": "No, es un manifiesto de libertad.",
-          "body": "Hoy es una oportunidad para redefinir tus límites. Cada \"sí\" conlleva el riesgo de perder el control. Decir \"no\" cuando no quieres es defender tu mundo. Elige tu libertad, no tu ego.",
-          "do": [
-            "Define tu propio espacio",
-            "Expresa tus pensamientos en voz alta",
-            "Lucha contra la autocomplacencia"
-          ],
-          "dont": [
-            "No cedas a la presión",
-            "No te traiciones a ti mismo",
-            "No comprometas tu libertad"
-          ],
-          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-10T07:07:44.222Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "virgo",
-          "headline": "Enfréntate a tus reflejos, descúbrete a ti mismo.",
-          "body": "Date cuenta hoy de que los demás son tu espejo. Puedes encontrarte hasta en el comportamiento más perturbador. El verdadero cambio reside en analizar estas proyecciones.",
-          "do": [
-            "Sujétate un espejo",
-            "Encontrar mensaje oculto",
-            "Atrévete a afrontarlo"
-          ],
-          "dont": [
-            "Sentencia",
-            "No ignores la sombra",
-            "Silenciar la voz interior"
-          ],
-          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-10T07:07:49.956Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "libra",
-          "headline": "No te sometas a la autoridad, ¡sacude los límites!",
-          "body": "Desenmascara a las figuras de autoridad que hoy te parecen poderosas y escucha lo fuerte que suena tu propia voz. Reevalúa las normas que aceptas sin cuestionarlas y crea tu propia balanza de la justicia.",
-          "do": [
-            "Desafíate a ti mismo",
-            "Redibuja las fronteras",
-            "Cuestiona la verdad"
-          ],
-          "dont": [
-            "Obediencia a la autoridad",
-            "No recortes gastos",
-            "Permanecer en silencio"
-          ],
-          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-10T07:07:53.764Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "scorpio",
-          "headline": "La abundancia baila con la escasez.",
-          "body": "No te centres en lo que tienes hoy, sino en lo que podrías tener; tus defectos son la máscara de tus oportunidades. Haz de tus miedos el combustible de tus deseos y utiliza cada ilusión como un trampolín.",
-          "do": [
-            "Darse cuenta de lo invisible",
-            "Ampliar las oportunidades",
-            "Enfréntate a tus miedos"
-          ],
-          "dont": [
-            "No te obsesiones con los defectos",
-            "No pienses en pequeño",
-            "No des lugar a la duda"
-          ],
-          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-10T07:07:59.216Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "sagittarius",
-          "headline": "La tensión te libera.",
-          "body": "No temas explorar hoy los límites de la tensión; te llevará a nuevas alturas. Tu movimiento constante revela la inquietud que has estado reprimiendo en tu interior. Resiste a la tensión, te hará crecer.",
-          "do": [
-            "Desafíate a ti mismo",
-            "Acepta la tensión",
-            "Hacer respetar las fronteras"
-          ],
-          "dont": [
-            "Retirada",
-            "Evitar la incertidumbre",
-            "No recortes gastos"
-          ],
-          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-10T07:08:02.901Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "capricorn",
-          "headline": "Sal a la superficie, ¡demuestra de qué estás hecho!",
-          "body": "Hoy es el momento de expresar tus pensamientos y sentimientos en lugar de ocultarlos. Revela tu arte interior; los enigmas se resuelven, los muros se derriban. No silencies tu voz interior, escúchala.",
-          "do": [
-            "Presenta tu arte al mundo",
-            "Exprésate",
-            "Escucha tu voz interior"
-          ],
-          "dont": [
-            "Permanecer en silencio",
-            "Retirada",
-            "Retirada"
-          ],
-          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-10T07:08:07.799Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "aquarius",
-          "headline": "Quema puentes, ¡construye nuevos!",
-          "body": "Enfréntate hoy a tus roles parentales, no sucumbas al peso del pasado, escribe tus propias reglas. Cuestiona los moldes y disfruta de la independencia y la libertad de la tradición.",
-          "do": [
-            "Redefine",
-            "Hacer respetar las fronteras",
-            "Afróntalo honestamente"
-          ],
-          "dont": [
-            "Retirada",
-            "Siguiendo la sombra",
-            "Aferrarse a la obsolescencia"
-          ],
-          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-10T07:08:12.976Z"
-        },
-        {
-          "date": "2026-03-11",
-          "sign": "pisces",
-          "headline": "¡La verdad está en los detalles!",
-          "body": "No te pierdas hoy en los cálidos brazos de la generalización; cada detalle susurra una verdad. En lugar de creer ciegamente en el panorama general, escucha las diferentes historias de los detalles.",
-          "do": [
-            "Quédate en los detalles",
-            "Descubre lo invisible",
-            "Presta atención a las pequeñas cosas"
-          ],
-          "dont": [
-            "Redactar escenarios de catástrofe",
-            "Permanecer en la superficie",
-            "No ignores los hechos"
-          ],
-          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-10T07:08:17.011Z"
-        }
-      ],
-      "createdAt": "2026-03-10T07:08:17.512Z"
-    },
-    "2026-03-12": {
-      "horoscopes": [
-        {
-          "date": "2026-03-12",
-          "sign": "aries",
-          "headline": "Perdona, pero no olvides: ¡Tú tienes el poder!",
-          "body": "¿Llevas cargas del pasado? Descubre hoy el poder del perdón. Pero perdonar no significa olvidar. Antes de desprenderte de conflictos profundamente arraigados, reconoce sus causas.",
-          "do": [
-            "Afróntalo honestamente",
-            "Haz tu propio camino",
-            "Mantente fuerte"
-          ],
-          "dont": [
-            "Guardar rencor",
-            "Busca una vía de escape",
-            "Sensación de debilidad"
-          ],
-          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-10T07:08:58.479Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "taurus",
-          "headline": "¡La inseguridad es la falsa máscara del valor!",
-          "body": "Hoy, siente la fina línea que separa la fe de la duda. Desafía los miedos que surgen en tu interior, cuestiona lo que te retiene. Pon a prueba la confianza, no temas enfrentarte a ella.",
-          "do": [
-            "Cuestiona tus límites",
-            "Asume riesgos",
-            "Defiende tu rectitud"
-          ],
-          "dont": [
-            "No hagas pequeños cálculos",
-            "Espera ansiosa",
-            "Rendirse ante la inseguridad"
-          ],
-          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-10T07:09:03.528Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "gemini",
-          "headline": "La lealtad no es ajena, puede ser aterradora.",
-          "body": "Cuestiónate quién está realmente contigo hoy; descubre el vacío que hay tras las amistades superficiales. El verdadero compromiso es aterrador, pero inevitable. No seas un guerrero renegado, abraza el poder de la intimidad.",
-          "do": [
-            "Búsqueda de vínculos verdaderos",
-            "Descargar máscaras",
-            "Desafía la confianza"
-          ],
-          "dont": [
-            "Permanece en la superficie",
-            "No dudes en hacer preguntas",
-            "No alimentes falsas amistades"
-          ],
-          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-10T07:09:10.190Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "cancer",
-          "headline": "No, ¡ponlo como un escudo!",
-          "body": "La forma más poderosa de protegerte hoy es rechazar las cargas innecesarias. Decir no no es una debilidad, sino una toma de conciencia de tus propias limitaciones.",
-          "do": [
-            "Defiende tus fronteras",
-            "Acepta decir no",
-            "Escucha tu propia voz"
-          ],
-          "dont": [
-            "No te culpes",
-            "No te comprometas demasiado",
-            "No sucumbas a la presión"
-          ],
-          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-10T07:09:13.974Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "leo",
-          "headline": "¡Recuerda tu reflejo!",
-          "body": "Reconoce las imágenes que proyectas hoy en los demás; son tus miedos más profundos. Piensa que las críticas que ves en los demás son un espejo dirigido a ti mismo. Lo que más te molesta muestra en realidad la guerra que hay en tu interior.",
-          "do": [
-            "Afronta los hechos",
-            "Acepta tu batalla interior",
-            "Sé sincero contigo mismo"
-          ],
-          "dont": [
-            "No culpes a los demás",
-            "Reprimir tus miedos",
-            "No cierres los ojos"
-          ],
-          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-10T07:09:18.903Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "virgo",
-          "headline": "Cuestiona tu propia autoridad, ¡redefine tu libertad!",
-          "body": "Hoy tu poder no está fuera, enfréntate a tu autoridad interior. En lugar de doblegarte ante las presiones externas, ha llegado el momento de establecer tus propias reglas. No necesitas la aprobación de los demás para sentirte seguro.",
-          "do": [
-            "Traza tu propio rumbo",
-            "Ampliar fronteras",
-            "Defiende tu libertad"
-          ],
-          "dont": [
-            "Delegación de autoridad",
-            "No sigas los pasos de los demás",
-            "Suprimir tu propia voz"
-          ],
-          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-10T07:09:25.479Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "libra",
-          "headline": "¡La abundancia es la recompensa de los corazones valientes!",
-          "body": "Hoy, expande tu mente, rompe con los moldes estrechos. Deja de cuestionar tu propio valor, date cuenta de que la abundancia forma parte de tu naturaleza. Ríete ante tus miedos, pues son el equipaje de tu pasado.",
-          "do": [
-            "Hacer respetar las fronteras",
-            "Responde a las preguntas",
-            "Invita a lo invisible"
-          ],
-          "dont": [
-            "Autodesprecio",
-            "No encajes en viejos moldes",
-            "Ríndete a la ansiedad"
-          ],
-          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-10T07:09:29.557Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "scorpio",
-          "headline": "¡Desafía a tu propia sombra!",
-          "body": "Hoy, analiza tus conflictos internos como si fueran un mapa y observa hacia dónde te conducen las tensiones. Piensa en las consecuencias de permanecer en silencio y no dudes en elegir una dirección diferente esta vez.",
-          "do": [
-            "Abre los ojos",
-            "Acepta la verdad",
-            "Descubre un nuevo camino"
-          ],
-          "dont": [
-            "No huyas",
-            "Ocultación",
-            "No te refugies en viejos moldes"
-          ],
-          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-10T07:09:32.828Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "sagittarius",
-          "headline": "¡No pongas cadenas a tu imaginación!",
-          "body": "Hoy, habla con los ojos en lugar de con las palabras; expresa tus pensamientos pintándolos de colores. Rompe los moldes estrechos que utilizas para proyectarte. Tu talento consiste en hacer visible lo invisible.",
-          "do": [
-            "Describe los colores con tus sentimientos",
-            "Comparte tus pensamientos con una imagen",
-            "Da rienda suelta a tu imaginación"
-          ],
-          "dont": [
-            "Confinamiento dentro de las fronteras",
-            "Cumplir tus rutinas",
-            "No silencies tu propia voz"
-          ],
-          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-10T07:09:36.757Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "capricorn",
-          "headline": "¡Enfréntate a tu propia autoridad!",
-          "body": "Llega hoy a un acuerdo con tu figura paterna interior; tu obsesión por la disciplina y el control puede estar limitándote. Cuestiona el peso de las expectativas, prepárate para luchar contra tu voz interior.",
-          "do": [
-            "Cuestiona tu norma",
-            "Supera tus propios muros",
-            "Da un paso valiente"
-          ],
-          "dont": [
-            "Autodetención",
-            "Control excesivo",
-            "Permanecer en silencio"
-          ],
-          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-10T07:09:40.858Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "aquarius",
-          "headline": "¡Las generalizaciones mantienen las mentes en prisión!",
-          "body": "Hoy, cuestiona tus realidades envueltas en patrones; date cuenta de que las generalizaciones te limitan. Sabe que no todo el mundo es igual, no te estanques en un único punto de vista. Acércate a lo que no comprendes, atrévete a explorar.",
-          "do": [
-            "Ver todos los colores",
-            "Cruzar fronteras",
-            "Amplía tu percepción"
-          ],
-          "dont": [
-            "Ceñirse a un tipo",
-            "Etiquetado rápido",
-            "Ríndete a los prejuicios"
-          ],
-          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-10T07:09:44.910Z"
-        },
-        {
-          "date": "2026-03-12",
-          "sign": "pisces",
-          "headline": "Cuestiona tus prioridades, descubre el sentido",
-          "body": "Hoy, no te pierdas en medio del caos y empieza a buscar lo que es verdaderamente valioso. Levanta la cortina de humo que hay ante tus ojos, no busques lo que hay en la superficie, sino las gemas que hay en las profundidades.",
-          "do": [
-            "Reevalúa tus prioridades",
-            "Descubre el verdadero significado",
-            "Mira bajo la superficie"
-          ],
-          "dont": [
-            "No te pierdas en el caos",
-            "No te obsesiones con lo superficial",
-            "Aceptar la incertidumbre"
-          ],
-          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-10T07:09:49.459Z"
-        }
-      ],
-      "createdAt": "2026-03-10T07:09:49.960Z"
-    },
-    "2026-03-13": {
-      "horoscopes": [
-        {
-          "date": "2026-03-13",
-          "sign": "aries",
-          "headline": "Si falta la confianza, ¡la multitud te engullirá!",
-          "body": "Hoy, en lugar de aferrarte a migajas de creencias, profundiza y cuestiona tu confianza interior. Date cuenta de lo que escondes tras tu caparazón y desafíate a ti mismo. Cuanto más tiempo permanezcas en silencio, ¡más olvidarás tu voz!",
-          "do": [
-            "Alza la voz",
-            "Sonríe a los miedos",
-            "Sal ahí fuera"
-          ],
-          "dont": [
-            "Retírate en tu caparazón",
-            "No escondas tu valor",
-            "No te traiciones a ti mismo"
-          ],
-          "theme": "Faz 1: Temel Psikoloji - \"Güven ve inanç\"",
-          "createdAt": "2026-03-10T07:09:54.682Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "taurus",
-          "headline": "Supera los límites de la lealtad, la verdadera amistad está aquí.",
-          "body": "Hoy, atrévete a cuestionar los patrones de lealtad y amistad. ¿Hasta qué punto crees ciegamente en tus relaciones? La verdadera amistad se pone a prueba en los momentos más débiles.",
-          "do": [
-            "Cuestiona los hechos",
-            "Haz un test de confianza",
-            "Ábrete"
-          ],
-          "dont": [
-            "No ignores",
-            "Creencia incondicional",
-            "Desprecio"
-          ],
-          "theme": "Faz 2: İlişkiler - \"Arkadaşlık ve sadakat\"",
-          "createdAt": "2026-03-10T07:09:59.411Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "gemini",
-          "headline": "Di No, Siente la Libertad",
-          "body": "Hoy, descubre el poder de decir no y rompe tus cadenas. Hace falta más valor para trazar tus propios límites que para seguir los mapas de los demás. Tu libertad reside en tus propias decisiones.",
-          "do": [
-            "Establece tus límites",
-            "Traza un nuevo rumbo",
-            "Escucha tu propia voz"
-          ],
-          "dont": [
-            "Complacer a los demás",
-            "No te traiciones a ti mismo",
-            "Permanecer en silencio"
-          ],
-          "theme": "Faz 3: Kişisel Gelişim - \"Hayır demenin gücü\"",
-          "createdAt": "2026-03-10T07:10:04.176Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "cancer",
-          "headline": "No te escondas tras máscaras, ve la verdad",
-          "body": "Hoy es una oportunidad para enfrentarte a la verdad que hay detrás de tus proyecciones. Las voces del exterior son un reflejo de los ecos del interior. En lugar de buscar tus propios miedos en los demás, atrévete a mirarlos desde dentro.",
-          "do": [
-            "Sujétate un espejo",
-            "Abraza la verdad",
-            "Enfréntate a tus miedos"
-          ],
-          "dont": [
-            "Busca una vía de escape",
-            "No culpes a los demás",
-            "No ocultes tu esencia"
-          ],
-          "theme": "Faz 4: Shadow Work - \"Projeksiyon farkındalığı\"",
-          "createdAt": "2026-03-10T07:10:09.513Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "leo",
-          "headline": "¡La máscara de la autoridad no es tu escenario!",
-          "body": "Hoy, desata tu león interior contra la autoridad y cuestiona tu propio liderazgo. Ve más allá de seguir las normas de los demás. Reconoce tu poder, pero también intenta controlarlo.",
-          "do": [
-            "Crea tus propias reglas",
-            "Sé inquisitivo",
-            "Declarar la independencia"
-          ],
-          "dont": [
-            "Permanecer pasivo",
-            "Presentación",
-            "Autodesprecio"
-          ],
-          "theme": "Faz 5: İş & Kariyer - \"Otorite ile ilişki\"",
-          "createdAt": "2026-03-10T07:10:14.030Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "virgo",
-          "headline": "Abre sin miedo la puerta a la abundancia",
-          "body": "Hoy tienes la oportunidad de eliminar la mentalidad de escasez. Sumérgete en pensamientos ilimitados y descubre el poder de compartir, no de poseer. Cuestiona tu comodidad y amplía tu zona de confort.",
-          "do": [
-            "Comparte generosamente",
-            "Crear nuevas oportunidades",
-            "Cree en ti mismo"
-          ],
-          "dont": [
-            "No cedas a tus miedos",
-            "No dudes en superar tus límites",
-            "Autodesprecio"
-          ],
-          "theme": "Faz 6: Para & Kaynaklar - \"Bolluk zihniyeti\"",
-          "createdAt": "2026-03-10T07:10:20.134Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "libra",
-          "headline": "Rompe, pero no dobles.",
-          "body": "Hoy te tiran de todos los rincones, se está dibujando el mapa de la tensión. Donde te sitúes puede cambiar todo el juego. Convierte el conflicto en danza, conviértete en el maestro de tu propio equilibrio.",
-          "do": [
-            "Descubre tus propios límites",
-            "Habla con los ojos",
-            "Inspirado por los contrastes"
-          ],
-          "dont": [
-            "Permanecer en la superficie",
-            "Rendición instantánea",
-            "No lo silencies"
-          ],
-          "theme": "Faz 7: Sağlık & Beden - \"Gerginlik haritası\"",
-          "createdAt": "2026-03-10T07:10:24.035Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "scorpio",
-          "headline": "¡Haz visible lo invisible!",
-          "body": "Baila hoy en las profundidades ocultas de la creatividad. No te dejes intimidar por la expresión visual, libera el poder oculto en las sombras. No te quedes atascado en la rutina; mira más allá de las paredes y descubre lo que encontrarás allí.",
-          "do": [
-            "Elige un camino diferente",
-            "Habla con el arte",
-            "Juega en la sombra"
-          ],
-          "dont": [
-            "Repetición de lo familiar",
-            "Atasco en moldes",
-            "Trazar tus propios límites"
-          ],
-          "theme": "Faz 8: Yaratıcılık - \"Görsel ifade\"",
-          "createdAt": "2026-03-10T07:10:28.558Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "sagittarius",
-          "headline": "Enfréntate a tu papel de madre/padre; ¡No hay escapatoria!",
-          "body": "Hoy, siente los límites de la autoridad y la responsabilidad. En lugar de huir como un niño, quédate como un líder. Crece con tus errores; no reprimas tus miedos, confiésalos.",
-          "do": [
-            "Abraza la verdad",
-            "Mírale a los ojos",
-            "Haz respetar tus fronteras"
-          ],
-          "dont": [
-            "No persigas cuentas pequeñas",
-            "Evitar la responsabilidad",
-            "No te engañes"
-          ],
-          "theme": "Faz 9: Sosyal İmaj - \"Anne/baba rolü\"",
-          "createdAt": "2026-03-10T07:10:33.597Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "capricorn",
-          "headline": "¡No te pierdas en el panorama general!",
-          "body": "Hoy corres el peligro de perderte en un mundo de generalizaciones excesivas. Recuerda que no todo el mundo es igual, que hay historias diferentes. No estreches tus límites metiendo a todo el mundo en el mismo molde.",
-          "do": [
-            "Descubre los detalles",
-            "Superar los prejuicios",
-            "Escucha con curiosidad"
-          ],
-          "dont": [
-            "No generalices",
-            "Ignorar la originalidad",
-            "Toma rápida de decisiones"
-          ],
-          "theme": "Faz 10: Zihin & Düşünce - \"Aşırı genelleme\"",
-          "createdAt": "2026-03-10T07:10:38.333Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "aquarius",
-          "headline": "No puedes encontrarlo sin perseguir el sentido.",
-          "body": "Hoy, cuestiona lo que constituye lo valioso. Buscar una vida significativa sin establecer prioridades es como perseguir un empeño vacío. Date cuenta de dónde estás y de lo que necesitas dejar atrás.",
-          "do": [
-            "Pon tus valores sobre la mesa",
-            "Aclara tus prioridades",
-            "Crea significado con tus propias manos"
-          ],
-          "dont": [
-            "No persigas quimeras",
-            "Aplazar los juicios",
-            "Busca vías de escape"
-          ],
-          "theme": "Faz 11: Anlam & Amaç - \"Öncelik ve anlam\"",
-          "createdAt": "2026-03-10T07:10:43.147Z"
-        },
-        {
-          "date": "2026-03-13",
-          "sign": "pisces",
-          "headline": "¡Suelta la carga del pasado y mira hacia delante!",
-          "body": "Hoy, ármate de valor y abre un nuevo espacio para descubrir el poder del perdón. Trata con los fantasmas del pasado, pero no les des espacio. Perdonar no significa olvidar; significa seguir adelante.",
-          "do": [
-            "Cierra los libros viejos",
-            "Mira hacia delante",
-            "Concéntrate en el mañana"
-          ],
-          "dont": [
-            "No te obsesiones con el pasado",
-            "No des segundas oportunidades",
-            "No sientas remordimientos"
-          ],
-          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Affetme yolculuğu\"",
-          "createdAt": "2026-03-10T07:10:47.752Z"
-        }
-      ],
-      "createdAt": "2026-03-10T07:10:48.253Z"
-    },
-    "2026-03-14": {
-      "horoscopes": [
-        {
-          "date": "2026-03-14",
-          "sign": "aries",
-          "headline": "¡La distancia es la máscara de la verdad!",
-          "body": "¿Cuánto tiempo pueden ocultar la verdad los amigos distantes? No te hagas ilusiones por la distancia, porque a veces la distancia no es más que una excusa. Hoy, cuestiona la sinceridad y pon a prueba la realidad de tus relaciones.",
-          "do": [
-            "Cuestiona la distancia",
-            "Prueba la verdad",
-            "Búsqueda de sinceridad"
-          ],
-          "dont": [
-            "No te hagas ilusiones",
-            "No asumas que lo ocultas",
-            "No te rindas"
-          ],
-          "theme": "Faz 2: İlişkiler - \"Eski dostlar ve mesafe\"",
-          "createdAt": "2026-03-10T07:10:51.850Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "taurus",
-          "headline": "Baila con tus riesgos, ¿qué tienes que perder?",
-          "body": "Hoy es el día de superar los límites de tu zona de confort. ¿Qué tienes que perder o ganar diciendo que sí? Libera tu miedo, no temas perder el control.",
-          "do": [
-            "Supéralo",
-            "Abre una nueva puerta",
-            "Da un paso valiente"
-          ],
-          "dont": [
-            "No cedas a viejos miedos",
-            "Permanecer indeciso",
-            "No te refugies en el garantismo"
-          ],
-          "theme": "Faz 3: Kişisel Gelişim - \"Evet demenin riski\"",
-          "createdAt": "2026-03-10T07:10:55.224Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "gemini",
-          "headline": "Encuentra a otros en tu propio reflejo.",
-          "body": "Lo que ves hoy en otra persona es en realidad un eco en ti. Hace falta valor para ver este reflejo; porque todo reflejo puede crear una realización irreversible.",
-          "do": [
-            "Abre los ojos",
-            "Acepta la verdad",
-            "Ver tu propia copia"
-          ],
-          "dont": [
-            "No te engañes",
-            "No niegues",
-            "Huyendo de las sombras"
-          ],
-          "theme": "Faz 4: Shadow Work - \"Başkasında gördüğün\"",
-          "createdAt": "2026-03-10T07:10:59.643Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "cancer",
-          "headline": "No eres el jefe, ¡eres el autor de tu propia historia!",
-          "body": "Enfréntate hoy a la sombra de las figuras de autoridad, pero no las confundas con la pluma que define tus límites. ¿Tienes el valor de escribir tu propia historia? Toma el control y no dejes que te definan.",
-          "do": [
-            "Crea tus propias reglas",
-            "Cruzar fronteras",
-            "Expresa tu opinión con claridad"
-          ],
-          "dont": [
-            "No seas prisionero de tus miedos",
-            "Buscar la aprobación de los demás",
-            "Permanecer en silencio"
-          ],
-          "theme": "Faz 5: İş & Kariyer - \"Patron dinamikleri\"",
-          "createdAt": "2026-03-10T07:11:04.875Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "leo",
-          "headline": "¡Cuestiona el trono que te has asegurado!",
-          "body": "Hoy, pregúntate qué mereces realmente; ¿lo que deseas es lo mismo que lo que mereces? No dejes que tu ego te engañe, construye un nuevo reino para ti con tu conciencia.",
-          "do": [
-            "Redefine tu propio valor",
-            "Atrévete a superar tus límites",
-            "Di lo que piensas en voz alta"
-          ],
-          "dont": [
-            "Autodesprecio",
-            "No exageres tus logros",
-            "Dependencia de la aprobación de los demás"
-          ],
-          "theme": "Faz 6: Para & Kaynaklar - \"Hak etme inancı\"",
-          "createdAt": "2026-03-10T07:11:09.910Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "virgo",
-          "headline": "Supera los límites de la conciencia",
-          "body": "Hoy, observa la brecha entre tu respiración y la consciencia. Enfréntate a tu mente perdida en los detalles y dispersa el caos de tu cerebro. Es hora de encontrar el silencio dentro de ti.",
-          "do": [
-            "Enfréntate a ti mismo",
-            "Abraza el silencio",
-            "Despeja tu mente"
-          ],
-          "dont": [
-            "No te pierdas en los detalles",
-            "Alimentar el caos",
-            "Negación de tu silencio interior"
-          ],
-          "theme": "Faz 7: Sağlık & Beden - \"Nefes ve farkındalık\"",
-          "createdAt": "2026-03-10T07:11:14.201Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "libra",
-          "headline": "¡Descubre tus emociones nota a nota!",
-          "body": "Escucha hoy las melodías de tu interior; ¿puedes oír la armonía de las emociones reprimidas? Puedes encontrar las respuestas a las preguntas que te haces en el ritmo de tu corazón. La música puede ser el intérprete más puro de las emociones.",
-          "do": [
-            "Escucha los sonidos de forma diferente",
-            "Alimenta tu alma con música",
-            "Deja espacio para tus sentimientos"
-          ],
-          "dont": [
-            "Silenciar el sonido",
-            "Ignorar lo que se siente",
-            "No te quedes sin música"
-          ],
-          "theme": "Faz 8: Yaratıcılık - \"Müzik ve duygu\"",
-          "createdAt": "2026-03-10T07:11:18.937Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "scorpio",
-          "headline": "No tengas miedo de perder el control.",
-          "body": "Enfréntate hoy a tus ansiedades sobre tu papel como pareja; intentar manejar los hilos te atrapa en tu propia sombra. La verdadera conexión nace en los momentos que no puedes controlar.",
-          "do": [
-            "Afloja las riendas",
-            "Enfréntate a tu sombra"
-          ],
-          "dont": [
-            "Crear desconfianza",
-            "No te aprisiones"
-          ],
-          "theme": "Faz 9: Sosyal İmaj - \"Partner rolü\"",
-          "createdAt": "2026-03-10T07:11:22.388Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "sagittarius",
-          "headline": "Lee tu mente, cuestiona los hechos.",
-          "body": "Comprueba si tus pensamientos de hoy reflejan la realidad. Puede que te encuentres en medio de un conflicto con diferentes puntos de vista. Actúa con lógica, no con reacciones emocionales.",
-          "do": [
-            "Cuestiona los hechos",
-            "Escribe los escenarios en tu cabeza",
-            "Corrige los malentendidos"
-          ],
-          "dont": [
-            "Juicio rápido",
-            "No escribas escenarios en tu cabeza",
-            "No hagas suposiciones"
-          ],
-          "theme": "Faz 10: Zihin & Düşünce - \"Zihin okuma yanılgısı\"",
-          "createdAt": "2026-03-10T07:11:25.741Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "capricorn",
-          "headline": "Brújula de propósito, ¡niégate a perderte!",
-          "body": "Hoy, si es inevitable avanzar sin una hoja de ruta clara, intenta ver oportunidades en la incertidumbre. Enfréntate a la impotencia aprendida y levántate. Recuerda que no necesitas a nadie para avanzar.",
-          "do": [
-            "Fija tu rumbo",
-            "Decídete.",
-            "Avanza con valentía"
-          ],
-          "dont": [
-            "Subestimar tu propia fuerza",
-            "No pongas excusas",
-            "No dejes la gestión en manos de otros"
-          ],
-          "theme": "Faz 11: Anlam & Amaç - \"Amaç ve yön\"",
-          "createdAt": "2026-03-10T07:11:28.963Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "aquarius",
-          "headline": "¡Perdona, pero no olvides quién eres!",
-          "body": "Perdonarte hoy empieza por aceptar tu joroba y acaba en victoria. No te dejes llevar por viejas heridas; tú tienes el control. ¡Mírate con los ojos abiertos y redescubre tu autoestima!",
-          "do": [
-            "Sujétate un espejo",
-            "Abraza tu esencia",
-            "Recupera tu poder"
-          ],
-          "dont": [
-            "No te ahogues en tus propias críticas",
-            "Borrar historial",
-            "No te pierdas en los errores"
-          ],
-          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Kendini affetmek\"",
-          "createdAt": "2026-03-10T07:11:33.585Z"
-        },
-        {
-          "date": "2026-03-14",
-          "sign": "pisces",
-          "headline": "El control que no puedes soltar te controla a ti.",
-          "body": "Date cuenta de que hoy controlas firmemente lo que tienes. Suelta todo lo que quieras controlar por un momento y observa lo que ocurre. Quizá encuentres paz en el caos.",
-          "do": [
-            "Libera",
-            "Ríndete a la corriente",
-            "Prueba a ir a la deriva"
-          ],
-          "dont": [
-            "Adjunto",
-            "No intentes forzarlo",
-            "Resistencia"
-          ],
-          "theme": "Faz 1: Temel Psikoloji - \"Kontrol ve bırakma\"",
-          "createdAt": "2026-03-10T07:11:37.098Z"
-        }
-      ],
-      "createdAt": "2026-03-10T07:11:37.599Z"
-    },
     "2026-03-15": {
       "horoscopes": [
         {
@@ -1524,7 +644,401 @@
         }
       ],
       "createdAt": "2026-03-13T00:09:04.407Z"
+    },
+    "2026-03-18": {
+      "horoscopes": [
+        {
+          "date": "2026-03-18",
+          "sign": "aries",
+          "headline": "Koç için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 6: Para & Kaynaklar - \"Hak etme inancı\"",
+          "createdAt": "2026-03-17T07:06:17.458Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "taurus",
+          "headline": "Boğa için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 7: Sağlık & Beden - \"Nefes ve farkındalık\"",
+          "createdAt": "2026-03-17T07:06:19.379Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "gemini",
+          "headline": "İkizler için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 8: Yaratıcılık - \"Müzik ve duygu\"",
+          "createdAt": "2026-03-17T07:06:21.236Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "cancer",
+          "headline": "Yengeç için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 9: Sosyal İmaj - \"Partner rolü\"",
+          "createdAt": "2026-03-17T07:06:23.098Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "leo",
+          "headline": "Aslan için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 10: Zihin & Düşünce - \"Zihin okuma yanılgısı\"",
+          "createdAt": "2026-03-17T07:06:24.829Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "virgo",
+          "headline": "Başak için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 11: Anlam & Amaç - \"Amaç ve yön\"",
+          "createdAt": "2026-03-17T07:06:26.566Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "libra",
+          "headline": "Terazi için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Kendini affetmek\"",
+          "createdAt": "2026-03-17T07:06:28.318Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "scorpio",
+          "headline": "Akrep için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 1: Temel Psikoloji - \"Kontrol ve bırakma\"",
+          "createdAt": "2026-03-17T07:06:30.034Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "sagittarius",
+          "headline": "Yay için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 2: İlişkiler - \"Eski dostlar ve mesafe\"",
+          "createdAt": "2026-03-17T07:06:31.835Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "capricorn",
+          "headline": "Oğlak için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 3: Kişisel Gelişim - \"Evet demenin riski\"",
+          "createdAt": "2026-03-17T07:06:33.631Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "aquarius",
+          "headline": "Kova için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 4: Shadow Work - \"Başkasında gördüğün\"",
+          "createdAt": "2026-03-17T07:06:35.313Z"
+        },
+        {
+          "date": "2026-03-18",
+          "sign": "pisces",
+          "headline": "Balık için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 5: İş & Kariyer - \"Patron dinamikleri\"",
+          "createdAt": "2026-03-17T07:06:37.172Z"
+        }
+      ],
+      "createdAt": "2026-03-17T07:06:37.674Z"
+    },
+    "2026-03-19": {
+      "horoscopes": [
+        {
+          "date": "2026-03-19",
+          "sign": "aries",
+          "headline": "Koç için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 7: Sağlık & Beden - \"Nefes ve farkındalık\"",
+          "createdAt": "2026-03-17T07:06:38.949Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "taurus",
+          "headline": "Boğa için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 8: Yaratıcılık - \"Müzik ve duygu\"",
+          "createdAt": "2026-03-17T07:06:40.724Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "gemini",
+          "headline": "İkizler için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 9: Sosyal İmaj - \"Partner rolü\"",
+          "createdAt": "2026-03-17T07:06:42.467Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "cancer",
+          "headline": "Yengeç için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 10: Zihin & Düşünce - \"Zihin okuma yanılgısı\"",
+          "createdAt": "2026-03-17T07:06:44.418Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "leo",
+          "headline": "Aslan için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 11: Anlam & Amaç - \"Amaç ve yön\"",
+          "createdAt": "2026-03-17T07:06:46.151Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "virgo",
+          "headline": "Başak için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 12: Kapanış & Yeniden Doğuş - \"Kendini affetmek\"",
+          "createdAt": "2026-03-17T07:06:48.021Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "libra",
+          "headline": "Terazi için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 1: Temel Psikoloji - \"Kontrol ve bırakma\"",
+          "createdAt": "2026-03-17T07:06:49.944Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "scorpio",
+          "headline": "Akrep için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 2: İlişkiler - \"Eski dostlar ve mesafe\"",
+          "createdAt": "2026-03-17T07:06:51.652Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "sagittarius",
+          "headline": "Yay için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 3: Kişisel Gelişim - \"Evet demenin riski\"",
+          "createdAt": "2026-03-17T07:06:53.615Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "capricorn",
+          "headline": "Oğlak için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 4: Shadow Work - \"Başkasında gördüğün\"",
+          "createdAt": "2026-03-17T07:06:55.350Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "aquarius",
+          "headline": "Kova için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 5: İş & Kariyer - \"Patron dinamikleri\"",
+          "createdAt": "2026-03-17T07:06:57.273Z"
+        },
+        {
+          "date": "2026-03-19",
+          "sign": "pisces",
+          "headline": "Balık için bugünün mesajı yükleniyor...",
+          "body": "Yorum şu anda oluşturulamadı. Lütfen tekrar deneyin.",
+          "do": [
+            "Sabırlı ol",
+            "Tekrar dene"
+          ],
+          "dont": [
+            "Panik yapmak",
+            "Vazgeçmek"
+          ],
+          "theme": "Faz 6: Para & Kaynaklar - \"Hak etme inancı\"",
+          "createdAt": "2026-03-17T07:06:59.222Z"
+        }
+      ],
+      "createdAt": "2026-03-17T07:06:59.724Z"
     }
   },
-  "lastUpdated": "2026-03-13T00:09:04.407Z"
+  "lastUpdated": "2026-03-17T07:06:59.724Z"
 }
